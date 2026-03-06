@@ -1,0 +1,43 @@
+2025-05-04 15:33:36.0642 
+» Message:	Object of type 'RTC_Vision_Lite.Classes.SListDouble' cannot be converted to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at RTC_Vision_Lite.UserControls.ucBaseActionDetail.TextBox_LostFocusEvents(Object sender, EventArgs e) in D:\RTC\01. Project\01.RTCVision Lite\RTC Vision Lite\3. UserControls\Tools\ucBaseActionDetail.cs:line 3884
+2025-05-04 15:42:32.8593 
+» Message:	No connection could be made because the target machine actively refused it 127.0.0.1:3000
+» Stack Trace:	   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at RTC_Vision_Lite.Classes.CSocketClient.ConnectCallback(IAsyncResult AR) in D:\RTC\01. Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Connect\CSocketClient.cs:line 224
+2025-05-04 16:14:30.8015 
+» Message:	No connection could be made because the target machine actively refused it 127.0.0.1:3000
+» Stack Trace:	   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at RTC_Vision_Lite.Classes.CSocketClient.ConnectCallback(IAsyncResult AR) in D:\RTC\01. Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Connect\CSocketClient.cs:line 224
+2025-05-04 16:14:34.2826 
+» Message:	No connection could be made because the target machine actively refused it 127.0.0.1:3000
+» Stack Trace:	   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at RTC_Vision_Lite.Classes.CSocketClient.ConnectCallback(IAsyncResult AR) in D:\RTC\01. Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Connect\CSocketClient.cs:line 224
+2025-05-04 16:14:35.6519 
+» Message:	No connection could be made because the target machine actively refused it 127.0.0.1:3000
+» Stack Trace:	   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at RTC_Vision_Lite.Classes.CSocketClient.ConnectCallback(IAsyncResult AR) in D:\RTC\01. Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Connect\CSocketClient.cs:line 224
+2025-05-04 16:14:56.1231 
+» Message:	No connection could be made because the target machine actively refused it 127.0.0.1:3000
+» Stack Trace:	   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at RTC_Vision_Lite.Classes.CSocketClient.ConnectCallback(IAsyncResult AR) in D:\RTC\01. Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Connect\CSocketClient.cs:line 224
+2025-05-04 16:17:57.7608 
+» Message:	No connection could be made because the target machine actively refused it 127.0.0.1:3000
+» Stack Trace:	   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at RTC_Vision_Lite.Classes.CSocketClient.ConnectCallback(IAsyncResult AR) in D:\RTC\01. Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Connect\CSocketClient.cs:line 224
+2025-05-04 16:18:00.8246 
+» Message:	No connection could be made because the target machine actively refused it 127.0.0.1:3000
+» Stack Trace:	   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at RTC_Vision_Lite.Classes.CSocketClient.ConnectCallback(IAsyncResult AR) in D:\RTC\01. Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Connect\CSocketClient.cs:line 224

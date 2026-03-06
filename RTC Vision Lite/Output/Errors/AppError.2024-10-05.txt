@@ -1,0 +1,77 @@
+2024-10-05 08:47:33.3869 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_DistanceMeasurement() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1400
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1018
+2024-10-05 08:47:36.1357 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_DistanceMeasurement() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1400
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1018
+2024-10-05 08:47:38.5475 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_DistanceMeasurement() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1400
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1018
+2024-10-05 08:47:40.8919 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_DistanceMeasurement() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1400
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1018
+2024-10-05 08:47:41.9309 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_DistanceMeasurement() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1400
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1018
+2024-10-05 08:47:43.2070 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_DistanceMeasurement() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1400
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1018
+2024-10-05 13:46:18.5744 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_DistanceMeasurement() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1400
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1018
+2024-10-05 13:46:30.6974 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_DistanceMeasurement() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1400
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1018
+2024-10-05 13:46:32.9784 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_DistanceMeasurement() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1400
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1018
+2024-10-05 13:46:34.6393 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_DistanceMeasurement() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1400
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1018
+2024-10-05 13:46:36.2834 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_DistanceMeasurement() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1400
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1018

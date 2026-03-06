@@ -1,0 +1,25 @@
+2025-05-07 09:38:01.8464 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTC\01. Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 919
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTC\01. Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 800
+2025-05-07 09:38:02.9018 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTC\01. Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 919
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTC\01. Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 800
+2025-05-07 09:38:03.7834 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTC\01. Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 919
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTC\01. Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 800
+2025-05-07 09:38:04.7857 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTC\01. Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 919
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTC\01. Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 800
+2025-05-07 09:39:58.6800 
+» Message:	Object is currently in use elsewhere.
+» Stack Trace:	   at System.Drawing.Image.Clone()
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action)
+2025-05-07 22:12:56.2786 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action)

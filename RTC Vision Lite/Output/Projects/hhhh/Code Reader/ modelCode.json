@@ -1,0 +1,9 @@
+{
+  "Mode": 1,
+  "DataTrain": [
+    {
+      "Format": "CODE_128",
+      "LengthCode": 32
+    }
+  ]
+}

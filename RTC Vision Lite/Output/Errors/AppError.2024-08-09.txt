@@ -1,0 +1,35 @@
+2024-08-09 17:04:55.2734 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.get_Width()
+   at System.Drawing.Image.get_Size()
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2338
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 664
+2024-08-09 17:07:03.5521 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.get_Width()
+   at System.Drawing.Image.get_Size()
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2338
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 664
+2024-08-09 17:07:16.9941 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.get_Width()
+   at System.Drawing.Image.get_Size()
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2338
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 664
+2024-08-09 17:09:38.5818 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.get_Width()
+   at System.Drawing.Image.get_Size()
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-09 17:10:55.9628 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.get_Width()
+   at System.Drawing.Image.get_Size()
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)

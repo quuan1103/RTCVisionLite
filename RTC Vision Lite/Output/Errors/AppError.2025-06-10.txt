@@ -1,0 +1,16 @@
+2025-06-10 08:57:27.2871 
+» Message:	Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.
+» Stack Trace:	   at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult, SocketError& errorCode)
+   at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at RTC_Vision_Lite.Classes.CSocketClient.ReceiveCallback(IAsyncResult AR) in D:\2. RTC Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Connect\CSocketClient.cs:line 245
+2025-06-10 09:12:16.6046 
+» Message:	No connection could be made because the target machine actively refused it 127.0.0.1:2002
+» Stack Trace:	   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at RTC_Vision_Lite.Classes.CSocketClient.ConnectCallback(IAsyncResult AR) in D:\2. RTC Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Connect\CSocketClient.cs:line 225
+2025-06-10 09:12:17.6031 
+» Message:	No connection could be made because the target machine actively refused it 127.0.0.1:2002
+» Stack Trace:	   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at RTC_Vision_Lite.Classes.CSocketClient.ConnectCallback(IAsyncResult AR) in D:\2. RTC Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Connect\CSocketClient.cs:line 225

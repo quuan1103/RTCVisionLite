@@ -1,0 +1,185 @@
+2025-05-13 09:39:44.3922 
+» Message:	No connection could be made because the target machine actively refused it 127.0.0.1:2002
+» Stack Trace:	   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at RTC_Vision_Lite.Classes.CSocketClient.ConnectCallback(IAsyncResult AR)
+2025-05-13 09:39:46.3700 
+» Message:	No connection could be made because the target machine actively refused it 127.0.0.1:2002
+» Stack Trace:	   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at RTC_Vision_Lite.Classes.CSocketClient.ConnectCallback(IAsyncResult AR)
+2025-05-13 09:39:50.4208 
+» Message:	No connection could be made because the target machine actively refused it 127.0.0.1:2002
+» Stack Trace:	   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at RTC_Vision_Lite.Classes.CSocketClient.ConnectCallback(IAsyncResult AR)
+2025-05-13 09:39:54.4846 
+» Message:	No connection could be made because the target machine actively refused it 127.0.0.1:2002
+» Stack Trace:	   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at RTC_Vision_Lite.Classes.CSocketClient.ConnectCallback(IAsyncResult AR)
+2025-05-13 09:40:06.7207 
+» Message:	Object is currently in use elsewhere.
+» Stack Trace:	   at System.Drawing.Image.get_Height()
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_Viewing(cAction action, GraphicsWindow smartWindowControl, Int32& iRow, Int32& iWriteHistory)
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_ViewToolData(GraphicsWindow smartWindowControl, Int32 actionOrderLimit)
+2025-05-13 09:57:20.9274 
+» Message:	Object is currently in use elsewhere.
+» Stack Trace:	   at System.Drawing.Image.get_Height()
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_Viewing(cAction action, GraphicsWindow smartWindowControl, Int32& iRow, Int32& iWriteHistory)
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_ViewToolData(GraphicsWindow smartWindowControl, Int32 actionOrderLimit)
+2025-05-13 10:04:19.8482 
+» Message:	Object is currently in use elsewhere.
+» Stack Trace:	   at System.Drawing.Image.get_Height()
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_Viewing(cAction action, GraphicsWindow smartWindowControl, Int32& iRow, Int32& iWriteHistory)
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_ViewToolData(GraphicsWindow smartWindowControl, Int32 actionOrderLimit)
+2025-05-13 10:04:54.2252 
+» Message:	Object is currently in use elsewhere.
+» Stack Trace:	   at System.Drawing.Image.get_Height()
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_Viewing(cAction action, GraphicsWindow smartWindowControl, Int32& iRow, Int32& iWriteHistory)
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_ViewToolData(GraphicsWindow smartWindowControl, Int32 actionOrderLimit)
+2025-05-13 10:06:20.2673 
+» Message:	Object is currently in use elsewhere.
+» Stack Trace:	   at System.Drawing.Image.get_Height()
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_Viewing(cAction action, GraphicsWindow smartWindowControl, Int32& iRow, Int32& iWriteHistory)
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_ViewToolData(GraphicsWindow smartWindowControl, Int32 actionOrderLimit)
+2025-05-13 10:06:52.8969 
+» Message:	Object is currently in use elsewhere.
+» Stack Trace:	   at System.Drawing.Image.get_Height()
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_Viewing(cAction action, GraphicsWindow smartWindowControl, Int32& iRow, Int32& iWriteHistory)
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_ViewToolData(GraphicsWindow smartWindowControl, Int32 actionOrderLimit)
+2025-05-13 10:41:49.2661 
+» Message:	Object is currently in use elsewhere.
+» Stack Trace:	   at System.Drawing.Image.get_Height()
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_Viewing(cAction action, GraphicsWindow smartWindowControl, Int32& iRow, Int32& iWriteHistory)
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_ViewToolData(GraphicsWindow smartWindowControl, Int32 actionOrderLimit)
+2025-05-13 10:59:03.5093 
+» Message:	Object is currently in use elsewhere.
+» Stack Trace:	   at System.Drawing.Image.get_Height()
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_Viewing(cAction action, GraphicsWindow smartWindowControl, Int32& iRow, Int32& iWriteHistory)
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_ViewToolData(GraphicsWindow smartWindowControl, Int32 actionOrderLimit)
+2025-05-13 10:59:13.0458 
+» Message:	Object is currently in use elsewhere.
+» Stack Trace:	   at System.Drawing.Image.get_Height()
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_Viewing(cAction action, GraphicsWindow smartWindowControl, Int32& iRow, Int32& iWriteHistory)
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_ViewToolData(GraphicsWindow smartWindowControl, Int32 actionOrderLimit)
+2025-05-13 11:31:58.3929 
+» Message:	A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.3.33:2002
+» Stack Trace:	   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at RTC_Vision_Lite.Classes.CSocketClient.ConnectCallback(IAsyncResult AR) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Connect\CSocketClient.cs:line 224
+2025-05-13 11:32:18.0719 
+» Message:	A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.3.33:2002
+» Stack Trace:	   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at RTC_Vision_Lite.Classes.CSocketClient.ConnectCallback(IAsyncResult AR) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Connect\CSocketClient.cs:line 224
+2025-05-13 11:32:38.0697 
+» Message:	A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.3.33:2002
+» Stack Trace:	   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at RTC_Vision_Lite.Classes.CSocketClient.ConnectCallback(IAsyncResult AR) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Connect\CSocketClient.cs:line 224
+2025-05-13 11:32:58.0775 
+» Message:	A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.3.33:2002
+» Stack Trace:	   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at RTC_Vision_Lite.Classes.CSocketClient.ConnectCallback(IAsyncResult AR) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Connect\CSocketClient.cs:line 224
+2025-05-13 11:33:00.3848 
+» Message:	Object is currently in use elsewhere.
+» Stack Trace:	   at System.Drawing.Image.get_Height()
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_Viewing(cAction action, GraphicsWindow smartWindowControl, Int32& iRow, Int32& iWriteHistory) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 358
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_ViewToolData(GraphicsWindow smartWindowControl, Int32 actionOrderLimit) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 195
+2025-05-13 11:56:30.9735 
+» Message:	Object is currently in use elsewhere.
+» Stack Trace:	   at System.Drawing.Image.get_Height()
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_Viewing(cAction action, GraphicsWindow smartWindowControl, Int32& iRow, Int32& iWriteHistory)
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_ViewToolData(GraphicsWindow smartWindowControl, Int32 actionOrderLimit)
+2025-05-13 14:28:10.4207 
+» Message:	Object is currently in use elsewhere.
+» Stack Trace:	   at System.Drawing.Image.get_Height()
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_Viewing(cAction action, GraphicsWindow smartWindowControl, Int32& iRow, Int32& iWriteHistory)
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_ViewToolData(GraphicsWindow smartWindowControl, Int32 actionOrderLimit)
+2025-05-13 14:28:19.5860 
+» Message:	Object is currently in use elsewhere.
+» Stack Trace:	   at System.Drawing.Image.get_Height()
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_Viewing(cAction action, GraphicsWindow smartWindowControl, Int32& iRow, Int32& iWriteHistory)
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_ViewToolData(GraphicsWindow smartWindowControl, Int32 actionOrderLimit)
+2025-05-13 14:28:32.9926 
+» Message:	Object is currently in use elsewhere.
+» Stack Trace:	   at System.Drawing.Image.get_Height()
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_Viewing(cAction action, GraphicsWindow smartWindowControl, Int32& iRow, Int32& iWriteHistory)
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_ViewToolData(GraphicsWindow smartWindowControl, Int32 actionOrderLimit)
+2025-05-13 14:30:47.1719 
+» Message:	Object is currently in use elsewhere.
+» Stack Trace:	   at System.Drawing.Image.get_Height()
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_Viewing(cAction action, GraphicsWindow smartWindowControl, Int32& iRow, Int32& iWriteHistory) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 358
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_ViewToolData(GraphicsWindow smartWindowControl, Int32 actionOrderLimit) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 195
+2025-05-13 14:30:50.2723 
+» Message:	Object is currently in use elsewhere.
+» Stack Trace:	   at System.Drawing.Image.get_Height()
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_Viewing(cAction action, GraphicsWindow smartWindowControl, Int32& iRow, Int32& iWriteHistory) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 358
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_ViewToolData(GraphicsWindow smartWindowControl, Int32 actionOrderLimit) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 195
+2025-05-13 14:30:58.3579 
+» Message:	Object is currently in use elsewhere.
+» Stack Trace:	   at System.Drawing.Image.get_Height()
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_Viewing(cAction action, GraphicsWindow smartWindowControl, Int32& iRow, Int32& iWriteHistory) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 358
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_ViewToolData(GraphicsWindow smartWindowControl, Int32 actionOrderLimit) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 195
+2025-05-13 14:31:18.8918 
+» Message:	Object is currently in use elsewhere.
+» Stack Trace:	   at System.Drawing.Image.get_Height()
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_Viewing(cAction action, GraphicsWindow smartWindowControl, Int32& iRow, Int32& iWriteHistory) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 358
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_ViewToolData(GraphicsWindow smartWindowControl, Int32 actionOrderLimit) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 195
+2025-05-13 14:33:43.3652 
+» Message:	Object is currently in use elsewhere.
+» Stack Trace:	   at System.Drawing.Image.get_Height()
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_Viewing(cAction action, GraphicsWindow smartWindowControl, Int32& iRow, Int32& iWriteHistory) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 358
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_ViewToolData(GraphicsWindow smartWindowControl, Int32 actionOrderLimit) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 195
+2025-05-13 14:36:39.6810 
+» Message:	Object is currently in use elsewhere.
+» Stack Trace:	   at System.Drawing.Image.get_Height()
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_Viewing(cAction action, GraphicsWindow smartWindowControl, Int32& iRow, Int32& iWriteHistory) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 358
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_ViewToolData(GraphicsWindow smartWindowControl, Int32 actionOrderLimit) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 195
+2025-05-13 14:52:19.6807 
+» Message:	Object is currently in use elsewhere.
+» Stack Trace:	   at System.Drawing.Image.get_Height()
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_Viewing(cAction action, GraphicsWindow smartWindowControl, Int32& iRow, Int32& iWriteHistory) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 358
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_ViewToolData(GraphicsWindow smartWindowControl, Int32 actionOrderLimit) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 195
+2025-05-13 14:52:24.1856 
+» Message:	Object is currently in use elsewhere.
+» Stack Trace:	   at System.Drawing.Image.get_Height()
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_Viewing(cAction action, GraphicsWindow smartWindowControl, Int32& iRow, Int32& iWriteHistory) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 358
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_ViewToolData(GraphicsWindow smartWindowControl, Int32 actionOrderLimit) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 195
+2025-05-13 14:52:27.5848 
+» Message:	Object is currently in use elsewhere.
+» Stack Trace:	   at System.Drawing.Image.get_Height()
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_Viewing(cAction action, GraphicsWindow smartWindowControl, Int32& iRow, Int32& iWriteHistory) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 358
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_ViewToolData(GraphicsWindow smartWindowControl, Int32 actionOrderLimit) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 195
+2025-05-13 14:52:44.3738 
+» Message:	Object is currently in use elsewhere.
+» Stack Trace:	   at System.Drawing.Image.get_Height()
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_Viewing(cAction action, GraphicsWindow smartWindowControl, Int32& iRow, Int32& iWriteHistory) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 358
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_ViewToolData(GraphicsWindow smartWindowControl, Int32 actionOrderLimit) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 195
+2025-05-13 14:52:54.4776 
+» Message:	Object is currently in use elsewhere.
+» Stack Trace:	   at System.Drawing.Image.get_Height()
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_Viewing(cAction action, GraphicsWindow smartWindowControl, Int32& iRow, Int32& iWriteHistory) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 358
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_ViewToolData(GraphicsWindow smartWindowControl, Int32 actionOrderLimit) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 195
+2025-05-13 14:52:57.3734 
+» Message:	Object is currently in use elsewhere.
+» Stack Trace:	   at System.Drawing.Image.get_Height()
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_Viewing(cAction action, GraphicsWindow smartWindowControl, Int32& iRow, Int32& iWriteHistory) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 358
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_ViewToolData(GraphicsWindow smartWindowControl, Int32 actionOrderLimit) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 195
+2025-05-13 14:52:58.8311 
+» Message:	Object is currently in use elsewhere.
+» Stack Trace:	   at System.Drawing.Image.get_Height()
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_Viewing(cAction action, GraphicsWindow smartWindowControl, Int32& iRow, Int32& iWriteHistory) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 358
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_ViewToolData(GraphicsWindow smartWindowControl, Int32 actionOrderLimit) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 195
+2025-05-13 14:56:11.1783 
+» Message:	Object is currently in use elsewhere.
+» Stack Trace:	   at System.Drawing.Image.get_Height()
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_Viewing(cAction action, GraphicsWindow smartWindowControl, Int32& iRow, Int32& iWriteHistory) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 358
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_ViewToolData(GraphicsWindow smartWindowControl, Int32 actionOrderLimit) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 195
+2025-05-13 16:33:30.0256 
+» Message:	Object is currently in use elsewhere.
+» Stack Trace:	   at System.Drawing.Image.get_Height()
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_Viewing(cAction action, GraphicsWindow smartWindowControl, Int32& iRow, Int32& iWriteHistory)
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_ViewToolData(GraphicsWindow smartWindowControl, Int32 actionOrderLimit)

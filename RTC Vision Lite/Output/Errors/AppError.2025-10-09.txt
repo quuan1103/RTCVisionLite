@@ -1,0 +1,258 @@
+2025-10-09 08:18:47.7401 
+» Message:	The given key was not present in the dictionary.
+» Stack Trace:	   at System.ThrowHelper.ThrowKeyNotFoundException()
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Expression(cAction action)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action)
+2025-10-09 08:18:48.0181 
+» Message:	The given key was not present in the dictionary.
+» Stack Trace:	   at System.ThrowHelper.ThrowKeyNotFoundException()
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Expression(cAction action)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action)
+2025-10-09 08:18:48.3161 
+» Message:	The given key was not present in the dictionary.
+» Stack Trace:	   at System.ThrowHelper.ThrowKeyNotFoundException()
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Expression(cAction action)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action)
+2025-10-09 08:18:48.5541 
+» Message:	The given key was not present in the dictionary.
+» Stack Trace:	   at System.ThrowHelper.ThrowKeyNotFoundException()
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Expression(cAction action)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action)
+2025-10-09 08:18:48.7961 
+» Message:	The given key was not present in the dictionary.
+» Stack Trace:	   at System.ThrowHelper.ThrowKeyNotFoundException()
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Expression(cAction action)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action)
+2025-10-09 08:18:49.0381 
+» Message:	The given key was not present in the dictionary.
+» Stack Trace:	   at System.ThrowHelper.ThrowKeyNotFoundException()
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Expression(cAction action)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action)
+2025-10-09 08:18:49.2861 
+» Message:	The given key was not present in the dictionary.
+» Stack Trace:	   at System.ThrowHelper.ThrowKeyNotFoundException()
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Expression(cAction action)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action)
+2025-10-09 08:18:49.5161 
+» Message:	The given key was not present in the dictionary.
+» Stack Trace:	   at System.ThrowHelper.ThrowKeyNotFoundException()
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Expression(cAction action)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action)
+2025-10-09 08:18:49.7441 
+» Message:	The given key was not present in the dictionary.
+» Stack Trace:	   at System.ThrowHelper.ThrowKeyNotFoundException()
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Expression(cAction action)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action)
+2025-10-09 08:18:50.0041 
+» Message:	The given key was not present in the dictionary.
+» Stack Trace:	   at System.ThrowHelper.ThrowKeyNotFoundException()
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Expression(cAction action)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action)
+2025-10-09 08:18:50.2361 
+» Message:	The given key was not present in the dictionary.
+» Stack Trace:	   at System.ThrowHelper.ThrowKeyNotFoundException()
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Expression(cAction action)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action)
+2025-10-09 08:18:50.4901 
+» Message:	The given key was not present in the dictionary.
+» Stack Trace:	   at System.ThrowHelper.ThrowKeyNotFoundException()
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Expression(cAction action)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action)
+2025-10-09 08:18:50.7321 
+» Message:	The given key was not present in the dictionary.
+» Stack Trace:	   at System.ThrowHelper.ThrowKeyNotFoundException()
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Expression(cAction action)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action)
+2025-10-09 08:18:50.9801 
+» Message:	The given key was not present in the dictionary.
+» Stack Trace:	   at System.ThrowHelper.ThrowKeyNotFoundException()
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Expression(cAction action)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action)
+2025-10-09 08:18:51.2181 
+» Message:	The given key was not present in the dictionary.
+» Stack Trace:	   at System.ThrowHelper.ThrowKeyNotFoundException()
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Expression(cAction action)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action)
+2025-10-09 08:18:51.4641 
+» Message:	The given key was not present in the dictionary.
+» Stack Trace:	   at System.ThrowHelper.ThrowKeyNotFoundException()
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Expression(cAction action)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action)
+2025-10-09 08:18:51.7121 
+» Message:	The given key was not present in the dictionary.
+» Stack Trace:	   at System.ThrowHelper.ThrowKeyNotFoundException()
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Expression(cAction action)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action)
+2025-10-09 08:18:51.9581 
+» Message:	The given key was not present in the dictionary.
+» Stack Trace:	   at System.ThrowHelper.ThrowKeyNotFoundException()
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Expression(cAction action)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action)
+2025-10-09 08:18:52.2201 
+» Message:	The given key was not present in the dictionary.
+» Stack Trace:	   at System.ThrowHelper.ThrowKeyNotFoundException()
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Expression(cAction action)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action)
+2025-10-09 08:18:52.4721 
+» Message:	The given key was not present in the dictionary.
+» Stack Trace:	   at System.ThrowHelper.ThrowKeyNotFoundException()
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Expression(cAction action)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action)
+2025-10-09 08:18:52.7021 
+» Message:	The given key was not present in the dictionary.
+» Stack Trace:	   at System.ThrowHelper.ThrowKeyNotFoundException()
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Expression(cAction action)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action)
+2025-10-09 08:18:52.9541 
+» Message:	The given key was not present in the dictionary.
+» Stack Trace:	   at System.ThrowHelper.ThrowKeyNotFoundException()
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Expression(cAction action)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action)
+2025-10-09 08:18:53.1961 
+» Message:	The given key was not present in the dictionary.
+» Stack Trace:	   at System.ThrowHelper.ThrowKeyNotFoundException()
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Expression(cAction action)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action)
+2025-10-09 08:18:53.4381 
+» Message:	The given key was not present in the dictionary.
+» Stack Trace:	   at System.ThrowHelper.ThrowKeyNotFoundException()
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Expression(cAction action)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action)
+2025-10-09 08:18:53.7021 
+» Message:	The given key was not present in the dictionary.
+» Stack Trace:	   at System.ThrowHelper.ThrowKeyNotFoundException()
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Expression(cAction action)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action)
+2025-10-09 08:18:53.9481 
+» Message:	The given key was not present in the dictionary.
+» Stack Trace:	   at System.ThrowHelper.ThrowKeyNotFoundException()
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Expression(cAction action)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action)
+2025-10-09 08:18:54.1821 
+» Message:	The given key was not present in the dictionary.
+» Stack Trace:	   at System.ThrowHelper.ThrowKeyNotFoundException()
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Expression(cAction action)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action)
+2025-10-09 08:18:54.4361 
+» Message:	The given key was not present in the dictionary.
+» Stack Trace:	   at System.ThrowHelper.ThrowKeyNotFoundException()
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Expression(cAction action)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action)
+2025-10-09 08:18:54.6721 
+» Message:	The given key was not present in the dictionary.
+» Stack Trace:	   at System.ThrowHelper.ThrowKeyNotFoundException()
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Expression(cAction action)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action)
+2025-10-09 08:18:54.9281 
+» Message:	The given key was not present in the dictionary.
+» Stack Trace:	   at System.ThrowHelper.ThrowKeyNotFoundException()
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Expression(cAction action)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action)
+2025-10-09 08:18:55.1641 
+» Message:	The given key was not present in the dictionary.
+» Stack Trace:	   at System.ThrowHelper.ThrowKeyNotFoundException()
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Expression(cAction action)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action)
+2025-10-09 08:18:55.4121 
+» Message:	The given key was not present in the dictionary.
+» Stack Trace:	   at System.ThrowHelper.ThrowKeyNotFoundException()
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Expression(cAction action)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action)
+2025-10-09 08:38:26.6673 
+» Message:	One or more errors occurred.
+» Stack Trace:	   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   at System.Threading.Tasks.Parallel.ForWorker[TLocal](Int32 fromInclusive, Int32 toExclusive, ParallelOptions parallelOptions, Action`1 body, Action`2 bodyWithState, Func`4 bodyWithLocal, Func`1 localInit, Action`1 localFinally)
+   at System.Threading.Tasks.Parallel.For(Int32 fromInclusive, Int32 toExclusive, Action`1 body)
+   at NewPattern.NewPattern.Run() in D:\NTHIEU\01.RTCVision Lite\8. NewPattern\NewPattern\Class1.cs:line 600
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+2025-10-09 08:38:37.8367 
+» Message:	One or more errors occurred.
+» Stack Trace:	   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   at System.Threading.Tasks.Parallel.ForWorker[TLocal](Int32 fromInclusive, Int32 toExclusive, ParallelOptions parallelOptions, Action`1 body, Action`2 bodyWithState, Func`4 bodyWithLocal, Func`1 localInit, Action`1 localFinally)
+   at System.Threading.Tasks.Parallel.For(Int32 fromInclusive, Int32 toExclusive, Action`1 body)
+   at NewPattern.NewPattern.Run() in D:\NTHIEU\01.RTCVision Lite\8. NewPattern\NewPattern\Class1.cs:line 600
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+2025-10-09 08:38:52.8482 
+» Message:	One or more errors occurred.
+» Stack Trace:	   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   at System.Threading.Tasks.Parallel.ForWorker[TLocal](Int32 fromInclusive, Int32 toExclusive, ParallelOptions parallelOptions, Action`1 body, Action`2 bodyWithState, Func`4 bodyWithLocal, Func`1 localInit, Action`1 localFinally)
+   at System.Threading.Tasks.Parallel.For(Int32 fromInclusive, Int32 toExclusive, Action`1 body)
+   at NewPattern.NewPattern.Run() in D:\NTHIEU\01.RTCVision Lite\8. NewPattern\NewPattern\Class1.cs:line 600
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+2025-10-09 08:39:25.2630 
+» Message:	One or more errors occurred.
+» Stack Trace:	   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   at System.Threading.Tasks.Parallel.ForWorker[TLocal](Int32 fromInclusive, Int32 toExclusive, ParallelOptions parallelOptions, Action`1 body, Action`2 bodyWithState, Func`4 bodyWithLocal, Func`1 localInit, Action`1 localFinally)
+   at System.Threading.Tasks.Parallel.For(Int32 fromInclusive, Int32 toExclusive, Action`1 body)
+   at NewPattern.NewPattern.Run() in D:\NTHIEU\01.RTCVision Lite\8. NewPattern\NewPattern\Class1.cs:line 600
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+2025-10-09 08:39:55.6385 
+» Message:	One or more errors occurred.
+» Stack Trace:	   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   at System.Threading.Tasks.Parallel.ForWorker[TLocal](Int32 fromInclusive, Int32 toExclusive, ParallelOptions parallelOptions, Action`1 body, Action`2 bodyWithState, Func`4 bodyWithLocal, Func`1 localInit, Action`1 localFinally)
+   at System.Threading.Tasks.Parallel.For(Int32 fromInclusive, Int32 toExclusive, Action`1 body)
+   at NewPattern.NewPattern.Run() in D:\NTHIEU\01.RTCVision Lite\8. NewPattern\NewPattern\Class1.cs:line 600
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+2025-10-09 08:40:06.7003 
+» Message:	One or more errors occurred.
+» Stack Trace:	   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   at System.Threading.Tasks.Parallel.ForWorker[TLocal](Int32 fromInclusive, Int32 toExclusive, ParallelOptions parallelOptions, Action`1 body, Action`2 bodyWithState, Func`4 bodyWithLocal, Func`1 localInit, Action`1 localFinally)
+   at System.Threading.Tasks.Parallel.For(Int32 fromInclusive, Int32 toExclusive, Action`1 body)
+   at NewPattern.NewPattern.Run() in D:\NTHIEU\01.RTCVision Lite\8. NewPattern\NewPattern\Class1.cs:line 600
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+2025-10-09 08:55:58.4447 
+» Message:	Object is currently in use elsewhere.
+» Stack Trace:	   at System.Drawing.Image.Clone()
+   at RTC_Vision_Lite.Classes.cAction.BackupImage(Image image)
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_BackupImage()
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_CleanData()
+2025-10-09 08:56:07.5937 
+» Message:	Object is currently in use elsewhere.
+» Stack Trace:	   at System.Drawing.Image.Clone()
+   at RTC_Vision_Lite.Classes.cAction.BackupImage(Image image)
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_BackupImage()
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_CleanData()

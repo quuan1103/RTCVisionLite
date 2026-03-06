@@ -1,0 +1,70 @@
+2026-02-24 16:55:09.9709 
+» Message:	Sequence contains no elements
+» Stack Trace:	   at System.Linq.Enumerable.Max(IEnumerable`1 source)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+2026-02-24 16:59:47.3108 
+» Message:	Sequence contains no elements
+» Stack Trace:	   at System.Linq.Enumerable.Max(IEnumerable`1 source)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+2026-02-24 17:06:47.9038 
+» Message:	Sequence contains no elements
+» Stack Trace:	   at System.Linq.Enumerable.Max(IEnumerable`1 source)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+2026-02-24 17:06:49.3782 
+» Message:	Sequence contains no elements
+» Stack Trace:	   at System.Linq.Enumerable.Max(IEnumerable`1 source)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+2026-02-24 17:16:06.7400 
+» Message:	Sequence contains no elements
+» Stack Trace:	   at System.Linq.Enumerable.Max(IEnumerable`1 source)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+2026-02-24 17:16:33.1841 
+» Message:	Sequence contains no elements
+» Stack Trace:	   at System.Linq.Enumerable.Max(IEnumerable`1 source)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+2026-02-24 17:16:34.9981 
+» Message:	Sequence contains no elements
+» Stack Trace:	   at System.Linq.Enumerable.Max(IEnumerable`1 source)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+2026-02-24 17:16:58.1033 
+» Message:	Sequence contains no elements
+» Stack Trace:	   at System.Linq.Enumerable.Max(IEnumerable`1 source)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+2026-02-24 17:16:59.9943 
+» Message:	Sequence contains no elements
+» Stack Trace:	   at System.Linq.Enumerable.Max(IEnumerable`1 source)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+2026-02-24 17:17:01.1931 
+» Message:	Sequence contains no elements
+» Stack Trace:	   at System.Linq.Enumerable.Max(IEnumerable`1 source)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+2026-02-24 17:17:04.9602 
+» Message:	Sequence contains no elements
+» Stack Trace:	   at System.Linq.Enumerable.Max(IEnumerable`1 source)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+2026-02-24 17:17:31.7398 
+» Message:	Sequence contains no elements
+» Stack Trace:	   at System.Linq.Enumerable.Max(IEnumerable`1 source)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+2026-02-24 17:17:38.6544 
+» Message:	Sequence contains no elements
+» Stack Trace:	   at System.Linq.Enumerable.Max(IEnumerable`1 source)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+2026-02-24 17:18:04.8966 
+» Message:	Sequence contains no elements
+» Stack Trace:	   at System.Linq.Enumerable.Max(IEnumerable`1 source)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()

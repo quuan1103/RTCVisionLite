@@ -1,0 +1,141 @@
+2024-08-05 10:06:04.4494 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_LinkValue_LinkPropToDataItem(cLinkProperty linkItem, RTCVariableType sourceInfo, SStringBuilderItem dataItem) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.LinkValue.cs:line 1258
+   at RTC_Vision_Lite.Classes.cAction.Run_LinkValue() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.LinkValue.cs:line 1587
+2024-08-05 10:07:07.8803 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_LinkValue_LinkPropToDataItem(cLinkProperty linkItem, RTCVariableType sourceInfo, SStringBuilderItem dataItem) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.LinkValue.cs:line 1258
+   at RTC_Vision_Lite.Classes.cAction.Run_LinkValue() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.LinkValue.cs:line 1587
+2024-08-05 10:12:52.8559 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_LinkValue_LinkPropToDataItem(cLinkProperty linkItem, RTCVariableType sourceInfo, SStringBuilderItem dataItem) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.LinkValue.cs:line 1258
+   at RTC_Vision_Lite.Classes.cAction.Run_LinkValue() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.LinkValue.cs:line 1587
+2024-08-05 10:22:35.5158 
+» Message:	Object of type 'System.Collections.Generic.List`1[Emgu.CV.Util.VectorOfVectorOfPoint]' cannot be converted to type 'System.Collections.Generic.List`1[System.String]'.
+» Stack Trace:	   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.RuntimeType.CheckValue(Object value, Binder binder, CultureInfo culture, BindingFlags invokeAttr)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at System.Reflection.PropertyInfo.SetValue(Object obj, Object value)
+   at RTC_Vision_Lite.Classes.cAction.Run_LinkValue_LinkPropToDataItem(cLinkProperty linkItem, RTCVariableType sourceInfo, SStringBuilderItem dataItem) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.LinkValue.cs:line 1260
+   at RTC_Vision_Lite.Classes.cAction.Run_LinkValue() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.LinkValue.cs:line 1591
+2024-08-05 10:22:48.6554 
+» Message:	Object of type 'System.Collections.Generic.List`1[Emgu.CV.Util.VectorOfVectorOfPoint]' cannot be converted to type 'System.Collections.Generic.List`1[System.String]'.
+» Stack Trace:	   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.RuntimeType.CheckValue(Object value, Binder binder, CultureInfo culture, BindingFlags invokeAttr)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at System.Reflection.PropertyInfo.SetValue(Object obj, Object value)
+   at RTC_Vision_Lite.Classes.cAction.Run_LinkValue_LinkPropToDataItem(cLinkProperty linkItem, RTCVariableType sourceInfo, SStringBuilderItem dataItem) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.LinkValue.cs:line 1260
+   at RTC_Vision_Lite.Classes.cAction.Run_LinkValue() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.LinkValue.cs:line 1591
+2024-08-05 10:23:11.2036 
+» Message:	Object of type 'System.Collections.Generic.List`1[Emgu.CV.Util.VectorOfVectorOfPoint]' cannot be converted to type 'System.Collections.Generic.List`1[System.String]'.
+» Stack Trace:	   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.RuntimeType.CheckValue(Object value, Binder binder, CultureInfo culture, BindingFlags invokeAttr)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at System.Reflection.PropertyInfo.SetValue(Object obj, Object value)
+   at RTC_Vision_Lite.Classes.cAction.Run_LinkValue_LinkPropToDataItem(cLinkProperty linkItem, RTCVariableType sourceInfo, SStringBuilderItem dataItem) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.LinkValue.cs:line 1260
+   at RTC_Vision_Lite.Classes.cAction.Run_LinkValue() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.LinkValue.cs:line 1591
+2024-08-05 10:23:51.0403 
+» Message:	Object of type 'System.Collections.Generic.List`1[Emgu.CV.Util.VectorOfVectorOfPoint]' cannot be converted to type 'System.Collections.Generic.List`1[System.String]'.
+» Stack Trace:	   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.RuntimeType.CheckValue(Object value, Binder binder, CultureInfo culture, BindingFlags invokeAttr)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at System.Reflection.PropertyInfo.SetValue(Object obj, Object value)
+   at RTC_Vision_Lite.Classes.cAction.Run_LinkValue_LinkPropToDataItem(cLinkProperty linkItem, RTCVariableType sourceInfo, SStringBuilderItem dataItem) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.LinkValue.cs:line 1260
+   at RTC_Vision_Lite.Classes.cAction.Run_LinkValue() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.LinkValue.cs:line 1591
+2024-08-05 10:24:02.6138 
+» Message:	Object of type 'System.Collections.Generic.List`1[Emgu.CV.Util.VectorOfVectorOfPoint]' cannot be converted to type 'System.Collections.Generic.List`1[System.String]'.
+» Stack Trace:	   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.RuntimeType.CheckValue(Object value, Binder binder, CultureInfo culture, BindingFlags invokeAttr)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at System.Reflection.PropertyInfo.SetValue(Object obj, Object value)
+   at RTC_Vision_Lite.Classes.cAction.Run_LinkValue_LinkPropToDataItem(cLinkProperty linkItem, RTCVariableType sourceInfo, SStringBuilderItem dataItem) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.LinkValue.cs:line 1260
+   at RTC_Vision_Lite.Classes.cAction.Run_LinkValue() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.LinkValue.cs:line 1591
+2024-08-05 10:26:16.8566 
+» Message:	Object of type 'System.Collections.Generic.List`1[Emgu.CV.Util.VectorOfVectorOfPoint]' cannot be converted to type 'System.Collections.Generic.List`1[System.String]'.
+» Stack Trace:	   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.RuntimeType.CheckValue(Object value, Binder binder, CultureInfo culture, BindingFlags invokeAttr)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at System.Reflection.PropertyInfo.SetValue(Object obj, Object value)
+   at RTC_Vision_Lite.Classes.cAction.Run_LinkValue_LinkPropToDataItem(cLinkProperty linkItem, RTCVariableType sourceInfo, SStringBuilderItem dataItem) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.LinkValue.cs:line 1260
+   at RTC_Vision_Lite.Classes.cAction.Run_LinkValue() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.LinkValue.cs:line 1591
+2024-08-05 10:27:03.1144 
+» Message:	Object of type 'System.Collections.Generic.List`1[Emgu.CV.Util.VectorOfVectorOfPoint]' cannot be converted to type 'System.Collections.Generic.List`1[System.String]'.
+» Stack Trace:	   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.RuntimeType.CheckValue(Object value, Binder binder, CultureInfo culture, BindingFlags invokeAttr)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at System.Reflection.PropertyInfo.SetValue(Object obj, Object value)
+   at RTC_Vision_Lite.Classes.cAction.Run_LinkValue_LinkPropToDataItem(cLinkProperty linkItem, RTCVariableType sourceInfo, SStringBuilderItem dataItem) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.LinkValue.cs:line 1260
+   at RTC_Vision_Lite.Classes.cAction.Run_LinkValue() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.LinkValue.cs:line 1591
+2024-08-05 10:27:49.6868 
+» Message:	Object of type 'System.Collections.Generic.List`1[Emgu.CV.Util.VectorOfVectorOfPoint]' cannot be converted to type 'System.Collections.Generic.List`1[System.String]'.
+» Stack Trace:	   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.RuntimeType.CheckValue(Object value, Binder binder, CultureInfo culture, BindingFlags invokeAttr)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at System.Reflection.PropertyInfo.SetValue(Object obj, Object value)
+   at RTC_Vision_Lite.Classes.cAction.Run_LinkValue_LinkPropToDataItem(cLinkProperty linkItem, RTCVariableType sourceInfo, SStringBuilderItem dataItem) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.LinkValue.cs:line 1260
+   at RTC_Vision_Lite.Classes.cAction.Run_LinkValue() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.LinkValue.cs:line 1591
+2024-08-05 16:33:50.4658 
+» Message:	ListView virtualization requires a valid ListViewItem to be provided by the RetrieveVirtualItem event or in the OnRetrieveVirtualItem method.
+» Stack Trace:	   at System.Windows.Forms.ListView.WmReflectNotify(Message& m)
+   at System.Windows.Forms.ListView.WndProc(Message& m)
+   at BrightIdeasSoftware.ObjectListView.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   at System.Windows.Forms.UnsafeNativeMethods.SendMessage(HandleRef hWnd, Int32 msg, IntPtr wParam, IntPtr lParam)
+   at System.Windows.Forms.Control.SendMessage(Int32 msg, IntPtr wparam, IntPtr lparam)
+   at System.Windows.Forms.Control.ReflectMessageInternal(IntPtr hWnd, Message& m)
+   at System.Windows.Forms.Control.WmNotify(Message& m)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   at System.Windows.Forms.ContainerControl.WndProc(Message& m)
+   at System.Windows.Forms.Application.ParkingWindow.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   at System.Windows.Forms.UnsafeNativeMethods.CallWindowProc(IntPtr wndProc, IntPtr hWnd, Int32 msg, IntPtr wParam, IntPtr lParam)
+   at System.Windows.Forms.NativeWindow.DefWndProc(Message& m)
+   at System.Windows.Forms.Control.DefWndProc(Message& m)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ListView.WndProc(Message& m)
+   at BrightIdeasSoftware.ObjectListView.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   at System.Windows.Forms.UnsafeNativeMethods.SendMessage(HandleRef hWnd, Int32 msg, Int32 wParam, Int32 lParam)
+   at System.Windows.Forms.ListView.RedrawItems(Int32 startIndex, Int32 endIndex, Boolean invalidateOnly)
+   at BrightIdeasSoftware.TreeListView.ExpandAll()
+   at RTC_Vision_Lite.UserControls.ucActionList.ViewData_ActionDetail(cAction action, ActionTools ParentNode, ActionTools positionNode, Boolean isBelow) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\3. UserControls\Others\ucActionList.cs:line 311
+   at RTC_Vision_Lite.UserControls.ucActionList.ViewData() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\3. UserControls\Others\ucActionList.cs:line 148

@@ -1,0 +1,1912 @@
+2024-08-22 08:12:44.9015 
+» Message:	An item with the same key has already been added.
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   at System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   at RTC_Vision_Lite.PublicFunctions.GlobFuncs.GenShapeList(SListObject ShapeList)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 08:13:01.2857 
+» Message:	An item with the same key has already been added.
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   at System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   at RTC_Vision_Lite.PublicFunctions.GlobFuncs.GenShapeList(SListObject ShapeList)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 08:13:08.1534 
+» Message:	An item with the same key has already been added.
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   at System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   at RTC_Vision_Lite.PublicFunctions.GlobFuncs.GenShapeList(SListObject ShapeList)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 08:13:15.5988 
+» Message:	An item with the same key has already been added.
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   at System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   at RTC_Vision_Lite.PublicFunctions.GlobFuncs.GenShapeList(SListObject ShapeList)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 08:13:51.6636 
+» Message:	An item with the same key has already been added.
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   at System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   at RTC_Vision_Lite.PublicFunctions.GlobFuncs.GenShapeList(SListObject ShapeList)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 08:14:46.2097 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at NewPattern.NewPattern.GetTopLayer(Mat matTempl, Int32 iMinDstLength) in D:\RTC\RTCVisionLite\2. RTCVision Lite\8. NewPattern\NewPattern\Class1.cs:line 864
+   at NewPattern.NewPattern.Run() in D:\RTC\RTCVisionLite\2. RTCVision Lite\8. NewPattern\NewPattern\Class1.cs:line 516
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 08:14:52.5487 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at NewPattern.NewPattern.GetTopLayer(Mat matTempl, Int32 iMinDstLength) in D:\RTC\RTCVisionLite\2. RTCVision Lite\8. NewPattern\NewPattern\Class1.cs:line 864
+   at NewPattern.NewPattern.Run() in D:\RTC\RTCVisionLite\2. RTCVision Lite\8. NewPattern\NewPattern\Class1.cs:line 516
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 08:16:34.5102 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at NewPattern.NewPattern.GetTopLayer(Mat matTempl, Int32 iMinDstLength) in D:\RTC\RTCVisionLite\2. RTCVision Lite\8. NewPattern\NewPattern\Class1.cs:line 864
+   at NewPattern.NewPattern.Run() in D:\RTC\RTCVisionLite\2. RTCVision Lite\8. NewPattern\NewPattern\Class1.cs:line 516
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2607
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 947
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 878
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 845
+2024-08-22 08:16:37.8373 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at NewPattern.NewPattern.GetTopLayer(Mat matTempl, Int32 iMinDstLength) in D:\RTC\RTCVisionLite\2. RTCVision Lite\8. NewPattern\NewPattern\Class1.cs:line 864
+   at NewPattern.NewPattern.Run() in D:\RTC\RTCVisionLite\2. RTCVision Lite\8. NewPattern\NewPattern\Class1.cs:line 516
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2607
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 947
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 878
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 845
+2024-08-22 08:17:13.7902 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at NewPattern.NewPattern.GetTopLayer(Mat matTempl, Int32 iMinDstLength) in D:\RTC\RTCVisionLite\2. RTCVision Lite\8. NewPattern\NewPattern\Class1.cs:line 864
+   at NewPattern.NewPattern.Run() in D:\RTC\RTCVisionLite\2. RTCVision Lite\8. NewPattern\NewPattern\Class1.cs:line 516
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2607
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 947
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 878
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 845
+2024-08-22 08:18:05.1078 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at NewPattern.NewPattern.GetTopLayer(Mat matTempl, Int32 iMinDstLength) in D:\RTC\RTCVisionLite\2. RTCVision Lite\8. NewPattern\NewPattern\Class1.cs:line 864
+   at NewPattern.NewPattern.Run() in D:\RTC\RTCVisionLite\2. RTCVision Lite\8. NewPattern\NewPattern\Class1.cs:line 516
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2607
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 947
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 878
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 845
+2024-08-22 08:18:16.2721 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at NewPattern.NewPattern.GetTopLayer(Mat matTempl, Int32 iMinDstLength) in D:\RTC\RTCVisionLite\2. RTCVision Lite\8. NewPattern\NewPattern\Class1.cs:line 864
+   at NewPattern.NewPattern.Run() in D:\RTC\RTCVisionLite\2. RTCVision Lite\8. NewPattern\NewPattern\Class1.cs:line 516
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2607
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 947
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 878
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 845
+2024-08-22 08:18:20.4878 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at NewPattern.NewPattern.GetTopLayer(Mat matTempl, Int32 iMinDstLength) in D:\RTC\RTCVisionLite\2. RTCVision Lite\8. NewPattern\NewPattern\Class1.cs:line 864
+   at NewPattern.NewPattern.Run() in D:\RTC\RTCVisionLite\2. RTCVision Lite\8. NewPattern\NewPattern\Class1.cs:line 516
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2607
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 947
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 878
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 845
+2024-08-22 08:22:38.2653 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at NewPattern.NewPattern.GetTopLayer(Mat matTempl, Int32 iMinDstLength) in D:\RTC\RTCVisionLite\2. RTCVision Lite\8. NewPattern\NewPattern\Class1.cs:line 864
+   at NewPattern.NewPattern.Run() in D:\RTC\RTCVisionLite\2. RTCVision Lite\8. NewPattern\NewPattern\Class1.cs:line 516
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2607
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 947
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 878
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 845
+2024-08-22 08:23:55.2293 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at NewPattern.NewPattern.GetTopLayer(Mat matTempl, Int32 iMinDstLength) in D:\RTC\RTCVisionLite\2. RTCVision Lite\8. NewPattern\NewPattern\Class1.cs:line 864
+   at NewPattern.NewPattern.Run() in D:\RTC\RTCVisionLite\2. RTCVision Lite\8. NewPattern\NewPattern\Class1.cs:line 516
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2607
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 947
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 878
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 845
+2024-08-22 08:26:35.8166 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at NewPattern.NewPattern.GetTopLayer(Mat matTempl, Int32 iMinDstLength) in D:\RTC\RTCVisionLite\2. RTCVision Lite\8. NewPattern\NewPattern\Class1.cs:line 864
+   at NewPattern.NewPattern.Run() in D:\RTC\RTCVisionLite\2. RTCVision Lite\8. NewPattern\NewPattern\Class1.cs:line 516
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2607
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 947
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 878
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 845
+2024-08-22 08:26:37.2826 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at NewPattern.NewPattern.GetTopLayer(Mat matTempl, Int32 iMinDstLength) in D:\RTC\RTCVisionLite\2. RTCVision Lite\8. NewPattern\NewPattern\Class1.cs:line 864
+   at NewPattern.NewPattern.Run() in D:\RTC\RTCVisionLite\2. RTCVision Lite\8. NewPattern\NewPattern\Class1.cs:line 516
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2607
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 947
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 878
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 845
+2024-08-22 09:20:37.2620 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at System.Drawing.Image.Save(String filename, ImageFormat format)
+   at System.Drawing.Image.Save(String filename)
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2556
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 947
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 878
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 845
+2024-08-22 09:20:38.5226 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at System.Drawing.Image.Save(String filename, ImageFormat format)
+   at System.Drawing.Image.Save(String filename)
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2556
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 947
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 878
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 845
+2024-08-22 09:20:41.4121 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at System.Drawing.Image.Save(String filename, ImageFormat format)
+   at System.Drawing.Image.Save(String filename)
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2556
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 947
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 878
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 845
+2024-08-22 09:20:45.0693 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at System.Drawing.Image.Save(String filename, ImageFormat format)
+   at System.Drawing.Image.Save(String filename)
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2556
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 947
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 878
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 845
+2024-08-22 09:21:15.5779 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at System.Drawing.Image.Save(String filename, ImageFormat format)
+   at System.Drawing.Image.Save(String filename)
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2556
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 947
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 878
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 845
+2024-08-22 09:21:46.7513 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at System.Drawing.Image.Save(String filename, ImageFormat format)
+   at System.Drawing.Image.Save(String filename)
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2556
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 947
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 878
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 845
+2024-08-22 09:22:05.8837 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at System.Drawing.Image.Save(String filename, ImageFormat format)
+   at System.Drawing.Image.Save(String filename)
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2556
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 947
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 878
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 845
+2024-08-22 14:00:52.7834 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:00:54.1168 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:00:54.6055 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:00:55.1221 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:00:55.6896 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:00:56.9233 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:00:57.4648 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:01:05.0057 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:01:05.9841 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:01:06.3192 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:01:06.6742 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:01:07.0821 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:01:07.9448 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:01:08.2899 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:01:08.6190 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:01:08.9621 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:01:09.8158 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:01:10.1838 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:01:10.5269 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:01:10.8680 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:01:11.6918 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:01:12.0419 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:01:12.3630 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:01:12.7021 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:01:13.5119 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:01:13.8650 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:01:14.1991 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:01:14.5731 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:01:15.3979 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:01:15.7410 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:01:16.0581 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:01:16.4232 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:01:17.2370 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:01:17.5970 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:01:17.9431 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:01:18.3011 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:01:19.1409 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:01:19.5109 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:01:19.8640 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:01:20.1961 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:01:21.0687 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:01:21.4008 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:01:21.7499 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:01:22.1010 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:01:23.0155 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:01:23.4055 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:01:23.7605 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:01:24.0857 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:01:24.9553 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:01:25.3124 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:01:25.6834 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:01:26.0434 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:01:26.8682 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:01:27.2043 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:01:27.5773 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:01:27.9424 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:01:28.7761 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:01:29.1262 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:01:29.5012 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:01:29.8722 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:01:30.7598 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:01:38.0456 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:01:48.5256 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:01:53.0173 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:01:57.7689 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:02:00.7108 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:02:01.5975 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:02:01.9834 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:02:02.3864 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:02:02.7743 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:02:03.6679 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:02:04.0350 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:02:04.4030 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:02:04.7570 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:02:05.6666 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:02:06.0256 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:02:06.3937 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:02:06.7387 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:02:07.6084 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:02:07.9804 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:02:08.3644 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:02:08.7424 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:02:09.6669 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:02:10.0429 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:02:10.4119 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:02:10.7799 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:03:16.2987 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:03:16.6846 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:03:17.0856 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:03:17.4396 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:03:18.3921 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:03:18.7601 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:03:20.8714 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:03:26.7487 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:03:32.5712 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:03:34.2766 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:03:35.1393 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:03:35.5183 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:03:35.8823 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:03:36.2384 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:03:37.1160 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:03:37.4810 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:03:37.8451 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:03:38.2290 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:03:39.1087 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:03:39.4797 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:03:39.8467 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:03:40.2107 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:08:45.0848 
+» Message:	Index was outside the bounds of the array.
+» Stack Trace:	   at RTC_Vision_Lite.PublicFunctions.GlobFuncs.ListDoubleToListPointF(List`1 listDouble)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:09:33.5178 
+» Message:	Index was outside the bounds of the array.
+» Stack Trace:	   at RTC_Vision_Lite.PublicFunctions.GlobFuncs.ListDoubleToListPointF(List`1 listDouble)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:10:43.0705 
+» Message:	Index was outside the bounds of the array.
+» Stack Trace:	   at RTC_Vision_Lite.PublicFunctions.GlobFuncs.ListDoubleToListPointF(List`1 listDouble)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:14:05.7262 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:14:06.1111 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:14:06.4691 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:14:06.8601 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:14:07.7188 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:14:08.0768 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:14:08.4598 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:14:08.8538 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:14:09.7394 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:14:10.1064 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:14:10.5053 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:14:10.8803 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:14:11.7700 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:14:12.1559 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:14:12.5040 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:14:12.8860 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:14:13.7577 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:14:14.1287 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:14:14.4907 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:14:14.8826 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:14:15.7473 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:14:16.0984 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:14:16.4554 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:14:16.8135 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:14:17.7011 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:14:18.0532 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:14:18.4252 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:14:18.8171 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:14:19.8763 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:14:20.2244 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:14:20.5794 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:14:20.9514 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:14:21.7832 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:14:22.1632 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:14:22.5142 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:14:23.0498 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:14:25.1263 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:15:12.6062 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:15:13.7198 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:15:14.5595 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:15:15.3125 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:15:24.3448 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:15:37.7593 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:15:39.6352 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:15:40.0252 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:15:40.3743 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:15:41.2719 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:15:41.6529 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:15:42.0588 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:16:26.2360 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:18:44.3545 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:19:38.1058 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 14:32:01.4997 
+» Message:	Input string was not in a correct format.
+» Stack Trace:	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 16:36:40.4050 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at System.Drawing.Image.Save(String filename, ImageFormat format)
+   at System.Drawing.Image.Save(String filename)
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 16:36:47.6153 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at System.Drawing.Image.Save(String filename, ImageFormat format)
+   at System.Drawing.Image.Save(String filename)
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 16:36:53.9127 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at System.Drawing.Image.Save(String filename, ImageFormat format)
+   at System.Drawing.Image.Save(String filename)
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 16:36:55.0597 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at System.Drawing.Image.Save(String filename, ImageFormat format)
+   at System.Drawing.Image.Save(String filename)
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 16:36:58.5663 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at System.Drawing.Image.Save(String filename, ImageFormat format)
+   at System.Drawing.Image.Save(String filename)
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 16:36:59.9227 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at System.Drawing.Image.Save(String filename, ImageFormat format)
+   at System.Drawing.Image.Save(String filename)
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 16:37:00.8163 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at System.Drawing.Image.Save(String filename, ImageFormat format)
+   at System.Drawing.Image.Save(String filename)
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-22 16:38:02.8792 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at System.Drawing.Image.Save(String filename, ImageFormat format)
+   at System.Drawing.Image.Save(String filename)
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)

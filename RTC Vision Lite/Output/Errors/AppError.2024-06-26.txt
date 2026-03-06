@@ -1,0 +1,429 @@
+2024-06-26 10:32:25.0165 
+» Message:	Value of '0' is not valid for 'Value'. 'Value' should be between 'Minimum' and 'Maximum'.
+Parameter name: Value
+» Stack Trace:	   at System.Windows.Forms.NumericUpDown.set_Value(Decimal value)
+   at RTC_Vision_Lite.PublicFunctions.GlobFuncs.HIK_SetFloatValueToNumberic(MyHikCamera hikCamera, String paramName, NumericUpDown edit)
+2024-06-26 10:32:42.5394 
+» Message:	Value of '0' is not valid for 'Value'. 'Value' should be between 'Minimum' and 'Maximum'.
+Parameter name: Value
+» Stack Trace:	   at System.Windows.Forms.NumericUpDown.set_Value(Decimal value)
+   at RTC_Vision_Lite.PublicFunctions.GlobFuncs.HIK_SetFloatValueToNumberic(MyHikCamera hikCamera, String paramName, NumericUpDown edit)
+2024-06-26 10:33:30.3126 
+» Message:	Value of '0' is not valid for 'Value'. 'Value' should be between 'Minimum' and 'Maximum'.
+Parameter name: Value
+» Stack Trace:	   at System.Windows.Forms.NumericUpDown.set_Value(Decimal value)
+   at RTC_Vision_Lite.PublicFunctions.GlobFuncs.HIK_SetFloatValueToNumberic(MyHikCamera hikCamera, String paramName, NumericUpDown edit)
+2024-06-26 13:14:34.9069 
+» Message:	Value of '0' is not valid for 'Value'. 'Value' should be between 'Minimum' and 'Maximum'.
+Parameter name: Value
+» Stack Trace:	   at System.Windows.Forms.NumericUpDown.set_Value(Decimal value)
+   at RTC_Vision_Lite.PublicFunctions.GlobFuncs.HIK_SetFloatValueToNumberic(MyHikCamera hikCamera, String paramName, NumericUpDown edit) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Global\GlobFuncs.cs:line 2327
+2024-06-26 13:16:05.7363 
+» Message:	Value of '0' is not valid for 'Value'. 'Value' should be between 'Minimum' and 'Maximum'.
+Parameter name: Value
+» Stack Trace:	   at System.Windows.Forms.NumericUpDown.set_Value(Decimal value)
+   at RTC_Vision_Lite.PublicFunctions.GlobFuncs.HIK_SetFloatValueToNumberic(MyHikCamera hikCamera, String paramName, NumericUpDown edit) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Global\GlobFuncs.cs:line 2327
+2024-06-26 16:46:14.3839 
+» Message:	Value of '0' is not valid for 'Value'. 'Value' should be between 'Minimum' and 'Maximum'.
+Parameter name: Value
+» Stack Trace:	   at System.Windows.Forms.NumericUpDown.set_Value(Decimal value)
+   at RTC_Vision_Lite.PublicFunctions.GlobFuncs.HIK_SetFloatValueToNumberic(MyHikCamera hikCamera, String paramName, NumericUpDown edit) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Global\GlobFuncs.cs:line 2449
+2024-06-26 16:47:37.7467 
+» Message:	Object is currently in use elsewhere.
+» Stack Trace:	   at System.Drawing.Image.get_RawFormat()
+   at System.Drawing.Graphics.DrawImage(Image image, Int32 x, Int32 y, Int32 width, Int32 height)
+   at System.Drawing.Bitmap..ctor(Image original, Int32 width, Int32 height)
+   at System.Drawing.Bitmap..ctor(Image original)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2012
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 529
+2024-06-26 16:49:09.4635 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at System.Drawing.Bitmap..ctor(Image original)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2012
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 529
+2024-06-26 16:49:11.9427 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at System.Drawing.Bitmap..ctor(Image original)
+   at RTC_Vision_Lite.Classes.cAction.Run_ColorBlob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1098
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 550
+2024-06-26 16:49:12.9768 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1883
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-26 16:49:14.2719 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1883
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-26 16:49:14.9361 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_BlobFilter() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 920
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 524
+2024-06-26 16:49:15.1823 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_RegionProcessing() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1003
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 611
+2024-06-26 16:49:15.6810 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1883
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-26 16:49:16.2072 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1883
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-26 16:49:16.4413 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_BlobFilter() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 920
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 524
+2024-06-26 16:49:16.9014 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_RegionProcessing() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1003
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 611
+2024-06-26 16:49:17.1207 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1883
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-26 16:49:17.3405 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1883
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-26 16:49:17.5604 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_BlobFilter() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 920
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 524
+2024-06-26 16:49:17.7579 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_RegionProcessing() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1003
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 611
+2024-06-26 16:49:17.9926 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1883
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-26 16:49:18.2068 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1883
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-26 16:49:18.4165 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_BlobFilter() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 920
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 524
+2024-06-26 16:49:18.6152 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_RegionProcessing() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1003
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 611
+2024-06-26 16:49:18.8143 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1883
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-26 16:49:19.0339 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1883
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-26 16:49:19.2418 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_BlobFilter() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 920
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 524
+2024-06-26 16:49:19.4698 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_RegionProcessing() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1003
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 611
+2024-06-26 16:49:19.6684 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1883
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-26 16:49:19.8846 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1883
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-26 16:49:20.0706 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_BlobFilter() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 920
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 524
+2024-06-26 16:49:20.5168 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_RegionProcessing() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1003
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 611
+2024-06-26 16:49:20.7024 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1883
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-26 16:49:20.9391 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1883
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-26 16:49:21.1605 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_BlobFilter() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 920
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 524
+2024-06-26 16:49:21.5172 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_RegionProcessing() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1003
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 611
+2024-06-26 16:49:21.7787 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1883
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-26 16:49:22.0868 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1883
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-26 16:49:22.4724 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_BlobFilter() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 920
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 524
+2024-06-26 16:49:22.6543 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_RegionProcessing() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1003
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 611
+2024-06-26 16:49:27.0236 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1883
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-26 16:49:27.7623 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1883
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-26 16:49:27.9925 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_BlobFilter() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 920
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 524
+2024-06-26 16:49:28.4244 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_RegionProcessing() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1003
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 611
+2024-06-26 16:49:28.6280 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1883
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-26 16:49:28.8144 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1883
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-26 16:49:29.0398 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_BlobFilter() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 920
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 524
+2024-06-26 16:49:29.4343 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_RegionProcessing() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1003
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 611
+2024-06-26 16:49:29.9364 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1883
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-26 16:49:30.1401 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1883
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-26 16:50:18.2342 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at System.Drawing.Bitmap..ctor(Image original)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2012
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 529
+2024-06-26 16:50:19.0367 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at System.Drawing.Bitmap..ctor(Image original)
+   at RTC_Vision_Lite.Classes.cAction.Run_ColorBlob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1098
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 550
+2024-06-26 16:50:19.6655 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1883
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-26 16:50:19.9008 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1883
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-26 16:50:20.6100 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_BlobFilter() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 920
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 524
+2024-06-26 16:50:21.2579 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_RegionProcessing() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1003
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 611
+2024-06-26 16:50:21.4809 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1883
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-26 16:50:21.7241 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1883
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-26 16:50:22.0117 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_BlobFilter() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 920
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 524
+2024-06-26 16:50:23.4292 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_RegionProcessing() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1003
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 611
+2024-06-26 16:50:23.6066 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1883
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-26 16:51:20.5942 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at System.Drawing.Bitmap..ctor(Image original)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2012
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 529
+2024-06-26 16:51:21.6529 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at System.Drawing.Bitmap..ctor(Image original)
+   at RTC_Vision_Lite.Classes.cAction.Run_ColorBlob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1098
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 550
+2024-06-26 16:51:21.8853 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1883
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-26 16:51:22.1944 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1883
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-26 16:51:22.6462 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_BlobFilter() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 920
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 524
+2024-06-26 16:51:22.9267 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_RegionProcessing() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1003
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 611
+2024-06-26 16:51:23.1481 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1883
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-26 16:51:23.3416 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1883
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-26 16:51:23.6059 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_BlobFilter() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 920
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 524
+2024-06-26 16:51:23.8263 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_RegionProcessing() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1003
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 611
+2024-06-26 16:51:24.0946 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1883
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-26 16:51:24.3269 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1883
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-26 16:51:24.5653 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_BlobFilter() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 920
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 524
+2024-06-26 16:51:24.7798 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_RegionProcessing() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1003
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 611
+2024-06-26 16:51:24.9992 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1883
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-26 16:51:25.3502 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1883
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-26 16:51:25.5836 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_BlobFilter() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 920
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 524
+2024-06-26 16:51:25.7911 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_RegionProcessing() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1003
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 611
+2024-06-26 16:51:26.0504 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1883
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-26 16:52:04.4206 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at System.Drawing.Bitmap..ctor(Image original)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2012
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 529
+2024-06-26 16:52:05.1664 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at System.Drawing.Bitmap..ctor(Image original)
+   at RTC_Vision_Lite.Classes.cAction.Run_ColorBlob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1098
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 550
+2024-06-26 16:52:05.8945 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1883
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-26 16:52:06.5776 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1883
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-26 16:52:07.3097 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_BlobFilter() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 920
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 524
+2024-06-26 16:52:07.5680 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_RegionProcessing() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1003
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 611
+2024-06-26 16:52:08.1624 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1883
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-26 16:52:08.4426 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1883
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-26 16:52:08.7149 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_BlobFilter() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 920
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 524
+2024-06-26 16:52:08.9756 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_RegionProcessing() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1003
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 611
+2024-06-26 16:52:09.1781 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1883
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-26 16:52:09.3885 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1883
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-26 16:52:09.6189 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_BlobFilter() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 920
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 524
+2024-06-26 16:52:10.0179 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_RegionProcessing() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1003
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 611
+2024-06-26 16:52:10.2283 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1883
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-26 16:52:10.4367 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1883
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-26 16:52:12.3384 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_BlobFilter() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 920
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 524
+2024-06-26 16:52:12.5182 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_RegionProcessing() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1003
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 611
+2024-06-26 17:15:21.1549 
+» Message:	Value of '0' is not valid for 'Value'. 'Value' should be between 'Minimum' and 'Maximum'.
+Parameter name: Value
+» Stack Trace:	   at System.Windows.Forms.NumericUpDown.set_Value(Decimal value)
+   at RTC_Vision_Lite.PublicFunctions.GlobFuncs.HIK_SetFloatValueToNumberic(MyHikCamera hikCamera, String paramName, NumericUpDown edit) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Global\GlobFuncs.cs:line 2449
+2024-06-26 17:21:49.3450 
+» Message:	Value of '0' is not valid for 'Value'. 'Value' should be between 'Minimum' and 'Maximum'.
+Parameter name: Value
+» Stack Trace:	   at System.Windows.Forms.NumericUpDown.set_Value(Decimal value)
+   at RTC_Vision_Lite.PublicFunctions.GlobFuncs.HIK_SetFloatValueToNumberic(MyHikCamera hikCamera, String paramName, NumericUpDown edit) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Global\GlobFuncs.cs:line 2449
+2024-06-26 17:23:40.3926 
+» Message:	Value of '0' is not valid for 'Value'. 'Value' should be between 'Minimum' and 'Maximum'.
+Parameter name: Value
+» Stack Trace:	   at System.Windows.Forms.NumericUpDown.set_Value(Decimal value)
+   at RTC_Vision_Lite.PublicFunctions.GlobFuncs.HIK_SetFloatValueToNumberic(MyHikCamera hikCamera, String paramName, NumericUpDown edit) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Global\GlobFuncs.cs:line 2449

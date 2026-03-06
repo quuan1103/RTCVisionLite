@@ -1,0 +1,16 @@
+2025-10-10 16:14:47.9379 
+» Message:	External component has thrown an exception.
+» Stack Trace:	   at Emgu.CV.Util.VectorOfVectorOfPoint.VectorOfVectorOfPointGetItemPtr(IntPtr vec, Int32 index, IntPtr& element)
+   at Emgu.CV.Util.VectorOfVectorOfPoint.get_Item(Int32 index)
+   at NewPattern.NewPattern.TrainTemplate(Mat template) in D:\2. RTC Project\RTCVision Lite_09102025\01.RTCVision Lite\8. NewPattern\NewPattern\Class1.cs:line 1376
+   at NewPattern.NewPattern.Train() in D:\2. RTC Project\RTCVision Lite_09102025\01.RTCVision Lite\8. NewPattern\NewPattern\Class1.cs:line 461
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in D:\2. RTC Project\RTCVision Lite_09102025\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 3180
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\2. RTC Project\RTCVision Lite_09102025\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1143
+2025-10-10 16:15:10.2666 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in D:\2. RTC Project\RTCVision Lite_09102025\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 3152
+2025-10-10 16:21:40.9569 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in D:\2. RTC Project\RTCVision Lite_09102025\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 3152

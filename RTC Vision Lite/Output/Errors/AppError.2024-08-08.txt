@@ -1,0 +1,6 @@
+2024-08-08 14:16:22.7595 
+» Message:	Unable to cast object of type 'RTC_Vision_Lite.Classes.SString' to type 'RTC_Vision_Lite.Classes.SBool'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.RebuildValueWhenLink_PropToDataItem(PropertyInfo PropertyInfoSrc, SStringBuilderItem dataItemDes, cAction actionSrc) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.OtherRunFunctions.cs:line 287
+   at RTC_Vision_Lite.Classes.cAction.RebuidValueWhenLink(cAction actionSrc, String propNameSrc, String propNameDes) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.OtherRunFunctions.cs:line 222
+   at RTC_Vision_Lite.Forms.FrmActions.StringBuilder_EndLinkValue_Property(cAction actionLinkSrc, String DataItemName) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\2. Forms\FrmActions.cs:line 1041
+   at RTC_Vision_Lite.Forms.FrmActions.StringBuilder_EndLinkValue(ActionTools nodeSrc) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\2. Forms\FrmActions.cs:line 1007

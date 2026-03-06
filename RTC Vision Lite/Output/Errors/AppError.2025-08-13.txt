@@ -1,0 +1,30 @@
+2025-08-13 08:30:38.8267 
+» Message:	Object is currently in use elsewhere.
+» Stack Trace:	   at System.Drawing.Image.get_Height()
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_ViewToolData(GraphicsWindow smartWindowControl, Int32 actionOrderLimit)
+2025-08-13 08:30:38.9095 
+» Message:	Object is currently in use elsewhere.
+» Stack Trace:	   at System.Drawing.Image.Clone()
+   at RTC_Vision_Lite.Classes.cAction.BackupImage(Image image)
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_BackupImage()
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_CleanData()
+2025-08-13 08:57:59.7748 
+» Message:	Object is currently in use elsewhere.
+» Stack Trace:	   at System.Drawing.Image.Clone()
+   at RTC_Vision_Lite.Classes.cAction.BackupImage(Image image)
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_BackupImage()
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_CleanData()
+2025-08-13 09:13:57.7573 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern()
+2025-08-13 09:17:35.1937 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern()
+2025-08-13 09:34:27.3123 
+» Message:	Object is currently in use elsewhere.
+» Stack Trace:	   at System.Drawing.Image.Clone()
+   at RTC_Vision_Lite.Classes.cAction.BackupImage(Image image)
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_BackupImage()
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_CleanData()

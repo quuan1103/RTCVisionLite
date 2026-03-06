@@ -1,0 +1,706 @@
+2024-09-10 10:13:57.7604 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_ImageFilter(Boolean isTest, Boolean setwaitForDebugConnecttion) in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunImageFilter.cs:line 103
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1015
+2024-09-10 10:13:58.1215 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_ImageFilter(Boolean isTest, Boolean setwaitForDebugConnecttion) in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunImageFilter.cs:line 103
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1015
+2024-09-10 10:13:58.4636 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_ImageFilter(Boolean isTest, Boolean setwaitForDebugConnecttion) in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunImageFilter.cs:line 103
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1015
+2024-09-10 10:13:58.8625 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_ImageFilter(Boolean isTest, Boolean setwaitForDebugConnecttion) in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunImageFilter.cs:line 103
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1015
+2024-09-10 10:13:59.2295 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_ImageFilter(Boolean isTest, Boolean setwaitForDebugConnecttion) in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunImageFilter.cs:line 103
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1015
+2024-09-10 10:13:59.5537 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_ImageFilter(Boolean isTest, Boolean setwaitForDebugConnecttion) in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunImageFilter.cs:line 103
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1015
+2024-09-10 10:13:59.8898 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_ImageFilter(Boolean isTest, Boolean setwaitForDebugConnecttion) in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunImageFilter.cs:line 103
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1015
+2024-09-10 10:14:00.2388 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_ImageFilter(Boolean isTest, Boolean setwaitForDebugConnecttion) in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunImageFilter.cs:line 103
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1015
+2024-09-10 10:14:00.5789 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_ImageFilter(Boolean isTest, Boolean setwaitForDebugConnecttion) in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunImageFilter.cs:line 103
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1015
+2024-09-10 10:14:00.9360 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_ImageFilter(Boolean isTest, Boolean setwaitForDebugConnecttion) in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunImageFilter.cs:line 103
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1015
+2024-09-10 10:14:01.3010 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_ImageFilter(Boolean isTest, Boolean setwaitForDebugConnecttion) in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunImageFilter.cs:line 103
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1015
+2024-09-10 10:14:01.6630 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_ImageFilter(Boolean isTest, Boolean setwaitForDebugConnecttion) in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunImageFilter.cs:line 103
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1015
+2024-09-10 10:14:02.0191 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_ImageFilter(Boolean isTest, Boolean setwaitForDebugConnecttion) in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunImageFilter.cs:line 103
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1015
+2024-09-10 10:14:02.3990 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_ImageFilter(Boolean isTest, Boolean setwaitForDebugConnecttion) in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunImageFilter.cs:line 103
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1015
+2024-09-10 10:14:02.7740 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_ImageFilter(Boolean isTest, Boolean setwaitForDebugConnecttion) in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunImageFilter.cs:line 103
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1015
+2024-09-10 10:14:03.1231 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_ImageFilter(Boolean isTest, Boolean setwaitForDebugConnecttion) in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunImageFilter.cs:line 103
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1015
+2024-09-10 10:14:03.4802 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_ImageFilter(Boolean isTest, Boolean setwaitForDebugConnecttion) in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunImageFilter.cs:line 103
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1015
+2024-09-10 10:14:03.8192 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_ImageFilter(Boolean isTest, Boolean setwaitForDebugConnecttion) in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunImageFilter.cs:line 103
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1015
+2024-09-10 10:14:04.1603 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_ImageFilter(Boolean isTest, Boolean setwaitForDebugConnecttion) in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunImageFilter.cs:line 103
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1015
+2024-09-10 10:14:04.5084 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_ImageFilter(Boolean isTest, Boolean setwaitForDebugConnecttion) in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunImageFilter.cs:line 103
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1015
+2024-09-10 10:14:04.8859 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_ImageFilter(Boolean isTest, Boolean setwaitForDebugConnecttion) in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunImageFilter.cs:line 103
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1015
+2024-09-10 10:14:05.2370 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_ImageFilter(Boolean isTest, Boolean setwaitForDebugConnecttion) in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunImageFilter.cs:line 103
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1015
+2024-09-10 10:14:05.6731 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_ImageFilter(Boolean isTest, Boolean setwaitForDebugConnecttion) in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunImageFilter.cs:line 103
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1015
+2024-09-10 10:14:06.0254 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_ImageFilter(Boolean isTest, Boolean setwaitForDebugConnecttion) in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunImageFilter.cs:line 103
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1015
+2024-09-10 10:14:06.3761 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_ImageFilter(Boolean isTest, Boolean setwaitForDebugConnecttion) in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunImageFilter.cs:line 103
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1015
+2024-09-10 10:14:06.7391 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_ImageFilter(Boolean isTest, Boolean setwaitForDebugConnecttion) in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunImageFilter.cs:line 103
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1015
+2024-09-10 10:14:07.1004 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_ImageFilter(Boolean isTest, Boolean setwaitForDebugConnecttion) in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunImageFilter.cs:line 103
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1015
+2024-09-10 10:14:07.4625 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_ImageFilter(Boolean isTest, Boolean setwaitForDebugConnecttion) in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunImageFilter.cs:line 103
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1015
+2024-09-10 10:14:07.8115 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_ImageFilter(Boolean isTest, Boolean setwaitForDebugConnecttion) in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunImageFilter.cs:line 103
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1015
+2024-09-10 10:14:08.1580 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_ImageFilter(Boolean isTest, Boolean setwaitForDebugConnecttion) in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunImageFilter.cs:line 103
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1015
+2024-09-10 10:14:08.5350 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_ImageFilter(Boolean isTest, Boolean setwaitForDebugConnecttion) in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunImageFilter.cs:line 103
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1015
+2024-09-10 10:14:08.8790 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_ImageFilter(Boolean isTest, Boolean setwaitForDebugConnecttion) in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunImageFilter.cs:line 103
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1015
+2024-09-10 10:14:09.2391 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_ImageFilter(Boolean isTest, Boolean setwaitForDebugConnecttion) in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunImageFilter.cs:line 103
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1015
+2024-09-10 10:14:09.5901 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_ImageFilter(Boolean isTest, Boolean setwaitForDebugConnecttion) in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunImageFilter.cs:line 103
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1015
+2024-09-10 10:14:09.9492 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_ImageFilter(Boolean isTest, Boolean setwaitForDebugConnecttion) in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunImageFilter.cs:line 103
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1015
+2024-09-10 10:14:10.3047 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_ImageFilter(Boolean isTest, Boolean setwaitForDebugConnecttion) in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunImageFilter.cs:line 103
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1015
+2024-09-10 10:14:10.6608 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_ImageFilter(Boolean isTest, Boolean setwaitForDebugConnecttion) in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunImageFilter.cs:line 103
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1015
+2024-09-10 10:14:11.0148 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_ImageFilter(Boolean isTest, Boolean setwaitForDebugConnecttion) in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunImageFilter.cs:line 103
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1015
+2024-09-10 10:14:11.3998 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_ImageFilter(Boolean isTest, Boolean setwaitForDebugConnecttion) in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunImageFilter.cs:line 103
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1015
+2024-09-10 10:14:11.7668 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_ImageFilter(Boolean isTest, Boolean setwaitForDebugConnecttion) in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunImageFilter.cs:line 103
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1015
+2024-09-10 10:14:12.1657 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_ImageFilter(Boolean isTest, Boolean setwaitForDebugConnecttion) in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunImageFilter.cs:line 103
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1015
+2024-09-10 10:14:12.5537 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_ImageFilter(Boolean isTest, Boolean setwaitForDebugConnecttion) in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunImageFilter.cs:line 103
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1015
+2024-09-10 10:14:12.8948 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_ImageFilter(Boolean isTest, Boolean setwaitForDebugConnecttion) in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunImageFilter.cs:line 103
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1015
+2024-09-10 10:14:13.2309 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_ImageFilter(Boolean isTest, Boolean setwaitForDebugConnecttion) in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunImageFilter.cs:line 103
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1015
+2024-09-10 10:14:13.5830 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_ImageFilter(Boolean isTest, Boolean setwaitForDebugConnecttion) in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunImageFilter.cs:line 103
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1015
+2024-09-10 10:14:13.9262 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_ImageFilter(Boolean isTest, Boolean setwaitForDebugConnecttion) in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunImageFilter.cs:line 103
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1015
+2024-09-10 10:14:14.2972 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_ImageFilter(Boolean isTest, Boolean setwaitForDebugConnecttion) in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunImageFilter.cs:line 103
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1015
+2024-09-10 10:14:14.6612 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_ImageFilter(Boolean isTest, Boolean setwaitForDebugConnecttion) in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunImageFilter.cs:line 103
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1015
+2024-09-10 10:14:15.0644 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_ImageFilter(Boolean isTest, Boolean setwaitForDebugConnecttion) in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunImageFilter.cs:line 103
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1015
+2024-09-10 10:14:15.4653 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_ImageFilter(Boolean isTest, Boolean setwaitForDebugConnecttion) in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunImageFilter.cs:line 103
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1015
+2024-09-10 10:14:15.8273 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_ImageFilter(Boolean isTest, Boolean setwaitForDebugConnecttion) in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunImageFilter.cs:line 103
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1015
+2024-09-10 10:14:16.1754 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_ImageFilter(Boolean isTest, Boolean setwaitForDebugConnecttion) in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunImageFilter.cs:line 103
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1015
+2024-09-10 10:14:16.5275 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_ImageFilter(Boolean isTest, Boolean setwaitForDebugConnecttion) in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunImageFilter.cs:line 103
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1015
+2024-09-10 10:14:16.8897 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_ImageFilter(Boolean isTest, Boolean setwaitForDebugConnecttion) in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunImageFilter.cs:line 103
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1015
+2024-09-10 10:14:17.2617 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_ImageFilter(Boolean isTest, Boolean setwaitForDebugConnecttion) in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunImageFilter.cs:line 103
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1015
+2024-09-10 10:14:17.5968 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_ImageFilter(Boolean isTest, Boolean setwaitForDebugConnecttion) in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunImageFilter.cs:line 103
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1015
+2024-09-10 10:14:17.9449 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_ImageFilter(Boolean isTest, Boolean setwaitForDebugConnecttion) in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunImageFilter.cs:line 103
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1015
+2024-09-10 10:14:18.3219 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_ImageFilter(Boolean isTest, Boolean setwaitForDebugConnecttion) in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunImageFilter.cs:line 103
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1015
+2024-09-10 10:14:18.7020 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_ImageFilter(Boolean isTest, Boolean setwaitForDebugConnecttion) in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunImageFilter.cs:line 103
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1015
+2024-09-10 10:14:19.0381 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_ImageFilter(Boolean isTest, Boolean setwaitForDebugConnecttion) in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunImageFilter.cs:line 103
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1015
+2024-09-10 10:14:19.3852 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_ImageFilter(Boolean isTest, Boolean setwaitForDebugConnecttion) in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunImageFilter.cs:line 103
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1015
+2024-09-10 10:14:19.7343 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_ImageFilter(Boolean isTest, Boolean setwaitForDebugConnecttion) in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunImageFilter.cs:line 103
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1015
+2024-09-10 10:14:20.0754 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_ImageFilter(Boolean isTest, Boolean setwaitForDebugConnecttion) in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunImageFilter.cs:line 103
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1015
+2024-09-10 10:14:20.4185 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_ImageFilter(Boolean isTest, Boolean setwaitForDebugConnecttion) in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunImageFilter.cs:line 103
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1015
+2024-09-10 10:14:20.7536 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_ImageFilter(Boolean isTest, Boolean setwaitForDebugConnecttion) in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunImageFilter.cs:line 103
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1015
+2024-09-10 10:14:21.1106 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_ImageFilter(Boolean isTest, Boolean setwaitForDebugConnecttion) in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunImageFilter.cs:line 103
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1015
+2024-09-10 10:14:21.4527 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_ImageFilter(Boolean isTest, Boolean setwaitForDebugConnecttion) in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunImageFilter.cs:line 103
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1015
+2024-09-10 10:14:21.8100 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_ImageFilter(Boolean isTest, Boolean setwaitForDebugConnecttion) in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunImageFilter.cs:line 103
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1015
+2024-09-10 10:14:22.2012 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_ImageFilter(Boolean isTest, Boolean setwaitForDebugConnecttion) in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunImageFilter.cs:line 103
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1015
+2024-09-10 10:14:22.5383 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_ImageFilter(Boolean isTest, Boolean setwaitForDebugConnecttion) in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunImageFilter.cs:line 103
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1015
+2024-09-10 10:14:22.8634 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_ImageFilter(Boolean isTest, Boolean setwaitForDebugConnecttion) in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunImageFilter.cs:line 103
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1015
+2024-09-10 10:14:23.2464 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_ImageFilter(Boolean isTest, Boolean setwaitForDebugConnecttion) in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunImageFilter.cs:line 103
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1015
+2024-09-10 10:14:23.5805 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_ImageFilter(Boolean isTest, Boolean setwaitForDebugConnecttion) in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunImageFilter.cs:line 103
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1015
+2024-09-10 10:14:23.9286 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_ImageFilter(Boolean isTest, Boolean setwaitForDebugConnecttion) in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunImageFilter.cs:line 103
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1015
+2024-09-10 10:14:24.2946 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_ImageFilter(Boolean isTest, Boolean setwaitForDebugConnecttion) in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunImageFilter.cs:line 103
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1015
+2024-09-10 10:14:24.6586 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_ImageFilter(Boolean isTest, Boolean setwaitForDebugConnecttion) in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunImageFilter.cs:line 103
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1015
+2024-09-10 10:14:25.0007 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_ImageFilter(Boolean isTest, Boolean setwaitForDebugConnecttion) in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunImageFilter.cs:line 103
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1015
+2024-09-10 10:14:25.3667 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_ImageFilter(Boolean isTest, Boolean setwaitForDebugConnecttion) in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunImageFilter.cs:line 103
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1015
+2024-09-10 10:14:25.7038 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_ImageFilter(Boolean isTest, Boolean setwaitForDebugConnecttion) in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunImageFilter.cs:line 103
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1015
+2024-09-10 10:14:26.1646 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_ImageFilter(Boolean isTest, Boolean setwaitForDebugConnecttion) in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunImageFilter.cs:line 103
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1015
+2024-09-10 10:14:26.6104 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_ImageFilter(Boolean isTest, Boolean setwaitForDebugConnecttion) in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunImageFilter.cs:line 103
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1015
+2024-09-10 10:14:27.0662 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_ImageFilter(Boolean isTest, Boolean setwaitForDebugConnecttion) in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunImageFilter.cs:line 103
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1015
+2024-09-10 10:14:27.5154 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_ImageFilter(Boolean isTest, Boolean setwaitForDebugConnecttion) in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunImageFilter.cs:line 103
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1015
+2024-09-10 10:14:27.9692 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_ImageFilter(Boolean isTest, Boolean setwaitForDebugConnecttion) in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunImageFilter.cs:line 103
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1015
+2024-09-10 10:14:28.4081 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_ImageFilter(Boolean isTest, Boolean setwaitForDebugConnecttion) in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunImageFilter.cs:line 103
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1015
+2024-09-10 10:14:28.8210 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_ImageFilter(Boolean isTest, Boolean setwaitForDebugConnecttion) in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunImageFilter.cs:line 103
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1015
+2024-09-10 10:14:29.2315 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_ImageFilter(Boolean isTest, Boolean setwaitForDebugConnecttion) in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunImageFilter.cs:line 103
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1015
+2024-09-10 10:14:29.6843 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_ImageFilter(Boolean isTest, Boolean setwaitForDebugConnecttion) in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunImageFilter.cs:line 103
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1015
+2024-09-10 10:14:30.1062 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_ImageFilter(Boolean isTest, Boolean setwaitForDebugConnecttion) in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunImageFilter.cs:line 103
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1015
+2024-09-10 10:14:30.5789 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_ImageFilter(Boolean isTest, Boolean setwaitForDebugConnecttion) in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunImageFilter.cs:line 103
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1015
+2024-09-10 10:14:31.0117 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_ImageFilter(Boolean isTest, Boolean setwaitForDebugConnecttion) in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunImageFilter.cs:line 103
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1015
+2024-09-10 10:14:31.4526 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_ImageFilter(Boolean isTest, Boolean setwaitForDebugConnecttion) in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunImageFilter.cs:line 103
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1015
+2024-09-10 10:14:31.8736 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_ImageFilter(Boolean isTest, Boolean setwaitForDebugConnecttion) in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunImageFilter.cs:line 103
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1015
+2024-09-10 10:14:32.3054 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_ImageFilter(Boolean isTest, Boolean setwaitForDebugConnecttion) in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunImageFilter.cs:line 103
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1015
+2024-09-10 10:14:32.6475 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_ImageFilter(Boolean isTest, Boolean setwaitForDebugConnecttion) in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunImageFilter.cs:line 103
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1015
+2024-09-10 10:14:33.0325 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_ImageFilter(Boolean isTest, Boolean setwaitForDebugConnecttion) in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunImageFilter.cs:line 103
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1015
+2024-09-10 10:14:33.3646 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_ImageFilter(Boolean isTest, Boolean setwaitForDebugConnecttion) in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunImageFilter.cs:line 103
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1015
+2024-09-10 10:22:09.5332 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_ImageFilter(Boolean isTest, Boolean setwaitForDebugConnecttion) in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunImageFilter.cs:line 48
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_26082024_DangVer\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1015
+2024-09-10 15:07:47.0207 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.Clone()
+   at RTC_Vision_Lite.Classes.cAction.Run_SplitImage()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+2024-09-10 15:09:23.7628 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.Clone()
+   at RTC_Vision_Lite.Classes.cAction.Run_SplitImage()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+2024-09-10 15:09:29.3502 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.Clone()
+   at RTC_Vision_Lite.Classes.cAction.Run_SplitImage()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+2024-09-10 15:09:32.3191 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.Clone()
+   at RTC_Vision_Lite.Classes.cAction.Run_SplitImage()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+2024-09-10 15:57:34.7438 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_ViewToolData(WindowView smartWindowControl, Int32 actionOrderLimit)

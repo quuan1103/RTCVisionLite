@@ -1,0 +1,8 @@
+2025-05-20 15:42:46.4224 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_Math_SelectString() in D:\2. RTC Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.MathFunction.cs:line 725
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\2. RTC Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 853
+2025-05-20 15:43:03.6760 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_Math_SelectString() in D:\2. RTC Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.MathFunction.cs:line 725
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\2. RTC Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 853

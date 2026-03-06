@@ -1,0 +1,78 @@
+2024-10-10 09:27:32.1704 
+» Message:	Object is currently in use elsewhere.
+» Stack Trace:	   at System.Drawing.Image.get_Height()
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_ViewToolData(GraphicsWindow smartWindowControl, Int32 actionOrderLimit) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 162
+2024-10-10 14:36:22.5365 
+» Message:	InvalidArgument=Value of '-1' is not valid for 'index'.
+Parameter name: index
+» Stack Trace:	   at System.Windows.Forms.ImageList.ImageCollection.get_Item(Int32 index)
+   at RTC_Vision_Lite._3._UserControls.Commons.ucColorCombobox.set_RTCColor(EColor value)
+2024-10-10 14:36:26.3875 
+» Message:	InvalidArgument=Value of '-1' is not valid for 'index'.
+Parameter name: index
+» Stack Trace:	   at System.Windows.Forms.ImageList.ImageCollection.get_Item(Int32 index)
+   at RTC_Vision_Lite._3._UserControls.Commons.ucColorCombobox.set_RTCColor(EColor value)
+2024-10-10 15:57:50.0332 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_Pattern()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+2024-10-10 15:57:51.2624 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_RegionProcessing()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+2024-10-10 15:57:52.0385 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_Pattern()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+2024-10-10 15:57:52.2919 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_RegionProcessing()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+2024-10-10 15:57:53.7397 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_Pattern()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+2024-10-10 15:57:53.9592 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_RegionProcessing()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+2024-10-10 15:57:54.1935 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_Pattern()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+2024-10-10 15:57:54.6752 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_RegionProcessing()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+2024-10-10 15:57:54.8886 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_Pattern()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+2024-10-10 15:57:55.4172 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_RegionProcessing()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+2024-10-10 15:57:55.6396 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_Pattern()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+2024-10-10 15:57:59.2714 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_RegionProcessing()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+2024-10-10 15:57:59.9953 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_Pattern()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+2024-10-10 16:38:38.2918 
+» Message:	Object is currently in use elsewhere.
+» Stack Trace:	   at System.Drawing.Image.get_FrameDimensionsList()
+   at System.Drawing.ImageAnimator.CanAnimate(Image image)
+   at System.Drawing.ImageAnimator.ImageInfo..ctor(Image image)
+   at System.Drawing.ImageAnimator.Animate(Image image, EventHandler onFrameChangedHandler)
+   at System.Windows.Forms.PictureBox.Animate(Boolean animate)
+   at System.Windows.Forms.PictureBox.Animate()
+   at System.Windows.Forms.PictureBox.InstallNewImage(Image value, ImageInstallationType installationType)
+   at System.Windows.Forms.PictureBox.set_Image(Image value)
+   at RTC_Vision_Lite.PublicFunctions.GlobFuncs.DisplayGraphics(GraphicsWindow smartWindow, Object graphicsDisplay, Image`2& inputImage, Color color) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Global\GlobFuncs.cs:line 4524
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_Viewing(cAction action, GraphicsWindow smartWindowControl, Int32& iRow, Int32& iWriteHistory) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 307

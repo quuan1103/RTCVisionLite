@@ -1,0 +1,1925 @@
+2024-09-20 08:46:14.5610 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1944
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:47:04.2326 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1944
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:47:08.4214 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1944
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:47:09.0807 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1944
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:47:19.5810 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1944
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:47:37.4970 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1944
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:54:51.3248 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1944
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:57:14.9689 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:57:15.0377 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:57:15.5772 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:57:15.6391 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:57:16.2016 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:57:16.2624 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:57:16.9575 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:57:17.0423 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:57:17.5570 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:57:17.6178 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:57:18.1254 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:57:18.1833 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:57:18.7887 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:57:18.8495 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:57:19.3571 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:57:19.4140 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:57:19.9436 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:57:20.0014 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:57:20.5111 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:57:20.5669 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:57:21.1144 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:57:21.1823 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:57:21.7079 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:57:21.8565 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:57:22.3852 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:57:22.4459 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:57:23.0353 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:57:23.0941 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:57:23.6507 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:57:23.7085 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:57:24.2660 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:57:24.3288 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:57:24.8943 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:57:24.9592 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:57:25.5187 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:57:25.5865 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:57:26.1270 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:57:26.1939 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:57:26.8122 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:57:26.9149 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:57:27.5283 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:57:27.6041 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:57:28.1696 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:57:28.2514 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:57:28.8079 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:57:28.8697 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:57:29.4332 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:57:29.4980 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:57:30.0535 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:57:30.1144 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:57:30.6769 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:57:30.7407 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:57:31.3072 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:57:31.3760 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:57:31.9774 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:57:32.0522 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:57:32.6128 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:57:32.6866 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:57:33.2697 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:57:33.3336 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:57:33.9110 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:57:34.0567 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:57:34.6650 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:57:34.7279 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:57:35.3243 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:57:35.3971 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:57:35.9985 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:57:36.0643 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:57:36.5809 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:57:36.6378 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:57:37.1813 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:57:37.2541 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:57:37.7888 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:57:37.8416 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:57:38.4013 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:57:38.4612 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:57:39.0137 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:57:39.0646 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:57:39.6241 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:57:39.6879 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:57:40.2494 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:57:40.3042 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:57:40.8478 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:57:40.9116 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:57:41.4252 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:57:41.4811 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:57:42.0526 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:57:42.1094 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:57:42.6300 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:57:42.6938 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:57:43.2484 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:57:43.3122 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:58:52.0259 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:58:52.0828 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:59:04.2372 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:59:04.2911 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:59:10.2073 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:59:10.2622 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:59:10.8259 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:59:10.9186 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:59:11.4652 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:59:11.5250 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:59:12.0616 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:59:12.1224 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:59:12.6340 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:59:12.6979 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:59:13.2763 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:59:13.3372 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:59:13.8598 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:59:13.9126 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:59:14.4432 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:59:14.5090 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:59:15.0406 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:59:15.1005 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:59:15.6390 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:59:15.6998 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:59:16.2474 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:59:16.3082 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:59:16.8398 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:59:16.9086 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:59:17.4631 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:59:17.5190 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:59:18.0745 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:59:18.1533 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:59:18.6709 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:59:18.7258 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:59:48.4623 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:59:48.5252 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:59:49.1146 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:59:49.1724 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:59:49.7040 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:59:49.7638 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:59:50.3144 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:59:50.3912 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:59:50.9247 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:59:50.9846 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:59:51.4872 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:59:51.5451 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:59:52.0707 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:59:52.1255 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:59:52.6711 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 08:59:52.7359 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:00:01.6237 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:00:01.6776 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:00:10.9483 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:00:11.0051 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:00:11.5457 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:00:11.6016 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:00:12.1252 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:00:12.1860 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:00:12.7246 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:00:12.7854 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:00:13.3738 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:00:13.4586 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:00:14.0418 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:00:14.0997 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:00:14.6253 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:00:14.6851 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:00:15.2376 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:00:15.2965 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:00:15.8161 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:00:15.8789 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:00:16.4105 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:00:16.4683 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:00:17.1336 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:00:17.2104 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:08:41.2042 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:08:41.2720 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:08:41.8375 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:08:41.8694 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:08:42.4170 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:08:42.4489 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:08:42.9884 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:08:43.0233 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:08:43.5569 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:08:43.5868 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:08:44.1463 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:08:44.1852 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:08:44.7407 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:08:44.7777 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:08:45.3172 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:08:45.3521 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:08:45.8966 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:08:45.9276 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:08:46.4691 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:08:46.5070 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:08:47.0655 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:08:47.1174 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:08:47.6659 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:08:47.7178 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:08:48.3411 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:08:48.3720 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:08:48.9526 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:08:48.9854 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:08:49.5010 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:08:49.5409 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:08:50.0785 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:08:50.1283 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:08:50.6639 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:08:50.6948 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:10:07.9908 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:10:08.0925 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:10:08.7059 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:10:08.7926 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:10:09.3711 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:10:09.4589 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:10:10.0533 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:10:10.1580 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:10:10.7414 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:10:10.8262 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:10:11.3877 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:10:11.4765 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:10:12.0420 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:10:12.1257 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:10:12.6803 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:10:12.7640 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:10:13.3565 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:10:13.4721 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:10:14.0366 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:10:14.1224 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:10:14.6789 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:10:14.7637 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:10:33.9730 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:10:34.0588 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:10:34.6143 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:10:34.7230 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:10:35.3234 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:10:35.4031 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:10:35.9477 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:10:36.0245 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:10:36.6129 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:10:36.7027 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:10:37.2811 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:10:37.3659 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:10:37.9065 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:10:38.0032 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:10:38.5907 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:10:38.6814 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:10:51.9679 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:10:52.0556 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:10:52.6193 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:10:52.6949 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:10:53.2634 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:10:53.3422 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:10:53.8897 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:10:53.9675 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:10:54.4951 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:10:54.5729 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:10:55.1078 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:10:55.1916 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:10:55.7640 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:10:55.8448 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:10:56.3953 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:10:56.4811 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:10:57.0466 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:10:57.1284 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:10:57.7587 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:10:57.8375 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:10:58.3840 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:10:58.4668 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:10:59.0014 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:10:59.0802 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:10:59.6297 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:10:59.7065 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:11:00.2770 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:11:00.3548 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:11:00.8943 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000
+2024-09-20 09:11:00.9761 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1997
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000

@@ -1,0 +1,462 @@
+2024-07-11 14:23:59.0966 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.CheckConnectCSTLight()
+   at RTC_Vision_Lite.Classes.cAction.Run_CSTLightRead()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-07-11 14:24:03.0994 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.CheckConnectCSTLight()
+   at RTC_Vision_Lite.Classes.cAction.Run_CSTLightRead()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-07-11 14:24:04.1825 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.CheckConnectCSTLight()
+   at RTC_Vision_Lite.Classes.cAction.Run_CSTLightRead()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-07-11 14:24:05.2875 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.CheckConnectCSTLight()
+   at RTC_Vision_Lite.Classes.cAction.Run_CSTLightRead()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-07-11 14:24:06.5003 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.CheckConnectCSTLight()
+   at RTC_Vision_Lite.Classes.cAction.Run_CSTLightRead()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-07-11 14:24:07.5844 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.CheckConnectCSTLight()
+   at RTC_Vision_Lite.Classes.cAction.Run_CSTLightRead()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-07-11 14:24:08.6436 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.CheckConnectCSTLight()
+   at RTC_Vision_Lite.Classes.cAction.Run_CSTLightRead()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-07-11 14:24:48.8220 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.CheckConnectCSTLight()
+   at RTC_Vision_Lite.Classes.cAction.Run_CSTLightRead()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-07-11 14:24:49.8692 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.CheckConnectCSTLight()
+   at RTC_Vision_Lite.Classes.cAction.Run_CSTLightRead()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-07-11 14:24:50.9294 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.CheckConnectCSTLight()
+   at RTC_Vision_Lite.Classes.cAction.Run_CSTLightRead()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-07-11 14:24:52.0255 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.CheckConnectCSTLight()
+   at RTC_Vision_Lite.Classes.cAction.Run_CSTLightRead()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-07-11 14:24:53.2263 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.CheckConnectCSTLight()
+   at RTC_Vision_Lite.Classes.cAction.Run_CSTLightRead()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-07-11 15:02:54.2482 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_ColorBlobMultiROIs()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-07-11 15:03:42.9436 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_ColorBlobMultiROIs()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-07-11 15:15:24.8584 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_ColorBlobMultiROIs()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-07-11 15:17:17.9297 
+» Message:	Specified cast is not valid.
+» Stack Trace:	   at System.Linq.Enumerable.<CastIterator>d__97`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at RTC_Vision_Lite.Classes.cAction.Run_ColorBlobMultiROIs() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1651
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 617
+2024-07-11 15:17:23.5842 
+» Message:	Specified cast is not valid.
+» Stack Trace:	   at System.Linq.Enumerable.<CastIterator>d__97`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at RTC_Vision_Lite.Classes.cAction.Run_ColorBlobMultiROIs() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1651
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 617
+2024-07-11 15:17:27.1218 
+» Message:	Specified cast is not valid.
+» Stack Trace:	   at System.Linq.Enumerable.<CastIterator>d__97`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at RTC_Vision_Lite.Classes.cAction.Run_ColorBlobMultiROIs() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1651
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 617
+2024-07-11 15:17:27.9646 
+» Message:	Specified cast is not valid.
+» Stack Trace:	   at System.Linq.Enumerable.<CastIterator>d__97`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at RTC_Vision_Lite.Classes.cAction.Run_ColorBlobMultiROIs() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1651
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 617
+2024-07-11 15:17:32.5273 
+» Message:	Specified cast is not valid.
+» Stack Trace:	   at System.Linq.Enumerable.<CastIterator>d__97`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at RTC_Vision_Lite.Classes.cAction.Run_ColorBlobMultiROIs() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1651
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 617
+2024-07-11 15:17:39.4832 
+» Message:	Specified cast is not valid.
+» Stack Trace:	   at System.Linq.Enumerable.<CastIterator>d__97`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at RTC_Vision_Lite.Classes.cAction.Run_ColorBlobMultiROIs() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1651
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 617
+2024-07-11 15:17:47.3283 
+» Message:	Specified cast is not valid.
+» Stack Trace:	   at System.Linq.Enumerable.<CastIterator>d__97`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at RTC_Vision_Lite.Classes.cAction.Run_ColorBlobMultiROIs() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1651
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 617
+2024-07-11 15:18:58.9990 
+» Message:	Specified cast is not valid.
+» Stack Trace:	   at System.Linq.Enumerable.<CastIterator>d__97`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at RTC_Vision_Lite.Classes.cAction.Run_ColorBlobMultiROIs() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1651
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 617
+2024-07-11 15:25:31.1398 
+» Message:	Specified cast is not valid.
+» Stack Trace:	   at System.Linq.Enumerable.<CastIterator>d__97`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at RTC_Vision_Lite.Classes.cAction.Run_ColorBlobMultiROIs() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1651
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 617
+2024-07-11 15:25:56.7886 
+» Message:	Specified cast is not valid.
+» Stack Trace:	   at System.Linq.Enumerable.<CastIterator>d__97`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at RTC_Vision_Lite.Classes.cAction.Run_ColorBlobMultiROIs() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1651
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 617
+2024-07-11 15:26:19.3026 
+» Message:	Specified cast is not valid.
+» Stack Trace:	   at System.Linq.Enumerable.<CastIterator>d__97`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at RTC_Vision_Lite.Classes.cAction.Run_ColorBlobMultiROIs() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1651
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 617
+2024-07-11 15:27:13.9095 
+» Message:	Specified cast is not valid.
+» Stack Trace:	   at System.Linq.Enumerable.<CastIterator>d__97`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at RTC_Vision_Lite.Classes.cAction.Run_ColorBlobMultiROIs()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-07-11 15:27:22.6025 
+» Message:	Specified cast is not valid.
+» Stack Trace:	   at System.Linq.Enumerable.<CastIterator>d__97`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at RTC_Vision_Lite.Classes.cAction.Run_ColorBlobMultiROIs()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-07-11 15:27:59.8303 
+» Message:	Specified cast is not valid.
+» Stack Trace:	   at System.Linq.Enumerable.<CastIterator>d__97`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at RTC_Vision_Lite.Classes.cAction.Run_ColorBlobMultiROIs()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-07-11 15:28:11.7175 
+» Message:	Specified cast is not valid.
+» Stack Trace:	   at System.Linq.Enumerable.<CastIterator>d__97`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at RTC_Vision_Lite.Classes.cAction.Run_ColorBlobMultiROIs()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-07-11 15:28:21.5367 
+» Message:	Specified cast is not valid.
+» Stack Trace:	   at System.Linq.Enumerable.<CastIterator>d__97`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at RTC_Vision_Lite.Classes.cAction.Run_ColorBlobMultiROIs()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-07-11 15:29:51.1566 
+» Message:	Specified cast is not valid.
+» Stack Trace:	   at System.Linq.Enumerable.<CastIterator>d__97`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at RTC_Vision_Lite.Classes.cAction.Run_ColorBlobMultiROIs()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-07-11 15:29:58.0184 
+» Message:	Specified cast is not valid.
+» Stack Trace:	   at System.Linq.Enumerable.<CastIterator>d__97`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at RTC_Vision_Lite.Classes.cAction.Run_ColorBlobMultiROIs()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-07-11 15:31:41.9678 
+» Message:	The given path's format is not supported.
+» Stack Trace:	   at System.Security.Permissions.FileIOPermission.EmulateFileIOPermissionChecks(String fullPath)
+   at System.Security.Permissions.FileIOPermission.QuickDemand(FileIOPermissionAccess access, String fullPath, Boolean checkForDuplicates, Boolean needFullPath)
+   at System.IO.Path.GetFullPath(String path)
+   at System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   at System.Drawing.IntSecurity.DemandWriteFileIO(String fileName)
+   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at System.Drawing.Image.Save(String filename, ImageFormat format)
+   at System.Drawing.Image.Save(String filename)
+   at RTC_Vision_Lite.Classes.cAction.Run_ColorBlobMultiROIs()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-07-11 15:32:16.9414 
+» Message:	The given path's format is not supported.
+» Stack Trace:	   at System.Security.Permissions.FileIOPermission.EmulateFileIOPermissionChecks(String fullPath)
+   at System.Security.Permissions.FileIOPermission.QuickDemand(FileIOPermissionAccess access, String fullPath, Boolean checkForDuplicates, Boolean needFullPath)
+   at System.IO.Path.GetFullPath(String path)
+   at System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   at System.Drawing.IntSecurity.DemandWriteFileIO(String fileName)
+   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at System.Drawing.Image.Save(String filename, ImageFormat format)
+   at System.Drawing.Image.Save(String filename)
+   at RTC_Vision_Lite.Classes.cAction.Run_ColorBlobMultiROIs()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-07-11 15:32:55.4897 
+» Message:	Illegal characters in path.
+» Stack Trace:	   at System.IO.LongPathHelper.Normalize(String path, UInt32 maxPathLength, Boolean checkInvalidCharacters, Boolean expandShortPaths)
+   at System.IO.Path.NewNormalizePath(String path, Int32 maxPathLength, Boolean expandShortPaths)
+   at System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   at System.IO.Path.GetFullPathInternal(String path)
+   at System.IO.Path.GetFullPath(String path)
+   at System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   at System.Drawing.IntSecurity.DemandWriteFileIO(String fileName)
+   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at System.Drawing.Image.Save(String filename, ImageFormat format)
+   at System.Drawing.Image.Save(String filename)
+   at RTC_Vision_Lite.Classes.cAction.Run_ColorBlobMultiROIs()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-07-11 15:34:26.1115 
+» Message:	Specified cast is not valid.
+» Stack Trace:	   at System.Linq.Enumerable.<CastIterator>d__97`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at RTC_Vision_Lite.Classes.cAction.Run_ColorBlobMultiROIs()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-07-11 15:35:04.2831 
+» Message:	Specified cast is not valid.
+» Stack Trace:	   at System.Linq.Enumerable.<CastIterator>d__97`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at RTC_Vision_Lite.Classes.cAction.Run_ColorBlobMultiROIs()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-07-11 15:36:59.4568 
+» Message:	Specified cast is not valid.
+» Stack Trace:	   at System.Linq.Enumerable.<CastIterator>d__97`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at RTC_Vision_Lite.Classes.cAction.Run_ColorBlobMultiROIs()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-07-11 15:38:51.1136 
+» Message:	Specified cast is not valid.
+» Stack Trace:	   at System.Linq.Enumerable.<CastIterator>d__97`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at RTC_Vision_Lite.Classes.cAction.Run_ColorBlobMultiROIs()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-07-11 15:39:27.8428 
+» Message:	Specified cast is not valid.
+» Stack Trace:	   at System.Linq.Enumerable.<CastIterator>d__97`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at RTC_Vision_Lite.Classes.cAction.Run_ColorBlobMultiROIs()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-07-11 15:40:53.2972 
+» Message:	Specified cast is not valid.
+» Stack Trace:	   at System.Linq.Enumerable.<CastIterator>d__97`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at RTC_Vision_Lite.Classes.cAction.Run_ColorBlobMultiROIs()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-07-11 15:41:27.0576 
+» Message:	Specified cast is not valid.
+» Stack Trace:	   at System.Linq.Enumerable.<CastIterator>d__97`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at RTC_Vision_Lite.Classes.cAction.Run_ColorBlobMultiROIs()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-07-11 15:43:44.0712 
+» Message:	Specified cast is not valid.
+» Stack Trace:	   at System.Linq.Enumerable.<CastIterator>d__97`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at RTC_Vision_Lite.Classes.cAction.Run_ColorBlobMultiROIs()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-07-11 15:46:02.5537 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_ColorBlobMultiROIs()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-07-11 15:46:14.2681 
+» Message:	Specified cast is not valid.
+» Stack Trace:	   at System.Linq.Enumerable.<CastIterator>d__97`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at RTC_Vision_Lite.Classes.cAction.Run_ColorBlobMultiROIs()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-07-11 15:46:28.5338 
+» Message:	Specified cast is not valid.
+» Stack Trace:	   at System.Linq.Enumerable.<CastIterator>d__97`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at RTC_Vision_Lite.Classes.cAction.Run_ColorBlobMultiROIs()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-07-11 15:46:54.0077 
+» Message:	Specified cast is not valid.
+» Stack Trace:	   at System.Linq.Enumerable.<CastIterator>d__97`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at RTC_Vision_Lite.Classes.cAction.Run_ColorBlobMultiROIs()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-07-11 15:46:55.8577 
+» Message:	Specified cast is not valid.
+» Stack Trace:	   at System.Linq.Enumerable.<CastIterator>d__97`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at RTC_Vision_Lite.Classes.cAction.Run_ColorBlobMultiROIs()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-07-11 15:47:02.5207 
+» Message:	Specified cast is not valid.
+» Stack Trace:	   at System.Linq.Enumerable.<CastIterator>d__97`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at RTC_Vision_Lite.Classes.cAction.Run_ColorBlobMultiROIs()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-07-11 15:47:07.9605 
+» Message:	Specified cast is not valid.
+» Stack Trace:	   at System.Linq.Enumerable.<CastIterator>d__97`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at RTC_Vision_Lite.Classes.cAction.Run_ColorBlobMultiROIs()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-07-11 15:47:17.3094 
+» Message:	Specified cast is not valid.
+» Stack Trace:	   at System.Linq.Enumerable.<CastIterator>d__97`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at RTC_Vision_Lite.Classes.cAction.Run_ColorBlobMultiROIs()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-07-11 15:47:26.7259 
+» Message:	Specified cast is not valid.
+» Stack Trace:	   at System.Linq.Enumerable.<CastIterator>d__97`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at RTC_Vision_Lite.Classes.cAction.Run_ColorBlobMultiROIs()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-07-11 15:48:53.9858 
+» Message:	Specified cast is not valid.
+» Stack Trace:	   at System.Linq.Enumerable.<CastIterator>d__97`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at RTC_Vision_Lite.Classes.cAction.Run_ColorBlobMultiROIs()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-07-11 15:49:02.2945 
+» Message:	Specified cast is not valid.
+» Stack Trace:	   at System.Linq.Enumerable.<CastIterator>d__97`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at RTC_Vision_Lite.Classes.cAction.Run_ColorBlobMultiROIs()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-07-11 15:49:08.0337 
+» Message:	Specified cast is not valid.
+» Stack Trace:	   at System.Linq.Enumerable.<CastIterator>d__97`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at RTC_Vision_Lite.Classes.cAction.Run_ColorBlobMultiROIs()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-07-11 15:49:17.5463 
+» Message:	Specified cast is not valid.
+» Stack Trace:	   at System.Linq.Enumerable.<CastIterator>d__97`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at RTC_Vision_Lite.Classes.cAction.Run_ColorBlobMultiROIs()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-07-11 16:20:04.3859 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_ColorBlobMultiROIs()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-07-11 16:23:50.3724 
+» Message:	Specified cast is not valid.
+» Stack Trace:	   at System.Linq.Enumerable.<CastIterator>d__97`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at RTC_Vision_Lite.Classes.cAction.Run_ColorBlobMultiROIs() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1660
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 617
+2024-07-11 16:23:51.8404 
+» Message:	Specified cast is not valid.
+» Stack Trace:	   at System.Linq.Enumerable.<CastIterator>d__97`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at RTC_Vision_Lite.Classes.cAction.Run_ColorBlobMultiROIs() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1660
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 617
+2024-07-11 16:23:54.1543 
+» Message:	Specified cast is not valid.
+» Stack Trace:	   at System.Linq.Enumerable.<CastIterator>d__97`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at RTC_Vision_Lite.Classes.cAction.Run_ColorBlobMultiROIs() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1660
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 617
+2024-07-11 16:24:02.2638 
+» Message:	Specified cast is not valid.
+» Stack Trace:	   at System.Linq.Enumerable.<CastIterator>d__97`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at RTC_Vision_Lite.Classes.cAction.Run_ColorBlobMultiROIs() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1660
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 617
+2024-07-11 16:25:25.1596 
+» Message:	Specified cast is not valid.
+» Stack Trace:	   at System.Linq.Enumerable.<CastIterator>d__97`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at RTC_Vision_Lite.Classes.cAction.Run_ColorBlobMultiROIs()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-07-11 16:25:28.0087 
+» Message:	Specified cast is not valid.
+» Stack Trace:	   at System.Linq.Enumerable.<CastIterator>d__97`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at RTC_Vision_Lite.Classes.cAction.Run_ColorBlobMultiROIs()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)

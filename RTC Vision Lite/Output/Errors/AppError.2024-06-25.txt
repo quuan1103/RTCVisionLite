@@ -1,0 +1,498 @@
+2024-06-25 08:12:10.2960 
+» Message:	The given key was not present in the dictionary.
+» Stack Trace:	   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2023
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 529
+2024-06-25 08:12:10.8924 
+» Message:	The given key was not present in the dictionary.
+» Stack Trace:	   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2023
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 529
+2024-06-25 08:12:11.4170 
+» Message:	The given key was not present in the dictionary.
+» Stack Trace:	   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2023
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 529
+2024-06-25 08:12:11.9496 
+» Message:	The given key was not present in the dictionary.
+» Stack Trace:	   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2023
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 529
+2024-06-25 08:12:12.4752 
+» Message:	The given key was not present in the dictionary.
+» Stack Trace:	   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2023
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 529
+2024-06-25 08:12:12.9499 
+» Message:	The given key was not present in the dictionary.
+» Stack Trace:	   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2023
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 529
+2024-06-25 08:12:13.4296 
+» Message:	The given key was not present in the dictionary.
+» Stack Trace:	   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2023
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 529
+2024-06-25 08:12:13.9054 
+» Message:	The given key was not present in the dictionary.
+» Stack Trace:	   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2023
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 529
+2024-06-25 08:12:14.4250 
+» Message:	The given key was not present in the dictionary.
+» Stack Trace:	   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2023
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 529
+2024-06-25 08:12:43.8196 
+» Message:	The given key was not present in the dictionary.
+» Stack Trace:	   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-06-25 08:12:44.0660 
+» Message:	The given key was not present in the dictionary.
+» Stack Trace:	   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-06-25 08:12:44.3113 
+» Message:	The given key was not present in the dictionary.
+» Stack Trace:	   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-06-25 08:12:44.5377 
+» Message:	The given key was not present in the dictionary.
+» Stack Trace:	   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-06-25 08:12:44.7880 
+» Message:	The given key was not present in the dictionary.
+» Stack Trace:	   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-06-25 08:12:45.0284 
+» Message:	The given key was not present in the dictionary.
+» Stack Trace:	   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-06-25 08:12:45.2448 
+» Message:	The given key was not present in the dictionary.
+» Stack Trace:	   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-06-25 08:12:45.4822 
+» Message:	The given key was not present in the dictionary.
+» Stack Trace:	   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-06-25 08:12:45.7225 
+» Message:	The given key was not present in the dictionary.
+» Stack Trace:	   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-06-25 08:12:45.9390 
+» Message:	The given key was not present in the dictionary.
+» Stack Trace:	   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-06-25 08:12:46.1604 
+» Message:	The given key was not present in the dictionary.
+» Stack Trace:	   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-06-25 08:12:46.4227 
+» Message:	The given key was not present in the dictionary.
+» Stack Trace:	   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-06-25 08:12:46.6620 
+» Message:	The given key was not present in the dictionary.
+» Stack Trace:	   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-06-25 08:12:46.9124 
+» Message:	The given key was not present in the dictionary.
+» Stack Trace:	   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-06-25 08:12:47.1467 
+» Message:	The given key was not present in the dictionary.
+» Stack Trace:	   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-06-25 08:12:47.4200 
+» Message:	The given key was not present in the dictionary.
+» Stack Trace:	   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-06-25 08:25:06.5811 
+» Message:	The given key was not present in the dictionary.
+» Stack Trace:	   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-06-25 08:25:06.6908 
+» Message:	The given key was not present in the dictionary.
+» Stack Trace:	   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-06-25 08:25:07.0608 
+» Message:	The given key was not present in the dictionary.
+» Stack Trace:	   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-06-25 08:25:07.5246 
+» Message:	The given key was not present in the dictionary.
+» Stack Trace:	   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-06-25 08:25:08.0362 
+» Message:	The given key was not present in the dictionary.
+» Stack Trace:	   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-06-25 08:25:08.5681 
+» Message:	The given key was not present in the dictionary.
+» Stack Trace:	   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-06-25 08:25:09.0598 
+» Message:	The given key was not present in the dictionary.
+» Stack Trace:	   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-06-25 08:25:09.5974 
+» Message:	The given key was not present in the dictionary.
+» Stack Trace:	   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-06-25 08:25:10.0352 
+» Message:	The given key was not present in the dictionary.
+» Stack Trace:	   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-06-25 08:25:10.5967 
+» Message:	The given key was not present in the dictionary.
+» Stack Trace:	   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-06-25 08:25:11.0415 
+» Message:	The given key was not present in the dictionary.
+» Stack Trace:	   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-06-25 08:25:11.5411 
+» Message:	The given key was not present in the dictionary.
+» Stack Trace:	   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-06-25 08:25:12.0657 
+» Message:	The given key was not present in the dictionary.
+» Stack Trace:	   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-06-25 08:25:12.5797 
+» Message:	The given key was not present in the dictionary.
+» Stack Trace:	   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-06-25 08:25:13.1123 
+» Message:	The given key was not present in the dictionary.
+» Stack Trace:	   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-06-25 08:25:13.5923 
+» Message:	The given key was not present in the dictionary.
+» Stack Trace:	   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-06-25 08:25:14.0740 
+» Message:	The given key was not present in the dictionary.
+» Stack Trace:	   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-06-25 08:25:14.5817 
+» Message:	The given key was not present in the dictionary.
+» Stack Trace:	   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-06-25 08:26:53.9732 
+» Message:	Object is currently in use elsewhere.
+» Stack Trace:	   at System.Drawing.Image.get_RawFormat()
+   at System.Drawing.Graphics.DrawImage(Image image, Int32 x, Int32 y, Int32 width, Int32 height)
+   at System.Drawing.Bitmap..ctor(Image original, Int32 width, Int32 height)
+   at System.Drawing.Bitmap..ctor(Image original)
+   at RTC_Vision_Lite.Classes.cAction.Run_ColorBlob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1098
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 550
+2024-06-25 08:26:54.9558 
+» Message:	Object is currently in use elsewhere.
+» Stack Trace:	   at System.Drawing.Image.get_RawFormat()
+   at System.Drawing.Graphics.DrawImage(Image image, Int32 x, Int32 y, Int32 width, Int32 height)
+   at System.Drawing.Bitmap..ctor(Image original, Int32 width, Int32 height)
+   at System.Drawing.Bitmap..ctor(Image original)
+   at RTC_Vision_Lite.Classes.cAction.Run_ColorBlob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1098
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 550
+2024-06-25 08:26:56.4838 
+» Message:	Object is currently in use elsewhere.
+» Stack Trace:	   at System.Drawing.Image.get_RawFormat()
+   at System.Drawing.Graphics.DrawImage(Image image, Int32 x, Int32 y, Int32 width, Int32 height)
+   at System.Drawing.Bitmap..ctor(Image original, Int32 width, Int32 height)
+   at System.Drawing.Bitmap..ctor(Image original)
+   at RTC_Vision_Lite.Classes.cAction.Run_ColorBlob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1098
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 550
+2024-06-25 08:27:03.5780 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.GetFrameCount(FrameDimension dimension)
+   at RTC_Vision_Lite.Classes.SImage.set_rtcValue(Image value) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cBaseTypes.cs:line 422
+   at RTC_Vision_Lite.Classes.cGroupActions.RunBefore(cAction Action, Boolean _WithShowMessage) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 623
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_RunCurrentAction(Boolean isShowMessage) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 538
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Run(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isShowMessage, Boolean isThreading, Boolean isResetIdRun, Boolean isCheckData, cAction runProgramAction) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 147
+2024-06-25 08:27:18.1291 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.Clone()
+   at RTC_Vision_Lite.Classes.cAction.BackupImage(Image image) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2210
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_BackupImage() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 114
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_CleanData() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 21
+2024-06-25 08:27:18.1670 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.GetFrameCount(FrameDimension dimension)
+   at RTC_Vision_Lite.Classes.SImage.set_rtcValue(Image value) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cBaseTypes.cs:line 422
+   at RTC_Vision_Lite.Classes.cGroupActions.RunBefore(cAction Action, Boolean _WithShowMessage) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 623
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_RunCurrentAction(Boolean isShowMessage) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 538
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Run(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isShowMessage, Boolean isThreading, Boolean isResetIdRun, Boolean isCheckData, cAction runProgramAction) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 147
+2024-06-25 08:27:31.5810 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.Clone()
+   at RTC_Vision_Lite.Classes.cAction.BackupImage(Image image) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2210
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_BackupImage() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 114
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_CleanData() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 21
+2024-06-25 08:27:31.6169 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.GetFrameCount(FrameDimension dimension)
+   at RTC_Vision_Lite.Classes.SImage.set_rtcValue(Image value) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cBaseTypes.cs:line 422
+   at RTC_Vision_Lite.Classes.cGroupActions.RunBefore(cAction Action, Boolean _WithShowMessage) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 623
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_RunCurrentAction(Boolean isShowMessage) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 538
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Run(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isShowMessage, Boolean isThreading, Boolean isResetIdRun, Boolean isCheckData, cAction runProgramAction) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 147
+2024-06-25 08:27:47.6896 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.Clone()
+   at RTC_Vision_Lite.Classes.cAction.BackupImage(Image image) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2210
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_BackupImage() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 114
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_CleanData() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 21
+2024-06-25 08:27:47.7285 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.GetFrameCount(FrameDimension dimension)
+   at RTC_Vision_Lite.Classes.SImage.set_rtcValue(Image value) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cBaseTypes.cs:line 422
+   at RTC_Vision_Lite.Classes.cGroupActions.RunBefore(cAction Action, Boolean _WithShowMessage) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 623
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_RunCurrentAction(Boolean isShowMessage) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 538
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Run(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isShowMessage, Boolean isThreading, Boolean isResetIdRun, Boolean isCheckData, cAction runProgramAction) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 147
+2024-06-25 08:28:24.9868 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.Clone()
+   at RTC_Vision_Lite.Classes.cAction.BackupImage(Image image) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2210
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_BackupImage() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 114
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_CleanData() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 21
+2024-06-25 08:28:25.0236 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.GetFrameCount(FrameDimension dimension)
+   at RTC_Vision_Lite.Classes.SImage.set_rtcValue(Image value) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cBaseTypes.cs:line 422
+   at RTC_Vision_Lite.Classes.cGroupActions.RunBefore(cAction Action, Boolean _WithShowMessage) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 623
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_RunCurrentAction(Boolean isShowMessage) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 538
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Run(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isShowMessage, Boolean isThreading, Boolean isResetIdRun, Boolean isCheckData, cAction runProgramAction) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 147
+2024-06-25 08:28:26.3343 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.Clone()
+   at RTC_Vision_Lite.Classes.cAction.BackupImage(Image image) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2210
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_BackupImage() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 114
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_CleanData() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 21
+2024-06-25 08:28:26.3752 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.GetFrameCount(FrameDimension dimension)
+   at RTC_Vision_Lite.Classes.SImage.set_rtcValue(Image value) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cBaseTypes.cs:line 422
+   at RTC_Vision_Lite.Classes.cGroupActions.RunBefore(cAction Action, Boolean _WithShowMessage) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 623
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_RunCurrentAction(Boolean isShowMessage) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 538
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Run(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isShowMessage, Boolean isThreading, Boolean isResetIdRun, Boolean isCheckData, cAction runProgramAction) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 147
+2024-06-25 08:28:30.3640 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.Clone()
+   at RTC_Vision_Lite.Classes.cAction.BackupImage(Image image) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2210
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_BackupImage() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 114
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_CleanData() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 21
+2024-06-25 08:28:30.4119 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.GetFrameCount(FrameDimension dimension)
+   at RTC_Vision_Lite.Classes.SImage.set_rtcValue(Image value) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cBaseTypes.cs:line 422
+   at RTC_Vision_Lite.Classes.cGroupActions.RunBefore(cAction Action, Boolean _WithShowMessage) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 623
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_RunCurrentAction(Boolean isShowMessage) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 538
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Run(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isShowMessage, Boolean isThreading, Boolean isResetIdRun, Boolean isCheckData, cAction runProgramAction) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 147
+2024-06-25 08:28:32.0695 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.Clone()
+   at RTC_Vision_Lite.Classes.cAction.BackupImage(Image image) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2210
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_BackupImage() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 114
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_CleanData() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 21
+2024-06-25 08:28:32.1064 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.GetFrameCount(FrameDimension dimension)
+   at RTC_Vision_Lite.Classes.SImage.set_rtcValue(Image value) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cBaseTypes.cs:line 422
+   at RTC_Vision_Lite.Classes.cGroupActions.RunBefore(cAction Action, Boolean _WithShowMessage) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 623
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_RunCurrentAction(Boolean isShowMessage) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 538
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Run(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isShowMessage, Boolean isThreading, Boolean isResetIdRun, Boolean isCheckData, cAction runProgramAction) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 147
+2024-06-25 08:28:41.4417 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.Clone()
+   at RTC_Vision_Lite.Classes.cAction.BackupImage(Image image) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2210
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_BackupImage() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 114
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_CleanData() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 21
+2024-06-25 08:28:41.4796 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.GetFrameCount(FrameDimension dimension)
+   at RTC_Vision_Lite.Classes.SImage.set_rtcValue(Image value) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cBaseTypes.cs:line 422
+   at RTC_Vision_Lite.Classes.cGroupActions.RunBefore(cAction Action, Boolean _WithShowMessage) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 623
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_RunCurrentAction(Boolean isShowMessage) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 538
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Run(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isShowMessage, Boolean isThreading, Boolean isResetIdRun, Boolean isCheckData, cAction runProgramAction) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 147
+2024-06-25 08:28:45.2511 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.Clone()
+   at RTC_Vision_Lite.Classes.cAction.BackupImage(Image image) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2210
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_BackupImage() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 114
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_CleanData() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 21
+2024-06-25 08:28:45.2868 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.GetFrameCount(FrameDimension dimension)
+   at RTC_Vision_Lite.Classes.SImage.set_rtcValue(Image value) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cBaseTypes.cs:line 422
+   at RTC_Vision_Lite.Classes.cGroupActions.RunBefore(cAction Action, Boolean _WithShowMessage) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 623
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_RunCurrentAction(Boolean isShowMessage) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 538
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Run(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isShowMessage, Boolean isThreading, Boolean isResetIdRun, Boolean isCheckData, cAction runProgramAction) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 147
+2024-06-25 13:32:33.5041 
+» Message:	The given key was not present in the dictionary.
+» Stack Trace:	   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2023
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 529
+2024-06-25 13:32:33.6766 
+» Message:	The given key was not present in the dictionary.
+» Stack Trace:	   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2023
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 529
+2024-06-25 13:32:34.0019 
+» Message:	The given key was not present in the dictionary.
+» Stack Trace:	   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2023
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 529
+2024-06-25 13:32:34.5485 
+» Message:	The given key was not present in the dictionary.
+» Stack Trace:	   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2023
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 529
+2024-06-25 13:32:35.0025 
+» Message:	The given key was not present in the dictionary.
+» Stack Trace:	   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2023
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 529
+2024-06-25 13:32:35.5308 
+» Message:	The given key was not present in the dictionary.
+» Stack Trace:	   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2023
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 529
+2024-06-25 13:32:36.0550 
+» Message:	The given key was not present in the dictionary.
+» Stack Trace:	   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2023
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 529
+2024-06-25 13:32:36.5407 
+» Message:	The given key was not present in the dictionary.
+» Stack Trace:	   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2023
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 529
+2024-06-25 13:33:07.7164 
+» Message:	The given key was not present in the dictionary.
+» Stack Trace:	   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2023
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 529
+2024-06-25 13:33:07.8311 
+» Message:	The given key was not present in the dictionary.
+» Stack Trace:	   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2023
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 529
+2024-06-25 13:33:08.3599 
+» Message:	The given key was not present in the dictionary.
+» Stack Trace:	   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2023
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 529
+2024-06-25 13:33:08.8994 
+» Message:	The given key was not present in the dictionary.
+» Stack Trace:	   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2023
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 529
+2024-06-25 13:33:09.3592 
+» Message:	The given key was not present in the dictionary.
+» Stack Trace:	   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2023
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 529
+2024-06-25 13:33:09.8830 
+» Message:	The given key was not present in the dictionary.
+» Stack Trace:	   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2023
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 529
+2024-06-25 13:33:10.3587 
+» Message:	The given key was not present in the dictionary.
+» Stack Trace:	   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2023
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 529
+2024-06-25 13:33:10.8433 
+» Message:	The given key was not present in the dictionary.
+» Stack Trace:	   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2023
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 529
+2024-06-25 13:33:11.3321 
+» Message:	The given key was not present in the dictionary.
+» Stack Trace:	   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2023
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 529
+2024-06-25 13:33:24.8818 
+» Message:	The given key was not present in the dictionary.
+» Stack Trace:	   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2023
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 529
+2024-06-25 13:33:25.7276 
+» Message:	The given key was not present in the dictionary.
+» Stack Trace:	   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2023
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 529
+2024-06-25 13:33:26.5932 
+» Message:	The given key was not present in the dictionary.
+» Stack Trace:	   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2023
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 529
+2024-06-25 13:33:38.8562 
+» Message:	The given key was not present in the dictionary.
+» Stack Trace:	   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2023
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 529
+2024-06-25 13:33:39.3993 
+» Message:	The given key was not present in the dictionary.
+» Stack Trace:	   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2023
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 529
+2024-06-25 13:33:39.8989 
+» Message:	The given key was not present in the dictionary.
+» Stack Trace:	   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2023
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 529
+2024-06-25 13:33:40.3915 
+» Message:	The given key was not present in the dictionary.
+» Stack Trace:	   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2023
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 529
+2024-06-25 14:52:34.6402 
+» Message:	Cannot access a disposed object.
+Object name: 'FrmHsmartWindow'.
+» Stack Trace:	   at System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   at System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   at System.Windows.Forms.Control.Invoke(Delegate method)
+   at RTC_Vision_Lite.Forms.FrmHsmartWindow.VisibleOrHideControlByContext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\2. Forms\FrmHsmartWindow.cs:line 245
+   at RTC_Vision_Lite.Forms.FrmHsmartWindow.set_Image(Image value) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\2. Forms\FrmHsmartWindow.cs:line 42
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Snap(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isBringImageToMain, Boolean isFromOtherCam) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 741
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Run(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isShowMessage, Boolean isThreading, Boolean isResetIdRun, Boolean isCheckData, cAction runProgramAction) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 227
+2024-06-25 15:40:25.8178 
+» Message:	Column 'ProjectName' does not belong to table CAMSettings.
+» Stack Trace:	   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.set_Item(String columnName, Object value)
+   at RTC_Vision_Lite.Classes.ProjectData.SaveProject_CAMs_CamSettings(cCAMTypes _CAM) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\DataAndFiles\cData.ProjectData.cs:line 1310

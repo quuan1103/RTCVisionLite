@@ -1,0 +1,179 @@
+2025-05-28 09:17:24.0889 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_Math_SelectString() in D:\2. RTC Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.MathFunction.cs:line 638
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\2. RTC Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 857
+2025-05-28 10:43:45.3254 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.String]' to type 'RTC_Vision_Lite.Classes.SDouble'.
+» Stack Trace:	   at RTC_Vision_Lite.PublicFunctions.GlobFuncs.Object2Str(Object _object)
+   at RTC_Vision_Lite.UserControls.ucBaseActionDetail.UpdateReferencePropertyControls_Process(String PropertyName)
+   at RTC_Vision_Lite.UserControls.ucBaseActionDetail.UpdateReferencePropertyControls(String PropertyName)
+   at RTC_Vision_Lite.UserControls.ucBaseActionDetail.ReviewAllPropertyValueToViewInfo_OutputValue_ToControls(List`1 ListOutputPropertyInfo)
+   at RTC_Vision_Lite.UserControls.ucBaseActionDetail.ReviewAllPropertyValueToViewInfo_Process()
+   at RTC_Vision_Lite.UserControls.ucBaseActionDetail.ReviewAllPropertyValueToViewInfo()
+   at RTC_Vision_Lite.Classes.cAction.ViewResultWhenAfterRun(Stopwatch stopwatch)
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2025-05-28 11:22:20.8520 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: startIndex
+» Stack Trace:	   at System.ParseNumbers.StringToInt(String s, Int32 radix, Int32 flags, Int32* currPos)
+   at System.Convert.ToInt32(String value, Int32 fromBase)
+   at RTC_Vision_Lite.Classes.cAction.Run_Math_BinaryToInteger() in D:\2. RTC Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.MathFunction.cs:line 789
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\2. RTC Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 865
+2025-05-28 14:44:36.1377 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: startIndex
+» Stack Trace:	   at System.ParseNumbers.StringToInt(String s, Int32 radix, Int32 flags, Int32* currPos)
+   at System.Convert.ToInt32(String value, Int32 fromBase)
+   at RTC_Vision_Lite.Classes.cAction.Run_Math_BinaryToInteger() in D:\2. RTC Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.MathFunction.cs:line 794
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\2. RTC Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 865
+2025-05-28 14:44:38.1624 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: startIndex
+» Stack Trace:	   at System.ParseNumbers.StringToInt(String s, Int32 radix, Int32 flags, Int32* currPos)
+   at System.Convert.ToInt32(String value, Int32 fromBase)
+   at RTC_Vision_Lite.Classes.cAction.Run_Math_BinaryToInteger() in D:\2. RTC Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.MathFunction.cs:line 794
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\2. RTC Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 865
+2025-05-28 14:44:38.4190 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: startIndex
+» Stack Trace:	   at System.ParseNumbers.StringToInt(String s, Int32 radix, Int32 flags, Int32* currPos)
+   at System.Convert.ToInt32(String value, Int32 fromBase)
+   at RTC_Vision_Lite.Classes.cAction.Run_Math_BinaryToInteger() in D:\2. RTC Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.MathFunction.cs:line 794
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\2. RTC Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 865
+2025-05-28 14:44:38.6203 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: startIndex
+» Stack Trace:	   at System.ParseNumbers.StringToInt(String s, Int32 radix, Int32 flags, Int32* currPos)
+   at System.Convert.ToInt32(String value, Int32 fromBase)
+   at RTC_Vision_Lite.Classes.cAction.Run_Math_BinaryToInteger() in D:\2. RTC Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.MathFunction.cs:line 794
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\2. RTC Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 865
+2025-05-28 14:44:38.8144 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: startIndex
+» Stack Trace:	   at System.ParseNumbers.StringToInt(String s, Int32 radix, Int32 flags, Int32* currPos)
+   at System.Convert.ToInt32(String value, Int32 fromBase)
+   at RTC_Vision_Lite.Classes.cAction.Run_Math_BinaryToInteger() in D:\2. RTC Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.MathFunction.cs:line 794
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\2. RTC Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 865
+2025-05-28 16:43:24.1017 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: startIndex
+» Stack Trace:	   at System.ParseNumbers.StringToInt(String s, Int32 radix, Int32 flags, Int32* currPos)
+   at System.Convert.ToInt32(String value, Int32 fromBase)
+   at RTC_Vision_Lite.Classes.cAction.Run_Math_BinaryToInteger() in D:\2. RTC Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.MathFunction.cs:line 794
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\2. RTC Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 865
+2025-05-28 16:48:56.0630 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: startIndex
+» Stack Trace:	   at System.ParseNumbers.StringToInt(String s, Int32 radix, Int32 flags, Int32* currPos)
+   at System.Convert.ToInt32(String value, Int32 fromBase)
+   at RTC_Vision_Lite.Classes.cAction.Run_Math_BinaryToInteger() in D:\2. RTC Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.MathFunction.cs:line 794
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\2. RTC Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 865
+2025-05-28 16:57:15.1725 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: startIndex
+» Stack Trace:	   at System.ParseNumbers.StringToInt(String s, Int32 radix, Int32 flags, Int32* currPos)
+   at System.Convert.ToInt32(String value, Int32 fromBase)
+   at RTC_Vision_Lite.Classes.cAction.Run_Math_BinaryToInteger() in D:\2. RTC Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.MathFunction.cs:line 794
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\2. RTC Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 865
+2025-05-28 17:07:06.8345 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_Math_InvertPosition() in D:\2. RTC Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.MathFunction.cs:line 746
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\2. RTC Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 859
+2025-05-28 17:07:13.1876 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_Math_InvertPosition() in D:\2. RTC Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.MathFunction.cs:line 746
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\2. RTC Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 859
+2025-05-28 17:16:32.2800 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_Math_InvertPosition() in D:\2. RTC Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.MathFunction.cs:line 746
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\2. RTC Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 859
+2025-05-28 17:27:38.7744 
+» Message:	No connection could be made because the target machine actively refused it 127.0.0.1:2002
+» Stack Trace:	   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at RTC_Vision_Lite.Classes.CSocketClient.ConnectCallback(IAsyncResult AR)
+2025-05-28 17:27:42.8141 
+» Message:	No connection could be made because the target machine actively refused it 127.0.0.1:2002
+» Stack Trace:	   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at RTC_Vision_Lite.Classes.CSocketClient.ConnectCallback(IAsyncResult AR)
+2025-05-28 17:29:39.8992 
+» Message:	No connection could be made because the target machine actively refused it 127.0.0.1:2002
+» Stack Trace:	   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at RTC_Vision_Lite.Classes.CSocketClient.ConnectCallback(IAsyncResult AR) in D:\2. RTC Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Connect\CSocketClient.cs:line 224
+2025-05-28 17:29:43.9262 
+» Message:	No connection could be made because the target machine actively refused it 127.0.0.1:2002
+» Stack Trace:	   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at RTC_Vision_Lite.Classes.CSocketClient.ConnectCallback(IAsyncResult AR) in D:\2. RTC Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Connect\CSocketClient.cs:line 224
+2025-05-28 17:29:47.9728 
+» Message:	No connection could be made because the target machine actively refused it 127.0.0.1:2002
+» Stack Trace:	   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at RTC_Vision_Lite.Classes.CSocketClient.ConnectCallback(IAsyncResult AR) in D:\2. RTC Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Connect\CSocketClient.cs:line 224
+2025-05-28 17:29:51.0187 
+» Message:	Object is currently in use elsewhere.
+» Stack Trace:	   at System.Drawing.Image.Clone()
+   at RTC_Vision_Lite.Classes.cAction.BackupImage(Image image) in D:\2. RTC Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 3421
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_BackupImage() in D:\2. RTC Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 116
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_CleanData() in D:\2. RTC Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 23
+2025-05-28 17:29:52.0122 
+» Message:	No connection could be made because the target machine actively refused it 127.0.0.1:2002
+» Stack Trace:	   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at RTC_Vision_Lite.Classes.CSocketClient.ConnectCallback(IAsyncResult AR) in D:\2. RTC Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Connect\CSocketClient.cs:line 224
+2025-05-28 17:29:53.2205 
+» Message:	No connection could be made because the target machine actively refused it 127.0.0.1:2002
+» Stack Trace:	   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at RTC_Vision_Lite.Classes.CSocketClient.ConnectCallback(IAsyncResult AR) in D:\2. RTC Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Connect\CSocketClient.cs:line 224
+2025-05-28 17:29:54.3864 
+» Message:	No connection could be made because the target machine actively refused it 127.0.0.1:2002
+» Stack Trace:	   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at RTC_Vision_Lite.Classes.CSocketClient.ConnectCallback(IAsyncResult AR) in D:\2. RTC Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Connect\CSocketClient.cs:line 224
+2025-05-28 17:29:55.5007 
+» Message:	No connection could be made because the target machine actively refused it 127.0.0.1:2002
+» Stack Trace:	   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at RTC_Vision_Lite.Classes.CSocketClient.ConnectCallback(IAsyncResult AR) in D:\2. RTC Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Connect\CSocketClient.cs:line 224
+2025-05-28 17:29:56.5547 
+» Message:	No connection could be made because the target machine actively refused it 127.0.0.1:2002
+» Stack Trace:	   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at RTC_Vision_Lite.Classes.CSocketClient.ConnectCallback(IAsyncResult AR) in D:\2. RTC Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Connect\CSocketClient.cs:line 224
+2025-05-28 17:29:57.6739 
+» Message:	No connection could be made because the target machine actively refused it 127.0.0.1:2002
+» Stack Trace:	   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at RTC_Vision_Lite.Classes.CSocketClient.ConnectCallback(IAsyncResult AR) in D:\2. RTC Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Connect\CSocketClient.cs:line 224
+2025-05-28 17:29:58.8124 
+» Message:	No connection could be made because the target machine actively refused it 127.0.0.1:2002
+» Stack Trace:	   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at RTC_Vision_Lite.Classes.CSocketClient.ConnectCallback(IAsyncResult AR) in D:\2. RTC Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Connect\CSocketClient.cs:line 224
+2025-05-28 17:29:59.8996 
+» Message:	No connection could be made because the target machine actively refused it 127.0.0.1:2002
+» Stack Trace:	   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at RTC_Vision_Lite.Classes.CSocketClient.ConnectCallback(IAsyncResult AR) in D:\2. RTC Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Connect\CSocketClient.cs:line 224
+2025-05-28 17:30:01.0319 
+» Message:	No connection could be made because the target machine actively refused it 127.0.0.1:2002
+» Stack Trace:	   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at RTC_Vision_Lite.Classes.CSocketClient.ConnectCallback(IAsyncResult AR) in D:\2. RTC Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Connect\CSocketClient.cs:line 224
+2025-05-28 17:30:02.1738 
+» Message:	No connection could be made because the target machine actively refused it 127.0.0.1:2002
+» Stack Trace:	   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at RTC_Vision_Lite.Classes.CSocketClient.ConnectCallback(IAsyncResult AR) in D:\2. RTC Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Connect\CSocketClient.cs:line 224

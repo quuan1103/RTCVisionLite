@@ -1,0 +1,15 @@
+2025-02-07 10:55:07.3088 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_Brightness() in D:\RTC\01. Project\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2079
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\01. Project\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1032
+2025-02-07 10:57:34.9989 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_SplitImage() in D:\RTC\01. Project\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1694
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\01. Project\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1027
+2025-02-07 10:59:05.1603 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_SplitImage()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()

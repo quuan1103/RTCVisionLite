@@ -1,0 +1,797 @@
+2024-10-09 09:25:42.3204 
+» Message:	Value of '0' is not valid for 'Value'. 'Value' should be between 'Minimum' and 'Maximum'.
+Parameter name: Value
+» Stack Trace:	   at System.Windows.Forms.NumericUpDown.set_Value(Decimal value)
+   at RTC_Vision_Lite.PublicFunctions.GlobFuncs.HIK_SetFloatValueToNumberic(MyHikCamera hikCamera, String paramName, NumericUpDown edit) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Global\GlobFuncs.cs:line 2738
+2024-10-09 09:26:32.9330 
+» Message:	Value of '0' is not valid for 'Value'. 'Value' should be between 'Minimum' and 'Maximum'.
+Parameter name: Value
+» Stack Trace:	   at System.Windows.Forms.NumericUpDown.set_Value(Decimal value)
+   at RTC_Vision_Lite.PublicFunctions.GlobFuncs.HIK_SetFloatValueToNumberic(MyHikCamera hikCamera, String paramName, NumericUpDown edit)
+2024-10-09 11:17:41.1991 
+» Message:	Value of '0' is not valid for 'Value'. 'Value' should be between 'Minimum' and 'Maximum'.
+Parameter name: Value
+» Stack Trace:	   at System.Windows.Forms.NumericUpDown.set_Value(Decimal value)
+   at RTC_Vision_Lite.PublicFunctions.GlobFuncs.HIK_SetFloatValueToNumberic(MyHikCamera hikCamera, String paramName, NumericUpDown edit) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Global\GlobFuncs.cs:line 2738
+2024-10-09 11:18:20.9347 
+» Message:	Value of '0' is not valid for 'Value'. 'Value' should be between 'Minimum' and 'Maximum'.
+Parameter name: Value
+» Stack Trace:	   at System.Windows.Forms.NumericUpDown.set_Value(Decimal value)
+   at RTC_Vision_Lite.PublicFunctions.GlobFuncs.HIK_SetFloatValueToNumberic(MyHikCamera hikCamera, String paramName, NumericUpDown edit) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Global\GlobFuncs.cs:line 2738
+2024-10-09 11:20:31.5570 
+» Message:	Value of '0' is not valid for 'Value'. 'Value' should be between 'Minimum' and 'Maximum'.
+Parameter name: Value
+» Stack Trace:	   at System.Windows.Forms.NumericUpDown.set_Value(Decimal value)
+   at RTC_Vision_Lite.PublicFunctions.GlobFuncs.HIK_SetFloatValueToNumberic(MyHikCamera hikCamera, String paramName, NumericUpDown edit)
+2024-10-09 11:20:39.1597 
+» Message:	Value of '0' is not valid for 'Value'. 'Value' should be between 'Minimum' and 'Maximum'.
+Parameter name: Value
+» Stack Trace:	   at System.Windows.Forms.NumericUpDown.set_Value(Decimal value)
+   at RTC_Vision_Lite.PublicFunctions.GlobFuncs.HIK_SetFloatValueToNumberic(MyHikCamera hikCamera, String paramName, NumericUpDown edit)
+2024-10-09 11:21:47.5977 
+» Message:	Value of '0' is not valid for 'Value'. 'Value' should be between 'Minimum' and 'Maximum'.
+Parameter name: Value
+» Stack Trace:	   at System.Windows.Forms.NumericUpDown.set_Value(Decimal value)
+   at RTC_Vision_Lite.PublicFunctions.GlobFuncs.HIK_SetFloatValueToNumberic(MyHikCamera hikCamera, String paramName, NumericUpDown edit)
+2024-10-09 11:35:59.9607 
+» Message:	Value of '0' is not valid for 'Value'. 'Value' should be between 'Minimum' and 'Maximum'.
+Parameter name: Value
+» Stack Trace:	   at System.Windows.Forms.NumericUpDown.set_Value(Decimal value)
+   at RTC_Vision_Lite.PublicFunctions.GlobFuncs.HIK_SetFloatValueToNumberic(MyHikCamera hikCamera, String paramName, NumericUpDown edit)
+2024-10-09 11:36:08.0747 
+» Message:	Value of '0' is not valid for 'Value'. 'Value' should be between 'Minimum' and 'Maximum'.
+Parameter name: Value
+» Stack Trace:	   at System.Windows.Forms.NumericUpDown.set_Value(Decimal value)
+   at RTC_Vision_Lite.PublicFunctions.GlobFuncs.HIK_SetFloatValueToNumberic(MyHikCamera hikCamera, String paramName, NumericUpDown edit)
+2024-10-09 14:27:16.7928 
+» Message:	Object is currently in use elsewhere.
+» Stack Trace:	   at System.Drawing.Image.get_Height()
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_ViewToolData(GraphicsWindow smartWindowControl, Int32 actionOrderLimit) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 162
+2024-10-09 14:38:14.3364 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.Clone()
+   at RTC_Vision_Lite.Classes.SImage.set_rtcValue(Image value) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cBaseTypes.cs:line 586
+   at RTC_Vision_Lite.Classes.cGroupActions.RunBefore(cAction Action, Boolean _WithShowMessage) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 641
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_RunCurrentAction(Boolean isShowMessage) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 988
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Run(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isShowMessage, Boolean isResetIdRun, Boolean isCheckData, cAction runProgramAction) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 191
+2024-10-09 14:38:16.8675 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.Clone()
+   at RTC_Vision_Lite.Classes.cAction.BackupImage(Image image) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2887
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_BackupImage() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 116
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_CleanData() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 23
+2024-10-09 14:38:16.9097 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.Clone()
+   at RTC_Vision_Lite.Classes.SImage.set_rtcValue(Image value) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cBaseTypes.cs:line 586
+   at RTC_Vision_Lite.Classes.cGroupActions.RunBefore(cAction Action, Boolean _WithShowMessage) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 641
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_RunCurrentAction(Boolean isShowMessage) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 988
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Run(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isShowMessage, Boolean isResetIdRun, Boolean isCheckData, cAction runProgramAction) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 191
+2024-10-09 14:38:19.2075 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.Clone()
+   at RTC_Vision_Lite.Classes.cAction.BackupImage(Image image) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2887
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_BackupImage() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 116
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_CleanData() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 23
+2024-10-09 14:38:19.2486 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.Clone()
+   at RTC_Vision_Lite.Classes.SImage.set_rtcValue(Image value) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cBaseTypes.cs:line 586
+   at RTC_Vision_Lite.Classes.cGroupActions.RunBefore(cAction Action, Boolean _WithShowMessage) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 641
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_RunCurrentAction(Boolean isShowMessage) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 988
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Run(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isShowMessage, Boolean isResetIdRun, Boolean isCheckData, cAction runProgramAction) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 191
+2024-10-09 14:38:19.9583 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.Clone()
+   at RTC_Vision_Lite.Classes.cAction.BackupImage(Image image) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2887
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_BackupImage() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 116
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_CleanData() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 23
+2024-10-09 14:38:19.9959 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.Clone()
+   at RTC_Vision_Lite.Classes.SImage.set_rtcValue(Image value) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cBaseTypes.cs:line 586
+   at RTC_Vision_Lite.Classes.cGroupActions.RunBefore(cAction Action, Boolean _WithShowMessage) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 641
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_RunCurrentAction(Boolean isShowMessage) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 988
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Run(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isShowMessage, Boolean isResetIdRun, Boolean isCheckData, cAction runProgramAction) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 191
+2024-10-09 14:38:20.6817 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.Clone()
+   at RTC_Vision_Lite.Classes.cAction.BackupImage(Image image) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2887
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_BackupImage() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 116
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_CleanData() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 23
+2024-10-09 14:38:20.7246 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.Clone()
+   at RTC_Vision_Lite.Classes.SImage.set_rtcValue(Image value) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cBaseTypes.cs:line 586
+   at RTC_Vision_Lite.Classes.cGroupActions.RunBefore(cAction Action, Boolean _WithShowMessage) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 641
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_RunCurrentAction(Boolean isShowMessage) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 988
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Run(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isShowMessage, Boolean isResetIdRun, Boolean isCheckData, cAction runProgramAction) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 191
+2024-10-09 14:38:21.3681 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.Clone()
+   at RTC_Vision_Lite.Classes.cAction.BackupImage(Image image) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2887
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_BackupImage() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 116
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_CleanData() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 23
+2024-10-09 14:38:21.4117 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.Clone()
+   at RTC_Vision_Lite.Classes.SImage.set_rtcValue(Image value) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cBaseTypes.cs:line 586
+   at RTC_Vision_Lite.Classes.cGroupActions.RunBefore(cAction Action, Boolean _WithShowMessage) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 641
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_RunCurrentAction(Boolean isShowMessage) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 988
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Run(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isShowMessage, Boolean isResetIdRun, Boolean isCheckData, cAction runProgramAction) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 191
+2024-10-09 14:38:22.5533 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.Clone()
+   at RTC_Vision_Lite.Classes.cAction.BackupImage(Image image) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2887
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_BackupImage() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 116
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_CleanData() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 23
+2024-10-09 14:38:22.5957 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.Clone()
+   at RTC_Vision_Lite.Classes.SImage.set_rtcValue(Image value) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cBaseTypes.cs:line 586
+   at RTC_Vision_Lite.Classes.cGroupActions.RunBefore(cAction Action, Boolean _WithShowMessage) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 641
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_RunCurrentAction(Boolean isShowMessage) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 988
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Run(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isShowMessage, Boolean isResetIdRun, Boolean isCheckData, cAction runProgramAction) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 191
+2024-10-09 14:38:23.8250 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.Clone()
+   at RTC_Vision_Lite.Classes.cAction.BackupImage(Image image) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2887
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_BackupImage() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 116
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_CleanData() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 23
+2024-10-09 14:38:23.8686 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.Clone()
+   at RTC_Vision_Lite.Classes.SImage.set_rtcValue(Image value) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cBaseTypes.cs:line 586
+   at RTC_Vision_Lite.Classes.cGroupActions.RunBefore(cAction Action, Boolean _WithShowMessage) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 641
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_RunCurrentAction(Boolean isShowMessage) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 988
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Run(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isShowMessage, Boolean isResetIdRun, Boolean isCheckData, cAction runProgramAction) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 191
+2024-10-09 14:38:25.4411 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.Clone()
+   at RTC_Vision_Lite.Classes.cAction.BackupImage(Image image) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2887
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_BackupImage() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 116
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_CleanData() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 23
+2024-10-09 14:38:25.4907 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.Clone()
+   at RTC_Vision_Lite.Classes.SImage.set_rtcValue(Image value) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cBaseTypes.cs:line 586
+   at RTC_Vision_Lite.Classes.cGroupActions.RunBefore(cAction Action, Boolean _WithShowMessage) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 641
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_RunCurrentAction(Boolean isShowMessage) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 988
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Run(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isShowMessage, Boolean isResetIdRun, Boolean isCheckData, cAction runProgramAction) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 191
+2024-10-09 14:38:48.9716 
+» Message:	Object is currently in use elsewhere.
+» Stack Trace:	   at System.Drawing.Image.get_Height()
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_ViewToolData(GraphicsWindow smartWindowControl, Int32 actionOrderLimit) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 162
+2024-10-09 14:38:52.9821 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.Clone()
+   at RTC_Vision_Lite.Classes.SImage.set_rtcValue(Image value) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cBaseTypes.cs:line 586
+   at RTC_Vision_Lite.Classes.cGroupActions.RunBefore(cAction Action, Boolean _WithShowMessage) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 641
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_RunCurrentAction(Boolean isShowMessage) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 988
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Run(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isShowMessage, Boolean isResetIdRun, Boolean isCheckData, cAction runProgramAction) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 191
+2024-10-09 14:38:55.6244 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.Clone()
+   at RTC_Vision_Lite.Classes.cAction.BackupImage(Image image) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2887
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_BackupImage() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 116
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_CleanData() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 23
+2024-10-09 14:38:55.6664 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.Clone()
+   at RTC_Vision_Lite.Classes.SImage.set_rtcValue(Image value) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cBaseTypes.cs:line 586
+   at RTC_Vision_Lite.Classes.cGroupActions.RunBefore(cAction Action, Boolean _WithShowMessage) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 641
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_RunCurrentAction(Boolean isShowMessage) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 988
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Run(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isShowMessage, Boolean isResetIdRun, Boolean isCheckData, cAction runProgramAction) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 191
+2024-10-09 14:38:56.6297 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.Clone()
+   at RTC_Vision_Lite.Classes.cAction.BackupImage(Image image) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2887
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_BackupImage() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 116
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_CleanData() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 23
+2024-10-09 14:38:56.6671 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.Clone()
+   at RTC_Vision_Lite.Classes.SImage.set_rtcValue(Image value) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cBaseTypes.cs:line 586
+   at RTC_Vision_Lite.Classes.cGroupActions.RunBefore(cAction Action, Boolean _WithShowMessage) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 641
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_RunCurrentAction(Boolean isShowMessage) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 988
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Run(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isShowMessage, Boolean isResetIdRun, Boolean isCheckData, cAction runProgramAction) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 191
+2024-10-09 14:38:57.6604 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.Clone()
+   at RTC_Vision_Lite.Classes.cAction.BackupImage(Image image) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2887
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_BackupImage() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 116
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_CleanData() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 23
+2024-10-09 14:38:57.6977 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.Clone()
+   at RTC_Vision_Lite.Classes.SImage.set_rtcValue(Image value) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cBaseTypes.cs:line 586
+   at RTC_Vision_Lite.Classes.cGroupActions.RunBefore(cAction Action, Boolean _WithShowMessage) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 641
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_RunCurrentAction(Boolean isShowMessage) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 988
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Run(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isShowMessage, Boolean isResetIdRun, Boolean isCheckData, cAction runProgramAction) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 191
+2024-10-09 14:38:59.3901 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.Clone()
+   at RTC_Vision_Lite.Classes.cAction.BackupImage(Image image) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2887
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_BackupImage() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 116
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_CleanData() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 23
+2024-10-09 14:38:59.4266 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.Clone()
+   at RTC_Vision_Lite.Classes.SImage.set_rtcValue(Image value) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cBaseTypes.cs:line 586
+   at RTC_Vision_Lite.Classes.cGroupActions.RunBefore(cAction Action, Boolean _WithShowMessage) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 641
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_RunCurrentAction(Boolean isShowMessage) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 988
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Run(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isShowMessage, Boolean isResetIdRun, Boolean isCheckData, cAction runProgramAction) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 191
+2024-10-09 14:41:04.6295 
+» Message:	Cannot access a disposed object.
+Object name: 'GraphicsWindow'.
+» Stack Trace:	   at System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   at System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   at System.Windows.Forms.Control.Invoke(Delegate method)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2398
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 991
+2024-10-09 14:42:12.3126 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.Clone()
+   at RTC_Vision_Lite.Classes.SImage.set_rtcValue(Image value) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cBaseTypes.cs:line 586
+   at RTC_Vision_Lite.Classes.cGroupActions.RunBefore(cAction Action, Boolean _WithShowMessage) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 641
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_RunCurrentAction(Boolean isShowMessage) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 988
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Run(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isShowMessage, Boolean isResetIdRun, Boolean isCheckData, cAction runProgramAction) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 191
+2024-10-09 14:42:12.9626 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.Clone()
+   at RTC_Vision_Lite.Classes.cAction.BackupImage(Image image) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2887
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_BackupImage() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 116
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_CleanData() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 23
+2024-10-09 14:42:13.0024 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.Clone()
+   at RTC_Vision_Lite.Classes.SImage.set_rtcValue(Image value) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cBaseTypes.cs:line 586
+   at RTC_Vision_Lite.Classes.cGroupActions.RunBefore(cAction Action, Boolean _WithShowMessage) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 641
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_RunCurrentAction(Boolean isShowMessage) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 988
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Run(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isShowMessage, Boolean isResetIdRun, Boolean isCheckData, cAction runProgramAction) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 191
+2024-10-09 14:42:13.8869 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.Clone()
+   at RTC_Vision_Lite.Classes.cAction.BackupImage(Image image) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2887
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_BackupImage() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 116
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_CleanData() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 23
+2024-10-09 14:42:13.9258 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.Clone()
+   at RTC_Vision_Lite.Classes.SImage.set_rtcValue(Image value) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cBaseTypes.cs:line 586
+   at RTC_Vision_Lite.Classes.cGroupActions.RunBefore(cAction Action, Boolean _WithShowMessage) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 641
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_RunCurrentAction(Boolean isShowMessage) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 988
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Run(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isShowMessage, Boolean isResetIdRun, Boolean isCheckData, cAction runProgramAction) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 191
+2024-10-09 14:42:15.5437 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.Clone()
+   at RTC_Vision_Lite.Classes.cAction.BackupImage(Image image) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2887
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_BackupImage() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 116
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_CleanData() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 23
+2024-10-09 14:42:15.5890 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.Clone()
+   at RTC_Vision_Lite.Classes.SImage.set_rtcValue(Image value) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cBaseTypes.cs:line 586
+   at RTC_Vision_Lite.Classes.cGroupActions.RunBefore(cAction Action, Boolean _WithShowMessage) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 641
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_RunCurrentAction(Boolean isShowMessage) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 988
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Run(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isShowMessage, Boolean isResetIdRun, Boolean isCheckData, cAction runProgramAction) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 191
+2024-10-09 14:43:03.3706 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.Clone()
+   at RTC_Vision_Lite.Classes.SImage.set_rtcValue(Image value) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cBaseTypes.cs:line 586
+   at RTC_Vision_Lite.Classes.cGroupActions.RunBefore(cAction Action, Boolean _WithShowMessage) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 641
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_RunCurrentAction(Boolean isShowMessage) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 988
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Run(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isShowMessage, Boolean isResetIdRun, Boolean isCheckData, cAction runProgramAction) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 191
+2024-10-09 15:52:21.4919 
+» Message:	Exception has been thrown by the target of an invocation.
+» Stack Trace:	   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at System.Reflection.PropertyInfo.SetValue(Object obj, Object value)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 906
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 787
+2024-10-09 15:52:21.5408 
+» Message:	Object is currently in use elsewhere.
+» Stack Trace:	   at System.Drawing.Image.get_Height()
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_ViewToolData(GraphicsWindow smartWindowControl, Int32 actionOrderLimit) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 162
+2024-10-09 15:54:39.7993 
+» Message:	Exception has been thrown by the target of an invocation.
+» Stack Trace:	   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at System.Reflection.PropertyInfo.SetValue(Object obj, Object value)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 906
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 787
+2024-10-09 15:56:09.5093 
+» Message:	Exception has been thrown by the target of an invocation.
+» Stack Trace:	   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at System.Reflection.PropertyInfo.SetValue(Object obj, Object value)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 906
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 787
+2024-10-09 15:56:55.9024 
+» Message:	Exception has been thrown by the target of an invocation.
+» Stack Trace:	   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at System.Reflection.PropertyInfo.SetValue(Object obj, Object value)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 906
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 787
+2024-10-09 15:56:57.3167 
+» Message:	Exception has been thrown by the target of an invocation.
+» Stack Trace:	   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at System.Reflection.PropertyInfo.SetValue(Object obj, Object value)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 906
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 787
+2024-10-09 15:56:57.3416 
+» Message:	Object is currently in use elsewhere.
+» Stack Trace:	   at System.Drawing.Image.Clone()
+   at RTC_Vision_Lite.Classes.cAction.BackupImage(Image image) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2887
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_BackupImage() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 116
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_CleanData() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 23
+2024-10-09 15:57:01.6867 
+» Message:	Exception has been thrown by the target of an invocation.
+» Stack Trace:	   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at System.Reflection.PropertyInfo.SetValue(Object obj, Object value)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 906
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 787
+2024-10-09 15:57:02.3688 
+» Message:	Exception has been thrown by the target of an invocation.
+» Stack Trace:	   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at System.Reflection.PropertyInfo.SetValue(Object obj, Object value)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 906
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 787
+2024-10-09 15:57:04.8448 
+» Message:	Exception has been thrown by the target of an invocation.
+» Stack Trace:	   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at System.Reflection.PropertyInfo.SetValue(Object obj, Object value)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 906
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 787
+2024-10-09 15:57:09.0147 
+» Message:	Exception has been thrown by the target of an invocation.
+» Stack Trace:	   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at System.Reflection.PropertyInfo.SetValue(Object obj, Object value)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 906
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 787
+2024-10-09 15:57:09.0346 
+» Message:	Object is currently in use elsewhere.
+» Stack Trace:	   at System.Drawing.Image.Clone()
+   at RTC_Vision_Lite.Classes.cAction.BackupImage(Image image) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2887
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_BackupImage() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 116
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_CleanData() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 23
+2024-10-09 15:57:41.8819 
+» Message:	Exception has been thrown by the target of an invocation.
+» Stack Trace:	   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at System.Reflection.PropertyInfo.SetValue(Object obj, Object value)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 906
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 787
+2024-10-09 15:57:45.3082 
+» Message:	Exception has been thrown by the target of an invocation.
+» Stack Trace:	   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at System.Reflection.PropertyInfo.SetValue(Object obj, Object value)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 906
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 787
+2024-10-09 15:58:52.6574 
+» Message:	Exception has been thrown by the target of an invocation.
+» Stack Trace:	   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at System.Reflection.PropertyInfo.SetValue(Object obj, Object value)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 906
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 787
+2024-10-09 15:58:52.6765 
+» Message:	Object is currently in use elsewhere.
+» Stack Trace:	   at System.Drawing.Image.Clone()
+   at RTC_Vision_Lite.Classes.cAction.BackupImage(Image image) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2887
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_BackupImage() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 116
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_CleanData() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 23
+2024-10-09 15:59:07.3839 
+» Message:	Exception has been thrown by the target of an invocation.
+» Stack Trace:	   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at System.Reflection.PropertyInfo.SetValue(Object obj, Object value)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 906
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 787
+2024-10-09 15:59:07.4009 
+» Message:	Object is currently in use elsewhere.
+» Stack Trace:	   at System.Drawing.Image.Clone()
+   at RTC_Vision_Lite.Classes.cAction.BackupImage(Image image) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2887
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_BackupImage() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 116
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_CleanData() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 23
+2024-10-09 15:59:08.8282 
+» Message:	Exception has been thrown by the target of an invocation.
+» Stack Trace:	   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at System.Reflection.PropertyInfo.SetValue(Object obj, Object value)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 906
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 787
+2024-10-09 15:59:08.8482 
+» Message:	Object is currently in use elsewhere.
+» Stack Trace:	   at System.Drawing.Image.Clone()
+   at RTC_Vision_Lite.Classes.cAction.BackupImage(Image image) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2887
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_BackupImage() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 116
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_CleanData() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 23
+2024-10-09 15:59:39.8663 
+» Message:	Exception has been thrown by the target of an invocation.
+» Stack Trace:	   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at System.Reflection.PropertyInfo.SetValue(Object obj, Object value)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 906
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 787
+2024-10-09 15:59:39.8882 
+» Message:	Object is currently in use elsewhere.
+» Stack Trace:	   at System.Drawing.Image.Clone()
+   at RTC_Vision_Lite.Classes.cAction.BackupImage(Image image) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2887
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_BackupImage() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 116
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_CleanData() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 23
+2024-10-09 16:14:24.4910 
+» Message:	Object is currently in use elsewhere.
+» Stack Trace:	   at System.Drawing.Image.get_Height()
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_ViewToolData(GraphicsWindow smartWindowControl, Int32 actionOrderLimit) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 162
+2024-10-09 16:21:11.2482 
+» Message:	Object is currently in use elsewhere.
+» Stack Trace:	   at System.Drawing.Image.get_Height()
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_ViewToolData(GraphicsWindow smartWindowControl, Int32 actionOrderLimit)
+2024-10-09 16:21:22.6529 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.GetFrameCount(FrameDimension dimension)
+   at RTC_Vision_Lite.Classes.SImage.set_rtcValue(Image value)
+   at RTC_Vision_Lite.Classes.cGroupActions.RunBefore(cAction Action, Boolean _WithShowMessage)
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_RunCurrentAction(Boolean isShowMessage)
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Run(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isShowMessage, Boolean isResetIdRun, Boolean isCheckData, cAction runProgramAction)
+2024-10-09 16:27:09.2097 
+» Message:	Object is currently in use elsewhere.
+» Stack Trace:	   at System.Drawing.Image.get_Height()
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_ViewToolData(GraphicsWindow smartWindowControl, Int32 actionOrderLimit) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 162
+2024-10-09 16:27:17.2545 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.GetFrameCount(FrameDimension dimension)
+   at RTC_Vision_Lite.Classes.SImage.set_rtcValue(Image value) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cBaseTypes.cs:line 587
+   at RTC_Vision_Lite.Classes.cGroupActions.RunBefore(cAction Action, Boolean _WithShowMessage) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 641
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_RunCurrentAction(Boolean isShowMessage) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 987
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Run(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isShowMessage, Boolean isResetIdRun, Boolean isCheckData, cAction runProgramAction) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 191
+2024-10-09 16:27:26.4856 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.Clone()
+   at RTC_Vision_Lite.Classes.cAction.BackupImage(Image image) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2887
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_BackupImage() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 116
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_CleanData() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 23
+2024-10-09 16:27:26.5196 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.GetFrameCount(FrameDimension dimension)
+   at RTC_Vision_Lite.Classes.SImage.set_rtcValue(Image value) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cBaseTypes.cs:line 587
+   at RTC_Vision_Lite.Classes.cGroupActions.RunBefore(cAction Action, Boolean _WithShowMessage) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 641
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_RunCurrentAction(Boolean isShowMessage) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 987
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Run(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isShowMessage, Boolean isResetIdRun, Boolean isCheckData, cAction runProgramAction) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 191
+2024-10-09 16:27:27.3798 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.Clone()
+   at RTC_Vision_Lite.Classes.cAction.BackupImage(Image image) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2887
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_BackupImage() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 116
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_CleanData() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 23
+2024-10-09 16:27:27.4137 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.GetFrameCount(FrameDimension dimension)
+   at RTC_Vision_Lite.Classes.SImage.set_rtcValue(Image value) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cBaseTypes.cs:line 587
+   at RTC_Vision_Lite.Classes.cGroupActions.RunBefore(cAction Action, Boolean _WithShowMessage) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 641
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_RunCurrentAction(Boolean isShowMessage) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 987
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Run(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isShowMessage, Boolean isResetIdRun, Boolean isCheckData, cAction runProgramAction) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 191
+2024-10-09 16:27:27.5834 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.Clone()
+   at RTC_Vision_Lite.Classes.cAction.BackupImage(Image image) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2887
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_BackupImage() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 116
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_CleanData() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 23
+2024-10-09 16:27:27.6160 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.GetFrameCount(FrameDimension dimension)
+   at RTC_Vision_Lite.Classes.SImage.set_rtcValue(Image value) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cBaseTypes.cs:line 587
+   at RTC_Vision_Lite.Classes.cGroupActions.RunBefore(cAction Action, Boolean _WithShowMessage) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 641
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_RunCurrentAction(Boolean isShowMessage) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 987
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Run(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isShowMessage, Boolean isResetIdRun, Boolean isCheckData, cAction runProgramAction) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 191
+2024-10-09 16:27:27.7942 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.Clone()
+   at RTC_Vision_Lite.Classes.cAction.BackupImage(Image image) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2887
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_BackupImage() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 116
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_CleanData() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 23
+2024-10-09 16:27:27.8281 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.GetFrameCount(FrameDimension dimension)
+   at RTC_Vision_Lite.Classes.SImage.set_rtcValue(Image value) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cBaseTypes.cs:line 587
+   at RTC_Vision_Lite.Classes.cGroupActions.RunBefore(cAction Action, Boolean _WithShowMessage) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 641
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_RunCurrentAction(Boolean isShowMessage) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 987
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Run(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isShowMessage, Boolean isResetIdRun, Boolean isCheckData, cAction runProgramAction) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 191
+2024-10-09 16:27:31.6356 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.Clone()
+   at RTC_Vision_Lite.Classes.cAction.BackupImage(Image image) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2887
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_BackupImage() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 116
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_CleanData() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 23
+2024-10-09 16:27:31.6685 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.GetFrameCount(FrameDimension dimension)
+   at RTC_Vision_Lite.Classes.SImage.set_rtcValue(Image value) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cBaseTypes.cs:line 587
+   at RTC_Vision_Lite.Classes.cGroupActions.RunBefore(cAction Action, Boolean _WithShowMessage) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 641
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_RunCurrentAction(Boolean isShowMessage) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 987
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Run(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isShowMessage, Boolean isResetIdRun, Boolean isCheckData, cAction runProgramAction) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 191
+2024-10-09 16:27:32.0894 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.Clone()
+   at RTC_Vision_Lite.Classes.cAction.BackupImage(Image image) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2887
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_BackupImage() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 116
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_CleanData() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 23
+2024-10-09 16:27:32.1283 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.GetFrameCount(FrameDimension dimension)
+   at RTC_Vision_Lite.Classes.SImage.set_rtcValue(Image value) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cBaseTypes.cs:line 587
+   at RTC_Vision_Lite.Classes.cGroupActions.RunBefore(cAction Action, Boolean _WithShowMessage) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 641
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_RunCurrentAction(Boolean isShowMessage) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 987
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Run(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isShowMessage, Boolean isResetIdRun, Boolean isCheckData, cAction runProgramAction) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 191
+2024-10-09 16:27:32.2989 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.Clone()
+   at RTC_Vision_Lite.Classes.cAction.BackupImage(Image image) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2887
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_BackupImage() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 116
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_CleanData() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 23
+2024-10-09 16:27:32.3308 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.GetFrameCount(FrameDimension dimension)
+   at RTC_Vision_Lite.Classes.SImage.set_rtcValue(Image value) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cBaseTypes.cs:line 587
+   at RTC_Vision_Lite.Classes.cGroupActions.RunBefore(cAction Action, Boolean _WithShowMessage) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 641
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_RunCurrentAction(Boolean isShowMessage) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 987
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Run(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isShowMessage, Boolean isResetIdRun, Boolean isCheckData, cAction runProgramAction) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 191
+2024-10-09 16:27:32.5319 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.Clone()
+   at RTC_Vision_Lite.Classes.cAction.BackupImage(Image image) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2887
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_BackupImage() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 116
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_CleanData() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 23
+2024-10-09 16:27:32.5689 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.GetFrameCount(FrameDimension dimension)
+   at RTC_Vision_Lite.Classes.SImage.set_rtcValue(Image value) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cBaseTypes.cs:line 587
+   at RTC_Vision_Lite.Classes.cGroupActions.RunBefore(cAction Action, Boolean _WithShowMessage) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 641
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_RunCurrentAction(Boolean isShowMessage) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 987
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Run(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isShowMessage, Boolean isResetIdRun, Boolean isCheckData, cAction runProgramAction) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 191
+2024-10-09 16:29:11.1393 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.GetFrameCount(FrameDimension dimension)
+   at RTC_Vision_Lite.Classes.SImage.set_rtcValue(Image value) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cBaseTypes.cs:line 587
+   at RTC_Vision_Lite.Classes.cGroupActions.RunBefore(cAction Action, Boolean _WithShowMessage) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 641
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_RunCurrentAction(Boolean isShowMessage) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 987
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Run(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isShowMessage, Boolean isResetIdRun, Boolean isCheckData, cAction runProgramAction) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 191
+2024-10-09 16:29:11.7969 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.Clone()
+   at RTC_Vision_Lite.Classes.cAction.BackupImage(Image image) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2887
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_BackupImage() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 116
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_CleanData() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 23
+2024-10-09 16:29:11.8329 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.GetFrameCount(FrameDimension dimension)
+   at RTC_Vision_Lite.Classes.SImage.set_rtcValue(Image value) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cBaseTypes.cs:line 587
+   at RTC_Vision_Lite.Classes.cGroupActions.RunBefore(cAction Action, Boolean _WithShowMessage) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 641
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_RunCurrentAction(Boolean isShowMessage) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 987
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Run(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isShowMessage, Boolean isResetIdRun, Boolean isCheckData, cAction runProgramAction) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 191
+2024-10-09 16:29:12.0035 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.Clone()
+   at RTC_Vision_Lite.Classes.cAction.BackupImage(Image image) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2887
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_BackupImage() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 116
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_CleanData() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 23
+2024-10-09 16:29:12.0404 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.GetFrameCount(FrameDimension dimension)
+   at RTC_Vision_Lite.Classes.SImage.set_rtcValue(Image value) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cBaseTypes.cs:line 587
+   at RTC_Vision_Lite.Classes.cGroupActions.RunBefore(cAction Action, Boolean _WithShowMessage) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 641
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_RunCurrentAction(Boolean isShowMessage) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 987
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Run(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isShowMessage, Boolean isResetIdRun, Boolean isCheckData, cAction runProgramAction) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 191
+2024-10-09 16:29:26.8786 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.Clone()
+   at RTC_Vision_Lite.Classes.cAction.BackupImage(Image image) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2887
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_BackupImage() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 116
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_CleanData() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 23
+2024-10-09 16:29:26.9135 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.GetFrameCount(FrameDimension dimension)
+   at RTC_Vision_Lite.Classes.SImage.set_rtcValue(Image value) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cBaseTypes.cs:line 587
+   at RTC_Vision_Lite.Classes.cGroupActions.RunBefore(cAction Action, Boolean _WithShowMessage) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 641
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_RunCurrentAction(Boolean isShowMessage) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 987
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Run(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isShowMessage, Boolean isResetIdRun, Boolean isCheckData, cAction runProgramAction) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 191
+2024-10-09 16:29:53.2814 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.Clone()
+   at RTC_Vision_Lite.Classes.cAction.BackupImage(Image image) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2887
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_BackupImage() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 116
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_CleanData() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 23
+2024-10-09 16:29:53.3113 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.GetFrameCount(FrameDimension dimension)
+   at RTC_Vision_Lite.Classes.SImage.set_rtcValue(Image value) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cBaseTypes.cs:line 587
+   at RTC_Vision_Lite.Classes.cGroupActions.RunBefore(cAction Action, Boolean _WithShowMessage) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 641
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_RunCurrentAction(Boolean isShowMessage) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 987
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Run(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isShowMessage, Boolean isResetIdRun, Boolean isCheckData, cAction runProgramAction) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 191
+2024-10-09 16:29:54.1925 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.Clone()
+   at RTC_Vision_Lite.Classes.cAction.BackupImage(Image image) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2887
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_BackupImage() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 116
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_CleanData() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 23
+2024-10-09 16:29:54.2244 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.GetFrameCount(FrameDimension dimension)
+   at RTC_Vision_Lite.Classes.SImage.set_rtcValue(Image value) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cBaseTypes.cs:line 587
+   at RTC_Vision_Lite.Classes.cGroupActions.RunBefore(cAction Action, Boolean _WithShowMessage) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 641
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_RunCurrentAction(Boolean isShowMessage) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 987
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Run(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isShowMessage, Boolean isResetIdRun, Boolean isCheckData, cAction runProgramAction) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 191
+2024-10-09 16:30:04.8453 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.Clone()
+   at RTC_Vision_Lite.Classes.cAction.BackupImage(Image image) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2887
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_BackupImage() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 116
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_CleanData() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 23
+2024-10-09 16:30:04.8772 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.GetFrameCount(FrameDimension dimension)
+   at RTC_Vision_Lite.Classes.SImage.set_rtcValue(Image value) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cBaseTypes.cs:line 587
+   at RTC_Vision_Lite.Classes.cGroupActions.RunBefore(cAction Action, Boolean _WithShowMessage) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 641
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_RunCurrentAction(Boolean isShowMessage) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 987
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Run(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isShowMessage, Boolean isResetIdRun, Boolean isCheckData, cAction runProgramAction) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 191
+2024-10-09 16:30:30.6612 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.Clone()
+   at RTC_Vision_Lite.Classes.cAction.BackupImage(Image image) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2887
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_BackupImage() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 116
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_CleanData() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 23
+2024-10-09 16:30:42.1783 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.GetFrameCount(FrameDimension dimension)
+   at RTC_Vision_Lite.Classes.SImage.set_rtcValue(Image value) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cBaseTypes.cs:line 587
+   at RTC_Vision_Lite.Classes.cGroupActions.RunBefore(cAction Action, Boolean _WithShowMessage) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 641
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_RunCurrentAction(Boolean isShowMessage) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 987
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Run(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isShowMessage, Boolean isResetIdRun, Boolean isCheckData, cAction runProgramAction) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 191
+2024-10-09 16:30:59.2305 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.Clone()
+   at RTC_Vision_Lite.Classes.cAction.BackupImage(Image image) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2887
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_BackupImage() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 116
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_CleanData() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 23
+2024-10-09 16:31:50.5763 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.GetFrameCount(FrameDimension dimension)
+   at RTC_Vision_Lite.Classes.SImage.set_rtcValue(Image value) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cBaseTypes.cs:line 587
+   at RTC_Vision_Lite.Classes.cGroupActions.RunBefore(cAction Action, Boolean _WithShowMessage) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 641
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_RunCurrentAction(Boolean isShowMessage) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 987
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Run(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isShowMessage, Boolean isResetIdRun, Boolean isCheckData, cAction runProgramAction) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 191
+2024-10-09 16:31:54.0155 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.Clone()
+   at RTC_Vision_Lite.Classes.cAction.BackupImage(Image image) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2887
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_BackupImage() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 116
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_CleanData() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 23
+2024-10-09 16:32:02.0956 
+» Message:	Exception has been thrown by the target of an invocation.
+» Stack Trace:	   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at System.Reflection.PropertyInfo.SetValue(Object obj, Object value)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 906
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 787
+2024-10-09 16:32:04.2112 
+» Message:	Exception has been thrown by the target of an invocation.
+» Stack Trace:	   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at System.Reflection.PropertyInfo.SetValue(Object obj, Object value)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 906
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 787
+2024-10-09 16:32:10.5636 
+» Message:	Exception has been thrown by the target of an invocation.
+» Stack Trace:	   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at System.Reflection.PropertyInfo.SetValue(Object obj, Object value)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 906
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 787
+2024-10-09 16:32:45.2703 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.GetFrameCount(FrameDimension dimension)
+   at RTC_Vision_Lite.Classes.SImage.set_rtcValue(Image value) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cBaseTypes.cs:line 587
+   at RTC_Vision_Lite.Classes.cGroupActions.RunBefore(cAction Action, Boolean _WithShowMessage) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 641
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_RunCurrentAction(Boolean isShowMessage) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 987
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Run(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isShowMessage, Boolean isResetIdRun, Boolean isCheckData, cAction runProgramAction) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 191
+2024-10-09 16:35:07.5620 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.GetFrameCount(FrameDimension dimension)
+   at RTC_Vision_Lite.Classes.SImage.set_rtcValue(Image value) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cBaseTypes.cs:line 587
+   at RTC_Vision_Lite.Classes.cGroupActions.RunBefore(cAction Action, Boolean _WithShowMessage) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 641
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_RunCurrentAction(Boolean isShowMessage) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 987
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Run(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isShowMessage, Boolean isResetIdRun, Boolean isCheckData, cAction runProgramAction) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 191
+2024-10-09 16:35:10.3024 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.Clone()
+   at RTC_Vision_Lite.Classes.cAction.BackupImage(Image image) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2887
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_BackupImage() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 116
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_CleanData() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 23
+2024-10-09 16:37:20.6688 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.GetFrameCount(FrameDimension dimension)
+   at RTC_Vision_Lite.Classes.SImage.set_rtcValue(Image value)
+   at RTC_Vision_Lite.Classes.cGroupActions.RunBefore(cAction Action, Boolean _WithShowMessage)
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_RunCurrentAction(Boolean isShowMessage)
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Run(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isShowMessage, Boolean isResetIdRun, Boolean isCheckData, cAction runProgramAction)
+2024-10-09 16:37:22.9781 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.Clone()
+   at RTC_Vision_Lite.Classes.cAction.BackupImage(Image image)
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_BackupImage()
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_CleanData()
+2024-10-09 16:37:24.6528 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.GetFrameCount(FrameDimension dimension)
+   at RTC_Vision_Lite.Classes.SImage.set_rtcValue(Image value)
+   at RTC_Vision_Lite.Classes.cGroupActions.RunBefore(cAction Action, Boolean _WithShowMessage)
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_RunCurrentAction(Boolean isShowMessage)
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Run(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isShowMessage, Boolean isResetIdRun, Boolean isCheckData, cAction runProgramAction)
+2024-10-09 16:37:29.3383 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.Clone()
+   at RTC_Vision_Lite.Classes.cAction.BackupImage(Image image)
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_BackupImage()
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_CleanData()

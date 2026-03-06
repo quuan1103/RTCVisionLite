@@ -1,0 +1,135 @@
+2026-03-02 09:17:32.8797 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_Brightness() in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2476
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1122
+2026-03-02 09:20:19.2784 
+» Message:	Could not load file or assembly 'zxing, Version=0.16.9.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60' or one of its dependencies. The system cannot find the file specified.
+» Stack Trace:	   at CodeReader.CodeReader.Run()
+   at RTC_Vision_Lite.Classes.cAction.Run_CodeReader() in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 3369
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1157
+2026-03-02 09:20:27.5559 
+» Message:	Could not load file or assembly 'zxing, Version=0.16.9.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60' or one of its dependencies. The system cannot find the file specified.
+» Stack Trace:	   at CodeReader.CodeReader.Train()
+   at RTC_Vision_Lite.Classes.cAction.Run_CodeReader() in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 3306
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1157
+2026-03-02 09:20:35.6892 
+» Message:	Object of type 'RTC_Vision_Lite.Classes.SListDouble' cannot be converted to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at RTC_Vision_Lite.UserControls.ucBaseActionDetail.TextBox_LostFocusEvents(Object sender, EventArgs e) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\3. UserControls\Tools\ucBaseActionDetail.cs:line 3887
+2026-03-02 09:20:41.1221 
+» Message:	Object of type 'RTC_Vision_Lite.Classes.SListDouble' cannot be converted to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at RTC_Vision_Lite.UserControls.ucBaseActionDetail.TextBox_LostFocusEvents(Object sender, EventArgs e) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\3. UserControls\Tools\ucBaseActionDetail.cs:line 3887
+2026-03-02 09:20:43.1448 
+» Message:	Object of type 'RTC_Vision_Lite.Classes.SListDouble' cannot be converted to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at RTC_Vision_Lite.UserControls.ucBaseActionDetail.TextBox_LostFocusEvents(Object sender, EventArgs e) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\3. UserControls\Tools\ucBaseActionDetail.cs:line 3887
+2026-03-02 09:20:44.0505 
+» Message:	Object of type 'RTC_Vision_Lite.Classes.SListDouble' cannot be converted to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at RTC_Vision_Lite.UserControls.ucBaseActionDetail.TextBox_LostFocusEvents(Object sender, EventArgs e) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\3. UserControls\Tools\ucBaseActionDetail.cs:line 3887
+2026-03-02 09:20:44.4247 
+» Message:	Object of type 'RTC_Vision_Lite.Classes.SListDouble' cannot be converted to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at RTC_Vision_Lite.UserControls.ucBaseActionDetail.TextBox_LostFocusEvents(Object sender, EventArgs e) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\3. UserControls\Tools\ucBaseActionDetail.cs:line 3887
+2026-03-02 09:21:28.5593 
+» Message:	Could not load file or assembly 'zxing, Version=0.16.9.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60' or one of its dependencies. The system cannot find the file specified.
+» Stack Trace:	   at CodeReader.CodeReader.Run()
+   at RTC_Vision_Lite.Classes.cAction.Run_CodeReader() in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 3369
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1157
+2026-03-02 09:21:41.8780 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2364
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1127
+2026-03-02 09:21:43.0530 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2364
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1127
+2026-03-02 09:46:09.5674 
+» Message:	Could not load file or assembly 'zxing, Version=0.16.9.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60' or one of its dependencies. The system cannot find the file specified.
+» Stack Trace:	   at CodeReader.CodeReader.Run()
+   at RTC_Vision_Lite.Classes.cAction.Run_CodeReader() in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 3369
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1157
+2026-03-02 09:46:29.8571 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2364
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1127
+2026-03-02 09:46:31.0451 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2364
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1127
+2026-03-02 09:47:05.8690 
+» Message:	InvalidArgument=Value of '6' is not valid for 'index'.
+Parameter name: index
+» Stack Trace:	   at System.Windows.Forms.ImageList.ImageCollection.get_Item(Int32 index)
+   at RTC_Vision_Lite.UserControls.ucBaseActionDetail.CustumNodeCell_Column_btnRemoveLink(FormatCellEventArgs e) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\3. UserControls\Tools\ucBaseActionDetail.cs:line 7414
+   at RTC_Vision_Lite.UserControls.ucBaseActionDetail.tlvAction_FormatCell(Object sender, FormatCellEventArgs e) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\3. UserControls\Tools\ucBaseActionDetail.cs:line 7216
+   at BrightIdeasSoftware.ObjectListView.OnFormatCell(FormatCellEventArgs args)
+   at BrightIdeasSoftware.ObjectListView.TriggerFormatCellEvents(Int32 rowIndex, Int32 displayIndex, OLVListItem olvi)
+   at BrightIdeasSoftware.ObjectListView.PostProcessOneRow(Int32 rowIndex, Int32 displayIndex, OLVListItem olvi)
+   at BrightIdeasSoftware.VirtualObjectListView.MakeListViewItem(Int32 itemIndex)
+   at BrightIdeasSoftware.TreeListView.MakeListViewItem(Int32 itemIndex)
+   at BrightIdeasSoftware.VirtualObjectListView.HandleRetrieveVirtualItem(Object sender, RetrieveVirtualItemEventArgs e)
+   at System.Windows.Forms.ListView.OnRetrieveVirtualItem(RetrieveVirtualItemEventArgs e)
+   at System.Windows.Forms.ListView.WmReflectNotify(Message& m)
+   at System.Windows.Forms.ListView.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   at System.Windows.Forms.UnsafeNativeMethods.SendMessage(HandleRef hWnd, Int32 msg, IntPtr wParam, IntPtr lParam)
+   at System.Windows.Forms.Control.SendMessage(Int32 msg, IntPtr wparam, IntPtr lparam)
+   at System.Windows.Forms.Control.ReflectMessageInternal(IntPtr hWnd, Message& m)
+   at System.Windows.Forms.Control.WmNotify(Message& m)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.Application.ParkingWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   at System.Windows.Forms.UnsafeNativeMethods.CallWindowProc(IntPtr wndProc, IntPtr hWnd, Int32 msg, IntPtr wParam, IntPtr lParam)
+   at System.Windows.Forms.NativeWindow.DefWndProc(Message& m)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ListView.WndProc(Message& m)
+   at BrightIdeasSoftware.ObjectListView.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   at BrightIdeasSoftware.NativeMethods.SendMessage(IntPtr hWnd, Int32 msg, Int32 wParam, LVHITTESTINFO& ht)
+   at BrightIdeasSoftware.NativeMethods.HitTest(ObjectListView olv, LVHITTESTINFO& hittest)
+   at BrightIdeasSoftware.ObjectListView.LowLevelHitTest(Int32 x, Int32 y)
+   at BrightIdeasSoftware.ObjectListView.OlvHitTest(Int32 x, Int32 y)
+   at BrightIdeasSoftware.ObjectListView.UpdateHotItem(Point pt)
+   at BrightIdeasSoftware.ObjectListView.RefreshHotItem()
+   at BrightIdeasSoftware.ObjectListView.DoSort(OLVColumn columnToSort, SortOrder order)
+   at BrightIdeasSoftware.ObjectListView.Sort(OLVColumn columnToSort, SortOrder order)
+   at BrightIdeasSoftware.VirtualObjectListView.BuildList(Boolean shouldPreserveSelection)
+   at BrightIdeasSoftware.VirtualObjectListView.AddObjects(ICollection modelObjects)
+   at RTC_Vision_Lite.UserControls.ucBaseActionDetail.ViewActionProperties() in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\3. UserControls\Tools\ucBaseActionDetail.cs:line 4565

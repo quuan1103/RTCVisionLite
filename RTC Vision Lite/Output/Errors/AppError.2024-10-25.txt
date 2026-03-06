@@ -1,0 +1,17 @@
+2024-10-25 10:45:12.0481 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at System.Windows.Forms.ListView.ListViewNativeItemCollection.get_Item(Int32 displayIndex)
+   at System.Windows.Forms.ListView.ListViewItemCollection.get_Item(Int32 index)
+   at BrightIdeasSoftware.ObjectListView.GetItem(Int32 index)
+   at BrightIdeasSoftware.ObjectListView.LowLevelHitTest(Int32 x, Int32 y)
+   at BrightIdeasSoftware.ObjectListView.OlvHitTest(Int32 x, Int32 y)
+   at BrightIdeasSoftware.ObjectListView.UpdateHotItem(Point pt)
+   at BrightIdeasSoftware.ObjectListView.RefreshHotItem()
+   at BrightIdeasSoftware.ObjectListView.DoSort(OLVColumn columnToSort, SortOrder order)
+   at BrightIdeasSoftware.ObjectListView.Sort(OLVColumn columnToSort, SortOrder order)
+   at BrightIdeasSoftware.ObjectListView.Sort()
+   at BrightIdeasSoftware.VirtualObjectListView.BuildList(Boolean shouldPreserveSelection)
+   at BrightIdeasSoftware.ObjectListView.BuildList()
+   at BrightIdeasSoftware.VirtualObjectListView.AddObjects(ICollection modelObjects)
+   at BrightIdeasSoftware.ObjectListView.AddObject(Object modelObject)
+   at RTC_Vision_Lite.UserControls.ucBaseActionDetail.ViewActionProperties() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\3. UserControls\Tools\ucBaseActionDetail.cs:line 4440

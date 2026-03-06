@@ -1,0 +1,5 @@
+2024-06-12 08:14:38.3741 
+» Message:	Out of memory.
+» Stack Trace:	   at System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   at System.Drawing.Image.FromFile(String filename)
+   at RTC_Vision_Lite.UserControls.ucMainActions.GetCurrentImgIndex(DataGridViewRow row) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\3. UserControls\Tools\ucMainActions.cs:line 443

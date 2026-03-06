@@ -1,0 +1,91 @@
+2025-06-20 08:26:27.2568 
+» Message:	Could not load file or assembly 'Basler.Pylon, Version=1.2.0.0, Culture=neutral, PublicKeyToken=e389355f398382ab' or one of its dependencies. An attempt was made to load a program with an incorrect format.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cCameraSettings..ctor()
+   at RTC_Vision_Lite.Classes.cSourceImageSettings..ctor() in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Base\Action\cSourceImageSettings.cs:line 69
+   at RTC_Vision_Lite.Classes.cGroupActions..ctor(FrmHsmartWindow _frmHsmartWindow, Boolean IsTemplate) in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 408
+   at RTC_Vision_Lite.Classes.cCAMTypes..ctor() in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Base\cCAMTypes.cs:line 187
+   at RTC_Vision_Lite.Classes.ProjectData.OpenProject_GetCAMs(cProjectTypes project, Boolean widthoutTool) in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\DataAndFiles\cData.ProjectData.cs:line 605
+2025-06-20 08:26:27.3070 
+» Message:	Could not load file or assembly 'Basler.Pylon, Version=1.2.0.0, Culture=neutral, PublicKeyToken=e389355f398382ab' or one of its dependencies. An attempt was made to load a program with an incorrect format.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cCameraSettings..ctor()
+   at RTC_Vision_Lite.Classes.cSourceImageSettings..ctor() in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Base\Action\cSourceImageSettings.cs:line 69
+   at RTC_Vision_Lite.Classes.cGroupActions..ctor(FrmHsmartWindow _frmHsmartWindow, Boolean IsTemplate) in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 408
+   at RTC_Vision_Lite.Classes.cCAMTypes..ctor() in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Base\cCAMTypes.cs:line 187
+   at RTC_Vision_Lite.Classes.ProjectData.OpenProject_GetCAMs(cProjectTypes project, Boolean widthoutTool) in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\DataAndFiles\cData.ProjectData.cs:line 605
+2025-06-20 08:26:27.3339 
+» Message:	Could not load file or assembly 'Basler.Pylon, Version=1.2.0.0, Culture=neutral, PublicKeyToken=e389355f398382ab' or one of its dependencies. An attempt was made to load a program with an incorrect format.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cCameraSettings..ctor()
+   at RTC_Vision_Lite.Classes.cSourceImageSettings..ctor() in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Base\Action\cSourceImageSettings.cs:line 69
+   at RTC_Vision_Lite.Classes.cGroupActions..ctor(FrmHsmartWindow _frmHsmartWindow, Boolean IsTemplate) in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 408
+   at RTC_Vision_Lite.Classes.cCAMTypes..ctor() in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Base\cCAMTypes.cs:line 187
+   at RTC_Vision_Lite.Classes.ProjectData.OpenProject_GetCAMs(cProjectTypes project, Boolean widthoutTool) in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\DataAndFiles\cData.ProjectData.cs:line 605
+2025-06-20 08:26:27.3621 
+» Message:	Could not load file or assembly 'Basler.Pylon, Version=1.2.0.0, Culture=neutral, PublicKeyToken=e389355f398382ab' or one of its dependencies. An attempt was made to load a program with an incorrect format.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cCameraSettings..ctor()
+   at RTC_Vision_Lite.Classes.cSourceImageSettings..ctor() in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Base\Action\cSourceImageSettings.cs:line 69
+   at RTC_Vision_Lite.Classes.cGroupActions..ctor(FrmHsmartWindow _frmHsmartWindow, Boolean IsTemplate) in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 408
+   at RTC_Vision_Lite.Classes.cCAMTypes..ctor() in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Base\cCAMTypes.cs:line 187
+   at RTC_Vision_Lite.Classes.ProjectData.OpenProject_GetCAMs(cProjectTypes project, Boolean widthoutTool) in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\DataAndFiles\cData.ProjectData.cs:line 605
+2025-06-20 13:50:40.1365 
+» Message:	No connection could be made because the target machine actively refused it 127.0.0.1:3000
+» Stack Trace:	   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at RTC_Vision_Lite.Classes.CSocketClient.ConnectCallback(IAsyncResult AR) in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Connect\CSocketClient.cs:line 225
+2025-06-20 13:50:44.1656 
+» Message:	No connection could be made because the target machine actively refused it 127.0.0.1:3000
+» Stack Trace:	   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at RTC_Vision_Lite.Classes.CSocketClient.ConnectCallback(IAsyncResult AR) in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Connect\CSocketClient.cs:line 225
+2025-06-20 13:50:48.2968 
+» Message:	No connection could be made because the target machine actively refused it 127.0.0.1:3000
+» Stack Trace:	   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at RTC_Vision_Lite.Classes.CSocketClient.ConnectCallback(IAsyncResult AR) in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Connect\CSocketClient.cs:line 225
+2025-06-20 13:50:56.5356 
+» Message:	No connection could be made because the target machine actively refused it 127.0.0.1:3000
+» Stack Trace:	   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at RTC_Vision_Lite.Classes.CSocketClient.ConnectCallback(IAsyncResult AR) in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Connect\CSocketClient.cs:line 225
+2025-06-20 13:50:56.5917 
+» Message:	Stack empty.
+» Stack Trace:	   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Collections.Generic.Stack`1.Pop()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 964
+2025-06-20 13:51:00.7252 
+» Message:	No connection could be made because the target machine actively refused it 127.0.0.1:3000
+» Stack Trace:	   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at RTC_Vision_Lite.Classes.CSocketClient.ConnectCallback(IAsyncResult AR) in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Connect\CSocketClient.cs:line 225
+2025-06-20 13:51:00.7542 
+» Message:	Unable to load DLL 'WDT_DIO64.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+» Stack Trace:	   at RTC_Vision_Lite.Classes.WDT_DIO.InitDIO()
+   at RTC_Vision_Lite.Classes.cAction.Run_POCIOWrite(Boolean isTest) in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Base\Action\cActionType.POCIOControllerFunctions.cs:line 341
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1030
+2025-06-20 13:51:00.7787 
+» Message:	Unable to load DLL 'WDT_DIO64.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+» Stack Trace:	   at RTC_Vision_Lite.Classes.WDT_DIO.InitDIO()
+   at RTC_Vision_Lite.Classes.cAction.Run_POCIORead() in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Base\Action\cActionType.POCIOControllerFunctions.cs:line 45
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1025
+2025-06-20 13:51:00.8050 
+» Message:	Retrieving the COM class factory for component with CLSID {F0B1A112-BFCB-4DA3-9535-C296D69A17E0} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG)).
+» Stack Trace:	   at System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   at System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   at System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   at System.Activator.CreateInstance(Type type)
+   at RTC_Vision_Lite.Classes.cAction.GetMXComponentConnection() in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Base\Action\cActionType.MXComponetFunction.cs:line 34
+   at RTC_Vision_Lite.Classes.cAction.RUN_MXComponentWrite(Boolean isTest) in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Base\Action\cActionType.MXComponetFunction.cs:line 114
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 943
+2025-06-20 13:51:00.8280 
+» Message:	Retrieving the COM class factory for component with CLSID {F0B1A112-BFCB-4DA3-9535-C296D69A17E0} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG)).
+» Stack Trace:	   at System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   at System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   at System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   at System.Activator.CreateInstance(Type type)
+   at RTC_Vision_Lite.Classes.cAction.GetMXComponentConnection() in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Base\Action\cActionType.MXComponetFunction.cs:line 34
+   at RTC_Vision_Lite.Classes.cAction.Run_MXComponentRead() in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Base\Action\cActionType.MXComponetFunction.cs:line 66
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 938
+2025-06-20 13:51:01.7519 
+» Message:	No connection could be made because the target machine actively refused it 127.0.0.1:3000
+» Stack Trace:	   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at RTC_Vision_Lite.Classes.CSocketClient.ConnectCallback(IAsyncResult AR) in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Connect\CSocketClient.cs:line 225

@@ -1,0 +1,73 @@
+2024-09-26 08:56:56.9255 
+» Message:	Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+» Stack Trace:	   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.RuntimeModule.GetTypes()
+   at System.Reflection.Assembly.GetTypes()
+   at Emgu.Util.Toolbox.GetInterfaceImplementationFromAssembly[T]()
+   at Emgu.CV.NativeMatFileIO.WriteMatToFile(Mat mat, String fileName)
+   at Emgu.CV.Mat.Save(String fileName)
+   at Emgu.CV.Image`2.Save(String fileName)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+2024-09-26 08:57:23.8360 
+» Message:	Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+» Stack Trace:	   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.RuntimeModule.GetTypes()
+   at System.Reflection.Assembly.GetTypes()
+   at Emgu.Util.Toolbox.GetInterfaceImplementationFromAssembly[T]()
+   at Emgu.CV.NativeMatFileIO.WriteMatToFile(Mat mat, String fileName)
+   at Emgu.CV.Mat.Save(String fileName)
+   at Emgu.CV.Image`2.Save(String fileName)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+2024-09-26 08:59:18.8131 
+» Message:	Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+» Stack Trace:	   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.RuntimeModule.GetTypes()
+   at System.Reflection.Assembly.GetTypes()
+   at Emgu.Util.Toolbox.GetInterfaceImplementationFromAssembly[T]()
+   at Emgu.CV.NativeMatFileIO.WriteMatToFile(Mat mat, String fileName)
+   at Emgu.CV.Mat.Save(String fileName)
+   at Emgu.CV.Image`2.Save(String fileName)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+2024-09-26 09:01:43.3297 
+» Message:	Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+» Stack Trace:	   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.RuntimeModule.GetTypes()
+   at System.Reflection.Assembly.GetTypes()
+   at Emgu.Util.Toolbox.GetInterfaceImplementationFromAssembly[T]()
+   at Emgu.CV.NativeMatFileIO.WriteMatToFile(Mat mat, String fileName)
+   at Emgu.CV.Mat.Save(String fileName)
+   at Emgu.CV.Image`2.Save(String fileName)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+2024-09-26 09:01:46.5645 
+» Message:	Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+» Stack Trace:	   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.RuntimeModule.GetTypes()
+   at System.Reflection.Assembly.GetTypes()
+   at Emgu.Util.Toolbox.GetInterfaceImplementationFromAssembly[T]()
+   at Emgu.CV.NativeMatFileIO.WriteMatToFile(Mat mat, String fileName)
+   at Emgu.CV.Mat.Save(String fileName)
+   at Emgu.CV.Image`2.Save(String fileName)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+2024-09-26 09:01:50.4532 
+» Message:	Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+» Stack Trace:	   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.RuntimeModule.GetTypes()
+   at System.Reflection.Assembly.GetTypes()
+   at Emgu.Util.Toolbox.GetInterfaceImplementationFromAssembly[T]()
+   at Emgu.CV.NativeMatFileIO.WriteMatToFile(Mat mat, String fileName)
+   at Emgu.CV.Mat.Save(String fileName)
+   at Emgu.CV.Image`2.Save(String fileName)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+2024-09-26 14:22:58.4749 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1944
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1000

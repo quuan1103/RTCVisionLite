@@ -1,0 +1,131 @@
+2025-05-06 14:44:14.8414 
+» Message:	Cannot access a disposed object.
+Object name: 'FrmHsmartWindow'.
+» Stack Trace:	   at System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   at System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   at RTC_Vision_Lite.Forms.FrmHsmartWindow.VisibleOrHideControlByContext() in D:\RTC\01. Project\01.RTCVision Lite\RTC Vision Lite\2. Forms\FrmHsmartWindow.cs:line 251
+   at RTC_Vision_Lite.Forms.FrmHsmartWindow.set_Image(Image value) in D:\RTC\01. Project\01.RTCVision Lite\RTC Vision Lite\2. Forms\FrmHsmartWindow.cs:line 43
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Snap(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isBringImageToMain, Boolean isFromOtherCam) in D:\RTC\01. Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 1341
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Run(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isShowMessage, Boolean isResetIdRun, Boolean isCheckData, cAction runProgramAction) in D:\RTC\01. Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 287
+2025-05-06 14:44:17.6119 
+» Message:	Object is currently in use elsewhere.
+» Stack Trace:	   at System.Drawing.Image.get_FrameDimensionsList()
+   at System.Drawing.ImageAnimator.CanAnimate(Image image)
+   at System.Drawing.ImageAnimator.ImageInfo..ctor(Image image)
+   at System.Drawing.ImageAnimator.Animate(Image image, EventHandler onFrameChangedHandler)
+   at System.Windows.Forms.PictureBox.Animate(Boolean animate)
+   at System.Windows.Forms.PictureBox.InstallNewImage(Image value, ImageInstallationType installationType)
+   at RTC_Vision_Lite.PublicFunctions.GlobFuncs.DisplayGraphics(GraphicsWindow smartWindow, Object graphicsDisplay, Image`2& inputImage, Color color) in D:\RTC\01. Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Global\GlobFuncs.cs:line 4561
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_Viewing(cAction action, GraphicsWindow smartWindowControl, Int32& iRow, Int32& iWriteHistory) in D:\RTC\01. Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 307
+2025-05-06 15:09:01.0263 
+» Message:	Object is currently in use elsewhere.
+» Stack Trace:	   at System.Drawing.Image.get_FrameDimensionsList()
+   at System.Drawing.ImageAnimator.CanAnimate(Image image)
+   at System.Drawing.ImageAnimator.ImageInfo..ctor(Image image)
+   at System.Drawing.ImageAnimator.Animate(Image image, EventHandler onFrameChangedHandler)
+   at System.Windows.Forms.PictureBox.Animate(Boolean animate)
+   at System.Windows.Forms.PictureBox.InstallNewImage(Image value, ImageInstallationType installationType)
+   at RTC_Vision_Lite.PublicFunctions.GlobFuncs.DisplayGraphics(GraphicsWindow smartWindow, Object graphicsDisplay, Image`2& inputImage, Color color)
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_Viewing(cAction action, GraphicsWindow smartWindowControl, Int32& iRow, Int32& iWriteHistory)
+2025-05-06 15:10:38.6361 
+» Message:	Object is currently in use elsewhere.
+» Stack Trace:	   at System.Drawing.Image.get_FrameDimensionsList()
+   at System.Drawing.ImageAnimator.CanAnimate(Image image)
+   at System.Drawing.ImageAnimator.ImageInfo..ctor(Image image)
+   at System.Drawing.ImageAnimator.Animate(Image image, EventHandler onFrameChangedHandler)
+   at System.Windows.Forms.PictureBox.Animate(Boolean animate)
+   at System.Windows.Forms.PictureBox.InstallNewImage(Image value, ImageInstallationType installationType)
+   at RTC_Vision_Lite.PublicFunctions.GlobFuncs.DisplayGraphics(GraphicsWindow smartWindow, Object graphicsDisplay, Image`2& inputImage, Color color)
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_Viewing(cAction action, GraphicsWindow smartWindowControl, Int32& iRow, Int32& iWriteHistory)
+2025-05-06 15:10:39.0893 
+» Message:	Object is currently in use elsewhere.
+» Stack Trace:	   at System.Drawing.Image.get_FrameDimensionsList()
+   at System.Drawing.ImageAnimator.CanAnimate(Image image)
+   at System.Drawing.ImageAnimator.ImageInfo..ctor(Image image)
+   at System.Drawing.ImageAnimator.Animate(Image image, EventHandler onFrameChangedHandler)
+   at System.Windows.Forms.PictureBox.Animate(Boolean animate)
+   at System.Windows.Forms.PictureBox.InstallNewImage(Image value, ImageInstallationType installationType)
+   at RTC_Vision_Lite.PublicFunctions.GlobFuncs.DisplayGraphics(GraphicsWindow smartWindow, Object graphicsDisplay, Image`2& inputImage, Color color)
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_Viewing(cAction action, GraphicsWindow smartWindowControl, Int32& iRow, Int32& iWriteHistory)
+2025-05-06 15:28:51.4564 
+» Message:	Object is currently in use elsewhere.
+» Stack Trace:	   at System.Drawing.Image.get_FrameDimensionsList()
+   at System.Drawing.ImageAnimator.CanAnimate(Image image)
+   at System.Drawing.ImageAnimator.ImageInfo..ctor(Image image)
+   at System.Drawing.ImageAnimator.Animate(Image image, EventHandler onFrameChangedHandler)
+   at System.Windows.Forms.PictureBox.Animate(Boolean animate)
+   at System.Windows.Forms.PictureBox.InstallNewImage(Image value, ImageInstallationType installationType)
+   at RTC_Vision_Lite.PublicFunctions.GlobFuncs.DisplayGraphics(GraphicsWindow smartWindow, Object graphicsDisplay, Image`2& inputImage, Color color)
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_Viewing(cAction action, GraphicsWindow smartWindowControl, Int32& iRow, Int32& iWriteHistory)
+2025-05-06 15:32:19.0470 
+» Message:	Object is currently in use elsewhere.
+» Stack Trace:	   at System.Drawing.Image.get_FrameDimensionsList()
+   at System.Drawing.ImageAnimator.CanAnimate(Image image)
+   at System.Drawing.ImageAnimator.ImageInfo..ctor(Image image)
+   at System.Drawing.ImageAnimator.Animate(Image image, EventHandler onFrameChangedHandler)
+   at System.Windows.Forms.PictureBox.Animate(Boolean animate)
+   at System.Windows.Forms.PictureBox.InstallNewImage(Image value, ImageInstallationType installationType)
+   at RTC_Vision_Lite.PublicFunctions.GlobFuncs.DisplayGraphics(GraphicsWindow smartWindow, Object graphicsDisplay, Image`2& inputImage, Color color)
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_Viewing(cAction action, GraphicsWindow smartWindowControl, Int32& iRow, Int32& iWriteHistory)
+2025-05-06 16:22:19.5549 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at System.Drawing.Bitmap..ctor(Image original)
+   at RTC_Vision_Lite.Classes.cGroupActions.RunBefore(cAction Action, Boolean _WithShowMessage)
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_RunCurrentAction(Boolean isShowMessage)
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Run(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isShowMessage, Boolean isResetIdRun, Boolean isCheckData, cAction runProgramAction)
+2025-05-06 16:45:11.3689 
+» Message:	Exception has been thrown by the target of an invocation.
+» Stack Trace:	   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action)
+2025-05-06 16:46:00.9454 
+» Message:	Exception has been thrown by the target of an invocation.
+» Stack Trace:	   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action)
+2025-05-06 16:46:07.6046 
+» Message:	Exception has been thrown by the target of an invocation.
+» Stack Trace:	   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action)
+2025-05-06 16:46:12.8676 
+» Message:	Exception has been thrown by the target of an invocation.
+» Stack Trace:	   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action)
+2025-05-06 16:46:19.6026 
+» Message:	Exception has been thrown by the target of an invocation.
+» Stack Trace:	   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action)
+2025-05-06 16:53:48.5880 
+» Message:	Exception has been thrown by the target of an invocation.
+» Stack Trace:	   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action)
+2025-05-06 17:26:32.8395 
+» Message:	Exception has been thrown by the target of an invocation.
+» Stack Trace:	   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action)

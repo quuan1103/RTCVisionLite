@@ -1,0 +1,50 @@
+2024-08-02 09:01:51.4778 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cCAMTypes.SaveJobEvents(cProjectTypes curentProject)
+   at RTC_Vision_Lite.Forms.FrmActions.btnSaveAndClose_Click(Object sender, EventArgs e)
+   at System.Windows.Forms.ToolStripItem.RaiseEvent(Object key, EventArgs e)
+   at System.Windows.Forms.ToolStripButton.OnClick(EventArgs e)
+   at System.Windows.Forms.ToolStripItem.HandleClick(EventArgs e)
+   at System.Windows.Forms.ToolStripItem.FireEventInteractive(EventArgs e, ToolStripItemEventType met)
+   at System.Windows.Forms.ToolStripItem.FireEvent(EventArgs e, ToolStripItemEventType met)
+   at System.Windows.Forms.ToolStripItem.PerformClick()
+   at RTC_Vision_Lite.Classes.ProjectFunctions.cProjectFunctions.ChangeJobProcess()
+2024-08-02 11:18:39.6050 
+» Message:	Cannot access a disposed object.
+Object name: 'Panel'.
+» Stack Trace:	   at System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   at System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   at System.Windows.Forms.Control.Invoke(Delegate method)
+   at RTC_Vision_Lite.PublicFunctions.GlobFuncs.EnableControl(Control control, Boolean enable) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Global\GlobFuncs.cs:line 3636
+   at RTC_Vision_Lite.UserControls.ucBaseActionDetail.set_IsRun(Boolean value) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\3. UserControls\Tools\ucBaseActionDetail.cs:line 122
+   at RTC_Vision_Lite.Classes.cGroupActions.EnableControlWhenRun() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1249
+   at RTC_Vision_Lite.Forms.FrmActions.Stop() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\2. Forms\FrmActions.cs:line 1321
+2024-08-02 11:20:55.7653 
+» Message:	Cannot access a disposed object.
+Object name: 'FrmActions'.
+» Stack Trace:	   at System.Windows.Forms.Control.CreateHandle()
+   at System.Windows.Forms.Form.CreateHandle()
+   at System.Windows.Forms.Control.get_Handle()
+   at RTC_Vision_Lite.PublicFunctions.GlobFuncs.BeginControlUpdate(Control control) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Global\GlobFuncs.cs:line 3098
+   at RTC_Vision_Lite.Forms.FrmActions.ViewControlWhenStop() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\2. Forms\FrmActions.cs:line 1340
+   at RTC_Vision_Lite.Forms.FrmActions.Stop() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\2. Forms\FrmActions.cs:line 1321
+2024-08-02 11:21:47.8823 
+» Message:	Cannot access a disposed object.
+Object name: 'Button'.
+» Stack Trace:	   at System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   at System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   at System.Windows.Forms.Control.Invoke(Delegate method)
+   at RTC_Vision_Lite.PublicFunctions.GlobFuncs.EnableControl(Control control, Boolean enable) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Global\GlobFuncs.cs:line 3636
+   at RTC_Vision_Lite.UserControls.ucMainActions.set_IsRun(Boolean value) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\3. UserControls\Tools\ucMainActions.cs:line 219
+   at RTC_Vision_Lite.Classes.cGroupActions.EnableControlWhenRun() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1246
+   at RTC_Vision_Lite.Forms.FrmActions.ViewControlWhenStop() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\2. Forms\FrmActions.cs:line 1339
+   at RTC_Vision_Lite.Forms.FrmActions.Stop() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\2. Forms\FrmActions.cs:line 1321
+2024-08-02 11:24:20.3598 
+» Message:	Cannot access a disposed object.
+Object name: 'FrmActions'.
+» Stack Trace:	   at System.Windows.Forms.Control.CreateHandle()
+   at System.Windows.Forms.Form.CreateHandle()
+   at System.Windows.Forms.Control.get_Handle()
+   at RTC_Vision_Lite.PublicFunctions.GlobFuncs.BeginControlUpdate(Control control)
+   at RTC_Vision_Lite.Forms.FrmActions.ViewControlWhenStop()
+   at RTC_Vision_Lite.Forms.FrmActions.Stop()

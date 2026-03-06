@@ -1,0 +1,9 @@
+2024-10-08 15:01:30.4161 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at System.Drawing.Bitmap..ctor(Image original)
+   at RTC_Vision_Lite.Classes.cGroupActions.SetImageToAllAction(Image image)
+   at RTC_Vision_Lite.Classes.cGroupActions.SnapImage(Boolean isSetPart, Boolean isPreview, String errMessage)
+   at RTC_Vision_Lite.UserControls.ucMainActions.TakePicture(Boolean _IsPreView)
+   at RTC_Vision_Lite.Classes.cGroupActions.RunBefore(cAction Action, Boolean _WithShowMessage)
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_RunCurrentAction(Boolean isShowMessage)
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Run(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isShowMessage, Boolean isResetIdRun, Boolean isCheckData, cAction runProgramAction)

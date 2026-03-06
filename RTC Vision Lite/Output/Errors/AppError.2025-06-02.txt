@@ -1,0 +1,298 @@
+2025-06-02 15:12:05.9816 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_Math_Random() in D:\2. RTC Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.MathFunction.cs:line 110
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\2. RTC Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 869
+2025-06-02 15:12:32.1350 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_Math_Random() in D:\2. RTC Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.MathFunction.cs:line 110
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\2. RTC Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 869
+2025-06-02 15:12:41.6973 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_Math_Random() in D:\2. RTC Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.MathFunction.cs:line 110
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\2. RTC Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 869
+2025-06-02 15:12:46.6976 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_Math_Random() in D:\2. RTC Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.MathFunction.cs:line 110
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\2. RTC Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 869
+2025-06-02 15:50:51.6698 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.String]' to type 'RTC_Vision_Lite.Classes.SString'.
+» Stack Trace:	   at RTC_Vision_Lite.PublicFunctions.GlobFuncs.Object2Str(Object _object)
+   at RTC_Vision_Lite.UserControls.ucBaseActionDetail.UpdateReferencePropertyControls_Process(String PropertyName)
+   at RTC_Vision_Lite.UserControls.ucBaseActionDetail.UpdateReferencePropertyControls(String PropertyName)
+   at RTC_Vision_Lite.UserControls.ucBaseActionDetail.ReviewAllPropertyValueToViewInfo_OutputValue_ToControls(List`1 ListOutputPropertyInfo)
+   at RTC_Vision_Lite.UserControls.ucBaseActionDetail.ReviewAllPropertyValueToViewInfo_Process()
+   at RTC_Vision_Lite.UserControls.ucBaseActionDetail.ReviewAllPropertyValueToViewInfo()
+   at RTC_Vision_Lite.Classes.cAction.ViewResultWhenAfterRun(Stopwatch stopwatch)
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2025-06-02 15:50:52.4117 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.Object]' to type 'RTC_Vision_Lite.Classes.SString'.
+» Stack Trace:	   at RTC_Vision_Lite.PublicFunctions.GlobFuncs.Object2Str(Object _object)
+   at RTC_Vision_Lite.UserControls.ucBaseActionDetail.UpdateReferencePropertyControls_Process(String PropertyName)
+   at RTC_Vision_Lite.UserControls.ucBaseActionDetail.UpdateReferencePropertyControls(String PropertyName)
+   at RTC_Vision_Lite.UserControls.ucBaseActionDetail.TextBox_LostFocusEvents(Object sender, EventArgs e)
+2025-06-02 15:50:52.4117 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.String]' to type 'RTC_Vision_Lite.Classes.SString'.
+» Stack Trace:	   at RTC_Vision_Lite.PublicFunctions.GlobFuncs.Object2Str(Object _object)
+   at RTC_Vision_Lite.UserControls.ucBaseActionDetail.UpdateReferencePropertyControls_Process(String PropertyName)
+   at RTC_Vision_Lite.UserControls.ucBaseActionDetail.UpdateReferencePropertyControls(String PropertyName)
+   at RTC_Vision_Lite.UserControls.ucBaseActionDetail.ReviewAllPropertyValueToViewInfo_OutputValue_ToControls(List`1 ListOutputPropertyInfo)
+   at RTC_Vision_Lite.UserControls.ucBaseActionDetail.ReviewAllPropertyValueToViewInfo_Process()
+   at RTC_Vision_Lite.UserControls.ucBaseActionDetail.ReviewAllPropertyValueToViewInfo()
+   at RTC_Vision_Lite.Classes.cAction.ViewResultWhenAfterRun(Stopwatch stopwatch)
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2025-06-02 15:50:53.0121 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.Object]' to type 'RTC_Vision_Lite.Classes.SString'.
+» Stack Trace:	   at RTC_Vision_Lite.PublicFunctions.GlobFuncs.Object2Str(Object _object)
+   at RTC_Vision_Lite.UserControls.ucBaseActionDetail.UpdateReferencePropertyControls_Process(String PropertyName)
+   at RTC_Vision_Lite.UserControls.ucBaseActionDetail.UpdateReferencePropertyControls(String PropertyName)
+   at RTC_Vision_Lite.UserControls.ucBaseActionDetail.TextBox_KeyDownEvents(Object sender, KeyEventArgs e)
+2025-06-02 15:51:43.4961 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.String]' to type 'RTC_Vision_Lite.Classes.SString'.
+» Stack Trace:	   at RTC_Vision_Lite.PublicFunctions.GlobFuncs.Object2Str(Object _object)
+   at RTC_Vision_Lite.UserControls.ucBaseActionDetail.UpdateReferencePropertyControls_Process(String PropertyName)
+   at RTC_Vision_Lite.UserControls.ucBaseActionDetail.UpdateReferencePropertyControls(String PropertyName)
+   at RTC_Vision_Lite.UserControls.ucBaseActionDetail.ReviewAllPropertyValueToViewInfo_OutputValue_ToControls(List`1 ListOutputPropertyInfo)
+   at RTC_Vision_Lite.UserControls.ucBaseActionDetail.ReviewAllPropertyValueToViewInfo_Process()
+   at RTC_Vision_Lite.UserControls.ucBaseActionDetail.ReviewAllPropertyValueToViewInfo()
+   at RTC_Vision_Lite.Classes.cAction.ViewResultWhenAfterRun(Stopwatch stopwatch)
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2025-06-02 15:51:43.5537 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.Object]' to type 'RTC_Vision_Lite.Classes.SString'.
+» Stack Trace:	   at RTC_Vision_Lite.PublicFunctions.GlobFuncs.Object2Str(Object _object)
+   at RTC_Vision_Lite.UserControls.ucBaseActionDetail.UpdateReferencePropertyControls_Process(String PropertyName)
+   at RTC_Vision_Lite.UserControls.ucBaseActionDetail.UpdateReferencePropertyControls(String PropertyName)
+   at RTC_Vision_Lite.UserControls.ucBaseActionDetail.TextBox_LostFocusEvents(Object sender, EventArgs e)
+2025-06-02 15:51:43.5537 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.String]' to type 'RTC_Vision_Lite.Classes.SString'.
+» Stack Trace:	   at RTC_Vision_Lite.PublicFunctions.GlobFuncs.Object2Str(Object _object)
+   at RTC_Vision_Lite.UserControls.ucBaseActionDetail.UpdateReferencePropertyControls_Process(String PropertyName)
+   at RTC_Vision_Lite.UserControls.ucBaseActionDetail.UpdateReferencePropertyControls(String PropertyName)
+   at RTC_Vision_Lite.UserControls.ucBaseActionDetail.ReviewAllPropertyValueToViewInfo_OutputValue_ToControls(List`1 ListOutputPropertyInfo)
+   at RTC_Vision_Lite.UserControls.ucBaseActionDetail.ReviewAllPropertyValueToViewInfo_Process()
+   at RTC_Vision_Lite.UserControls.ucBaseActionDetail.ReviewAllPropertyValueToViewInfo()
+   at RTC_Vision_Lite.Classes.cAction.ViewResultWhenAfterRun(Stopwatch stopwatch)
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2025-06-02 15:51:43.6007 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.Object]' to type 'RTC_Vision_Lite.Classes.SString'.
+» Stack Trace:	   at RTC_Vision_Lite.PublicFunctions.GlobFuncs.Object2Str(Object _object)
+   at RTC_Vision_Lite.UserControls.ucBaseActionDetail.UpdateReferencePropertyControls_Process(String PropertyName)
+   at RTC_Vision_Lite.UserControls.ucBaseActionDetail.UpdateReferencePropertyControls(String PropertyName)
+   at RTC_Vision_Lite.UserControls.ucBaseActionDetail.TextBox_KeyDownEvents(Object sender, KeyEventArgs e)
+2025-06-02 15:51:50.7526 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.String]' to type 'RTC_Vision_Lite.Classes.SString'.
+» Stack Trace:	   at RTC_Vision_Lite.PublicFunctions.GlobFuncs.Object2Str(Object _object)
+   at RTC_Vision_Lite.UserControls.ucBaseActionDetail.UpdateReferencePropertyControls_Process(String PropertyName)
+   at RTC_Vision_Lite.UserControls.ucBaseActionDetail.UpdateReferencePropertyControls(String PropertyName)
+   at RTC_Vision_Lite.UserControls.ucBaseActionDetail.ReviewAllPropertyValueToViewInfo_OutputValue_ToControls(List`1 ListOutputPropertyInfo)
+   at RTC_Vision_Lite.UserControls.ucBaseActionDetail.ReviewAllPropertyValueToViewInfo_Process()
+   at RTC_Vision_Lite.UserControls.ucBaseActionDetail.ReviewAllPropertyValueToViewInfo()
+   at RTC_Vision_Lite.Classes.cAction.ViewResultWhenAfterRun(Stopwatch stopwatch)
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2025-06-02 15:51:50.7921 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.Object]' to type 'RTC_Vision_Lite.Classes.SString'.
+» Stack Trace:	   at RTC_Vision_Lite.PublicFunctions.GlobFuncs.Object2Str(Object _object)
+   at RTC_Vision_Lite.UserControls.ucBaseActionDetail.UpdateReferencePropertyControls_Process(String PropertyName)
+   at RTC_Vision_Lite.UserControls.ucBaseActionDetail.UpdateReferencePropertyControls(String PropertyName)
+   at RTC_Vision_Lite.UserControls.ucBaseActionDetail.TextBox_LostFocusEvents(Object sender, EventArgs e)
+2025-06-02 17:24:06.8633 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_Math_Random()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2025-06-02 17:24:06.8928 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_Math_Random()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2025-06-02 17:24:44.1174 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_Math_Random() in D:\2. RTC Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.MathFunction.cs:line 110
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\2. RTC Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 869
+2025-06-02 17:24:53.3018 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_Math_Random() in D:\2. RTC Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.MathFunction.cs:line 110
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\2. RTC Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 869
+2025-06-02 17:24:54.8308 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_Math_Random() in D:\2. RTC Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.MathFunction.cs:line 110
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\2. RTC Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 869
+2025-06-02 17:25:20.3557 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_Math_Random() in D:\2. RTC Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.MathFunction.cs:line 110
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\2. RTC Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 869
+2025-06-02 17:25:20.3627 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_Math_Random() in D:\2. RTC Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.MathFunction.cs:line 110
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\2. RTC Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 869
+2025-06-02 17:25:30.7663 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_Math_Random()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2025-06-02 17:25:31.8242 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_Math_Random()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2025-06-02 17:25:50.6155 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_Math_Random()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2025-06-02 17:25:50.6290 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_Math_Random()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2025-06-02 17:26:35.3763 
+» Message:	'minValue' cannot be greater than maxValue.
+Parameter name: minValue
+» Stack Trace:	   at System.Random.Next(Int32 minValue, Int32 maxValue)
+   at RTC_Vision_Lite.Classes.cAction.Run_Math_Random()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2025-06-02 17:26:37.9319 
+» Message:	'minValue' cannot be greater than maxValue.
+Parameter name: minValue
+» Stack Trace:	   at System.Random.Next(Int32 minValue, Int32 maxValue)
+   at RTC_Vision_Lite.Classes.cAction.Run_Math_Random()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2025-06-02 17:26:38.7913 
+» Message:	'minValue' cannot be greater than maxValue.
+Parameter name: minValue
+» Stack Trace:	   at System.Random.Next(Int32 minValue, Int32 maxValue)
+   at RTC_Vision_Lite.Classes.cAction.Run_Math_Random()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2025-06-02 17:27:00.2561 
+» Message:	'minValue' cannot be greater than maxValue.
+Parameter name: minValue
+» Stack Trace:	   at System.Random.Next(Int32 minValue, Int32 maxValue)
+   at RTC_Vision_Lite.Classes.cAction.Run_Math_Random()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2025-06-02 17:27:12.4642 
+» Message:	'minValue' cannot be greater than maxValue.
+Parameter name: minValue
+» Stack Trace:	   at System.Random.Next(Int32 minValue, Int32 maxValue)
+   at RTC_Vision_Lite.Classes.cAction.Run_Math_Random()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2025-06-02 17:27:13.8815 
+» Message:	'minValue' cannot be greater than maxValue.
+Parameter name: minValue
+» Stack Trace:	   at System.Random.Next(Int32 minValue, Int32 maxValue)
+   at RTC_Vision_Lite.Classes.cAction.Run_Math_Random()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2025-06-02 17:28:07.3866 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_Math_Random() in D:\2. RTC Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.MathFunction.cs:line 110
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\2. RTC Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 869
+2025-06-02 17:28:09.8974 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_Math_Random() in D:\2. RTC Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.MathFunction.cs:line 110
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\2. RTC Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 869
+2025-06-02 17:28:11.8537 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_Math_Random() in D:\2. RTC Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.MathFunction.cs:line 110
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\2. RTC Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 869
+2025-06-02 17:28:13.4565 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_Math_Random() in D:\2. RTC Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.MathFunction.cs:line 110
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\2. RTC Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 869
+2025-06-02 17:28:15.9373 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_Math_Random() in D:\2. RTC Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.MathFunction.cs:line 110
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\2. RTC Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 869
+2025-06-02 17:28:16.8586 
+» Message:	'minValue' cannot be greater than maxValue.
+Parameter name: minValue
+» Stack Trace:	   at System.Random.Next(Int32 minValue, Int32 maxValue)
+   at RTC_Vision_Lite.Classes.cAction.Run_Math_Random() in D:\2. RTC Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.MathFunction.cs:line 114
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\2. RTC Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 869
+2025-06-02 17:28:17.8692 
+» Message:	'minValue' cannot be greater than maxValue.
+Parameter name: minValue
+» Stack Trace:	   at System.Random.Next(Int32 minValue, Int32 maxValue)
+   at RTC_Vision_Lite.Classes.cAction.Run_Math_Random() in D:\2. RTC Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.MathFunction.cs:line 114
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\2. RTC Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 869
+2025-06-02 17:28:18.2863 
+» Message:	'minValue' cannot be greater than maxValue.
+Parameter name: minValue
+» Stack Trace:	   at System.Random.Next(Int32 minValue, Int32 maxValue)
+   at RTC_Vision_Lite.Classes.cAction.Run_Math_Random() in D:\2. RTC Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.MathFunction.cs:line 114
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\2. RTC Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 869
+2025-06-02 17:28:18.4839 
+» Message:	'minValue' cannot be greater than maxValue.
+Parameter name: minValue
+» Stack Trace:	   at System.Random.Next(Int32 minValue, Int32 maxValue)
+   at RTC_Vision_Lite.Classes.cAction.Run_Math_Random() in D:\2. RTC Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.MathFunction.cs:line 114
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\2. RTC Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 869
+2025-06-02 17:28:18.6772 
+» Message:	'minValue' cannot be greater than maxValue.
+Parameter name: minValue
+» Stack Trace:	   at System.Random.Next(Int32 minValue, Int32 maxValue)
+   at RTC_Vision_Lite.Classes.cAction.Run_Math_Random() in D:\2. RTC Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.MathFunction.cs:line 114
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\2. RTC Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 869
+2025-06-02 17:28:18.8945 
+» Message:	'minValue' cannot be greater than maxValue.
+Parameter name: minValue
+» Stack Trace:	   at System.Random.Next(Int32 minValue, Int32 maxValue)
+   at RTC_Vision_Lite.Classes.cAction.Run_Math_Random() in D:\2. RTC Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.MathFunction.cs:line 114
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\2. RTC Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 869
+2025-06-02 17:28:19.0741 
+» Message:	'minValue' cannot be greater than maxValue.
+Parameter name: minValue
+» Stack Trace:	   at System.Random.Next(Int32 minValue, Int32 maxValue)
+   at RTC_Vision_Lite.Classes.cAction.Run_Math_Random() in D:\2. RTC Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.MathFunction.cs:line 114
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\2. RTC Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 869

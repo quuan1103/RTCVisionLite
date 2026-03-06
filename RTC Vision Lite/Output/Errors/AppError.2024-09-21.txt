@@ -1,0 +1,12 @@
+2024-09-21 11:39:57.9075 
+» Message:	Object is currently in use elsewhere.
+» Stack Trace:	   at System.Drawing.Image.get_FrameDimensionsList()
+   at System.Drawing.ImageAnimator.CanAnimate(Image image)
+   at System.Drawing.ImageAnimator.ImageInfo..ctor(Image image)
+   at System.Drawing.ImageAnimator.Animate(Image image, EventHandler onFrameChangedHandler)
+   at System.Windows.Forms.PictureBox.Animate(Boolean animate)
+   at System.Windows.Forms.PictureBox.Animate()
+   at System.Windows.Forms.PictureBox.InstallNewImage(Image value, ImageInstallationType installationType)
+   at System.Windows.Forms.PictureBox.set_Image(Image value)
+   at RTC_Vision_Lite.PublicFunctions.GlobFuncs.DisplayGraphics(GraphicsWindow smartWindow, Object graphicsDisplay, Image`2& inputImage, Color color) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Global\GlobFuncs.cs:line 4533
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_Viewing(cAction action, GraphicsWindow smartWindowControl, Int32& iRow, Int32& iWriteHistory) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 305

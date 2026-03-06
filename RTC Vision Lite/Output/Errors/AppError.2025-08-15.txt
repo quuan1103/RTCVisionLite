@@ -1,0 +1,151 @@
+2025-08-15 16:24:39.2133 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_SplitImage() in D:\0.1 RTC\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2085
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\0.1 RTC\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1117
+2025-08-15 16:24:57.1529 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_SplitImage() in D:\0.1 RTC\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2085
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\0.1 RTC\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1117
+2025-08-15 16:59:14.5339 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_SplitImage() in D:\0.1 RTC\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2085
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\0.1 RTC\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1117
+2025-08-15 16:59:47.8303 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_SplitImage()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+2025-08-15 16:59:58.0998 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_SplitImage()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+2025-08-15 17:05:12.5825 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_SplitImage()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+2025-08-15 17:05:24.9878 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_SplitImage()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+2025-08-15 17:05:28.1525 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_SplitImage()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+2025-08-15 17:05:48.9033 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_SplitImage()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+2025-08-15 17:22:52.7913 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_SplitImage()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+2025-08-15 17:23:00.9805 
+» Message:	One or more errors occurred.
+» Stack Trace:	   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   at System.Threading.Tasks.Parallel.ForWorker[TLocal](Int32 fromInclusive, Int32 toExclusive, ParallelOptions parallelOptions, Action`1 body, Action`2 bodyWithState, Func`4 bodyWithLocal, Func`1 localInit, Action`1 localFinally)
+   at System.Threading.Tasks.Parallel.For(Int32 fromInclusive, Int32 toExclusive, Action`1 body)
+   at NewPattern.NewPattern.Run() in D:\0.1 RTC\01.RTCVision Lite\8. NewPattern\NewPattern\Class1.cs:line 597
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+2025-08-15 17:23:01.3735 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_SplitImage()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+2025-08-15 17:23:28.7899 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern()
+2025-08-15 17:24:14.0314 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_SplitImage()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+2025-08-15 17:24:21.2545 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_SplitImage()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+2025-08-15 17:24:41.2303 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_SplitImage()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+2025-08-15 17:25:26.6879 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_SplitImage()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+2025-08-15 17:27:48.8984 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_SplitImage()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+2025-08-15 17:28:42.6784 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_SplitImage()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+2025-08-15 17:30:15.5739 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_SplitImage()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+2025-08-15 17:31:23.4554 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern()
+2025-08-15 17:32:15.3581 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_SplitImage()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+2025-08-15 17:32:26.7862 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_SplitImage()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()

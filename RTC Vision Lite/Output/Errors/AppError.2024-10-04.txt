@@ -1,0 +1,75 @@
+2024-10-04 11:02:47.5439 
+» Message:	Value of '0' is not valid for 'Value'. 'Value' should be between 'Minimum' and 'Maximum'.
+Parameter name: Value
+» Stack Trace:	   at System.Windows.Forms.NumericUpDown.set_Value(Decimal value)
+   at RTC_Vision_Lite.PublicFunctions.GlobFuncs.HIK_SetFloatValueToNumberic(MyHikCamera hikCamera, String paramName, NumericUpDown edit) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Global\GlobFuncs.cs:line 2738
+2024-10-04 11:04:03.0431 
+» Message:	Value of '0' is not valid for 'Value'. 'Value' should be between 'Minimum' and 'Maximum'.
+Parameter name: Value
+» Stack Trace:	   at System.Windows.Forms.NumericUpDown.set_Value(Decimal value)
+   at RTC_Vision_Lite.PublicFunctions.GlobFuncs.HIK_SetFloatValueToNumberic(MyHikCamera hikCamera, String paramName, NumericUpDown edit) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Global\GlobFuncs.cs:line 2738
+2024-10-04 11:04:28.2923 
+» Message:	Value of '0' is not valid for 'Value'. 'Value' should be between 'Minimum' and 'Maximum'.
+Parameter name: Value
+» Stack Trace:	   at System.Windows.Forms.NumericUpDown.set_Value(Decimal value)
+   at RTC_Vision_Lite.PublicFunctions.GlobFuncs.HIK_SetFloatValueToNumberic(MyHikCamera hikCamera, String paramName, NumericUpDown edit) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Global\GlobFuncs.cs:line 2738
+2024-10-04 11:05:38.0702 
+» Message:	Value of '0' is not valid for 'Value'. 'Value' should be between 'Minimum' and 'Maximum'.
+Parameter name: Value
+» Stack Trace:	   at System.Windows.Forms.NumericUpDown.set_Value(Decimal value)
+   at RTC_Vision_Lite.PublicFunctions.GlobFuncs.HIK_SetFloatValueToNumberic(MyHikCamera hikCamera, String paramName, NumericUpDown edit) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Global\GlobFuncs.cs:line 2738
+2024-10-04 11:08:36.3740 
+» Message:	Value of '0' is not valid for 'Value'. 'Value' should be between 'Minimum' and 'Maximum'.
+Parameter name: Value
+» Stack Trace:	   at System.Windows.Forms.NumericUpDown.set_Value(Decimal value)
+   at RTC_Vision_Lite.PublicFunctions.GlobFuncs.HIK_SetFloatValueToNumberic(MyHikCamera hikCamera, String paramName, NumericUpDown edit) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Global\GlobFuncs.cs:line 2738
+2024-10-04 11:09:53.3143 
+» Message:	Value of '0' is not valid for 'Value'. 'Value' should be between 'Minimum' and 'Maximum'.
+Parameter name: Value
+» Stack Trace:	   at System.Windows.Forms.NumericUpDown.set_Value(Decimal value)
+   at RTC_Vision_Lite.PublicFunctions.GlobFuncs.HIK_SetFloatValueToNumberic(MyHikCamera hikCamera, String paramName, NumericUpDown edit) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Global\GlobFuncs.cs:line 2738
+2024-10-04 11:10:19.8985 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at System.Drawing.Bitmap..ctor(Image original)
+   at RTC_Vision_Lite.Classes.cGroupActions.SetImageToAllAction(Image image) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.CamFunctions.cs:line 112
+   at RTC_Vision_Lite.Classes.cGroupActions.SnapImage(Boolean isSetPart, Boolean isPreview, String errMessage) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.CamFunctions.cs:line 52
+   at RTC_Vision_Lite.UserControls.ucMainActions.TakePicture(Boolean _IsPreView) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\3. UserControls\Tools\ucMainActions.cs:line 567
+   at RTC_Vision_Lite.Classes.cGroupActions.RunBefore(cAction Action, Boolean _WithShowMessage) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 637
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_RunCurrentAction(Boolean isShowMessage) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 546
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Run(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isShowMessage, Boolean isThreading, Boolean isResetIdRun, Boolean isCheckData, cAction runProgramAction) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 148
+2024-10-04 11:13:08.8323 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at System.Drawing.Bitmap..ctor(Image original)
+   at RTC_Vision_Lite.Classes.cGroupActions.SetImageToAllAction(Image image) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.CamFunctions.cs:line 112
+   at RTC_Vision_Lite.Classes.cGroupActions.SnapImage(Boolean isSetPart, Boolean isPreview, String errMessage) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.CamFunctions.cs:line 52
+   at RTC_Vision_Lite.UserControls.ucMainActions.TakePicture(Boolean _IsPreView) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\3. UserControls\Tools\ucMainActions.cs:line 567
+   at RTC_Vision_Lite.Classes.cGroupActions.RunBefore(cAction Action, Boolean _WithShowMessage) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 637
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_RunCurrentAction(Boolean isShowMessage) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 546
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Run(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isShowMessage, Boolean isThreading, Boolean isResetIdRun, Boolean isCheckData, cAction runProgramAction) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 148
+2024-10-04 11:13:37.8852 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at System.Drawing.Bitmap..ctor(Image original)
+   at RTC_Vision_Lite.Classes.cGroupActions.SetImageToAllAction(Image image) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.CamFunctions.cs:line 112
+   at RTC_Vision_Lite.Classes.cGroupActions.SnapImage(Boolean isSetPart, Boolean isPreview, String errMessage) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.CamFunctions.cs:line 52
+   at RTC_Vision_Lite.UserControls.ucMainActions.TakePicture(Boolean _IsPreView) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\3. UserControls\Tools\ucMainActions.cs:line 567
+   at RTC_Vision_Lite.Classes.cGroupActions.RunBefore(cAction Action, Boolean _WithShowMessage) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 637
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_RunCurrentAction(Boolean isShowMessage) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 546
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Run(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isShowMessage, Boolean isThreading, Boolean isResetIdRun, Boolean isCheckData, cAction runProgramAction) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 148
+2024-10-04 11:14:01.4458 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at System.Drawing.Bitmap..ctor(Image original)
+   at RTC_Vision_Lite.Classes.cGroupActions.SetImageToAllAction(Image image) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.CamFunctions.cs:line 112
+   at RTC_Vision_Lite.Classes.cGroupActions.SnapImage(Boolean isSetPart, Boolean isPreview, String errMessage) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.CamFunctions.cs:line 52
+   at RTC_Vision_Lite.UserControls.ucMainActions.TakePicture(Boolean _IsPreView) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\3. UserControls\Tools\ucMainActions.cs:line 567
+   at RTC_Vision_Lite.Classes.cGroupActions.RunBefore(cAction Action, Boolean _WithShowMessage) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 637
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_RunCurrentAction(Boolean isShowMessage) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 546
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Run(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isShowMessage, Boolean isThreading, Boolean isResetIdRun, Boolean isCheckData, cAction runProgramAction) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 148
+2024-10-04 14:32:05.2803 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at System.Drawing.Bitmap..ctor(Image original)
+   at RTC_Vision_Lite.Classes.cGroupActions.SetImageToAllAction(Image image) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.CamFunctions.cs:line 112
+   at RTC_Vision_Lite.Classes.cGroupActions.SnapImage(Boolean isSetPart, Boolean isPreview, String errMessage) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.CamFunctions.cs:line 52
+   at RTC_Vision_Lite.UserControls.ucMainActions.TakePicture(Boolean _IsPreView) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\3. UserControls\Tools\ucMainActions.cs:line 567
+   at RTC_Vision_Lite.Classes.cGroupActions.RunBefore(cAction Action, Boolean _WithShowMessage) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 637
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_RunCurrentAction(Boolean isShowMessage) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 546
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Run(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isShowMessage, Boolean isThreading, Boolean isResetIdRun, Boolean isCheckData, cAction runProgramAction) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 148

@@ -1,0 +1,14 @@
+2024-06-19 11:38:42.8414 
+» Message:	Value cannot be null.
+Parameter name: key
+» Stack Trace:	   at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   at BrightIdeasSoftware.TreeListView.Branch.AddChild(Object childModel)
+   at BrightIdeasSoftware.TreeListView.Branch.set_Children(IEnumerable value)
+   at BrightIdeasSoftware.TreeListView.Tree.set_RootObjects(IEnumerable value)
+   at BrightIdeasSoftware.TreeListView.set_Roots(IEnumerable value)
+   at BrightIdeasSoftware.TreeListView.Tree.SetObjects(IEnumerable collection)
+   at BrightIdeasSoftware.TreeListView.Tree.AddObjects(ICollection modelObjects)
+   at BrightIdeasSoftware.VirtualObjectListView.AddObjects(ICollection modelObjects)
+   at BrightIdeasSoftware.ObjectListView.AddObject(Object modelObject)
+   at RTC_Vision_Lite.Forms.FrmActionsChoose.PreviewData_Actions(cAction action, List`1 idViewed, ActionsChoose parentNode)
+   at RTC_Vision_Lite.Forms.FrmActionsChoose.PreviewData_Actions(cAction action, List`1 idViewed, ActionsChoose parentNode)

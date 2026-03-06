@@ -1,0 +1,254 @@
+2024-09-16 08:27:24.6585 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.RebuidValueWhenLink(cAction actionSrc, String propNameSrc, String propNameDes) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.OtherRunFunctions.cs:line 197
+   at RTC_Vision_Lite.Forms.FrmActions.EndLinkValue_Property(cAction ActionLink_Src, String PropertyLink_Src) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\2. Forms\FrmActions.cs:line 1186
+   at RTC_Vision_Lite.Forms.FrmActions.EndLinkValue(ActionTools NodeSrc) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\2. Forms\FrmActions.cs:line 1130
+2024-09-16 08:27:28.0133 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.UpdateShapeListOriginal() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2959
+2024-09-16 08:27:28.0673 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2312
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 949
+2024-09-16 08:27:29.9673 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2312
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 949
+2024-09-16 08:31:27.7616 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_ImageFilter(Boolean isTest, Boolean setwaitForDebugConnecttion) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunImageFilter.cs:line 48
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1015
+2024-09-16 08:33:27.0312 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_ImageFilter(Boolean isTest, Boolean setwaitForDebugConnecttion) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunImageFilter.cs:line 48
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1015
+2024-09-16 08:50:07.7232 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_ImageFilter(Boolean isTest, Boolean setwaitForDebugConnecttion)
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+2024-09-16 08:51:41.8138 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_ImageFilter(Boolean isTest, Boolean setwaitForDebugConnecttion)
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+2024-09-16 08:51:42.2347 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_ImageFilter(Boolean isTest, Boolean setwaitForDebugConnecttion)
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+2024-09-16 08:51:42.6656 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_ImageFilter(Boolean isTest, Boolean setwaitForDebugConnecttion)
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+2024-09-16 08:51:43.0774 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_ImageFilter(Boolean isTest, Boolean setwaitForDebugConnecttion)
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+2024-09-16 08:51:43.4905 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_ImageFilter(Boolean isTest, Boolean setwaitForDebugConnecttion)
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+2024-09-16 08:51:43.9044 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_ImageFilter(Boolean isTest, Boolean setwaitForDebugConnecttion)
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+2024-09-16 08:51:44.3203 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_ImageFilter(Boolean isTest, Boolean setwaitForDebugConnecttion)
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+2024-09-16 08:51:44.7332 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_ImageFilter(Boolean isTest, Boolean setwaitForDebugConnecttion)
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+2024-09-16 08:51:45.1351 
+» Message:	Cross-thread operation not valid: Control 'SmartWindow' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   at System.Windows.Forms.Control.Refresh()
+   at RTC_Vision_Lite.Classes.cAction.Run_ImageFilter(Boolean isTest, Boolean setwaitForDebugConnecttion)
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+2024-09-16 09:03:27.6692 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.RebuidValueWhenLink(cAction actionSrc, String propNameSrc, String propNameDes)
+   at RTC_Vision_Lite.Forms.FrmActions.EndLinkValue_Property(cAction ActionLink_Src, String PropertyLink_Src)
+   at RTC_Vision_Lite.Forms.FrmActions.EndLinkValue(ActionTools NodeSrc)
+2024-09-16 09:03:30.8867 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+2024-09-16 09:03:31.8946 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+2024-09-16 09:03:33.1734 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+2024-09-16 09:03:34.4285 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+2024-09-16 09:03:35.9195 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+2024-09-16 09:03:36.8623 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+2024-09-16 09:03:37.1087 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+2024-09-16 09:03:37.5978 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+2024-09-16 09:03:44.7412 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+2024-09-16 09:03:48.4570 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+2024-09-16 09:03:51.3870 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+2024-09-16 09:03:52.0175 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+2024-09-16 09:03:52.7339 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+2024-09-16 09:03:53.0403 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+2024-09-16 09:03:53.8979 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+2024-09-16 09:03:54.9005 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+2024-09-16 09:04:30.0543 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+2024-09-16 09:23:49.4965 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.UpdateShapeListOriginal()
+2024-09-16 09:24:01.5129 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.UpdateShapeListOriginal()
+2024-09-16 09:24:52.1846 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.UpdateShapeListOriginal()
+2024-09-16 09:25:27.3245 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.UpdateShapeListOriginal()

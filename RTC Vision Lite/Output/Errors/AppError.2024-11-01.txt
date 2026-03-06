@@ -1,0 +1,266 @@
+2024-11-01 14:31:07.8636 
+» Message:	Table doesn't have a primary key.
+» Stack Trace:	   at System.Data.DataTable.FindByPrimaryKey(Object value)
+   at System.Data.DataRowCollection.Find(Object key)
+   at RTC_Vision_Lite.Classes.CommonData.GetDefaultValues_Text(String propertyName) in D:\RTC\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\DataAndFiles\cData.CommonData.cs:line 144
+   at RTC_Vision_Lite.Classes.cAction.SetupPropertyBySystemInfo() in D:\RTC\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.SetupPropertyFunctions.cs:line 6886
+   at RTC_Vision_Lite.Classes.cAction.SetupPropertyByActionType(EActionTypes eActionTypes, EObjectTypes eObjectTypes) in D:\RTC\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.SetupPropertyFunctions.cs:line 185
+   at RTC_Vision_Lite.Classes.cAction..ctor(EActionTypes eActionType, EObjectTypes eObjectType, FrmHsmartWindow _frmHsmartWindow, cGroupActions myGroupActions) in D:\RTC\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 207
+   at RTC_Vision_Lite.Classes.GroupActionsData.OpenActionList(cGroupActions groupActions) in D:\RTC\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\DataAndFiles\cData.GroupActionsData.cs:line 2381
+2024-11-01 14:31:07.8636 
+» Message:	Table doesn't have a primary key.
+» Stack Trace:	   at System.Data.DataTable.FindByPrimaryKey(Object value)
+   at System.Data.DataRowCollection.Find(Object key)
+   at RTC_Vision_Lite.Classes.CommonData.GetDefaultValues_Int(String propertyName) in D:\RTC\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\DataAndFiles\cData.CommonData.cs:line 130
+   at RTC_Vision_Lite.Classes.cAction.SetupPropertyByWait() in D:\RTC\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.SetupPropertyFunctions.cs:line 7144
+   at RTC_Vision_Lite.Classes.cAction.SetupPropertyByActionType(EActionTypes eActionTypes, EObjectTypes eObjectTypes) in D:\RTC\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.SetupPropertyFunctions.cs:line 191
+   at RTC_Vision_Lite.Classes.cAction..ctor(EActionTypes eActionType, EObjectTypes eObjectType, FrmHsmartWindow _frmHsmartWindow, cGroupActions myGroupActions) in D:\RTC\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 207
+   at RTC_Vision_Lite.Classes.GroupActionsData.OpenActionList(cGroupActions groupActions) in D:\RTC\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\DataAndFiles\cData.GroupActionsData.cs:line 2381
+2024-11-01 14:31:07.9015 
+» Message:	Table doesn't have a primary key.
+» Stack Trace:	   at System.Data.DataTable.FindByPrimaryKey(Object value)
+   at System.Data.DataRowCollection.Find(Object key)
+   at RTC_Vision_Lite.Classes.CommonData.GetDefaultValues_Text(String propertyName) in D:\RTC\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\DataAndFiles\cData.CommonData.cs:line 144
+   at RTC_Vision_Lite.Classes.cAction.SetupPropertyBySaveConfig() in D:\RTC\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.SetupPropertyFunctions.cs:line 7267
+   at RTC_Vision_Lite.Classes.cAction.SetupPropertyByActionType(EActionTypes eActionTypes, EObjectTypes eObjectTypes) in D:\RTC\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.SetupPropertyFunctions.cs:line 200
+   at RTC_Vision_Lite.Classes.cAction..ctor(EActionTypes eActionType, EObjectTypes eObjectType, FrmHsmartWindow _frmHsmartWindow, cGroupActions myGroupActions) in D:\RTC\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 207
+   at RTC_Vision_Lite.Classes.GroupActionsData.OpenActionList(cGroupActions groupActions) in D:\RTC\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\DataAndFiles\cData.GroupActionsData.cs:line 2381
+2024-11-01 14:34:18.4312 
+» Message:	Table doesn't have a primary key.
+» Stack Trace:	   at System.Data.DataTable.FindByPrimaryKey(Object value)
+   at System.Data.DataRowCollection.Find(Object key)
+   at RTC_Vision_Lite.Classes.CommonData.GetDefaultValues_Int(String propertyName) in D:\RTC\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\DataAndFiles\cData.CommonData.cs:line 130
+   at RTC_Vision_Lite.Classes.cAction.SetupPropertyByWait() in D:\RTC\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.SetupPropertyFunctions.cs:line 7144
+   at RTC_Vision_Lite.Classes.cAction.SetupPropertyByActionType(EActionTypes eActionTypes, EObjectTypes eObjectTypes) in D:\RTC\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.SetupPropertyFunctions.cs:line 191
+   at RTC_Vision_Lite.Classes.cAction..ctor(EActionTypes eActionType, EObjectTypes eObjectType, FrmHsmartWindow _frmHsmartWindow, cGroupActions myGroupActions) in D:\RTC\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 207
+   at RTC_Vision_Lite.Classes.GroupActionsData.OpenActionList(cGroupActions groupActions) in D:\RTC\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\DataAndFiles\cData.GroupActionsData.cs:line 2381
+2024-11-01 14:34:18.4651 
+» Message:	Table doesn't have a primary key.
+» Stack Trace:	   at System.Data.DataTable.FindByPrimaryKey(Object value)
+   at System.Data.DataRowCollection.Find(Object key)
+   at RTC_Vision_Lite.Classes.CommonData.GetDefaultValues_Text(String propertyName) in D:\RTC\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\DataAndFiles\cData.CommonData.cs:line 144
+   at RTC_Vision_Lite.Classes.cAction.SetupPropertyByCsvWrite() in D:\RTC\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.SetupPropertyFunctions.cs:line 5763
+   at RTC_Vision_Lite.Classes.cAction.SetupPropertyByActionType(EActionTypes eActionTypes, EObjectTypes eObjectTypes) in D:\RTC\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.SetupPropertyFunctions.cs:line 131
+   at RTC_Vision_Lite.Classes.cAction..ctor(EActionTypes eActionType, EObjectTypes eObjectType, FrmHsmartWindow _frmHsmartWindow, cGroupActions myGroupActions) in D:\RTC\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 207
+   at RTC_Vision_Lite.Classes.GroupActionsData.OpenActionList(cGroupActions groupActions) in D:\RTC\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\DataAndFiles\cData.GroupActionsData.cs:line 2381
+2024-11-01 14:34:18.5519 
+» Message:	Table doesn't have a primary key.
+» Stack Trace:	   at System.Data.DataTable.FindByPrimaryKey(Object value)
+   at System.Data.DataRowCollection.Find(Object key)
+   at RTC_Vision_Lite.Classes.CommonData.GetDefaultValues_Text(String propertyName) in D:\RTC\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\DataAndFiles\cData.CommonData.cs:line 144
+   at RTC_Vision_Lite.Classes.cAction.SetupPropertyByCsvWrite() in D:\RTC\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.SetupPropertyFunctions.cs:line 5763
+   at RTC_Vision_Lite.Classes.cAction.SetupPropertyByActionType(EActionTypes eActionTypes, EObjectTypes eObjectTypes) in D:\RTC\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.SetupPropertyFunctions.cs:line 131
+   at RTC_Vision_Lite.Classes.cAction..ctor(EActionTypes eActionType, EObjectTypes eObjectType, FrmHsmartWindow _frmHsmartWindow, cGroupActions myGroupActions) in D:\RTC\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 207
+   at RTC_Vision_Lite.Classes.GroupActionsData.OpenActionList(cGroupActions groupActions) in D:\RTC\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\DataAndFiles\cData.GroupActionsData.cs:line 2381
+2024-11-01 14:35:53.9493 
+» Message:	Table doesn't have a primary key.
+» Stack Trace:	   at System.Data.DataTable.FindByPrimaryKey(Object value)
+   at System.Data.DataRowCollection.Find(Object key)
+   at RTC_Vision_Lite.Classes.CommonData.GetDefaultValues_Text(String propertyName) in D:\RTC\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\DataAndFiles\cData.CommonData.cs:line 144
+   at RTC_Vision_Lite.Classes.cAction.SetupPropertyBySaveConfig() in D:\RTC\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.SetupPropertyFunctions.cs:line 7267
+   at RTC_Vision_Lite.Classes.cAction.SetupPropertyByActionType(EActionTypes eActionTypes, EObjectTypes eObjectTypes) in D:\RTC\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.SetupPropertyFunctions.cs:line 200
+   at RTC_Vision_Lite.Classes.cAction..ctor(EActionTypes eActionType, EObjectTypes eObjectType, FrmHsmartWindow _frmHsmartWindow, cGroupActions myGroupActions) in D:\RTC\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 207
+   at RTC_Vision_Lite.Classes.GroupActionsData.OpenActionList(cGroupActions groupActions) in D:\RTC\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\DataAndFiles\cData.GroupActionsData.cs:line 2381
+2024-11-01 14:35:53.9493 
+» Message:	Table doesn't have a primary key.
+» Stack Trace:	   at System.Data.DataTable.FindByPrimaryKey(Object value)
+   at System.Data.DataRowCollection.Find(Object key)
+   at RTC_Vision_Lite.Classes.CommonData.GetDefaultValues_Text(String propertyName) in D:\RTC\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\DataAndFiles\cData.CommonData.cs:line 144
+   at RTC_Vision_Lite.Classes.cAction.SetupPropertyBySystemInfo() in D:\RTC\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.SetupPropertyFunctions.cs:line 6886
+   at RTC_Vision_Lite.Classes.cAction.SetupPropertyByActionType(EActionTypes eActionTypes, EObjectTypes eObjectTypes) in D:\RTC\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.SetupPropertyFunctions.cs:line 185
+   at RTC_Vision_Lite.Classes.cAction..ctor(EActionTypes eActionType, EObjectTypes eObjectType, FrmHsmartWindow _frmHsmartWindow, cGroupActions myGroupActions) in D:\RTC\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 207
+   at RTC_Vision_Lite.Classes.GroupActionsData.OpenActionList(cGroupActions groupActions) in D:\RTC\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\DataAndFiles\cData.GroupActionsData.cs:line 2381
+2024-11-01 14:35:54.0600 
+» Message:	Table doesn't have a primary key.
+» Stack Trace:	   at System.Data.DataTable.FindByPrimaryKey(Object value)
+   at System.Data.DataRowCollection.Find(Object key)
+   at RTC_Vision_Lite.Classes.CommonData.GetDefaultValues_Text(String propertyName) in D:\RTC\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\DataAndFiles\cData.CommonData.cs:line 144
+   at RTC_Vision_Lite.Classes.cAction.SetupPropertyBySystemInfo() in D:\RTC\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.SetupPropertyFunctions.cs:line 6886
+   at RTC_Vision_Lite.Classes.cAction.SetupPropertyByActionType(EActionTypes eActionTypes, EObjectTypes eObjectTypes) in D:\RTC\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.SetupPropertyFunctions.cs:line 185
+   at RTC_Vision_Lite.Classes.cAction..ctor(EActionTypes eActionType, EObjectTypes eObjectType, FrmHsmartWindow _frmHsmartWindow, cGroupActions myGroupActions) in D:\RTC\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 207
+   at RTC_Vision_Lite.Classes.GroupActionsData.OpenActionList(cGroupActions groupActions) in D:\RTC\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\DataAndFiles\cData.GroupActionsData.cs:line 2381
+2024-11-01 14:38:14.7943 
+» Message:	Table doesn't have a primary key.
+» Stack Trace:	   at System.Data.DataTable.FindByPrimaryKey(Object value)
+   at System.Data.DataRowCollection.Find(Object key)
+   at RTC_Vision_Lite.Classes.CommonData.GetDefaultValues_Int(String propertyName) in D:\RTC\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\DataAndFiles\cData.CommonData.cs:line 130
+   at RTC_Vision_Lite.Classes.cAction.SetupPropertyByWait() in D:\RTC\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.SetupPropertyFunctions.cs:line 7144
+   at RTC_Vision_Lite.Classes.cAction.SetupPropertyByActionType(EActionTypes eActionTypes, EObjectTypes eObjectTypes) in D:\RTC\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.SetupPropertyFunctions.cs:line 191
+   at RTC_Vision_Lite.Classes.cAction..ctor(EActionTypes eActionType, EObjectTypes eObjectType, FrmHsmartWindow _frmHsmartWindow, cGroupActions myGroupActions) in D:\RTC\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 207
+   at RTC_Vision_Lite.Classes.GroupActionsData.OpenActionList(cGroupActions groupActions) in D:\RTC\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\DataAndFiles\cData.GroupActionsData.cs:line 2381
+2024-11-01 14:38:14.9090 
+» Message:	Table doesn't have a primary key.
+» Stack Trace:	   at System.Data.DataTable.FindByPrimaryKey(Object value)
+   at System.Data.DataRowCollection.Find(Object key)
+   at RTC_Vision_Lite.Classes.CommonData.GetDefaultValues_Text(String propertyName) in D:\RTC\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\DataAndFiles\cData.CommonData.cs:line 144
+   at RTC_Vision_Lite.Classes.cAction.SetupPropertyBySaveConfig() in D:\RTC\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.SetupPropertyFunctions.cs:line 7267
+   at RTC_Vision_Lite.Classes.cAction.SetupPropertyByActionType(EActionTypes eActionTypes, EObjectTypes eObjectTypes) in D:\RTC\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.SetupPropertyFunctions.cs:line 200
+   at RTC_Vision_Lite.Classes.cAction..ctor(EActionTypes eActionType, EObjectTypes eObjectType, FrmHsmartWindow _frmHsmartWindow, cGroupActions myGroupActions) in D:\RTC\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 207
+   at RTC_Vision_Lite.Classes.GroupActionsData.OpenActionList(cGroupActions groupActions) in D:\RTC\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\DataAndFiles\cData.GroupActionsData.cs:line 2381
+2024-11-01 14:38:14.9179 
+» Message:	Table doesn't have a primary key.
+» Stack Trace:	   at System.Data.DataTable.FindByPrimaryKey(Object value)
+   at System.Data.DataRowCollection.Find(Object key)
+   at RTC_Vision_Lite.Classes.CommonData.GetDefaultValues_Text(String propertyName) in D:\RTC\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\DataAndFiles\cData.CommonData.cs:line 144
+   at RTC_Vision_Lite.Classes.cAction.SetupPropertyByCsvWrite() in D:\RTC\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.SetupPropertyFunctions.cs:line 5763
+   at RTC_Vision_Lite.Classes.cAction.SetupPropertyByActionType(EActionTypes eActionTypes, EObjectTypes eObjectTypes) in D:\RTC\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.SetupPropertyFunctions.cs:line 131
+   at RTC_Vision_Lite.Classes.cAction..ctor(EActionTypes eActionType, EObjectTypes eObjectType, FrmHsmartWindow _frmHsmartWindow, cGroupActions myGroupActions) in D:\RTC\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 207
+   at RTC_Vision_Lite.Classes.GroupActionsData.OpenActionList(cGroupActions groupActions) in D:\RTC\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\DataAndFiles\cData.GroupActionsData.cs:line 2381
+2024-11-01 14:38:26.1563 
+» Message:	One or more errors occurred.
+» Stack Trace:	   at System.Threading.Tasks.Task.WaitAll(Task[] tasks, Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   at System.Threading.Tasks.Task.WaitAll(Task[] tasks, Int32 millisecondsTimeout)
+   at System.Threading.Tasks.Task.WaitAll(Task[] tasks)
+   at RTC_Vision_Lite.Classes.ProjectData.<OpenProject_GetCAMsTestAsync>d__57.MoveNext() in D:\RTC\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\DataAndFiles\cData.ProjectData.cs:line 701
+2024-11-01 14:39:26.5833 
+» Message:	Table doesn't have a primary key.
+» Stack Trace:	   at System.Data.DataTable.FindByPrimaryKey(Object value)
+   at System.Data.DataRowCollection.Find(Object key)
+   at RTC_Vision_Lite.Classes.CommonData.GetDefaultValues_Int(String propertyName) in D:\RTC\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\DataAndFiles\cData.CommonData.cs:line 130
+   at RTC_Vision_Lite.Classes.cAction.SetupPropertyByWait() in D:\RTC\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.SetupPropertyFunctions.cs:line 7144
+   at RTC_Vision_Lite.Classes.cAction.SetupPropertyByActionType(EActionTypes eActionTypes, EObjectTypes eObjectTypes) in D:\RTC\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.SetupPropertyFunctions.cs:line 191
+   at RTC_Vision_Lite.Classes.cAction..ctor(EActionTypes eActionType, EObjectTypes eObjectType, FrmHsmartWindow _frmHsmartWindow, cGroupActions myGroupActions) in D:\RTC\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 207
+   at RTC_Vision_Lite.Classes.GroupActionsData.OpenActionList(cGroupActions groupActions) in D:\RTC\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\DataAndFiles\cData.GroupActionsData.cs:line 2381
+2024-11-01 14:39:26.5833 
+» Message:	Table doesn't have a primary key.
+» Stack Trace:	   at System.Data.DataTable.FindByPrimaryKey(Object value)
+   at System.Data.DataRowCollection.Find(Object key)
+   at RTC_Vision_Lite.Classes.CommonData.GetDefaultValues_Int(String propertyName) in D:\RTC\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\DataAndFiles\cData.CommonData.cs:line 130
+   at RTC_Vision_Lite.Classes.cAction.SetupPropertyByWait() in D:\RTC\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.SetupPropertyFunctions.cs:line 7144
+   at RTC_Vision_Lite.Classes.cAction.SetupPropertyByActionType(EActionTypes eActionTypes, EObjectTypes eObjectTypes) in D:\RTC\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.SetupPropertyFunctions.cs:line 191
+   at RTC_Vision_Lite.Classes.cAction..ctor(EActionTypes eActionType, EObjectTypes eObjectType, FrmHsmartWindow _frmHsmartWindow, cGroupActions myGroupActions) in D:\RTC\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 207
+   at RTC_Vision_Lite.Classes.GroupActionsData.OpenActionList(cGroupActions groupActions) in D:\RTC\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\DataAndFiles\cData.GroupActionsData.cs:line 2381
+2024-11-01 14:39:26.6501 
+» Message:	Table doesn't have a primary key.
+» Stack Trace:	   at System.Data.DataTable.FindByPrimaryKey(Object value)
+   at System.Data.DataRowCollection.Find(Object key)
+   at RTC_Vision_Lite.Classes.CommonData.GetDefaultValues_Int(String propertyName) in D:\RTC\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\DataAndFiles\cData.CommonData.cs:line 130
+   at RTC_Vision_Lite.Classes.cAction.SetupPropertyByWait() in D:\RTC\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.SetupPropertyFunctions.cs:line 7144
+   at RTC_Vision_Lite.Classes.cAction.SetupPropertyByActionType(EActionTypes eActionTypes, EObjectTypes eObjectTypes) in D:\RTC\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.SetupPropertyFunctions.cs:line 191
+   at RTC_Vision_Lite.Classes.cAction..ctor(EActionTypes eActionType, EObjectTypes eObjectType, FrmHsmartWindow _frmHsmartWindow, cGroupActions myGroupActions) in D:\RTC\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 207
+   at RTC_Vision_Lite.Classes.GroupActionsData.OpenActionList(cGroupActions groupActions) in D:\RTC\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\DataAndFiles\cData.GroupActionsData.cs:line 2381
+2024-11-01 14:42:59.2362 
+» Message:	Table doesn't have a primary key.
+» Stack Trace:	   at System.Data.DataTable.FindByPrimaryKey(Object value)
+   at System.Data.DataRowCollection.Find(Object key)
+   at RTC_Vision_Lite.Classes.CommonData.GetDefaultValues_Text(String propertyName) in D:\RTC\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\DataAndFiles\cData.CommonData.cs:line 144
+   at RTC_Vision_Lite.Classes.cAction.SetupPropertyBySystemInfo() in D:\RTC\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.SetupPropertyFunctions.cs:line 6886
+   at RTC_Vision_Lite.Classes.cAction.SetupPropertyByActionType(EActionTypes eActionTypes, EObjectTypes eObjectTypes) in D:\RTC\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.SetupPropertyFunctions.cs:line 185
+   at RTC_Vision_Lite.Classes.cAction..ctor(EActionTypes eActionType, EObjectTypes eObjectType, FrmHsmartWindow _frmHsmartWindow, cGroupActions myGroupActions) in D:\RTC\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 207
+   at RTC_Vision_Lite.Classes.GroupActionsData.OpenActionList(cGroupActions groupActions) in D:\RTC\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\DataAndFiles\cData.GroupActionsData.cs:line 2382
+2024-11-01 14:42:59.2362 
+» Message:	Table doesn't have a primary key.
+» Stack Trace:	   at System.Data.DataTable.FindByPrimaryKey(Object value)
+   at System.Data.DataRowCollection.Find(Object key)
+   at RTC_Vision_Lite.Classes.CommonData.GetDefaultValues_Text(String propertyName) in D:\RTC\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\DataAndFiles\cData.CommonData.cs:line 144
+   at RTC_Vision_Lite.Classes.cAction.SetupPropertyBySystemInfo() in D:\RTC\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.SetupPropertyFunctions.cs:line 6886
+   at RTC_Vision_Lite.Classes.cAction.SetupPropertyByActionType(EActionTypes eActionTypes, EObjectTypes eObjectTypes) in D:\RTC\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.SetupPropertyFunctions.cs:line 185
+   at RTC_Vision_Lite.Classes.cAction..ctor(EActionTypes eActionType, EObjectTypes eObjectType, FrmHsmartWindow _frmHsmartWindow, cGroupActions myGroupActions) in D:\RTC\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 207
+   at RTC_Vision_Lite.Classes.GroupActionsData.OpenActionList(cGroupActions groupActions) in D:\RTC\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\DataAndFiles\cData.GroupActionsData.cs:line 2382
+2024-11-01 14:42:59.3598 
+» Message:	Table doesn't have a primary key.
+» Stack Trace:	   at System.Data.DataTable.FindByPrimaryKey(Object value)
+   at System.Data.DataRowCollection.Find(Object key)
+   at RTC_Vision_Lite.Classes.CommonData.GetDefaultValues_Text(String propertyName) in D:\RTC\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\DataAndFiles\cData.CommonData.cs:line 144
+   at RTC_Vision_Lite.Classes.cAction.SetupPropertyBySystemInfo() in D:\RTC\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.SetupPropertyFunctions.cs:line 6886
+   at RTC_Vision_Lite.Classes.cAction.SetupPropertyByActionType(EActionTypes eActionTypes, EObjectTypes eObjectTypes) in D:\RTC\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.SetupPropertyFunctions.cs:line 185
+   at RTC_Vision_Lite.Classes.cAction..ctor(EActionTypes eActionType, EObjectTypes eObjectType, FrmHsmartWindow _frmHsmartWindow, cGroupActions myGroupActions) in D:\RTC\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 207
+   at RTC_Vision_Lite.Classes.GroupActionsData.OpenActionList(cGroupActions groupActions) in D:\RTC\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\DataAndFiles\cData.GroupActionsData.cs:line 2382
+2024-11-01 14:45:10.7816 
+» Message:	Table doesn't have a primary key.
+» Stack Trace:	   at System.Data.DataTable.FindByPrimaryKey(Object value)
+   at System.Data.DataRowCollection.Find(Object key)
+   at RTC_Vision_Lite.Classes.CommonData.GetDefaultValues_Text(String propertyName) in D:\RTC\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\DataAndFiles\cData.CommonData.cs:line 144
+   at RTC_Vision_Lite.Classes.cAction.SetupPropertyBySystemInfo() in D:\RTC\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.SetupPropertyFunctions.cs:line 6886
+   at RTC_Vision_Lite.Classes.cAction.SetupPropertyByActionType(EActionTypes eActionTypes, EObjectTypes eObjectTypes) in D:\RTC\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.SetupPropertyFunctions.cs:line 185
+   at RTC_Vision_Lite.Classes.cAction..ctor(EActionTypes eActionType, EObjectTypes eObjectType, FrmHsmartWindow _frmHsmartWindow, cGroupActions myGroupActions) in D:\RTC\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 207
+   at RTC_Vision_Lite.Classes.GroupActionsData.OpenActionList(cGroupActions groupActions) in D:\RTC\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\DataAndFiles\cData.GroupActionsData.cs:line 2382
+2024-11-01 14:45:10.7816 
+» Message:	Table doesn't have a primary key.
+» Stack Trace:	   at System.Data.DataTable.FindByPrimaryKey(Object value)
+   at System.Data.DataRowCollection.Find(Object key)
+   at RTC_Vision_Lite.Classes.CommonData.GetDefaultValues_Int(String propertyName) in D:\RTC\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\DataAndFiles\cData.CommonData.cs:line 130
+   at RTC_Vision_Lite.Classes.cAction.SetupPropertyByWait() in D:\RTC\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.SetupPropertyFunctions.cs:line 7144
+   at RTC_Vision_Lite.Classes.cAction.SetupPropertyByActionType(EActionTypes eActionTypes, EObjectTypes eObjectTypes) in D:\RTC\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.SetupPropertyFunctions.cs:line 191
+   at RTC_Vision_Lite.Classes.cAction..ctor(EActionTypes eActionType, EObjectTypes eObjectType, FrmHsmartWindow _frmHsmartWindow, cGroupActions myGroupActions) in D:\RTC\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 207
+   at RTC_Vision_Lite.Classes.GroupActionsData.OpenActionList(cGroupActions groupActions) in D:\RTC\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\DataAndFiles\cData.GroupActionsData.cs:line 2382
+2024-11-01 15:00:36.9659 
+» Message:	One or more errors occurred.
+» Stack Trace:	   at System.Threading.Tasks.Task.WaitAll(Task[] tasks, Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   at System.Threading.Tasks.Task.WaitAll(Task[] tasks, Int32 millisecondsTimeout)
+   at System.Threading.Tasks.Task.WaitAll(Task[] tasks)
+   at RTC_Vision_Lite.Classes.ProjectData.<OpenProject_GetCAMsTestAsync>d__57.MoveNext()
+2024-11-01 15:00:41.6174 
+» Message:	Index was outside the bounds of the array.
+» Stack Trace:	   at System.Collections.Generic.Dictionary`2.ValueCollection.Enumerator.MoveNext()
+   at RTC_Vision_Lite.Forms.FrmMain.<GetCurrentProject>d__49.MoveNext()
+2024-11-01 16:15:10.1409 
+» Message:	Table doesn't have a primary key.
+» Stack Trace:	   at System.Data.DataTable.FindByPrimaryKey(Object[] values)
+   at System.Data.DataRowCollection.Find(Object[] keys)
+   at RTC_Vision_Lite.Classes.GroupActionsData.OpenActionSettings(cAction action) in D:\RTC\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\DataAndFiles\cData.GroupActionsData.cs:line 3003
+2024-11-01 16:15:10.3022 
+» Message:	Table doesn't have a primary key.
+» Stack Trace:	   at System.Data.DataTable.FindByPrimaryKey(Object[] values)
+   at System.Data.DataRowCollection.Find(Object[] keys)
+   at RTC_Vision_Lite.Classes.GroupActionsData.OpenActionSettings(cAction action) in D:\RTC\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\DataAndFiles\cData.GroupActionsData.cs:line 3003
+2024-11-01 16:15:24.9876 
+» Message:	Table doesn't have a primary key.
+» Stack Trace:	   at System.Data.DataTable.FindByPrimaryKey(Object[] values)
+   at System.Data.DataRowCollection.Find(Object[] keys)
+   at RTC_Vision_Lite.Classes.GroupActionsData.OpenActionSettings(cAction action) in D:\RTC\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\DataAndFiles\cData.GroupActionsData.cs:line 3003
+2024-11-01 16:15:25.1072 
+» Message:	Table doesn't have a primary key.
+» Stack Trace:	   at System.Data.DataTable.FindByPrimaryKey(Object[] values)
+   at System.Data.DataRowCollection.Find(Object[] keys)
+   at RTC_Vision_Lite.Classes.GroupActionsData.OpenActionSettings(cAction action) in D:\RTC\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\DataAndFiles\cData.GroupActionsData.cs:line 3003
+2024-11-01 16:15:25.1285 
+» Message:	Table doesn't have a primary key.
+» Stack Trace:	   at System.Data.DataTable.FindByPrimaryKey(Object[] values)
+   at System.Data.DataRowCollection.Find(Object[] keys)
+   at RTC_Vision_Lite.Classes.GroupActionsData.OpenActionSettings(cAction action) in D:\RTC\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\DataAndFiles\cData.GroupActionsData.cs:line 3003
+2024-11-01 16:15:25.1733 
+» Message:	Table doesn't have a primary key.
+» Stack Trace:	   at System.Data.DataTable.FindByPrimaryKey(Object[] values)
+   at System.Data.DataRowCollection.Find(Object[] keys)
+   at RTC_Vision_Lite.Classes.GroupActionsData.OpenActionSettings(cAction action) in D:\RTC\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\DataAndFiles\cData.GroupActionsData.cs:line 3003
+2024-11-01 16:15:25.1883 
+» Message:	Table doesn't have a primary key.
+» Stack Trace:	   at System.Data.DataTable.FindByPrimaryKey(Object[] values)
+   at System.Data.DataRowCollection.Find(Object[] keys)
+   at RTC_Vision_Lite.Classes.GroupActionsData.OpenActionSettings(cAction action) in D:\RTC\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\DataAndFiles\cData.GroupActionsData.cs:line 3003
+2024-11-01 16:15:25.3464 
+» Message:	Table doesn't have a primary key.
+» Stack Trace:	   at System.Data.DataTable.FindByPrimaryKey(Object[] values)
+   at System.Data.DataRowCollection.Find(Object[] keys)
+   at RTC_Vision_Lite.Classes.GroupActionsData.OpenActionSettings(cAction action) in D:\RTC\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\DataAndFiles\cData.GroupActionsData.cs:line 3003
+2024-11-01 16:16:05.5948 
+» Message:	Table doesn't have a primary key.
+» Stack Trace:	   at System.Data.DataTable.FindByPrimaryKey(Object[] values)
+   at System.Data.DataRowCollection.Find(Object[] keys)
+   at RTC_Vision_Lite.Classes.GroupActionsData.OpenActionSettings(cAction action) in D:\RTC\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\DataAndFiles\cData.GroupActionsData.cs:line 3003
+2024-11-01 16:16:05.5948 
+» Message:	Table doesn't have a primary key.
+» Stack Trace:	   at System.Data.DataTable.FindByPrimaryKey(Object[] values)
+   at System.Data.DataRowCollection.Find(Object[] keys)
+   at RTC_Vision_Lite.Classes.GroupActionsData.OpenActionSettings(cAction action) in D:\RTC\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\DataAndFiles\cData.GroupActionsData.cs:line 3003
+2024-11-01 16:16:05.5948 
+» Message:	Table doesn't have a primary key.
+» Stack Trace:	   at System.Data.DataTable.FindByPrimaryKey(Object[] values)
+   at System.Data.DataRowCollection.Find(Object[] keys)
+   at RTC_Vision_Lite.Classes.GroupActionsData.OpenActionSettings(cAction action) in D:\RTC\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\DataAndFiles\cData.GroupActionsData.cs:line 3003
+2024-11-01 16:16:05.5948 
+» Message:	Table doesn't have a primary key.
+» Stack Trace:	   at System.Data.DataTable.FindByPrimaryKey(Object[] values)
+   at System.Data.DataRowCollection.Find(Object[] keys)
+   at RTC_Vision_Lite.Classes.GroupActionsData.OpenActionSettings(cAction action) in D:\RTC\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\DataAndFiles\cData.GroupActionsData.cs:line 3003
+2024-11-01 16:16:05.5948 
+» Message:	Table doesn't have a primary key.
+» Stack Trace:	   at System.Data.DataTable.FindByPrimaryKey(Object[] values)
+   at System.Data.DataRowCollection.Find(Object[] keys)
+   at RTC_Vision_Lite.Classes.GroupActionsData.OpenActionSettings(cAction action) in D:\RTC\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\DataAndFiles\cData.GroupActionsData.cs:line 3003
+2024-11-01 16:16:05.7201 
+» Message:	Table doesn't have a primary key.
+» Stack Trace:	   at System.Data.DataTable.FindByPrimaryKey(Object[] values)
+   at System.Data.DataRowCollection.Find(Object[] keys)
+   at RTC_Vision_Lite.Classes.GroupActionsData.OpenActionSettings(cAction action) in D:\RTC\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\DataAndFiles\cData.GroupActionsData.cs:line 3003

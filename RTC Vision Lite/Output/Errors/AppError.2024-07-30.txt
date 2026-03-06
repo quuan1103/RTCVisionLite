@@ -1,0 +1,30 @@
+2024-07-30 09:55:59.1600 
+» Message:	Exception of type 'System.OutOfMemoryException' was thrown.
+» Stack Trace:	   at System.Collections.Generic.List`1.set_Capacity(Int32 value)
+   at System.Collections.Generic.List`1.EnsureCapacity(Int32 min)
+   at System.Collections.Generic.List`1.Add(T item)
+   at RTC_Vision_Lite.PublicFunctions.GlobFuncs.ListPointToListDouble(List`1 ListPoint) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Global\GlobFuncs.cs:line 3910
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1730
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 617
+2024-07-30 09:56:08.5027 
+» Message:	Exception of type 'System.OutOfMemoryException' was thrown.
+» Stack Trace:	   at System.Collections.Generic.List`1.set_Capacity(Int32 value)
+   at System.Collections.Generic.List`1.EnsureCapacity(Int32 min)
+   at System.Collections.Generic.List`1.Add(T item)
+   at RTC_Vision_Lite.PublicFunctions.GlobFuncs.ListPointToListDouble(List`1 ListPoint) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Global\GlobFuncs.cs:line 3910
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1730
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 617
+2024-07-30 09:57:16.9823 
+» Message:	Exception of type 'System.OutOfMemoryException' was thrown.
+» Stack Trace:	   at System.Collections.Generic.List`1.set_Capacity(Int32 value)
+   at System.Collections.Generic.List`1.EnsureCapacity(Int32 min)
+   at System.Collections.Generic.List`1.Add(T item)
+   at RTC_Vision_Lite.PublicFunctions.GlobFuncs.ListPointToListDouble(List`1 ListPoint) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Global\GlobFuncs.cs:line 3910
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1730
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 617
+2024-07-30 16:48:43.4753 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 457
+   at RTC_Vision_Lite.Classes.cGroupActions.Run1Action(cAction& action, Boolean isSetRunIsSilent, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 730
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_RunCurrentAction(Boolean isShowMessage) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 544
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Run(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isShowMessage, Boolean isThreading, Boolean isResetIdRun, Boolean isCheckData, cAction runProgramAction) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 147

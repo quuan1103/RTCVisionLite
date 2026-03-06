@@ -1,0 +1,453 @@
+2024-08-15 15:04:29.0855 
+» Message:	Object of type 'RTC_Vision_Lite.Classes.SListDouble' cannot be converted to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.RuntimeType.CheckValue(Object value, Binder binder, CultureInfo culture, BindingFlags invokeAttr)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at System.Reflection.PropertyInfo.SetValue(Object obj, Object value)
+   at RTC_Vision_Lite.UserControls.ucBaseActionDetail.TextBox_LostFocusEvents(Object sender, EventArgs e)
+2024-08-15 15:04:30.6073 
+» Message:	Object of type 'RTC_Vision_Lite.Classes.SListDouble' cannot be converted to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.RuntimeType.CheckValue(Object value, Binder binder, CultureInfo culture, BindingFlags invokeAttr)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at System.Reflection.PropertyInfo.SetValue(Object obj, Object value)
+   at RTC_Vision_Lite.UserControls.ucBaseActionDetail.TextBox_KeyDownEvents(Object sender, KeyEventArgs e)
+2024-08-15 15:04:31.7905 
+» Message:	Object of type 'RTC_Vision_Lite.Classes.SListDouble' cannot be converted to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.RuntimeType.CheckValue(Object value, Binder binder, CultureInfo culture, BindingFlags invokeAttr)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at System.Reflection.PropertyInfo.SetValue(Object obj, Object value)
+   at RTC_Vision_Lite.UserControls.ucBaseActionDetail.TextBox_LostFocusEvents(Object sender, EventArgs e)
+2024-08-15 15:04:42.5956 
+» Message:	Object of type 'RTC_Vision_Lite.Classes.SListDouble' cannot be converted to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.RuntimeType.CheckValue(Object value, Binder binder, CultureInfo culture, BindingFlags invokeAttr)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at System.Reflection.PropertyInfo.SetValue(Object obj, Object value)
+   at RTC_Vision_Lite.UserControls.ucBaseActionDetail.TextBox_KeyDownEvents(Object sender, KeyEventArgs e)
+2024-08-15 15:04:44.7177 
+» Message:	Object of type 'RTC_Vision_Lite.Classes.SListDouble' cannot be converted to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.RuntimeType.CheckValue(Object value, Binder binder, CultureInfo culture, BindingFlags invokeAttr)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at System.Reflection.PropertyInfo.SetValue(Object obj, Object value)
+   at RTC_Vision_Lite.UserControls.ucBaseActionDetail.TextBox_LostFocusEvents(Object sender, EventArgs e)
+2024-08-15 15:04:45.8874 
+» Message:	Object of type 'RTC_Vision_Lite.Classes.SListDouble' cannot be converted to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.RuntimeType.CheckValue(Object value, Binder binder, CultureInfo culture, BindingFlags invokeAttr)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at System.Reflection.PropertyInfo.SetValue(Object obj, Object value)
+   at RTC_Vision_Lite.UserControls.ucBaseActionDetail.TextBox_KeyDownEvents(Object sender, KeyEventArgs e)
+2024-08-15 15:04:46.9648 
+» Message:	Object of type 'RTC_Vision_Lite.Classes.SListDouble' cannot be converted to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.RuntimeType.CheckValue(Object value, Binder binder, CultureInfo culture, BindingFlags invokeAttr)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at System.Reflection.PropertyInfo.SetValue(Object obj, Object value)
+   at RTC_Vision_Lite.UserControls.ucBaseActionDetail.TextBox_LostFocusEvents(Object sender, EventArgs e)
+2024-08-15 15:05:07.8546 
+» Message:	Object of type 'RTC_Vision_Lite.Classes.SListDouble' cannot be converted to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.RuntimeType.CheckValue(Object value, Binder binder, CultureInfo culture, BindingFlags invokeAttr)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at System.Reflection.PropertyInfo.SetValue(Object obj, Object value)
+   at RTC_Vision_Lite.UserControls.ucBaseActionDetail.TextBox_LostFocusEvents(Object sender, EventArgs e)
+2024-08-15 15:05:09.6464 
+» Message:	Object of type 'RTC_Vision_Lite.Classes.SListDouble' cannot be converted to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.RuntimeType.CheckValue(Object value, Binder binder, CultureInfo culture, BindingFlags invokeAttr)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at System.Reflection.PropertyInfo.SetValue(Object obj, Object value)
+   at RTC_Vision_Lite.UserControls.ucBaseActionDetail.TextBox_KeyDownEvents(Object sender, KeyEventArgs e)
+2024-08-15 15:05:10.5894 
+» Message:	Object of type 'RTC_Vision_Lite.Classes.SListDouble' cannot be converted to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.RuntimeType.CheckValue(Object value, Binder binder, CultureInfo culture, BindingFlags invokeAttr)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at System.Reflection.PropertyInfo.SetValue(Object obj, Object value)
+   at RTC_Vision_Lite.UserControls.ucBaseActionDetail.TextBox_LostFocusEvents(Object sender, EventArgs e)
+2024-08-15 15:05:11.3348 
+» Message:	Object of type 'RTC_Vision_Lite.Classes.SListDouble' cannot be converted to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.RuntimeType.CheckValue(Object value, Binder binder, CultureInfo culture, BindingFlags invokeAttr)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at System.Reflection.PropertyInfo.SetValue(Object obj, Object value)
+   at RTC_Vision_Lite.UserControls.ucBaseActionDetail.TextBox_KeyDownEvents(Object sender, KeyEventArgs e)
+2024-08-15 15:05:12.4063 
+» Message:	Object of type 'RTC_Vision_Lite.Classes.SListDouble' cannot be converted to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.RuntimeType.CheckValue(Object value, Binder binder, CultureInfo culture, BindingFlags invokeAttr)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at System.Reflection.PropertyInfo.SetValue(Object obj, Object value)
+   at RTC_Vision_Lite.UserControls.ucBaseActionDetail.TextBox_LostFocusEvents(Object sender, EventArgs e)
+2024-08-15 15:05:17.8601 
+» Message:	Object of type 'RTC_Vision_Lite.Classes.SListDouble' cannot be converted to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.RuntimeType.CheckValue(Object value, Binder binder, CultureInfo culture, BindingFlags invokeAttr)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at System.Reflection.PropertyInfo.SetValue(Object obj, Object value)
+   at RTC_Vision_Lite.UserControls.ucBaseActionDetail.TextBox_LostFocusEvents(Object sender, EventArgs e)
+2024-08-15 15:09:57.9868 
+» Message:	Object of type 'RTC_Vision_Lite.Classes.SListDouble' cannot be converted to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.RuntimeType.CheckValue(Object value, Binder binder, CultureInfo culture, BindingFlags invokeAttr)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at System.Reflection.PropertyInfo.SetValue(Object obj, Object value)
+   at RTC_Vision_Lite.UserControls.ucBaseActionDetail.TextBox_KeyDownEvents(Object sender, KeyEventArgs e)
+2024-08-15 15:09:59.3340 
+» Message:	Object of type 'RTC_Vision_Lite.Classes.SListDouble' cannot be converted to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.RuntimeType.CheckValue(Object value, Binder binder, CultureInfo culture, BindingFlags invokeAttr)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at System.Reflection.PropertyInfo.SetValue(Object obj, Object value)
+   at RTC_Vision_Lite.UserControls.ucBaseActionDetail.TextBox_LostFocusEvents(Object sender, EventArgs e)
+2024-08-15 15:10:00.2383 
+» Message:	Object of type 'RTC_Vision_Lite.Classes.SListDouble' cannot be converted to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.RuntimeType.CheckValue(Object value, Binder binder, CultureInfo culture, BindingFlags invokeAttr)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at System.Reflection.PropertyInfo.SetValue(Object obj, Object value)
+   at RTC_Vision_Lite.UserControls.ucBaseActionDetail.TextBox_KeyDownEvents(Object sender, KeyEventArgs e)
+2024-08-15 15:10:01.2619 
+» Message:	Object of type 'RTC_Vision_Lite.Classes.SListDouble' cannot be converted to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.RuntimeType.CheckValue(Object value, Binder binder, CultureInfo culture, BindingFlags invokeAttr)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at System.Reflection.PropertyInfo.SetValue(Object obj, Object value)
+   at RTC_Vision_Lite.UserControls.ucBaseActionDetail.TextBox_LostFocusEvents(Object sender, EventArgs e)
+2024-08-15 15:12:05.4924 
+» Message:	Object of type 'RTC_Vision_Lite.Classes.SListDouble' cannot be converted to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.RuntimeType.CheckValue(Object value, Binder binder, CultureInfo culture, BindingFlags invokeAttr)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at System.Reflection.PropertyInfo.SetValue(Object obj, Object value)
+   at RTC_Vision_Lite.UserControls.ucBaseActionDetail.TextBox_LostFocusEvents(Object sender, EventArgs e)
+2024-08-15 15:12:05.4924 
+» Message:	Object of type 'RTC_Vision_Lite.Classes.SListDouble' cannot be converted to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.RuntimeType.CheckValue(Object value, Binder binder, CultureInfo culture, BindingFlags invokeAttr)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at System.Reflection.PropertyInfo.SetValue(Object obj, Object value)
+   at RTC_Vision_Lite.UserControls.ucBaseActionDetail.TextBox_KeyDownEvents(Object sender, KeyEventArgs e)
+2024-08-15 15:14:20.8944 
+» Message:	Object of type 'RTC_Vision_Lite.Classes.SListDouble' cannot be converted to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.RuntimeType.CheckValue(Object value, Binder binder, CultureInfo culture, BindingFlags invokeAttr)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at System.Reflection.PropertyInfo.SetValue(Object obj, Object value)
+   at RTC_Vision_Lite.UserControls.ucBaseActionDetail.TextBox_LostFocusEvents(Object sender, EventArgs e)
+2024-08-15 15:14:20.8944 
+» Message:	Object of type 'RTC_Vision_Lite.Classes.SListDouble' cannot be converted to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.RuntimeType.CheckValue(Object value, Binder binder, CultureInfo culture, BindingFlags invokeAttr)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at System.Reflection.PropertyInfo.SetValue(Object obj, Object value)
+   at RTC_Vision_Lite.UserControls.ucBaseActionDetail.TextBox_KeyDownEvents(Object sender, KeyEventArgs e)
+2024-08-15 15:18:26.2264 
+» Message:	Object of type 'RTC_Vision_Lite.Classes.SListDouble' cannot be converted to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.RuntimeType.CheckValue(Object value, Binder binder, CultureInfo culture, BindingFlags invokeAttr)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at System.Reflection.PropertyInfo.SetValue(Object obj, Object value)
+   at RTC_Vision_Lite.UserControls.ucBaseActionDetail.TextBox_LostFocusEvents(Object sender, EventArgs e)
+2024-08-15 15:18:26.2264 
+» Message:	Object of type 'RTC_Vision_Lite.Classes.SListDouble' cannot be converted to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.RuntimeType.CheckValue(Object value, Binder binder, CultureInfo culture, BindingFlags invokeAttr)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at System.Reflection.PropertyInfo.SetValue(Object obj, Object value)
+   at RTC_Vision_Lite.UserControls.ucBaseActionDetail.TextBox_KeyDownEvents(Object sender, KeyEventArgs e)
+2024-08-15 16:18:09.7371 
+» Message:	Could not load type 'RTCConst.cSplitSaveMode' from assembly 'RTCConst, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_SplitImage()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-15 16:18:27.5348 
+» Message:	Could not load type 'RTCConst.cSplitSaveMode' from assembly 'RTCConst, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_SplitImage()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-15 16:18:29.9766 
+» Message:	Could not load type 'RTCConst.cSplitSaveMode' from assembly 'RTCConst, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_SplitImage()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-15 16:18:32.4667 
+» Message:	Could not load type 'RTCConst.cSplitSaveMode' from assembly 'RTCConst, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_SplitImage()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-15 16:18:50.6483 
+» Message:	Could not load type 'RTCConst.cSplitSaveMode' from assembly 'RTCConst, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_SplitImage()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-15 16:18:59.0734 
+» Message:	Could not load type 'RTCConst.cSplitSaveMode' from assembly 'RTCConst, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_SplitImage()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-15 16:22:02.8068 
+» Message:	Could not load type 'RTCConst.cSplitSaveMode' from assembly 'RTCConst, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_SplitImage()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 880
+2024-08-15 16:26:57.7296 
+» Message:	Could not load type 'RTCConst.cSplitSaveMode' from assembly 'RTCConst, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_SplitImage()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 880
+2024-08-15 16:28:59.8489 
+» Message:	Could not load type 'RTCConst.cSplitSaveMode' from assembly 'RTCConst, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_SplitImage()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 880
+2024-08-15 16:30:56.0630 
+» Message:	Could not load type 'RTCConst.cSplitSaveMode' from assembly 'RTCConst, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_SplitImage()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 880
+2024-08-15 16:31:08.3163 
+» Message:	Could not load type 'RTCConst.cSplitSaveMode' from assembly 'RTCConst, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_SplitImage()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 880
+2024-08-15 16:36:12.2473 
+» Message:	Could not load type 'RTCConst.cSplitSaveMode' from assembly 'RTCConst, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_SplitImage()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 880
+2024-08-15 16:37:55.1604 
+» Message:	Could not load type 'RTCConst.cSplitSaveMode' from assembly 'RTCConst, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_SplitImage()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-15 16:38:00.2569 
+» Message:	Could not load type 'RTCConst.cSplitSaveMode' from assembly 'RTCConst, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_Blob()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-15 16:38:11.8378 
+» Message:	Could not load type 'RTCConst.cSplitSaveMode' from assembly 'RTCConst, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_Blob()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-15 16:45:57.7386 
+» Message:	The type initializer for 'Emgu.CV.CvInvoke' threw an exception.
+» Stack Trace:	   at Emgu.CV.CvInvoke.cvCreateImageHeader(Size size, IplDepth depth, Int32 channels)
+   at Emgu.CV.Image`2.AllocateData(Int32 rows, Int32 cols, Int32 numberOfChannels)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2235
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 647
+2024-08-15 16:46:14.0370 
+» Message:	The type initializer for 'Emgu.CV.CvInvoke' threw an exception.
+» Stack Trace:	   at Emgu.CV.CvInvoke.cvCreateImageHeader(Size size, IplDepth depth, Int32 channels)
+   at Emgu.CV.Image`2.AllocateData(Int32 rows, Int32 cols, Int32 numberOfChannels)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2235
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 647
+2024-08-15 16:47:30.6427 
+» Message:	The type initializer for 'Emgu.CV.CvInvoke' threw an exception.
+» Stack Trace:	   at Emgu.CV.CvInvoke.cvCreateImageHeader(Size size, IplDepth depth, Int32 channels)
+   at Emgu.CV.Image`2.AllocateData(Int32 rows, Int32 cols, Int32 numberOfChannels)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2320
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 661
+2024-08-15 16:47:33.0131 
+» Message:	The type initializer for 'Emgu.CV.CvInvoke' threw an exception.
+» Stack Trace:	   at Emgu.CV.CvInvoke.cvCreateImageHeader(Size size, IplDepth depth, Int32 channels)
+   at Emgu.CV.Image`2.AllocateData(Int32 rows, Int32 cols, Int32 numberOfChannels)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2320
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 661
+2024-08-15 16:47:33.9650 
+» Message:	The type initializer for 'Emgu.CV.CvInvoke' threw an exception.
+» Stack Trace:	   at Emgu.CV.CvInvoke.cvCreateImageHeader(Size size, IplDepth depth, Int32 channels)
+   at Emgu.CV.Image`2.AllocateData(Int32 rows, Int32 cols, Int32 numberOfChannels)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2320
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 661
+2024-08-15 16:47:36.7909 
+» Message:	The type initializer for 'Emgu.CV.CvInvoke' threw an exception.
+» Stack Trace:	   at Emgu.CV.CvInvoke.cvCreateImageHeader(Size size, IplDepth depth, Int32 channels)
+   at Emgu.CV.Image`2.AllocateData(Int32 rows, Int32 cols, Int32 numberOfChannels)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2320
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 661
+2024-08-15 16:50:40.4444 
+» Message:	The type initializer for 'Emgu.CV.CvInvoke' threw an exception.
+» Stack Trace:	   at Emgu.CV.CvInvoke.cvCreateImageHeader(Size size, IplDepth depth, Int32 channels)
+   at Emgu.CV.Image`2.AllocateData(Int32 rows, Int32 cols, Int32 numberOfChannels)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2235
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 647
+2024-08-15 16:50:40.8134 
+» Message:	The type initializer for 'Emgu.CV.CvInvoke' threw an exception.
+» Stack Trace:	   at Emgu.CV.CvInvoke.cvCreateImageHeader(Size size, IplDepth depth, Int32 channels)
+   at Emgu.CV.Image`2.AllocateData(Int32 rows, Int32 cols, Int32 numberOfChannels)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2235
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 647
+2024-08-15 16:50:42.0792 
+» Message:	The type initializer for 'Emgu.CV.CvInvoke' threw an exception.
+» Stack Trace:	   at Emgu.CV.CvInvoke.cvCreateImageHeader(Size size, IplDepth depth, Int32 channels)
+   at Emgu.CV.Image`2.AllocateData(Int32 rows, Int32 cols, Int32 numberOfChannels)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2235
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 647
+2024-08-15 16:50:42.2919 
+» Message:	The type initializer for 'Emgu.CV.CvInvoke' threw an exception.
+» Stack Trace:	   at Emgu.CV.CvInvoke.cvCreateImageHeader(Size size, IplDepth depth, Int32 channels)
+   at Emgu.CV.Image`2.AllocateData(Int32 rows, Int32 cols, Int32 numberOfChannels)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2235
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 647
+2024-08-15 16:50:42.5169 
+» Message:	The type initializer for 'Emgu.CV.CvInvoke' threw an exception.
+» Stack Trace:	   at Emgu.CV.CvInvoke.cvCreateImageHeader(Size size, IplDepth depth, Int32 channels)
+   at Emgu.CV.Image`2.AllocateData(Int32 rows, Int32 cols, Int32 numberOfChannels)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2235
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 647
+2024-08-15 16:50:44.6293 
+» Message:	The type initializer for 'Emgu.CV.CvInvoke' threw an exception.
+» Stack Trace:	   at Emgu.CV.CvInvoke.cvCreateImageHeader(Size size, IplDepth depth, Int32 channels)
+   at Emgu.CV.Image`2.AllocateData(Int32 rows, Int32 cols, Int32 numberOfChannels)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2235
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 647
+2024-08-15 16:50:44.8678 
+» Message:	The type initializer for 'Emgu.CV.CvInvoke' threw an exception.
+» Stack Trace:	   at Emgu.CV.CvInvoke.cvCreateImageHeader(Size size, IplDepth depth, Int32 channels)
+   at Emgu.CV.Image`2.AllocateData(Int32 rows, Int32 cols, Int32 numberOfChannels)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2235
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 647
+2024-08-15 16:50:45.0639 
+» Message:	The type initializer for 'Emgu.CV.CvInvoke' threw an exception.
+» Stack Trace:	   at Emgu.CV.CvInvoke.cvCreateImageHeader(Size size, IplDepth depth, Int32 channels)
+   at Emgu.CV.Image`2.AllocateData(Int32 rows, Int32 cols, Int32 numberOfChannels)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2235
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 647
+2024-08-15 16:50:45.9019 
+» Message:	The type initializer for 'Emgu.CV.CvInvoke' threw an exception.
+» Stack Trace:	   at Emgu.CV.CvInvoke.cvCreateImageHeader(Size size, IplDepth depth, Int32 channels)
+   at Emgu.CV.Image`2.AllocateData(Int32 rows, Int32 cols, Int32 numberOfChannels)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2235
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 647
+2024-08-15 16:50:46.7999 
+» Message:	The type initializer for 'Emgu.CV.CvInvoke' threw an exception.
+» Stack Trace:	   at Emgu.CV.CvInvoke.cvCreateImageHeader(Size size, IplDepth depth, Int32 channels)
+   at Emgu.CV.Image`2.AllocateData(Int32 rows, Int32 cols, Int32 numberOfChannels)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2235
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 647
+2024-08-15 16:50:50.6599 
+» Message:	The type initializer for 'Emgu.CV.CvInvoke' threw an exception.
+» Stack Trace:	   at Emgu.CV.CvInvoke.cvCreateImageHeader(Size size, IplDepth depth, Int32 channels)
+   at Emgu.CV.Image`2.AllocateData(Int32 rows, Int32 cols, Int32 numberOfChannels)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2235
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 647
+2024-08-15 16:50:51.8319 
+» Message:	The type initializer for 'Emgu.CV.CvInvoke' threw an exception.
+» Stack Trace:	   at Emgu.CV.CvInvoke.cvCreateImageHeader(Size size, IplDepth depth, Int32 channels)
+   at Emgu.CV.Image`2.AllocateData(Int32 rows, Int32 cols, Int32 numberOfChannels)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2235
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 647
+2024-08-15 16:56:13.7488 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at System.Drawing.Image.Save(String filename, ImageFormat format)
+   at System.Drawing.Image.Save(String filename)
+   at RTC_Vision_Lite.Classes.cAction.Run_SplitImage()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-08-15 17:01:55.8458 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at System.Drawing.Image.Save(String filename, ImageFormat format)
+   at System.Drawing.Image.Save(String filename)
+   at RTC_Vision_Lite.Classes.cAction.Run_SplitImage()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)

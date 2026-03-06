@@ -1,0 +1,250 @@
+2024-07-23 13:47:03.5539 
+» Message:	The given path's format is not supported.
+» Stack Trace:	   at System.Security.Permissions.FileIOPermission.EmulateFileIOPermissionChecks(String fullPath)
+   at System.Security.Permissions.FileIOPermission.QuickDemand(FileIOPermissionAccess access, String fullPath, Boolean checkForDuplicates, Boolean needFullPath)
+   at System.IO.Path.GetFullPath(String path)
+   at System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   at System.Drawing.IntSecurity.DemandWriteFileIO(String fileName)
+   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at System.Drawing.Image.Save(String filename, ImageFormat format)
+   at System.Drawing.Image.Save(String filename)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-07-23 13:50:28.3855 
+» Message:	The given path's format is not supported.
+» Stack Trace:	   at System.Security.Permissions.FileIOPermission.EmulateFileIOPermissionChecks(String fullPath)
+   at System.Security.Permissions.FileIOPermission.QuickDemand(FileIOPermissionAccess access, String fullPath, Boolean checkForDuplicates, Boolean needFullPath)
+   at System.IO.Path.GetFullPath(String path)
+   at System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   at System.Drawing.IntSecurity.DemandWriteFileIO(String fileName)
+   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at System.Drawing.Image.Save(String filename, ImageFormat format)
+   at System.Drawing.Image.Save(String filename)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-07-23 13:51:52.1673 
+» Message:	The given path's format is not supported.
+» Stack Trace:	   at System.Security.Permissions.FileIOPermission.EmulateFileIOPermissionChecks(String fullPath)
+   at System.Security.Permissions.FileIOPermission.QuickDemand(FileIOPermissionAccess access, String fullPath, Boolean checkForDuplicates, Boolean needFullPath)
+   at System.IO.Path.GetFullPath(String path)
+   at System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   at System.Drawing.IntSecurity.DemandWriteFileIO(String fileName)
+   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at System.Drawing.Image.Save(String filename, ImageFormat format)
+   at System.Drawing.Image.Save(String filename)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-07-23 13:51:55.5963 
+» Message:	The given path's format is not supported.
+» Stack Trace:	   at System.Security.Permissions.FileIOPermission.EmulateFileIOPermissionChecks(String fullPath)
+   at System.Security.Permissions.FileIOPermission.QuickDemand(FileIOPermissionAccess access, String fullPath, Boolean checkForDuplicates, Boolean needFullPath)
+   at System.IO.Path.GetFullPath(String path)
+   at System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   at System.Drawing.IntSecurity.DemandWriteFileIO(String fileName)
+   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at System.Drawing.Image.Save(String filename, ImageFormat format)
+   at System.Drawing.Image.Save(String filename)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-07-23 13:51:56.5520 
+» Message:	The given path's format is not supported.
+» Stack Trace:	   at System.Security.Permissions.FileIOPermission.EmulateFileIOPermissionChecks(String fullPath)
+   at System.Security.Permissions.FileIOPermission.QuickDemand(FileIOPermissionAccess access, String fullPath, Boolean checkForDuplicates, Boolean needFullPath)
+   at System.IO.Path.GetFullPath(String path)
+   at System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   at System.Drawing.IntSecurity.DemandWriteFileIO(String fileName)
+   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at System.Drawing.Image.Save(String filename, ImageFormat format)
+   at System.Drawing.Image.Save(String filename)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-07-23 13:51:57.2665 
+» Message:	The given path's format is not supported.
+» Stack Trace:	   at System.Security.Permissions.FileIOPermission.EmulateFileIOPermissionChecks(String fullPath)
+   at System.Security.Permissions.FileIOPermission.QuickDemand(FileIOPermissionAccess access, String fullPath, Boolean checkForDuplicates, Boolean needFullPath)
+   at System.IO.Path.GetFullPath(String path)
+   at System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   at System.Drawing.IntSecurity.DemandWriteFileIO(String fileName)
+   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at System.Drawing.Image.Save(String filename, ImageFormat format)
+   at System.Drawing.Image.Save(String filename)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-07-23 13:56:40.4956 
+» Message:	The given path's format is not supported.
+» Stack Trace:	   at System.Security.Permissions.FileIOPermission.EmulateFileIOPermissionChecks(String fullPath)
+   at System.Security.Permissions.FileIOPermission.QuickDemand(FileIOPermissionAccess access, String fullPath, Boolean checkForDuplicates, Boolean needFullPath)
+   at System.IO.Path.GetFullPath(String path)
+   at System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   at System.Drawing.IntSecurity.DemandWriteFileIO(String fileName)
+   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at System.Drawing.Image.Save(String filename, ImageFormat format)
+   at System.Drawing.Image.Save(String filename)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-07-23 13:56:49.0493 
+» Message:	The given path's format is not supported.
+» Stack Trace:	   at System.Security.Permissions.FileIOPermission.EmulateFileIOPermissionChecks(String fullPath)
+   at System.Security.Permissions.FileIOPermission.QuickDemand(FileIOPermissionAccess access, String fullPath, Boolean checkForDuplicates, Boolean needFullPath)
+   at System.IO.Path.GetFullPath(String path)
+   at System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   at System.Drawing.IntSecurity.DemandWriteFileIO(String fileName)
+   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at System.Drawing.Image.Save(String filename, ImageFormat format)
+   at System.Drawing.Image.Save(String filename)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-07-23 13:56:57.7475 
+» Message:	The given path's format is not supported.
+» Stack Trace:	   at System.Security.Permissions.FileIOPermission.EmulateFileIOPermissionChecks(String fullPath)
+   at System.Security.Permissions.FileIOPermission.QuickDemand(FileIOPermissionAccess access, String fullPath, Boolean checkForDuplicates, Boolean needFullPath)
+   at System.IO.Path.GetFullPath(String path)
+   at System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   at System.Drawing.IntSecurity.DemandWriteFileIO(String fileName)
+   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at System.Drawing.Image.Save(String filename, ImageFormat format)
+   at System.Drawing.Image.Save(String filename)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-07-23 13:58:45.6681 
+» Message:	The given path's format is not supported.
+» Stack Trace:	   at System.Security.Permissions.FileIOPermission.EmulateFileIOPermissionChecks(String fullPath)
+   at System.Security.Permissions.FileIOPermission.QuickDemand(FileIOPermissionAccess access, String fullPath, Boolean checkForDuplicates, Boolean needFullPath)
+   at System.IO.Path.GetFullPath(String path)
+   at System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   at System.Drawing.IntSecurity.DemandWriteFileIO(String fileName)
+   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at System.Drawing.Image.Save(String filename, ImageFormat format)
+   at System.Drawing.Image.Save(String filename)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-07-23 14:34:20.0066 
+» Message:	Out of memory.
+» Stack Trace:	   at System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   at System.Drawing.Image.FromFile(String filename)
+   at RTC_Vision_Lite.UserControls.ucMainActions.GetCurrentImgIndex(DataGridViewRow row) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\3. UserControls\Tools\ucMainActions.cs:line 469
+2024-07-23 14:34:38.6658 
+» Message:	Out of memory.
+» Stack Trace:	   at System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   at System.Drawing.Image.FromFile(String filename)
+   at RTC_Vision_Lite.UserControls.ucMainActions.GetCurrentImgIndex(DataGridViewRow row) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\3. UserControls\Tools\ucMainActions.cs:line 469
+2024-07-23 14:34:40.8807 
+» Message:	Out of memory.
+» Stack Trace:	   at System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   at System.Drawing.Image.FromFile(String filename)
+   at RTC_Vision_Lite.UserControls.ucMainActions.GetCurrentImgIndex(DataGridViewRow row) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\3. UserControls\Tools\ucMainActions.cs:line 469
+2024-07-23 14:34:41.9552 
+» Message:	Out of memory.
+» Stack Trace:	   at System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   at System.Drawing.Image.FromFile(String filename)
+   at RTC_Vision_Lite.UserControls.ucMainActions.GetCurrentImgIndex(DataGridViewRow row) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\3. UserControls\Tools\ucMainActions.cs:line 469
+2024-07-23 14:34:44.1897 
+» Message:	Out of memory.
+» Stack Trace:	   at System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   at System.Drawing.Image.FromFile(String filename)
+   at RTC_Vision_Lite.UserControls.ucMainActions.GetCurrentImgIndex(DataGridViewRow row) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\3. UserControls\Tools\ucMainActions.cs:line 469
+2024-07-23 14:34:44.2515 
+» Message:	Out of memory.
+» Stack Trace:	   at System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   at System.Drawing.Image.FromFile(String filename)
+   at RTC_Vision_Lite.UserControls.ucMainActions.GetCurrentImgIndex(DataGridViewRow row) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\3. UserControls\Tools\ucMainActions.cs:line 469
+2024-07-23 14:34:45.3237 
+» Message:	Out of memory.
+» Stack Trace:	   at System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   at System.Drawing.Image.FromFile(String filename)
+   at RTC_Vision_Lite.UserControls.ucMainActions.GetCurrentImgIndex(DataGridViewRow row) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\3. UserControls\Tools\ucMainActions.cs:line 469
+2024-07-23 14:35:07.0753 
+» Message:	Out of memory.
+» Stack Trace:	   at System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   at System.Drawing.Image.FromFile(String filename)
+   at RTC_Vision_Lite.UserControls.ucMainActions.GetCurrentImgIndex(DataGridViewRow row) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\3. UserControls\Tools\ucMainActions.cs:line 469
+2024-07-23 14:35:08.0273 
+» Message:	Out of memory.
+» Stack Trace:	   at System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   at System.Drawing.Image.FromFile(String filename)
+   at RTC_Vision_Lite.UserControls.ucMainActions.GetCurrentImgIndex(DataGridViewRow row) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\3. UserControls\Tools\ucMainActions.cs:line 469
+2024-07-23 14:35:08.5242 
+» Message:	Out of memory.
+» Stack Trace:	   at System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   at System.Drawing.Image.FromFile(String filename)
+   at RTC_Vision_Lite.UserControls.ucMainActions.GetCurrentImgIndex(DataGridViewRow row) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\3. UserControls\Tools\ucMainActions.cs:line 469
+2024-07-23 14:35:09.3377 
+» Message:	Out of memory.
+» Stack Trace:	   at System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   at System.Drawing.Image.FromFile(String filename)
+   at RTC_Vision_Lite.UserControls.ucMainActions.GetCurrentImgIndex(DataGridViewRow row) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\3. UserControls\Tools\ucMainActions.cs:line 469
+2024-07-23 14:35:09.9471 
+» Message:	Out of memory.
+» Stack Trace:	   at System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   at System.Drawing.Image.FromFile(String filename)
+   at RTC_Vision_Lite.UserControls.ucMainActions.GetCurrentImgIndex(DataGridViewRow row) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\3. UserControls\Tools\ucMainActions.cs:line 469
+2024-07-23 14:35:14.1505 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Bitmap..ctor(String filename)
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Snap(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isBringImageToMain, Boolean isFromOtherCam) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 733
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Run(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isShowMessage, Boolean isThreading, Boolean isResetIdRun, Boolean isCheckData, cAction runProgramAction) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 273
+2024-07-23 14:35:16.0461 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Bitmap..ctor(String filename)
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Snap(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isBringImageToMain, Boolean isFromOtherCam) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 733
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Run(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isShowMessage, Boolean isThreading, Boolean isResetIdRun, Boolean isCheckData, cAction runProgramAction) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 273
+2024-07-23 14:35:16.7133 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Bitmap..ctor(String filename)
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Snap(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isBringImageToMain, Boolean isFromOtherCam) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 733
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Run(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isShowMessage, Boolean isThreading, Boolean isResetIdRun, Boolean isCheckData, cAction runProgramAction) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 273
+2024-07-23 14:35:17.2244 
+» Message:	Out of memory.
+» Stack Trace:	   at System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   at System.Drawing.Image.FromFile(String filename)
+   at RTC_Vision_Lite.UserControls.ucMainActions.GetCurrentImgIndex(DataGridViewRow row) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\3. UserControls\Tools\ucMainActions.cs:line 469
+2024-07-23 14:42:00.3358 
+» Message:	Out of memory.
+» Stack Trace:	   at System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   at System.Drawing.Image.FromFile(String filename)
+   at RTC_Vision_Lite.UserControls.ucMainActions.GetCurrentImgIndex(DataGridViewRow row) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\3. UserControls\Tools\ucMainActions.cs:line 469
+2024-07-23 14:44:41.0343 
+» Message:	Out of memory.
+» Stack Trace:	   at System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   at System.Drawing.Image.FromFile(String filename)
+   at RTC_Vision_Lite.UserControls.ucMainActions.GetCurrentImgIndex(DataGridViewRow row) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\3. UserControls\Tools\ucMainActions.cs:line 469
+2024-07-23 14:44:44.1369 
+» Message:	Out of memory.
+» Stack Trace:	   at System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   at System.Drawing.Image.FromFile(String filename)
+   at RTC_Vision_Lite.UserControls.ucMainActions.GetCurrentImgIndex(DataGridViewRow row) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\3. UserControls\Tools\ucMainActions.cs:line 469
+2024-07-23 14:44:44.7154 
+» Message:	Out of memory.
+» Stack Trace:	   at System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   at System.Drawing.Image.FromFile(String filename)
+   at RTC_Vision_Lite.UserControls.ucMainActions.GetCurrentImgIndex(DataGridViewRow row) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\3. UserControls\Tools\ucMainActions.cs:line 469
+2024-07-23 14:44:45.2350 
+» Message:	Out of memory.
+» Stack Trace:	   at System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   at System.Drawing.Image.FromFile(String filename)
+   at RTC_Vision_Lite.UserControls.ucMainActions.GetCurrentImgIndex(DataGridViewRow row) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\3. UserControls\Tools\ucMainActions.cs:line 469
+2024-07-23 14:44:45.7626 
+» Message:	Out of memory.
+» Stack Trace:	   at System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   at System.Drawing.Image.FromFile(String filename)
+   at RTC_Vision_Lite.UserControls.ucMainActions.GetCurrentImgIndex(DataGridViewRow row) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\3. UserControls\Tools\ucMainActions.cs:line 469
+2024-07-23 14:44:46.2553 
+» Message:	Out of memory.
+» Stack Trace:	   at System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   at System.Drawing.Image.FromFile(String filename)
+   at RTC_Vision_Lite.UserControls.ucMainActions.GetCurrentImgIndex(DataGridViewRow row) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\3. UserControls\Tools\ucMainActions.cs:line 469
+2024-07-23 14:45:31.2668 
+» Message:	Out of memory.
+» Stack Trace:	   at System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   at System.Drawing.Image.FromFile(String filename)
+   at RTC_Vision_Lite.UserControls.ucMainActions.GetCurrentImgIndex(DataGridViewRow row) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\3. UserControls\Tools\ucMainActions.cs:line 469
+2024-07-23 14:46:04.5838 
+» Message:	Out of memory.
+» Stack Trace:	   at System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   at System.Drawing.Image.FromFile(String filename)
+   at RTC_Vision_Lite.UserControls.ucMainActions.GetCurrentImgIndex(DataGridViewRow row) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\3. UserControls\Tools\ucMainActions.cs:line 469
+2024-07-23 15:17:52.9147 
+» Message:	Out of memory.
+» Stack Trace:	   at System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   at System.Drawing.Image.FromFile(String filename)
+   at RTC_Vision_Lite.UserControls.ucMainActions.GetCurrentImgIndex(DataGridViewRow row)

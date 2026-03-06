@@ -1,0 +1,426 @@
+2024-06-28 09:15:33.8528 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_BackupImage() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 119
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_CleanData() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 21
+2024-06-28 09:15:35.9047 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.SnapImage_Camera() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.CamFunctions.cs:line 75
+   at RTC_Vision_Lite.Classes.cGroupActions.SnapImage(Boolean isSetPart, Boolean isPreview, String errMessage) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.CamFunctions.cs:line 47
+   at RTC_Vision_Lite.UserControls.ucMainActions.TakePicture(Boolean _IsPreView) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\3. UserControls\Tools\ucMainActions.cs:line 562
+   at RTC_Vision_Lite.Classes.cGroupActions.RunBefore(cAction Action, Boolean _WithShowMessage) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 620
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_RunCurrentAction(Boolean isShowMessage) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 539
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Run(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isShowMessage, Boolean isThreading, Boolean isResetIdRun, Boolean isCheckData, cAction runProgramAction) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 147
+2024-06-28 09:19:48.7203 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_BackupImage()
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_CleanData()
+2024-06-28 09:19:50.6097 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.SnapImage_Camera()
+   at RTC_Vision_Lite.Classes.cGroupActions.SnapImage(Boolean isSetPart, Boolean isPreview, String errMessage)
+   at RTC_Vision_Lite.UserControls.ucMainActions.TakePicture(Boolean _IsPreView)
+   at RTC_Vision_Lite.Classes.cGroupActions.RunBefore(cAction Action, Boolean _WithShowMessage)
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_RunCurrentAction(Boolean isShowMessage)
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Run(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isShowMessage, Boolean isThreading, Boolean isResetIdRun, Boolean isCheckData, cAction runProgramAction)
+2024-06-28 11:30:51.9913 
+» Message:	Value of '0' is not valid for 'Value'. 'Value' should be between 'Minimum' and 'Maximum'.
+Parameter name: Value
+» Stack Trace:	   at System.Windows.Forms.NumericUpDown.set_Value(Decimal value)
+   at RTC_Vision_Lite.PublicFunctions.GlobFuncs.HIK_SetFloatValueToNumberic(MyHikCamera hikCamera, String paramName, NumericUpDown edit)
+2024-06-28 11:31:15.6005 
+» Message:	Value of '0' is not valid for 'Value'. 'Value' should be between 'Minimum' and 'Maximum'.
+Parameter name: Value
+» Stack Trace:	   at System.Windows.Forms.NumericUpDown.set_Value(Decimal value)
+   at RTC_Vision_Lite.PublicFunctions.GlobFuncs.HIK_SetFloatValueToNumberic(MyHikCamera hikCamera, String paramName, NumericUpDown edit)
+2024-06-28 11:34:26.3928 
+» Message:	Value of '0' is not valid for 'Value'. 'Value' should be between 'Minimum' and 'Maximum'.
+Parameter name: Value
+» Stack Trace:	   at System.Windows.Forms.NumericUpDown.set_Value(Decimal value)
+   at RTC_Vision_Lite.PublicFunctions.GlobFuncs.HIK_SetFloatValueToNumberic(MyHikCamera hikCamera, String paramName, NumericUpDown edit) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Global\GlobFuncs.cs:line 2472
+2024-06-28 11:34:46.7694 
+» Message:	Value of '0' is not valid for 'Value'. 'Value' should be between 'Minimum' and 'Maximum'.
+Parameter name: Value
+» Stack Trace:	   at System.Windows.Forms.NumericUpDown.set_Value(Decimal value)
+   at RTC_Vision_Lite.PublicFunctions.GlobFuncs.HIK_SetFloatValueToNumberic(MyHikCamera hikCamera, String paramName, NumericUpDown edit) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Global\GlobFuncs.cs:line 2472
+2024-06-28 11:50:30.4032 
+» Message:	Value of '0' is not valid for 'Value'. 'Value' should be between 'Minimum' and 'Maximum'.
+Parameter name: Value
+» Stack Trace:	   at System.Windows.Forms.NumericUpDown.set_Value(Decimal value)
+   at RTC_Vision_Lite.PublicFunctions.GlobFuncs.HIK_SetFloatValueToNumberic(MyHikCamera hikCamera, String paramName, NumericUpDown edit) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Global\GlobFuncs.cs:line 2472
+2024-06-28 15:46:45.9546 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.GetFrameCount(FrameDimension dimension)
+   at RTC_Vision_Lite.Classes.SImage.set_rtcValue(Image value)
+   at RTC_Vision_Lite.Classes.cGroupActions.RunBefore(cAction Action, Boolean _WithShowMessage)
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_RunCurrentAction(Boolean isShowMessage)
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Run(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isShowMessage, Boolean isThreading, Boolean isResetIdRun, Boolean isCheckData, cAction runProgramAction)
+2024-06-28 15:46:53.6299 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.Clone()
+   at RTC_Vision_Lite.Classes.cAction.BackupImage(Image image)
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_BackupImage()
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_CleanData()
+2024-06-28 15:46:53.6668 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.GetFrameCount(FrameDimension dimension)
+   at RTC_Vision_Lite.Classes.SImage.set_rtcValue(Image value)
+   at RTC_Vision_Lite.Classes.cGroupActions.RunBefore(cAction Action, Boolean _WithShowMessage)
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_RunCurrentAction(Boolean isShowMessage)
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Run(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isShowMessage, Boolean isThreading, Boolean isResetIdRun, Boolean isCheckData, cAction runProgramAction)
+2024-06-28 15:46:54.6001 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.Clone()
+   at RTC_Vision_Lite.Classes.cAction.BackupImage(Image image)
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_BackupImage()
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_CleanData()
+2024-06-28 15:46:54.6440 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.GetFrameCount(FrameDimension dimension)
+   at RTC_Vision_Lite.Classes.SImage.set_rtcValue(Image value)
+   at RTC_Vision_Lite.Classes.cGroupActions.RunBefore(cAction Action, Boolean _WithShowMessage)
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_RunCurrentAction(Boolean isShowMessage)
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Run(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isShowMessage, Boolean isThreading, Boolean isResetIdRun, Boolean isCheckData, cAction runProgramAction)
+2024-06-28 15:46:55.6398 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.Clone()
+   at RTC_Vision_Lite.Classes.cAction.BackupImage(Image image)
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_BackupImage()
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_CleanData()
+2024-06-28 15:46:55.6762 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.GetFrameCount(FrameDimension dimension)
+   at RTC_Vision_Lite.Classes.SImage.set_rtcValue(Image value)
+   at RTC_Vision_Lite.Classes.cGroupActions.RunBefore(cAction Action, Boolean _WithShowMessage)
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_RunCurrentAction(Boolean isShowMessage)
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Run(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isShowMessage, Boolean isThreading, Boolean isResetIdRun, Boolean isCheckData, cAction runProgramAction)
+2024-06-28 15:47:07.1194 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.Clone()
+   at RTC_Vision_Lite.Classes.cAction.BackupImage(Image image)
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_BackupImage()
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_CleanData()
+2024-06-28 15:47:09.9949 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.GetFrameCount(FrameDimension dimension)
+   at RTC_Vision_Lite.Classes.SImage.set_rtcValue(Image value)
+   at RTC_Vision_Lite.Classes.cGroupActions.RunBefore(cAction Action, Boolean _WithShowMessage)
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_RunCurrentAction(Boolean isShowMessage)
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Run(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isShowMessage, Boolean isThreading, Boolean isResetIdRun, Boolean isCheckData, cAction runProgramAction)
+2024-06-28 15:47:14.8249 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.Clone()
+   at RTC_Vision_Lite.Classes.cAction.BackupImage(Image image)
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_BackupImage()
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_CleanData()
+2024-06-28 15:47:14.8619 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.GetFrameCount(FrameDimension dimension)
+   at RTC_Vision_Lite.Classes.SImage.set_rtcValue(Image value)
+   at RTC_Vision_Lite.Classes.cGroupActions.RunBefore(cAction Action, Boolean _WithShowMessage)
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_RunCurrentAction(Boolean isShowMessage)
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Run(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isShowMessage, Boolean isThreading, Boolean isResetIdRun, Boolean isCheckData, cAction runProgramAction)
+2024-06-28 15:47:15.7134 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.Clone()
+   at RTC_Vision_Lite.Classes.cAction.BackupImage(Image image)
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_BackupImage()
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_CleanData()
+2024-06-28 15:47:15.7553 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.GetFrameCount(FrameDimension dimension)
+   at RTC_Vision_Lite.Classes.SImage.set_rtcValue(Image value)
+   at RTC_Vision_Lite.Classes.cGroupActions.RunBefore(cAction Action, Boolean _WithShowMessage)
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_RunCurrentAction(Boolean isShowMessage)
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Run(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isShowMessage, Boolean isThreading, Boolean isResetIdRun, Boolean isCheckData, cAction runProgramAction)
+2024-06-28 15:47:15.9369 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.Clone()
+   at RTC_Vision_Lite.Classes.cAction.BackupImage(Image image)
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_BackupImage()
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_CleanData()
+2024-06-28 15:47:15.9748 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.GetFrameCount(FrameDimension dimension)
+   at RTC_Vision_Lite.Classes.SImage.set_rtcValue(Image value)
+   at RTC_Vision_Lite.Classes.cGroupActions.RunBefore(cAction Action, Boolean _WithShowMessage)
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_RunCurrentAction(Boolean isShowMessage)
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Run(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isShowMessage, Boolean isThreading, Boolean isResetIdRun, Boolean isCheckData, cAction runProgramAction)
+2024-06-28 15:47:29.8236 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.Clone()
+   at RTC_Vision_Lite.Classes.cAction.BackupImage(Image image)
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_BackupImage()
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_CleanData()
+2024-06-28 15:47:29.8615 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.GetFrameCount(FrameDimension dimension)
+   at RTC_Vision_Lite.Classes.SImage.set_rtcValue(Image value)
+   at RTC_Vision_Lite.Classes.cGroupActions.RunBefore(cAction Action, Boolean _WithShowMessage)
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_RunCurrentAction(Boolean isShowMessage)
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Run(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isShowMessage, Boolean isThreading, Boolean isResetIdRun, Boolean isCheckData, cAction runProgramAction)
+2024-06-28 15:47:32.0030 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.Clone()
+   at RTC_Vision_Lite.Classes.cAction.BackupImage(Image image)
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_BackupImage()
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_CleanData()
+2024-06-28 15:47:32.0391 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.GetFrameCount(FrameDimension dimension)
+   at RTC_Vision_Lite.Classes.SImage.set_rtcValue(Image value)
+   at RTC_Vision_Lite.Classes.cGroupActions.RunBefore(cAction Action, Boolean _WithShowMessage)
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_RunCurrentAction(Boolean isShowMessage)
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Run(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isShowMessage, Boolean isThreading, Boolean isResetIdRun, Boolean isCheckData, cAction runProgramAction)
+2024-06-28 15:47:47.6145 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.Clone()
+   at RTC_Vision_Lite.Classes.cAction.BackupImage(Image image)
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_BackupImage()
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_CleanData()
+2024-06-28 15:48:04.4527 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.GetFrameCount(FrameDimension dimension)
+   at RTC_Vision_Lite.Classes.SImage.set_rtcValue(Image value)
+   at RTC_Vision_Lite.Classes.cGroupActions.RunBefore(cAction Action, Boolean _WithShowMessage)
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_RunCurrentAction(Boolean isShowMessage)
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Run(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isShowMessage, Boolean isThreading, Boolean isResetIdRun, Boolean isCheckData, cAction runProgramAction)
+2024-06-28 15:48:05.4141 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.Clone()
+   at RTC_Vision_Lite.Classes.cAction.BackupImage(Image image)
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_BackupImage()
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_CleanData()
+2024-06-28 15:48:05.4495 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.GetFrameCount(FrameDimension dimension)
+   at RTC_Vision_Lite.Classes.SImage.set_rtcValue(Image value)
+   at RTC_Vision_Lite.Classes.cGroupActions.RunBefore(cAction Action, Boolean _WithShowMessage)
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_RunCurrentAction(Boolean isShowMessage)
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Run(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isShowMessage, Boolean isThreading, Boolean isResetIdRun, Boolean isCheckData, cAction runProgramAction)
+2024-06-28 15:48:45.0262 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.Clone()
+   at RTC_Vision_Lite.Classes.cAction.BackupImage(Image image)
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_BackupImage()
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_CleanData()
+2024-06-28 15:49:00.7968 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.GetFrameCount(FrameDimension dimension)
+   at RTC_Vision_Lite.Classes.SImage.set_rtcValue(Image value)
+   at RTC_Vision_Lite.Classes.cGroupActions.RunBefore(cAction Action, Boolean _WithShowMessage)
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_RunCurrentAction(Boolean isShowMessage)
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Run(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isShowMessage, Boolean isThreading, Boolean isResetIdRun, Boolean isCheckData, cAction runProgramAction)
+2024-06-28 15:49:24.3997 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.Clone()
+   at RTC_Vision_Lite.Classes.cAction.BackupImage(Image image)
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_BackupImage()
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_CleanData()
+2024-06-28 15:49:38.0022 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.GetFrameCount(FrameDimension dimension)
+   at RTC_Vision_Lite.Classes.SImage.set_rtcValue(Image value)
+   at RTC_Vision_Lite.Classes.cGroupActions.RunBefore(cAction Action, Boolean _WithShowMessage)
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_RunCurrentAction(Boolean isShowMessage)
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Run(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isShowMessage, Boolean isThreading, Boolean isResetIdRun, Boolean isCheckData, cAction runProgramAction)
+2024-06-28 15:49:58.0590 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.Clone()
+   at RTC_Vision_Lite.Classes.cAction.BackupImage(Image image)
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_BackupImage()
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_CleanData()
+2024-06-28 15:50:09.4184 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.GetFrameCount(FrameDimension dimension)
+   at RTC_Vision_Lite.Classes.SImage.set_rtcValue(Image value)
+   at RTC_Vision_Lite.Classes.cGroupActions.RunBefore(cAction Action, Boolean _WithShowMessage)
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_RunCurrentAction(Boolean isShowMessage)
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Run(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isShowMessage, Boolean isThreading, Boolean isResetIdRun, Boolean isCheckData, cAction runProgramAction)
+2024-06-28 15:50:25.2073 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.Clone()
+   at RTC_Vision_Lite.Classes.cAction.BackupImage(Image image)
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_BackupImage()
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_CleanData()
+2024-06-28 15:50:55.8925 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.GetFrameCount(FrameDimension dimension)
+   at RTC_Vision_Lite.Classes.SImage.set_rtcValue(Image value)
+   at RTC_Vision_Lite.Classes.cGroupActions.RunBefore(cAction Action, Boolean _WithShowMessage)
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_RunCurrentAction(Boolean isShowMessage)
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Run(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isShowMessage, Boolean isThreading, Boolean isResetIdRun, Boolean isCheckData, cAction runProgramAction)
+2024-06-28 15:51:01.1493 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.Clone()
+   at RTC_Vision_Lite.Classes.cAction.BackupImage(Image image)
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_BackupImage()
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_CleanData()
+2024-06-28 15:51:06.2978 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.GetFrameCount(FrameDimension dimension)
+   at RTC_Vision_Lite.Classes.SImage.set_rtcValue(Image value)
+   at RTC_Vision_Lite.Classes.cGroupActions.RunBefore(cAction Action, Boolean _WithShowMessage)
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_RunCurrentAction(Boolean isShowMessage)
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Run(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isShowMessage, Boolean isThreading, Boolean isResetIdRun, Boolean isCheckData, cAction runProgramAction)
+2024-06-28 15:51:08.6441 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.Clone()
+   at RTC_Vision_Lite.Classes.cAction.BackupImage(Image image)
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_BackupImage()
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_CleanData()
+2024-06-28 15:51:16.8281 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.GetFrameCount(FrameDimension dimension)
+   at RTC_Vision_Lite.Classes.SImage.set_rtcValue(Image value)
+   at RTC_Vision_Lite.Classes.cGroupActions.RunBefore(cAction Action, Boolean _WithShowMessage)
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_RunCurrentAction(Boolean isShowMessage)
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Run(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isShowMessage, Boolean isThreading, Boolean isResetIdRun, Boolean isCheckData, cAction runProgramAction)
+2024-06-28 15:51:18.8191 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.Clone()
+   at RTC_Vision_Lite.Classes.cAction.BackupImage(Image image)
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_BackupImage()
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_CleanData()
+2024-06-28 15:51:34.9389 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.GetFrameCount(FrameDimension dimension)
+   at RTC_Vision_Lite.Classes.SImage.set_rtcValue(Image value)
+   at RTC_Vision_Lite.Classes.cGroupActions.RunBefore(cAction Action, Boolean _WithShowMessage)
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_RunCurrentAction(Boolean isShowMessage)
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Run(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isShowMessage, Boolean isThreading, Boolean isResetIdRun, Boolean isCheckData, cAction runProgramAction)
+2024-06-28 15:51:36.8776 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.Clone()
+   at RTC_Vision_Lite.Classes.cAction.BackupImage(Image image)
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_BackupImage()
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_CleanData()
+2024-06-28 15:52:08.3251 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.GetFrameCount(FrameDimension dimension)
+   at RTC_Vision_Lite.Classes.SImage.set_rtcValue(Image value)
+   at RTC_Vision_Lite.Classes.cGroupActions.RunBefore(cAction Action, Boolean _WithShowMessage)
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_RunCurrentAction(Boolean isShowMessage)
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Run(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isShowMessage, Boolean isThreading, Boolean isResetIdRun, Boolean isCheckData, cAction runProgramAction)
+2024-06-28 15:52:13.1394 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.Clone()
+   at RTC_Vision_Lite.Classes.cAction.BackupImage(Image image)
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_BackupImage()
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_CleanData()
+2024-06-28 15:53:26.8741 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.GetFrameCount(FrameDimension dimension)
+   at RTC_Vision_Lite.Classes.SImage.set_rtcValue(Image value)
+   at RTC_Vision_Lite.Classes.cGroupActions.RunBefore(cAction Action, Boolean _WithShowMessage)
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_RunCurrentAction(Boolean isShowMessage)
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Run(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isShowMessage, Boolean isThreading, Boolean isResetIdRun, Boolean isCheckData, cAction runProgramAction)
+2024-06-28 15:53:29.2018 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.Clone()
+   at RTC_Vision_Lite.Classes.cAction.BackupImage(Image image)
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_BackupImage()
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_CleanData()
+2024-06-28 15:53:52.7785 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.GetFrameCount(FrameDimension dimension)
+   at RTC_Vision_Lite.Classes.SImage.set_rtcValue(Image value)
+   at RTC_Vision_Lite.Classes.cGroupActions.RunBefore(cAction Action, Boolean _WithShowMessage)
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_RunCurrentAction(Boolean isShowMessage)
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Run(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isShowMessage, Boolean isThreading, Boolean isResetIdRun, Boolean isCheckData, cAction runProgramAction)
+2024-06-28 15:54:25.8490 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.Clone()
+   at RTC_Vision_Lite.Classes.cAction.BackupImage(Image image)
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_BackupImage()
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_CleanData()
+2024-06-28 15:54:39.0495 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.GetFrameCount(FrameDimension dimension)
+   at RTC_Vision_Lite.Classes.SImage.set_rtcValue(Image value)
+   at RTC_Vision_Lite.Classes.cGroupActions.RunBefore(cAction Action, Boolean _WithShowMessage)
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_RunCurrentAction(Boolean isShowMessage)
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Run(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isShowMessage, Boolean isThreading, Boolean isResetIdRun, Boolean isCheckData, cAction runProgramAction)
+2024-06-28 15:54:44.6511 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.Clone()
+   at RTC_Vision_Lite.Classes.cAction.BackupImage(Image image)
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_BackupImage()
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_CleanData()
+2024-06-28 15:59:56.9472 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.GetFrameCount(FrameDimension dimension)
+   at RTC_Vision_Lite.Classes.SImage.set_rtcValue(Image value)
+   at RTC_Vision_Lite.Classes.cGroupActions.RunBefore(cAction Action, Boolean _WithShowMessage)
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_RunCurrentAction(Boolean isShowMessage)
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Run(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isShowMessage, Boolean isThreading, Boolean isResetIdRun, Boolean isCheckData, cAction runProgramAction)
+2024-06-28 16:00:05.2732 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.Clone()
+   at RTC_Vision_Lite.Classes.cAction.BackupImage(Image image)
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_BackupImage()
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_CleanData()
+2024-06-28 16:05:06.1348 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.GetFrameCount(FrameDimension dimension)
+   at RTC_Vision_Lite.Classes.SImage.set_rtcValue(Image value)
+   at RTC_Vision_Lite.Classes.cGroupActions.RunBefore(cAction Action, Boolean _WithShowMessage)
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_RunCurrentAction(Boolean isShowMessage)
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Run(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isShowMessage, Boolean isThreading, Boolean isResetIdRun, Boolean isCheckData, cAction runProgramAction)
+2024-06-28 16:05:08.1937 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.Clone()
+   at RTC_Vision_Lite.Classes.cAction.BackupImage(Image image)
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_BackupImage()
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_CleanData()
+2024-06-28 16:12:10.2426 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.GetFrameCount(FrameDimension dimension)
+   at RTC_Vision_Lite.Classes.SImage.set_rtcValue(Image value)
+   at RTC_Vision_Lite.Classes.cGroupActions.RunBefore(cAction Action, Boolean _WithShowMessage)
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_RunCurrentAction(Boolean isShowMessage)
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Run(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isShowMessage, Boolean isThreading, Boolean isResetIdRun, Boolean isCheckData, cAction runProgramAction)
+2024-06-28 16:12:14.4662 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.Clone()
+   at RTC_Vision_Lite.Classes.cAction.BackupImage(Image image)
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_BackupImage()
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_CleanData()
+2024-06-28 16:14:31.0253 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.GetFrameCount(FrameDimension dimension)
+   at RTC_Vision_Lite.Classes.SImage.set_rtcValue(Image value)
+   at RTC_Vision_Lite.Classes.cGroupActions.RunBefore(cAction Action, Boolean _WithShowMessage)
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_RunCurrentAction(Boolean isShowMessage)
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Run(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isShowMessage, Boolean isThreading, Boolean isResetIdRun, Boolean isCheckData, cAction runProgramAction)
+2024-06-28 16:14:35.7992 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.Clone()
+   at RTC_Vision_Lite.Classes.cAction.BackupImage(Image image)
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_BackupImage()
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_CleanData()
+2024-06-28 16:15:39.7243 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.GetFrameCount(FrameDimension dimension)
+   at RTC_Vision_Lite.Classes.SImage.set_rtcValue(Image value)
+   at RTC_Vision_Lite.Classes.cGroupActions.RunBefore(cAction Action, Boolean _WithShowMessage)
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_RunCurrentAction(Boolean isShowMessage)
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Run(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isShowMessage, Boolean isThreading, Boolean isResetIdRun, Boolean isCheckData, cAction runProgramAction)
+2024-06-28 16:15:46.0541 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.Clone()
+   at RTC_Vision_Lite.Classes.cAction.BackupImage(Image image)
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_BackupImage()
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_CleanData()
+2024-06-28 16:20:04.2495 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.GetFrameCount(FrameDimension dimension)
+   at RTC_Vision_Lite.Classes.SImage.set_rtcValue(Image value)
+   at RTC_Vision_Lite.Classes.cGroupActions.RunBefore(cAction Action, Boolean _WithShowMessage)
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_RunCurrentAction(Boolean isShowMessage)
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Run(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isShowMessage, Boolean isThreading, Boolean isResetIdRun, Boolean isCheckData, cAction runProgramAction)
+2024-06-28 16:20:51.8953 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.Clone()
+   at RTC_Vision_Lite.Classes.cAction.BackupImage(Image image)
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_BackupImage()
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_CleanData()

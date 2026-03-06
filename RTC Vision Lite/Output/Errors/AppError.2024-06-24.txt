@@ -1,0 +1,37 @@
+2024-06-24 16:52:14.8078 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.SnapImage_Camera() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.CamFunctions.cs:line 75
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Snap(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isBringImageToMain, Boolean isFromOtherCam) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 751
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Run(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isShowMessage, Boolean isThreading, Boolean isResetIdRun, Boolean isCheckData, cAction runProgramAction) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 227
+2024-06-24 16:54:49.9964 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.SnapImage_Camera() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.CamFunctions.cs:line 75
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Snap(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isBringImageToMain, Boolean isFromOtherCam) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 751
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Run(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isShowMessage, Boolean isThreading, Boolean isResetIdRun, Boolean isCheckData, cAction runProgramAction) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 227
+2024-06-24 17:08:25.9938 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.SnapImage_Camera() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.CamFunctions.cs:line 75
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Snap(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isBringImageToMain, Boolean isFromOtherCam) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 751
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Run(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isShowMessage, Boolean isThreading, Boolean isResetIdRun, Boolean isCheckData, cAction runProgramAction) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 227
+2024-06-24 17:16:47.8360 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at System.Drawing.Bitmap..ctor(Image original)
+   at RTC_Vision_Lite.Classes.cAction.Run_ColorBlob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1098
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 550
+2024-06-24 17:16:51.6647 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1883
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-24 17:16:52.5294 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1883
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-24 17:16:55.2035 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at System.Drawing.Bitmap..ctor(Image original)
+   at RTC_Vision_Lite.Classes.cAction.Run_ColorBlob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1098
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 550
+2024-06-24 17:16:56.0193 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1883
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519

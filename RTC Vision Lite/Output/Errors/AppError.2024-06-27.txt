@@ -1,0 +1,1901 @@
+2024-06-27 09:19:02.8869 
+» Message:	Value of '0' is not valid for 'Value'. 'Value' should be between 'Minimum' and 'Maximum'.
+Parameter name: Value
+» Stack Trace:	   at System.Windows.Forms.NumericUpDown.set_Value(Decimal value)
+   at RTC_Vision_Lite.PublicFunctions.GlobFuncs.HIK_SetFloatValueToNumberic(MyHikCamera hikCamera, String paramName, NumericUpDown edit) in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Global\GlobFuncs.cs:line 2449
+2024-06-27 09:35:11.2028 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at System.Drawing.Bitmap..ctor(Image original)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2013
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 529
+2024-06-27 09:35:27.3289 
+» Message:	Object is currently in use elsewhere.
+» Stack Trace:	   at System.Drawing.Image.get_RawFormat()
+   at System.Drawing.Graphics.DrawImage(Image image, Int32 x, Int32 y, Int32 width, Int32 height)
+   at System.Drawing.Bitmap..ctor(Image original, Int32 width, Int32 height)
+   at System.Drawing.Bitmap..ctor(Image original)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobMultiROI() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2013
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 529
+2024-06-27 09:42:01.7505 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:01.9041 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:01.9750 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:02.0607 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:02.2034 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:02.2741 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:02.3520 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:02.4258 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:02.5116 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:02.6861 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:02.9075 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:02.9833 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:03.0631 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:03.1369 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:03.2107 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:03.2895 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:03.3842 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:03.4540 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:03.5378 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:03.6216 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:03.7014 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:03.8490 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:03.9248 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:04.2988 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:04.4623 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:04.6209 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:04.8792 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:04.9850 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:05.2017 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:05.2862 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:05.3609 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:05.4657 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:05.6991 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:06.0002 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:06.2716 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:06.6092 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:06.7803 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:06.8729 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:06.9457 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:07.0255 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:07.1192 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:07.7735 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:07.8792 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:07.9879 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:08.2582 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:09.5607 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:09.8220 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:09.9577 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:10.0674 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:10.2070 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:10.3107 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:10.4493 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:10.6031 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:10.7267 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:10.9091 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:11.0428 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:11.2682 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:11.4377 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:11.7440 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:11.9713 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:12.1568 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:12.3438 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:12.5961 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:12.8355 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:13.0419 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:13.2344 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:13.3870 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:13.7590 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:14.4830 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:17.1626 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:21.1183 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:23.5190 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:23.7045 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:31.6046 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:31.7831 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:37.2914 
+» Message:	Exception of type 'System.OutOfMemoryException' was thrown.
+» Stack Trace:	   at Emgu.CV.Image`2.AllocateData(Int32 rows, Int32 cols, Int32 numberOfChannels)
+   at Emgu.CV.Image`2..ctor(Size size)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:37.9376 
+» Message:	Exception of type 'System.OutOfMemoryException' was thrown.
+» Stack Trace:	   at Emgu.CV.Image`2.AllocateData(Int32 rows, Int32 cols, Int32 numberOfChannels)
+   at Emgu.CV.Image`2..ctor(Size size)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:38.5510 
+» Message:	Exception of type 'System.OutOfMemoryException' was thrown.
+» Stack Trace:	   at Emgu.CV.Image`2.AllocateData(Int32 rows, Int32 cols, Int32 numberOfChannels)
+   at Emgu.CV.Image`2..ctor(Size size)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:38.9210 
+» Message:	Exception of type 'System.OutOfMemoryException' was thrown.
+» Stack Trace:	   at Emgu.CV.Image`2.AllocateData(Int32 rows, Int32 cols, Int32 numberOfChannels)
+   at Emgu.CV.Image`2..ctor(Size size)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:39.2451 
+» Message:	Exception of type 'System.OutOfMemoryException' was thrown.
+» Stack Trace:	   at Emgu.CV.Image`2.AllocateData(Int32 rows, Int32 cols, Int32 numberOfChannels)
+   at Emgu.CV.Image`2..ctor(Size size)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobFilter() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 927
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 524
+2024-06-27 09:42:39.3618 
+» Message:	Exception of type 'System.OutOfMemoryException' was thrown.
+» Stack Trace:	   at Emgu.CV.Image`2.AllocateData(Int32 rows, Int32 cols, Int32 numberOfChannels)
+   at Emgu.CV.Image`2..ctor(Size size)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:39.6251 
+» Message:	Exception of type 'System.OutOfMemoryException' was thrown.
+» Stack Trace:	   at Emgu.CV.Image`2.AllocateData(Int32 rows, Int32 cols, Int32 numberOfChannels)
+   at Emgu.CV.Image`2..ctor(Size size)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:39.8465 
+» Message:	Exception of type 'System.OutOfMemoryException' was thrown.
+» Stack Trace:	   at Emgu.CV.Image`2.AllocateData(Int32 rows, Int32 cols, Int32 numberOfChannels)
+   at Emgu.CV.Image`2..ctor(Size size)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobFilter() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 927
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 524
+2024-06-27 09:42:40.2315 
+» Message:	Exception of type 'System.OutOfMemoryException' was thrown.
+» Stack Trace:	   at Emgu.CV.Image`2.AllocateData(Int32 rows, Int32 cols, Int32 numberOfChannels)
+   at Emgu.CV.Image`2..ctor(Size size)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:40.4709 
+» Message:	Exception of type 'System.OutOfMemoryException' was thrown.
+» Stack Trace:	   at Emgu.CV.Image`2.AllocateData(Int32 rows, Int32 cols, Int32 numberOfChannels)
+   at Emgu.CV.Image`2..ctor(Size size)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:40.7561 
+» Message:	Exception of type 'System.OutOfMemoryException' was thrown.
+» Stack Trace:	   at Emgu.CV.Image`2.AllocateData(Int32 rows, Int32 cols, Int32 numberOfChannels)
+   at Emgu.CV.Image`2..ctor(Size size)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_BlobFilter() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 927
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 524
+2024-06-27 09:42:40.8568 
+» Message:	Exception of type 'System.OutOfMemoryException' was thrown.
+» Stack Trace:	   at Emgu.CV.Image`2.AllocateData(Int32 rows, Int32 cols, Int32 numberOfChannels)
+   at Emgu.CV.Image`2..ctor(Size size)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:41.1023 
+» Message:	Exception of type 'System.OutOfMemoryException' was thrown.
+» Stack Trace:	   at Emgu.CV.Image`2.AllocateData(Int32 rows, Int32 cols, Int32 numberOfChannels)
+   at Emgu.CV.Image`2..ctor(Size size)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:42.4876 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:42.5784 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:42.6562 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:42.7629 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:42.8636 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:43.0611 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:43.2057 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:43.2935 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:43.4182 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:43.6096 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:43.7237 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:43.8530 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:43.9996 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:44.8245 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:44.9393 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:45.1447 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:45.2754 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:45.4110 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:45.5716 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:45.6703 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:45.8947 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:46.0324 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:46.3405 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:46.4782 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:46.5669 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:46.7644 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:47.0666 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:47.2397 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:47.4158 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:47.8316 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:47.9662 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:48.0570 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:48.1677 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:48.2814 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:48.3923 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:48.6474 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:48.9117 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:49.1506 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:49.3471 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:49.4568 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:49.6134 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:49.7241 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:50.3165 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:50.5908 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:50.7025 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:50.8949 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:50.9987 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:51.4435 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:51.6416 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:52.1322 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:53.2677 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:53.4044 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:53.6956 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:54.6123 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:54.8977 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:55.0243 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:59.1082 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:59.2308 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:59.3515 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:59.4572 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:59.5570 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:59.6567 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:59.7674 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:42:59.8831 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:43:01.6517 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:43:01.7704 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:43:01.8980 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:43:03.4619 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:43:03.6095 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:43:03.7401 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:43:03.8857 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:43:04.0204 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:43:04.1381 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:43:04.2896 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:43:04.4443 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:43:05.2132 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:43:05.6969 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:43:13.9295 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:43:14.0002 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:43:14.0869 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:43:14.1508 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:43:14.2455 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:43:14.3313 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:43:14.4001 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:43:14.4880 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:43:14.5568 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:43:14.7019 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:43:14.7926 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:43:14.8765 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:43:14.9626 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:43:15.1242 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:43:15.1900 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:43:15.2748 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:43:15.3596 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:43:15.5212 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:43:15.6049 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:43:15.7675 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:43:15.8353 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:43:15.9171 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:43:16.0013 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:43:16.1528 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:43:16.2506 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:43:16.4082 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:43:16.4770 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:43:16.5667 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:43:16.6381 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:43:16.7977 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:43:16.8854 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:43:16.9762 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:43:17.0610 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:43:17.1478 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:43:17.2175 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:43:17.3013 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:43:17.3711 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:43:17.4570 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:43:17.5387 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:43:17.7182 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:43:17.8120 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:43:17.9875 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:43:18.0553 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:43:18.1361 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:43:18.2209 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:43:18.3685 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:43:18.4522 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:43:18.5540 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:43:18.6238 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:43:18.7205 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:43:18.8073 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:43:18.8941 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:43:18.9828 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:43:19.0636 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:43:19.1625 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:43:19.2362 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:43:19.3967 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:43:19.4886 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:43:19.5923 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:43:19.9483 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:43:20.0172 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:43:20.0890 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:43:20.1588 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:43:20.2276 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:43:20.7884 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:43:21.2496 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:43:21.4502 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:43:21.9477 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:43:22.2150 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:43:24.7116 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:43:24.7982 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:43:25.0705 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:43:25.4385 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:43:25.5891 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:43:26.0648 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:43:27.6088 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:43:27.7959 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:43:27.9674 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:43:28.2078 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:43:28.6326 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:43:29.1014 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:43:29.3239 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:43:29.5392 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:43:29.7551 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:43:29.8901 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:43:30.0094 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:43:30.1899 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:43:31.1345 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:43:31.3289 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:43:31.4486 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:43:31.5742 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:43:31.7039 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:43:31.9168 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:43:32.1412 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:43:32.4812 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:43:32.6976 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:43:33.5473 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:43:33.7447 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:43:33.9851 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:43:34.2036 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:43:34.4917 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:43:35.0842 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:43:35.7055 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519
+2024-06-27 09:43:36.8994 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format, BitmapData bitmapData)
+   at System.Drawing.Bitmap.LockBits(Rectangle rect, ImageLockMode flags, PixelFormat format)
+   at Emgu.CV.BitmapExtension.ToImage[TColor,TDepth](Bitmap bitmap)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1890
+   at RTC_Vision_Lite.Classes.cAction.<Run>d__48.MoveNext() in D:\RTC\01. Project\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 519

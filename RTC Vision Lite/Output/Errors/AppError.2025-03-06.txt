@@ -1,0 +1,115 @@
+2025-03-06 14:31:13.1987 
+» Message:	Could not load file or assembly 'Spire.Barcode, Version=6.6.0.0, Culture=neutral, PublicKeyToken=663f351905198cb3' or one of its dependencies. The system cannot find the file specified.
+» Stack Trace:	   at CodeReader.CodeReader.Run()
+   at RTC_Vision_Lite.Classes.cAction.Run_CodeReader() in D:\RTC\01. Project\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2856
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\01. Project\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1067
+2025-03-06 14:31:30.5472 
+» Message:	Could not load file or assembly 'Spire.Barcode, Version=6.6.0.0, Culture=neutral, PublicKeyToken=663f351905198cb3' or one of its dependencies. The system cannot find the file specified.
+» Stack Trace:	   at CodeReader.CodeReader.Run()
+   at RTC_Vision_Lite.Classes.cAction.Run_CodeReader() in D:\RTC\01. Project\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2856
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\01. Project\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1067
+2025-03-06 14:35:13.0748 
+» Message:	Could not load file or assembly 'Spire.Barcode, Version=6.6.0.0, Culture=neutral, PublicKeyToken=663f351905198cb3' or one of its dependencies. The system cannot find the file specified.
+» Stack Trace:	   at CodeReader.CodeReader.Run()
+   at RTC_Vision_Lite.Classes.cAction.Run_CodeReader() in D:\RTC\01. Project\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2856
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\01. Project\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1067
+2025-03-06 14:35:15.8803 
+» Message:	Could not load file or assembly 'Spire.Barcode, Version=6.6.0.0, Culture=neutral, PublicKeyToken=663f351905198cb3' or one of its dependencies. The system cannot find the file specified.
+» Stack Trace:	   at CodeReader.CodeReader.Run()
+   at RTC_Vision_Lite.Classes.cAction.Run_CodeReader() in D:\RTC\01. Project\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2856
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\01. Project\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1067
+2025-03-06 14:45:32.1366 
+» Message:	Could not load file or assembly 'Spire.Barcode, Version=6.6.0.0, Culture=neutral, PublicKeyToken=663f351905198cb3' or one of its dependencies. The system cannot find the file specified.
+» Stack Trace:	   at CodeReader.CodeReader.Run()
+   at RTC_Vision_Lite.Classes.cAction.Run_CodeReader() in D:\RTC\01. Project\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2856
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\01. Project\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1067
+2025-03-06 14:46:05.8113 
+» Message:	Could not load file or assembly 'Spire.Barcode, Version=6.6.0.0, Culture=neutral, PublicKeyToken=663f351905198cb3' or one of its dependencies. The system cannot find the file specified.
+» Stack Trace:	   at CodeReader.CodeReader.Run()
+   at RTC_Vision_Lite.Classes.cAction.Run_CodeReader() in D:\RTC\01. Project\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2856
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\01. Project\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1067
+2025-03-06 14:46:11.0045 
+» Message:	Could not load file or assembly 'Spire.Barcode, Version=6.6.0.0, Culture=neutral, PublicKeyToken=663f351905198cb3' or one of its dependencies. The system cannot find the file specified.
+» Stack Trace:	   at CodeReader.CodeReader.Run()
+   at RTC_Vision_Lite.Classes.cAction.Run_CodeReader() in D:\RTC\01. Project\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2856
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\01. Project\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1067
+2025-03-06 14:46:14.5262 
+» Message:	Could not load file or assembly 'Spire.Barcode, Version=6.6.0.0, Culture=neutral, PublicKeyToken=663f351905198cb3' or one of its dependencies. The system cannot find the file specified.
+» Stack Trace:	   at CodeReader.CodeReader.Run()
+   at RTC_Vision_Lite.Classes.cAction.Run_CodeReader() in D:\RTC\01. Project\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2856
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\01. Project\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1067
+2025-03-06 14:46:19.2219 
+» Message:	Could not load file or assembly 'Spire.Barcode, Version=6.6.0.0, Culture=neutral, PublicKeyToken=663f351905198cb3' or one of its dependencies. The system cannot find the file specified.
+» Stack Trace:	   at CodeReader.CodeReader.Run()
+   at RTC_Vision_Lite.Classes.cAction.Run_CodeReader() in D:\RTC\01. Project\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2856
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\01. Project\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1067
+2025-03-06 14:46:24.9931 
+» Message:	Could not load file or assembly 'Spire.Barcode, Version=6.6.0.0, Culture=neutral, PublicKeyToken=663f351905198cb3' or one of its dependencies. The system cannot find the file specified.
+» Stack Trace:	   at CodeReader.CodeReader.Run()
+   at RTC_Vision_Lite.Classes.cAction.Run_CodeReader() in D:\RTC\01. Project\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2856
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\01. Project\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1067
+2025-03-06 14:46:26.9688 
+» Message:	Could not load file or assembly 'Spire.Barcode, Version=6.6.0.0, Culture=neutral, PublicKeyToken=663f351905198cb3' or one of its dependencies. The system cannot find the file specified.
+» Stack Trace:	   at CodeReader.CodeReader.Run()
+   at RTC_Vision_Lite.Classes.cAction.Run_CodeReader() in D:\RTC\01. Project\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2856
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\01. Project\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1067
+2025-03-06 14:46:32.9726 
+» Message:	Could not load file or assembly 'Spire.Barcode, Version=6.6.0.0, Culture=neutral, PublicKeyToken=663f351905198cb3' or one of its dependencies. The system cannot find the file specified.
+» Stack Trace:	   at CodeReader.CodeReader.Run()
+   at RTC_Vision_Lite.Classes.cAction.Run_CodeReader() in D:\RTC\01. Project\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2856
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\01. Project\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1067
+2025-03-06 14:47:34.7637 
+» Message:	Could not load file or assembly 'Spire.Barcode, Version=6.6.0.0, Culture=neutral, PublicKeyToken=663f351905198cb3' or one of its dependencies. The system cannot find the file specified.
+» Stack Trace:	   at CodeReader.CodeReader.Run()
+   at RTC_Vision_Lite.Classes.cAction.Run_CodeReader() in D:\RTC\01. Project\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2856
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\01. Project\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1067
+2025-03-06 15:00:19.2320 
+» Message:	Could not load file or assembly 'Spire.Barcode, Version=7.3.5.0, Culture=neutral, PublicKeyToken=663f351905198cb3' or one of its dependencies. The system cannot find the file specified.
+» Stack Trace:	   at CodeReader.CodeReader.Run()
+   at RTC_Vision_Lite.Classes.cAction.Run_CodeReader() in D:\RTC\01. Project\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2856
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\01. Project\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1067
+2025-03-06 15:00:36.8341 
+» Message:	Could not load file or assembly 'Spire.Barcode, Version=7.3.5.0, Culture=neutral, PublicKeyToken=663f351905198cb3' or one of its dependencies. The system cannot find the file specified.
+» Stack Trace:	   at CodeReader.CodeReader.Run()
+   at RTC_Vision_Lite.Classes.cAction.Run_CodeReader() in D:\RTC\01. Project\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2856
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\01. Project\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1067
+2025-03-06 15:00:43.1324 
+» Message:	Could not load file or assembly 'Spire.Barcode, Version=7.3.5.0, Culture=neutral, PublicKeyToken=663f351905198cb3' or one of its dependencies. The system cannot find the file specified.
+» Stack Trace:	   at CodeReader.CodeReader.Run()
+   at RTC_Vision_Lite.Classes.cAction.Run_CodeReader() in D:\RTC\01. Project\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2856
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\01. Project\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1067
+2025-03-06 15:00:47.3067 
+» Message:	Could not load file or assembly 'Spire.Barcode, Version=7.3.5.0, Culture=neutral, PublicKeyToken=663f351905198cb3' or one of its dependencies. The system cannot find the file specified.
+» Stack Trace:	   at CodeReader.CodeReader.Run()
+   at RTC_Vision_Lite.Classes.cAction.Run_CodeReader() in D:\RTC\01. Project\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2856
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\01. Project\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1067
+2025-03-06 15:00:52.2960 
+» Message:	Could not load file or assembly 'Spire.Barcode, Version=7.3.5.0, Culture=neutral, PublicKeyToken=663f351905198cb3' or one of its dependencies. The system cannot find the file specified.
+» Stack Trace:	   at CodeReader.CodeReader.Run()
+   at RTC_Vision_Lite.Classes.cAction.Run_CodeReader() in D:\RTC\01. Project\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2856
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\01. Project\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1067
+2025-03-06 15:48:43.5405 
+» Message:	Could not load file or assembly 'Spire.Barcode, Version=7.3.5.0, Culture=neutral, PublicKeyToken=663f351905198cb3' or one of its dependencies. The system cannot find the file specified.
+» Stack Trace:	   at CodeReader.CodeReader.Run()
+   at RTC_Vision_Lite.Classes.cAction.Run_CodeReader() in D:\RTC\01. Project\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2856
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\01. Project\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1067
+2025-03-06 15:51:46.5439 
+» Message:	Could not load file or assembly 'Spire.Barcode, Version=7.3.5.0, Culture=neutral, PublicKeyToken=663f351905198cb3' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
+» Stack Trace:	   at CodeReader.CodeReader.Run()
+   at RTC_Vision_Lite.Classes.cAction.Run_CodeReader() in D:\RTC\01. Project\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2856
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\01. Project\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1067
+2025-03-06 15:54:39.1108 
+» Message:	Could not load file or assembly 'Spire.Barcode, Version=7.3.5.0, Culture=neutral, PublicKeyToken=663f351905198cb3' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
+» Stack Trace:	   at CodeReader.CodeReader.Run()
+   at RTC_Vision_Lite.Classes.cAction.Run_CodeReader() in D:\RTC\01. Project\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2856
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\01. Project\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1067
+2025-03-06 15:56:34.7557 
+» Message:	Could not load file or assembly 'Spire.Barcode, Version=7.3.5.0, Culture=neutral, PublicKeyToken=663f351905198cb3' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
+» Stack Trace:	   at CodeReader.CodeReader.Run()
+   at RTC_Vision_Lite.Classes.cAction.Run_CodeReader() in D:\RTC\01. Project\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2856
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\01. Project\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1067
+2025-03-06 15:58:40.1715 
+» Message:	Could not load file or assembly 'Spire.Barcode, Version=7.3.5.0, Culture=neutral, PublicKeyToken=663f351905198cb3' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
+» Stack Trace:	   at CodeReader.CodeReader.Run()
+   at RTC_Vision_Lite.Classes.cAction.Run_CodeReader() in D:\RTC\01. Project\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2856
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\01. Project\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1067

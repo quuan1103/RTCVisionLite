@@ -1,0 +1,12 @@
+2024-09-14 14:56:38.3964 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at Emgu.CV.BitmapExtension.AsBitmap[TColor,TDepth](Image`2 image)
+   at NewPattern.NewPattern.Run() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\8. NewPattern\NewPattern\Class1.cs:line 830
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2648
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1010
+2024-09-14 14:58:10.4826 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at Emgu.CV.BitmapExtension.AsBitmap[TColor,TDepth](Image`2 image)
+   at NewPattern.NewPattern.Run()
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2648
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1010

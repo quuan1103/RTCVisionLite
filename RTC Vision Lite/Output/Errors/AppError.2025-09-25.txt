@@ -1,0 +1,162 @@
+2025-09-25 08:35:33.5733 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_SplitImage() in D:\NTHIEU\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2088
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\NTHIEU\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1117
+2025-09-25 08:35:39.0879 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_SplitImage() in D:\NTHIEU\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2088
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\NTHIEU\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1117
+2025-09-25 08:36:38.0536 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_SplitImage() in D:\NTHIEU\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2088
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\NTHIEU\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1117
+2025-09-25 08:36:42.7106 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_SplitImage() in D:\NTHIEU\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2088
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\NTHIEU\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1117
+2025-09-25 08:36:42.8329 
+» Message:	Object is currently in use elsewhere.
+» Stack Trace:	   at System.Drawing.Image.get_Height()
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_ViewToolData(GraphicsWindow smartWindowControl, Int32 actionOrderLimit) in D:\NTHIEU\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 165
+2025-09-25 08:36:42.8633 
+» Message:	Object is currently in use elsewhere.
+» Stack Trace:	   at System.Drawing.Image.Clone()
+   at RTC_Vision_Lite.Classes.cAction.BackupImage(Image image) in D:\NTHIEU\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 3457
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_BackupImage() in D:\NTHIEU\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 116
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_CleanData() in D:\NTHIEU\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 23
+2025-09-25 08:37:06.9247 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_SplitImage() in D:\NTHIEU\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2088
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\NTHIEU\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1117
+2025-09-25 08:37:09.1738 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_SplitImage() in D:\NTHIEU\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2088
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\NTHIEU\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1117
+2025-09-25 08:40:51.6995 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_SplitImage() in D:\NTHIEU\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2088
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\NTHIEU\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1117
+2025-09-25 08:40:51.9222 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at RTC_Vision_Lite.Classes.cAction.Run_SplitImage() in D:\NTHIEU\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2088
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\NTHIEU\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1117
+2025-09-25 08:41:18.4564 
+» Message:	External component has thrown an exception.
+» Stack Trace:	   at Emgu.CV.Util.VectorOfVectorOfPoint.VectorOfVectorOfPointGetItemPtr(IntPtr vec, Int32 index, IntPtr& element)
+   at Emgu.CV.Util.VectorOfVectorOfPoint.get_Item(Int32 index)
+   at NewPattern.NewPattern.TrainTemplate(Mat template) in D:\NTHIEU\01.RTCVision Lite\8. NewPattern\NewPattern\Class1.cs:line 1371
+   at NewPattern.NewPattern.Train() in D:\NTHIEU\01.RTCVision Lite\8. NewPattern\NewPattern\Class1.cs:line 458
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in D:\NTHIEU\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 3099
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\NTHIEU\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1142
+2025-09-25 08:41:22.6371 
+» Message:	External component has thrown an exception.
+» Stack Trace:	   at Emgu.CV.Util.VectorOfVectorOfPoint.VectorOfVectorOfPointGetItemPtr(IntPtr vec, Int32 index, IntPtr& element)
+   at Emgu.CV.Util.VectorOfVectorOfPoint.get_Item(Int32 index)
+   at NewPattern.NewPattern.TrainTemplate(Mat template) in D:\NTHIEU\01.RTCVision Lite\8. NewPattern\NewPattern\Class1.cs:line 1371
+   at NewPattern.NewPattern.Train() in D:\NTHIEU\01.RTCVision Lite\8. NewPattern\NewPattern\Class1.cs:line 458
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in D:\NTHIEU\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 3099
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\NTHIEU\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1142
+2025-09-25 08:41:30.7816 
+» Message:	External component has thrown an exception.
+» Stack Trace:	   at Emgu.CV.Util.VectorOfVectorOfPoint.VectorOfVectorOfPointGetItemPtr(IntPtr vec, Int32 index, IntPtr& element)
+   at Emgu.CV.Util.VectorOfVectorOfPoint.get_Item(Int32 index)
+   at NewPattern.NewPattern.TrainTemplate(Mat template) in D:\NTHIEU\01.RTCVision Lite\8. NewPattern\NewPattern\Class1.cs:line 1371
+   at NewPattern.NewPattern.Train() in D:\NTHIEU\01.RTCVision Lite\8. NewPattern\NewPattern\Class1.cs:line 458
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in D:\NTHIEU\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 3099
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\NTHIEU\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1142
+2025-09-25 08:41:34.5149 
+» Message:	External component has thrown an exception.
+» Stack Trace:	   at Emgu.CV.Util.VectorOfVectorOfPoint.VectorOfVectorOfPointGetItemPtr(IntPtr vec, Int32 index, IntPtr& element)
+   at Emgu.CV.Util.VectorOfVectorOfPoint.get_Item(Int32 index)
+   at NewPattern.NewPattern.TrainTemplate(Mat template) in D:\NTHIEU\01.RTCVision Lite\8. NewPattern\NewPattern\Class1.cs:line 1371
+   at NewPattern.NewPattern.Train() in D:\NTHIEU\01.RTCVision Lite\8. NewPattern\NewPattern\Class1.cs:line 458
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in D:\NTHIEU\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 3099
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\NTHIEU\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1142
+2025-09-25 08:41:36.9394 
+» Message:	External component has thrown an exception.
+» Stack Trace:	   at Emgu.CV.Util.VectorOfVectorOfPoint.VectorOfVectorOfPointGetItemPtr(IntPtr vec, Int32 index, IntPtr& element)
+   at Emgu.CV.Util.VectorOfVectorOfPoint.get_Item(Int32 index)
+   at NewPattern.NewPattern.TrainTemplate(Mat template) in D:\NTHIEU\01.RTCVision Lite\8. NewPattern\NewPattern\Class1.cs:line 1371
+   at NewPattern.NewPattern.Train() in D:\NTHIEU\01.RTCVision Lite\8. NewPattern\NewPattern\Class1.cs:line 458
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in D:\NTHIEU\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 3099
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\NTHIEU\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1142
+2025-09-25 08:41:45.4549 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_SplitImage() in D:\NTHIEU\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2088
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\NTHIEU\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1117
+2025-09-25 08:42:26.4962 
+» Message:	External component has thrown an exception.
+» Stack Trace:	   at Emgu.CV.Util.VectorOfVectorOfPoint.VectorOfVectorOfPointGetItemPtr(IntPtr vec, Int32 index, IntPtr& element)
+   at Emgu.CV.Util.VectorOfVectorOfPoint.get_Item(Int32 index)
+   at NewPattern.NewPattern.TrainTemplate(Mat template) in D:\NTHIEU\01.RTCVision Lite\8. NewPattern\NewPattern\Class1.cs:line 1371
+   at NewPattern.NewPattern.Train() in D:\NTHIEU\01.RTCVision Lite\8. NewPattern\NewPattern\Class1.cs:line 458
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in D:\NTHIEU\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 3099
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\NTHIEU\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1142
+2025-09-25 08:48:52.4364 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at RTC_Vision_Lite.Classes.cAction.Run_SplitImage() in D:\NTHIEU\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2088
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\NTHIEU\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1117
+2025-09-25 09:04:06.3176 
+» Message:	External component has thrown an exception.
+» Stack Trace:	   at Emgu.CV.Util.VectorOfVectorOfPoint.VectorOfVectorOfPointGetItemPtr(IntPtr vec, Int32 index, IntPtr& element)
+   at Emgu.CV.Util.VectorOfVectorOfPoint.get_Item(Int32 index)
+   at NewPattern.NewPattern.TrainTemplate(Mat template) in D:\NTHIEU\01.RTCVision Lite\8. NewPattern\NewPattern\Class1.cs:line 1371
+   at NewPattern.NewPattern.Train() in D:\NTHIEU\01.RTCVision Lite\8. NewPattern\NewPattern\Class1.cs:line 458
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in D:\NTHIEU\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 3099
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\NTHIEU\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1142
+2025-09-25 09:04:39.3324 
+» Message:	External component has thrown an exception.
+» Stack Trace:	   at Emgu.CV.Util.VectorOfVectorOfPoint.VectorOfVectorOfPointGetItemPtr(IntPtr vec, Int32 index, IntPtr& element)
+   at Emgu.CV.Util.VectorOfVectorOfPoint.get_Item(Int32 index)
+   at NewPattern.NewPattern.TrainTemplate(Mat template) in D:\NTHIEU\01.RTCVision Lite\8. NewPattern\NewPattern\Class1.cs:line 1371
+   at NewPattern.NewPattern.Train() in D:\NTHIEU\01.RTCVision Lite\8. NewPattern\NewPattern\Class1.cs:line 458
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in D:\NTHIEU\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 3099
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\NTHIEU\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1142
+2025-09-25 09:04:41.9391 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_SplitImage() in D:\NTHIEU\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2088
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\NTHIEU\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1117
+2025-09-25 09:04:45.3775 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_SplitImage() in D:\NTHIEU\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2088
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\NTHIEU\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1117
+2025-09-25 09:18:01.5907 
+» Message:	External component has thrown an exception.
+» Stack Trace:	   at Emgu.CV.Util.VectorOfVectorOfPoint.VectorOfVectorOfPointGetItemPtr(IntPtr vec, Int32 index, IntPtr& element)
+   at Emgu.CV.Util.VectorOfVectorOfPoint.get_Item(Int32 index)
+   at NewPattern.NewPattern.TrainTemplate(Mat template) in D:\NTHIEU\01.RTCVision Lite\8. NewPattern\NewPattern\Class1.cs:line 1371
+   at NewPattern.NewPattern.Train() in D:\NTHIEU\01.RTCVision Lite\8. NewPattern\NewPattern\Class1.cs:line 458
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in D:\NTHIEU\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 3147
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\NTHIEU\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1142

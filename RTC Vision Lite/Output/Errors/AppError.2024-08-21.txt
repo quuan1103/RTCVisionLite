@@ -1,0 +1,148 @@
+2024-08-21 14:08:26.8323 
+» Message:	An item with the same key has already been added.
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   at System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   at RTC_Vision_Lite.PublicFunctions.GlobFuncs.GenShapeList(SListObject ShapeList) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Global\GlobFuncs.cs:line 3564
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2284
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 895
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 886
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 853
+2024-08-21 14:08:30.2591 
+» Message:	An item with the same key has already been added.
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   at System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   at RTC_Vision_Lite.PublicFunctions.GlobFuncs.GenShapeList(SListObject ShapeList) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Global\GlobFuncs.cs:line 3564
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2284
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 895
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 886
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 853
+2024-08-21 14:08:30.6650 
+» Message:	An item with the same key has already been added.
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   at System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   at RTC_Vision_Lite.PublicFunctions.GlobFuncs.GenShapeList(SListObject ShapeList) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Global\GlobFuncs.cs:line 3564
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2284
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 895
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 886
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 853
+2024-08-21 14:08:32.1032 
+» Message:	An item with the same key has already been added.
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   at System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   at RTC_Vision_Lite.PublicFunctions.GlobFuncs.GenShapeList(SListObject ShapeList) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Global\GlobFuncs.cs:line 3564
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2284
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 895
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 886
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 853
+2024-08-21 14:08:32.3824 
+» Message:	An item with the same key has already been added.
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   at System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   at RTC_Vision_Lite.PublicFunctions.GlobFuncs.GenShapeList(SListObject ShapeList) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Global\GlobFuncs.cs:line 3564
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2284
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 895
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 886
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 853
+2024-08-21 14:08:38.2507 
+» Message:	An item with the same key has already been added.
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   at System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   at RTC_Vision_Lite.PublicFunctions.GlobFuncs.GenShapeList(SListObject ShapeList) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Global\GlobFuncs.cs:line 3564
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2284
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 895
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 886
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 853
+2024-08-21 14:12:30.5848 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at NewPattern.NewPattern.GetTopLayer(Mat matTempl, Int32 iMinDstLength) in D:\RTC\RTCVisionLite\2. RTCVision Lite\8. NewPattern\NewPattern\Class1.cs:line 864
+   at NewPattern.NewPattern.Run() in D:\RTC\RTCVisionLite\2. RTCVision Lite\8. NewPattern\NewPattern\Class1.cs:line 516
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2612
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 955
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 886
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 853
+2024-08-21 14:12:31.9730 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at NewPattern.NewPattern.GetTopLayer(Mat matTempl, Int32 iMinDstLength) in D:\RTC\RTCVisionLite\2. RTCVision Lite\8. NewPattern\NewPattern\Class1.cs:line 864
+   at NewPattern.NewPattern.Run() in D:\RTC\RTCVisionLite\2. RTCVision Lite\8. NewPattern\NewPattern\Class1.cs:line 516
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2612
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 955
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 886
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 853
+2024-08-21 14:12:33.0761 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at NewPattern.NewPattern.GetTopLayer(Mat matTempl, Int32 iMinDstLength) in D:\RTC\RTCVisionLite\2. RTCVision Lite\8. NewPattern\NewPattern\Class1.cs:line 864
+   at NewPattern.NewPattern.Run() in D:\RTC\RTCVisionLite\2. RTCVision Lite\8. NewPattern\NewPattern\Class1.cs:line 516
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2612
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 955
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 886
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 853
+2024-08-21 14:12:34.9241 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at NewPattern.NewPattern.GetTopLayer(Mat matTempl, Int32 iMinDstLength) in D:\RTC\RTCVisionLite\2. RTCVision Lite\8. NewPattern\NewPattern\Class1.cs:line 864
+   at NewPattern.NewPattern.Run() in D:\RTC\RTCVisionLite\2. RTCVision Lite\8. NewPattern\NewPattern\Class1.cs:line 516
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2612
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 955
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 886
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 853
+2024-08-21 14:12:35.5884 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at NewPattern.NewPattern.GetTopLayer(Mat matTempl, Int32 iMinDstLength) in D:\RTC\RTCVisionLite\2. RTCVision Lite\8. NewPattern\NewPattern\Class1.cs:line 864
+   at NewPattern.NewPattern.Run() in D:\RTC\RTCVisionLite\2. RTCVision Lite\8. NewPattern\NewPattern\Class1.cs:line 516
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2612
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 955
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 886
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 853
+2024-08-21 14:12:36.6485 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at NewPattern.NewPattern.GetTopLayer(Mat matTempl, Int32 iMinDstLength) in D:\RTC\RTCVisionLite\2. RTCVision Lite\8. NewPattern\NewPattern\Class1.cs:line 864
+   at NewPattern.NewPattern.Run() in D:\RTC\RTCVisionLite\2. RTCVision Lite\8. NewPattern\NewPattern\Class1.cs:line 516
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2612
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 955
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 886
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 853
+2024-08-21 14:12:37.2449 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at NewPattern.NewPattern.GetTopLayer(Mat matTempl, Int32 iMinDstLength) in D:\RTC\RTCVisionLite\2. RTCVision Lite\8. NewPattern\NewPattern\Class1.cs:line 864
+   at NewPattern.NewPattern.Run() in D:\RTC\RTCVisionLite\2. RTCVision Lite\8. NewPattern\NewPattern\Class1.cs:line 516
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2612
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 955
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 886
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 853
+2024-08-21 14:13:01.0553 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at NewPattern.NewPattern.GetTopLayer(Mat matTempl, Int32 iMinDstLength) in D:\RTC\RTCVisionLite\2. RTCVision Lite\8. NewPattern\NewPattern\Class1.cs:line 864
+   at NewPattern.NewPattern.Run() in D:\RTC\RTCVisionLite\2. RTCVision Lite\8. NewPattern\NewPattern\Class1.cs:line 516
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2612
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 955
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 886
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 853
+2024-08-21 14:13:32.5519 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at NewPattern.NewPattern.GetTopLayer(Mat matTempl, Int32 iMinDstLength) in D:\RTC\RTCVisionLite\2. RTCVision Lite\8. NewPattern\NewPattern\Class1.cs:line 864
+   at NewPattern.NewPattern.Run() in D:\RTC\RTCVisionLite\2. RTCVision Lite\8. NewPattern\NewPattern\Class1.cs:line 516
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2612
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 955
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 886
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 853
+2024-08-21 14:13:44.9318 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at NewPattern.NewPattern.GetTopLayer(Mat matTempl, Int32 iMinDstLength) in D:\RTC\RTCVisionLite\2. RTCVision Lite\8. NewPattern\NewPattern\Class1.cs:line 864
+   at NewPattern.NewPattern.Run() in D:\RTC\RTCVisionLite\2. RTCVision Lite\8. NewPattern\NewPattern\Class1.cs:line 516
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2612
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 955
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 886
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 853
+2024-08-21 14:14:26.0752 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at NewPattern.NewPattern.GetTopLayer(Mat matTempl, Int32 iMinDstLength) in D:\RTC\RTCVisionLite\2. RTCVision Lite\8. NewPattern\NewPattern\Class1.cs:line 864
+   at NewPattern.NewPattern.Run() in D:\RTC\RTCVisionLite\2. RTCVision Lite\8. NewPattern\NewPattern\Class1.cs:line 516
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)

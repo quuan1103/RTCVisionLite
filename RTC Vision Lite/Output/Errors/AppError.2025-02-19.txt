@@ -1,0 +1,40 @@
+2025-02-19 15:39:13.7460 
+» Message:	Could not load file or assembly 'Aspose.BarCode, Version=25.1.0.0, Culture=neutral, PublicKeyToken=716fcc553a201e56' or one of its dependencies. The system cannot find the file specified.
+» Stack Trace:	   at CodeReader.CodeReader.Run()
+   at RTC_Vision_Lite.Classes.cAction.Run_CodeReader() in D:\RTC\01. Project\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2853
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\01. Project\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1067
+2025-02-19 15:39:15.5976 
+» Message:	Could not load file or assembly 'Aspose.BarCode, Version=25.1.0.0, Culture=neutral, PublicKeyToken=716fcc553a201e56' or one of its dependencies. The system cannot find the file specified.
+» Stack Trace:	   at CodeReader.CodeReader.Run()
+   at RTC_Vision_Lite.Classes.cAction.Run_CodeReader() in D:\RTC\01. Project\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2853
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\01. Project\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1067
+2025-02-19 15:39:17.4015 
+» Message:	Could not load file or assembly 'Aspose.BarCode, Version=25.1.0.0, Culture=neutral, PublicKeyToken=716fcc553a201e56' or one of its dependencies. The system cannot find the file specified.
+» Stack Trace:	   at CodeReader.CodeReader.Run()
+   at RTC_Vision_Lite.Classes.cAction.Run_CodeReader() in D:\RTC\01. Project\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2853
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\01. Project\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1067
+2025-02-19 15:39:18.7980 
+» Message:	Could not load file or assembly 'Aspose.BarCode, Version=25.1.0.0, Culture=neutral, PublicKeyToken=716fcc553a201e56' or one of its dependencies. The system cannot find the file specified.
+» Stack Trace:	   at CodeReader.CodeReader.Train()
+   at RTC_Vision_Lite.Classes.cAction.Run_CodeReader() in D:\RTC\01. Project\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2795
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\01. Project\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1067
+2025-02-19 15:39:23.3200 
+» Message:	Could not load file or assembly 'Aspose.BarCode, Version=25.1.0.0, Culture=neutral, PublicKeyToken=716fcc553a201e56' or one of its dependencies. The system cannot find the file specified.
+» Stack Trace:	   at CodeReader.CodeReader.Train()
+   at RTC_Vision_Lite.Classes.cAction.Run_CodeReader() in D:\RTC\01. Project\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2795
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\01. Project\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1067
+2025-02-19 15:39:39.3638 
+» Message:	Could not load file or assembly 'Aspose.BarCode, Version=25.1.0.0, Culture=neutral, PublicKeyToken=716fcc553a201e56' or one of its dependencies. The system cannot find the file specified.
+» Stack Trace:	   at CodeReader.CodeReader.Train()
+   at RTC_Vision_Lite.Classes.cAction.Run_CodeReader() in D:\RTC\01. Project\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2795
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\01. Project\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1067
+2025-02-19 15:39:40.4511 
+» Message:	Could not load file or assembly 'Aspose.BarCode, Version=25.1.0.0, Culture=neutral, PublicKeyToken=716fcc553a201e56' or one of its dependencies. The system cannot find the file specified.
+» Stack Trace:	   at CodeReader.CodeReader.Run()
+   at RTC_Vision_Lite.Classes.cAction.Run_CodeReader() in D:\RTC\01. Project\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2853
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\01. Project\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1067
+2025-02-19 15:40:59.3048 
+» Message:	Could not load file or assembly 'Aspose.BarCode, Version=25.1.0.0, Culture=neutral, PublicKeyToken=716fcc553a201e56' or one of its dependencies. The system cannot find the file specified.
+» Stack Trace:	   at CodeReader.CodeReader.Run()
+   at RTC_Vision_Lite.Classes.cAction.Run_CodeReader() in D:\RTC\01. Project\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2853
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\01. Project\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1067

@@ -1,0 +1,20 @@
+2025-10-03 15:02:03.0141 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in D:\2. RTC Project\01.RTCVision Lite_1808\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 3135
+2025-10-03 15:03:48.8328 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in D:\2. RTC Project\01.RTCVision Lite_1808\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 3135
+2025-10-03 15:03:59.8964 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in D:\2. RTC Project\01.RTCVision Lite_1808\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 3135
+2025-10-03 15:05:28.5062 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in D:\2. RTC Project\01.RTCVision Lite_1808\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 3135
+2025-10-03 17:19:56.0707 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in D:\2. RTC Project\01.RTCVision Lite_1808\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 3135

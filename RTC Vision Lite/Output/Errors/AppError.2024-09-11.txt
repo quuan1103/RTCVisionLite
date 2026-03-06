@@ -1,0 +1,211 @@
+2024-09-11 08:28:24.1424 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Snap(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isBringImageToMain, Boolean isFromOtherCam) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 756
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Run(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isShowMessage, Boolean isThreading, Boolean isResetIdRun, Boolean isCheckData, cAction runProgramAction) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 228
+2024-09-11 09:37:56.1853 
+» Message:	The given path's format is not supported.
+» Stack Trace:	   at System.Security.Permissions.FileIOPermission.EmulateFileIOPermissionChecks(String fullPath)
+   at System.Security.Permissions.FileIOPermission.QuickDemand(FileIOPermissionAccess access, String fullPath, Boolean checkForDuplicates, Boolean needFullPath)
+   at System.IO.Path.GetFullPath(String path)
+   at System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   at System.Drawing.IntSecurity.DemandWriteFileIO(String fileName)
+   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at System.Drawing.Image.Save(String filename, ImageFormat format)
+   at System.Drawing.Image.Save(String filename)
+   at RTC_Vision_Lite.Classes.SImage.set_rtcValue(Image value)
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Snap(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isBringImageToMain, Boolean isFromOtherCam)
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Run(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isShowMessage, Boolean isThreading, Boolean isResetIdRun, Boolean isCheckData, cAction runProgramAction)
+2024-09-11 09:38:00.4799 
+» Message:	The given path's format is not supported.
+» Stack Trace:	   at System.Security.Permissions.FileIOPermission.EmulateFileIOPermissionChecks(String fullPath)
+   at System.Security.Permissions.FileIOPermission.QuickDemand(FileIOPermissionAccess access, String fullPath, Boolean checkForDuplicates, Boolean needFullPath)
+   at System.IO.Path.GetFullPath(String path)
+   at System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   at System.Drawing.IntSecurity.DemandWriteFileIO(String fileName)
+   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at System.Drawing.Image.Save(String filename, ImageFormat format)
+   at System.Drawing.Image.Save(String filename)
+   at RTC_Vision_Lite.Classes.SImage.set_rtcValue(Image value)
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_RollBackImage()
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_CleanData()
+2024-09-11 09:38:00.5148 
+» Message:	The given path's format is not supported.
+» Stack Trace:	   at System.Security.Permissions.FileIOPermission.EmulateFileIOPermissionChecks(String fullPath)
+   at System.Security.Permissions.FileIOPermission.QuickDemand(FileIOPermissionAccess access, String fullPath, Boolean checkForDuplicates, Boolean needFullPath)
+   at System.IO.Path.GetFullPath(String path)
+   at System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   at System.Drawing.IntSecurity.DemandWriteFileIO(String fileName)
+   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at System.Drawing.Image.Save(String filename, ImageFormat format)
+   at System.Drawing.Image.Save(String filename)
+   at RTC_Vision_Lite.Classes.SImage.set_rtcValue(Image value)
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_RollBackImage()
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_CleanData()
+2024-09-11 09:38:00.6674 
+» Message:	The given path's format is not supported.
+» Stack Trace:	   at System.Security.Permissions.FileIOPermission.EmulateFileIOPermissionChecks(String fullPath)
+   at System.Security.Permissions.FileIOPermission.QuickDemand(FileIOPermissionAccess access, String fullPath, Boolean checkForDuplicates, Boolean needFullPath)
+   at System.IO.Path.GetFullPath(String path)
+   at System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   at System.Drawing.IntSecurity.DemandWriteFileIO(String fileName)
+   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at System.Drawing.Image.Save(String filename, ImageFormat format)
+   at System.Drawing.Image.Save(String filename)
+   at RTC_Vision_Lite.Classes.SImage.set_rtcValue(Image value)
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Snap(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isBringImageToMain, Boolean isFromOtherCam)
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Run(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isShowMessage, Boolean isThreading, Boolean isResetIdRun, Boolean isCheckData, cAction runProgramAction)
+2024-09-11 09:38:47.0317 
+» Message:	The given path's format is not supported.
+» Stack Trace:	   at System.Security.Permissions.FileIOPermission.EmulateFileIOPermissionChecks(String fullPath)
+   at System.Security.Permissions.FileIOPermission.QuickDemand(FileIOPermissionAccess access, String fullPath, Boolean checkForDuplicates, Boolean needFullPath)
+   at System.IO.Path.GetFullPath(String path)
+   at System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   at System.Drawing.IntSecurity.DemandWriteFileIO(String fileName)
+   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at System.Drawing.Image.Save(String filename, ImageFormat format)
+   at System.Drawing.Image.Save(String filename)
+   at RTC_Vision_Lite.Classes.SImage.set_rtcValue(Image value)
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_RollBackImage()
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_CleanData()
+2024-09-11 09:39:01.6211 
+» Message:	The given path's format is not supported.
+» Stack Trace:	   at System.Security.Permissions.FileIOPermission.EmulateFileIOPermissionChecks(String fullPath)
+   at System.Security.Permissions.FileIOPermission.QuickDemand(FileIOPermissionAccess access, String fullPath, Boolean checkForDuplicates, Boolean needFullPath)
+   at System.IO.Path.GetFullPath(String path)
+   at System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   at System.Drawing.IntSecurity.DemandWriteFileIO(String fileName)
+   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at System.Drawing.Image.Save(String filename, ImageFormat format)
+   at System.Drawing.Image.Save(String filename)
+   at RTC_Vision_Lite.Classes.SImage.set_rtcValue(Image value)
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_RollBackImage()
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_CleanData()
+2024-09-11 09:39:19.0428 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at System.Drawing.Image.Save(String filename, ImageFormat format)
+   at System.Drawing.Image.Save(String filename)
+   at RTC_Vision_Lite.Classes.SImage.set_rtcValue(Image value)
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Snap(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isBringImageToMain, Boolean isFromOtherCam)
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Run(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isShowMessage, Boolean isThreading, Boolean isResetIdRun, Boolean isCheckData, cAction runProgramAction)
+2024-09-11 09:39:26.4920 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at System.Drawing.Image.Save(String filename, ImageFormat format)
+   at System.Drawing.Image.Save(String filename)
+   at RTC_Vision_Lite.Classes.SImage.set_rtcValue(Image value)
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_RollBackImage()
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_CleanData()
+2024-09-11 14:35:59.5372 
+» Message:	Object is currently in use elsewhere.
+» Stack Trace:	   at System.Drawing.Image.get_Height()
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_ViewToolData(WindowView smartWindowControl, Int32 actionOrderLimit) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 161
+2024-09-11 14:48:54.6740 
+» Message:	Cannot access a disposed object.
+Object name: 'WindowView'.
+» Stack Trace:	   at System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   at System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   at System.Windows.Forms.Control.Invoke(Delegate method)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2339
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 949
+2024-09-11 15:21:13.2370 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.get_FrameDimensionsList()
+   at System.Drawing.ImageAnimator.CanAnimate(Image image)
+   at System.Drawing.ImageAnimator.ImageInfo..ctor(Image image)
+   at System.Drawing.ImageAnimator.Animate(Image image, EventHandler onFrameChangedHandler)
+   at System.Windows.Forms.PictureBox.Animate(Boolean animate)
+   at System.Windows.Forms.PictureBox.Animate()
+   at System.Windows.Forms.PictureBox.InstallNewImage(Image value, ImageInstallationType installationType)
+   at System.Windows.Forms.PictureBox.set_Image(Image value)
+   at RTC_Vision_Lite.PublicFunctions.GlobFuncs.SmartSetPart(Image Image, WindowView Window)
+   at RTC_Vision_Lite.Forms.FrmHsmartWindow.set_Image(Image value)
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Snap(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isBringImageToMain, Boolean isFromOtherCam)
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Run(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isShowMessage, Boolean isThreading, Boolean isResetIdRun, Boolean isCheckData, cAction runProgramAction)
+2024-09-11 15:21:21.0083 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.get_FrameDimensionsList()
+   at System.Drawing.ImageAnimator.CanAnimate(Image image)
+   at System.Drawing.ImageAnimator.ImageInfo..ctor(Image image)
+   at System.Drawing.ImageAnimator.Animate(Image image, EventHandler onFrameChangedHandler)
+   at System.Windows.Forms.PictureBox.Animate(Boolean animate)
+   at System.Windows.Forms.PictureBox.Animate()
+   at System.Windows.Forms.PictureBox.InstallNewImage(Image value, ImageInstallationType installationType)
+   at System.Windows.Forms.PictureBox.set_Image(Image value)
+   at RTC_Vision_Lite.PublicFunctions.GlobFuncs.SmartSetPart(Image Image, WindowView Window)
+   at RTC_Vision_Lite.Forms.FrmHsmartWindow.set_Image(Image value)
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Snap(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isBringImageToMain, Boolean isFromOtherCam)
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Run(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isShowMessage, Boolean isThreading, Boolean isResetIdRun, Boolean isCheckData, cAction runProgramAction)
+2024-09-11 15:21:54.0909 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.get_FrameDimensionsList()
+   at System.Drawing.ImageAnimator.CanAnimate(Image image)
+   at System.Drawing.ImageAnimator.ImageInfo..ctor(Image image)
+   at System.Drawing.ImageAnimator.Animate(Image image, EventHandler onFrameChangedHandler)
+   at System.Windows.Forms.PictureBox.Animate(Boolean animate)
+   at System.Windows.Forms.PictureBox.Animate()
+   at System.Windows.Forms.PictureBox.InstallNewImage(Image value, ImageInstallationType installationType)
+   at System.Windows.Forms.PictureBox.set_Image(Image value)
+   at RTC_Vision_Lite.PublicFunctions.GlobFuncs.SmartSetPart(Image Image, WindowView Window)
+   at RTC_Vision_Lite.Forms.FrmHsmartWindow.set_Image(Image value)
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Snap(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isBringImageToMain, Boolean isFromOtherCam)
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Run(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isShowMessage, Boolean isThreading, Boolean isResetIdRun, Boolean isCheckData, cAction runProgramAction)
+2024-09-11 15:24:42.6401 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.get_FrameDimensionsList()
+   at System.Drawing.ImageAnimator.CanAnimate(Image image)
+   at System.Drawing.ImageAnimator.ImageInfo..ctor(Image image)
+   at System.Drawing.ImageAnimator.Animate(Image image, EventHandler onFrameChangedHandler)
+   at System.Windows.Forms.PictureBox.Animate(Boolean animate)
+   at System.Windows.Forms.PictureBox.Animate()
+   at System.Windows.Forms.PictureBox.InstallNewImage(Image value, ImageInstallationType installationType)
+   at System.Windows.Forms.PictureBox.set_Image(Image value)
+   at RTC_Vision_Lite.PublicFunctions.GlobFuncs.SmartSetPart(Image Image, WindowView Window) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Global\GlobFuncs.cs:line 3458
+   at RTC_Vision_Lite.Forms.FrmHsmartWindow.set_Image(Image value) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\2. Forms\FrmHsmartWindow.cs:line 40
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Snap(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isBringImageToMain, Boolean isFromOtherCam) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 745
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Run(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isShowMessage, Boolean isThreading, Boolean isResetIdRun, Boolean isCheckData, cAction runProgramAction) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 228
+2024-09-11 15:24:46.8385 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.get_FrameDimensionsList()
+   at System.Drawing.ImageAnimator.CanAnimate(Image image)
+   at System.Drawing.ImageAnimator.ImageInfo..ctor(Image image)
+   at System.Drawing.ImageAnimator.Animate(Image image, EventHandler onFrameChangedHandler)
+   at System.Windows.Forms.PictureBox.Animate(Boolean animate)
+   at System.Windows.Forms.PictureBox.Animate()
+   at System.Windows.Forms.PictureBox.InstallNewImage(Image value, ImageInstallationType installationType)
+   at System.Windows.Forms.PictureBox.set_Image(Image value)
+   at RTC_Vision_Lite.PublicFunctions.GlobFuncs.SmartSetPart(Image Image, WindowView Window) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Global\GlobFuncs.cs:line 3458
+   at RTC_Vision_Lite.Forms.FrmHsmartWindow.set_Image(Image value) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\2. Forms\FrmHsmartWindow.cs:line 40
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Snap(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isBringImageToMain, Boolean isFromOtherCam) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 745
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Run(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isShowMessage, Boolean isThreading, Boolean isResetIdRun, Boolean isCheckData, cAction runProgramAction) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 228
+2024-09-11 15:24:50.1856 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.get_FrameDimensionsList()
+   at System.Drawing.ImageAnimator.CanAnimate(Image image)
+   at System.Drawing.ImageAnimator.ImageInfo..ctor(Image image)
+   at System.Drawing.ImageAnimator.Animate(Image image, EventHandler onFrameChangedHandler)
+   at System.Windows.Forms.PictureBox.Animate(Boolean animate)
+   at System.Windows.Forms.PictureBox.Animate()
+   at System.Windows.Forms.PictureBox.InstallNewImage(Image value, ImageInstallationType installationType)
+   at System.Windows.Forms.PictureBox.set_Image(Image value)
+   at RTC_Vision_Lite.PublicFunctions.GlobFuncs.SmartSetPart(Image Image, WindowView Window) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Global\GlobFuncs.cs:line 3458
+   at RTC_Vision_Lite.Forms.FrmHsmartWindow.set_Image(Image value) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\2. Forms\FrmHsmartWindow.cs:line 40
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Snap(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isBringImageToMain, Boolean isFromOtherCam) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 745
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Run(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isShowMessage, Boolean isThreading, Boolean isResetIdRun, Boolean isCheckData, cAction runProgramAction) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 228
+2024-09-11 15:27:05.3663 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.get_FrameDimensionsList()
+   at System.Drawing.ImageAnimator.CanAnimate(Image image)
+   at System.Drawing.ImageAnimator.ImageInfo..ctor(Image image)
+   at System.Drawing.ImageAnimator.Animate(Image image, EventHandler onFrameChangedHandler)
+   at System.Windows.Forms.PictureBox.Animate(Boolean animate)
+   at System.Windows.Forms.PictureBox.Animate()
+   at System.Windows.Forms.PictureBox.InstallNewImage(Image value, ImageInstallationType installationType)
+   at System.Windows.Forms.PictureBox.set_Image(Image value)
+   at RTC_Vision_Lite.PublicFunctions.GlobFuncs.SmartSetPart(Image Image, WindowView Window)
+   at RTC_Vision_Lite.Forms.FrmHsmartWindow.set_Image(Image value)
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Snap(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isBringImageToMain, Boolean isFromOtherCam)
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Run(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isShowMessage, Boolean isThreading, Boolean isResetIdRun, Boolean isCheckData, cAction runProgramAction)

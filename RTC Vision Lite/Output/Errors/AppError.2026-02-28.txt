@@ -1,0 +1,33 @@
+2026-02-28 14:52:40.7065 
+» Message:	Value of '-6' is not valid for 'Size'. 'Size' must be greater than or equal to 0.
+Parameter name: Size
+» Stack Trace:	   at System.Windows.Forms.TableLayoutStyle.set_Size(Single value)
+   at System.Windows.Forms.RowStyle..ctor(SizeType sizeType, Single height)
+   at RTC_Vision_Lite.Forms.FrmMain.ShowProjectCAMToLayoutControl_Normal() in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\2. Forms\FrmMain.cs:line 212
+   at RTC_Vision_Lite.Forms.FrmMain.ShowProjectCAMToLayoutControl(Boolean isAutoSetMaximize) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\2. Forms\FrmMain.cs:line 583
+2026-02-28 18:54:53.6498 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_Brightness() in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2476
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1122
+2026-02-28 19:03:57.0008 
+» Message:	Could not load file or assembly 'zxing, Version=0.16.9.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60' or one of its dependencies. The system cannot find the file specified.
+» Stack Trace:	   at CodeReader.CodeReader.Run()
+   at RTC_Vision_Lite.Classes.cAction.Run_CodeReader() in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 3369
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1157
+2026-02-28 19:11:03.0509 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2364
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1127
+2026-02-28 19:11:04.4736 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2364
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1127

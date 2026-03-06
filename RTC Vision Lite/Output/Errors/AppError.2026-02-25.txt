@@ -1,0 +1,95 @@
+2026-02-25 08:51:48.7217 
+» Message:	Sequence contains no elements
+» Stack Trace:	   at System.Linq.Enumerable.Max(IEnumerable`1 source)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\Project\2026\03.RTCVision\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2898
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\Project\2026\03.RTCVision\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1081
+2026-02-25 08:52:03.2300 
+» Message:	Sequence contains no elements
+» Stack Trace:	   at System.Linq.Enumerable.Max(IEnumerable`1 source)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\Project\2026\03.RTCVision\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2898
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\Project\2026\03.RTCVision\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1081
+2026-02-25 08:52:04.9639 
+» Message:	Sequence contains no elements
+» Stack Trace:	   at System.Linq.Enumerable.Max(IEnumerable`1 source)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\Project\2026\03.RTCVision\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2898
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\Project\2026\03.RTCVision\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1081
+2026-02-25 08:52:06.1384 
+» Message:	Sequence contains no elements
+» Stack Trace:	   at System.Linq.Enumerable.Max(IEnumerable`1 source)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\Project\2026\03.RTCVision\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2898
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\Project\2026\03.RTCVision\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1081
+2026-02-25 08:52:07.0660 
+» Message:	Sequence contains no elements
+» Stack Trace:	   at System.Linq.Enumerable.Max(IEnumerable`1 source)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\Project\2026\03.RTCVision\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2898
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\Project\2026\03.RTCVision\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1081
+2026-02-25 08:52:15.5569 
+» Message:	Sequence contains no elements
+» Stack Trace:	   at System.Linq.Enumerable.Max(IEnumerable`1 source)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\Project\2026\03.RTCVision\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2898
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\Project\2026\03.RTCVision\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1081
+2026-02-25 08:52:18.8382 
+» Message:	Sequence contains no elements
+» Stack Trace:	   at System.Linq.Enumerable.Max(IEnumerable`1 source)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\Project\2026\03.RTCVision\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2898
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\Project\2026\03.RTCVision\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1081
+2026-02-25 08:52:20.2050 
+» Message:	Sequence contains no elements
+» Stack Trace:	   at System.Linq.Enumerable.Max(IEnumerable`1 source)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\Project\2026\03.RTCVision\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2898
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\Project\2026\03.RTCVision\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1081
+2026-02-25 08:52:21.0879 
+» Message:	Sequence contains no elements
+» Stack Trace:	   at System.Linq.Enumerable.Max(IEnumerable`1 source)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\Project\2026\03.RTCVision\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2898
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\Project\2026\03.RTCVision\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1081
+2026-02-25 08:52:21.6164 
+» Message:	Sequence contains no elements
+» Stack Trace:	   at System.Linq.Enumerable.Max(IEnumerable`1 source)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\Project\2026\03.RTCVision\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2898
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\Project\2026\03.RTCVision\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1081
+2026-02-25 08:58:09.2655 
+» Message:	Sequence contains no elements
+» Stack Trace:	   at System.Linq.Enumerable.Max(IEnumerable`1 source)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\Project\2026\03.RTCVision\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2898
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\Project\2026\03.RTCVision\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1081
+2026-02-25 08:58:10.6742 
+» Message:	Sequence contains no elements
+» Stack Trace:	   at System.Linq.Enumerable.Max(IEnumerable`1 source)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\Project\2026\03.RTCVision\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2898
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\Project\2026\03.RTCVision\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1081
+2026-02-25 08:58:23.5015 
+» Message:	Sequence contains no elements
+» Stack Trace:	   at System.Linq.Enumerable.Max(IEnumerable`1 source)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\Project\2026\03.RTCVision\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2898
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\Project\2026\03.RTCVision\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1081
+2026-02-25 08:58:27.1903 
+» Message:	Sequence contains no elements
+» Stack Trace:	   at System.Linq.Enumerable.Max(IEnumerable`1 source)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\Project\2026\03.RTCVision\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2898
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\Project\2026\03.RTCVision\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1081
+2026-02-25 08:58:27.9124 
+» Message:	Sequence contains no elements
+» Stack Trace:	   at System.Linq.Enumerable.Max(IEnumerable`1 source)
+   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\Project\2026\03.RTCVision\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2898
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\Project\2026\03.RTCVision\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1081
+2026-02-25 14:41:06.7909 
+» Message:	No connection could be made because the target machine actively refused it 127.0.0.1:2002
+» Stack Trace:	   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at RTC_Vision_Lite.Classes.CSocketClient.ConnectCallback(IAsyncResult AR) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Connect\CSocketClient.cs:line 225
+2026-02-25 14:41:10.8482 
+» Message:	No connection could be made because the target machine actively refused it 127.0.0.1:2002
+» Stack Trace:	   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at RTC_Vision_Lite.Classes.CSocketClient.ConnectCallback(IAsyncResult AR) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Connect\CSocketClient.cs:line 225
+2026-02-25 14:41:14.8724 
+» Message:	No connection could be made because the target machine actively refused it 127.0.0.1:2002
+» Stack Trace:	   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at RTC_Vision_Lite.Classes.CSocketClient.ConnectCallback(IAsyncResult AR) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Connect\CSocketClient.cs:line 225
+2026-02-25 14:41:18.9123 
+» Message:	No connection could be made because the target machine actively refused it 127.0.0.1:2002
+» Stack Trace:	   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at RTC_Vision_Lite.Classes.CSocketClient.ConnectCallback(IAsyncResult AR) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Connect\CSocketClient.cs:line 225

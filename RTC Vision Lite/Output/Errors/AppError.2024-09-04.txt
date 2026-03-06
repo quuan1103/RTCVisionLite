@@ -1,0 +1,694 @@
+2024-09-04 08:38:59.5600 
+? Message:	OpenCV: (depth == CV_8U || depth == CV_32F) && type == _templ.type() && _img.dims() <= 2
+? Stack Trace:	   at Emgu.CV.CvInvoke.CvErrorHandler(Int32 status, IntPtr funcName, IntPtr errMsg, IntPtr fileName, Int32 line, IntPtr userData)
+   at Emgu.CV.CvInvoke.cveMatchTemplate(IntPtr image, IntPtr templ, IntPtr result, TemplateMatchingType method, IntPtr mask)
+   at Emgu.CV.CvInvoke.MatchTemplate(IInputArray image, IInputArray templ, IOutputArray result, TemplateMatchingType method, IInputArray mask)
+   at NewPattern.NewPattern.Run() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\8. NewPattern\NewPattern\Class1.cs:line 589
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2707
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1002
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 933
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 900
+2024-09-04 08:39:23.7688 
+? Message:	OpenCV: (depth == CV_8U || depth == CV_32F) && type == _templ.type() && _img.dims() <= 2
+? Stack Trace:	   at Emgu.CV.CvInvoke.CvErrorHandler(Int32 status, IntPtr funcName, IntPtr errMsg, IntPtr fileName, Int32 line, IntPtr userData)
+   at Emgu.CV.CvInvoke.cveMatchTemplate(IntPtr image, IntPtr templ, IntPtr result, TemplateMatchingType method, IntPtr mask)
+   at Emgu.CV.CvInvoke.MatchTemplate(IInputArray image, IInputArray templ, IOutputArray result, TemplateMatchingType method, IInputArray mask)
+   at NewPattern.NewPattern.Run() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\8. NewPattern\NewPattern\Class1.cs:line 589
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2707
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1002
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 933
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 900
+2024-09-04 08:39:47.5248 
+? Message:	OpenCV: (depth == CV_8U || depth == CV_32F) && type == _templ.type() && _img.dims() <= 2
+? Stack Trace:	   at Emgu.CV.CvInvoke.CvErrorHandler(Int32 status, IntPtr funcName, IntPtr errMsg, IntPtr fileName, Int32 line, IntPtr userData)
+   at Emgu.CV.CvInvoke.cveMatchTemplate(IntPtr image, IntPtr templ, IntPtr result, TemplateMatchingType method, IntPtr mask)
+   at Emgu.CV.CvInvoke.MatchTemplate(IInputArray image, IInputArray templ, IOutputArray result, TemplateMatchingType method, IInputArray mask)
+   at NewPattern.NewPattern.Run() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\8. NewPattern\NewPattern\Class1.cs:line 589
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2707
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1002
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 933
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 900
+2024-09-04 08:42:11.8151 
+? Message:	OpenCV: (depth == CV_8U || depth == CV_32F) && type == _templ.type() && _img.dims() <= 2
+? Stack Trace:	   at Emgu.CV.CvInvoke.CvErrorHandler(Int32 status, IntPtr funcName, IntPtr errMsg, IntPtr fileName, Int32 line, IntPtr userData)
+   at Emgu.CV.CvInvoke.cveMatchTemplate(IntPtr image, IntPtr templ, IntPtr result, TemplateMatchingType method, IntPtr mask)
+   at Emgu.CV.CvInvoke.MatchTemplate(IInputArray image, IInputArray templ, IOutputArray result, TemplateMatchingType method, IInputArray mask)
+   at NewPattern.NewPattern.Run() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\8. NewPattern\NewPattern\Class1.cs:line 589
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2707
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1002
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 933
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 900
+2024-09-04 10:09:27.6796 
+? Message:	External component has thrown an exception.
+? Stack Trace:	   at Emgu.CV.Util.VectorOfVectorOfPoint.VectorOfVectorOfPointGetItemPtr(IntPtr vec, Int32 index, IntPtr& element)
+   at Emgu.CV.Util.VectorOfVectorOfPoint.get_Item(Int32 index)
+   at NewPattern.NewPattern.TrainTemplate(Mat template) in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\8. NewPattern\NewPattern\Class1.cs:line 1312
+   at NewPattern.NewPattern.Train() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\8. NewPattern\NewPattern\Class1.cs:line 457
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2691
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1002
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 933
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 900
+2024-09-04 10:09:34.1207 
+? Message:	A generic error occurred in GDI+.
+? Stack Trace:	   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at System.Drawing.Image.Save(String filename, ImageFormat format)
+   at System.Drawing.Image.Save(String filename)
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2656
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1002
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 933
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 900
+2024-09-04 10:09:35.7552 
+? Message:	A generic error occurred in GDI+.
+? Stack Trace:	   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at System.Drawing.Image.Save(String filename, ImageFormat format)
+   at System.Drawing.Image.Save(String filename)
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2656
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1002
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 933
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 900
+2024-09-04 10:09:38.1060 
+? Message:	A generic error occurred in GDI+.
+? Stack Trace:	   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at System.Drawing.Image.Save(String filename, ImageFormat format)
+   at System.Drawing.Image.Save(String filename)
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2656
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1002
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 933
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 900
+2024-09-04 10:09:39.1155 
+? Message:	A generic error occurred in GDI+.
+? Stack Trace:	   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at System.Drawing.Image.Save(String filename, ImageFormat format)
+   at System.Drawing.Image.Save(String filename)
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2656
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1002
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 933
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 900
+2024-09-04 10:09:51.3856 
+? Message:	A generic error occurred in GDI+.
+? Stack Trace:	   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at System.Drawing.Image.Save(String filename, ImageFormat format)
+   at System.Drawing.Image.Save(String filename)
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2656
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1002
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 933
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 900
+2024-09-04 10:09:52.0007 
+? Message:	A generic error occurred in GDI+.
+? Stack Trace:	   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at System.Drawing.Image.Save(String filename, ImageFormat format)
+   at System.Drawing.Image.Save(String filename)
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2656
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1002
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 933
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 900
+2024-09-04 10:09:52.2701 
+? Message:	A generic error occurred in GDI+.
+? Stack Trace:	   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at System.Drawing.Image.Save(String filename, ImageFormat format)
+   at System.Drawing.Image.Save(String filename)
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2656
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1002
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 933
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 900
+2024-09-04 10:09:52.9754 
+? Message:	A generic error occurred in GDI+.
+? Stack Trace:	   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at System.Drawing.Image.Save(String filename, ImageFormat format)
+   at System.Drawing.Image.Save(String filename)
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2656
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1002
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 933
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 900
+2024-09-04 10:10:10.1817 
+? Message:	A generic error occurred in GDI+.
+? Stack Trace:	   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at System.Drawing.Image.Save(String filename, ImageFormat format)
+   at System.Drawing.Image.Save(String filename)
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2656
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1002
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 933
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 900
+2024-09-04 10:19:22.7491 
+? Message:	A generic error occurred in GDI+.
+? Stack Trace:	   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at System.Drawing.Image.Save(String filename, ImageFormat format)
+   at System.Drawing.Image.Save(String filename)
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2656
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1002
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 933
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 900
+2024-09-04 10:19:24.5072 
+? Message:	A generic error occurred in GDI+.
+? Stack Trace:	   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at System.Drawing.Image.Save(String filename, ImageFormat format)
+   at System.Drawing.Image.Save(String filename)
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2656
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1002
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 933
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 900
+2024-09-04 10:19:25.7148 
+? Message:	A generic error occurred in GDI+.
+? Stack Trace:	   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at System.Drawing.Image.Save(String filename, ImageFormat format)
+   at System.Drawing.Image.Save(String filename)
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2656
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1002
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 933
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 900
+2024-09-04 10:19:28.0351 
+? Message:	A generic error occurred in GDI+.
+? Stack Trace:	   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at System.Drawing.Image.Save(String filename, ImageFormat format)
+   at System.Drawing.Image.Save(String filename)
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2656
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1002
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 933
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 900
+2024-09-04 10:19:29.9048 
+? Message:	A generic error occurred in GDI+.
+? Stack Trace:	   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at System.Drawing.Image.Save(String filename, ImageFormat format)
+   at System.Drawing.Image.Save(String filename)
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2656
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1002
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 933
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 900
+2024-09-04 10:19:31.8656 
+? Message:	A generic error occurred in GDI+.
+? Stack Trace:	   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at System.Drawing.Image.Save(String filename, ImageFormat format)
+   at System.Drawing.Image.Save(String filename)
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2656
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1002
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 933
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 900
+2024-09-04 10:19:32.6596 
+? Message:	A generic error occurred in GDI+.
+? Stack Trace:	   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at System.Drawing.Image.Save(String filename, ImageFormat format)
+   at System.Drawing.Image.Save(String filename)
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2656
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1002
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 933
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 900
+2024-09-04 10:19:33.5461 
+? Message:	A generic error occurred in GDI+.
+? Stack Trace:	   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at System.Drawing.Image.Save(String filename, ImageFormat format)
+   at System.Drawing.Image.Save(String filename)
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2656
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1002
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 933
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 900
+2024-09-04 10:19:34.6390 
+? Message:	A generic error occurred in GDI+.
+? Stack Trace:	   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at System.Drawing.Image.Save(String filename, ImageFormat format)
+   at System.Drawing.Image.Save(String filename)
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2656
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1002
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 933
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 900
+2024-09-04 10:19:34.8150 
+? Message:	A generic error occurred in GDI+.
+? Stack Trace:	   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at System.Drawing.Image.Save(String filename, ImageFormat format)
+   at System.Drawing.Image.Save(String filename)
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2656
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1002
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 933
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 900
+2024-09-04 10:19:35.0617 
+? Message:	A generic error occurred in GDI+.
+? Stack Trace:	   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at System.Drawing.Image.Save(String filename, ImageFormat format)
+   at System.Drawing.Image.Save(String filename)
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2656
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1002
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 933
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 900
+2024-09-04 10:19:37.2072 
+? Message:	A generic error occurred in GDI+.
+? Stack Trace:	   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at System.Drawing.Image.Save(String filename, ImageFormat format)
+   at System.Drawing.Image.Save(String filename)
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2656
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1002
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 933
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 900
+2024-09-04 10:19:38.9609 
+? Message:	A generic error occurred in GDI+.
+? Stack Trace:	   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at System.Drawing.Image.Save(String filename, ImageFormat format)
+   at System.Drawing.Image.Save(String filename)
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2656
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1002
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 933
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 900
+2024-09-04 10:19:40.0640 
+? Message:	A generic error occurred in GDI+.
+? Stack Trace:	   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at System.Drawing.Image.Save(String filename, ImageFormat format)
+   at System.Drawing.Image.Save(String filename)
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2656
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1002
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 933
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 900
+2024-09-04 10:19:58.4776 
+? Message:	A generic error occurred in GDI+.
+? Stack Trace:	   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at System.Drawing.Image.Save(String filename, ImageFormat format)
+   at System.Drawing.Image.Save(String filename)
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2656
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1002
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 933
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 900
+2024-09-04 10:19:59.2691 
+? Message:	A generic error occurred in GDI+.
+? Stack Trace:	   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at System.Drawing.Image.Save(String filename, ImageFormat format)
+   at System.Drawing.Image.Save(String filename)
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2656
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1002
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 933
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 900
+2024-09-04 10:20:01.7388 
+? Message:	A generic error occurred in GDI+.
+? Stack Trace:	   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at System.Drawing.Image.Save(String filename, ImageFormat format)
+   at System.Drawing.Image.Save(String filename)
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2656
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1002
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 933
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 900
+2024-09-04 10:20:02.3014 
+? Message:	A generic error occurred in GDI+.
+? Stack Trace:	   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at System.Drawing.Image.Save(String filename, ImageFormat format)
+   at System.Drawing.Image.Save(String filename)
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2656
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1002
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 933
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 900
+2024-09-04 10:20:03.0800 
+? Message:	A generic error occurred in GDI+.
+? Stack Trace:	   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at System.Drawing.Image.Save(String filename, ImageFormat format)
+   at System.Drawing.Image.Save(String filename)
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2656
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1002
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 933
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 900
+2024-09-04 10:20:04.6660 
+? Message:	A generic error occurred in GDI+.
+? Stack Trace:	   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at System.Drawing.Image.Save(String filename, ImageFormat format)
+   at System.Drawing.Image.Save(String filename)
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2656
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1002
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 933
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 900
+2024-09-04 10:20:06.4491 
+? Message:	A generic error occurred in GDI+.
+? Stack Trace:	   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at System.Drawing.Image.Save(String filename, ImageFormat format)
+   at System.Drawing.Image.Save(String filename)
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2656
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1002
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 933
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 900
+2024-09-04 10:20:07.2796 
+? Message:	A generic error occurred in GDI+.
+? Stack Trace:	   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at System.Drawing.Image.Save(String filename, ImageFormat format)
+   at System.Drawing.Image.Save(String filename)
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2656
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1002
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 933
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 900
+2024-09-04 10:20:08.0069 
+? Message:	A generic error occurred in GDI+.
+? Stack Trace:	   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at System.Drawing.Image.Save(String filename, ImageFormat format)
+   at System.Drawing.Image.Save(String filename)
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2656
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1002
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 933
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 900
+2024-09-04 10:20:08.3947 
+? Message:	A generic error occurred in GDI+.
+? Stack Trace:	   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at System.Drawing.Image.Save(String filename, ImageFormat format)
+   at System.Drawing.Image.Save(String filename)
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2656
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1002
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 933
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 900
+2024-09-04 10:20:08.5655 
+? Message:	A generic error occurred in GDI+.
+? Stack Trace:	   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at System.Drawing.Image.Save(String filename, ImageFormat format)
+   at System.Drawing.Image.Save(String filename)
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2656
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1002
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 933
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 900
+2024-09-04 10:20:08.7156 
+? Message:	A generic error occurred in GDI+.
+? Stack Trace:	   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at System.Drawing.Image.Save(String filename, ImageFormat format)
+   at System.Drawing.Image.Save(String filename)
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2656
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1002
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 933
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 900
+2024-09-04 10:20:09.8467 
+? Message:	A generic error occurred in GDI+.
+? Stack Trace:	   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at System.Drawing.Image.Save(String filename, ImageFormat format)
+   at System.Drawing.Image.Save(String filename)
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2656
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1002
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 933
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 900
+2024-09-04 10:20:10.8890 
+? Message:	A generic error occurred in GDI+.
+? Stack Trace:	   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at System.Drawing.Image.Save(String filename, ImageFormat format)
+   at System.Drawing.Image.Save(String filename)
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2656
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1002
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 933
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 900
+2024-09-04 10:20:11.2227 
+? Message:	A generic error occurred in GDI+.
+? Stack Trace:	   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at System.Drawing.Image.Save(String filename, ImageFormat format)
+   at System.Drawing.Image.Save(String filename)
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2656
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1002
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 933
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 900
+2024-09-04 10:20:11.4186 
+? Message:	A generic error occurred in GDI+.
+? Stack Trace:	   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at System.Drawing.Image.Save(String filename, ImageFormat format)
+   at System.Drawing.Image.Save(String filename)
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2656
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1002
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 933
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 900
+2024-09-04 10:20:11.6577 
+? Message:	A generic error occurred in GDI+.
+? Stack Trace:	   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at System.Drawing.Image.Save(String filename, ImageFormat format)
+   at System.Drawing.Image.Save(String filename)
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2656
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1002
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 933
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 900
+2024-09-04 10:20:26.0068 
+? Message:	A generic error occurred in GDI+.
+? Stack Trace:	   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at System.Drawing.Image.Save(String filename, ImageFormat format)
+   at System.Drawing.Image.Save(String filename)
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2656
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1002
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 933
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 900
+2024-09-04 10:20:27.1784 
+? Message:	A generic error occurred in GDI+.
+? Stack Trace:	   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at System.Drawing.Image.Save(String filename, ImageFormat format)
+   at System.Drawing.Image.Save(String filename)
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2656
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1002
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 933
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 900
+2024-09-04 10:20:28.1087 
+? Message:	A generic error occurred in GDI+.
+? Stack Trace:	   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at System.Drawing.Image.Save(String filename, ImageFormat format)
+   at System.Drawing.Image.Save(String filename)
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2656
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1002
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 933
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 900
+2024-09-04 10:20:29.0909 
+? Message:	A generic error occurred in GDI+.
+? Stack Trace:	   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at System.Drawing.Image.Save(String filename, ImageFormat format)
+   at System.Drawing.Image.Save(String filename)
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2656
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1002
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 933
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 900
+2024-09-04 10:31:59.2727 
+? Message:	A generic error occurred in GDI+.
+? Stack Trace:	   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at System.Drawing.Image.Save(String filename, ImageFormat format)
+   at System.Drawing.Image.Save(String filename)
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2656
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1002
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 933
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 900
+2024-09-04 10:32:00.2160 
+? Message:	A generic error occurred in GDI+.
+? Stack Trace:	   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at System.Drawing.Image.Save(String filename, ImageFormat format)
+   at System.Drawing.Image.Save(String filename)
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2656
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1002
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 933
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 900
+2024-09-04 10:32:02.6469 
+? Message:	A generic error occurred in GDI+.
+? Stack Trace:	   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at System.Drawing.Image.Save(String filename, ImageFormat format)
+   at System.Drawing.Image.Save(String filename)
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2656
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1002
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 933
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 900
+2024-09-04 10:32:03.1488 
+? Message:	A generic error occurred in GDI+.
+? Stack Trace:	   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at System.Drawing.Image.Save(String filename, ImageFormat format)
+   at System.Drawing.Image.Save(String filename)
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2656
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1002
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 933
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 900
+2024-09-04 10:32:04.1671 
+? Message:	A generic error occurred in GDI+.
+? Stack Trace:	   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at System.Drawing.Image.Save(String filename, ImageFormat format)
+   at System.Drawing.Image.Save(String filename)
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2656
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1002
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 933
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 900
+2024-09-04 10:32:04.3808 
+? Message:	A generic error occurred in GDI+.
+? Stack Trace:	   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at System.Drawing.Image.Save(String filename, ImageFormat format)
+   at System.Drawing.Image.Save(String filename)
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2656
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1002
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 933
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 900
+2024-09-04 10:32:09.2410 
+? Message:	A generic error occurred in GDI+.
+? Stack Trace:	   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at System.Drawing.Image.Save(String filename, ImageFormat format)
+   at System.Drawing.Image.Save(String filename)
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2656
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1002
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 933
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 900
+2024-09-04 10:32:09.7155 
+? Message:	A generic error occurred in GDI+.
+? Stack Trace:	   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at System.Drawing.Image.Save(String filename, ImageFormat format)
+   at System.Drawing.Image.Save(String filename)
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2656
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1002
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 933
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 900
+2024-09-04 10:32:09.8834 
+? Message:	A generic error occurred in GDI+.
+? Stack Trace:	   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at System.Drawing.Image.Save(String filename, ImageFormat format)
+   at System.Drawing.Image.Save(String filename)
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2656
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1002
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 933
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 900
+2024-09-04 10:32:10.0549 
+? Message:	A generic error occurred in GDI+.
+? Stack Trace:	   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at System.Drawing.Image.Save(String filename, ImageFormat format)
+   at System.Drawing.Image.Save(String filename)
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2656
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1002
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 933
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 900
+2024-09-04 10:32:10.2235 
+? Message:	A generic error occurred in GDI+.
+? Stack Trace:	   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at System.Drawing.Image.Save(String filename, ImageFormat format)
+   at System.Drawing.Image.Save(String filename)
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2656
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1002
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 933
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 900
+2024-09-04 10:32:10.3899 
+? Message:	A generic error occurred in GDI+.
+? Stack Trace:	   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at System.Drawing.Image.Save(String filename, ImageFormat format)
+   at System.Drawing.Image.Save(String filename)
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2656
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1002
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 933
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 900
+2024-09-04 10:48:02.0490 
+? Message:	A generic error occurred in GDI+.
+? Stack Trace:	   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at System.Drawing.Image.Save(String filename, ImageFormat format)
+   at System.Drawing.Image.Save(String filename)
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2656
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1002
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 933
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 900
+2024-09-04 10:54:23.7454 
+? Message:	The process cannot access the file 'E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\Output\Projects\t1\Pattern.bmp' because it is being used by another process.
+? Stack Trace:	   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalDelete(String path, Boolean checkHost)
+   at System.IO.File.Delete(String path)
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2659
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1003
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 934
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 901
+2024-09-04 10:54:24.3930 
+? Message:	The process cannot access the file 'E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\Output\Projects\t1\Pattern.bmp' because it is being used by another process.
+? Stack Trace:	   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalDelete(String path, Boolean checkHost)
+   at System.IO.File.Delete(String path)
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2659
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1003
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 934
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 901
+2024-09-04 10:54:25.6958 
+? Message:	The process cannot access the file 'E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\Output\Projects\t1\Pattern.bmp' because it is being used by another process.
+? Stack Trace:	   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalDelete(String path, Boolean checkHost)
+   at System.IO.File.Delete(String path)
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2659
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1003
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 934
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 901
+2024-09-04 10:54:26.4220 
+? Message:	The process cannot access the file 'E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\Output\Projects\t1\Pattern.bmp' because it is being used by another process.
+? Stack Trace:	   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalDelete(String path, Boolean checkHost)
+   at System.IO.File.Delete(String path)
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2659
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1003
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 934
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 901
+2024-09-04 15:55:59.3048 
+? Message:	A generic error occurred in GDI+.
+? Stack Trace:	   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at System.Drawing.Image.Save(String filename, ImageFormat format)
+   at System.Drawing.Image.Save(String filename)
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2653
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1003
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 934
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 901
+2024-09-04 15:55:59.9787 
+? Message:	A generic error occurred in GDI+.
+? Stack Trace:	   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at System.Drawing.Image.Save(String filename, ImageFormat format)
+   at System.Drawing.Image.Save(String filename)
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2653
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1003
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 934
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 901
+2024-09-04 15:56:00.6099 
+? Message:	A generic error occurred in GDI+.
+? Stack Trace:	   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at System.Drawing.Image.Save(String filename, ImageFormat format)
+   at System.Drawing.Image.Save(String filename)
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2653
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1003
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 934
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 901
+2024-09-04 15:56:00.7890 
+? Message:	A generic error occurred in GDI+.
+? Stack Trace:	   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at System.Drawing.Image.Save(String filename, ImageFormat format)
+   at System.Drawing.Image.Save(String filename)
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2653
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1003
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 934
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 901
+2024-09-04 15:56:00.9711 
+? Message:	A generic error occurred in GDI+.
+? Stack Trace:	   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at System.Drawing.Image.Save(String filename, ImageFormat format)
+   at System.Drawing.Image.Save(String filename)
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2653
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1003
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 934
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 901
+2024-09-04 15:56:03.3782 
+? Message:	A generic error occurred in GDI+.
+? Stack Trace:	   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at System.Drawing.Image.Save(String filename, ImageFormat format)
+   at System.Drawing.Image.Save(String filename)
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2653
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1003
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 934
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 901
+2024-09-04 15:56:03.9056 
+? Message:	A generic error occurred in GDI+.
+? Stack Trace:	   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at System.Drawing.Image.Save(String filename, ImageFormat format)
+   at System.Drawing.Image.Save(String filename)
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2653
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1003
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 934
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 901
+2024-09-04 15:56:04.3702 
+? Message:	A generic error occurred in GDI+.
+? Stack Trace:	   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at System.Drawing.Image.Save(String filename, ImageFormat format)
+   at System.Drawing.Image.Save(String filename)
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2653
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1003
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 934
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 901
+2024-09-04 15:56:06.1151 
+? Message:	A generic error occurred in GDI+.
+? Stack Trace:	   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at System.Drawing.Image.Save(String filename, ImageFormat format)
+   at System.Drawing.Image.Save(String filename)
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2653
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1003
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 934
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 901
+2024-09-04 16:19:40.9226 
+? Message:	Object reference not set to an instance of an object.
+? Stack Trace:	   at System.Drawing.Bitmap..ctor(Image original)
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1910
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 988
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 934
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 901
+2024-09-04 16:19:53.0867 
+? Message:	Object reference not set to an instance of an object.
+? Stack Trace:	   at System.Drawing.Bitmap..ctor(Image original)
+   at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1910
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 988
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL() in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 934
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in E:\RTC\RTCVision Lite_26082024\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 901

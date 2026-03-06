@@ -1,0 +1,2945 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{747E4476-583E-433B-A81E-E8605A018089}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>RTC_Vision_Lite</RootNamespace>
+    <AssemblyName>RTC Vision Lite</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <TargetFrameworkProfile />
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Output\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>Output\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>RtcIcon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AffineImage, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Output\AffineImage.dll</HintPath>
+    </Reference>
+    <Reference Include="Alignment">
+      <HintPath>..\..\RTCVison_Lite_DangVersion\RTCVison_Lite\Tạo dll\12. Alignment\Alignment\obj\Debug\Alignment.dll</HintPath>
+    </Reference>
+    <Reference Include="Aspose.BarCode, Version=25.1.0.0, Culture=neutral, PublicKeyToken=716fcc553a201e56, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Output\Aspose.BarCode.dll</HintPath>
+    </Reference>
+    <Reference Include="Basler.Pylon, Version=1.2.0.0, Culture=neutral, PublicKeyToken=e389355f398382ab, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Output\Basler.Pylon.dll</HintPath>
+    </Reference>
+    <Reference Include="CodeReader, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Output\CodeReader.dll</HintPath>
+    </Reference>
+    <Reference Include="CommonTools, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\CommonTools.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Data.Desktop.v24.2, Version=24.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Data.v24.2, Version=24.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Drawing.v24.2, Version=24.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Printing.v24.2.Core, Version=24.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v24.2, Version=24.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="Emgu.CV">
+      <HintPath>..\14. Blob Filter\Blob Filter\bin\Debug\Emgu.CV.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.ActUtlType64Lib">
+      <HintPath>..\..\RTCVision Lite_Coding\Output\Interop.ActUtlType64Lib.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="LIB_MCProtocol, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Output\LIB_MCProtocol.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.QualityTools.Testing.Fakes, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="MVSDK_Net">
+      <HintPath>..\RTCDahuaSdk\MVSDK_Net.dll</HintPath>
+    </Reference>
+    <Reference Include="NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Output\NLog.dll</HintPath>
+    </Reference>
+    <Reference Include="NLog.Extensions.Logging">
+      <HintPath>..\..\..\3. Document\0. RTCVision\Output\NLog.Extensions.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="NLog.Windows.Forms">
+      <HintPath>..\..\..\3. Document\0. RTCVision\Output\NLog.Windows.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="RTCBaseTypes, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Output\RTCBaseTypes.dll</HintPath>
+    </Reference>
+    <Reference Include="RTCBaslerSdk">
+      <HintPath>..\RTCBaslerSdk (1)\bin\Debug\RTCBaslerSdk.dll</HintPath>
+    </Reference>
+    <Reference Include="RTCLicense">
+      <HintPath>..\..\..\3. Document\0. RTCVision\Output\RTCLicense.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Runtime.Remoting" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="ThridLibray, Version=1.0.0.31445, Culture=neutral, PublicKeyToken=407bb547be8622a9" />
+    <Reference Include="ThridLibray.1.0.0.31445.Fakes">
+      <HintPath>FakesAssemblies\ThridLibray.1.0.0.31445.Fakes.dll</HintPath>
+    </Reference>
+    <Reference Include="UIAutomationClient" />
+    <Reference Include="UIAutomationProvider" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="WindowsFormsIntegration" />
+    <Reference Include="WindowShow, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\DCWindow\WindowShow.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="1. Classes\Base\Action\aActionType.SystemInfo.cs" />
+    <Compile Include="1. Classes\Base\Action\cActionType.BranchFuctions.cs" />
+    <Compile Include="1. Classes\Base\Action\cActionType.ChangeJob.cs" />
+    <Compile Include="1. Classes\Base\Action\cActionType.ClearWindows.cs" />
+    <Compile Include="1. Classes\Base\Action\cActionType.CounterLoopFunction.cs" />
+    <Compile Include="1. Classes\Base\Action\cActionType.CreateViewInfo.cs" />
+    <Compile Include="1. Classes\Base\Action\cActionType.cs" />
+    <Compile Include="1. Classes\Base\Action\cActionType.CSTLightFunctions.cs" />
+    <Compile Include="1. Classes\Base\Action\cActionType.CycleTime.cs" />
+    <Compile Include="1. Classes\Base\Action\cActionType.DataInstance.cs" />
+    <Compile Include="1. Classes\Base\Action\cActionType.DataSet.cs" />
+    <Compile Include="1. Classes\Base\Action\cActionType.DetectFileStatus.cs" />
+    <Compile Include="1. Classes\Base\Action\cActionType.DialogMessage.cs" />
+    <Compile Include="1. Classes\Base\Action\cActionType.HookKeyboard.cs" />
+    <Compile Include="1. Classes\Base\Action\cActionType.IOControllerFunctions.cs" />
+    <Compile Include="1. Classes\Base\Action\cActionType.LinkValue.cs" />
+    <Compile Include="1. Classes\Base\Action\cActionType.LiveCam.cs" />
+    <Compile Include="1. Classes\Base\Action\cActionType.LoadConfigFunction.cs" />
+    <Compile Include="1. Classes\Base\Action\cActionType.LoadImageFunction.cs" />
+    <Compile Include="1. Classes\Base\Action\cActionType.MainActions.cs" />
+    <Compile Include="1. Classes\Base\Action\cActionType.MXComponetFunction.cs" />
+    <Compile Include="1. Classes\Base\Action\cActionType.OkNgCounter.cs" />
+    <Compile Include="1. Classes\Base\Action\cActionType.PassFail.cs" />
+    <Compile Include="1. Classes\Base\Action\cActionType.POCIOControllerFunctions.cs" />
+    <Compile Include="1. Classes\Base\Action\cActionType.Properties.cs" />
+    <Compile Include="1. Classes\Base\Action\cActionType.Return.cs" />
+    <Compile Include="1. Classes\Base\Action\cActionType.RunAffineImage.cs" />
+    <Compile Include="1. Classes\Base\Action\cActionType.RunCommand.cs" />
+    <Compile Include="1. Classes\Base\Action\cActionType.RunImageFilter.cs" />
+    <Compile Include="1. Classes\Base\Action\cActionType.RunProgram.cs" />
+    <Compile Include="1. Classes\Base\Action\cActionType.RunReset.cs" />
+    <Compile Include="1. Classes\Base\Action\cActionType.SaveConfigFunctions.cs" />
+    <Compile Include="1. Classes\Base\Action\cActionType.SaveExcelFunction.cs" />
+    <Compile Include="1. Classes\Base\Action\cActionType.SaveCsvFunction.cs" />
+    <Compile Include="1. Classes\Base\Action\cActionType.SaveObjectFunctions.cs" />
+    <Compile Include="1. Classes\Base\Action\cActionType.Script.cs" />
+    <Compile Include="1. Classes\Base\Action\cActionType.SendAlarmMessage.cs" />
+    <Compile Include="1. Classes\Base\Action\cActionType.SetupPropertyFunctions.cs" />
+    <Compile Include="1. Classes\Base\Action\cActionType.SLMPFunctions.cs" />
+    <Compile Include="1. Classes\Base\Action\cActionType.SaveImage.cs" />
+    <Compile Include="1. Classes\Base\Action\cActionType.StopLiveCam.cs" />
+    <Compile Include="1. Classes\Base\Action\cActionType.StringBuilderFunction.cs" />
+    <Compile Include="1. Classes\Base\Action\cActionType.TCPIPFunctions.cs" />
+    <Compile Include="1. Classes\Base\Action\cActionType.ViewResult.cs" />
+    <Compile Include="1. Classes\Base\Action\cBaseTypes.cs" />
+    <Compile Include="1. Classes\Base\Action\cCameraSettings.cs" />
+    <Compile Include="1. Classes\Base\Action\cColumnProperty.cs" />
+    <Compile Include="1. Classes\Base\Action\cComputerSettings.cs" />
+    <Compile Include="1. Classes\Base\Action\cImage.cs" />
+    <Compile Include="1. Classes\Base\Action\cImageFilterProperty.cs" />
+    <Compile Include="1. Classes\Base\Action\cInterfaceCamera.cs" />
+    <Compile Include="1. Classes\Base\Action\cLinkPassFail.cs" />
+    <Compile Include="1. Classes\Base\Action\cLinkProperty.cs" />
+    <Compile Include="1. Classes\Base\Action\cSourceImageSettings.cs" />
+    <Compile Include="1. Classes\Base\cCAMTypes.cs" />
+    <Compile Include="1. Classes\Base\cDelegateEvents.cs" />
+    <Compile Include="1. Classes\Base\cDrawingTypes.cs" />
+    <Compile Include="1. Classes\Base\cEventArgsTypes.cs" />
+    <Compile Include="1. Classes\Base\cExpression.cs" />
+    <Compile Include="1. Classes\Base\cModel.cs" />
+    <Compile Include="1. Classes\Base\cOtherTypes.cs" />
+    <Compile Include="1. Classes\Base\cROIProperty.cs" />
+    <Compile Include="1. Classes\Base\GroupActions\cGroupActions.CamFunctions.cs" />
+    <Compile Include="1. Classes\Base\GroupActions\cGroupActions.CleanData.cs" />
+    <Compile Include="1. Classes\Base\GroupActions\cGroupActions.cs" />
+    <Compile Include="1. Classes\Base\GroupActions\cGroupActions.Properties.cs" />
+    <Compile Include="1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs" />
+    <Compile Include="1. Classes\Base\ProjectFunctions\cProjectFunctions.cs" />
+    <Compile Include="1. Classes\Base\ProjectFunctions\cProjectFunctions.OtherFunctions.cs" />
+    <Compile Include="1. Classes\Base\Project\cProject.Clone.cs" />
+    <Compile Include="1. Classes\Base\Project\cProject.cs" />
+    <Compile Include="1. Classes\cCommunicationType.cs" />
+    <Compile Include="1. Classes\Connect\cCOM.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="1. Classes\Connect\cCOMPLCMitsu.cs" />
+    <Compile Include="1. Classes\Connect\cFTP.cs" />
+    <Compile Include="1. Classes\Connect\cIOController.cs" />
+    <Compile Include="1. Classes\Connect\cModbusClient.cs" />
+    <Compile Include="1. Classes\Connect\cSLMPClient.cs" />
+    <Compile Include="1. Classes\Connect\CSocketClient.cs" />
+    <Compile Include="1. Classes\Connect\CSocketServer.cs" />
+    <Compile Include="1. Classes\Connect\CSTLightClient.cs" />
+    <Compile Include="1. Classes\Connect\CSTLightClientNew.cs" />
+    <Compile Include="1. Classes\Connect\cTCPIPServer.cs" />
+    <Compile Include="1. Classes\Connect\cTCPModbusClient_Ethernet.cs" />
+    <Compile Include="1. Classes\Connect\cUdp.cs" />
+    <Compile Include="1. Classes\Connect\ModbusClient.cs" />
+    <Compile Include="1. Classes\Connect\TCPIP.cs" />
+    <Compile Include="1. Classes\Connect\VisionBoxSDK\IOControlSDK3000.cs" />
+    <Compile Include="1. Classes\Connect\VisionBoxSDK\IOControlSDK3000X.cs" />
+    <Compile Include="1. Classes\Connect\VisionBoxSDK\IOControlSDK4000.cs" />
+    <Compile Include="1. Classes\Connect\VSTLight.cs" />
+    <Compile Include="1. Classes\Connect\WDT_DIO64.cs" />
+    <Compile Include="1. Classes\DataAndFiles\cData.CommonData.cs" />
+    <Compile Include="1. Classes\DataAndFiles\cData.DeepCopyData.cs" />
+    <Compile Include="1. Classes\DataAndFiles\cData.UserManager.cs" />
+    <Compile Include="1. Classes\DataAndFiles\cSaveOpenFiles.cs" />
+    <Compile Include="1. Classes\Global\Lib.cs" />
+    <Compile Include="1. Classes\NewSLMP\cSlmpCustom.cs" />
+    <Compile Include="1. Classes\NewSLMP\PLC3eClient.cs" />
+    <Compile Include="1. Classes\NewSLMP\PLC3eSupports.cs" />
+    <Compile Include="1. Classes\Others\cKeyboardHook.cs" />
+    <Compile Include="1. Classes\Others\UserActivityHook.cs" />
+    <Compile Include="1. Classes\Trigger\cTrigger.cs" />
+    <Compile Include="1. Classes\DataAndFiles\cData.GroupActionsData.cs" />
+    <Compile Include="1. Classes\DataAndFiles\cData.ProjectData.cs" />
+    <Compile Include="1. Classes\DataAndFiles\cSQLite.cs" />
+    <Compile Include="1. Classes\Global\cMessageBox.cs" />
+    <Compile Include="1. Classes\Global\cVariables.cs" />
+    <Compile Include="1. Classes\Global\GlobFuncs.cs" />
+    <Compile Include="1. Classes\License\cLicense.cs" />
+    <Compile Include="1. Classes\Trigger\cTrigger.Run.cs" />
+    <Compile Include="2. Forms\FrmActions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="2. Forms\FrmActions.Designer.cs">
+      <DependentUpon>FrmActions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="2. Forms\FrmASCIITable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="2. Forms\FrmASCIITable.Designer.cs">
+      <DependentUpon>FrmASCIITable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="2. Forms\FrmBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="2. Forms\FrmBase.Designer.cs">
+      <DependentUpon>FrmBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="2. Forms\FrmInputTextValue.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="2. Forms\FrmInputTextValue.Designer.cs">
+      <DependentUpon>FrmInputTextValue.cs</DependentUpon>
+    </Compile>
+    <Compile Include="2. Forms\FrmMessageBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="2. Forms\FrmMessageBox.Designer.cs">
+      <DependentUpon>FrmMessageBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="2. Forms\frmSetupPassed.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="2. Forms\frmSetupPassed.Designer.cs">
+      <DependentUpon>frmSetupPassed.cs</DependentUpon>
+    </Compile>
+    <Compile Include="2. Forms\FrmApplyActionToOtherCAMs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="2. Forms\FrmApplyActionToOtherCAMs.Designer.cs">
+      <DependentUpon>FrmApplyActionToOtherCAMs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="2. Forms\frmSplashScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="2. Forms\frmSplashScreen.Designer.cs">
+      <DependentUpon>frmSplashScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="2. Forms\FrmSplash\Splasher.cs" />
+    <Compile Include="2. Forms\FrmSplash\SplashForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="2. Forms\FrmSplash\SplashForm.Designer.cs">
+      <DependentUpon>SplashForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="2. Forms\FrmViewTextValue.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="2. Forms\FrmViewTextValue.Designer.cs">
+      <DependentUpon>FrmViewTextValue.cs</DependentUpon>
+    </Compile>
+    <Compile Include="2. Forms\frmWait.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="2. Forms\frmWait.Designer.cs">
+      <DependentUpon>frmWait.cs</DependentUpon>
+    </Compile>
+    <Compile Include="2. Forms\FrmWindowsChoosed.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="2. Forms\FrmWindowsChoosed.Designer.cs">
+      <DependentUpon>FrmWindowsChoosed.cs</DependentUpon>
+    </Compile>
+    <Compile Include="2. Forms\frmChooseActions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="2. Forms\frmChooseActions.Designer.cs">
+      <DependentUpon>frmChooseActions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="2. Forms\FrmHsmartWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="2. Forms\FrmHsmartWindow.designer.cs">
+      <DependentUpon>FrmHsmartWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="2. Forms\FrmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="2. Forms\FrmMain.Designer.cs">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="2. Forms\FrmProject.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="2. Forms\FrmProject.Designer.cs">
+      <DependentUpon>FrmProject.cs</DependentUpon>
+    </Compile>
+    <Compile Include="2. Forms\FrmProjectSaveAs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="2. Forms\FrmProjectSaveAs.Designer.cs">
+      <DependentUpon>FrmProjectSaveAs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="2. Forms\FrmProjectTemplates.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="2. Forms\FrmProjectTemplates.Designer.cs">
+      <DependentUpon>FrmProjectTemplates.cs</DependentUpon>
+    </Compile>
+    <Compile Include="2. Forms\FrmSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="2. Forms\FrmSettings.designer.cs">
+      <DependentUpon>FrmSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3. UserControls\Commons\MyLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\Commons\MyTreeList.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\Commons\ToggleButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\Commons\ucColorCombobox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\Commons\ucColorCombobox.Designer.cs">
+      <DependentUpon>ucColorCombobox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3. UserControls\Commons\ucFooterForm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\Commons\ucFooterForm.Designer.cs">
+      <DependentUpon>ucFooterForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3. UserControls\Commons\ucInputDelimiter.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\Commons\ucInputDelimiter.Designer.cs">
+      <DependentUpon>ucInputDelimiter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3. UserControls\Commons\ucInputDelimiterStringBulderItem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\Commons\ucInputDelimiterStringBulderItem.Designer.cs">
+      <DependentUpon>ucInputDelimiterStringBulderItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3. UserControls\Commons\ucFontInfo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\Commons\ucFontInfo.designer.cs">
+      <DependentUpon>ucFontInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3. UserControls\Commons\ucImageLink.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\Commons\ucImageLink.Designer.cs">
+      <DependentUpon>ucImageLink.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3. UserControls\Commons\ucLeadingText.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\Commons\ucLeadingText.Designer.cs">
+      <DependentUpon>ucLeadingText.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3. UserControls\Commons\ucLine.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\Commons\ucLine.designer.cs">
+      <DependentUpon>ucLine.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3. UserControls\Commons\ucLink.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\Commons\ucLink.Designer.cs">
+      <DependentUpon>ucLink.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3. UserControls\Commons\ucMultiLink.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\Commons\ucMultiLink.Designer.cs">
+      <DependentUpon>ucMultiLink.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3. UserControls\Commons\ucObjectLink.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\Commons\ucObjectLink.Designer.cs">
+      <DependentUpon>ucObjectLink.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3. UserControls\Commons\ucOrigin.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\Commons\ucOrigin.Designer.cs">
+      <DependentUpon>ucOrigin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3. UserControls\Commons\ucPictureEdit.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\Commons\ucPictureEdit.Designer.cs">
+      <DependentUpon>ucPictureEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3. UserControls\Commons\ucRangeMaxMin.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\Commons\ucRangeMaxMin.Designer.cs">
+      <DependentUpon>ucRangeMaxMin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3. UserControls\Commons\ucRangeMaxMinLimit.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\Commons\ucRangeMaxMinLimit.Designer.cs">
+      <DependentUpon>ucRangeMaxMinLimit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3. UserControls\Commons\ucTolerance.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\Commons\ucTolerance.designer.cs">
+      <DependentUpon>ucTolerance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3. UserControls\Commons\ucToolName.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\Commons\ucToolName.Designer.cs">
+      <DependentUpon>ucToolName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3. UserControls\Commons\ucTrallingText.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\Commons\ucTrallingText.Designer.cs">
+      <DependentUpon>ucTrallingText.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3. UserControls\Commons\ucPoint.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\Commons\ucPoint.Designer.cs">
+      <DependentUpon>ucPoint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3. UserControls\Communication\ucCommunication.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\Communication\ucCommunication.Designer.cs">
+      <DependentUpon>ucCommunication.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3. UserControls\Others\TestTree.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\Others\TreeList.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\Others\ucActionList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\Others\ucActionList.Designer.cs">
+      <DependentUpon>ucActionList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3. UserControls\Others\ucCAM.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\Others\ucCAM.Designer.cs">
+      <DependentUpon>ucCAM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3. UserControls\Others\ucCameraSettings.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\Others\ucCameraSettings.designer.cs">
+      <DependentUpon>ucCameraSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3. UserControls\Others\ucGroupCAMs.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\Others\ucGroupCAMs.Designer.cs">
+      <DependentUpon>ucGroupCAMs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3. UserControls\Others\ucProgramName.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\Others\ucProgramName.Designer.cs">
+      <DependentUpon>ucProgramName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3. UserControls\Others\ucProjectName.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\Others\ucProjectName.Designer.cs">
+      <DependentUpon>ucProjectName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3. UserControls\Others\ucTemplateTools.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\Others\ucTemplateTools.Designer.cs">
+      <DependentUpon>ucTemplateTools.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3. UserControls\StringBuilderItems\ucConfigureStringListInput.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\StringBuilderItems\ucConfigureStringListInput.Designer.cs">
+      <DependentUpon>ucConfigureStringListInput.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3. UserControls\StringBuilderItems\ucConfigureStringInput.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\StringBuilderItems\ucConfigureStringInput.Designer.cs">
+      <DependentUpon>ucConfigureStringInput.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3. UserControls\StringBuilderItems\ucConfigureBooleanListInput.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\StringBuilderItems\ucConfigureBooleanListInput.Designer.cs">
+      <DependentUpon>ucConfigureBooleanListInput.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3. UserControls\StringBuilderItems\ucConfigureBooleanInput.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\StringBuilderItems\ucConfigureBooleanInput.Designer.cs">
+      <DependentUpon>ucConfigureBooleanInput.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3. UserControls\StringBuilderItems\ucConfigurePointInput.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\StringBuilderItems\ucConfigurePointInput.Designer.cs">
+      <DependentUpon>ucConfigurePointInput.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3. UserControls\StringBuilderItems\ucConfigureOriginListInput.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\StringBuilderItems\ucConfigureOriginListInput.Designer.cs">
+      <DependentUpon>ucConfigureOriginListInput.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3. UserControls\StringBuilderItems\ucConfigureOriginInput.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\StringBuilderItems\ucConfigureOriginInput.Designer.cs">
+      <DependentUpon>ucConfigureOriginInput.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3. UserControls\StringBuilderItems\ucConfigureIntegerListInput.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\StringBuilderItems\ucConfigureIntegerListInput.Designer.cs">
+      <DependentUpon>ucConfigureIntegerListInput.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3. UserControls\StringBuilderItems\ucConfigureIntegerInput.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\StringBuilderItems\ucConfigureIntegerInput.Designer.cs">
+      <DependentUpon>ucConfigureIntegerInput.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3. UserControls\StringBuilderItems\ucConfigureDateTimeInput.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\StringBuilderItems\ucConfigureDateTimeInput.Designer.cs">
+      <DependentUpon>ucConfigureDateTimeInput.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3. UserControls\StringBuilderItems\ucConfigurePointListInput.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\StringBuilderItems\ucConfigurePointListInput.Designer.cs">
+      <DependentUpon>ucConfigurePointListInput.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3. UserControls\StringBuilderItems\ucConfigureRealInput .cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\StringBuilderItems\ucConfigureRealInput .Designer.cs">
+      <DependentUpon>ucConfigureRealInput .cs</DependentUpon>
+    </Compile>
+    <Compile Include="3. UserControls\StringBuilderItems\ucConfigureRealListInput.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\StringBuilderItems\ucConfigureRealListInput.Designer.cs">
+      <DependentUpon>ucConfigureRealListInput.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3. UserControls\StringBuilderItems\ucConfigureRectangleInput.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\StringBuilderItems\ucConfigureRectangleInput.Designer.cs">
+      <DependentUpon>ucConfigureRectangleInput.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3. UserControls\StringBuilderItems\ucConfigureRectangleListInput.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\StringBuilderItems\ucConfigureRectangleListInput.Designer.cs">
+      <DependentUpon>ucConfigureRectangleListInput.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3. UserControls\StringBuilderItems\ucStringBuilderItemProperty.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\StringBuilderItems\ucStringBuilderItemProperty.Designer.cs">
+      <DependentUpon>ucStringBuilderItemProperty.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3. UserControls\StringBuilderItems\ucConfigureInputBase.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\StringBuilderItems\ucConfigureInputBase.Designer.cs">
+      <DependentUpon>ucConfigureInputBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucAlignmentActionDetail.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucAlignmentActionDetail.Designer.cs">
+      <DependentUpon>ucAlignmentActionDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucBaseActionDetail.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucBaseActionDetail.Designer.cs">
+      <DependentUpon>ucBaseActionDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucAffineImageActionDetail.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucAffineImageActionDetail.Designer.cs">
+      <DependentUpon>ucAffineImageActionDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucCodeReaderActionDetail.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucCodeReaderActionDetail.Designer.cs">
+      <DependentUpon>ucCodeReaderActionDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucPOCIOControllerReadActionDetail.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucPOCIOControllerReadActionDetail.Designer.cs">
+      <DependentUpon>ucPOCIOControllerReadActionDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucPOCIOControllerWriteActionDetail.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucPOCIOControllerWriteActionDetail.Designer.cs">
+      <DependentUpon>ucPOCIOControllerWriteActionDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucIOControllerWriteActionDetail.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucIOControllerWriteActionDetail.Designer.cs">
+      <DependentUpon>ucIOControllerWriteActionDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucIOControllerReadActionDetail.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucIOControllerReadActionDetail.Designer.cs">
+      <DependentUpon>ucIOControllerReadActionDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucImageMathActionDetail.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucImageMathActionDetail.Designer.cs">
+      <DependentUpon>ucImageMathActionDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucCounterActionDetail.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucCounterActionDetail.Designer.cs">
+      <DependentUpon>ucCounterActionDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucDialogMessageActionDetail.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucDialogMessageActionDetail.Designer.cs">
+      <DependentUpon>ucDialogMessageActionDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucHookKeyboardActionDetail.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucHookKeyboardActionDetail.Designer.cs">
+      <DependentUpon>ucHookKeyboardActionDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucLiveCamActionDetail.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucLiveCamActionDetail.Designer.cs">
+      <DependentUpon>ucLiveCamActionDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucLoadConfigActionDetail.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucLoadConfigActionDetail.Designer.cs">
+      <DependentUpon>ucLoadConfigActionDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucOkNgCounterActionDetail.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucOkNgCounterActionDetail.Designer.cs">
+      <DependentUpon>ucOkNgCounterActionDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucSaveConfigActionDetail.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucSaveConfigActionDetail.Designer.cs">
+      <DependentUpon>ucSaveConfigActionDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucSaveObjectActionDetail.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucSaveObjectActionDetail.Designer.cs">
+      <DependentUpon>ucSaveObjectActionDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucSaveProjectActionDetail.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucSaveProjectActionDetail.Designer.cs">
+      <DependentUpon>ucSaveProjectActionDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucScriptActionDetail.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucScriptActionDetail.Designer.cs">
+      <DependentUpon>ucScriptActionDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucSendAlarmMessageActionDetail.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucSendAlarmMessageActionDetail.Designer.cs">
+      <DependentUpon>ucSendAlarmMessageActionDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucSplitImageActionDetail.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucSplitImageActionDetail.Designer.cs">
+      <DependentUpon>ucSplitImageActionDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucChangeJobActionDetail.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucChangeJobActionDetail.Designer.cs">
+      <DependentUpon>ucChangeJobActionDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucClearWindowActionDetail.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucClearWindowActionDetail.Designer.cs">
+      <DependentUpon>ucClearWindowActionDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucCycleTimeStartActionDetail.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucCycleTimeStartActionDetail.Designer.cs">
+      <DependentUpon>ucCycleTimeStartActionDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucCycleTimeStopActionDetail.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucCycleTimeStopActionDetail.Designer.cs">
+      <DependentUpon>ucCycleTimeStopActionDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucDetectFileStatusActionDetail.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucDetectFileStatusActionDetail.Designer.cs">
+      <DependentUpon>ucDetectFileStatusActionDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucMXComponentReadActionDetail.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucMXComponentReadActionDetail.Designer.cs">
+      <DependentUpon>ucMXComponentReadActionDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucMXComponentWriteActionDetail.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucMXComponentWriteActionDetail.Designer.cs">
+      <DependentUpon>ucMXComponentWriteActionDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucPropertyLinkActionDetail.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucPropertyLinkActionDetail.Designer.cs">
+      <DependentUpon>ucPropertyLinkActionDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucRunCommandActionDetail.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucRunCommandActionDetail.Designer.cs">
+      <DependentUpon>ucRunCommandActionDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucRunProgramActionDetail.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucRunProgramActionDetail.Designer.cs">
+      <DependentUpon>ucRunProgramActionDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucBlobActionDetail.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucBlobActionDetail.Designer.cs">
+      <DependentUpon>ucBlobActionDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucBlobFilterActionDetail.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucBlobFilterActionDetail.Designer.cs">
+      <DependentUpon>ucBlobFilterActionDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucColorBlobMultipleROIActionDetail.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucColorBlobMultipleROIActionDetail.Designer.cs">
+      <DependentUpon>ucColorBlobMultipleROIActionDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucBlobMultipleROIActionDetail.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucBlobMultipleROIActionDetail.Designer.cs">
+      <DependentUpon>ucBlobMultipleROIActionDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucCOMWriterActionDetails.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucCOMWriterActionDetails.Designer.cs">
+      <DependentUpon>ucCOMWriterActionDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucCounterLoopActionDetail.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucCounterLoopActionDetail.Designer.cs">
+      <DependentUpon>ucCounterLoopActionDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucCSTLightWriteActionDetail.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucCSTLightWriteActionDetail.Designer.cs">
+      <DependentUpon>ucCSTLightWriteActionDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucExcelWriteActionDetail.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucExcelWriteActionDetail.Designer.cs">
+      <DependentUpon>ucExcelWriteActionDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucCsvWriteActionDetail.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucCsvWriteActionDetail.Designer.cs">
+      <DependentUpon>ucCsvWriteActionDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucLoadImageActionDetail.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucLoadImageActionDetail.Designer.cs">
+      <DependentUpon>ucLoadImageActionDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucStopActionDetail.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucStopActionDetail.Designer.cs">
+      <DependentUpon>ucStopActionDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucStopLiveCamActionDetail.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucStopLiveCamActionDetail.Designer.cs">
+      <DependentUpon>ucStopLiveCamActionDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucDataSetActionDetail.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucDataSetActionDetail.Designer.cs">
+      <DependentUpon>ucDataSetActionDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucDataInstanceActionDetail.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucDataInstanceActionDetail.Designer.cs">
+      <DependentUpon>ucDataInstanceActionDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucOriginActionDetail.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucOriginActionDetail.Designer.cs">
+      <DependentUpon>ucOriginActionDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucSaveImageActionDetail.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucSaveImageActionDetail.Designer.cs">
+      <DependentUpon>ucSaveImageActionDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucSnapImageActionDetail.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucSnapImageActionDetail.Designer.cs">
+      <DependentUpon>ucSnapImageActionDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucRegionProcessingActionDetails.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucRegionProcessingActionDetails.Designer.cs">
+      <DependentUpon>ucRegionProcessingActionDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucResetActionDetails.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucResetActionDetails.Designer.cs">
+      <DependentUpon>ucResetActionDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucReturnActionDetails.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucReturnActionDetails.Designer.cs">
+      <DependentUpon>ucReturnActionDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucSwitchActionDetail.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucSwitchActionDetail.Designer.cs">
+      <DependentUpon>ucSwitchActionDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucBranchActionDetails.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucBranchActionDetails.Designer.cs">
+      <DependentUpon>ucBranchActionDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucBrightnessActionDetails.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucBrightnessActionDetails.Designer.cs">
+      <DependentUpon>ucBrightnessActionDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucCalibrateEdgeToEdgeActionDetails.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucCalibrateEdgeToEdgeActionDetails.Designer.cs">
+      <DependentUpon>ucCalibrateEdgeToEdgeActionDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucColorBlobActionDetails.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucColorBlobActionDetails.Designer.cs">
+      <DependentUpon>ucColorBlobActionDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucCOMReaderActionDetails.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucCOMReaderActionDetails.Designer.cs">
+      <DependentUpon>ucCOMReaderActionDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucDistanceMeasurementActionDetails.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucDistanceMeasurementActionDetails.Designer.cs">
+      <DependentUpon>ucDistanceMeasurementActionDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucHandEyeActionDetail.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucHandEyeActionDetail.Designer.cs">
+      <DependentUpon>ucHandEyeActionDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucImageFilterActionDetail.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucImageFilterActionDetail.Designer.cs">
+      <DependentUpon>ucImageFilterActionDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucLineFindActionDetails.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucLineFindActionDetails.Designer.cs">
+      <DependentUpon>ucLineFindActionDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucMainActions.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucMainActions.designer.cs">
+      <DependentUpon>ucMainActions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucMathActionDetail.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucMathActionDetail.Designer.cs">
+      <DependentUpon>ucMathActionDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucOCRActionDetails.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucOCRActionDetails.Designer.cs">
+      <DependentUpon>ucOCRActionDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucPassFailActionDetails.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucPassFailActionDetails.Designer.cs">
+      <DependentUpon>ucPassFailActionDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucPatternActionDetail.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucPatternActionDetail.Designer.cs">
+      <DependentUpon>ucPatternActionDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucPixelCountActionDetails.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucPixelCountActionDetails.Designer.cs">
+      <DependentUpon>ucPixelCountActionDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucSLMPReadActionDetail.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucSLMPReadActionDetail.Designer.cs">
+      <DependentUpon>ucSLMPReadActionDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucSLMPWriteActionDetail.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucSLMPWriteActionDetail.Designer.cs">
+      <DependentUpon>ucSLMPWriteActionDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucStringBuilderDetail.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucStringBuilderDetail.Designer.cs">
+      <DependentUpon>ucStringBuilderDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucBranchItemActionDetail.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucBranchItemActionDetail.Designer.cs">
+      <DependentUpon>ucBranchItemActionDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucCSTLightReadActionDetail .cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucCSTLightReadActionDetail .Designer.cs">
+      <DependentUpon>ucCSTLightReadActionDetail .cs</DependentUpon>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucSystemInfoActionDetail.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucSystemInfoActionDetail.Designer.cs">
+      <DependentUpon>ucSystemInfoActionDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucTCPIPReadActionDetail.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucTCPIPReadActionDetail.Designer.cs">
+      <DependentUpon>ucTCPIPReadActionDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucTCPIPWriteActionDetail.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucTCPIPWriteActionDetail.Designer.cs">
+      <DependentUpon>ucTCPIPWriteActionDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucViewResultActionDetail.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucViewResultActionDetail.Designer.cs">
+      <DependentUpon>ucViewResultActionDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucWaitActionDetail.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucWaitActionDetail.Designer.cs">
+      <DependentUpon>ucWaitActionDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="4. Layout\Classes\cTrayResult.Settings.cs" />
+    <Compile Include="4. Layout\ModuleUserControls\ucCycleTime.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="4. Layout\ModuleUserControls\ucCycleTime.Designer.cs">
+      <DependentUpon>ucCycleTime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="5. UserManager\Classes\cDepartment.cs" />
+    <Compile Include="5. UserManager\Classes\cPermission.cs" />
+    <Compile Include="5. UserManager\Classes\cPosition.cs" />
+    <Compile Include="5. UserManager\Classes\cUser.cs" />
+    <Compile Include="5. UserManager\Classes\cUser.Functions.cs" />
+    <Compile Include="5. UserManager\Forms\FrmDepartment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="5. UserManager\Forms\FrmDepartment.Designer.cs">
+      <DependentUpon>FrmDepartment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="5. UserManager\Forms\FrmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="5. UserManager\Forms\FrmLogin.Designer.cs">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="5. UserManager\Forms\FrmPermission.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="5. UserManager\Forms\FrmPermission.Designer.cs">
+      <DependentUpon>FrmPermission.cs</DependentUpon>
+    </Compile>
+    <Compile Include="5. UserManager\Forms\FrmPosition.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="5. UserManager\Forms\FrmPosition.Designer.cs">
+      <DependentUpon>FrmPosition.cs</DependentUpon>
+    </Compile>
+    <Compile Include="5. UserManager\Forms\FrmUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="5. UserManager\Forms\FrmUser.Designer.cs">
+      <DependentUpon>FrmUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="6. Log\FrmLog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="6. Log\FrmLog.Designer.cs">
+      <DependentUpon>FrmLog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="6. Log\Log.cError.cs" />
+    <Compile Include="6. Log\Log.cLog.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="2. Forms\FrmActions.resx">
+      <DependentUpon>FrmActions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="2. Forms\FrmASCIITable.resx">
+      <DependentUpon>FrmASCIITable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="2. Forms\FrmBase.resx">
+      <DependentUpon>FrmBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="2. Forms\FrmInputTextValue.resx">
+      <DependentUpon>FrmInputTextValue.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="2. Forms\FrmMessageBox.resx">
+      <DependentUpon>FrmMessageBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="2. Forms\frmSetupPassed.resx">
+      <DependentUpon>frmSetupPassed.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="2. Forms\FrmApplyActionToOtherCAMs.resx">
+      <DependentUpon>FrmApplyActionToOtherCAMs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="2. Forms\frmSplashScreen.resx">
+      <DependentUpon>frmSplashScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="2. Forms\FrmSplash\SplashForm.resx">
+      <DependentUpon>SplashForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="2. Forms\FrmViewTextValue.resx">
+      <DependentUpon>FrmViewTextValue.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="2. Forms\frmWait.resx">
+      <DependentUpon>frmWait.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="2. Forms\FrmWindowsChoosed.resx">
+      <DependentUpon>FrmWindowsChoosed.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="2. Forms\frmChooseActions.resx">
+      <DependentUpon>frmChooseActions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="2. Forms\FrmHsmartWindow.resx">
+      <DependentUpon>FrmHsmartWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="2. Forms\FrmMain.resx">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="2. Forms\FrmProject.resx">
+      <DependentUpon>FrmProject.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="2. Forms\FrmProjectSaveAs.resx">
+      <DependentUpon>FrmProjectSaveAs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="2. Forms\FrmProjectTemplates.resx">
+      <DependentUpon>FrmProjectTemplates.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="2. Forms\FrmSettings.resx">
+      <DependentUpon>FrmSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3. UserControls\Commons\ucColorCombobox.resx">
+      <DependentUpon>ucColorCombobox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3. UserControls\Commons\ucFontInfo.resx">
+      <DependentUpon>ucFontInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3. UserControls\Commons\ucFooterForm.resx">
+      <DependentUpon>ucFooterForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3. UserControls\Commons\ucImageLink.resx">
+      <DependentUpon>ucImageLink.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3. UserControls\Commons\ucInputDelimiter.resx">
+      <DependentUpon>ucInputDelimiter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3. UserControls\Commons\ucInputDelimiterStringBulderItem.resx">
+      <DependentUpon>ucInputDelimiterStringBulderItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3. UserControls\Commons\ucLeadingText.resx">
+      <DependentUpon>ucLeadingText.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3. UserControls\Commons\ucLine.resx">
+      <DependentUpon>ucLine.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3. UserControls\Commons\ucLink.resx">
+      <DependentUpon>ucLink.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3. UserControls\Commons\ucMultiLink.resx">
+      <DependentUpon>ucMultiLink.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3. UserControls\Commons\ucObjectLink.resx">
+      <DependentUpon>ucObjectLink.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3. UserControls\Commons\ucOrigin.resx">
+      <DependentUpon>ucOrigin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3. UserControls\Commons\ucPictureEdit.resx">
+      <DependentUpon>ucPictureEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3. UserControls\Commons\ucPoint.resx">
+      <DependentUpon>ucPoint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3. UserControls\Commons\ucRangeMaxMin.resx">
+      <DependentUpon>ucRangeMaxMin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3. UserControls\Commons\ucRangeMaxMinLimit.resx">
+      <DependentUpon>ucRangeMaxMinLimit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3. UserControls\Commons\ucTolerance.resx">
+      <DependentUpon>ucTolerance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3. UserControls\Commons\ucToolName.resx">
+      <DependentUpon>ucToolName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3. UserControls\Commons\ucTrallingText.resx">
+      <DependentUpon>ucTrallingText.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3. UserControls\Communication\ucCommunication.resx">
+      <DependentUpon>ucCommunication.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3. UserControls\Others\TestTree.resx">
+      <DependentUpon>TestTree.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3. UserControls\Others\ucActionList.resx">
+      <DependentUpon>ucActionList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3. UserControls\Others\ucCAM.resx">
+      <DependentUpon>ucCAM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3. UserControls\Others\ucCameraSettings.resx">
+      <DependentUpon>ucCameraSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3. UserControls\Others\ucGroupCAMs.resx">
+      <DependentUpon>ucGroupCAMs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3. UserControls\Others\ucProgramName.resx">
+      <DependentUpon>ucProgramName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3. UserControls\Others\ucProjectName.resx">
+      <DependentUpon>ucProjectName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3. UserControls\Others\ucTemplateTools.resx">
+      <DependentUpon>ucTemplateTools.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3. UserControls\StringBuilderItems\ucConfigureStringListInput.resx">
+      <DependentUpon>ucConfigureStringListInput.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3. UserControls\StringBuilderItems\ucConfigureStringInput.resx">
+      <DependentUpon>ucConfigureStringInput.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3. UserControls\StringBuilderItems\ucConfigureBooleanListInput.resx">
+      <DependentUpon>ucConfigureBooleanListInput.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3. UserControls\StringBuilderItems\ucConfigureBooleanInput.resx">
+      <DependentUpon>ucConfigureBooleanInput.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3. UserControls\StringBuilderItems\ucConfigurePointInput.resx">
+      <DependentUpon>ucConfigurePointInput.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3. UserControls\StringBuilderItems\ucConfigureOriginListInput.resx">
+      <DependentUpon>ucConfigureOriginListInput.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3. UserControls\StringBuilderItems\ucConfigureOriginInput.resx">
+      <DependentUpon>ucConfigureOriginInput.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3. UserControls\StringBuilderItems\ucConfigureIntegerListInput.resx">
+      <DependentUpon>ucConfigureIntegerListInput.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3. UserControls\StringBuilderItems\ucConfigureIntegerInput.resx">
+      <DependentUpon>ucConfigureIntegerInput.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3. UserControls\StringBuilderItems\ucConfigureDateTimeInput.resx">
+      <DependentUpon>ucConfigureDateTimeInput.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3. UserControls\StringBuilderItems\ucConfigureInputBase.resx">
+      <DependentUpon>ucConfigureInputBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3. UserControls\StringBuilderItems\ucConfigurePointListInput.resx">
+      <DependentUpon>ucConfigurePointListInput.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3. UserControls\StringBuilderItems\ucConfigureRealInput .resx">
+      <DependentUpon>ucConfigureRealInput .cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3. UserControls\StringBuilderItems\ucConfigureRealListInput.resx">
+      <DependentUpon>ucConfigureRealListInput.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3. UserControls\StringBuilderItems\ucConfigureRectangleInput.resx">
+      <DependentUpon>ucConfigureRectangleInput.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3. UserControls\StringBuilderItems\ucConfigureRectangleListInput.resx">
+      <DependentUpon>ucConfigureRectangleListInput.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3. UserControls\StringBuilderItems\ucStringBuilderItemProperty.resx">
+      <DependentUpon>ucStringBuilderItemProperty.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3. UserControls\Tools\ucAlignmentActionDetail.resx">
+      <DependentUpon>ucAlignmentActionDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3. UserControls\Tools\ucBaseActionDetail.resx">
+      <DependentUpon>ucBaseActionDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3. UserControls\Tools\ucAffineImageActionDetail.resx">
+      <DependentUpon>ucAffineImageActionDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3. UserControls\Tools\ucCodeReaderActionDetail.resx">
+      <DependentUpon>ucCodeReaderActionDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3. UserControls\Tools\ucPOCIOControllerReadActionDetail.resx">
+      <DependentUpon>ucPOCIOControllerReadActionDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3. UserControls\Tools\ucPOCIOControllerWriteActionDetail.resx">
+      <DependentUpon>ucPOCIOControllerWriteActionDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3. UserControls\Tools\ucIOControllerWriteActionDetail.resx">
+      <DependentUpon>ucIOControllerWriteActionDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3. UserControls\Tools\ucIOControllerReadActionDetail.resx">
+      <DependentUpon>ucIOControllerReadActionDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3. UserControls\Tools\ucImageMathActionDetail.resx">
+      <DependentUpon>ucImageMathActionDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3. UserControls\Tools\ucCounterActionDetail.resx">
+      <DependentUpon>ucCounterActionDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3. UserControls\Tools\ucDialogMessageActionDetail.resx">
+      <DependentUpon>ucDialogMessageActionDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3. UserControls\Tools\ucHookKeyboardActionDetail.resx">
+      <DependentUpon>ucHookKeyboardActionDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3. UserControls\Tools\ucLiveCamActionDetail.resx">
+      <DependentUpon>ucLiveCamActionDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3. UserControls\Tools\ucLoadConfigActionDetail.resx">
+      <DependentUpon>ucLoadConfigActionDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3. UserControls\Tools\ucOkNgCounterActionDetail.resx">
+      <DependentUpon>ucOkNgCounterActionDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3. UserControls\Tools\ucSaveConfigActionDetail.resx">
+      <DependentUpon>ucSaveConfigActionDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3. UserControls\Tools\ucSaveObjectActionDetail.resx">
+      <DependentUpon>ucSaveObjectActionDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3. UserControls\Tools\ucSaveProjectActionDetail.resx">
+      <DependentUpon>ucSaveProjectActionDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3. UserControls\Tools\ucScriptActionDetail.resx">
+      <DependentUpon>ucScriptActionDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3. UserControls\Tools\ucSendAlarmMessageActionDetail.resx">
+      <DependentUpon>ucSendAlarmMessageActionDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3. UserControls\Tools\ucSplitImageActionDetail.resx">
+      <DependentUpon>ucSplitImageActionDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3. UserControls\Tools\ucChangeJobActionDetail.resx">
+      <DependentUpon>ucChangeJobActionDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3. UserControls\Tools\ucClearWindowActionDetail.resx">
+      <DependentUpon>ucClearWindowActionDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3. UserControls\Tools\ucCycleTimeStartActionDetail.resx">
+      <DependentUpon>ucCycleTimeStartActionDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3. UserControls\Tools\ucCycleTimeStopActionDetail.resx">
+      <DependentUpon>ucCycleTimeStopActionDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3. UserControls\Tools\ucDetectFileStatusActionDetail.resx">
+      <DependentUpon>ucDetectFileStatusActionDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3. UserControls\Tools\ucMXComponentReadActionDetail.resx">
+      <DependentUpon>ucMXComponentReadActionDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3. UserControls\Tools\ucMXComponentWriteActionDetail.resx">
+      <DependentUpon>ucMXComponentWriteActionDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3. UserControls\Tools\ucPropertyLinkActionDetail.resx">
+      <DependentUpon>ucPropertyLinkActionDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3. UserControls\Tools\ucRunCommandActionDetail.resx">
+      <DependentUpon>ucRunCommandActionDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3. UserControls\Tools\ucRunProgramActionDetail.resx">
+      <DependentUpon>ucRunProgramActionDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3. UserControls\Tools\ucBlobActionDetail.resx">
+      <DependentUpon>ucBlobActionDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3. UserControls\Tools\ucBlobFilterActionDetail.resx">
+      <DependentUpon>ucBlobFilterActionDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3. UserControls\Tools\ucColorBlobMultipleROIActionDetail.resx">
+      <DependentUpon>ucColorBlobMultipleROIActionDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3. UserControls\Tools\ucBlobMultipleROIActionDetail.resx">
+      <DependentUpon>ucBlobMultipleROIActionDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3. UserControls\Tools\ucCalibrateEdgeToEdgeActionDetails.resx">
+      <DependentUpon>ucCalibrateEdgeToEdgeActionDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3. UserControls\Tools\ucCOMWriterActionDetails.resx">
+      <DependentUpon>ucCOMWriterActionDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3. UserControls\Tools\ucCOMReaderActionDetails.resx">
+      <DependentUpon>ucCOMReaderActionDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3. UserControls\Tools\ucCSTLightWriteActionDetail.resx">
+      <DependentUpon>ucCSTLightWriteActionDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3. UserControls\Tools\ucExcelWriteActionDetail.resx">
+      <DependentUpon>ucExcelWriteActionDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3. UserControls\Tools\ucCsvWriteActionDetail.resx">
+      <DependentUpon>ucCsvWriteActionDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3. UserControls\Tools\ucLoadImageActionDetail.resx">
+      <DependentUpon>ucLoadImageActionDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3. UserControls\Tools\ucStopActionDetail.resx">
+      <DependentUpon>ucStopActionDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3. UserControls\Tools\ucStopLiveCamActionDetail.resx">
+      <DependentUpon>ucStopLiveCamActionDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3. UserControls\Tools\ucDataSetActionDetail.resx">
+      <DependentUpon>ucDataSetActionDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3. UserControls\Tools\ucDataInstanceActionDetail.resx">
+      <DependentUpon>ucDataInstanceActionDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3. UserControls\Tools\ucOriginActionDetail.resx">
+      <DependentUpon>ucOriginActionDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3. UserControls\Tools\ucSaveImageActionDetail.resx">
+      <DependentUpon>ucSaveImageActionDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3. UserControls\Tools\ucSnapImageActionDetail.resx">
+      <DependentUpon>ucSnapImageActionDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3. UserControls\Tools\ucRegionProcessingActionDetails.resx">
+      <DependentUpon>ucRegionProcessingActionDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3. UserControls\Tools\ucResetActionDetails.resx">
+      <DependentUpon>ucResetActionDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3. UserControls\Tools\ucReturnActionDetails.resx">
+      <DependentUpon>ucReturnActionDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3. UserControls\Tools\ucPassFailActionDetails.resx">
+      <DependentUpon>ucPassFailActionDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3. UserControls\Tools\ucCounterLoopActionDetail.resx">
+      <DependentUpon>ucCounterLoopActionDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3. UserControls\Tools\ucSwitchActionDetail.resx">
+      <DependentUpon>ucSwitchActionDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3. UserControls\Tools\ucBranchActionDetails.resx">
+      <DependentUpon>ucBranchActionDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3. UserControls\Tools\ucBranchItemActionDetail.resx">
+      <DependentUpon>ucBranchItemActionDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3. UserControls\Tools\ucBrightnessActionDetails.resx">
+      <DependentUpon>ucBrightnessActionDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3. UserControls\Tools\ucColorBlobActionDetails.resx">
+      <DependentUpon>ucColorBlobActionDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3. UserControls\Tools\ucDistanceMeasurementActionDetails.resx">
+      <DependentUpon>ucDistanceMeasurementActionDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3. UserControls\Tools\ucHandEyeActionDetail.resx">
+      <DependentUpon>ucHandEyeActionDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3. UserControls\Tools\ucImageFilterActionDetail.resx">
+      <DependentUpon>ucImageFilterActionDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3. UserControls\Tools\ucLineFindActionDetails.resx">
+      <DependentUpon>ucLineFindActionDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3. UserControls\Tools\ucMainActions.resx">
+      <DependentUpon>ucMainActions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3. UserControls\Tools\ucMathActionDetail.resx">
+      <DependentUpon>ucMathActionDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3. UserControls\Tools\ucPatternActionDetail.resx">
+      <DependentUpon>ucPatternActionDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3. UserControls\Tools\ucPixelCountActionDetails.resx">
+      <DependentUpon>ucPixelCountActionDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3. UserControls\Tools\ucSLMPReadActionDetail.resx">
+      <DependentUpon>ucSLMPReadActionDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3. UserControls\Tools\ucSLMPWriteActionDetail.resx">
+      <DependentUpon>ucSLMPWriteActionDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3. UserControls\Tools\ucStringBuilderDetail.resx">
+      <DependentUpon>ucStringBuilderDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3. UserControls\Tools\ucCSTLightReadActionDetail .resx">
+      <DependentUpon>ucCSTLightReadActionDetail .cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3. UserControls\Tools\ucSystemInfoActionDetail.resx">
+      <DependentUpon>ucSystemInfoActionDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3. UserControls\Tools\ucTCPIPReadActionDetail.resx">
+      <DependentUpon>ucTCPIPReadActionDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3. UserControls\Tools\ucTCPIPWriteActionDetail.resx">
+      <DependentUpon>ucTCPIPWriteActionDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3. UserControls\Tools\ucViewResultActionDetail.resx">
+      <DependentUpon>ucViewResultActionDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3. UserControls\Tools\ucWaitActionDetail.resx">
+      <DependentUpon>ucWaitActionDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="4. Layout\ModuleUserControls\ucCycleTime.resx">
+      <DependentUpon>ucCycleTime.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="5. UserManager\Forms\FrmDepartment.resx">
+      <DependentUpon>FrmDepartment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="5. UserManager\Forms\FrmLogin.resx">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="5. UserManager\Forms\FrmPermission.resx">
+      <DependentUpon>FrmPermission.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="5. UserManager\Forms\FrmPosition.resx">
+      <DependentUpon>FrmPosition.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="5. UserManager\Forms\FrmUser.resx">
+      <DependentUpon>FrmUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <Fakes Include="Fakes\ThridLibray.fakes" />
+    <Compile Include="1. Classes\Base\Action\cActionType.OtherRunFunctions.cs" />
+    <Compile Include="1. Classes\Base\Project\cProject.Functions.cs" />
+    <Fakes Include="Fakes\ObjectListView.fakes" />
+    <Compile Include="1. Classes\Base\Action\cActionType.COMReaderFunctions.cs" />
+    <Compile Include="1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs" />
+    <Compile Include="1. Classes\Base\Action\cActionType.MathFunction.cs" />
+    <Compile Include="1. Classes\Base\Action\cActionType.SnapImage.cs" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pause_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\0. PixelCountTool\PixelCountTool\PixelCountTool.csproj">
+      <Project>{776c87c6-cdf6-4a91-85a6-adc2b2ce3bf4}</Project>
+      <Name>PixelCountTool</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\1. BlobTool\BlobTool\BlobTool.csproj">
+      <Project>{3d146526-3083-4893-9f87-7e15d4e4a3fe}</Project>
+      <Name>BlobTool</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\13. Brightness Tool\Brightness Tool\Brightness Tool.csproj">
+      <Project>{0bde02f8-b7c9-4e44-bb13-e4b1fd0a1cec}</Project>
+      <Name>Brightness Tool</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\14. Blob Filter\Blob Filter\Blob Filter.csproj">
+      <Project>{78cd7484-0f85-4878-b805-9b511e34ba1c}</Project>
+      <Name>Blob Filter</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\15. Blob_View\Blob Filter\Blob View.csproj">
+      <Project>{b74ebc48-848d-42cd-8aa9-3c427b38f307}</Project>
+      <Name>Blob View</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\17. ImageSplit\ImageSplit\ImageSplit.csproj">
+      <Project>{3f2daa48-9576-4863-a73b-9a1314375b4a}</Project>
+      <Name>ImageSplit</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\18. ImageMath\ImageMath\ImageMath.csproj">
+      <Project>{5A2074B8-9F0C-4B48-A8AD-273F77417762}</Project>
+      <Name>ImageMath</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\2. Blob_Muilti_ROI\Blob_Muilti_ROI\Blob_Muilti_ROI.csproj">
+      <Project>{b2b7e4db-f4f0-40f1-ba72-a08aa4da0a0b}</Project>
+      <Name>Blob_Muilti_ROI</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\4. Blob_Color_Multi_ROI\Blob_Color_Multi_ROI\Blob_Color_Multi_ROI.csproj">
+      <Project>{0fef6ee9-eae7-4c9c-b6e7-c181afe4deb5}</Project>
+      <Name>Blob_Color_Multi_ROI</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\5 FindLineTool\FindLineTool\FindLineTool.csproj">
+      <Project>{a7fae0ca-aa36-4b8f-828a-6289b6126115}</Project>
+      <Name>FindLineTool</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\6 %281%29. OriginTool\OriginTool\OriginTool.csproj">
+      <Project>{10f5441d-6360-4839-8f01-ad0e56e8ca87}</Project>
+      <Name>OriginTool</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\8. NewPattern\NewPattern\NewPattern.csproj">
+      <Project>{8f8437d0-2ae6-48c8-9cd2-890f29445d12}</Project>
+      <Name>NewPattern</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\9. DistanceMeasurementTool\DistanceMeasurementTool\DistanceMeasurementTool.csproj">
+      <Project>{74618e99-4fae-469c-86d3-6851a3941585}</Project>
+      <Name>DistanceMeasurementTool</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\9. ImageFilterTool\ImageFilterTool\ImageFilterTool.csproj">
+      <Project>{d786b952-f766-431e-ad38-a8b2f4292710}</Project>
+      <Name>ImageFilterTool</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GraphiscWindow\GraphicsWindow.csproj">
+      <Project>{9eda0f4c-d4f4-464e-9cdb-02c9987d5613}</Project>
+      <Name>GraphicsWindow</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Region Processing\Region Processing\Region Processing.csproj">
+      <Project>{e28b9997-99cf-4959-a32f-8b18e586f029}</Project>
+      <Name>Region Processing</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\RTCConst\RTCConst.csproj">
+      <Project>{8A10F03F-B1A8-42CC-A9BA-56A7486308F7}</Project>
+      <Name>RTCConst</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\RTCDahuaSdk\RTCDahuaSdk.csproj">
+      <Project>{322E6993-E2FA-48BC-AFE3-6885D63EE760}</Project>
+      <Name>RTCDahuaSdk</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\RTCEnums\RTCEnums.csproj">
+      <Project>{B9770451-E900-4C2C-B29E-050C6ABBA7D6}</Project>
+      <Name>RTCEnums</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\RTCHikSdk\RTCHikSdk.csproj">
+      <Project>{D063BDD8-9149-4D51-B2CF-B2C5A098F5F9}</Project>
+      <Name>RTCHikSdk</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\RTCLibs\RTCLibs.csproj">
+      <Project>{7786AC9F-2F1B-4804-92E1-B17FC4C11BE8}</Project>
+      <Name>RTCLibs</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\RTCSystem\RTCSystem.csproj">
+      <Project>{93037FCC-74E9-4143-99C6-E8EB91C3646B}</Project>
+      <Name>RTCSystem</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\RTCUpdate\RTCUpdate.csproj">
+      <Project>{37dc49a4-6cce-40e0-af37-43cc50e982b9}</Project>
+      <Name>RTCUpdate</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SetOrigin\SetOrigin\SetOrigin.csproj">
+      <Project>{6272fb1d-f065-48b3-8e3a-2b7585be6420}</Project>
+      <Name>SetOrigin</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Apply_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cancel_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Clear_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MoveDown_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MoveUp_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Copy_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Index_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Info_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\KnowledgeBaseArticle_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Question_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AddNewDataSource_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DeleteDataSource_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EditDataSource_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Save_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Remove_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Apply_16x161.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BO_Attention.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\New_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LoadFrom_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SaveAll_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Edit_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DeleteList_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Reset_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SpreadsheetGroup_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RowIndex_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Project_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\First_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Play_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Stop_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Last_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Action_Refresh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Action_Totals_Row.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Action_Reload.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Time_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Window_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ModelEditor_Settings.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ZoomIn_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ZoomOut_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SaveTo_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Close_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SaveAndNew_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FitToPage_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cut_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Paste_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DeleteSheetCells_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Zoom_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Zoom_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Zoom2_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Action_Inline_Edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TopBottomRules_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AddFile_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ClearValidationCircles_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Delete_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Image1.bmp" />
+    <None Include="Resources\OIP.jpg" />
+    <None Include="Resources\Live.png" />
+    <None Include="Resources\download.png" />
+    <None Include="Resources\Image.png" />
+    <None Include="Resources\Default.png" />
+    <None Include="Resources\Settings16x16.png" />
+    <None Include="Resources\Delete16x16.png" />
+    <None Include="Resources\Delete16x16_2.png" />
+    <None Include="Resources\RTCLogo.png" />
+    <None Include="Resources\Add_16x16.png" />
+    <None Include="Resources\Add_green_16x.png" />
+    <None Include="Resources\Add16x16_1.png" />
+    <None Include="Resources\AddMasterRoi.png" />
+    <None Include="Resources\AffineImage.png" />
+    <None Include="Resources\Apply.png" />
+    <None Include="Resources\BackgroundWhite.png" />
+    <None Include="Resources\BOPermission_16x16 %281%29.png" />
+    <None Include="Resources\ButtonBack75x23.png" />
+    <None Include="Resources\ButtonCancelBack75x23.png" />
+    <None Include="Resources\camera.png" />
+    <None Include="Resources\Camera1.png" />
+    <None Include="Resources\Camera2.png" />
+    <None Include="Resources\Camera20x20.png" />
+    <None Include="Resources\Camera20x20_1.png" />
+    <None Include="Resources\Camera20x202.png" />
+    <None Include="Resources\Camera20x203.png" />
+    <None Include="Resources\Cart16x16.png" />
+    <None Include="Resources\CircleGreen.png" />
+    <None Include="Resources\CircleRed.png" />
+    <None Include="Resources\Clean16x16.png" />
+    <None Include="Resources\Clean24x24.png" />
+    <None Include="Resources\Clean32x32.png" />
+    <None Include="Resources\CleanImage_16x16.png" />
+    <None Include="Resources\Clear16x16.png" />
+    <None Include="Resources\Close16x16.png" />
+    <None Include="Resources\Close16x16_1.png" />
+    <None Include="Resources\ComputerImage.png" />
+    <None Include="Resources\Connect.png" />
+    <None Include="Resources\Copy.png" />
+    <None Include="Resources\disconnected.png" />
+    <None Include="Resources\Down.png" />
+    <None Include="Resources\Error_16x16.png" />
+    <None Include="Resources\Error32x32.png" />
+    <None Include="Resources\EthernetConnect.png" />
+    <None Include="Resources\EthernetDisconnect.png" />
+    <None Include="Resources\icons8-compact-camera-20.png" />
+    <None Include="Resources\icons8-pc-20.png" />
+    <None Include="Resources\Index_32x32.png" />
+    <None Include="Resources\Info_32x32.png" />
+    <None Include="Resources\Information32x32.png" />
+    <None Include="Resources\InputOutput16x16.png" />
+    <None Include="Resources\InspectPart.png" />
+    <None Include="Resources\Intensity.png" />
+    <None Include="Resources\jump16x16.png" />
+    <None Include="Resources\Key16x16.png" />
+    <None Include="Resources\LANSetting16x16.png" />
+    <None Include="Resources\Licence16x16.png" />
+    <None Include="Resources\live16x16.png" />
+    <None Include="Resources\live24x24.png" />
+    <None Include="Resources\LiveDisable16x16.png" />
+    <None Include="Resources\LockROI.png" />
+    <None Include="Resources\Maximize - Copy.png" />
+    <None Include="Resources\Maximize.png" />
+    <None Include="Resources\maximize16x16.png" />
+    <None Include="Resources\Menu.png" />
+    <None Include="Resources\minimize16x16.png" />
+    <None Include="Resources\Minus.png" />
+    <None Include="Resources\Mirror16x16.png" />
+    <None Include="Resources\Mirror16x16H.png" />
+    <None Include="Resources\MobBusRead_16x16.png" />
+    <None Include="Resources\MobBusRead_24x24.png" />
+    <None Include="Resources\MobBusRead_32x32.png" />
+    <None Include="Resources\MobBusWrite_16x16.png" />
+    <None Include="Resources\MobBusWrite_24x24.png" />
+    <None Include="Resources\MobBusWrite_32x32.png" />
+    <None Include="Resources\move16x16.png" />
+    <None Include="Resources\Nen.bmp" />
+    <None Include="Resources\Nen.jpg" />
+    <None Include="Resources\Next_16x16.png" />
+    <None Include="Resources\NG16x16.png" />
+    <None Include="Resources\NGAll32x32.png" />
+    <None Include="Resources\OK16x16.png" />
+    <None Include="Resources\OKAll32x32.bmp" />
+    <None Include="Resources\OKAll32x32.png" />
+    <None Include="Resources\Paste.png" />
+    <None Include="Resources\PC20x20.png" />
+    <None Include="Resources\PC20x201.png" />
+    <None Include="Resources\Properties_16x16.png" />
+    <None Include="Resources\RemoveImageC_32x32.png" />
+    <None Include="Resources\rotate.png" />
+    <None Include="Resources\RowAndCol.png" />
+    <None Include="Resources\RTCIcon16x16.png" />
+    <None Include="Resources\RtcIconBmp.bmp" />
+    <None Include="Resources\Run1Time.png" />
+    <None Include="Resources\RunOneTime.png" />
+    <None Include="Resources\screenshot16x16.png" />
+    <None Include="Resources\stop.png" />
+    <None Include="Resources\stoplive16x16.png" />
+    <None Include="Resources\StopLiveCamRed16x16.png" />
+    <None Include="Resources\t1.png" />
+    <None Include="Resources\t2.png" />
+    <None Include="Resources\Target_16x16.png" />
+    <None Include="Resources\TargetZoom16x16.png" />
+    <None Include="Resources\TargetZoom216x16.png" />
+    <None Include="Resources\Triangle.jpg" />
+    <None Include="Resources\TrianglePNG.png" />
+    <None Include="Resources\Trigger16x16.png" />
+    <None Include="Resources\unlock.png" />
+    <None Include="Resources\UnlockROI.png" />
+    <None Include="Resources\Up.png" />
+    <None Include="Resources\ViewListItem.png" />
+    <None Include="Resources\Warning_16x16.png" />
+    <None Include="Resources\Warning_32x32.png" />
+    <None Include="Resources\AddBranch_16x16.png" />
+    <None Include="Resources\AddDefaultBranch_16x16.png" />
+    <None Include="Resources\ANext_16x16.png" />
+    <None Include="Resources\APrevious_16x16.png" />
+    <None Include="Resources\DeleteAllBranch_16x16.png" />
+    <None Include="Resources\DeleteBranch_16x16.png" />
+    <None Include="Resources\DeleteTool_16x16.png" />
+    <None Include="Resources\3.jpg" />
+    <None Include="Resources\3DLMIImageViewer16x16.png" />
+    <None Include="Resources\3DLMIImageViewer24x24.png" />
+    <None Include="Resources\3DLMIImageViewer32x32.png" />
+    <None Include="Resources\2021-12-19_131017.jpg" />
+    <None Include="Resources\A1D.jpg" />
+    <None Include="Resources\A2.jpg" />
+    <None Include="Resources\A3.jpg" />
+    <None Include="Resources\AddDefaultNode16x16.png" />
+    <None Include="Resources\AddSubnode16x16.png" />
+    <None Include="Resources\AffineImage16x16.png" />
+    <None Include="Resources\AffineImage24x24.png" />
+    <None Include="Resources\AffineImage32x32.png" />
+    <None Include="Resources\Align16x16.png" />
+    <None Include="Resources\Align24x24.png" />
+    <None Include="Resources\Align32x32.png" />
+    <None Include="Resources\Alignment16x16.png" />
+    <None Include="Resources\Alignment24x24.png" />
+    <None Include="Resources\Alignment32x32.png" />
+    <None Include="Resources\AnomalyDetection16x16.png" />
+    <None Include="Resources\AnomalyDetection24x24.png" />
+    <None Include="Resources\AnomalyDetection32x32.png" />
+    <None Include="Resources\BackgroudBottomButton.png" />
+    <None Include="Resources\BackgroudLeftButton.png" />
+    <None Include="Resources\BackgroudRightButton.png" />
+    <None Include="Resources\BackgroudTopButton.png" />
+    <None Include="Resources\BackgroudZoomNormal.png" />
+    <None Include="Resources\Blob16x16.png" />
+    <None Include="Resources\Blob16x16_1.png" />
+    <None Include="Resources\Blob24x24.png" />
+    <None Include="Resources\Blob24x24_1.png" />
+    <None Include="Resources\Blob32x32.png" />
+    <None Include="Resources\Blob32x32_1.png" />
+    <None Include="Resources\BlobColor16x16.png" />
+    <None Include="Resources\BlobColor16x16_1.png" />
+    <None Include="Resources\BlobColor24x24.png" />
+    <None Include="Resources\BlobColor24x24_1.png" />
+    <None Include="Resources\BlobColor32x32.png" />
+    <None Include="Resources\BlobColor32x32_1.png" />
+    <None Include="Resources\BlobFilter16x16.png" />
+    <None Include="Resources\BlobFilter16x16_1.png" />
+    <None Include="Resources\BlobFilter24x24.png" />
+    <None Include="Resources\BlobFilter24x24_1.png" />
+    <None Include="Resources\BlobFilter32x32.png" />
+    <None Include="Resources\BlobFilter32x32_1.png" />
+    <None Include="Resources\BlobMultiROI16x16.png" />
+    <None Include="Resources\BlobMultiROI16x16_1.png" />
+    <None Include="Resources\BlobMultiROI24x24.png" />
+    <None Include="Resources\BlobMultiROI24x24_1.png" />
+    <None Include="Resources\BlobMultiROI32x32.png" />
+    <None Include="Resources\BlobMultiROI32x32_1.png" />
+    <None Include="Resources\Branch.png" />
+    <None Include="Resources\Branch-[Recovered].png" />
+    <None Include="Resources\Branch16x16.png" />
+    <None Include="Resources\Branch24x24.png" />
+    <None Include="Resources\Branch24x24_1.png" />
+    <None Include="Resources\Branch32x32.png" />
+    <None Include="Resources\BranchItem16x16.png" />
+    <None Include="Resources\BranchItem16x16_1.png" />
+    <None Include="Resources\BranchItem16x16_2.png" />
+    <None Include="Resources\BranchItem24x24.png" />
+    <None Include="Resources\BranchItem24x24_1.png" />
+    <None Include="Resources\BranchItem24x24_2.png" />
+    <None Include="Resources\BranchItem32x32.png" />
+    <None Include="Resources\BranchItem32x32_1.png" />
+    <None Include="Resources\BranchItem32x32_2.png" />
+    <None Include="Resources\Brightness.png" />
+    <None Include="Resources\Brightness16x16.png" />
+    <None Include="Resources\Brightness16x16_1.png" />
+    <None Include="Resources\Brightness24x24.png" />
+    <None Include="Resources\Brightness24x24_1.png" />
+    <None Include="Resources\Brightness32x32.png" />
+    <None Include="Resources\Brightness32x32_1.png" />
+    <None Include="Resources\CalibrateEdgeToEdge16x16.png" />
+    <None Include="Resources\CalibrateEdgeToEdge16x16_1.png" />
+    <None Include="Resources\CalibrateEdgeToEdge16x16_2.png" />
+    <None Include="Resources\CalibrateEdgeToEdge24x24.png" />
+    <None Include="Resources\CalibrateEdgeToEdge24x24_1.png" />
+    <None Include="Resources\CalibrateEdgeToEdge24x24_2.png" />
+    <None Include="Resources\CalibrateEdgeToEdge32x32.png" />
+    <None Include="Resources\CalibrateEdgeToEdge32x32_1.png" />
+    <None Include="Resources\CalibrateEdgeToEdge32x32_2.png" />
+    <None Include="Resources\CalibrationCheckBoard16x16.png" />
+    <None Include="Resources\CalibrationCheckBoard16x16_1.png" />
+    <None Include="Resources\CalibrationCheckBoard24x24.png" />
+    <None Include="Resources\CalibrationCheckBoard24x24_1.png" />
+    <None Include="Resources\CalibrationCheckBoard32x32.png" />
+    <None Include="Resources\CalibrationCheckBoard32x32_1.png" />
+    <None Include="Resources\CameraIOReader16x16.png" />
+    <None Include="Resources\CameraIOReader16x16_1.png" />
+    <None Include="Resources\CameraIOReader24x24.png" />
+    <None Include="Resources\CameraIOReader24x24_1.png" />
+    <None Include="Resources\CameraIOReader32x32.png" />
+    <None Include="Resources\CameraIOReader32x32_1.png" />
+    <None Include="Resources\CameraSettings16x16.png" />
+    <None Include="Resources\CameraSettings16x16_1.png" />
+    <None Include="Resources\CameraSettings24x24.png" />
+    <None Include="Resources\CameraSettings24x24_1.png" />
+    <None Include="Resources\CameraSettings32x32.png" />
+    <None Include="Resources\CameraSettings32x32_1.png" />
+    <None Include="Resources\ChangeJob16x16.png" />
+    <None Include="Resources\ChangeJob16x16_1.png" />
+    <None Include="Resources\ChangeJob24x24.png" />
+    <None Include="Resources\ChangeJob24x24_1.png" />
+    <None Include="Resources\ChangeJob32x32.png" />
+    <None Include="Resources\ChangeJob32x32_1.png" />
+    <None Include="Resources\CircleMeasurement16x16.png" />
+    <None Include="Resources\CircleMeasurement24x24.png" />
+    <None Include="Resources\CircleMeasurement32x32.png" />
+    <None Include="Resources\Classification16x16.png" />
+    <None Include="Resources\Classification24x24.png" />
+    <None Include="Resources\Classification32x32.png" />
+    <None Include="Resources\ClearWindows16x16.png" />
+    <None Include="Resources\ClearWindows16x16_1.png" />
+    <None Include="Resources\ClearWindows24x24.png" />
+    <None Include="Resources\ClearWindows24x24_1.png" />
+    <None Include="Resources\ClearWindows32x32.png" />
+    <None Include="Resources\ClearWindows32x32_1.png" />
+    <None Include="Resources\Close32x32.png" />
+    <None Include="Resources\CodeReader16x16.png" />
+    <None Include="Resources\CodeReader16x16_1.png" />
+    <None Include="Resources\CodeReader24x24.png" />
+    <None Include="Resources\CodeReader24x24_1.png" />
+    <None Include="Resources\CodeReader32x32.png" />
+    <None Include="Resources\CodeReader32x32_1.png" />
+    <None Include="Resources\ColorBlob16x16.png" />
+    <None Include="Resources\ColorBlob16x16_1.png" />
+    <None Include="Resources\ColorBlob24x24.png" />
+    <None Include="Resources\ColorBlob24x24_1.png" />
+    <None Include="Resources\ColorBlob32x32.png" />
+    <None Include="Resources\ColorBlob32x32_1.png" />
+    <None Include="Resources\ColorBlobMultiROI16x16.png" />
+    <None Include="Resources\ColorBlobMultiROI16x16_1.png" />
+    <None Include="Resources\ColorBlobMultiROI16x16_2.png" />
+    <None Include="Resources\ColorBlobMultiROI16x16_3.png" />
+    <None Include="Resources\ColorBlobMultiROI24x24.png" />
+    <None Include="Resources\ColorBlobMultiROI24x24_1.png" />
+    <None Include="Resources\ColorBlobMultiROI24x24_2.png" />
+    <None Include="Resources\ColorBlobMultiROI24x24_3.png" />
+    <None Include="Resources\ColorBlobMultiROI32x32.png" />
+    <None Include="Resources\ColorBlobMultiROI32x32_1.png" />
+    <None Include="Resources\ColorBlobMultiROI32x32_2.png" />
+    <None Include="Resources\ColorBlobMultiROI32x32_3.png" />
+    <None Include="Resources\COMReader16x16.png" />
+    <None Include="Resources\COMReader16x16_1.png" />
+    <None Include="Resources\COMReader24x24.png" />
+    <None Include="Resources\COMReader24x24_1.png" />
+    <None Include="Resources\COMReader32x32.png" />
+    <None Include="Resources\COMReader32x32_1.png" />
+    <None Include="Resources\COMWriter16x16.png" />
+    <None Include="Resources\COMWriter16x16_1.png" />
+    <None Include="Resources\COMWriter24x24.png" />
+    <None Include="Resources\COMWriter24x24_1.png" />
+    <None Include="Resources\COMWriter32x32.png" />
+    <None Include="Resources\COMWriter32x32_1.png" />
+    <None Include="Resources\Connect32x32.png" />
+    <None Include="Resources\Contact32x32.png" />
+    <None Include="Resources\CorrelationPattern16x16.png" />
+    <None Include="Resources\CorrelationPattern16x16_1.png" />
+    <None Include="Resources\CorrelationPattern24x24.png" />
+    <None Include="Resources\CorrelationPattern24x24_1.png" />
+    <None Include="Resources\CorrelationPattern32x32.png" />
+    <None Include="Resources\CorrelationPattern32x32_1.png" />
+    <None Include="Resources\Count16x16.png" />
+    <None Include="Resources\Count16x16_1.png" />
+    <None Include="Resources\Count16x16_2.png" />
+    <None Include="Resources\Count24x24.png" />
+    <None Include="Resources\Count24x24_1.png" />
+    <None Include="Resources\Count24x24_2.png" />
+    <None Include="Resources\Count32x32.png" />
+    <None Include="Resources\Count32x32_1.png" />
+    <None Include="Resources\Count32x32_2.png" />
+    <None Include="Resources\CounterLoop16x16.png" />
+    <None Include="Resources\CounterLoop16x16_1.png" />
+    <None Include="Resources\CounterLoop24x24.png" />
+    <None Include="Resources\CounterLoop24x24_1.png" />
+    <None Include="Resources\CounterLoop32x32.png" />
+    <None Include="Resources\CounterLoop32x32_1.png" />
+    <None Include="Resources\Cst-Khfs-Series-Professional-Machine-Vision-LED-MID-Hole-Back-Light-Illuminator-Vision-Lighting-for-Industry-Inspection.jpg" />
+    <None Include="Resources\CSTLight.bmp" />
+    <None Include="Resources\CSTLight.png" />
+    <None Include="Resources\CSTLightRead16x16.png" />
+    <None Include="Resources\CSTLightRead16x16_1.png" />
+    <None Include="Resources\CSTLightRead24x24.png" />
+    <None Include="Resources\CSTLightRead24x24_1.png" />
+    <None Include="Resources\CSTLightRead32x32.png" />
+    <None Include="Resources\CSTLightRead32x32_1.png" />
+    <None Include="Resources\CSTLightWrite16x16.png" />
+    <None Include="Resources\CSTLightWrite16x16_1.png" />
+    <None Include="Resources\CSTLightWrite24x24.png" />
+    <None Include="Resources\CSTLightWrite24x24_1.png" />
+    <None Include="Resources\CSTLightWrite32x32.png" />
+    <None Include="Resources\CSTLightWrite32x32_1.png" />
+    <None Include="Resources\CsvWrite16x16.png" />
+    <None Include="Resources\CsvWrite16x16_1.png" />
+    <None Include="Resources\CsvWrite16x16_2.png" />
+    <None Include="Resources\CsvWrite16x16_3.png" />
+    <None Include="Resources\CsvWrite24x24.png" />
+    <None Include="Resources\CsvWrite24x24_1.png" />
+    <None Include="Resources\CsvWrite24x24_2.png" />
+    <None Include="Resources\CsvWrite24x24_3.png" />
+    <None Include="Resources\CsvWrite32x32.png" />
+    <None Include="Resources\CsvWrite32x32_1.png" />
+    <None Include="Resources\CsvWrite32x32_2.png" />
+    <None Include="Resources\CsvWrite32x32_3.png" />
+    <None Include="Resources\CycleTime16x16.png" />
+    <None Include="Resources\CycleTime24x24.png" />
+    <None Include="Resources\CycleTime32x32.png" />
+    <None Include="Resources\CycleTime116x16.png" />
+    <None Include="Resources\CycleTime124x24.png" />
+    <None Include="Resources\CycleTime132x32.png" />
+    <None Include="Resources\CycleTimeStart16x16_1.png" />
+    <None Include="Resources\CycleTimeStart24x24_1.png" />
+    <None Include="Resources\CycleTimeStart32x32_1.png" />
+    <None Include="Resources\CycleTimeStop16x16.png" />
+    <None Include="Resources\CycleTimeStop16x16_1.png" />
+    <None Include="Resources\CycleTimeStop24x24.png" />
+    <None Include="Resources\CycleTimeStop24x24_1.png" />
+    <None Include="Resources\CycleTimeStop32x32.png" />
+    <None Include="Resources\CycleTimeStop32x32_1.png" />
+    <None Include="Resources\DataArchive16x16.png" />
+    <None Include="Resources\DataArchive16x16_1.png" />
+    <None Include="Resources\DataArchive16x16_2.png" />
+    <None Include="Resources\DataArchive16x16_3.png" />
+    <None Include="Resources\DataArchive24x24.png" />
+    <None Include="Resources\DataArchive24x24_1.png" />
+    <None Include="Resources\DataArchive24x24_2.png" />
+    <None Include="Resources\DataArchive24x24_3.png" />
+    <None Include="Resources\DataArchive32x32.png" />
+    <None Include="Resources\DataArchive32x32_1.png" />
+    <None Include="Resources\DataArchive32x32_2.png" />
+    <None Include="Resources\DataArchive32x32_3.png" />
+    <None Include="Resources\DataArchiveRead16x16.png" />
+    <None Include="Resources\DataArchiveRead16x16_1.png" />
+    <None Include="Resources\DataArchiveRead16x16_2.png" />
+    <None Include="Resources\DataArchiveRead16x16_3.png" />
+    <None Include="Resources\DataArchiveRead24x24.png" />
+    <None Include="Resources\DataArchiveRead24x24_1.png" />
+    <None Include="Resources\DataArchiveRead24x24_2.png" />
+    <None Include="Resources\DataArchiveRead24x24_3.png" />
+    <None Include="Resources\DataArchiveRead32x32.png" />
+    <None Include="Resources\DataArchiveRead32x32_1.png" />
+    <None Include="Resources\DataArchiveRead32x32_2.png" />
+    <None Include="Resources\DataArchiveRead32x32_3.png" />
+    <None Include="Resources\DataInstance16x16.png" />
+    <None Include="Resources\DataInstance16x16_1.png" />
+    <None Include="Resources\DataInstance16x16_2.png" />
+    <None Include="Resources\DataInstance24x24.png" />
+    <None Include="Resources\DataInstance24x24_1.png" />
+    <None Include="Resources\DataInstance24x24_2.png" />
+    <None Include="Resources\DataInstance32x32.png" />
+    <None Include="Resources\DataInstance32x32_1.png" />
+    <None Include="Resources\DataInstance32x32_2.png" />
+    <None Include="Resources\DataSet16x16.png" />
+    <None Include="Resources\DataSet16x16_1.png" />
+    <None Include="Resources\DataSet16x16_2.png" />
+    <None Include="Resources\DataSet24x24.png" />
+    <None Include="Resources\DataSet24x24_1.png" />
+    <None Include="Resources\DataSet24x24_2.png" />
+    <None Include="Resources\DataSet32x32.png" />
+    <None Include="Resources\DataSet32x32_1.png" />
+    <None Include="Resources\DataSet32x32_2.png" />
+    <None Include="Resources\DeepOCR16x16.png" />
+    <None Include="Resources\DeepOCR24x24.png" />
+    <None Include="Resources\DeepOCR32x32.png" />
+    <None Include="Resources\DefaultSticker.png" />
+    <None Include="Resources\DefaultSticker1.png" />
+    <None Include="Resources\DefaultSticker2.png" />
+    <None Include="Resources\DefaultSticker3.png" />
+    <None Include="Resources\DefaultSticker4.png" />
+    <None Include="Resources\DefaultSticker5.png" />
+    <None Include="Resources\DefaultStickerTrans.png" />
+    <None Include="Resources\DeformablePattern16x16.png" />
+    <None Include="Resources\DeformablePattern24x24.png" />
+    <None Include="Resources\DeformablePattern32x32.png" />
+    <None Include="Resources\DeleteAllBranch16x16.png" />
+    <None Include="Resources\DeleteNode16x16.png" />
+    <None Include="Resources\DeleteSubnode16x16.png" />
+    <None Include="Resources\deotin-đéo-tin.gif" />
+    <None Include="Resources\Department16x16.png" />
+    <None Include="Resources\DetectFileStatus16x16.png" />
+    <None Include="Resources\DetectFileStatus16x16_1.png" />
+    <None Include="Resources\DetectFileStatus24x24.png" />
+    <None Include="Resources\DetectFileStatus24x24_1.png" />
+    <None Include="Resources\DetectFileStatus32x32.png" />
+    <None Include="Resources\DetectFileStatus32x32_1.png" />
+    <None Include="Resources\DialogMessage16x16.png" />
+    <None Include="Resources\DialogMessage24x24.png" />
+    <None Include="Resources\DialogMessage32x32.png" />
+    <None Include="Resources\DistanceMeasurement16x16.png" />
+    <None Include="Resources\DistanceMeasurement16x16_1.png" />
+    <None Include="Resources\DistanceMeasurement16x16_2.png" />
+    <None Include="Resources\DistanceMeasurement24x24.png" />
+    <None Include="Resources\DistanceMeasurement24x24_1.png" />
+    <None Include="Resources\DistanceMeasurement24x24_2.png" />
+    <None Include="Resources\DistanceMeasurement32x32.png" />
+    <None Include="Resources\DistanceMeasurement32x32_1.png" />
+    <None Include="Resources\DistanceMeasurement32x32_2.png" />
+    <None Include="Resources\DrawingROI16x16.png" />
+    <None Include="Resources\DrawingROI24x24.png" />
+    <None Include="Resources\DrawingROI32x32.png" />
+    <None Include="Resources\Excel32x32.png" />
+    <None Include="Resources\ExcelRead16x16.png" />
+    <None Include="Resources\ExcelRead24x24.png" />
+    <None Include="Resources\ExcelRead32x32.png" />
+    <None Include="Resources\ExcelWrite16x16.png" />
+    <None Include="Resources\ExcelWrite16x16_1.png" />
+    <None Include="Resources\ExcelWrite16x16_2.png" />
+    <None Include="Resources\ExcelWrite16x16_3.png" />
+    <None Include="Resources\ExcelWrite24x24.png" />
+    <None Include="Resources\ExcelWrite24x24_1.png" />
+    <None Include="Resources\ExcelWrite24x24_2.png" />
+    <None Include="Resources\ExcelWrite24x24_3.png" />
+    <None Include="Resources\ExcelWrite32x32.png" />
+    <None Include="Resources\ExcelWrite32x32_1.png" />
+    <None Include="Resources\ExcelWrite32x32_2.png" />
+    <None Include="Resources\ExcelWrite32x32_3.png" />
+    <None Include="Resources\ExcelWrite48x48.png" />
+    <None Include="Resources\FTPDownload16x16.png" />
+    <None Include="Resources\FTPDownload24x24.png" />
+    <None Include="Resources\FTPDownload32x32.png" />
+    <None Include="Resources\FTPUpload16x16.png" />
+    <None Include="Resources\FTPUpload24x24.png" />
+    <None Include="Resources\FTPUpload32x32.png" />
+    <None Include="Resources\GabotIcon.png" />
+    <None Include="Resources\GaugeDualROI16x16.png" />
+    <None Include="Resources\GaugeDualROI24x24.png" />
+    <None Include="Resources\GaugeDualROI32x32.png" />
+    <None Include="Resources\Get3DImage16x16.bmp" />
+    <None Include="Resources\Get3DImage16x16.png" />
+    <None Include="Resources\Get3DImage24x24.bmp" />
+    <None Include="Resources\Get3DImage24x24.png" />
+    <None Include="Resources\Get3DImage32x32.bmp" />
+    <None Include="Resources\Get3DImage32x32.png" />
+    <None Include="Resources\Get3DImageFromLMICamera16x16.png" />
+    <None Include="Resources\Get3DImageFromLMICamera24x24.png" />
+    <None Include="Resources\Get3DImageFromLMICamera32x32.png" />
+    <None Include="Resources\HandEye16x16.png" />
+    <None Include="Resources\HandEye16x16_1.png" />
+    <None Include="Resources\HandEye24x24.png" />
+    <None Include="Resources\HandEye24x24_1.png" />
+    <None Include="Resources\HandEye32x32.png" />
+    <None Include="Resources\HandEye32x32_1.png" />
+    <None Include="Resources\HandEye116x16.png" />
+    <None Include="Resources\HandEye124x24.png" />
+    <None Include="Resources\HandEye132x32.png" />
+    <None Include="Resources\Header.jpg" />
+    <None Include="Resources\hoang-hon-vang-tren-vinh-ha-lo-3734-6262-1638084611.png" />
+    <None Include="Resources\HookKeyboard16x16.png" />
+    <None Include="Resources\HookKeyboard16x16_1.png" />
+    <None Include="Resources\HookKeyboard24x24.png" />
+    <None Include="Resources\HookKeyboard24x24_1.png" />
+    <None Include="Resources\HookKeyboard32x32.png" />
+    <None Include="Resources\HookKeyboard32x32_1.png" />
+    <None Include="Resources\ImageArchive16x16.png" />
+    <None Include="Resources\ImageArchive24x24.png" />
+    <None Include="Resources\ImageArchive32x32.png" />
+    <None Include="Resources\ImageFilter16x16.png" />
+    <None Include="Resources\ImageFilter16x16_1.png" />
+    <None Include="Resources\ImageFilter16x16_2.png" />
+    <None Include="Resources\ImageFilter24x24.png" />
+    <None Include="Resources\ImageFilter24x24_1.png" />
+    <None Include="Resources\ImageFilter24x24_2.png" />
+    <None Include="Resources\ImageFilter32x32.png" />
+    <None Include="Resources\ImageFilter32x32_1.png" />
+    <None Include="Resources\ImageFilter32x32_2.png" />
+    <None Include="Resources\ImageMath16x16.png" />
+    <None Include="Resources\ImageMath16x16_1.png" />
+    <None Include="Resources\ImageMath24x24.png" />
+    <None Include="Resources\ImageMath24x24_1.png" />
+    <None Include="Resources\ImageMath32x32.png" />
+    <None Include="Resources\ImageMath32x32_1.png" />
+    <None Include="Resources\ImageSplit16x16.png" />
+    <None Include="Resources\ImageSplit16x16_1.png" />
+    <None Include="Resources\ImageSplit24x24.png" />
+    <None Include="Resources\ImageSplit24x24_1.png" />
+    <None Include="Resources\ImageSplit32x32.png" />
+    <None Include="Resources\ImageSplit32x32_1.png" />
+    <None Include="Resources\InputProperty.png" />
+    <None Include="Resources\IOControllerRead16x16.png" />
+    <None Include="Resources\IOControllerRead16x16_1.png" />
+    <None Include="Resources\IOControllerRead24x24.png" />
+    <None Include="Resources\IOControllerRead24x24_1.png" />
+    <None Include="Resources\IOControllerRead32x32.png" />
+    <None Include="Resources\IOControllerRead32x32_1.png" />
+    <None Include="Resources\IOControllerWrite16x16.png" />
+    <None Include="Resources\IOControllerWrite16x16_1.png" />
+    <None Include="Resources\IOControllerWrite24x24.png" />
+    <None Include="Resources\IOControllerWrite24x24_1.png" />
+    <None Include="Resources\IOControllerWrite32x32.png" />
+    <None Include="Resources\IOControllerWrite32x32_1.png" />
+    <None Include="Resources\LANSetting.png" />
+    <None Include="Resources\LineFind16x16.png" />
+    <None Include="Resources\LineFind16x16_1.png" />
+    <None Include="Resources\LineFind24x24.png" />
+    <None Include="Resources\LineFind24x24_1.png" />
+    <None Include="Resources\LineFind32x32.png" />
+    <None Include="Resources\LineFind32x32_1.png" />
+    <None Include="Resources\LinkValue16x16.png" />
+    <None Include="Resources\LinkValue16x16_1.png" />
+    <None Include="Resources\LinkValue24x24.png" />
+    <None Include="Resources\LinkValue24x24_1.png" />
+    <None Include="Resources\LinkValue32x32.png" />
+    <None Include="Resources\LinkValue32x32_1.png" />
+    <None Include="Resources\LiveCam16x16.png" />
+    <None Include="Resources\LiveCam24x24.png" />
+    <None Include="Resources\LiveCam32x32.png" />
+    <None Include="Resources\LoadConfig16x16.png" />
+    <None Include="Resources\LoadConfig16x16_1.png" />
+    <None Include="Resources\LoadConfig24x24.png" />
+    <None Include="Resources\LoadConfig24x24_1.png" />
+    <None Include="Resources\LoadConfig32x32.png" />
+    <None Include="Resources\LoadConfig32x32_1.png" />
+    <None Include="Resources\LoadFrom_32x32.png" />
+    <None Include="Resources\LoadImage16x16.png" />
+    <None Include="Resources\LoadImage16x16_1.png" />
+    <None Include="Resources\LoadImage24x24.png" />
+    <None Include="Resources\LoadImage24x24_1.png" />
+    <None Include="Resources\LoadImage32x32.bmp" />
+    <None Include="Resources\LoadImage32x32.png" />
+    <None Include="Resources\LoadImage32x32_1.png" />
+    <None Include="Resources\LoadObject16x16.png" />
+    <None Include="Resources\LoadObject24x24.png" />
+    <None Include="Resources\LoadObject32x32.png" />
+    <None Include="Resources\Lock32x32.png" />
+    <None Include="Resources\MainAction16x16.png" />
+    <None Include="Resources\MainAction16x16_1.png" />
+    <None Include="Resources\MainAction24x24.png" />
+    <None Include="Resources\MainAction24x24_1.png" />
+    <None Include="Resources\MainAction32x32.png" />
+    <None Include="Resources\MainAction32x32_1.png" />
+    <None Include="Resources\MainMenu32x32.png" />
+    <None Include="Resources\ManualAlignment16x16.png" />
+    <None Include="Resources\ManualAlignment16x16_1.png" />
+    <None Include="Resources\ManualAlignment24x24.png" />
+    <None Include="Resources\ManualAlignment24x24_1.png" />
+    <None Include="Resources\ManualAlignment32x32.png" />
+    <None Include="Resources\ManualAlignment32x32_1.png" />
+    <None Include="Resources\Math16x16.png" />
+    <None Include="Resources\Math16x16_1.png" />
+    <None Include="Resources\Math16x16_2.png" />
+    <None Include="Resources\Math24x24.png" />
+    <None Include="Resources\Math24x24_1.png" />
+    <None Include="Resources\Math24x24_2.png" />
+    <None Include="Resources\Math32x32.png" />
+    <None Include="Resources\Math32x32_1.png" />
+    <None Include="Resources\Math32x32_2.png" />
+    <None Include="Resources\Metrology16x16.png" />
+    <None Include="Resources\Metrology24x24.png" />
+    <None Include="Resources\Metrology32x32.png" />
+    <None Include="Resources\MitsuSLMPRead16x16.png" />
+    <None Include="Resources\MitsuSLMPRead24x24.png" />
+    <None Include="Resources\MitsuSLMPRead32x32.png" />
+    <None Include="Resources\MitsuSLMPWrite16x16.png" />
+    <None Include="Resources\MitsuSLMPWrite24x24.png" />
+    <None Include="Resources\MitsuSLMPWrite32x32.png" />
+    <None Include="Resources\ModBusRead16x16.png" />
+    <None Include="Resources\ModBusRead16x16_1.png" />
+    <None Include="Resources\ModBusRead16x16_2.png" />
+    <None Include="Resources\ModBusRead24x24.png" />
+    <None Include="Resources\ModBusRead24x24_1.png" />
+    <None Include="Resources\ModBusRead24x24_2.png" />
+    <None Include="Resources\ModBusRead32x32.png" />
+    <None Include="Resources\ModBusRead32x32_1.png" />
+    <None Include="Resources\ModBusRead32x32_2.png" />
+    <None Include="Resources\ModBusWrite16x16.png" />
+    <None Include="Resources\ModBusWrite16x16_1.png" />
+    <None Include="Resources\ModBusWrite16x16_2.png" />
+    <None Include="Resources\ModBusWrite24x24.png" />
+    <None Include="Resources\ModBusWrite24x24_1.png" />
+    <None Include="Resources\ModBusWrite24x24_2.png" />
+    <None Include="Resources\ModBusWrite32x32.png" />
+    <None Include="Resources\ModBusWrite32x32_1.png" />
+    <None Include="Resources\ModBusWrite32x32_2.png" />
+    <None Include="Resources\Model32x32.png" />
+    <None Include="Resources\MoveNodeDown16x16.png" />
+    <None Include="Resources\MoveNodeUp16x16.png" />
+    <None Include="Resources\MultiBranch16x16.png" />
+    <None Include="Resources\MultiBranch24x24.png" />
+    <None Include="Resources\MultiBranch32x32.png" />
+    <None Include="Resources\MXComponentRead16x16.png" />
+    <None Include="Resources\MXComponentRead24x24.png" />
+    <None Include="Resources\MXComponentRead32x32.png" />
+    <None Include="Resources\MXComponentWrite16x16.png" />
+    <None Include="Resources\MXComponentWrite24x24.png" />
+    <None Include="Resources\MXComponentWrite32x32.png" />
+    <None Include="Resources\NewSticker.png" />
+    <None Include="Resources\NewSticker1.png" />
+    <None Include="Resources\NewSticker2.png" />
+    <None Include="Resources\ObjectDetection16x16.png" />
+    <None Include="Resources\ObjectDetection24x24.png" />
+    <None Include="Resources\ObjectDetection32x32.png" />
+    <None Include="Resources\OCR16x16.png" />
+    <None Include="Resources\OCR16x16_1.png" />
+    <None Include="Resources\OCR24x24.png" />
+    <None Include="Resources\OCR24x24_1.png" />
+    <None Include="Resources\OCR32x32.png" />
+    <None Include="Resources\OCR32x32_1.png" />
+    <None Include="Resources\OkNgCounter16x16.png" />
+    <None Include="Resources\OkNgCounter16x16_1.png" />
+    <None Include="Resources\OkNgCounter24x24.png" />
+    <None Include="Resources\OkNgCounter24x24_1.png" />
+    <None Include="Resources\OkNgCounter32x32.png" />
+    <None Include="Resources\OkNgCounter32x32_1.png" />
+    <None Include="Resources\OpticalFlowImage16x16.png" />
+    <None Include="Resources\OpticalFlowImage24x24.png" />
+    <None Include="Resources\OpticalFlowImage32x32.png" />
+    <None Include="Resources\Origin16x16.png" />
+    <None Include="Resources\Origin16x16_1.png" />
+    <None Include="Resources\Origin24x24.png" />
+    <None Include="Resources\Origin24x24_!.png" />
+    <None Include="Resources\Origin24x24_1.png" />
+    <None Include="Resources\Origin32x32.png" />
+    <None Include="Resources\Origin32x32_1.png" />
+    <None Include="Resources\OutputProperty.png" />
+    <None Include="Resources\PassFail16x16.png" />
+    <None Include="Resources\PassFail24x24.png" />
+    <None Include="Resources\PassFail32x32.png" />
+    <None Include="Resources\PatliteWrite16x16.png" />
+    <None Include="Resources\PatliteWrite24x24.png" />
+    <None Include="Resources\PatliteWrite32x32.bmp" />
+    <None Include="Resources\PatliteWrite32x32.png" />
+    <None Include="Resources\Pattern16x16.png" />
+    <None Include="Resources\Pattern24x24.png" />
+    <None Include="Resources\Pattern32x32.png" />
+    <None Include="Resources\Permission16x16.png" />
+    <None Include="Resources\PhotometricStereo16x16.png" />
+    <None Include="Resources\PhotometricStereo24x24.png" />
+    <None Include="Resources\PhotometricStereo32x32.png" />
+    <None Include="Resources\PixelCount16x16.png" />
+    <None Include="Resources\PixelCount24x24.png" />
+    <None Include="Resources\PixelCount32x32.png" />
+    <None Include="Resources\POCIORead16x16.png" />
+    <None Include="Resources\POCIORead24x24.png" />
+    <None Include="Resources\POCIORead32x32.png" />
+    <None Include="Resources\POCIOWrite16x16.png" />
+    <None Include="Resources\POCIOWrite24x24.png" />
+    <None Include="Resources\POCIOWrite32x32.png" />
+    <None Include="Resources\PoseManipulation16x16.png" />
+    <None Include="Resources\PoseManipulation16x16_1.png" />
+    <None Include="Resources\PoseManipulation24x24.png" />
+    <None Include="Resources\PoseManipulation24x24_1.png" />
+    <None Include="Resources\PoseManipulation32x32.png" />
+    <None Include="Resources\PoseManipulation32x32_1.png" />
+    <None Include="Resources\Position16x16.png" />
+    <None Include="Resources\RegionProcessing16x16.png" />
+    <None Include="Resources\RegionProcessing16x16_1.png" />
+    <None Include="Resources\RegionProcessing24x24.png" />
+    <None Include="Resources\RegionProcessing24x24_1.png" />
+    <None Include="Resources\RegionProcessing32x32.png" />
+    <None Include="Resources\RegionProcessing32x32_1.png" />
+    <None Include="Resources\Reset32x32.png" />
+    <None Include="Resources\ResetOneTool16x16.png" />
+    <None Include="Resources\ResetOneTool24x24.png" />
+    <None Include="Resources\ResetOneTool32x32.png" />
+    <None Include="Resources\ResetTool16x16.png" />
+    <None Include="Resources\ResetTool16x16_1.png" />
+    <None Include="Resources\ResetTool16x16_2.png" />
+    <None Include="Resources\ResetTool24x24.png" />
+    <None Include="Resources\ResetTool24x24_1.png" />
+    <None Include="Resources\ResetTool24x24_2.png" />
+    <None Include="Resources\ResetTool32x32.png" />
+    <None Include="Resources\ResetTool32x32_1.png" />
+    <None Include="Resources\ResetTool32x32_2.png" />
+    <None Include="Resources\ResultOKNG_16x16.png" />
+    <None Include="Resources\ResultOKNG_24x24.png" />
+    <None Include="Resources\ResultOKNG_32x32.png" />
+    <None Include="Resources\Return16x16.png" />
+    <None Include="Resources\Return16x16_1.png" />
+    <None Include="Resources\Return24x24.png" />
+    <None Include="Resources\Return24x24_1.png" />
+    <None Include="Resources\Return32x32.png" />
+    <None Include="Resources\Return32x32_1.png" />
+    <None Include="Resources\RunCommand16x16.png" />
+    <None Include="Resources\RunCommand24x24.png" />
+    <None Include="Resources\RunCommand32x32.png" />
+    <None Include="Resources\RunDeep16x16.png" />
+    <None Include="Resources\RunDeep24x24.png" />
+    <None Include="Resources\RunDeep32x32.png" />
+    <None Include="Resources\RunDLL16x16.png" />
+    <None Include="Resources\RunDLL24x24.png" />
+    <None Include="Resources\RunDLL32x32.png" />
+    <None Include="Resources\RunProgram_16x16.png" />
+    <None Include="Resources\RunProgram_16x16_1.png" />
+    <None Include="Resources\RunProgram_16x16_2.png" />
+    <None Include="Resources\RunProgram_16x16_3.png" />
+    <None Include="Resources\RunProgram_24x24.png" />
+    <None Include="Resources\RunProgram_24x24_1.png" />
+    <None Include="Resources\RunProgram_24x24_2.png" />
+    <None Include="Resources\RunProgram_24x24_3.png" />
+    <None Include="Resources\RunProgram_32x32.png" />
+    <None Include="Resources\RunProgram_32x32_1.png" />
+    <None Include="Resources\RunProgram_32x32_2.png" />
+    <None Include="Resources\RunProgram_32x32_3.png" />
+    <None Include="Resources\Save_32x32.png" />
+    <None Include="Resources\SaveConfig16x16.png" />
+    <None Include="Resources\SaveConfig16x16_1.png" />
+    <None Include="Resources\SaveConfig24x24.png" />
+    <None Include="Resources\SaveConfig24x24_1.png" />
+    <None Include="Resources\SaveConfig32x32.png" />
+    <None Include="Resources\SaveConfig32x32_1.png" />
+    <None Include="Resources\SaveImage16x16.png" />
+    <None Include="Resources\SaveImage24x24.png" />
+    <None Include="Resources\SaveImage32x32.png" />
+    <None Include="Resources\SaveObject16x16.png" />
+    <None Include="Resources\SaveObject16x16_1.png" />
+    <None Include="Resources\SaveObject16x16_2.png" />
+    <None Include="Resources\SaveObject24x24.png" />
+    <None Include="Resources\SaveObject24x24_1.png" />
+    <None Include="Resources\SaveObject24x24_2.png" />
+    <None Include="Resources\SaveObject32x32.png" />
+    <None Include="Resources\SaveObject32x32_1.png" />
+    <None Include="Resources\SaveObject32x32_2.png" />
+    <None Include="Resources\SaveProject16x16.png" />
+    <None Include="Resources\SaveProject16x16_1.png" />
+    <None Include="Resources\SaveProject24x24.png" />
+    <None Include="Resources\SaveProject24x24_1.png" />
+    <None Include="Resources\SaveProject32x32.png" />
+    <None Include="Resources\SaveProject32x32_1.png" />
+    <None Include="Resources\Script16x16.png" />
+    <None Include="Resources\Script24x24.png" />
+    <None Include="Resources\Script32x32.png" />
+    <None Include="Resources\SemanticSegmentation16x16.png" />
+    <None Include="Resources\SemanticSegmentation24x24.png" />
+    <None Include="Resources\SemanticSegmentation32x32.png" />
+    <None Include="Resources\SendAlarmMessage16x16.png" />
+    <None Include="Resources\SendAlarmMessage16x16_1.png" />
+    <None Include="Resources\SendAlarmMessage24s24.png" />
+    <None Include="Resources\SendAlarmMessage24x24.png" />
+    <None Include="Resources\SendAlarmMessage24x24_1.png" />
+    <None Include="Resources\SendAlarmMessage32x32.png" />
+    <None Include="Resources\SendAlarmMessage32x32_1.png" />
+    <None Include="Resources\Settings32x32.png" />
+    <None Include="Resources\Settings32x321.png" />
+    <None Include="Resources\Settings32x322.png" />
+    <None Include="Resources\SetupBackground.jpg" />
+    <None Include="Resources\SetupBanner.jpg" />
+    <None Include="Resources\SLMPRead16x16.png" />
+    <None Include="Resources\SLMPRead16x16_1.png" />
+    <None Include="Resources\SLMPRead16x16_2.png" />
+    <None Include="Resources\SLMPRead24x24.png" />
+    <None Include="Resources\SLMPRead24x24_1.png" />
+    <None Include="Resources\SLMPRead24x24_2.png" />
+    <None Include="Resources\SLMPRead32x32.png" />
+    <None Include="Resources\SLMPRead32x32_1.png" />
+    <None Include="Resources\SLMPRead32x32_2.png" />
+    <None Include="Resources\SLMPW.png" />
+    <None Include="Resources\SLMPWrite16x16.png" />
+    <None Include="Resources\SLMPWrite16x16_1.png" />
+    <None Include="Resources\SLMPWrite16x16_2.png" />
+    <None Include="Resources\SLMPWrite24x24.png" />
+    <None Include="Resources\SLMPWrite24x24_1.png" />
+    <None Include="Resources\SLMPWrite24x24_2.png" />
+    <None Include="Resources\SLMPWrite32x32.png" />
+    <None Include="Resources\SLMPWrite32x32_1.png" />
+    <None Include="Resources\SLMPWrite32x32_2.png" />
+    <None Include="Resources\SnapImage16x16.png" />
+    <None Include="Resources\SnapImage16x16_1.png" />
+    <None Include="Resources\SnapImage24x24.png" />
+    <None Include="Resources\SnapImage24x24_1.png" />
+    <None Include="Resources\SnapImage32x32.png" />
+    <None Include="Resources\SnapImage32x32_1.png" />
+    <None Include="Resources\Start32x32.png" />
+    <None Include="Resources\Stop16x16.png" />
+    <None Include="Resources\Stop16x16_1.png" />
+    <None Include="Resources\Stop24x24.png" />
+    <None Include="Resources\Stop24x24_1.png" />
+    <None Include="Resources\Stop32x32.png" />
+    <None Include="Resources\Stop32x32_1.png" />
+    <None Include="Resources\StopLiveCam16x16.png" />
+    <None Include="Resources\StopLiveCam24x24.png" />
+    <None Include="Resources\StopLiveCam32x32.png" />
+    <None Include="Resources\StringBuilder.png" />
+    <None Include="Resources\StringBuilder16x16.png" />
+    <None Include="Resources\StringBuilder16x16_1.png" />
+    <None Include="Resources\StringBuilder24x24.png" />
+    <None Include="Resources\StringBuilder24x24_1.png" />
+    <None Include="Resources\StringBuilder32x32.png" />
+    <None Include="Resources\Switch16x16.png" />
+    <None Include="Resources\Switch16x16_1.png" />
+    <None Include="Resources\Switch24x24.png" />
+    <None Include="Resources\Switch32x32.png" />
+    <None Include="Resources\Switch32x32_1.png" />
+    <None Include="Resources\SystemInfor16x16.png" />
+    <None Include="Resources\SystemInfor16x16_1.png" />
+    <None Include="Resources\SystemInfor24x24.png" />
+    <None Include="Resources\SystemInfor24x24_1.png" />
+    <None Include="Resources\SystemInfor32x32.png" />
+    <None Include="Resources\SystemInfor32x32_1.png" />
+    <None Include="Resources\TCPIPRead16x16.png" />
+    <None Include="Resources\TCPIPRead16x16_1.png" />
+    <None Include="Resources\TCPIPRead16x16_2.png" />
+    <None Include="Resources\TCPIPRead24x24.png" />
+    <None Include="Resources\TCPIPRead24x24_1.png" />
+    <None Include="Resources\TCPIPRead24x24_2.png" />
+    <None Include="Resources\TCPIPRead32x32.png" />
+    <None Include="Resources\TCPIPRead32x32_1.png" />
+    <None Include="Resources\TCPIPRead32x32_2.png" />
+    <None Include="Resources\TCPIPWrite16x16.png" />
+    <None Include="Resources\TCPIPWrite16x16_1.png" />
+    <None Include="Resources\TCPIPWrite16x16_2.png" />
+    <None Include="Resources\TCPIPWrite24x24.png" />
+    <None Include="Resources\TCPIPWrite24x24_1.png" />
+    <None Include="Resources\TCPIPWrite24x24_2.png" />
+    <None Include="Resources\TCPIPWrite32x32.png" />
+    <None Include="Resources\TCPIPWrite32x32_1.png" />
+    <None Include="Resources\TCPIPWrite32x32_2.png" />
+    <None Include="Resources\test.png" />
+    <None Include="Resources\Trigger32x32.png" />
+    <None Include="Resources\UdpRead16x16.png" />
+    <None Include="Resources\UdpRead16x16_1.png" />
+    <None Include="Resources\UdpRead24x24.png" />
+    <None Include="Resources\UdpRead24x24_1.png" />
+    <None Include="Resources\UdpRead32x32.png" />
+    <None Include="Resources\UdpRead32x32_1.png" />
+    <None Include="Resources\UdpWrite16x16.png" />
+    <None Include="Resources\UdpWrite16x16_1.png" />
+    <None Include="Resources\UdpWrite24x24.png" />
+    <None Include="Resources\UdpWrite24x24_1.png" />
+    <None Include="Resources\UdpWrite32x32.png" />
+    <None Include="Resources\UdpWrite32x32_1.png" />
+    <None Include="Resources\Untitled-1.png" />
+    <None Include="Resources\UpdateSticker.png" />
+    <None Include="Resources\UpdateSticker1.png" />
+    <None Include="Resources\UpdateSticker2.png" />
+    <None Include="Resources\VariationModel16x16.png" />
+    <None Include="Resources\VariationModel16x16_1.png" />
+    <None Include="Resources\VariationModel24x24.png" />
+    <None Include="Resources\VariationModel24x24_1.png" />
+    <None Include="Resources\VariationModel32x32.png" />
+    <None Include="Resources\VariationModel32x32_1.png" />
+    <None Include="Resources\View3DImage16x16.bmp" />
+    <None Include="Resources\View3DImage16x16.png" />
+    <None Include="Resources\View3DImage24x24.bmp" />
+    <None Include="Resources\View3DImage24x24.png" />
+    <None Include="Resources\View3DImage32x32.bmp" />
+    <None Include="Resources\View3DImage32x32.png" />
+    <None Include="Resources\ViewResult16x16.png" />
+    <None Include="Resources\ViewResult16x16_1.png" />
+    <None Include="Resources\ViewResult24x24.png" />
+    <None Include="Resources\ViewResult24x24_1.png" />
+    <None Include="Resources\ViewResult32x32.png" />
+    <None Include="Resources\ViewResult32x32_1.png" />
+    <None Include="Resources\ViewText16x16.png" />
+    <None Include="Resources\ViewText16x16_1.png" />
+    <None Include="Resources\ViewText24x24.png" />
+    <None Include="Resources\ViewText24x24_1.png" />
+    <None Include="Resources\ViewText32x32.png" />
+    <None Include="Resources\ViewText32x32_1.png" />
+    <None Include="Resources\VSTLightRead16x16.png" />
+    <None Include="Resources\VSTLightRead24x24.png" />
+    <None Include="Resources\VSTLightRead32x32.png" />
+    <None Include="Resources\VSTLightWrite16x16.png" />
+    <None Include="Resources\VSTLightWrite24x24.png" />
+    <None Include="Resources\VSTLightWrite32x32.png" />
+    <None Include="Resources\Wait16x16.png" />
+    <None Include="Resources\Wait16x16_1.png" />
+    <None Include="Resources\Wait24x24.png" />
+    <None Include="Resources\Wait24x24_1.png" />
+    <None Include="Resources\Wait32x32.png" />
+    <None Include="Resources\Wait32x32_1.png" />
+    <None Include="Resources\WindowSettings16x16.png" />
+    <None Include="Resources\WindowSettings24x24.png" />
+    <None Include="Resources\WindowSettings32x32.png" />
+    <None Include="Resources\ZoomIn32x32.png" />
+    <None Include="Resources\ZoomOut32x32.png" />
+    <None Include="Resources\Default.jpg" />
+    <None Include="Resources\Icon1.ico" />
+    <None Include="Resources\Add_green_16x1.png" />
+    <None Include="Resources\SaveTo_16x161.png" />
+    <None Include="Resources\Export_16x16.png" />
+    <None Include="Resources\InsertSectionBreakEvenPage_16x16.png" />
+    <None Include="Resources\Play_16x161.png" />
+    <None Include="Resources\Play_32x32.png" />
+    <None Include="Resources\RunCurrentImage3.png" />
+    <None Include="Resources\Question_32x32.png" />
+    <None Include="Resources\Action_Delete_32x32.png" />
+    <None Include="Resources\Action_Delete.png" />
+    <None Include="Resources\ModelEditor_Settings1.png" />
+    <None Include="Resources\Play_16x162.png" />
+    <None Include="Resources\LoadPageSetup_16x16.png" />
+    <None Include="Resources\Build_16x16.png" />
+    <None Include="Resources\ChartsShowLegend_32x32.png" />
+    <None Include="Resources\Reset2_16x16.png" />
+    <None Include="Resources\MovePivotTable_16x16.png" />
+    <None Include="Resources\ModelEditor_ImageSources.png" />
+    <None Include="Resources\Image_16x16.png" />
+    <None Include="Resources\SwitchRowColumn_16x16.png" />
+    <None Include="Resources\SaveImage.png" />
+    <None Include="Resources\Image_32x32.png" />
+    <None Include="Resources\Image_16x161.png" />
+    <None Include="Resources\LiveCam16x161.png" />
+    <None Include="Resources\btnRunBack.ImageOptions.Image.png" />
+    <None Include="Resources\btnRunCurrent.ImageOptions.Image.png" />
+    <None Include="Resources\btnRunNext.ImageOptions.Image.png" />
+    <None Include="Resources\BO_Security_Permission.png" />
+    <None Include="Resources\User_16x16.png" />
+    <None Include="Resources\Open2_16x16.png" />
+    <None Include="Resources\Show_16x16.png" />
+    <None Include="Resources\NoImage.png" />
+    <None Include="Resources\BOUser_16x16.png" />
+    <None Include="Resources\BOPosition2_16x16.png" />
+    <None Include="Resources\DocumentMap_32x32.png" />
+    <None Include="Resources\DocumentMap_16x16.png" />
+    <None Include="Resources\Action_Security_ChangePassword.png" />
+    <None Include="Resources\ExportToPDF_16x16.png" />
+    <None Include="Resources\ExportToDOCX_16x16.png" />
+    <None Include="Resources\GroupHeader_16x16.png" />
+    <None Include="Resources\Splash1.jpg" />
+    <None Include="Resources\Action_Debug_Start.png" />
+    <None Include="Resources\RunCurrentImage.ico" />
+    <None Include="Resources\RunOneJob.ico" />
+    <None Include="Resources\ChartsShowLegend_16x16.png" />
+    <None Include="Resources\RefreshAllPivotTable_16x16.png" />
+    <None Include="Resources\ListNumbers_16x16.png" />
+    <None Include="Resources\Project_16x161.png" />
+    <None Include="Resources\Save_16x162.png" />
+    <None Include="Resources\SaveAll_16x161.png" />
+    <Content Include="RtcIcon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="4. Layout\NewFolder1\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="CsvHelper">
+      <Version>33.0.1</Version>
+    </PackageReference>
+    <PackageReference Include="EasyModbusTCP">
+      <Version>5.6.0</Version>
+    </PackageReference>
+    <PackageReference Include="Emgu.CV">
+      <Version>4.9.0.5494</Version>
+    </PackageReference>
+    <PackageReference Include="Emgu.CV.Bitmap">
+      <Version>4.9.0.5494</Version>
+    </PackageReference>
+    <PackageReference Include="Emgu.CV.UI">
+      <Version>4.9.0.5494</Version>
+    </PackageReference>
+    <PackageReference Include="HtmlRenderer.Core">
+      <Version>1.5.0.6</Version>
+    </PackageReference>
+    <PackageReference Include="HtmlRenderer.WinForms">
+      <Version>1.5.0.6</Version>
+    </PackageReference>
+    <PackageReference Include="log4net">
+      <Version>2.0.17</Version>
+    </PackageReference>
+    <PackageReference Include="Microsoft-WindowsAPICodePack-Shell">
+      <Version>1.1.5</Version>
+    </PackageReference>
+    <PackageReference Include="Newtonsoft.Json">
+      <Version>13.0.3</Version>
+    </PackageReference>
+    <PackageReference Include="ObjectListView.Official">
+      <Version>2.9.1</Version>
+    </PackageReference>
+    <PackageReference Include="SimpleTCP">
+      <Version>1.0.24</Version>
+    </PackageReference>
+    <PackageReference Include="Spire.Barcode">
+      <Version>7.3.5</Version>
+    </PackageReference>
+    <PackageReference Include="SQLitePCLRaw.core">
+      <Version>2.1.4</Version>
+    </PackageReference>
+    <PackageReference Include="SuperSimpleTcp">
+      <Version>3.0.14</Version>
+    </PackageReference>
+    <PackageReference Include="System.Data.SQLite.Core">
+      <Version>1.0.118</Version>
+    </PackageReference>
+    <PackageReference Include="System.Drawing.Common">
+      <Version>8.0.0</Version>
+    </PackageReference>
+    <PackageReference Include="WindowsAPICodePack-Core">
+      <Version>1.1.2</Version>
+    </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.8">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.8 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

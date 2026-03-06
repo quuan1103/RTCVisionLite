@@ -1,0 +1,151 @@
+2024-10-29 08:45:03.8820 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Forms.FrmMain.ShowProjectCAMToLayoutControl_Normal() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\2. Forms\FrmMain.cs:line 241
+   at RTC_Vision_Lite.Forms.FrmMain.ShowProjectCAMToLayoutControl(Boolean isAutoSetMaximize) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\2. Forms\FrmMain.cs:line 594
+2024-10-29 08:45:17.9561 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Forms.FrmMain.ShowProjectCAMToLayoutControl_Normal() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\2. Forms\FrmMain.cs:line 241
+   at RTC_Vision_Lite.Forms.FrmMain.ShowProjectCAMToLayoutControl(Boolean isAutoSetMaximize) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\2. Forms\FrmMain.cs:line 594
+2024-10-29 08:50:05.9849 
+» Message:	Cross-thread operation not valid: Control '' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.SendMessage(Int32 msg, Int32 wparam, Int32 lparam)
+   at System.Windows.Forms.ComboBox.get_SelectedIndex()
+   at System.Windows.Forms.ComboBox.get_SelectedItem()
+   at System.Windows.Forms.ToolStripComboBox.get_SelectedItem()
+   at RTC_Vision_Lite.Forms.FrmMain.GetCurrentProject() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\2. Forms\FrmMain.cs:line 1107
+2024-10-29 09:12:41.4939 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Forms.FrmMain.ShowProjectCAMToLayoutControl_Normal() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\2. Forms\FrmMain.cs:line 241
+   at RTC_Vision_Lite.Forms.FrmMain.ShowProjectCAMToLayoutControl(Boolean isAutoSetMaximize) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\2. Forms\FrmMain.cs:line 594
+2024-10-29 09:12:50.4453 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Forms.FrmMain.ShowProjectCAMToLayoutControl_Normal() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\2. Forms\FrmMain.cs:line 241
+   at RTC_Vision_Lite.Forms.FrmMain.ShowProjectCAMToLayoutControl(Boolean isAutoSetMaximize) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\2. Forms\FrmMain.cs:line 594
+2024-10-29 09:13:59.5071 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Forms.FrmMain.ShowProjectCAMToLayoutControl_Normal() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\2. Forms\FrmMain.cs:line 241
+   at RTC_Vision_Lite.Forms.FrmMain.ShowProjectCAMToLayoutControl(Boolean isAutoSetMaximize) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\2. Forms\FrmMain.cs:line 594
+2024-10-29 09:14:17.8967 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Forms.FrmMain.ShowProjectCAMToLayoutControl_Normal() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\2. Forms\FrmMain.cs:line 241
+   at RTC_Vision_Lite.Forms.FrmMain.ShowProjectCAMToLayoutControl(Boolean isAutoSetMaximize) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\2. Forms\FrmMain.cs:line 594
+2024-10-29 09:15:02.6149 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Forms.FrmMain.ShowProjectCAMToLayoutControl_Normal() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\2. Forms\FrmMain.cs:line 241
+   at RTC_Vision_Lite.Forms.FrmMain.ShowProjectCAMToLayoutControl(Boolean isAutoSetMaximize) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\2. Forms\FrmMain.cs:line 594
+2024-10-29 09:15:11.0775 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Forms.FrmMain.ShowProjectCAMToLayoutControl_Normal() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\2. Forms\FrmMain.cs:line 241
+   at RTC_Vision_Lite.Forms.FrmMain.ShowProjectCAMToLayoutControl(Boolean isAutoSetMaximize) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\2. Forms\FrmMain.cs:line 594
+2024-10-29 09:16:34.4829 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Forms.FrmMain.ShowProjectCAMToLayoutControl_Normal() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\2. Forms\FrmMain.cs:line 241
+   at RTC_Vision_Lite.Forms.FrmMain.ShowProjectCAMToLayoutControl(Boolean isAutoSetMaximize) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\2. Forms\FrmMain.cs:line 594
+2024-10-29 09:17:06.0032 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Forms.FrmMain.ShowProjectCAMToLayoutControl_Normal() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\2. Forms\FrmMain.cs:line 241
+   at RTC_Vision_Lite.Forms.FrmMain.ShowProjectCAMToLayoutControl(Boolean isAutoSetMaximize) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\2. Forms\FrmMain.cs:line 594
+2024-10-29 09:17:49.4902 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Forms.FrmMain.ShowProjectCAMToLayoutControl_Normal() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\2. Forms\FrmMain.cs:line 241
+   at RTC_Vision_Lite.Forms.FrmMain.ShowProjectCAMToLayoutControl(Boolean isAutoSetMaximize) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\2. Forms\FrmMain.cs:line 594
+2024-10-29 09:18:22.6664 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Forms.FrmMain.ShowProjectCAMToLayoutControl_Normal() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\2. Forms\FrmMain.cs:line 241
+   at RTC_Vision_Lite.Forms.FrmMain.ShowProjectCAMToLayoutControl(Boolean isAutoSetMaximize) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\2. Forms\FrmMain.cs:line 594
+2024-10-29 09:19:45.9224 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Forms.FrmMain.ShowProjectCAMToLayoutControl_Normal() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\2. Forms\FrmMain.cs:line 241
+   at RTC_Vision_Lite.Forms.FrmMain.ShowProjectCAMToLayoutControl(Boolean isAutoSetMaximize) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\2. Forms\FrmMain.cs:line 594
+2024-10-29 09:20:17.6735 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Forms.FrmMain.ShowProjectCAMToLayoutControl_Normal() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\2. Forms\FrmMain.cs:line 241
+   at RTC_Vision_Lite.Forms.FrmMain.ShowProjectCAMToLayoutControl(Boolean isAutoSetMaximize) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\2. Forms\FrmMain.cs:line 594
+2024-10-29 09:50:22.6455 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Forms.FrmMain.ShowProjectCAMToLayoutControl_Normal() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\2. Forms\FrmMain.cs:line 241
+   at RTC_Vision_Lite.Forms.FrmMain.ShowProjectCAMToLayoutControl(Boolean isAutoSetMaximize) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\2. Forms\FrmMain.cs:line 594
+2024-10-29 09:50:27.6701 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Forms.FrmMain.ShowProjectCAMToLayoutControl_Normal() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\2. Forms\FrmMain.cs:line 241
+   at RTC_Vision_Lite.Forms.FrmMain.ShowProjectCAMToLayoutControl(Boolean isAutoSetMaximize) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\2. Forms\FrmMain.cs:line 594
+2024-10-29 09:50:34.6886 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Forms.FrmMain.ShowProjectCAMToLayoutControl_Normal() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\2. Forms\FrmMain.cs:line 241
+   at RTC_Vision_Lite.Forms.FrmMain.ShowProjectCAMToLayoutControl(Boolean isAutoSetMaximize) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\2. Forms\FrmMain.cs:line 594
+2024-10-29 09:50:44.3492 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Forms.FrmMain.ShowProjectCAMToLayoutControl_Normal() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\2. Forms\FrmMain.cs:line 241
+   at RTC_Vision_Lite.Forms.FrmMain.ShowProjectCAMToLayoutControl(Boolean isAutoSetMaximize) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\2. Forms\FrmMain.cs:line 594
+2024-10-29 09:51:04.1869 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Forms.FrmMain.ShowProjectCAMToLayoutControl_Normal() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\2. Forms\FrmMain.cs:line 241
+   at RTC_Vision_Lite.Forms.FrmMain.ShowProjectCAMToLayoutControl(Boolean isAutoSetMaximize) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\2. Forms\FrmMain.cs:line 594
+2024-10-29 09:56:37.2519 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Forms.FrmMain.ShowProjectCAMToLayoutControl_Normal() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\2. Forms\FrmMain.cs:line 241
+   at RTC_Vision_Lite.Forms.FrmMain.ShowProjectCAMToLayoutControl(Boolean isAutoSetMaximize) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\2. Forms\FrmMain.cs:line 594
+2024-10-29 10:29:54.1270 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Forms.FrmMain.ShowProjectCAMToLayoutControl_Normal() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\2. Forms\FrmMain.cs:line 241
+   at RTC_Vision_Lite.Forms.FrmMain.ShowProjectCAMToLayoutControl(Boolean isAutoSetMaximize) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\2. Forms\FrmMain.cs:line 594
+2024-10-29 10:30:32.8054 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Forms.FrmMain.ShowProjectCAMToLayoutControl_Normal() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\2. Forms\FrmMain.cs:line 241
+   at RTC_Vision_Lite.Forms.FrmMain.ShowProjectCAMToLayoutControl(Boolean isAutoSetMaximize) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\2. Forms\FrmMain.cs:line 594
+2024-10-29 10:35:23.3323 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Forms.FrmMain.ShowProjectCAMToLayoutControl_Normal() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\2. Forms\FrmMain.cs:line 241
+   at RTC_Vision_Lite.Forms.FrmMain.<ShowProjectCAMToLayoutControl>d__30.MoveNext() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\2. Forms\FrmMain.cs:line 594
+2024-10-29 10:36:11.5250 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Forms.FrmMain.ShowProjectCAMToLayoutControl_Normal() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\2. Forms\FrmMain.cs:line 241
+   at RTC_Vision_Lite.Forms.FrmMain.<ShowProjectCAMToLayoutControl>d__30.MoveNext() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\2. Forms\FrmMain.cs:line 594
+2024-10-29 10:37:18.2329 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Forms.FrmMain.ShowProjectCAMToLayoutControl_Normal() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\2. Forms\FrmMain.cs:line 241
+   at RTC_Vision_Lite.Forms.FrmMain.<ShowProjectCAMToLayoutControl>d__30.MoveNext() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\2. Forms\FrmMain.cs:line 594
+2024-10-29 10:42:04.0533 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Forms.FrmMain.ShowProjectCAMToLayoutControl_Normal()
+   at RTC_Vision_Lite.Forms.FrmMain.<ShowProjectCAMToLayoutControl>d__30.MoveNext()
+2024-10-29 11:52:02.8182 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Forms.FrmMain.ShowProjectCAMToLayoutControl_Normal()
+   at RTC_Vision_Lite.Forms.FrmMain.<ShowProjectCAMToLayoutControl>d__30.MoveNext()
+2024-10-29 11:52:59.6417 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Forms.FrmMain.ShowProjectCAMToLayoutControl_Normal() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\2. Forms\FrmMain.cs:line 241
+   at RTC_Vision_Lite.Forms.FrmMain.<ShowProjectCAMToLayoutControl>d__30.MoveNext() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\2. Forms\FrmMain.cs:line 594
+2024-10-29 13:44:56.4174 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Forms.FrmMain.ShowProjectCAMToLayoutControl_Normal() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\2. Forms\FrmMain.cs:line 241
+   at RTC_Vision_Lite.Forms.FrmMain.<ShowProjectCAMToLayoutControl>d__30.MoveNext() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\2. Forms\FrmMain.cs:line 594
+2024-10-29 14:23:12.9316 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.Clone(Boolean& isSuccess, Boolean isUseTempFile)
+2024-10-29 14:24:46.7221 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.Clone(Boolean& isSuccess, Boolean isUseTempFile) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 362
+2024-10-29 14:28:06.8290 
+» Message:	Thread was being aborted.
+» Stack Trace:	   at System.GC._WaitForPendingFinalizers()
+   at System.GC.WaitForPendingFinalizers()
+   at RTC_Vision_Lite.Classes.cSQLite.Close() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\DataAndFiles\cSQLite.cs:line 90
+2024-10-29 14:28:44.3802 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.Clone(Boolean& isSuccess, Boolean isUseTempFile) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 362
+2024-10-29 14:30:07.0129 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.Clone(Boolean& isSuccess, Boolean isUseTempFile) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 362
+2024-10-29 14:31:37.9227 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.Clone(Boolean& isSuccess, Boolean isUseTempFile) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 362
+2024-10-29 15:40:20.8661 
+» Message:	Cross-thread operation not valid: Control '' accessed from a thread other than the thread it was created on.
+» Stack Trace:	   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.ComboBox.get_SelectedIndex()
+   at System.Windows.Forms.ComboBox.get_SelectedItem()
+   at System.Windows.Forms.ToolStripComboBox.get_SelectedItem()
+   at RTC_Vision_Lite.Forms.FrmMain.<GetCurrentProject>d__49.MoveNext() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\2. Forms\FrmMain.cs:line 1107

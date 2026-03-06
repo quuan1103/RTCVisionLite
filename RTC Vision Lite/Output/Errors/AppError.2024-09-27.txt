@@ -1,0 +1,143 @@
+2024-09-27 08:55:24.1472 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at System.Drawing.Bitmap..ctor(Image original)
+   at RTC_Vision_Lite.Classes.cGroupActions.SetImageToAllAction(Image image) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.CamFunctions.cs:line 112
+   at RTC_Vision_Lite.Classes.cGroupActions.SnapImage(Boolean isSetPart, Boolean isPreview, String errMessage) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.CamFunctions.cs:line 52
+   at RTC_Vision_Lite.UserControls.ucMainActions.TakePicture(Boolean _IsPreView) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\3. UserControls\Tools\ucMainActions.cs:line 567
+   at RTC_Vision_Lite.Classes.cGroupActions.RunBefore(cAction Action, Boolean _WithShowMessage) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 637
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_RunCurrentAction(Boolean isShowMessage) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 546
+   at RTC_Vision_Lite.Classes.cGroupActions.Setting_Run(ERunActionMode runMode, Boolean isForceSnap, String fileName, Boolean isShowMessage, Boolean isThreading, Boolean isResetIdRun, Boolean isCheckData, cAction runProgramAction) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.RunInSettings.cs:line 148
+2024-09-27 09:51:31.5799 
+» Message:	Value of '386' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value
+» Stack Trace:	   at System.Windows.Forms.ScrollBar.set_Value(Int32 value)
+   at RTC_Vision_Lite.UserControls.ucRangeMaxMinLimit.ValueChanged() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\3. UserControls\Commons\ucRangeMaxMinLimit.cs:line 85
+   at RTC_Vision_Lite.UserControls.ucRangeMaxMinLimit.set_RTCMax(Double value) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\3. UserControls\Commons\ucRangeMaxMinLimit.cs:line 56
+   at RTC_Vision_Lite.UserControls.ucRangeMaxMinLimit.SetValue(SListDouble sListDouble) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\3. UserControls\Commons\ucRangeMaxMinLimit.cs:line 34
+   at RTC_Vision_Lite.UserControls.ucBaseActionDetail.BindingControl_RangeMaxMinLimit() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\3. UserControls\Tools\ucBaseActionDetail.cs:line 1913
+   at RTC_Vision_Lite.UserControls.ucBaseActionDetail.BindingDataToControls() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\3. UserControls\Tools\ucBaseActionDetail.cs:line 1430
+   at RTC_Vision_Lite.Forms.FrmHsmartWindow.SwitchRoi(Boolean onlyGetValue) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\2. Forms\FrmHsmartWindow.cs:line 1107
+   at RTC_Vision_Lite.Forms.FrmHsmartWindow.ReviewAllROIS_General(Boolean isViewResult) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\2. Forms\FrmHsmartWindow.cs:line 1462
+   at RTC_Vision_Lite.Forms.FrmHsmartWindow.ReviewAllROIS(Boolean _OnlycalcShapeList, Boolean isViewResult) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\2. Forms\FrmHsmartWindow.cs:line 1379
+   at RTC_Vision_Lite.Classes.cAction.GetValueAfterRunTool() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1241
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 944
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 910
+2024-09-27 09:51:32.9218 
+» Message:	Value of '386' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value
+» Stack Trace:	   at System.Windows.Forms.ScrollBar.set_Value(Int32 value)
+   at RTC_Vision_Lite.UserControls.ucRangeMaxMinLimit.ValueChanged() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\3. UserControls\Commons\ucRangeMaxMinLimit.cs:line 85
+   at RTC_Vision_Lite.UserControls.ucRangeMaxMinLimit.set_RTCMax(Double value) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\3. UserControls\Commons\ucRangeMaxMinLimit.cs:line 56
+   at RTC_Vision_Lite.UserControls.ucRangeMaxMinLimit.SetValue(SListDouble sListDouble) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\3. UserControls\Commons\ucRangeMaxMinLimit.cs:line 34
+   at RTC_Vision_Lite.UserControls.ucBaseActionDetail.BindingControl_RangeMaxMinLimit() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\3. UserControls\Tools\ucBaseActionDetail.cs:line 1913
+   at RTC_Vision_Lite.UserControls.ucBaseActionDetail.BindingDataToControls() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\3. UserControls\Tools\ucBaseActionDetail.cs:line 1430
+   at RTC_Vision_Lite.Forms.FrmHsmartWindow.SwitchRoi(Boolean onlyGetValue) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\2. Forms\FrmHsmartWindow.cs:line 1107
+   at RTC_Vision_Lite.Forms.FrmHsmartWindow.ReviewAllROIS_General(Boolean isViewResult) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\2. Forms\FrmHsmartWindow.cs:line 1462
+   at RTC_Vision_Lite.Forms.FrmHsmartWindow.ReviewAllROIS(Boolean _OnlycalcShapeList, Boolean isViewResult) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\2. Forms\FrmHsmartWindow.cs:line 1379
+   at RTC_Vision_Lite.Classes.cAction.GetValueAfterRunTool() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1241
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 944
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 910
+2024-09-27 09:51:34.3772 
+» Message:	Value of '386' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value
+» Stack Trace:	   at System.Windows.Forms.ScrollBar.set_Value(Int32 value)
+   at RTC_Vision_Lite.UserControls.ucRangeMaxMinLimit.ValueChanged() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\3. UserControls\Commons\ucRangeMaxMinLimit.cs:line 85
+   at RTC_Vision_Lite.UserControls.ucRangeMaxMinLimit.set_RTCMax(Double value) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\3. UserControls\Commons\ucRangeMaxMinLimit.cs:line 56
+   at RTC_Vision_Lite.UserControls.ucRangeMaxMinLimit.SetValue(SListDouble sListDouble) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\3. UserControls\Commons\ucRangeMaxMinLimit.cs:line 34
+   at RTC_Vision_Lite.UserControls.ucBaseActionDetail.BindingControl_RangeMaxMinLimit() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\3. UserControls\Tools\ucBaseActionDetail.cs:line 1913
+   at RTC_Vision_Lite.UserControls.ucBaseActionDetail.BindingDataToControls() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\3. UserControls\Tools\ucBaseActionDetail.cs:line 1430
+   at RTC_Vision_Lite.Forms.FrmHsmartWindow.SwitchRoi(Boolean onlyGetValue) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\2. Forms\FrmHsmartWindow.cs:line 1107
+   at RTC_Vision_Lite.Forms.FrmHsmartWindow.ReviewAllROIS_General(Boolean isViewResult) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\2. Forms\FrmHsmartWindow.cs:line 1462
+   at RTC_Vision_Lite.Forms.FrmHsmartWindow.ReviewAllROIS(Boolean _OnlycalcShapeList, Boolean isViewResult) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\2. Forms\FrmHsmartWindow.cs:line 1379
+   at RTC_Vision_Lite.Classes.cAction.GetValueAfterRunTool() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1241
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 944
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 910
+2024-09-27 09:51:41.8110 
+» Message:	Value of '386' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value
+» Stack Trace:	   at System.Windows.Forms.ScrollBar.set_Value(Int32 value)
+   at RTC_Vision_Lite.UserControls.ucRangeMaxMinLimit.ValueChanged() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\3. UserControls\Commons\ucRangeMaxMinLimit.cs:line 85
+   at RTC_Vision_Lite.UserControls.ucRangeMaxMinLimit.set_RTCMax(Double value) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\3. UserControls\Commons\ucRangeMaxMinLimit.cs:line 56
+   at RTC_Vision_Lite.UserControls.ucRangeMaxMinLimit.SetValue(SListDouble sListDouble) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\3. UserControls\Commons\ucRangeMaxMinLimit.cs:line 34
+   at RTC_Vision_Lite.UserControls.ucBaseActionDetail.BindingControl_RangeMaxMinLimit() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\3. UserControls\Tools\ucBaseActionDetail.cs:line 1913
+   at RTC_Vision_Lite.UserControls.ucBaseActionDetail.BindingDataToControls() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\3. UserControls\Tools\ucBaseActionDetail.cs:line 1430
+   at RTC_Vision_Lite.Forms.FrmHsmartWindow.SwitchRoi(Boolean onlyGetValue) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\2. Forms\FrmHsmartWindow.cs:line 1107
+   at RTC_Vision_Lite.Forms.FrmHsmartWindow.ReviewAllROIS_General(Boolean isViewResult) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\2. Forms\FrmHsmartWindow.cs:line 1462
+   at RTC_Vision_Lite.Forms.FrmHsmartWindow.ReviewAllROIS(Boolean _OnlycalcShapeList, Boolean isViewResult) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\2. Forms\FrmHsmartWindow.cs:line 1379
+   at RTC_Vision_Lite.Classes.cAction.GetValueAfterRunTool() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1241
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 944
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 910
+2024-09-27 10:36:44.1755 
+» Message:	Value of '1227' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value
+» Stack Trace:	   at System.Windows.Forms.ScrollBar.set_Value(Int32 value)
+   at RTC_Vision_Lite.UserControls.ucRangeMaxMinLimit.ValueChanged() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\3. UserControls\Commons\ucRangeMaxMinLimit.cs:line 85
+   at RTC_Vision_Lite.UserControls.ucRangeMaxMinLimit.set_RTCEndValue(Double value) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\3. UserControls\Commons\ucRangeMaxMinLimit.cs:line 102
+   at RTC_Vision_Lite.UserControls.ucRangeMaxMinLimit.SetValue(SListDouble sListDouble) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\3. UserControls\Commons\ucRangeMaxMinLimit.cs:line 36
+   at RTC_Vision_Lite.UserControls.ucBaseActionDetail.BindingControl_RangeMaxMinLimit() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\3. UserControls\Tools\ucBaseActionDetail.cs:line 1913
+   at RTC_Vision_Lite.UserControls.ucBaseActionDetail.BindingDataToControls() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\3. UserControls\Tools\ucBaseActionDetail.cs:line 1430
+   at RTC_Vision_Lite.Forms.FrmHsmartWindow.SwitchRoi(Boolean onlyGetValue) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\2. Forms\FrmHsmartWindow.cs:line 1107
+   at RTC_Vision_Lite.Forms.FrmHsmartWindow.ReviewAllROIS_General(Boolean isViewResult) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\2. Forms\FrmHsmartWindow.cs:line 1462
+   at RTC_Vision_Lite.Forms.FrmHsmartWindow.ReviewAllROIS(Boolean _OnlycalcShapeList, Boolean isViewResult) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\2. Forms\FrmHsmartWindow.cs:line 1379
+   at RTC_Vision_Lite.Classes.cAction.GetValueAfterRunTool() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1254
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 957
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 923
+2024-09-27 10:36:46.1834 
+» Message:	Value of '1227' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value
+» Stack Trace:	   at System.Windows.Forms.ScrollBar.set_Value(Int32 value)
+   at RTC_Vision_Lite.UserControls.ucRangeMaxMinLimit.ValueChanged() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\3. UserControls\Commons\ucRangeMaxMinLimit.cs:line 85
+   at RTC_Vision_Lite.UserControls.ucRangeMaxMinLimit.set_RTCMax(Double value) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\3. UserControls\Commons\ucRangeMaxMinLimit.cs:line 56
+   at RTC_Vision_Lite.UserControls.ucRangeMaxMinLimit.SetValue(SListDouble sListDouble) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\3. UserControls\Commons\ucRangeMaxMinLimit.cs:line 34
+   at RTC_Vision_Lite.UserControls.ucBaseActionDetail.BindingControl_RangeMaxMinLimit() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\3. UserControls\Tools\ucBaseActionDetail.cs:line 1913
+   at RTC_Vision_Lite.UserControls.ucBaseActionDetail.BindingDataToControls() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\3. UserControls\Tools\ucBaseActionDetail.cs:line 1430
+   at RTC_Vision_Lite.Forms.FrmHsmartWindow.SwitchRoi(Boolean onlyGetValue) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\2. Forms\FrmHsmartWindow.cs:line 1107
+   at RTC_Vision_Lite.Forms.FrmHsmartWindow.ReviewAllROIS_General(Boolean isViewResult) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\2. Forms\FrmHsmartWindow.cs:line 1462
+   at RTC_Vision_Lite.Forms.FrmHsmartWindow.ReviewAllROIS(Boolean _OnlycalcShapeList, Boolean isViewResult) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\2. Forms\FrmHsmartWindow.cs:line 1379
+   at RTC_Vision_Lite.Classes.cAction.GetValueAfterRunTool() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1254
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 957
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 923
+2024-09-27 10:36:47.6094 
+» Message:	Value of '1227' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value
+» Stack Trace:	   at System.Windows.Forms.ScrollBar.set_Value(Int32 value)
+   at RTC_Vision_Lite.UserControls.ucRangeMaxMinLimit.ValueChanged() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\3. UserControls\Commons\ucRangeMaxMinLimit.cs:line 85
+   at RTC_Vision_Lite.UserControls.ucRangeMaxMinLimit.set_RTCMax(Double value) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\3. UserControls\Commons\ucRangeMaxMinLimit.cs:line 56
+   at RTC_Vision_Lite.UserControls.ucRangeMaxMinLimit.SetValue(SListDouble sListDouble) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\3. UserControls\Commons\ucRangeMaxMinLimit.cs:line 34
+   at RTC_Vision_Lite.UserControls.ucBaseActionDetail.BindingControl_RangeMaxMinLimit() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\3. UserControls\Tools\ucBaseActionDetail.cs:line 1913
+   at RTC_Vision_Lite.UserControls.ucBaseActionDetail.BindingDataToControls() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\3. UserControls\Tools\ucBaseActionDetail.cs:line 1430
+   at RTC_Vision_Lite.Forms.FrmHsmartWindow.SwitchRoi(Boolean onlyGetValue) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\2. Forms\FrmHsmartWindow.cs:line 1107
+   at RTC_Vision_Lite.Forms.FrmHsmartWindow.ReviewAllROIS_General(Boolean isViewResult) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\2. Forms\FrmHsmartWindow.cs:line 1462
+   at RTC_Vision_Lite.Forms.FrmHsmartWindow.ReviewAllROIS(Boolean _OnlycalcShapeList, Boolean isViewResult) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\2. Forms\FrmHsmartWindow.cs:line 1379
+   at RTC_Vision_Lite.Classes.cAction.GetValueAfterRunTool() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1254
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 957
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 923
+2024-09-27 10:36:48.7238 
+» Message:	Value of '1227' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value
+» Stack Trace:	   at System.Windows.Forms.ScrollBar.set_Value(Int32 value)
+   at RTC_Vision_Lite.UserControls.ucRangeMaxMinLimit.ValueChanged() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\3. UserControls\Commons\ucRangeMaxMinLimit.cs:line 85
+   at RTC_Vision_Lite.UserControls.ucRangeMaxMinLimit.set_RTCMax(Double value) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\3. UserControls\Commons\ucRangeMaxMinLimit.cs:line 56
+   at RTC_Vision_Lite.UserControls.ucRangeMaxMinLimit.SetValue(SListDouble sListDouble) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\3. UserControls\Commons\ucRangeMaxMinLimit.cs:line 34
+   at RTC_Vision_Lite.UserControls.ucBaseActionDetail.BindingControl_RangeMaxMinLimit() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\3. UserControls\Tools\ucBaseActionDetail.cs:line 1913
+   at RTC_Vision_Lite.UserControls.ucBaseActionDetail.BindingDataToControls() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\3. UserControls\Tools\ucBaseActionDetail.cs:line 1430
+   at RTC_Vision_Lite.Forms.FrmHsmartWindow.SwitchRoi(Boolean onlyGetValue) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\2. Forms\FrmHsmartWindow.cs:line 1107
+   at RTC_Vision_Lite.Forms.FrmHsmartWindow.ReviewAllROIS_General(Boolean isViewResult) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\2. Forms\FrmHsmartWindow.cs:line 1462
+   at RTC_Vision_Lite.Forms.FrmHsmartWindow.ReviewAllROIS(Boolean _OnlycalcShapeList, Boolean isViewResult) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\2. Forms\FrmHsmartWindow.cs:line 1379
+   at RTC_Vision_Lite.Classes.cAction.GetValueAfterRunTool() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1254
+   at RTC_Vision_Lite.Classes.cAction.RunAllToolNeedDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 957
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 923
+2024-09-27 14:39:09.2647 
+» Message:	External component has thrown an exception.
+» Stack Trace:	   at Emgu.CV.Util.VectorOfVectorOfPoint.VectorOfVectorOfPointGetItemPtr(IntPtr vec, Int32 index, IntPtr& element)
+   at Emgu.CV.Util.VectorOfVectorOfPoint.get_Item(Int32 index)
+   at NewPattern.NewPattern.TrainTemplate(Mat template) in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\8. NewPattern\NewPattern\Class1.cs:line 1326
+   at NewPattern.NewPattern.Train() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\8. NewPattern\NewPattern\Class1.cs:line 463
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2703
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1048
+2024-09-27 14:39:13.8527 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at System.Drawing.Image.Save(String filename, ImageFormat format)
+   at System.Drawing.Image.Save(String filename)
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in D:\RTC\RTCVisionLite\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2681

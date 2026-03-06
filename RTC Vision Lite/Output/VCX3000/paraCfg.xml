@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='GBK'?>
+<!-- name: 用于阅读区分                 -->
+<!-- port：端口号（从1开始，按位增加）  -->
+<!-- pin ：寄存器地址，由硬件给出。前四位为寄存器地址，设置0xA40切换；后四位为0xA42中电平对应的数据位  -->
+<!-- 例  ：如GPO6的pin为0x13，则需要先设置寄存器0xA40为0x01（0x13前四位为0x1），再读写寄存0xA42的值，这个值右往左从0开始数第3位（0x13后四位为3表示为0000 1000），就是对应GPO6  -->
+<!-- 文件中配置不足7进16出时，未配置的端口会返回不支持  -->
+<!-- VC3000 -->
+<root>
+	<GPI>
+		<para name="GPI1" port="0x1"  pin="0x00"/>
+		<para name="GPI2" port="0x2"  pin="0x01"/>
+		<para name="GPI3" port="0x4"  pin="0x02"/>
+		<para name="GPI4" port="0x8"  pin="0x97"/>
+		<para name="GPI5" port="0x10" pin="0x96"/>
+		<para name="GPI6" port="0x20" pin="0x92"/>
+		<para name="GPI7" port="0x40" pin="0x91"/>
+	</GPI>
+	<GPO>
+		<para name="GPO1"  port="0x1"    pin="0x06"/>
+		<para name="GPO2"  port="0x2"    pin="0x07"/>
+		<para name="GPO3"  port="0x4"    pin="0x10"/>
+		<para name="GPO4"  port="0x8"    pin="0x11"/>
+		<para name="GPO5"  port="0x10"   pin="0x12"/>
+		<para name="GPO6"  port="0x20"   pin="0x13"/>
+		<para name="GPO7"  port="0x40"   pin="0x16"/>
+		<para name="GPO8"  port="0x80"   pin="0x17"/>
+		<para name="GPO9"  port="0x100"  pin="0x04"/>
+		<para name="GPO10" port="0x200"  pin="0x05"/>
+		<para name="GPO11" port="0x400"  pin="0xA6"/>
+		<para name="GPO12" port="0x800"  pin="0xA7"/>
+		<para name="GPO13" port="0x1000" pin="0x61"/>
+		<para name="GPO14" port="0x2000" pin="0xA2"/>
+		<para name="GPO15" port="0x4000" pin="0xA1"/>
+		<para name="GPO16" port="0x8000" pin="0xA0"/>
+	</GPO>
+</root>
+<!-- VT3000 -->
+<!-- 
+<root>
+	<GPI>
+		<para name="GPI1" port="0x1"  pin="0x10"/>
+		<para name="GPI2" port="0x2"  pin="0x11"/>
+		<para name="GPI3" port="0x4"  pin="0x12"/>
+	</GPI>
+	<GPO>
+		<para name="GPO1"  port="0x1"    pin="0x13"/>
+		<para name="GPO2"  port="0x2"    pin="0x14"/>
+		<para name="GPO3"  port="0x4"    pin="0x15"/>
+		<para name="GPO4"  port="0x8"    pin="0x16"/>
+		<para name="GPO5"  port="0x10"   pin="0x17"/>
+		<para name="GPO6"  port="0x20"   pin="0x20"/>
+		<para name="GPO7"  port="0x40"   pin="0x21"/>
+		<para name="GPO8"  port="0x80"   pin="0x22"/>
+	</GPO>
+</root>
+ -->

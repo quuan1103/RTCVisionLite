@@ -1,0 +1,224 @@
+2025-06-16 10:05:49.8809 
+» Message:	Could not load file or assembly 'Basler.Pylon, Version=1.2.0.0, Culture=neutral, PublicKeyToken=e389355f398382ab' or one of its dependencies. An attempt was made to load a program with an incorrect format.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cCameraSettings..ctor()
+   at RTC_Vision_Lite.Classes.cSourceImageSettings..ctor() in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Base\Action\cSourceImageSettings.cs:line 69
+   at RTC_Vision_Lite.Classes.cGroupActions..ctor(FrmHsmartWindow _frmHsmartWindow, Boolean IsTemplate) in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 408
+   at RTC_Vision_Lite.Classes.cCAMTypes..ctor() in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Base\cCAMTypes.cs:line 187
+   at RTC_Vision_Lite.Classes.ProjectData.OpenProject_GetCAMs(cProjectTypes project, Boolean widthoutTool) in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\DataAndFiles\cData.ProjectData.cs:line 605
+2025-06-16 10:05:49.9448 
+» Message:	Could not load file or assembly 'Basler.Pylon, Version=1.2.0.0, Culture=neutral, PublicKeyToken=e389355f398382ab' or one of its dependencies. An attempt was made to load a program with an incorrect format.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cCameraSettings..ctor()
+   at RTC_Vision_Lite.Classes.cSourceImageSettings..ctor() in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Base\Action\cSourceImageSettings.cs:line 69
+   at RTC_Vision_Lite.Classes.cGroupActions..ctor(FrmHsmartWindow _frmHsmartWindow, Boolean IsTemplate) in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 408
+   at RTC_Vision_Lite.Classes.cCAMTypes..ctor() in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Base\cCAMTypes.cs:line 187
+   at RTC_Vision_Lite.Classes.ProjectData.OpenProject_GetCAMs(cProjectTypes project, Boolean widthoutTool) in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\DataAndFiles\cData.ProjectData.cs:line 605
+2025-06-16 10:05:49.9675 
+» Message:	Could not load file or assembly 'Basler.Pylon, Version=1.2.0.0, Culture=neutral, PublicKeyToken=e389355f398382ab' or one of its dependencies. An attempt was made to load a program with an incorrect format.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cCameraSettings..ctor()
+   at RTC_Vision_Lite.Classes.cSourceImageSettings..ctor() in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Base\Action\cSourceImageSettings.cs:line 69
+   at RTC_Vision_Lite.Classes.cGroupActions..ctor(FrmHsmartWindow _frmHsmartWindow, Boolean IsTemplate) in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 408
+   at RTC_Vision_Lite.Classes.cCAMTypes..ctor() in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Base\cCAMTypes.cs:line 187
+   at RTC_Vision_Lite.Classes.ProjectData.OpenProject_GetCAMs(cProjectTypes project, Boolean widthoutTool) in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\DataAndFiles\cData.ProjectData.cs:line 605
+2025-06-16 10:05:49.9892 
+» Message:	Could not load file or assembly 'Basler.Pylon, Version=1.2.0.0, Culture=neutral, PublicKeyToken=e389355f398382ab' or one of its dependencies. An attempt was made to load a program with an incorrect format.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cCameraSettings..ctor()
+   at RTC_Vision_Lite.Classes.cSourceImageSettings..ctor() in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Base\Action\cSourceImageSettings.cs:line 69
+   at RTC_Vision_Lite.Classes.cGroupActions..ctor(FrmHsmartWindow _frmHsmartWindow, Boolean IsTemplate) in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 408
+   at RTC_Vision_Lite.Classes.cCAMTypes..ctor() in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Base\cCAMTypes.cs:line 187
+   at RTC_Vision_Lite.Classes.ProjectData.OpenProject_GetCAMs(cProjectTypes project, Boolean widthoutTool) in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\DataAndFiles\cData.ProjectData.cs:line 605
+2025-06-16 10:08:08.3656 
+» Message:	Could not load file or assembly 'Basler.Pylon, Version=1.2.0.0, Culture=neutral, PublicKeyToken=e389355f398382ab' or one of its dependencies. An attempt was made to load a program with an incorrect format.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cCameraSettings..ctor()
+   at RTC_Vision_Lite.Classes.cSourceImageSettings..ctor() in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Base\Action\cSourceImageSettings.cs:line 69
+   at RTC_Vision_Lite.Classes.cGroupActions..ctor(FrmHsmartWindow _frmHsmartWindow, Boolean IsTemplate) in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 408
+   at RTC_Vision_Lite.Classes.cCAMTypes..ctor() in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Base\cCAMTypes.cs:line 187
+   at RTC_Vision_Lite.Classes.ProjectData.OpenProject_GetCAMs(cProjectTypes project, Boolean widthoutTool) in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\DataAndFiles\cData.ProjectData.cs:line 605
+2025-06-16 10:08:08.4259 
+» Message:	Could not load file or assembly 'Basler.Pylon, Version=1.2.0.0, Culture=neutral, PublicKeyToken=e389355f398382ab' or one of its dependencies. An attempt was made to load a program with an incorrect format.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cCameraSettings..ctor()
+   at RTC_Vision_Lite.Classes.cSourceImageSettings..ctor() in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Base\Action\cSourceImageSettings.cs:line 69
+   at RTC_Vision_Lite.Classes.cGroupActions..ctor(FrmHsmartWindow _frmHsmartWindow, Boolean IsTemplate) in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 408
+   at RTC_Vision_Lite.Classes.cCAMTypes..ctor() in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Base\cCAMTypes.cs:line 187
+   at RTC_Vision_Lite.Classes.ProjectData.OpenProject_GetCAMs(cProjectTypes project, Boolean widthoutTool) in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\DataAndFiles\cData.ProjectData.cs:line 605
+2025-06-16 10:08:08.4475 
+» Message:	Could not load file or assembly 'Basler.Pylon, Version=1.2.0.0, Culture=neutral, PublicKeyToken=e389355f398382ab' or one of its dependencies. An attempt was made to load a program with an incorrect format.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cCameraSettings..ctor()
+   at RTC_Vision_Lite.Classes.cSourceImageSettings..ctor() in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Base\Action\cSourceImageSettings.cs:line 69
+   at RTC_Vision_Lite.Classes.cGroupActions..ctor(FrmHsmartWindow _frmHsmartWindow, Boolean IsTemplate) in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 408
+   at RTC_Vision_Lite.Classes.cCAMTypes..ctor() in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Base\cCAMTypes.cs:line 187
+   at RTC_Vision_Lite.Classes.ProjectData.OpenProject_GetCAMs(cProjectTypes project, Boolean widthoutTool) in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\DataAndFiles\cData.ProjectData.cs:line 605
+2025-06-16 10:08:08.4688 
+» Message:	Could not load file or assembly 'Basler.Pylon, Version=1.2.0.0, Culture=neutral, PublicKeyToken=e389355f398382ab' or one of its dependencies. An attempt was made to load a program with an incorrect format.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cCameraSettings..ctor()
+   at RTC_Vision_Lite.Classes.cSourceImageSettings..ctor() in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Base\Action\cSourceImageSettings.cs:line 69
+   at RTC_Vision_Lite.Classes.cGroupActions..ctor(FrmHsmartWindow _frmHsmartWindow, Boolean IsTemplate) in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 408
+   at RTC_Vision_Lite.Classes.cCAMTypes..ctor() in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Base\cCAMTypes.cs:line 187
+   at RTC_Vision_Lite.Classes.ProjectData.OpenProject_GetCAMs(cProjectTypes project, Boolean widthoutTool) in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\DataAndFiles\cData.ProjectData.cs:line 605
+2025-06-16 10:25:58.5327 
+» Message:	Could not load file or assembly 'Basler.Pylon, Version=1.2.0.0, Culture=neutral, PublicKeyToken=e389355f398382ab' or one of its dependencies. An attempt was made to load a program with an incorrect format.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cCameraSettings..ctor()
+   at RTC_Vision_Lite.Classes.cSourceImageSettings..ctor() in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Base\Action\cSourceImageSettings.cs:line 69
+   at RTC_Vision_Lite.Classes.cGroupActions..ctor(FrmHsmartWindow _frmHsmartWindow, Boolean IsTemplate) in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 408
+   at RTC_Vision_Lite.Classes.cCAMTypes..ctor() in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Base\cCAMTypes.cs:line 187
+   at RTC_Vision_Lite.Classes.ProjectData.OpenProject_GetCAMs(cProjectTypes project, Boolean widthoutTool) in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\DataAndFiles\cData.ProjectData.cs:line 605
+2025-06-16 10:25:58.5811 
+» Message:	Could not load file or assembly 'Basler.Pylon, Version=1.2.0.0, Culture=neutral, PublicKeyToken=e389355f398382ab' or one of its dependencies. An attempt was made to load a program with an incorrect format.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cCameraSettings..ctor()
+   at RTC_Vision_Lite.Classes.cSourceImageSettings..ctor() in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Base\Action\cSourceImageSettings.cs:line 69
+   at RTC_Vision_Lite.Classes.cGroupActions..ctor(FrmHsmartWindow _frmHsmartWindow, Boolean IsTemplate) in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 408
+   at RTC_Vision_Lite.Classes.cCAMTypes..ctor() in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Base\cCAMTypes.cs:line 187
+   at RTC_Vision_Lite.Classes.ProjectData.OpenProject_GetCAMs(cProjectTypes project, Boolean widthoutTool) in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\DataAndFiles\cData.ProjectData.cs:line 605
+2025-06-16 10:25:58.6018 
+» Message:	Could not load file or assembly 'Basler.Pylon, Version=1.2.0.0, Culture=neutral, PublicKeyToken=e389355f398382ab' or one of its dependencies. An attempt was made to load a program with an incorrect format.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cCameraSettings..ctor()
+   at RTC_Vision_Lite.Classes.cSourceImageSettings..ctor() in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Base\Action\cSourceImageSettings.cs:line 69
+   at RTC_Vision_Lite.Classes.cGroupActions..ctor(FrmHsmartWindow _frmHsmartWindow, Boolean IsTemplate) in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 408
+   at RTC_Vision_Lite.Classes.cCAMTypes..ctor() in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Base\cCAMTypes.cs:line 187
+   at RTC_Vision_Lite.Classes.ProjectData.OpenProject_GetCAMs(cProjectTypes project, Boolean widthoutTool) in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\DataAndFiles\cData.ProjectData.cs:line 605
+2025-06-16 10:25:58.6220 
+» Message:	Could not load file or assembly 'Basler.Pylon, Version=1.2.0.0, Culture=neutral, PublicKeyToken=e389355f398382ab' or one of its dependencies. An attempt was made to load a program with an incorrect format.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cCameraSettings..ctor()
+   at RTC_Vision_Lite.Classes.cSourceImageSettings..ctor() in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Base\Action\cSourceImageSettings.cs:line 69
+   at RTC_Vision_Lite.Classes.cGroupActions..ctor(FrmHsmartWindow _frmHsmartWindow, Boolean IsTemplate) in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 408
+   at RTC_Vision_Lite.Classes.cCAMTypes..ctor() in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Base\cCAMTypes.cs:line 187
+   at RTC_Vision_Lite.Classes.ProjectData.OpenProject_GetCAMs(cProjectTypes project, Boolean widthoutTool) in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\DataAndFiles\cData.ProjectData.cs:line 605
+2025-06-16 10:31:02.1909 
+» Message:	Could not load file or assembly 'Basler.Pylon, Version=1.2.0.0, Culture=neutral, PublicKeyToken=e389355f398382ab' or one of its dependencies. An attempt was made to load a program with an incorrect format.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cCameraSettings..ctor()
+   at RTC_Vision_Lite.Classes.cSourceImageSettings..ctor() in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Base\Action\cSourceImageSettings.cs:line 69
+   at RTC_Vision_Lite.Classes.cGroupActions..ctor(FrmHsmartWindow _frmHsmartWindow, Boolean IsTemplate) in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 408
+   at RTC_Vision_Lite.Classes.cCAMTypes..ctor() in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Base\cCAMTypes.cs:line 187
+   at RTC_Vision_Lite.Classes.ProjectData.OpenProject_GetCAMs(cProjectTypes project, Boolean widthoutTool) in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\DataAndFiles\cData.ProjectData.cs:line 605
+2025-06-16 10:31:02.2417 
+» Message:	Could not load file or assembly 'Basler.Pylon, Version=1.2.0.0, Culture=neutral, PublicKeyToken=e389355f398382ab' or one of its dependencies. An attempt was made to load a program with an incorrect format.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cCameraSettings..ctor()
+   at RTC_Vision_Lite.Classes.cSourceImageSettings..ctor() in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Base\Action\cSourceImageSettings.cs:line 69
+   at RTC_Vision_Lite.Classes.cGroupActions..ctor(FrmHsmartWindow _frmHsmartWindow, Boolean IsTemplate) in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 408
+   at RTC_Vision_Lite.Classes.cCAMTypes..ctor() in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Base\cCAMTypes.cs:line 187
+   at RTC_Vision_Lite.Classes.ProjectData.OpenProject_GetCAMs(cProjectTypes project, Boolean widthoutTool) in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\DataAndFiles\cData.ProjectData.cs:line 605
+2025-06-16 10:31:02.2622 
+» Message:	Could not load file or assembly 'Basler.Pylon, Version=1.2.0.0, Culture=neutral, PublicKeyToken=e389355f398382ab' or one of its dependencies. An attempt was made to load a program with an incorrect format.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cCameraSettings..ctor()
+   at RTC_Vision_Lite.Classes.cSourceImageSettings..ctor() in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Base\Action\cSourceImageSettings.cs:line 69
+   at RTC_Vision_Lite.Classes.cGroupActions..ctor(FrmHsmartWindow _frmHsmartWindow, Boolean IsTemplate) in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 408
+   at RTC_Vision_Lite.Classes.cCAMTypes..ctor() in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Base\cCAMTypes.cs:line 187
+   at RTC_Vision_Lite.Classes.ProjectData.OpenProject_GetCAMs(cProjectTypes project, Boolean widthoutTool) in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\DataAndFiles\cData.ProjectData.cs:line 605
+2025-06-16 10:31:02.2821 
+» Message:	Could not load file or assembly 'Basler.Pylon, Version=1.2.0.0, Culture=neutral, PublicKeyToken=e389355f398382ab' or one of its dependencies. An attempt was made to load a program with an incorrect format.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cCameraSettings..ctor()
+   at RTC_Vision_Lite.Classes.cSourceImageSettings..ctor() in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Base\Action\cSourceImageSettings.cs:line 69
+   at RTC_Vision_Lite.Classes.cGroupActions..ctor(FrmHsmartWindow _frmHsmartWindow, Boolean IsTemplate) in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 408
+   at RTC_Vision_Lite.Classes.cCAMTypes..ctor() in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Base\cCAMTypes.cs:line 187
+   at RTC_Vision_Lite.Classes.ProjectData.OpenProject_GetCAMs(cProjectTypes project, Boolean widthoutTool) in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\DataAndFiles\cData.ProjectData.cs:line 605
+2025-06-16 11:19:29.1456 
+» Message:	Could not load file or assembly 'Basler.Pylon, Version=1.2.0.0, Culture=neutral, PublicKeyToken=e389355f398382ab' or one of its dependencies. An attempt was made to load a program with an incorrect format.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cCameraSettings..ctor()
+   at RTC_Vision_Lite.Classes.cSourceImageSettings..ctor() in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Base\Action\cSourceImageSettings.cs:line 69
+   at RTC_Vision_Lite.Classes.cGroupActions..ctor(FrmHsmartWindow _frmHsmartWindow, Boolean IsTemplate) in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 408
+   at RTC_Vision_Lite.Classes.cCAMTypes..ctor() in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Base\cCAMTypes.cs:line 187
+   at RTC_Vision_Lite.Classes.ProjectData.OpenProject_GetCAMs(cProjectTypes project, Boolean widthoutTool) in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\DataAndFiles\cData.ProjectData.cs:line 605
+2025-06-16 11:19:29.2149 
+» Message:	Could not load file or assembly 'Basler.Pylon, Version=1.2.0.0, Culture=neutral, PublicKeyToken=e389355f398382ab' or one of its dependencies. An attempt was made to load a program with an incorrect format.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cCameraSettings..ctor()
+   at RTC_Vision_Lite.Classes.cSourceImageSettings..ctor() in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Base\Action\cSourceImageSettings.cs:line 69
+   at RTC_Vision_Lite.Classes.cGroupActions..ctor(FrmHsmartWindow _frmHsmartWindow, Boolean IsTemplate) in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 408
+   at RTC_Vision_Lite.Classes.cCAMTypes..ctor() in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Base\cCAMTypes.cs:line 187
+   at RTC_Vision_Lite.Classes.ProjectData.OpenProject_GetCAMs(cProjectTypes project, Boolean widthoutTool) in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\DataAndFiles\cData.ProjectData.cs:line 605
+2025-06-16 11:19:29.2814 
+» Message:	Could not load file or assembly 'Basler.Pylon, Version=1.2.0.0, Culture=neutral, PublicKeyToken=e389355f398382ab' or one of its dependencies. An attempt was made to load a program with an incorrect format.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cCameraSettings..ctor()
+   at RTC_Vision_Lite.Classes.cSourceImageSettings..ctor() in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Base\Action\cSourceImageSettings.cs:line 69
+   at RTC_Vision_Lite.Classes.cGroupActions..ctor(FrmHsmartWindow _frmHsmartWindow, Boolean IsTemplate) in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 408
+   at RTC_Vision_Lite.Classes.cCAMTypes..ctor() in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Base\cCAMTypes.cs:line 187
+   at RTC_Vision_Lite.Classes.ProjectData.OpenProject_GetCAMs(cProjectTypes project, Boolean widthoutTool) in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\DataAndFiles\cData.ProjectData.cs:line 605
+2025-06-16 11:19:29.3302 
+» Message:	Could not load file or assembly 'Basler.Pylon, Version=1.2.0.0, Culture=neutral, PublicKeyToken=e389355f398382ab' or one of its dependencies. An attempt was made to load a program with an incorrect format.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cCameraSettings..ctor()
+   at RTC_Vision_Lite.Classes.cSourceImageSettings..ctor() in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Base\Action\cSourceImageSettings.cs:line 69
+   at RTC_Vision_Lite.Classes.cGroupActions..ctor(FrmHsmartWindow _frmHsmartWindow, Boolean IsTemplate) in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 408
+   at RTC_Vision_Lite.Classes.cCAMTypes..ctor() in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Base\cCAMTypes.cs:line 187
+   at RTC_Vision_Lite.Classes.ProjectData.OpenProject_GetCAMs(cProjectTypes project, Boolean widthoutTool) in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\DataAndFiles\cData.ProjectData.cs:line 605
+2025-06-16 11:43:51.6164 
+» Message:	Could not load file or assembly 'Basler.Pylon, Version=1.2.0.0, Culture=neutral, PublicKeyToken=e389355f398382ab' or one of its dependencies. An attempt was made to load a program with an incorrect format.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cCameraSettings..ctor()
+   at RTC_Vision_Lite.Classes.cSourceImageSettings..ctor() in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Base\Action\cSourceImageSettings.cs:line 69
+   at RTC_Vision_Lite.Classes.cGroupActions..ctor(FrmHsmartWindow _frmHsmartWindow, Boolean IsTemplate) in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 408
+   at RTC_Vision_Lite.Classes.cCAMTypes..ctor() in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Base\cCAMTypes.cs:line 187
+   at RTC_Vision_Lite.Classes.ProjectData.OpenProject_GetCAMs(cProjectTypes project, Boolean widthoutTool) in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\DataAndFiles\cData.ProjectData.cs:line 605
+2025-06-16 11:43:51.6912 
+» Message:	Could not load file or assembly 'Basler.Pylon, Version=1.2.0.0, Culture=neutral, PublicKeyToken=e389355f398382ab' or one of its dependencies. An attempt was made to load a program with an incorrect format.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cCameraSettings..ctor()
+   at RTC_Vision_Lite.Classes.cSourceImageSettings..ctor() in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Base\Action\cSourceImageSettings.cs:line 69
+   at RTC_Vision_Lite.Classes.cGroupActions..ctor(FrmHsmartWindow _frmHsmartWindow, Boolean IsTemplate) in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 408
+   at RTC_Vision_Lite.Classes.cCAMTypes..ctor() in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Base\cCAMTypes.cs:line 187
+   at RTC_Vision_Lite.Classes.ProjectData.OpenProject_GetCAMs(cProjectTypes project, Boolean widthoutTool) in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\DataAndFiles\cData.ProjectData.cs:line 605
+2025-06-16 11:43:51.7299 
+» Message:	Could not load file or assembly 'Basler.Pylon, Version=1.2.0.0, Culture=neutral, PublicKeyToken=e389355f398382ab' or one of its dependencies. An attempt was made to load a program with an incorrect format.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cCameraSettings..ctor()
+   at RTC_Vision_Lite.Classes.cSourceImageSettings..ctor() in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Base\Action\cSourceImageSettings.cs:line 69
+   at RTC_Vision_Lite.Classes.cGroupActions..ctor(FrmHsmartWindow _frmHsmartWindow, Boolean IsTemplate) in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 408
+   at RTC_Vision_Lite.Classes.cCAMTypes..ctor() in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Base\cCAMTypes.cs:line 187
+   at RTC_Vision_Lite.Classes.ProjectData.OpenProject_GetCAMs(cProjectTypes project, Boolean widthoutTool) in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\DataAndFiles\cData.ProjectData.cs:line 605
+2025-06-16 11:43:51.7738 
+» Message:	Could not load file or assembly 'Basler.Pylon, Version=1.2.0.0, Culture=neutral, PublicKeyToken=e389355f398382ab' or one of its dependencies. An attempt was made to load a program with an incorrect format.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cCameraSettings..ctor()
+   at RTC_Vision_Lite.Classes.cSourceImageSettings..ctor() in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Base\Action\cSourceImageSettings.cs:line 69
+   at RTC_Vision_Lite.Classes.cGroupActions..ctor(FrmHsmartWindow _frmHsmartWindow, Boolean IsTemplate) in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 408
+   at RTC_Vision_Lite.Classes.cCAMTypes..ctor() in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Base\cCAMTypes.cs:line 187
+   at RTC_Vision_Lite.Classes.ProjectData.OpenProject_GetCAMs(cProjectTypes project, Boolean widthoutTool) in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\DataAndFiles\cData.ProjectData.cs:line 605
+2025-06-16 11:44:51.3228 
+» Message:	Could not load file or assembly 'Basler.Pylon, Version=1.2.0.0, Culture=neutral, PublicKeyToken=e389355f398382ab' or one of its dependencies. An attempt was made to load a program with an incorrect format.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cCameraSettings..ctor()
+   at RTC_Vision_Lite.Classes.cSourceImageSettings..ctor() in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Base\Action\cSourceImageSettings.cs:line 69
+   at RTC_Vision_Lite.Classes.cGroupActions..ctor(FrmHsmartWindow _frmHsmartWindow, Boolean IsTemplate) in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 408
+   at RTC_Vision_Lite.Classes.cCAMTypes..ctor() in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Base\cCAMTypes.cs:line 187
+   at RTC_Vision_Lite.Classes.ProjectData.OpenProject_GetCAMs(cProjectTypes project, Boolean widthoutTool) in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\DataAndFiles\cData.ProjectData.cs:line 605
+2025-06-16 11:44:51.4112 
+» Message:	Could not load file or assembly 'Basler.Pylon, Version=1.2.0.0, Culture=neutral, PublicKeyToken=e389355f398382ab' or one of its dependencies. An attempt was made to load a program with an incorrect format.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cCameraSettings..ctor()
+   at RTC_Vision_Lite.Classes.cSourceImageSettings..ctor() in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Base\Action\cSourceImageSettings.cs:line 69
+   at RTC_Vision_Lite.Classes.cGroupActions..ctor(FrmHsmartWindow _frmHsmartWindow, Boolean IsTemplate) in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 408
+   at RTC_Vision_Lite.Classes.cCAMTypes..ctor() in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Base\cCAMTypes.cs:line 187
+   at RTC_Vision_Lite.Classes.ProjectData.OpenProject_GetCAMs(cProjectTypes project, Boolean widthoutTool) in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\DataAndFiles\cData.ProjectData.cs:line 605
+2025-06-16 11:44:51.4779 
+» Message:	Could not load file or assembly 'Basler.Pylon, Version=1.2.0.0, Culture=neutral, PublicKeyToken=e389355f398382ab' or one of its dependencies. An attempt was made to load a program with an incorrect format.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cCameraSettings..ctor()
+   at RTC_Vision_Lite.Classes.cSourceImageSettings..ctor() in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Base\Action\cSourceImageSettings.cs:line 69
+   at RTC_Vision_Lite.Classes.cGroupActions..ctor(FrmHsmartWindow _frmHsmartWindow, Boolean IsTemplate) in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 408
+   at RTC_Vision_Lite.Classes.cCAMTypes..ctor() in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Base\cCAMTypes.cs:line 187
+   at RTC_Vision_Lite.Classes.ProjectData.OpenProject_GetCAMs(cProjectTypes project, Boolean widthoutTool) in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\DataAndFiles\cData.ProjectData.cs:line 605
+2025-06-16 11:44:51.5365 
+» Message:	Could not load file or assembly 'Basler.Pylon, Version=1.2.0.0, Culture=neutral, PublicKeyToken=e389355f398382ab' or one of its dependencies. An attempt was made to load a program with an incorrect format.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cCameraSettings..ctor()
+   at RTC_Vision_Lite.Classes.cSourceImageSettings..ctor() in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Base\Action\cSourceImageSettings.cs:line 69
+   at RTC_Vision_Lite.Classes.cGroupActions..ctor(FrmHsmartWindow _frmHsmartWindow, Boolean IsTemplate) in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 408
+   at RTC_Vision_Lite.Classes.cCAMTypes..ctor() in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Base\cCAMTypes.cs:line 187
+   at RTC_Vision_Lite.Classes.ProjectData.OpenProject_GetCAMs(cProjectTypes project, Boolean widthoutTool) in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\DataAndFiles\cData.ProjectData.cs:line 605
+2025-06-16 11:46:06.4179 
+» Message:	Could not load file or assembly 'Basler.Pylon, Version=1.2.0.0, Culture=neutral, PublicKeyToken=e389355f398382ab' or one of its dependencies. An attempt was made to load a program with an incorrect format.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cCameraSettings..ctor()
+   at RTC_Vision_Lite.Classes.cSourceImageSettings..ctor() in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Base\Action\cSourceImageSettings.cs:line 69
+   at RTC_Vision_Lite.Classes.cGroupActions..ctor(FrmHsmartWindow _frmHsmartWindow, Boolean IsTemplate) in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 408
+   at RTC_Vision_Lite.Classes.cCAMTypes..ctor() in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Base\cCAMTypes.cs:line 187
+   at RTC_Vision_Lite.Classes.ProjectData.OpenProject_GetCAMs(cProjectTypes project, Boolean widthoutTool) in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\DataAndFiles\cData.ProjectData.cs:line 605
+2025-06-16 11:46:06.5660 
+» Message:	Could not load file or assembly 'Basler.Pylon, Version=1.2.0.0, Culture=neutral, PublicKeyToken=e389355f398382ab' or one of its dependencies. An attempt was made to load a program with an incorrect format.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cCameraSettings..ctor()
+   at RTC_Vision_Lite.Classes.cSourceImageSettings..ctor() in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Base\Action\cSourceImageSettings.cs:line 69
+   at RTC_Vision_Lite.Classes.cGroupActions..ctor(FrmHsmartWindow _frmHsmartWindow, Boolean IsTemplate) in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 408
+   at RTC_Vision_Lite.Classes.cCAMTypes..ctor() in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Base\cCAMTypes.cs:line 187
+   at RTC_Vision_Lite.Classes.ProjectData.OpenProject_GetCAMs(cProjectTypes project, Boolean widthoutTool) in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\DataAndFiles\cData.ProjectData.cs:line 605
+2025-06-16 11:46:06.6232 
+» Message:	Could not load file or assembly 'Basler.Pylon, Version=1.2.0.0, Culture=neutral, PublicKeyToken=e389355f398382ab' or one of its dependencies. An attempt was made to load a program with an incorrect format.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cCameraSettings..ctor()
+   at RTC_Vision_Lite.Classes.cSourceImageSettings..ctor() in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Base\Action\cSourceImageSettings.cs:line 69
+   at RTC_Vision_Lite.Classes.cGroupActions..ctor(FrmHsmartWindow _frmHsmartWindow, Boolean IsTemplate) in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 408
+   at RTC_Vision_Lite.Classes.cCAMTypes..ctor() in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Base\cCAMTypes.cs:line 187
+   at RTC_Vision_Lite.Classes.ProjectData.OpenProject_GetCAMs(cProjectTypes project, Boolean widthoutTool) in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\DataAndFiles\cData.ProjectData.cs:line 605
+2025-06-16 11:46:06.6742 
+» Message:	Could not load file or assembly 'Basler.Pylon, Version=1.2.0.0, Culture=neutral, PublicKeyToken=e389355f398382ab' or one of its dependencies. An attempt was made to load a program with an incorrect format.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cCameraSettings..ctor()
+   at RTC_Vision_Lite.Classes.cSourceImageSettings..ctor() in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Base\Action\cSourceImageSettings.cs:line 69
+   at RTC_Vision_Lite.Classes.cGroupActions..ctor(FrmHsmartWindow _frmHsmartWindow, Boolean IsTemplate) in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 408
+   at RTC_Vision_Lite.Classes.cCAMTypes..ctor() in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\Base\cCAMTypes.cs:line 187
+   at RTC_Vision_Lite.Classes.ProjectData.OpenProject_GetCAMs(cProjectTypes project, Boolean widthoutTool) in D:\2. RTC Project\01.RTCVision Lite_Old\RTC Vision Lite\1. Classes\DataAndFiles\cData.ProjectData.cs:line 605

@@ -1,0 +1,102 @@
+2024-07-03 08:59:49.3133 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.Object]' to type 'System.Collections.Generic.List`1[System.String]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_DataInstance()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-07-03 09:03:10.0805 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.Object]' to type 'System.Collections.Generic.List`1[System.String]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_DataInstance()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-07-03 09:17:37.8153 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.Double]' to type 'System.Collections.Generic.List`1[System.String]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_DataInstance()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-07-03 09:17:58.0861 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.Double]' to type 'System.Collections.Generic.List`1[System.String]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_DataInstance()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-07-03 09:18:25.8252 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.Double]' to type 'System.Collections.Generic.List`1[System.String]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_DataInstance()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-07-03 09:37:07.5518 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.Double]' to type 'System.Collections.Generic.List`1[System.Object]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_DataInstance() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.DataInstance.cs:line 60
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 641
+2024-07-03 09:40:36.1879 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.Double]' to type 'System.Collections.Generic.List`1[System.Object]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_DataInstance()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-07-03 09:56:25.4281 
+» Message:	Unable to cast object of type 'System.Double' to type 'System.String'.
+» Stack Trace:	   at System.Linq.Enumerable.<CastIterator>d__97`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at RTC_Vision_Lite.Classes.cAction.Run_DataInstance()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-07-03 09:56:45.4815 
+» Message:	Unable to cast object of type 'System.Double' to type 'System.String'.
+» Stack Trace:	   at System.Linq.Enumerable.<CastIterator>d__97`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at RTC_Vision_Lite.Classes.cAction.Run_DataInstance()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-07-03 10:06:02.3912 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.Double]' to type 'System.Collections.Generic.List`1[System.String]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_DataInstance()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-07-03 10:06:03.4221 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.Double]' to type 'System.Collections.Generic.List`1[System.String]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_DataInstance()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-07-03 10:06:03.7143 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.Double]' to type 'System.Collections.Generic.List`1[System.String]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_DataInstance()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-07-03 10:06:04.2062 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.Double]' to type 'System.Collections.Generic.List`1[System.String]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_DataInstance()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-07-03 10:06:32.3183 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.Double]' to type 'System.Collections.Generic.List`1[System.String]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_DataInstance()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-07-03 10:08:28.1019 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.Double]' to type 'System.Collections.Generic.List`1[System.String]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_DataInstance()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-07-03 10:11:30.6339 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.Double]' to type 'System.Collections.Generic.List`1[System.String]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_DataInstance()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-07-03 10:14:50.3717 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1941
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 534
+2024-07-03 10:20:22.4583 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_DataInstance() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.DataInstance.cs:line 119
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 641
+2024-07-03 10:24:08.6175 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_DataInstance()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-07-03 10:41:25.8489 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_Blob() in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1941
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\RTCVisionLite\2. RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 534
+2024-07-03 10:56:19.8141 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_Blob()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-07-03 10:56:25.9898 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_Blob()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-07-03 10:56:51.3134 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_Blob()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2024-07-03 13:56:13.5637 
+» Message:	Unable to cast object of type 'System.Drawing.Bitmap' to type 'RTC_Vision_Lite.Classes.SListImage'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_DataInstance()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)

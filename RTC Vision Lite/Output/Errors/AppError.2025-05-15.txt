@@ -1,0 +1,12 @@
+2025-05-15 09:57:45.7216 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.String]' to type 'System.Collections.Generic.List`1[System.Object]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_Math_Select()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2025-05-15 10:06:18.2263 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.String]' to type 'RTC_Vision_Lite.Classes.SListString'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_Math_Select()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2025-05-15 10:23:57.2163 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.String]' to type 'System.Collections.Generic.List`1[System.Object]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_Math_Select()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)

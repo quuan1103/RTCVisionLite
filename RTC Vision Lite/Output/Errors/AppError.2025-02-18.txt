@@ -1,0 +1,35 @@
+2025-02-18 11:49:20.9061 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Bitmap..ctor(String filename)
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+2025-02-18 11:49:22.4821 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Bitmap..ctor(String filename)
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+2025-02-18 11:49:27.2445 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Bitmap..ctor(String filename)
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+2025-02-18 11:49:29.2800 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Bitmap..ctor(String filename)
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+2025-02-18 11:49:29.5503 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Bitmap..ctor(String filename)
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+2025-02-18 11:49:34.0898 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Bitmap..ctor(String filename)
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+2025-02-18 11:49:34.3277 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Bitmap..ctor(String filename)
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()

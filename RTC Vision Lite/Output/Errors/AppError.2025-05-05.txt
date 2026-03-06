@@ -1,0 +1,226 @@
+2025-05-05 10:03:38.9220 
+» Message:	The type initializer for 'Emgu.CV.Util.VectorOfVectorOfPoint' threw an exception.
+» Stack Trace:	   at Emgu.CV.Util.VectorOfVectorOfPoint..ctor()
+   at CodeReader.CodeReader..ctor()
+   at RTC_Vision_Lite.Classes.cAction..ctor(EActionTypes eActionType, EObjectTypes eObjectType, FrmHsmartWindow _frmHsmartWindow, cGroupActions myGroupActions) in D:\RTC\01. Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.Properties.cs:line 75
+   at RTC_Vision_Lite.Classes.cGroupActions.CreateAction(EActionTypes eActionType, EObjectTypes eObjectType, Boolean onlyTool) in D:\RTC\01. Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 37
+   at RTC_Vision_Lite.Classes.cGroupActions..ctor(FrmHsmartWindow _frmHsmartWindow, Boolean IsTemplate) in D:\RTC\01. Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 419
+   at RTC_Vision_Lite.Classes.cCAMTypes..ctor() in D:\RTC\01. Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\cCAMTypes.cs:line 186
+   at RTC_Vision_Lite.Classes.ProjectData.OpenProject_GetCAMs(cProjectTypes project, Boolean widthoutTool) in D:\RTC\01. Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\DataAndFiles\cData.ProjectData.cs:line 551
+2025-05-05 13:53:30.3538 
+» Message:	Value of '-6' is not valid for 'Size'. 'Size' must be greater than or equal to 0.
+Parameter name: Size
+» Stack Trace:	   at System.Windows.Forms.TableLayoutStyle.set_Size(Single value)
+   at System.Windows.Forms.RowStyle..ctor(SizeType sizeType, Single height)
+   at RTC_Vision_Lite.Forms.FrmMain.ShowProjectCAMToLayoutControl_Normal() in D:\RTC\01. Project\01.RTCVision Lite\RTC Vision Lite\2. Forms\FrmMain.cs:line 221
+   at RTC_Vision_Lite.Forms.FrmMain.ShowProjectCAMToLayoutControl(Boolean isAutoSetMaximize) in D:\RTC\01. Project\01.RTCVision Lite\RTC Vision Lite\2. Forms\FrmMain.cs:line 594
+2025-05-05 14:47:01.1661 
+» Message:	Object of type 'System.String' cannot be converted to type 'System.Collections.Generic.List`1[System.Object]'.
+» Stack Trace:	   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at RTC_Vision_Lite.Classes.cAction.RebuildValueWhenLink_PropToProp(PropertyInfo PropertyInfoSrc, PropertyInfo PropertyInfoDes, cAction actionSrc) in D:\RTC\01. Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.OtherRunFunctions.cs:line 528
+   at RTC_Vision_Lite.Classes.cAction.RebuidValueWhenLink(cAction actionSrc, String propNameSrc, String propNameDes) in D:\RTC\01. Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.OtherRunFunctions.cs:line 283
+   at RTC_Vision_Lite.Forms.FrmActions.EndLinkValue_Property(cAction ActionLink_Src, String PropertyLink_Src) in D:\RTC\01. Project\01.RTCVision Lite\RTC Vision Lite\2. Forms\FrmActions.cs:line 1214
+   at RTC_Vision_Lite.Forms.FrmActions.EndLinkValue(ActionTools NodeSrc) in D:\RTC\01. Project\01.RTCVision Lite\RTC Vision Lite\2. Forms\FrmActions.cs:line 1156
+2025-05-05 14:49:31.2489 
+» Message:	Specified cast is not valid.
+» Stack Trace:	   at RTC_Vision_Lite.PublicFunctions.GlobFuncs.ListObjectToListString(List`1 Value) in D:\RTC\01. Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Global\GlobFuncs.cs:line 1347
+   at RTC_Vision_Lite.Classes.cAction.Run_Single_Math_Operator(String InputOperator) in D:\RTC\01. Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.MathFunction.cs:line 913
+   at RTC_Vision_Lite.Classes.cAction.Run_Math_Operator() in D:\RTC\01. Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.MathFunction.cs:line 873
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 865
+2025-05-05 14:50:23.5283 
+» Message:	Specified cast is not valid.
+» Stack Trace:	   at RTC_Vision_Lite.PublicFunctions.GlobFuncs.ListObjectToListString(List`1 Value) in D:\RTC\01. Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Global\GlobFuncs.cs:line 1347
+   at RTC_Vision_Lite.Classes.cAction.Run_Single_Math_Operator(String InputOperator) in D:\RTC\01. Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.MathFunction.cs:line 913
+   at RTC_Vision_Lite.Classes.cAction.Run_Math_Operator() in D:\RTC\01. Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.MathFunction.cs:line 873
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 865
+2025-05-05 14:52:33.6714 
+» Message:	Specified cast is not valid.
+» Stack Trace:	   at RTC_Vision_Lite.PublicFunctions.GlobFuncs.ListObjectToListString(List`1 Value) in D:\RTC\01. Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Global\GlobFuncs.cs:line 1347
+   at RTC_Vision_Lite.Classes.cAction.Run_Single_Math_Operator(String InputOperator) in D:\RTC\01. Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.MathFunction.cs:line 913
+   at RTC_Vision_Lite.Classes.cAction.Run_Math_Operator() in D:\RTC\01. Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.MathFunction.cs:line 873
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTC\01. Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 865
+2025-05-05 14:57:49.8028 
+» Message:	Specified cast is not valid.
+» Stack Trace:	   at RTC_Vision_Lite.PublicFunctions.GlobFuncs.ListObjectToListString(List`1 Value)
+   at RTC_Vision_Lite.Classes.cAction.Run_Single_Math_Operator(String InputOperator)
+   at RTC_Vision_Lite.Classes.cAction.Run_Math_Operator()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2025-05-05 15:01:32.0372 
+» Message:	Specified cast is not valid.
+» Stack Trace:	   at RTC_Vision_Lite.PublicFunctions.GlobFuncs.ListObjectToListString(List`1 Value)
+   at RTC_Vision_Lite.Classes.cAction.Run_Single_Math_Operator(String InputOperator)
+   at RTC_Vision_Lite.Classes.cAction.Run_Math_Operator()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2025-05-05 15:02:58.2068 
+» Message:	Specified cast is not valid.
+» Stack Trace:	   at RTC_Vision_Lite.PublicFunctions.GlobFuncs.ListObjectToListString(List`1 Value)
+   at RTC_Vision_Lite.Classes.cAction.Run_Single_Math_Operator(String InputOperator)
+   at RTC_Vision_Lite.Classes.cAction.Run_Math_Operator()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2025-05-05 15:06:02.7257 
+» Message:	Object of type 'System.String' cannot be converted to type 'System.Collections.Generic.List`1[System.String]'.
+» Stack Trace:	   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at RTC_Vision_Lite.Classes.cAction.RebuildValueWhenLink_PropToProp(PropertyInfo PropertyInfoSrc, PropertyInfo PropertyInfoDes, cAction actionSrc)
+   at RTC_Vision_Lite.Classes.cAction.RebuidValueWhenLink(cAction actionSrc, String propNameSrc, String propNameDes)
+   at RTC_Vision_Lite.Forms.FrmActions.EndLinkValue_Property(cAction ActionLink_Src, String PropertyLink_Src)
+   at RTC_Vision_Lite.Forms.FrmActions.EndLinkValue(ActionTools NodeSrc)
+2025-05-05 15:07:03.6219 
+» Message:	Object of type 'System.String' cannot be converted to type 'System.Collections.Generic.List`1[System.String]'.
+» Stack Trace:	   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at RTC_Vision_Lite.Classes.cAction.RebuildValueWhenLink_PropToProp(PropertyInfo PropertyInfoSrc, PropertyInfo PropertyInfoDes, cAction actionSrc)
+   at RTC_Vision_Lite.Classes.cAction.RebuidValueWhenLink(cAction actionSrc, String propNameSrc, String propNameDes)
+   at RTC_Vision_Lite.Forms.FrmActions.EndLinkValue_Property(cAction ActionLink_Src, String PropertyLink_Src)
+   at RTC_Vision_Lite.Forms.FrmActions.EndLinkValue(ActionTools NodeSrc)
+2025-05-05 15:07:17.1059 
+» Message:	Object of type 'System.String' cannot be converted to type 'System.Collections.Generic.List`1[System.String]'.
+» Stack Trace:	   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at RTC_Vision_Lite.Classes.cAction.RebuildValueWhenLink_PropToProp(PropertyInfo PropertyInfoSrc, PropertyInfo PropertyInfoDes, cAction actionSrc)
+   at RTC_Vision_Lite.Classes.cAction.RebuidValueWhenLink(cAction actionSrc, String propNameSrc, String propNameDes)
+   at RTC_Vision_Lite.Forms.FrmActions.EndLinkValue_Property(cAction ActionLink_Src, String PropertyLink_Src)
+   at RTC_Vision_Lite.Forms.FrmActions.EndLinkValue(ActionTools NodeSrc)
+2025-05-05 15:07:58.6197 
+» Message:	Object of type 'System.String' cannot be converted to type 'System.Collections.Generic.List`1[System.String]'.
+» Stack Trace:	   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at RTC_Vision_Lite.Classes.cAction.RebuildValueWhenLink_PropToProp(PropertyInfo PropertyInfoSrc, PropertyInfo PropertyInfoDes, cAction actionSrc)
+   at RTC_Vision_Lite.Classes.cAction.RebuidValueWhenLink(cAction actionSrc, String propNameSrc, String propNameDes)
+   at RTC_Vision_Lite.Forms.FrmActions.EndLinkValue_Property(cAction ActionLink_Src, String PropertyLink_Src)
+   at RTC_Vision_Lite.Forms.FrmActions.EndLinkValue(ActionTools NodeSrc)
+2025-05-05 15:11:22.5464 
+» Message:	Object of type 'System.String' cannot be converted to type 'System.Collections.Generic.List`1[System.String]'.
+» Stack Trace:	   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at RTC_Vision_Lite.Classes.cAction.RebuildValueWhenLink_PropToProp(PropertyInfo PropertyInfoSrc, PropertyInfo PropertyInfoDes, cAction actionSrc)
+   at RTC_Vision_Lite.Classes.cAction.RebuidValueWhenLink(cAction actionSrc, String propNameSrc, String propNameDes)
+   at RTC_Vision_Lite.Forms.FrmActions.EndLinkValue_Property(cAction ActionLink_Src, String PropertyLink_Src)
+   at RTC_Vision_Lite.Forms.FrmActions.EndLinkValue(ActionTools NodeSrc)
+2025-05-05 15:12:36.0823 
+» Message:	Object of type 'System.String' cannot be converted to type 'System.Collections.Generic.List`1[System.Object]'.
+» Stack Trace:	   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at RTC_Vision_Lite.Classes.cAction.RebuildValueWhenLink_PropToProp(PropertyInfo PropertyInfoSrc, PropertyInfo PropertyInfoDes, cAction actionSrc)
+   at RTC_Vision_Lite.Classes.cAction.RebuidValueWhenLink(cAction actionSrc, String propNameSrc, String propNameDes)
+   at RTC_Vision_Lite.Forms.FrmActions.EndLinkValue_Property(cAction ActionLink_Src, String PropertyLink_Src)
+   at RTC_Vision_Lite.Forms.FrmActions.EndLinkValue(ActionTools NodeSrc)
+2025-05-05 15:13:47.9474 
+» Message:	Object of type 'System.String' cannot be converted to type 'System.Collections.Generic.List`1[System.Object]'.
+» Stack Trace:	   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at RTC_Vision_Lite.Classes.cAction.RebuildValueWhenLink_PropToProp(PropertyInfo PropertyInfoSrc, PropertyInfo PropertyInfoDes, cAction actionSrc)
+   at RTC_Vision_Lite.Classes.cAction.RebuidValueWhenLink(cAction actionSrc, String propNameSrc, String propNameDes)
+   at RTC_Vision_Lite.Forms.FrmActions.EndLinkValue_Property(cAction ActionLink_Src, String PropertyLink_Src)
+   at RTC_Vision_Lite.Forms.FrmActions.EndLinkValue(ActionTools NodeSrc)
+2025-05-05 15:15:08.2477 
+» Message:	Object of type 'System.String' cannot be converted to type 'System.Collections.Generic.List`1[System.Object]'.
+» Stack Trace:	   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at RTC_Vision_Lite.Classes.cAction.RebuildValueWhenLink_PropToProp(PropertyInfo PropertyInfoSrc, PropertyInfo PropertyInfoDes, cAction actionSrc) in D:\RTC\01. Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.OtherRunFunctions.cs:line 528
+   at RTC_Vision_Lite.Classes.cAction.RebuidValueWhenLink(cAction actionSrc, String propNameSrc, String propNameDes) in D:\RTC\01. Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.OtherRunFunctions.cs:line 283
+   at RTC_Vision_Lite.Forms.FrmActions.EndLinkValue_Property(cAction ActionLink_Src, String PropertyLink_Src) in D:\RTC\01. Project\01.RTCVision Lite\RTC Vision Lite\2. Forms\FrmActions.cs:line 1214
+   at RTC_Vision_Lite.Forms.FrmActions.EndLinkValue(ActionTools NodeSrc) in D:\RTC\01. Project\01.RTCVision Lite\RTC Vision Lite\2. Forms\FrmActions.cs:line 1156
+2025-05-05 16:32:51.5857 
+» Message:	StartIndex cannot be less than zero.
+Parameter name: startIndex
+» Stack Trace:	   at System.String.Substring(Int32 startIndex, Int32 length)
+   at RTC_Vision_Lite.PublicFunctions.GlobFuncs.GetValuesFromValueView(String _sValue)
+   at RTC_Vision_Lite.UserControls.ucBaseActionDetail.tlvAction_CellEditFinishing(Object sender, CellEditEventArgs e)
+2025-05-05 16:35:30.3992 
+» Message:	StartIndex cannot be less than zero.
+Parameter name: startIndex
+» Stack Trace:	   at System.String.Substring(Int32 startIndex, Int32 length)
+   at RTC_Vision_Lite.PublicFunctions.GlobFuncs.GetValuesFromValueView(String _sValue)
+   at RTC_Vision_Lite.UserControls.ucBaseActionDetail.tlvAction_CellEditFinishing(Object sender, CellEditEventArgs e)
+2025-05-05 16:35:35.8307 
+» Message:	StartIndex cannot be less than zero.
+Parameter name: startIndex
+» Stack Trace:	   at System.String.Substring(Int32 startIndex, Int32 length)
+   at RTC_Vision_Lite.PublicFunctions.GlobFuncs.GetValuesFromValueView(String _sValue)
+   at RTC_Vision_Lite.UserControls.ucBaseActionDetail.tlvAction_CellEditFinishing(Object sender, CellEditEventArgs e)
+2025-05-05 16:35:59.8260 
+» Message:	StartIndex cannot be less than zero.
+Parameter name: startIndex
+» Stack Trace:	   at System.String.Substring(Int32 startIndex, Int32 length)
+   at RTC_Vision_Lite.PublicFunctions.GlobFuncs.GetValuesFromValueView(String _sValue)
+   at RTC_Vision_Lite.UserControls.ucBaseActionDetail.tlvAction_CellEditFinishing(Object sender, CellEditEventArgs e)
+2025-05-05 16:39:07.1235 
+» Message:	StartIndex cannot be less than zero.
+Parameter name: startIndex
+» Stack Trace:	   at System.String.Substring(Int32 startIndex, Int32 length)
+   at RTC_Vision_Lite.PublicFunctions.GlobFuncs.GetValuesFromValueView(String _sValue)
+   at RTC_Vision_Lite.UserControls.ucBaseActionDetail.tlvAction_CellEditFinishing(Object sender, CellEditEventArgs e)
+2025-05-05 16:48:03.6534 
+» Message:	StartIndex cannot be less than zero.
+Parameter name: startIndex
+» Stack Trace:	   at System.String.Substring(Int32 startIndex, Int32 length)
+   at RTC_Vision_Lite.PublicFunctions.GlobFuncs.GetValuesFromValueView(String _sValue)
+   at RTC_Vision_Lite.UserControls.ucBaseActionDetail.tlvAction_CellEditFinishing(Object sender, CellEditEventArgs e)
+2025-05-05 17:13:50.4535 
+» Message:	StartIndex cannot be less than zero.
+Parameter name: startIndex
+» Stack Trace:	   at System.String.Substring(Int32 startIndex, Int32 length)
+   at RTC_Vision_Lite.PublicFunctions.GlobFuncs.GetValuesFromValueView(String _sValue) in D:\RTC\01. Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Global\GlobFuncs.cs:line 4098
+   at RTC_Vision_Lite.UserControls.ucBaseActionDetail.tlvAction_CellEditFinishing(Object sender, CellEditEventArgs e) in D:\RTC\01. Project\01.RTCVision Lite\RTC Vision Lite\3. UserControls\Tools\ucBaseActionDetail.cs:line 7556
+2025-05-05 18:05:06.8160 
+» Message:	Object of type 'System.String' cannot be converted to type 'System.Collections.Generic.List`1[System.String]'.
+» Stack Trace:	   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at RTC_Vision_Lite.Classes.cAction.RebuildValueWhenLink_PropToProp(PropertyInfo PropertyInfoSrc, PropertyInfo PropertyInfoDes, cAction actionSrc) in D:\RTC\01. Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.OtherRunFunctions.cs:line 528
+   at RTC_Vision_Lite.Classes.cAction.RebuidValueWhenLink(cAction actionSrc, String propNameSrc, String propNameDes) in D:\RTC\01. Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.OtherRunFunctions.cs:line 283
+   at RTC_Vision_Lite.Forms.FrmActions.EndLinkValue_Property(cAction ActionLink_Src, String PropertyLink_Src) in D:\RTC\01. Project\01.RTCVision Lite\RTC Vision Lite\2. Forms\FrmActions.cs:line 1214
+   at RTC_Vision_Lite.Forms.FrmActions.EndLinkValue(ActionTools NodeSrc) in D:\RTC\01. Project\01.RTCVision Lite\RTC Vision Lite\2. Forms\FrmActions.cs:line 1156
+2025-05-05 22:30:47.6893 
+» Message:	Object of type 'System.String' cannot be converted to type 'System.Collections.Generic.List`1[System.String]'.
+» Stack Trace:	   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at RTC_Vision_Lite.Classes.cAction.RebuildValueWhenLink_PropToProp(PropertyInfo PropertyInfoSrc, PropertyInfo PropertyInfoDes, cAction actionSrc) in D:\RTC\01. Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.OtherRunFunctions.cs:line 528
+   at RTC_Vision_Lite.Classes.cAction.RebuidValueWhenLink(cAction actionSrc, String propNameSrc, String propNameDes) in D:\RTC\01. Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.OtherRunFunctions.cs:line 283
+   at RTC_Vision_Lite.Forms.FrmActions.EndLinkValue_Property(cAction ActionLink_Src, String PropertyLink_Src) in D:\RTC\01. Project\01.RTCVision Lite\RTC Vision Lite\2. Forms\FrmActions.cs:line 1214
+   at RTC_Vision_Lite.Forms.FrmActions.EndLinkValue(ActionTools NodeSrc) in D:\RTC\01. Project\01.RTCVision Lite\RTC Vision Lite\2. Forms\FrmActions.cs:line 1156
+2025-05-05 22:48:57.3310 
+» Message:	Object of type 'System.String' cannot be converted to type 'System.Collections.Generic.List`1[System.String]'.
+» Stack Trace:	   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at RTC_Vision_Lite.Classes.cAction.RebuildValueWhenLink_PropToProp(PropertyInfo PropertyInfoSrc, PropertyInfo PropertyInfoDes, cAction actionSrc) in D:\RTC\01. Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.OtherRunFunctions.cs:line 528
+   at RTC_Vision_Lite.Classes.cAction.RebuidValueWhenLink(cAction actionSrc, String propNameSrc, String propNameDes) in D:\RTC\01. Project\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.OtherRunFunctions.cs:line 283
+   at RTC_Vision_Lite.Forms.FrmActions.EndLinkValue_Property(cAction ActionLink_Src, String PropertyLink_Src) in D:\RTC\01. Project\01.RTCVision Lite\RTC Vision Lite\2. Forms\FrmActions.cs:line 1214
+   at RTC_Vision_Lite.Forms.FrmActions.EndLinkValue(ActionTools NodeSrc) in D:\RTC\01. Project\01.RTCVision Lite\RTC Vision Lite\2. Forms\FrmActions.cs:line 1156

@@ -1,0 +1,181 @@
+2025-02-12 09:10:16.6566 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.PublicFunctions.GlobFuncs.GenShapeList(SListObject ShapeList) in D:\RTC\01. Project\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Global\GlobFuncs.cs:line 3520
+   at RTC_Vision_Lite.Classes.cAction.Run_CodeReader() in D:\RTC\01. Project\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2777
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\01. Project\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1067
+2025-02-12 09:10:22.4698 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.PublicFunctions.GlobFuncs.GenShapeList(SListObject ShapeList) in D:\RTC\01. Project\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Global\GlobFuncs.cs:line 3520
+   at RTC_Vision_Lite.Classes.cAction.Run_CodeReader() in D:\RTC\01. Project\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2777
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\01. Project\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1067
+2025-02-12 09:12:24.0693 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime)
+2025-02-12 09:14:27.3750 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.PublicFunctions.GlobFuncs.GenShapeList(SListObject ShapeList) in D:\RTC\01. Project\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Global\GlobFuncs.cs:line 3520
+   at RTC_Vision_Lite.Classes.cAction.Run_CodeReader() in D:\RTC\01. Project\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2777
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\01. Project\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1067
+2025-02-12 09:14:44.6615 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.PublicFunctions.GlobFuncs.GenShapeList(SListObject ShapeList) in D:\RTC\01. Project\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Global\GlobFuncs.cs:line 3520
+   at RTC_Vision_Lite.Classes.cAction.Run_CodeReader() in D:\RTC\01. Project\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2777
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\01. Project\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1067
+2025-02-12 09:14:53.3648 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.PublicFunctions.GlobFuncs.GenShapeList(SListObject ShapeList) in D:\RTC\01. Project\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Global\GlobFuncs.cs:line 3520
+   at RTC_Vision_Lite.Classes.cAction.Run_CodeReader() in D:\RTC\01. Project\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2777
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\01. Project\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1067
+2025-02-12 09:15:56.6795 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.PublicFunctions.GlobFuncs.GenShapeList(SListObject ShapeList) in D:\RTC\01. Project\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Global\GlobFuncs.cs:line 3520
+   at RTC_Vision_Lite.Classes.cAction.Run_CodeReader() in D:\RTC\01. Project\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2777
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\01. Project\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1067
+2025-02-12 09:17:42.6626 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.PublicFunctions.GlobFuncs.GenShapeList(SListObject ShapeList) in D:\RTC\01. Project\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Global\GlobFuncs.cs:line 3520
+   at RTC_Vision_Lite.Classes.cAction.Run_CodeReader() in D:\RTC\01. Project\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2777
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\01. Project\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1067
+2025-02-12 09:19:07.8873 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.PublicFunctions.GlobFuncs.GenShapeList(SListObject ShapeList) in D:\RTC\01. Project\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Global\GlobFuncs.cs:line 3520
+   at RTC_Vision_Lite.Classes.cAction.Run_CodeReader() in D:\RTC\01. Project\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2777
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\01. Project\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1067
+2025-02-12 09:21:14.4475 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.PublicFunctions.GlobFuncs.GenShapeList(SListObject ShapeList) in D:\RTC\01. Project\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Global\GlobFuncs.cs:line 3520
+   at RTC_Vision_Lite.Classes.cAction.Run_CodeReader() in D:\RTC\01. Project\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2777
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\01. Project\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1067
+2025-02-12 09:22:04.2312 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.PublicFunctions.GlobFuncs.GenShapeList(SListObject ShapeList) in D:\RTC\01. Project\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Global\GlobFuncs.cs:line 3520
+   at RTC_Vision_Lite.Classes.cAction.Run_CodeReader() in D:\RTC\01. Project\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2777
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\01. Project\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1067
+2025-02-12 09:25:43.6205 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.PublicFunctions.GlobFuncs.GenShapeList(SListObject ShapeList)
+   at RTC_Vision_Lite.Classes.cAction.Run_CodeReader()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+2025-02-12 09:33:01.1407 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.PublicFunctions.GlobFuncs.GenShapeList(SListObject ShapeList) in D:\RTC\01. Project\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Global\GlobFuncs.cs:line 3520
+   at RTC_Vision_Lite.Classes.cAction.Run_CodeReader() in D:\RTC\01. Project\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2777
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTC\01. Project\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1067
+2025-02-12 15:42:06.1007 
+» Message:	Method not found: 'Boolean CodeReader.CodeReader.get_Trained()'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_CodeReader()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+2025-02-12 15:42:19.3234 
+» Message:	Method not found: 'Boolean CodeReader.CodeReader.get_Trained()'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_CodeReader()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+2025-02-12 15:42:21.2361 
+» Message:	Method not found: 'Boolean CodeReader.CodeReader.get_Trained()'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_CodeReader()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+2025-02-12 15:42:28.6204 
+» Message:	Method not found: 'Boolean CodeReader.CodeReader.get_Trained()'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_CodeReader()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+2025-02-12 15:42:35.5726 
+» Message:	Method not found: 'Boolean CodeReader.CodeReader.get_Trained()'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_CodeReader()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+2025-02-12 15:42:40.4359 
+» Message:	Method not found: 'Boolean CodeReader.CodeReader.get_Trained()'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_CodeReader()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+2025-02-12 15:42:42.2758 
+» Message:	Method not found: 'Boolean CodeReader.CodeReader.get_Trained()'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_CodeReader()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+2025-02-12 15:42:43.1586 
+» Message:	Method not found: 'Boolean CodeReader.CodeReader.get_Trained()'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_CodeReader()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+2025-02-12 15:42:44.2428 
+» Message:	Method not found: 'Boolean CodeReader.CodeReader.get_Trained()'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_CodeReader()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+2025-02-12 15:42:44.5710 
+» Message:	Method not found: 'Boolean CodeReader.CodeReader.get_Trained()'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_CodeReader()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+2025-02-12 15:42:46.8402 
+» Message:	Method not found: 'Boolean CodeReader.CodeReader.get_Trained()'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_CodeReader()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+2025-02-12 15:42:47.6786 
+» Message:	Method not found: 'Boolean CodeReader.CodeReader.get_Trained()'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_CodeReader()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+2025-02-12 15:42:48.0187 
+» Message:	Method not found: 'Boolean CodeReader.CodeReader.get_Trained()'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_CodeReader()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+2025-02-12 15:42:48.4937 
+» Message:	Method not found: 'Boolean CodeReader.CodeReader.get_Trained()'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_CodeReader()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+2025-02-12 15:42:49.4601 
+» Message:	Method not found: 'Boolean CodeReader.CodeReader.get_Trained()'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_CodeReader()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+2025-02-12 15:42:53.0104 
+» Message:	Method not found: 'Boolean CodeReader.CodeReader.get_Trained()'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_CodeReader()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+2025-02-12 15:43:08.9770 
+» Message:	Method not found: 'Boolean CodeReader.CodeReader.get_Trained()'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_CodeReader()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+2025-02-12 15:43:14.8478 
+» Message:	Method not found: 'Boolean CodeReader.CodeReader.get_Trained()'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_CodeReader()
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL()
+2025-02-12 17:15:00.6777 
+» Message:	Unable to cast object of type 'RTC_Vision_Lite.Classes.SListDouble' to type 'RTC_Vision_Lite.Classes.SListObject'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_Viewing(cAction action, GraphicsWindow smartWindowControl, Int32& iRow, Int32& iWriteHistory) in D:\RTC\01. Project\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 262
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_ViewToolData(GraphicsWindow smartWindowControl, Int32 actionOrderLimit) in D:\RTC\01. Project\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 192
+2025-02-12 17:15:07.9555 
+» Message:	Unable to cast object of type 'RTC_Vision_Lite.Classes.SListDouble' to type 'RTC_Vision_Lite.Classes.SListObject'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_Viewing(cAction action, GraphicsWindow smartWindowControl, Int32& iRow, Int32& iWriteHistory) in D:\RTC\01. Project\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 262
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_ViewToolData(GraphicsWindow smartWindowControl, Int32 actionOrderLimit) in D:\RTC\01. Project\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 192
+2025-02-12 17:15:13.8037 
+» Message:	Unable to cast object of type 'RTC_Vision_Lite.Classes.SListDouble' to type 'RTC_Vision_Lite.Classes.SListObject'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_Viewing(cAction action, GraphicsWindow smartWindowControl, Int32& iRow, Int32& iWriteHistory) in D:\RTC\01. Project\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 262
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_ViewToolData(GraphicsWindow smartWindowControl, Int32 actionOrderLimit) in D:\RTC\01. Project\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 192
+2025-02-12 17:15:14.4958 
+» Message:	Unable to cast object of type 'RTC_Vision_Lite.Classes.SListDouble' to type 'RTC_Vision_Lite.Classes.SListObject'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_Viewing(cAction action, GraphicsWindow smartWindowControl, Int32& iRow, Int32& iWriteHistory) in D:\RTC\01. Project\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 262
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_ViewToolData(GraphicsWindow smartWindowControl, Int32 actionOrderLimit) in D:\RTC\01. Project\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 192
+2025-02-12 17:15:15.2029 
+» Message:	Unable to cast object of type 'RTC_Vision_Lite.Classes.SListDouble' to type 'RTC_Vision_Lite.Classes.SListObject'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_Viewing(cAction action, GraphicsWindow smartWindowControl, Int32& iRow, Int32& iWriteHistory) in D:\RTC\01. Project\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 262
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_ViewToolData(GraphicsWindow smartWindowControl, Int32 actionOrderLimit) in D:\RTC\01. Project\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 192
+2025-02-12 17:15:15.8662 
+» Message:	Unable to cast object of type 'RTC_Vision_Lite.Classes.SListDouble' to type 'RTC_Vision_Lite.Classes.SListObject'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_Viewing(cAction action, GraphicsWindow smartWindowControl, Int32& iRow, Int32& iWriteHistory) in D:\RTC\01. Project\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 262
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_ViewToolData(GraphicsWindow smartWindowControl, Int32 actionOrderLimit) in D:\RTC\01. Project\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 192
+2025-02-12 17:15:16.5075 
+» Message:	Unable to cast object of type 'RTC_Vision_Lite.Classes.SListDouble' to type 'RTC_Vision_Lite.Classes.SListObject'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_Viewing(cAction action, GraphicsWindow smartWindowControl, Int32& iRow, Int32& iWriteHistory) in D:\RTC\01. Project\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 262
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_ViewToolData(GraphicsWindow smartWindowControl, Int32 actionOrderLimit) in D:\RTC\01. Project\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 192
+2025-02-12 17:15:17.1896 
+» Message:	Unable to cast object of type 'RTC_Vision_Lite.Classes.SListDouble' to type 'RTC_Vision_Lite.Classes.SListObject'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_Viewing(cAction action, GraphicsWindow smartWindowControl, Int32& iRow, Int32& iWriteHistory) in D:\RTC\01. Project\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 262
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_ViewToolData(GraphicsWindow smartWindowControl, Int32 actionOrderLimit) in D:\RTC\01. Project\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 192
+2025-02-12 17:15:17.8509 
+» Message:	Unable to cast object of type 'RTC_Vision_Lite.Classes.SListDouble' to type 'RTC_Vision_Lite.Classes.SListObject'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_Viewing(cAction action, GraphicsWindow smartWindowControl, Int32& iRow, Int32& iWriteHistory) in D:\RTC\01. Project\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 262
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_ViewToolData(GraphicsWindow smartWindowControl, Int32 actionOrderLimit) in D:\RTC\01. Project\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 192
+2025-02-12 17:15:18.5380 
+» Message:	Unable to cast object of type 'RTC_Vision_Lite.Classes.SListDouble' to type 'RTC_Vision_Lite.Classes.SListObject'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_Viewing(cAction action, GraphicsWindow smartWindowControl, Int32& iRow, Int32& iWriteHistory) in D:\RTC\01. Project\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 262
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_ViewToolData(GraphicsWindow smartWindowControl, Int32 actionOrderLimit) in D:\RTC\01. Project\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 192
+2025-02-12 17:23:48.5643 
+» Message:	A generic error occurred in GDI+.
+» Stack Trace:	   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at System.Drawing.Image.Save(String filename, ImageFormat format)
+   at System.Drawing.Image.Save(String filename)
+   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in D:\RTC\01. Project\RTCVision Lite_Coding\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2678

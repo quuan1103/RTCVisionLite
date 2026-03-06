@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PixelCountTool", "PixelCountTool\PixelCountTool.csproj", "{776C87C6-CDF6-4A91-85A6-ADC2B2CE3BF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RTCBaseTypes", "..\..\RTCVision Lite\RTCVision Lite\RTCBaseTypes\RTCBaseTypes.csproj", "{A829D47D-A7E2-4D41-8BB1-B9B075F289B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RTCWindow", "..\..\RTCVision Lite\RTCVision Lite\RTCWindow\RTCWindow.csproj", "{03AEF307-1A8B-4131-A330-097D49C0485E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RTCEnums", "..\..\RTCVision Lite\RTCVision Lite\RTCEnums\RTCEnums.csproj", "{BDC64039-64AD-485C-998A-147CCE9F3941}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RTCConst", "..\..\RTCVision Lite\RTCVision Lite\RTCConst\RTCConst.csproj", "{6976BD3F-01C6-4AA6-8F5B-8C4FD3D52F27}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{776C87C6-CDF6-4A91-85A6-ADC2B2CE3BF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{776C87C6-CDF6-4A91-85A6-ADC2B2CE3BF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{776C87C6-CDF6-4A91-85A6-ADC2B2CE3BF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{776C87C6-CDF6-4A91-85A6-ADC2B2CE3BF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A829D47D-A7E2-4D41-8BB1-B9B075F289B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A829D47D-A7E2-4D41-8BB1-B9B075F289B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A829D47D-A7E2-4D41-8BB1-B9B075F289B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A829D47D-A7E2-4D41-8BB1-B9B075F289B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03AEF307-1A8B-4131-A330-097D49C0485E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03AEF307-1A8B-4131-A330-097D49C0485E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03AEF307-1A8B-4131-A330-097D49C0485E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03AEF307-1A8B-4131-A330-097D49C0485E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDC64039-64AD-485C-998A-147CCE9F3941}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDC64039-64AD-485C-998A-147CCE9F3941}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDC64039-64AD-485C-998A-147CCE9F3941}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDC64039-64AD-485C-998A-147CCE9F3941}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6976BD3F-01C6-4AA6-8F5B-8C4FD3D52F27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6976BD3F-01C6-4AA6-8F5B-8C4FD3D52F27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6976BD3F-01C6-4AA6-8F5B-8C4FD3D52F27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6976BD3F-01C6-4AA6-8F5B-8C4FD3D52F27}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2B062DC0-549C-455E-B000-0D022D5C1C59}
+	EndGlobalSection
+EndGlobal
