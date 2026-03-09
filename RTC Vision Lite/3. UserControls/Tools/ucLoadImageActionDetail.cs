@@ -24,6 +24,7 @@ namespace RTC_Vision_Lite.UserControls
         {
             if (Action != null)
                 Action.Run_LoadImage_Test();
+            // quan test
         }
 
         private void btnGetFileName_Click(object sender, EventArgs e)

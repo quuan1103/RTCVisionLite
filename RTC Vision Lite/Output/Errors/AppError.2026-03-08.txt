@@ -1,0 +1,20 @@
+2026-03-08 10:40:16.8605 
+» Message:	No connection could be made because the target machine actively refused it 127.0.0.1:2002
+» Stack Trace:	   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at RTC_Vision_Lite.Classes.CSocketClient.ConnectCallback(IAsyncResult AR) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Connect\CSocketClient.cs:line 225
+2026-03-08 10:40:20.9330 
+» Message:	No connection could be made because the target machine actively refused it 127.0.0.1:2002
+» Stack Trace:	   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at RTC_Vision_Lite.Classes.CSocketClient.ConnectCallback(IAsyncResult AR) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Connect\CSocketClient.cs:line 225
+2026-03-08 10:40:25.0051 
+» Message:	No connection could be made because the target machine actively refused it 127.0.0.1:2002
+» Stack Trace:	   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at RTC_Vision_Lite.Classes.CSocketClient.ConnectCallback(IAsyncResult AR) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Connect\CSocketClient.cs:line 225
+2026-03-08 10:40:29.0660 
+» Message:	No connection could be made because the target machine actively refused it 127.0.0.1:2002
+» Stack Trace:	   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at RTC_Vision_Lite.Classes.CSocketClient.ConnectCallback(IAsyncResult AR) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Connect\CSocketClient.cs:line 225

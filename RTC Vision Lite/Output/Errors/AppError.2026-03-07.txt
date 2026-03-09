@@ -1,0 +1,110 @@
+2026-03-07 13:56:29.7858 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.get_Width()
+   at System.Drawing.Bitmap..ctor(Image original)
+   at RTC_Vision_Lite.Forms.FrmHsmartWindow.ReViewImage(Boolean isWithSetPart, Boolean isClean) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\2. Forms\FrmHsmartWindow.cs:line 199
+2026-03-07 13:56:30.6643 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.get_Width()
+   at System.Drawing.Bitmap..ctor(Image original)
+   at RTC_Vision_Lite.Forms.FrmHsmartWindow.ReViewImage(Boolean isWithSetPart, Boolean isClean) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\2. Forms\FrmHsmartWindow.cs:line 199
+2026-03-07 13:56:30.7094 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.get_Width()
+   at System.Drawing.Bitmap..ctor(Image original)
+   at RTC_Vision_Lite.Forms.FrmHsmartWindow.ReViewImage(Boolean isWithSetPart, Boolean isClean) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\2. Forms\FrmHsmartWindow.cs:line 199
+2026-03-07 13:56:50.0141 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.get_Width()
+   at System.Drawing.Bitmap..ctor(Image original)
+   at RTC_Vision_Lite.Forms.FrmHsmartWindow.ReViewImage(Boolean isWithSetPart, Boolean isClean) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\2. Forms\FrmHsmartWindow.cs:line 199
+2026-03-07 13:56:54.0812 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.get_Width()
+   at System.Drawing.Bitmap..ctor(Image original)
+   at RTC_Vision_Lite.Forms.FrmHsmartWindow.ReViewImage(Boolean isWithSetPart, Boolean isClean) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\2. Forms\FrmHsmartWindow.cs:line 199
+2026-03-07 14:01:38.8510 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.get_Width()
+   at System.Drawing.Bitmap..ctor(Image original)
+   at RTC_Vision_Lite.Forms.FrmHsmartWindow.ReViewImage(Boolean isWithSetPart, Boolean isClean) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\2. Forms\FrmHsmartWindow.cs:line 199
+2026-03-07 14:01:39.5022 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.get_Width()
+   at System.Drawing.Bitmap..ctor(Image original)
+   at RTC_Vision_Lite.Forms.FrmHsmartWindow.ReViewImage(Boolean isWithSetPart, Boolean isClean) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\2. Forms\FrmHsmartWindow.cs:line 199
+2026-03-07 14:01:39.5486 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.get_Width()
+   at System.Drawing.Bitmap..ctor(Image original)
+   at RTC_Vision_Lite.Forms.FrmHsmartWindow.ReViewImage(Boolean isWithSetPart, Boolean isClean) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\2. Forms\FrmHsmartWindow.cs:line 199
+2026-03-07 14:12:18.9760 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.get_Width()
+   at System.Drawing.Bitmap..ctor(Image original)
+   at RTC_Vision_Lite.Forms.FrmHsmartWindow.ReViewImage(Boolean isWithSetPart, Boolean isClean)
+2026-03-07 14:14:41.0770 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.get_Width()
+   at System.Drawing.Bitmap..ctor(Image original)
+   at RTC_Vision_Lite.Forms.FrmHsmartWindow.ReViewImage(Boolean isWithSetPart, Boolean isClean)
+2026-03-07 14:14:41.6812 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.get_Width()
+   at System.Drawing.Bitmap..ctor(Image original)
+   at RTC_Vision_Lite.Forms.FrmHsmartWindow.ReViewImage(Boolean isWithSetPart, Boolean isClean)
+2026-03-07 14:14:41.7290 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.get_Width()
+   at System.Drawing.Bitmap..ctor(Image original)
+   at RTC_Vision_Lite.Forms.FrmHsmartWindow.ReViewImage(Boolean isWithSetPart, Boolean isClean)
+2026-03-07 14:14:44.9961 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.get_Width()
+   at System.Drawing.Bitmap..ctor(Image original)
+   at RTC_Vision_Lite.Forms.FrmHsmartWindow.ReViewImage(Boolean isWithSetPart, Boolean isClean)
+2026-03-07 14:14:45.5655 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.get_Width()
+   at System.Drawing.Bitmap..ctor(Image original)
+   at RTC_Vision_Lite.Forms.FrmHsmartWindow.ReViewImage(Boolean isWithSetPart, Boolean isClean)
+2026-03-07 14:14:45.6149 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.get_Width()
+   at System.Drawing.Bitmap..ctor(Image original)
+   at RTC_Vision_Lite.Forms.FrmHsmartWindow.ReViewImage(Boolean isWithSetPart, Boolean isClean)
+2026-03-07 14:14:46.2579 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Image.get_Width()
+   at System.Drawing.Bitmap..ctor(Image original)
+   at RTC_Vision_Lite.Forms.FrmHsmartWindow.ReViewImage(Boolean isWithSetPart, Boolean isClean)
+2026-03-07 16:02:07.4854 
+» Message:	No connection could be made because the target machine actively refused it 127.0.0.1:3000
+» Stack Trace:	   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at RTC_Vision_Lite.Classes.CSocketClient.ConnectCallback(IAsyncResult AR) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Connect\CSocketClient.cs:line 225
+2026-03-07 16:02:08.5117 
+» Message:	No connection could be made because the target machine actively refused it 127.0.0.1:3000
+» Stack Trace:	   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at RTC_Vision_Lite.Classes.CSocketClient.ConnectCallback(IAsyncResult AR) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Connect\CSocketClient.cs:line 225
+2026-03-07 16:02:09.5544 
+» Message:	No connection could be made because the target machine actively refused it 127.0.0.1:3000
+» Stack Trace:	   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at RTC_Vision_Lite.Classes.CSocketClient.ConnectCallback(IAsyncResult AR) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Connect\CSocketClient.cs:line 225
+2026-03-07 16:02:10.5865 
+» Message:	No connection could be made because the target machine actively refused it 127.0.0.1:3000
+» Stack Trace:	   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at RTC_Vision_Lite.Classes.CSocketClient.ConnectCallback(IAsyncResult AR) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Connect\CSocketClient.cs:line 225
+2026-03-07 16:45:38.4283 
+» Message:	No connection could be made because the target machine actively refused it 127.0.0.1:3000
+» Stack Trace:	   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at RTC_Vision_Lite.Classes.CSocketClient.ConnectCallback(IAsyncResult AR) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Connect\CSocketClient.cs:line 225
+2026-03-07 16:46:25.6079 
+» Message:	No connection could be made because the target machine actively refused it 127.0.0.1:3000
+» Stack Trace:	   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at RTC_Vision_Lite.Classes.CSocketClient.ConnectCallback(IAsyncResult AR) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Connect\CSocketClient.cs:line 225

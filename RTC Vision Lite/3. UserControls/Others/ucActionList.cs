@@ -2400,10 +2400,17 @@ namespace RTC_Vision_Lite.UserControls
                                     || dataType == nameof(SGrayImage)
                                     || dataType == nameof(SBgrImage));
                     }
+                    //else if (MasterPropertyTypeName == nameof(SGrayImage))
+                    //{
+                    //    isVisible = (dataType == nameof(SGrayImage));
+
+                    //}
+                    //Quân sửa 
                     else if (MasterPropertyTypeName == nameof(SGrayImage))
                     {
-                        isVisible = (dataType == nameof(SGrayImage));
-
+                        isVisible = (dataType == nameof(SGrayImage)
+                            || dataType == nameof(SImage)
+                            || dataType == nameof(SBgrImage));
                     }
                     else if (MasterPropertyTypeName == nameof(SBgrImage))
                     {

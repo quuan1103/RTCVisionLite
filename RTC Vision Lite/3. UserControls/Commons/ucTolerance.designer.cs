@@ -49,16 +49,16 @@ namespace RTC_Vision_Lite.UserControls
             // LayoutPanel
             // 
             this.LayoutPanel.ColumnCount = 11;
-            this.LayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 187F));
-            this.LayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 13F));
-            this.LayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 80F));
-            this.LayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 80F));
-            this.LayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 13F));
-            this.LayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 80F));
-            this.LayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 80F));
-            this.LayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 13F));
-            this.LayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 80F));
-            this.LayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 80F));
+            this.LayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 140F));
+            this.LayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 10F));
+            this.LayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 60F));
+            this.LayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 60F));
+            this.LayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 10F));
+            this.LayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 60F));
+            this.LayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 60F));
+            this.LayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 10F));
+            this.LayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 60F));
+            this.LayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 60F));
             this.LayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
             this.LayoutPanel.Controls.Add(this.chkEnable, 0, 1);
             this.LayoutPanel.Controls.Add(this.lblMinusTop, 3, 0);
@@ -75,22 +75,20 @@ namespace RTC_Vision_Lite.UserControls
             this.LayoutPanel.Controls.Add(this.lblNominal, 5, 1);
             this.LayoutPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.LayoutPanel.Location = new System.Drawing.Point(0, 0);
-            this.LayoutPanel.Margin = new System.Windows.Forms.Padding(4);
             this.LayoutPanel.Name = "LayoutPanel";
             this.LayoutPanel.RowCount = 2;
-            this.LayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 21F));
-            this.LayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 31F));
-            this.LayoutPanel.Size = new System.Drawing.Size(793, 54);
+            this.LayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 17F));
+            this.LayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 25F));
+            this.LayoutPanel.Size = new System.Drawing.Size(595, 44);
             this.LayoutPanel.TabIndex = 13;
             // 
             // chkEnable
             // 
             this.chkEnable.AutoSize = true;
             this.chkEnable.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.chkEnable.Location = new System.Drawing.Point(4, 25);
-            this.chkEnable.Margin = new System.Windows.Forms.Padding(4);
+            this.chkEnable.Location = new System.Drawing.Point(3, 20);
             this.chkEnable.Name = "chkEnable";
-            this.chkEnable.Size = new System.Drawing.Size(179, 25);
+            this.chkEnable.Size = new System.Drawing.Size(134, 21);
             this.chkEnable.TabIndex = 24;
             this.chkEnable.Text = "CheckTolerance";
             this.chkEnable.CheckedChanged += new System.EventHandler(this.chkEnable_CheckedChanged);
@@ -99,10 +97,10 @@ namespace RTC_Vision_Lite.UserControls
             // 
             this.lblMinusTop.AutoSize = true;
             this.lblMinusTop.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblMinusTop.Location = new System.Drawing.Point(284, 2);
-            this.lblMinusTop.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.lblMinusTop.Location = new System.Drawing.Point(213, 2);
+            this.lblMinusTop.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.lblMinusTop.Name = "lblMinusTop";
-            this.lblMinusTop.Size = new System.Drawing.Size(72, 17);
+            this.lblMinusTop.Size = new System.Drawing.Size(54, 13);
             this.lblMinusTop.TabIndex = 23;
             this.lblMinusTop.Text = "Minus";
             this.lblMinusTop.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -111,20 +109,19 @@ namespace RTC_Vision_Lite.UserControls
             // 
             this.lblMinus.AutoSize = true;
             this.lblMinus.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblMinus.Location = new System.Drawing.Point(204, 23);
-            this.lblMinus.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.lblMinus.Location = new System.Drawing.Point(153, 19);
+            this.lblMinus.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.lblMinus.Name = "lblMinus";
-            this.lblMinus.Size = new System.Drawing.Size(72, 29);
+            this.lblMinus.Size = new System.Drawing.Size(54, 23);
             this.lblMinus.TabIndex = 22;
             this.lblMinus.Text = "Minus";
             // 
             // txtMinus
             // 
             this.txtMinus.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.txtMinus.Location = new System.Drawing.Point(284, 25);
-            this.txtMinus.Margin = new System.Windows.Forms.Padding(4);
+            this.txtMinus.Location = new System.Drawing.Point(213, 20);
             this.txtMinus.Name = "txtMinus";
-            this.txtMinus.Size = new System.Drawing.Size(72, 22);
+            this.txtMinus.Size = new System.Drawing.Size(54, 20);
             this.txtMinus.TabIndex = 21;
             this.txtMinus.Text = "0";
             this.txtMinus.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -135,10 +132,10 @@ namespace RTC_Vision_Lite.UserControls
             // 
             this.lblFeatures.AutoSize = true;
             this.lblFeatures.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblFeatures.Location = new System.Drawing.Point(4, 2);
-            this.lblFeatures.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.lblFeatures.Location = new System.Drawing.Point(3, 2);
+            this.lblFeatures.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.lblFeatures.Name = "lblFeatures";
-            this.lblFeatures.Size = new System.Drawing.Size(179, 17);
+            this.lblFeatures.Size = new System.Drawing.Size(134, 13);
             this.lblFeatures.TabIndex = 20;
             this.lblFeatures.Text = "Features";
             // 
@@ -146,10 +143,10 @@ namespace RTC_Vision_Lite.UserControls
             // 
             this.lblActual.AutoSize = true;
             this.lblActual.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblActual.Location = new System.Drawing.Point(710, 2);
-            this.lblActual.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.lblActual.Location = new System.Drawing.Point(533, 2);
+            this.lblActual.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.lblActual.Name = "lblActual";
-            this.lblActual.Size = new System.Drawing.Size(112, 17);
+            this.lblActual.Size = new System.Drawing.Size(84, 13);
             this.lblActual.TabIndex = 19;
             this.lblActual.Text = "Actual";
             this.lblActual.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -158,10 +155,10 @@ namespace RTC_Vision_Lite.UserControls
             // 
             this.lblPlusTop.AutoSize = true;
             this.lblPlusTop.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblPlusTop.Location = new System.Drawing.Point(630, 2);
-            this.lblPlusTop.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.lblPlusTop.Location = new System.Drawing.Point(473, 2);
+            this.lblPlusTop.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.lblPlusTop.Name = "lblPlusTop";
-            this.lblPlusTop.Size = new System.Drawing.Size(72, 17);
+            this.lblPlusTop.Size = new System.Drawing.Size(54, 13);
             this.lblPlusTop.TabIndex = 18;
             this.lblPlusTop.Text = "Plus";
             this.lblPlusTop.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -170,10 +167,10 @@ namespace RTC_Vision_Lite.UserControls
             // 
             this.lblNominalTop.AutoSize = true;
             this.lblNominalTop.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblNominalTop.Location = new System.Drawing.Point(457, 2);
-            this.lblNominalTop.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.lblNominalTop.Location = new System.Drawing.Point(343, 2);
+            this.lblNominalTop.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.lblNominalTop.Name = "lblNominalTop";
-            this.lblNominalTop.Size = new System.Drawing.Size(72, 17);
+            this.lblNominalTop.Size = new System.Drawing.Size(54, 13);
             this.lblNominalTop.TabIndex = 17;
             this.lblNominalTop.Text = "Nominal";
             this.lblNominalTop.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -182,10 +179,10 @@ namespace RTC_Vision_Lite.UserControls
             // 
             this.lblPlus.AutoSize = true;
             this.lblPlus.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblPlus.Location = new System.Drawing.Point(550, 23);
-            this.lblPlus.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.lblPlus.Location = new System.Drawing.Point(413, 19);
+            this.lblPlus.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.lblPlus.Name = "lblPlus";
-            this.lblPlus.Size = new System.Drawing.Size(72, 29);
+            this.lblPlus.Size = new System.Drawing.Size(54, 23);
             this.lblPlus.TabIndex = 16;
             this.lblPlus.Text = "Plus";
             // 
@@ -193,10 +190,10 @@ namespace RTC_Vision_Lite.UserControls
             // 
             this.txtActual.Dock = System.Windows.Forms.DockStyle.Fill;
             this.txtActual.ForeColor = System.Drawing.Color.Lime;
-            this.txtActual.Location = new System.Drawing.Point(710, 23);
-            this.txtActual.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.txtActual.Location = new System.Drawing.Point(533, 19);
+            this.txtActual.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtActual.Name = "txtActual";
-            this.txtActual.Size = new System.Drawing.Size(112, 29);
+            this.txtActual.Size = new System.Drawing.Size(84, 23);
             this.txtActual.TabIndex = 14;
             this.txtActual.Text = "Actual";
             this.txtActual.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -204,10 +201,9 @@ namespace RTC_Vision_Lite.UserControls
             // txtNominal
             // 
             this.txtNominal.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.txtNominal.Location = new System.Drawing.Point(457, 25);
-            this.txtNominal.Margin = new System.Windows.Forms.Padding(4);
+            this.txtNominal.Location = new System.Drawing.Point(343, 20);
             this.txtNominal.Name = "txtNominal";
-            this.txtNominal.Size = new System.Drawing.Size(72, 22);
+            this.txtNominal.Size = new System.Drawing.Size(54, 20);
             this.txtNominal.TabIndex = 12;
             this.txtNominal.Text = "0";
             this.txtNominal.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -217,10 +213,10 @@ namespace RTC_Vision_Lite.UserControls
             // txtPlus
             // 
             this.txtPlus.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.txtPlus.Location = new System.Drawing.Point(630, 25);
-            this.txtPlus.Margin = new System.Windows.Forms.Padding(4, 4, 5, 4);
+            this.txtPlus.Location = new System.Drawing.Point(473, 20);
+            this.txtPlus.Margin = new System.Windows.Forms.Padding(3, 3, 4, 3);
             this.txtPlus.Name = "txtPlus";
-            this.txtPlus.Size = new System.Drawing.Size(71, 22);
+            this.txtPlus.Size = new System.Drawing.Size(53, 20);
             this.txtPlus.TabIndex = 13;
             this.txtPlus.Text = "0";
             this.txtPlus.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -231,22 +227,21 @@ namespace RTC_Vision_Lite.UserControls
             // 
             this.lblNominal.AutoSize = true;
             this.lblNominal.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblNominal.Location = new System.Drawing.Point(377, 23);
-            this.lblNominal.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.lblNominal.Location = new System.Drawing.Point(283, 19);
+            this.lblNominal.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.lblNominal.Name = "lblNominal";
-            this.lblNominal.Size = new System.Drawing.Size(72, 29);
+            this.lblNominal.Size = new System.Drawing.Size(54, 23);
             this.lblNominal.TabIndex = 15;
             this.lblNominal.Text = "Nominal";
             // 
             // ucTolerance
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.Controls.Add(this.LayoutPanel);
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "ucTolerance";
-            this.Size = new System.Drawing.Size(793, 54);
+            this.Size = new System.Drawing.Size(595, 44);
             this.LayoutPanel.ResumeLayout(false);
             this.LayoutPanel.PerformLayout();
             this.ResumeLayout(false);

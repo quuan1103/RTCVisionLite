@@ -113,20 +113,21 @@ namespace RTC_Vision_Lite.Forms
                 }
                 _Action = value;
                 //_Action.GetImageToInputImage();
+                var ROI = new GraphicsWindow.GraphicsWindow.DataRoi();
                 VisibleOrHideControlByContext();
                 ClearAllRoi();
-                //ReViewImage(true, true);
-                //ListDataRoi = new List<GraphicsWindow.GraphicsWindow.DataRoi>();
+               // ReViewImage(true, true);
+              //  ListDataRoi = new List<GraphicsWindow.GraphicsWindow.DataRoi>();
                 ReviewAllROIS();
                 //List<cRectangType> DataRois = _Action.ROIs.Values.Cast<cRectangType>().ToList();
-                //foreach(cRectangType item in DataRois)
+                //foreach (cRectangType item in DataRois)
                 //{
-                //    ROI = new GraphicsWindow.GraphicsWindow.DataRoi((GraphicsWindow.GraphicsWindow.ERoiTypes)item.DrawingType, (float)item.Center.Row, 
-                //        (float)item.Center.Col, (float)item.Width, (float)item.Height, (float)item.Phi, 
+                //    ROI = new GraphicsWindow.GraphicsWindow.DataRoi((GraphicsWindow.GraphicsWindow.ERoiTypes)item.DrawingType, (float)item.Center.Row,
+                //        (float)item.Center.Col, (float)item.Width, (float)item.Height, (float)item.Phi,
                 //        (GraphicsWindow.GraphicsWindow.EConnectTypes)item.ConnectType, item.Color, GraphicsWindow.GraphicsWindow.ECentreTypes.TheCenterDoesNotChange, GlobFuncs.ConvertLongToGuid(item.ID));
 
-                //    SmartWindow.DrawROI(new List<GraphicsWindow.GraphicsWindow.DataRoi>() { ROI });
-                //}    
+                 //  SmartWindow.DrawROI(new List<GraphicsWindow.GraphicsWindow.DataRoi>() { ROI });
+                //}
 
 
             }
@@ -512,7 +513,7 @@ namespace RTC_Vision_Lite.Forms
                             Rec.Center.Col = ((cRectangType)copyROI).Width;
 
                         }
-                        ROI = new GraphicsWindow.GraphicsWindow.DataRoi((GraphicsWindow.GraphicsWindow.ERoiTypes)drawingTypes, (float)Rec.Center.Row, (float)Rec.Center.Col, (float)Rec.Width, (float)Rec.Height, 0,
+                          ROI = new GraphicsWindow.GraphicsWindow.DataRoi((GraphicsWindow.GraphicsWindow.ERoiTypes)drawingTypes, (float)Rec.Center.Row, (float)Rec.Center.Col, (float)Rec.Width, (float)Rec.Height, 0,
                            GraphicsWindow.GraphicsWindow.EConnectTypes.None, Color.Red, GraphicsWindow.GraphicsWindow.ECentreTypes.TheCenterDoesNotChange, Guid.NewGuid());
                         Rec.ID = GlobFuncs.ConvertGuidToLong(ROI.Key);
                         ROIS.Add(Rec.ID, Rec);
@@ -1508,10 +1509,10 @@ namespace RTC_Vision_Lite.Forms
                                 {
                                     CurrentDrawingObject = DrawingObjects[Rec.ID];
                                 }
-                                else if (DrawingObjects.Count >= 1 && crp != null && crp.ID == OldID)
-                                {
-                                    CurrentDrawingObject = DrawingObjects[Rec.ID];
-                                }
+                                //else if (DrawingObjects.Count >= 1 && crp != null && crp.ID == OldID)
+                                //{
+                                //    CurrentDrawingObject = DrawingObjects[Rec.ID];
+                                //}
                                 break;
                             }
                         case EDrawingtypes.Ellipse:
@@ -1534,10 +1535,10 @@ namespace RTC_Vision_Lite.Forms
                                 {
                                     CurrentDrawingObject = DrawingObjects[Ell.ID];
                                 }
-                                else if (DrawingObjects.Count >= 1 && crp != null && crp.ID == OldID)
-                                {
-                                    CurrentDrawingObject = DrawingObjects[Ell.ID];
-                                }
+                                //else if (DrawingObjects.Count >= 1 && crp != null && crp.ID == OldID)
+                                //{
+                                //    CurrentDrawingObject = DrawingObjects[Ell.ID];
+                                //}
                                 break;
                             }
                     }

@@ -163,7 +163,7 @@ namespace RTC_Vision_Lite.UserControls
             this.TabSetUp.Margin = new System.Windows.Forms.Padding(4);
             this.TabSetUp.Name = "TabSetUp";
             this.TabSetUp.Padding = new System.Windows.Forms.Padding(4);
-            this.TabSetUp.Size = new System.Drawing.Size(1192, 575);
+            this.TabSetUp.Size = new System.Drawing.Size(1192, 569);
             this.TabSetUp.TabIndex = 0;
             this.TabSetUp.Text = "Setup";
             this.TabSetUp.UseVisualStyleBackColor = true;
@@ -185,7 +185,7 @@ namespace RTC_Vision_Lite.UserControls
             this.PageSetup.Multiline = true;
             this.PageSetup.Name = "PageSetup";
             this.PageSetup.SelectedIndex = 0;
-            this.PageSetup.Size = new System.Drawing.Size(1184, 521);
+            this.PageSetup.Size = new System.Drawing.Size(1184, 515);
             this.PageSetup.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
             this.PageSetup.TabIndex = 2;
             // 
@@ -197,7 +197,7 @@ namespace RTC_Vision_Lite.UserControls
             this.General.Margin = new System.Windows.Forms.Padding(4);
             this.General.Name = "General";
             this.General.Padding = new System.Windows.Forms.Padding(4);
-            this.General.Size = new System.Drawing.Size(1161, 513);
+            this.General.Size = new System.Drawing.Size(1161, 507);
             this.General.TabIndex = 2;
             this.General.UseVisualStyleBackColor = true;
             // 
@@ -207,7 +207,7 @@ namespace RTC_Vision_Lite.UserControls
             this.ScrollableGeneral.Location = new System.Drawing.Point(4, 4);
             this.ScrollableGeneral.Margin = new System.Windows.Forms.Padding(4);
             this.ScrollableGeneral.Name = "ScrollableGeneral";
-            this.ScrollableGeneral.Size = new System.Drawing.Size(1153, 505);
+            this.ScrollableGeneral.Size = new System.Drawing.Size(1153, 499);
             this.ScrollableGeneral.TabIndex = 0;
             this.ScrollableGeneral.Paint += new System.Windows.Forms.PaintEventHandler(this.ScrollableGeneral_Paint);
             // 
@@ -321,7 +321,7 @@ namespace RTC_Vision_Lite.UserControls
             this.panel3.Controls.Add(this.btnSelectAll);
             this.panel3.Controls.Add(this.btnClearAll);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel3.Location = new System.Drawing.Point(4, 19);
+            this.panel3.Location = new System.Drawing.Point(4, 23);
             this.panel3.Margin = new System.Windows.Forms.Padding(4);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(1153, 43);
@@ -443,6 +443,7 @@ namespace RTC_Vision_Lite.UserControls
             this.btnSEP2.Size = new System.Drawing.Size(32, 28);
             this.btnSEP2.TabIndex = 0;
             this.btnSEP2.UseVisualStyleBackColor = true;
+            this.btnSEP2.Click += new System.EventHandler(this.btnSEP2_Click);
             // 
             // btnMethod
             // 
@@ -454,6 +455,7 @@ namespace RTC_Vision_Lite.UserControls
             this.btnMethod.TabIndex = 0;
             this.btnMethod.Text = "Method";
             this.btnMethod.UseVisualStyleBackColor = true;
+            this.btnMethod.Click += new System.EventHandler(this.btnMethod_Click);
             // 
             // btnSEP3
             // 
@@ -569,7 +571,7 @@ namespace RTC_Vision_Lite.UserControls
             this.TabProperties.Margin = new System.Windows.Forms.Padding(4);
             this.TabProperties.Name = "TabProperties";
             this.TabProperties.Padding = new System.Windows.Forms.Padding(4);
-            this.TabProperties.Size = new System.Drawing.Size(1192, 575);
+            this.TabProperties.Size = new System.Drawing.Size(1192, 569);
             this.TabProperties.TabIndex = 1;
             this.TabProperties.Text = "Properties";
             this.TabProperties.UseVisualStyleBackColor = true;
@@ -628,7 +630,7 @@ namespace RTC_Vision_Lite.UserControls
             this.tlvAction.SelectedColumnTint = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.tlvAction.ShowGroups = false;
             this.tlvAction.ShowImagesOnSubItems = true;
-            this.tlvAction.Size = new System.Drawing.Size(1184, 529);
+            this.tlvAction.Size = new System.Drawing.Size(1184, 523);
             this.tlvAction.SmallImageList = this.Selecticon;
             this.tlvAction.TabIndex = 5;
             this.tlvAction.UseCellFormatEvents = true;
@@ -954,7 +956,7 @@ namespace RTC_Vision_Lite.UserControls
             this.LinkSummary.Margin = new System.Windows.Forms.Padding(4);
             this.LinkSummary.Name = "LinkSummary";
             this.LinkSummary.Padding = new System.Windows.Forms.Padding(4);
-            this.LinkSummary.Size = new System.Drawing.Size(1192, 575);
+            this.LinkSummary.Size = new System.Drawing.Size(1192, 569);
             this.LinkSummary.TabIndex = 2;
             this.LinkSummary.Text = "Link Summary";
             this.LinkSummary.UseVisualStyleBackColor = true;
@@ -980,7 +982,7 @@ namespace RTC_Vision_Lite.UserControls
             this.tl_LinkSummary.Name = "tl_LinkSummary";
             this.tl_LinkSummary.OwnerDrawnHeader = true;
             this.tl_LinkSummary.ShowGroups = false;
-            this.tl_LinkSummary.Size = new System.Drawing.Size(1184, 567);
+            this.tl_LinkSummary.Size = new System.Drawing.Size(1184, 561);
             this.tl_LinkSummary.SmallImageList = this.imlLinkSummary;
             this.tl_LinkSummary.TabIndex = 0;
             this.tl_LinkSummary.UseCellFormatEvents = true;
@@ -1028,7 +1030,7 @@ namespace RTC_Vision_Lite.UserControls
             this.tabPage1.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(4);
-            this.tabPage1.Size = new System.Drawing.Size(1192, 575);
+            this.tabPage1.Size = new System.Drawing.Size(1192, 569);
             this.tabPage1.TabIndex = 3;
             this.tabPage1.Text = "Info";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -1053,31 +1055,31 @@ namespace RTC_Vision_Lite.UserControls
             this.toolStripMenuItem1,
             this.popViewValue1});
             this.contextMenuStrip.Name = "contextMenuStrip";
-            this.contextMenuStrip.Size = new System.Drawing.Size(260, 198);
+            this.contextMenuStrip.Size = new System.Drawing.Size(310, 214);
             // 
             // popApplyTo
             // 
             this.popApplyTo.Name = "popApplyTo";
-            this.popApplyTo.Size = new System.Drawing.Size(259, 22);
+            this.popApplyTo.Size = new System.Drawing.Size(309, 24);
             this.popApplyTo.Text = "Apply Value To...";
             // 
             // popApplyValueToAllTools
             // 
             this.popApplyValueToAllTools.Name = "popApplyValueToAllTools";
-            this.popApplyValueToAllTools.Size = new System.Drawing.Size(259, 22);
+            this.popApplyValueToAllTools.Size = new System.Drawing.Size(309, 24);
             this.popApplyValueToAllTools.Text = "Apply Value To All Tools";
             this.popApplyValueToAllTools.Click += new System.EventHandler(this.popApplyValueToAllTools_Click);
             // 
             // popSep1
             // 
             this.popSep1.Name = "popSep1";
-            this.popSep1.Size = new System.Drawing.Size(256, 6);
+            this.popSep1.Size = new System.Drawing.Size(306, 6);
             // 
             // popSetHighLight
             // 
             this.popSetHighLight.Name = "popSetHighLight";
             this.popSetHighLight.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.H)));
-            this.popSetHighLight.Size = new System.Drawing.Size(259, 22);
+            this.popSetHighLight.Size = new System.Drawing.Size(309, 24);
             this.popSetHighLight.Text = "Set High Light";
             this.popSetHighLight.Click += new System.EventHandler(this.popSetHighLight_Click);
             // 
@@ -1086,7 +1088,7 @@ namespace RTC_Vision_Lite.UserControls
             this.popRemoveHighLight.Name = "popRemoveHighLight";
             this.popRemoveHighLight.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Shift) 
             | System.Windows.Forms.Keys.H)));
-            this.popRemoveHighLight.Size = new System.Drawing.Size(259, 22);
+            this.popRemoveHighLight.Size = new System.Drawing.Size(309, 24);
             this.popRemoveHighLight.Text = "Remove High Light";
             this.popRemoveHighLight.Click += new System.EventHandler(this.popRemoveHighLight_Click);
             // 
@@ -1095,39 +1097,39 @@ namespace RTC_Vision_Lite.UserControls
             this.popRemoveAllHighLight.Name = "popRemoveAllHighLight";
             this.popRemoveAllHighLight.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Alt) 
             | System.Windows.Forms.Keys.H)));
-            this.popRemoveAllHighLight.Size = new System.Drawing.Size(259, 22);
+            this.popRemoveAllHighLight.Size = new System.Drawing.Size(309, 24);
             this.popRemoveAllHighLight.Text = "Remove All High Light";
             this.popRemoveAllHighLight.Click += new System.EventHandler(this.popRemoveAllHighLight_Click);
             // 
             // popSep2
             // 
             this.popSep2.Name = "popSep2";
-            this.popSep2.Size = new System.Drawing.Size(256, 6);
+            this.popSep2.Size = new System.Drawing.Size(306, 6);
             // 
             // popSaveToFileConfig
             // 
             this.popSaveToFileConfig.Name = "popSaveToFileConfig";
             this.popSaveToFileConfig.ShortcutKeys = System.Windows.Forms.Keys.F2;
-            this.popSaveToFileConfig.Size = new System.Drawing.Size(259, 22);
+            this.popSaveToFileConfig.Size = new System.Drawing.Size(309, 24);
             this.popSaveToFileConfig.Text = "Save To File Config";
             this.popSaveToFileConfig.Click += new System.EventHandler(this.popSaveToFileConfig_Click);
             // 
             // popClearAllSaveConfig
             // 
             this.popClearAllSaveConfig.Name = "popClearAllSaveConfig";
-            this.popClearAllSaveConfig.Size = new System.Drawing.Size(259, 22);
+            this.popClearAllSaveConfig.Size = new System.Drawing.Size(309, 24);
             this.popClearAllSaveConfig.Text = "Clear All Save Config";
             this.popClearAllSaveConfig.Click += new System.EventHandler(this.popClearAllSaveConfig_Click);
             // 
             // toolStripMenuItem1
             // 
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(256, 6);
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(306, 6);
             // 
             // popViewValue1
             // 
             this.popViewValue1.Name = "popViewValue1";
-            this.popViewValue1.Size = new System.Drawing.Size(259, 22);
+            this.popViewValue1.Size = new System.Drawing.Size(309, 24);
             this.popViewValue1.Text = "View Value";
             this.popViewValue1.Click += new System.EventHandler(this.popViewValue1_Click);
             // 
