@@ -8385,6 +8385,16 @@ namespace RTC_Vision_Lite.UserControls
                 tlvAction.ModelFilter = null;
             }    
         }
+
+        private void btnSEP2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnMethod_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 
