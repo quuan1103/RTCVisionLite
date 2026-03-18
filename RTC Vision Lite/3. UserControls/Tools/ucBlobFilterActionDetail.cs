@@ -18,6 +18,6 @@ namespace RTC_Vision_Lite.UserControls
             PageSetup.SelectedTab = General;
         }
 
-        
+       
     }
 }

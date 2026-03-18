@@ -651,7 +651,7 @@ namespace RTC_Vision_Lite.UserControls
             this.ucOrigin2.Action = null;
             this.ucOrigin2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.ucOrigin2.Location = new System.Drawing.Point(18, 134);
+            this.ucOrigin2.Location = new System.Drawing.Point(18, 139);
             this.ucOrigin2.Margin = new System.Windows.Forms.Padding(2, 41, 2, 41);
             this.ucOrigin2.Name = "ucOrigin2";
             this.ucOrigin2.PropertyName = "ToolOrigin";

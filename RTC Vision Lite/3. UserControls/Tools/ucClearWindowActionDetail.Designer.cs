@@ -58,6 +58,23 @@ namespace RTC_Vision_Lite.UserControls
             this.ScrollableGeneral.Controls.Add(this.label4);
             this.ScrollableGeneral.Controls.Add(this.RTCName);
             this.ScrollableGeneral.Controls.Add(this.Nam);
+            this.ScrollableGeneral.Location = new System.Drawing.Point(5, 5);
+            this.ScrollableGeneral.Size = new System.Drawing.Size(1149, 501);
+            // 
+            // PageSetup
+            // 
+            this.PageSetup.Location = new System.Drawing.Point(5, 51);
+            this.PageSetup.Size = new System.Drawing.Size(1182, 519);
+            // 
+            // ROI
+            // 
+            this.ROI.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.ROI.Padding = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.ROI.Size = new System.Drawing.Size(1159, 511);
+            // 
+            // PassFail
+            // 
+            this.PassFail.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             // 
             // ScrollableROI
             // 
@@ -65,6 +82,43 @@ namespace RTC_Vision_Lite.UserControls
             this.ScrollableROI.Controls.Add(this.groupBox1);
             this.ScrollableROI.Controls.Add(this.label2);
             this.ScrollableROI.Controls.Add(this.label1);
+            this.ScrollableROI.Location = new System.Drawing.Point(5, 5);
+            this.ScrollableROI.Size = new System.Drawing.Size(1149, 501);
+            // 
+            // panel1
+            // 
+            this.panel1.Location = new System.Drawing.Point(5, 5);
+            this.panel1.Size = new System.Drawing.Size(1182, 46);
+            // 
+            // General
+            // 
+            this.General.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.General.Padding = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.General.Size = new System.Drawing.Size(1159, 511);
+            // 
+            // TabSetUp
+            // 
+            this.TabSetUp.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.TabSetUp.Padding = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            // 
+            // Method
+            // 
+            this.Method.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.Method.Padding = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            // 
+            // Display
+            // 
+            this.Display.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            // 
+            // ScrollableMethod
+            // 
+            this.ScrollableMethod.Location = new System.Drawing.Point(5, 5);
+            this.ScrollableMethod.Size = new System.Drawing.Size(1151, 503);
+            // 
+            // ScrollableEndPointAndType
+            // 
+            this.ScrollableEndPointAndType.Location = new System.Drawing.Point(5, 5);
+            this.ScrollableEndPointAndType.Size = new System.Drawing.Size(1151, 503);
             // 
             // Selecticon
             // 
@@ -91,7 +145,8 @@ namespace RTC_Vision_Lite.UserControls
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(17, 16);
+            this.label1.Location = new System.Drawing.Point(23, 20);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(54, 13);
             this.label1.TabIndex = 0;
@@ -101,7 +156,8 @@ namespace RTC_Vision_Lite.UserControls
             // 
             this.label2.AutoSize = true;
             this.label2.ForeColor = System.Drawing.Color.Green;
-            this.label2.Location = new System.Drawing.Point(82, 16);
+            this.label2.Location = new System.Drawing.Point(109, 20);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(42, 13);
             this.label2.TabIndex = 0;
@@ -113,16 +169,19 @@ namespace RTC_Vision_Lite.UserControls
             this.groupBox1.Controls.Add(this.RTCRunMode);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.RTCIsAllWindows);
-            this.groupBox1.Location = new System.Drawing.Point(20, 36);
+            this.groupBox1.Location = new System.Drawing.Point(27, 44);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(411, 109);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Size = new System.Drawing.Size(548, 134);
             this.groupBox1.TabIndex = 5;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Settings";
             // 
             // ucProgramName1
             // 
-            this.ucProgramName1.Location = new System.Drawing.Point(21, 18);
+            this.ucProgramName1.Location = new System.Drawing.Point(28, 22);
+            this.ucProgramName1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.ucProgramName1.Name = "ucProgramName1";
             this.ucProgramName1.ProgramName = "";
             this.ucProgramName1.RTCAction = null;
@@ -131,21 +190,23 @@ namespace RTC_Vision_Lite.UserControls
             this.ucProgramName1.RTCIsUseCaption = true;
             this.ucProgramName1.RTCIsUseThisCam = true;
             this.ucProgramName1.RTCPropertyName = "ProgramName";
-            this.ucProgramName1.Size = new System.Drawing.Size(373, 27);
+            this.ucProgramName1.Size = new System.Drawing.Size(497, 33);
             this.ucProgramName1.TabIndex = 11;
             // 
             // RTCRunMode
             // 
             this.RTCRunMode.FormattingEnabled = true;
-            this.RTCRunMode.Location = new System.Drawing.Point(123, 51);
+            this.RTCRunMode.Location = new System.Drawing.Point(164, 63);
+            this.RTCRunMode.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.RTCRunMode.Name = "RTCRunMode";
-            this.RTCRunMode.Size = new System.Drawing.Size(267, 21);
+            this.RTCRunMode.Size = new System.Drawing.Size(355, 21);
             this.RTCRunMode.TabIndex = 10;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(22, 54);
+            this.label3.Location = new System.Drawing.Point(29, 66);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(61, 13);
             this.label3.TabIndex = 9;
@@ -154,7 +215,8 @@ namespace RTC_Vision_Lite.UserControls
             // RTCIsAllWindows
             // 
             this.RTCIsAllWindows.AutoSize = true;
-            this.RTCIsAllWindows.Location = new System.Drawing.Point(123, 78);
+            this.RTCIsAllWindows.Location = new System.Drawing.Point(164, 96);
+            this.RTCIsAllWindows.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.RTCIsAllWindows.Name = "RTCIsAllWindows";
             this.RTCIsAllWindows.Size = new System.Drawing.Size(91, 17);
             this.RTCIsAllWindows.TabIndex = 7;
@@ -163,9 +225,10 @@ namespace RTC_Vision_Lite.UserControls
             // 
             // btnTest
             // 
-            this.btnTest.Location = new System.Drawing.Point(20, 156);
+            this.btnTest.Location = new System.Drawing.Point(27, 192);
+            this.btnTest.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnTest.Name = "btnTest";
-            this.btnTest.Size = new System.Drawing.Size(75, 23);
+            this.btnTest.Size = new System.Drawing.Size(100, 28);
             this.btnTest.TabIndex = 6;
             this.btnTest.Text = "Test";
             this.btnTest.UseVisualStyleBackColor = true;
@@ -176,7 +239,8 @@ namespace RTC_Vision_Lite.UserControls
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.label4.Location = new System.Drawing.Point(58, 38);
+            this.label4.Location = new System.Drawing.Point(77, 47);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(216, 13);
             this.label4.TabIndex = 5;
@@ -186,15 +250,17 @@ namespace RTC_Vision_Lite.UserControls
             // 
             this.RTCName.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.RTCName.Location = new System.Drawing.Point(58, 15);
+            this.RTCName.Location = new System.Drawing.Point(77, 18);
+            this.RTCName.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.RTCName.Name = "RTCName";
-            this.RTCName.Size = new System.Drawing.Size(640, 22);
+            this.RTCName.Size = new System.Drawing.Size(848, 22);
             this.RTCName.TabIndex = 4;
             // 
             // Nam
             // 
             this.Nam.AutoSize = true;
-            this.Nam.Location = new System.Drawing.Point(20, 18);
+            this.Nam.Location = new System.Drawing.Point(27, 22);
+            this.Nam.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Nam.Name = "Nam";
             this.Nam.Size = new System.Drawing.Size(36, 13);
             this.Nam.TabIndex = 3;
@@ -202,8 +268,9 @@ namespace RTC_Vision_Lite.UserControls
             // 
             // ucClearWindowActionDetail
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.Name = "ucClearWindowActionDetail";
             this.PageActionSetting.ResumeLayout(false);
             this.ScrollableGeneral.ResumeLayout(false);

@@ -25,7 +25,8 @@ using CommonTools;
 
 namespace RTC_Vision_Lite.UserControls
 {
-    public partial class ucBaseActionDetail : UserControl
+    public partial class 
+        ucBaseActionDetail : UserControl
     {
         public event ButtonLinkEndSelectedPropertyLinkEvent OnButtonLinkEndSelectedPropertyLinkEvent;
         public event PropertiesRowCellClick OnPropertiesRowCellClickbtnLink;
@@ -2059,7 +2060,6 @@ namespace RTC_Vision_Lite.UserControls
                     GlobVar.LockEvents = false;
                     if (propertyInfo.rtcReadOnly)
                         RangeMaxMinLimit.Enabled = false;
-
                 }
             }
         }

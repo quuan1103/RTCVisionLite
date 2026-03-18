@@ -784,8 +784,6 @@ namespace RTC_Vision_Lite.UserControls
             this.ucImageLink.Location = new System.Drawing.Point(9, 44);
             this.ucImageLink.Name = "ucImageLink";
             this.ucImageLink.PropertyName = "InputGrayImage";
-         
-        
             this.ucImageLink.Size = new System.Drawing.Size(769, 73);
             this.ucImageLink.TabIndex = 2;
             // 

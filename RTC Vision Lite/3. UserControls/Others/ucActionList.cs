@@ -1,4 +1,4 @@
-﻿//using CommonTools;
+//using CommonTools;
 
 using BrightIdeasSoftware;
 using RTC_Vision_Lite.Classes;
@@ -45,7 +45,7 @@ namespace RTC_Vision_Lite.UserControls
 
         public static int NameAcID = -1;
         public static int DescriptionID = -1;
-        private ESmallViewMode _smallViewMode = ESmallViewMode.Small;
+        private ESmallViewMode _smallViewMode = ESmallViewMode.Normal;
         private cAction currentActionSelect = null;
 
         private List<Guid> viewedActions = new List<Guid>();
@@ -104,11 +104,11 @@ namespace RTC_Vision_Lite.UserControls
             tl.OwnerDrawnHeader = true;
             //tl.DrawItem -= Tl_DrawItem;
             //tl.DrawItem += Tl_DrawItem;
-            tl.DrawSubItem += (sender, e) =>
-            {
-                // Đoạn code này chỉ để kiểm tra sự kiện có chạy hay không
-                MessageBox.Show("DrawColumnHeader triggered");
-            };
+            //tl.DrawSubItem += (sender, e) =>
+            //{
+            //    // Đoạn code này chỉ để kiểm tra sự kiện có chạy hay không
+            //    MessageBox.Show("DrawColumnHeader triggered");
+            //};
 
            // Graphics = tl.CreateGraphics();
         }
@@ -130,7 +130,8 @@ namespace RTC_Vision_Lite.UserControls
             // Gọi phương thức mặc định để vẽ item
             e.DrawText();
         }
-
+       
+   
         public void ViewData()
         {
             try
@@ -207,6 +208,7 @@ namespace RTC_Vision_Lite.UserControls
                 tl.FocusedItem = null;
                 if (tl.GetItemCount() > 0)
                     tl.SelectedObject = roots[0];
+                SetSmallView();
             }
         }
 
@@ -1840,27 +1842,59 @@ namespace RTC_Vision_Lite.UserControls
             SetSmallView();
         }
 
+        //private void SetSmallView()
+        //{
+        //    if (tl.InvokeRequired)
+        //    {
+        //        tl.Invoke((MethodInvoker)delegate
+        //        {
+        //            tl.BeginUpdate();
+        //            SetNodeHeight(tl.Roots.Cast<ActionTools>().ToList());
+        //            UpdateFont();
+        //            tl.EndUpdate();
+        //            tl.Invalidate(true);
+        //        });
+        //    }
+        //    else
+        //    {
+        //        tl.BeginUpdate();
+        //        SetNodeHeight(tl.Roots.Cast<ActionTools>().ToList());
+        //        UpdateFont();
+        //        tl.EndUpdate();
+        //        tl.Invalidate(true);
+
+        //    }
+
+        //}
         private void SetSmallView()
         {
             if (tl.InvokeRequired)
             {
-                tl.Invoke((MethodInvoker)delegate
-                {
-                    tl.BeginUpdate();
-                    SetNodeHeight(tl.Roots.Cast<ActionTools>().ToList());
-                    UpdateFont();
-                    tl.EndUpdate();
-                });
+                tl.Invoke((MethodInvoker)delegate { ApplySmallView(); });
             }
             else
             {
-                tl.BeginUpdate();
-                SetNodeHeight(tl.Roots.Cast<ActionTools>().ToList());
-                UpdateFont();
-                tl.EndUpdate();
-
+                ApplySmallView();
             }
+        }
 
+        private void ApplySmallView()
+        {
+            var currentRoots = tl.Roots.Cast<ActionTools>().ToList();
+            if (currentRoots == null || currentRoots.Count <= 0)
+                return;
+
+            // Thứ tự đúng: Set RowHeight → Font → Roots → BuildList → ExpandAll → Refresh
+            SetNodeHeight(currentRoots);
+            UpdateFont();
+            tl.CanExpandGetter = x => (x as ActionTools).child.Count > 0;
+            tl.ChildrenGetter = x => (x as ActionTools).child;
+
+            // Không cần gán lại roots nếu đã có dữ liệu, chỉ cần refresh
+            tl.BuildList(false);
+            tl.ExpandAll();
+            tl.Refresh();
+            tl.Invalidate(true);
         }
 
         internal void UpdateFont()
@@ -1868,43 +1902,62 @@ namespace RTC_Vision_Lite.UserControls
             if (tl.InvokeRequired)
             {
                 tl.Invoke(new Action(() =>
-                    {
-                        switch (_smallViewMode)
-                        {
-                            case ESmallViewMode.Small:
-                                tl.Font = CommonData.GetFontStyle(cFontStyle.ListOfToolOfModelSmall);
-                                break;
-                            case ESmallViewMode.Normal:
-                                tl.Font = CommonData.GetFontStyle(cFontStyle.ListOfToolOfModelNomal);
-                                break;
-                            case ESmallViewMode.Large:
-                                tl.Font = CommonData.GetFontStyle(cFontStyle.ListOfToolOfModelLarge);
-                                break;
-                            default:
-                                tl.Font = CommonData.GetFontStyle(cFontStyle.ListOfToolOfModelNomal);
-                                break;
-                        }
-                    }));
+                {
+
+                    tl.Font = CommonData.GetFontStyle(cFontStyle.ListOfToolOfModelLarge);
+                }));
             }
             else
-                switch (_smallViewMode)
-                {
-                    case ESmallViewMode.Small:
-                        tl.Font = CommonData.GetFontStyle(cFontStyle.ListOfToolOfModelSmall);
-                        break;
-                    case ESmallViewMode.Normal:
-                        tl.Font = CommonData.GetFontStyle(cFontStyle.ListOfToolOfModelNomal);
-                        break;
-                    case ESmallViewMode.Large:
-                        tl.Font = CommonData.GetFontStyle(cFontStyle.ListOfToolOfModelLarge);
-                        break;
-                    default:
-                        tl.Font = CommonData.GetFontStyle(cFontStyle.ListOfToolOfModelNomal);
-                        break;
-                }
+            {
 
+                tl.Font = CommonData.GetFontStyle(cFontStyle.ListOfToolOfModelLarge);
+            }
         }
+        //internal void UpdateFont()
+        //{
+        //    if (tl.InvokeRequired)
+        //    {
+        //        tl.Invoke(new Action(() =>
+        //        {
+        //            switch (_smallViewMode)
+        //            {
+        //                case ESmallViewMode.Small:
+        //                    tl.Font = CommonData.GetFontStyle(cFontStyle.ListOfToolOfModelSmall);
+        //                    break;
+        //                case ESmallViewMode.Normal:
+        //                    tl.Font = CommonData.GetFontStyle(cFontStyle.ListOfToolOfModelNomal);
+        //                    break;
+        //                case ESmallViewMode.Large:
+        //                    tl.Font = CommonData.GetFontStyle(cFontStyle.ListOfToolOfModelLarge);
+        //                    break;
+        //                default:
+        //                    tl.Font = CommonData.GetFontStyle(cFontStyle.ListOfToolOfModelNomal);
+        //                    break;
+        //            }
 
+        //            // Test: Force same font for all modes to isolate the issue
+        //            // tl.Font = CommonData.GetFontStyle(cFontStyle.ListOfToolOfModelLarge);
+        //        }));
+        //    }
+        //    else
+        //    {
+        //        switch (_smallViewMode)
+        //        {
+        //            case ESmallViewMode.Small:
+        //                tl.Font = CommonData.GetFontStyle(cFontStyle.ListOfToolOfModelSmall);
+        //                break;
+        //            case ESmallViewMode.Normal:
+        //                tl.Font = CommonData.GetFontStyle(cFontStyle.ListOfToolOfModelNomal);
+        //                break;
+        //            case ESmallViewMode.Large:
+        //                tl.Font = CommonData.GetFontStyle(cFontStyle.ListOfToolOfModelLarge);
+        //                break;
+        //            default:
+        //                tl.Font = CommonData.GetFontStyle(cFontStyle.ListOfToolOfModelNomal);
+        //                break;
+        //        }           
+        //    }
+        //}
         private void SetNodeHeight(List<ActionTools> Nodes)
         {
             if (Nodes == null || Nodes.Count <= 0)
@@ -1914,7 +1967,7 @@ namespace RTC_Vision_Lite.UserControls
                 case ESmallViewMode.Small:
                     tl.StateImageList = GlobVar.imlActionType16;
                     tl.SmallImageList = GlobVar.imlActionType16;
-                    tl.RowHeight = 20;
+                    tl.RowHeight = 16;
                     break;
                 case ESmallViewMode.Normal:
                     tl.StateImageList = GlobVar.imlActionType24;
@@ -1931,9 +1984,31 @@ namespace RTC_Vision_Lite.UserControls
                     tl.SmallImageList = GlobVar.imlActionType24;
                     tl.RowHeight = 24;
                     break;
+                   // tl.TreeColumnRenderer.IsShowLines = false;
+
             }
         }
+        //private void SetNodeHeight(List<ActionTools> Nodes)
+        //{
+        //    if (Nodes == null || Nodes.Count <= 0)
+        //        return;
 
+        //    switch (_smallViewMode)
+        //    {
+        //        case ESmallViewMode.Small:
+        //            tl.RowHeight = 18;
+        //            break;
+        //        case ESmallViewMode.Normal:
+        //            tl.RowHeight = 26;
+        //            break;
+        //        case ESmallViewMode.Large:
+        //            tl.RowHeight = 32;
+        //            break;
+        //        default:
+        //            tl.RowHeight = 24;
+        //            break;
+        //    }
+        //}
         private void btnDeleteAll_Click(object sender, EventArgs e)
         {
             DeleteAllTool();
@@ -2031,12 +2106,24 @@ namespace RTC_Vision_Lite.UserControls
         {
             //var test = tl.Cursor;
             ENodeTypes eNodeTypes = GlobFuncs.GetNodeType((ActionTools)e.Model, this.NodeType);
+
+            //if (e.Column == colEnable)
+            //{
+            //    if (((ActionTools)e.Model).ActionType == EActionTypes.MainAction)
+            //    {
+            //        ImageDecoration image = new ImageDecoration(GlobVar.imlActionType24.Images["blank"], 255, ContentAlignment.MiddleCenter);
+            //        e.SubItem.Decoration = image;
+            //    }
+            //}
             if (e.Column == colEnable)
             {
                 if (((ActionTools)e.Model).ActionType == EActionTypes.MainAction)
                 {
-                    ImageDecoration image = new ImageDecoration(GlobVar.imlActionType24.Images["blank"], 255, ContentAlignment.MiddleCenter);
-                    e.SubItem.Decoration = image;
+                    var blankImg = tl.StateImageList?.Images?["blank"];   
+                    if (blankImg != null)
+                        e.SubItem.Decoration = new ImageDecoration(blankImg, 255, ContentAlignment.MiddleCenter);
+                    else
+                        e.SubItem.Decoration = null; 
                 }
             }
             if (GlobVar.IsLinkMode ||
@@ -2103,6 +2190,15 @@ namespace RTC_Vision_Lite.UserControls
                         {
                             e.SubItem.BackColor = Color.LimeGreen;
                         }
+                }
+                // quân thêm
+                if (e.Model == tl.SelectedObject)
+                {
+                    e.SubItem.Font = new Font(e.SubItem.Font, FontStyle.Bold);
+                }
+                if (e.Item.Selected)
+                {
+                    e.SubItem.Font = new Font(e.SubItem.Font, FontStyle.Bold);
                 }
 
             }

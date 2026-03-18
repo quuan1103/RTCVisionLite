@@ -51,15 +51,15 @@ namespace RTC_Vision_Lite.UserControls
             this.tlpLink.Controls.Add(this.lblRef, 5, 0);
             this.tlpLink.Controls.Add(this.btnRemoveLink, 4, 0);
             this.tlpLink.Controls.Add(this.lblCaption, 0, 0);
-            this.tlpLink.Controls.Add(this.txtValue, 1, 0);
             this.tlpLink.Controls.Add(this.btnLink, 2, 0);
             this.tlpLink.Controls.Add(this.btnGetFolder, 3, 0);
+            this.tlpLink.Controls.Add(this.txtValue, 1, 0);
             this.tlpLink.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tlpLink.Location = new System.Drawing.Point(0, 0);
             this.tlpLink.Name = "tlpLink";
             this.tlpLink.RowCount = 1;
             this.tlpLink.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tlpLink.Size = new System.Drawing.Size(1068, 35);
+            this.tlpLink.Size = new System.Drawing.Size(1068, 41);
             this.tlpLink.TabIndex = 0;
             // 
             // lblRef
@@ -68,7 +68,7 @@ namespace RTC_Vision_Lite.UserControls
             this.lblRef.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblRef.Location = new System.Drawing.Point(673, 0);
             this.lblRef.Name = "lblRef";
-            this.lblRef.Size = new System.Drawing.Size(392, 35);
+            this.lblRef.Size = new System.Drawing.Size(392, 41);
             this.lblRef.TabIndex = 5;
             this.lblRef.Text = "Source:";
             this.lblRef.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -80,7 +80,7 @@ namespace RTC_Vision_Lite.UserControls
             this.btnRemoveLink.Location = new System.Drawing.Point(623, 0);
             this.btnRemoveLink.Margin = new System.Windows.Forms.Padding(3, 0, 3, 0);
             this.btnRemoveLink.Name = "btnRemoveLink";
-            this.btnRemoveLink.Size = new System.Drawing.Size(44, 35);
+            this.btnRemoveLink.Size = new System.Drawing.Size(44, 41);
             this.btnRemoveLink.TabIndex = 4;
             this.btnRemoveLink.UseVisualStyleBackColor = true;
             this.btnRemoveLink.Click += new System.EventHandler(this.btnRemoveLink_Click);
@@ -91,16 +91,15 @@ namespace RTC_Vision_Lite.UserControls
             this.lblCaption.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblCaption.Location = new System.Drawing.Point(3, 0);
             this.lblCaption.Name = "lblCaption";
-            this.lblCaption.Size = new System.Drawing.Size(114, 35);
+            this.lblCaption.Size = new System.Drawing.Size(114, 41);
             this.lblCaption.TabIndex = 0;
             this.lblCaption.Text = "Caption";
             this.lblCaption.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // txtValue
             // 
-            this.txtValue.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtValue.Location = new System.Drawing.Point(123, 0);
+            this.txtValue.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtValue.Location = new System.Drawing.Point(123, 2);
             this.txtValue.Margin = new System.Windows.Forms.Padding(3, 0, 3, 0);
             this.txtValue.MaximumSize = new System.Drawing.Size(1000, 122);
             this.txtValue.MinimumSize = new System.Drawing.Size(40, 36);
@@ -114,7 +113,7 @@ namespace RTC_Vision_Lite.UserControls
             this.btnLink.Location = new System.Drawing.Point(523, 0);
             this.btnLink.Margin = new System.Windows.Forms.Padding(3, 0, 3, 0);
             this.btnLink.Name = "btnLink";
-            this.btnLink.Size = new System.Drawing.Size(44, 35);
+            this.btnLink.Size = new System.Drawing.Size(44, 41);
             this.btnLink.TabIndex = 2;
             this.btnLink.Text = "Link";
             this.btnLink.UseVisualStyleBackColor = true;
@@ -127,7 +126,7 @@ namespace RTC_Vision_Lite.UserControls
             this.btnGetFolder.Location = new System.Drawing.Point(573, 0);
             this.btnGetFolder.Margin = new System.Windows.Forms.Padding(3, 0, 3, 0);
             this.btnGetFolder.Name = "btnGetFolder";
-            this.btnGetFolder.Size = new System.Drawing.Size(44, 35);
+            this.btnGetFolder.Size = new System.Drawing.Size(44, 41);
             this.btnGetFolder.TabIndex = 3;
             this.btnGetFolder.UseVisualStyleBackColor = true;
             this.btnGetFolder.Click += new System.EventHandler(this.btnGetFolder_Click);
@@ -138,7 +137,7 @@ namespace RTC_Vision_Lite.UserControls
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.tlpLink);
             this.Name = "ucLink";
-            this.Size = new System.Drawing.Size(1068, 35);
+            this.Size = new System.Drawing.Size(1068, 41);
             this.tlpLink.ResumeLayout(false);
             this.tlpLink.PerformLayout();
             this.ResumeLayout(false);

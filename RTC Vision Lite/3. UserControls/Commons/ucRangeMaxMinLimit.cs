@@ -24,7 +24,7 @@ namespace RTC_Vision_Lite.UserControls
             //GlobFuncs.EnableTransparency(txtBeginValue);
             //GlobFuncs.EnableTransparency(txtEndValue);
             txtBeginValueLocationX = txtBeginValue.Location.X;
-
+          
 
         }
         public void SetValue(SListDouble sListDouble)
@@ -257,6 +257,7 @@ namespace RTC_Vision_Lite.UserControls
             txtEndValue.Text = maxVal.ToString();
             if (!GlobVar.LockEvents) timer1.Enabled = true;
         }
+      
 
         private void lblMinR_DoubleClick(object sender, EventArgs e)
         {

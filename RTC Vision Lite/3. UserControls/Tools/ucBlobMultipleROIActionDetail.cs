@@ -22,5 +22,10 @@ namespace RTC_Vision_Lite.UserControls
         {
 
         }
+
+        private void btnRunMultiROI_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

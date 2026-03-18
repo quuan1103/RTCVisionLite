@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Linq;
@@ -456,9 +456,9 @@ namespace NewPattern
                 CvInvoke.ArrowedLine(showTrain, new Point((int)ptCenter.X, (int)ptCenter.Y), new Point((int)xP2, (int)yP2), new MCvScalar(113, 184, 248), 1);
 
                 _outputMasterOrigin = new Tuple<PointF, double>(ptCenter, angle);
-            }
+            }          
+
             _outputImageShow = showTrain.ToBitmap();
-            TrainTemplate(templData.vecPyramid[0]);
             showTrain.Dispose();
             return true;
         }
@@ -845,6 +845,8 @@ namespace NewPattern
                             //Hiển thị ROI
                             CvInvoke.ArrowedLine(showImage, new Point((int)sstm.ptCenter.X, (int)sstm.ptCenter.Y), new Point((int)xP1, (int)yP1), new MCvScalar(0, 255, 0), 6);
                             CvInvoke.ArrowedLine(showImage, new Point((int)sstm.ptCenter.X, (int)sstm.ptCenter.Y), new Point((int)xP2, (int)yP2), new MCvScalar(113, 184, 248), 6);
+
+                           
 
                         }
 
@@ -1365,6 +1367,8 @@ namespace NewPattern
                     iMaxIdex = i;
                 }
             }
+
+         
 
             CvInvoke.Sobel(template, gx, DepthType.Cv64F, 1, 0, 3);
             CvInvoke.Sobel(template, gy, DepthType.Cv64F, 0, 1, 3);

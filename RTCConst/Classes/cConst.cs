@@ -703,7 +703,8 @@ namespace RTCConst
         public const string RemoveFromConfigFile = "Remove From Config File";
         public const string SaveToFileConfig = "Save To Config File ";
         public const string ChooseConfigFile = "Choosed Config File";
-        public const string ConfigFilter = "Config File (*.rtccf)|*.hobj";
+        //public const string ConfigFilter = "Config File (*.rtccf)|*.hobj";
+        public const string ConfigFilter = "Config File (*.rtccf)|*.rtccf";
         public const string Abort1 = "&Abort";
         public const string Abort = "Abort";
         public const string Retry = "Retry";
