@@ -77,7 +77,8 @@ namespace RTC_Vision_Lite.Forms
             this.tableLayoutPanel1.SetColumnSpan(this.SmartWindow, 2);
             this.SmartWindow.Dock = System.Windows.Forms.DockStyle.Fill;
             this.SmartWindow.FitImage = false;
-            this.SmartWindow.GetXY = ((System.Drawing.PointF)(resources.GetObject("SmartWindow.GetXY")));
+            //this.SmartWindow.GetXY = ((System.Drawing.PointF)(resources.GetObject("SmartWindow.GetXY")));
+            this.SmartWindow.GetXY = System.Drawing.PointF.Empty;
             this.SmartWindow.KeySelect = new System.Guid("00000000-0000-0000-0000-000000000000");
             this.SmartWindow.Location = new System.Drawing.Point(3, 3);
             this.SmartWindow.MoveImage = false;

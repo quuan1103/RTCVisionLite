@@ -1,4 +1,4 @@
-﻿using RTC_Vision_Lite.PublicFunctions;
+using RTC_Vision_Lite.PublicFunctions;
 using RTC_Vision_Lite.UserControls;
 using RTCConst;
 using System;

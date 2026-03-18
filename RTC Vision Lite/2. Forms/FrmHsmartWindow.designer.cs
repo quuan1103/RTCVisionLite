@@ -139,8 +139,9 @@ namespace RTC_Vision_Lite.Forms
             this.panel1.Controls.Add(this.lblImagePath);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1204, 33);
+            this.panel1.Size = new System.Drawing.Size(1605, 41);
             this.panel1.TabIndex = 1;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
@@ -149,9 +150,10 @@ namespace RTC_Vision_Lite.Forms
             this.lblCordinate.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lblCordinate.AutoSize = true;
-            this.lblCordinate.Location = new System.Drawing.Point(864, 10);
+            this.lblCordinate.Location = new System.Drawing.Point(1152, 12);
+            this.lblCordinate.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblCordinate.Name = "lblCordinate";
-            this.lblCordinate.Size = new System.Drawing.Size(153, 13);
+            this.lblCordinate.Size = new System.Drawing.Size(172, 16);
             this.lblCordinate.TabIndex = 0;
             this.lblCordinate.Text = "X: 526.65 Y: 355.25 - I: 100.00";
             // 
@@ -159,9 +161,10 @@ namespace RTC_Vision_Lite.Forms
             // 
             this.lblImagePath.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.lblImagePath.Location = new System.Drawing.Point(12, 6);
+            this.lblImagePath.Location = new System.Drawing.Point(16, 7);
+            this.lblImagePath.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblImagePath.Name = "lblImagePath";
-            this.lblImagePath.Size = new System.Drawing.Size(746, 20);
+            this.lblImagePath.Size = new System.Drawing.Size(995, 25);
             this.lblImagePath.TabIndex = 0;
             this.lblImagePath.Text = "F:\\";
             this.lblImagePath.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -179,17 +182,19 @@ namespace RTC_Vision_Lite.Forms
             this.panel2.Controls.Add(this.mnuIsViewMasterRoi);
             this.panel2.Controls.Add(this.mnuIsViewMasterName);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel2.Location = new System.Drawing.Point(0, 633);
+            this.panel2.Location = new System.Drawing.Point(0, 779);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1204, 37);
+            this.panel2.Size = new System.Drawing.Size(1605, 46);
             this.panel2.TabIndex = 5;
             this.panel2.Visible = false;
             // 
             // numericUpDown1
             // 
-            this.numericUpDown1.Location = new System.Drawing.Point(847, 8);
+            this.numericUpDown1.Location = new System.Drawing.Point(1129, 10);
+            this.numericUpDown1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(50, 20);
+            this.numericUpDown1.Size = new System.Drawing.Size(67, 22);
             this.numericUpDown1.TabIndex = 2;
             this.numericUpDown1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.numericUpDown1.Value = new decimal(new int[] {
@@ -200,27 +205,30 @@ namespace RTC_Vision_Lite.Forms
             // 
             // btnLockROI
             // 
-            this.btnLockROI.Location = new System.Drawing.Point(766, 7);
+            this.btnLockROI.Location = new System.Drawing.Point(1021, 9);
+            this.btnLockROI.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnLockROI.Name = "btnLockROI";
-            this.btnLockROI.Size = new System.Drawing.Size(75, 23);
+            this.btnLockROI.Size = new System.Drawing.Size(100, 28);
             this.btnLockROI.TabIndex = 1;
             this.btnLockROI.Text = "LOCK";
             this.btnLockROI.UseVisualStyleBackColor = true;
             // 
             // btnMoveROIWithKey
             // 
-            this.btnMoveROIWithKey.Location = new System.Drawing.Point(682, 7);
+            this.btnMoveROIWithKey.Location = new System.Drawing.Point(909, 9);
+            this.btnMoveROIWithKey.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnMoveROIWithKey.Name = "btnMoveROIWithKey";
-            this.btnMoveROIWithKey.Size = new System.Drawing.Size(75, 23);
+            this.btnMoveROIWithKey.Size = new System.Drawing.Size(100, 28);
             this.btnMoveROIWithKey.TabIndex = 1;
             this.btnMoveROIWithKey.Text = "None";
             this.btnMoveROIWithKey.UseVisualStyleBackColor = true;
             // 
             // btnMultiSelect
             // 
-            this.btnMultiSelect.Location = new System.Drawing.Point(601, 7);
+            this.btnMultiSelect.Location = new System.Drawing.Point(801, 9);
+            this.btnMultiSelect.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnMultiSelect.Name = "btnMultiSelect";
-            this.btnMultiSelect.Size = new System.Drawing.Size(75, 23);
+            this.btnMultiSelect.Size = new System.Drawing.Size(100, 28);
             this.btnMultiSelect.TabIndex = 1;
             this.btnMultiSelect.Text = "MULTI";
             this.btnMultiSelect.UseVisualStyleBackColor = true;
@@ -229,9 +237,10 @@ namespace RTC_Vision_Lite.Forms
             // mnuViewMarkName
             // 
             this.mnuViewMarkName.AutoSize = true;
-            this.mnuViewMarkName.Location = new System.Drawing.Point(319, 10);
+            this.mnuViewMarkName.Location = new System.Drawing.Point(425, 12);
+            this.mnuViewMarkName.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.mnuViewMarkName.Name = "mnuViewMarkName";
-            this.mnuViewMarkName.Size = new System.Drawing.Size(81, 17);
+            this.mnuViewMarkName.Size = new System.Drawing.Size(99, 20);
             this.mnuViewMarkName.TabIndex = 0;
             this.mnuViewMarkName.Text = "Mark Name";
             this.mnuViewMarkName.UseVisualStyleBackColor = true;
@@ -239,9 +248,10 @@ namespace RTC_Vision_Lite.Forms
             // isViewMarkRoi
             // 
             this.isViewMarkRoi.AutoSize = true;
-            this.isViewMarkRoi.Location = new System.Drawing.Point(263, 10);
+            this.isViewMarkRoi.Location = new System.Drawing.Point(351, 12);
+            this.isViewMarkRoi.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.isViewMarkRoi.Name = "isViewMarkRoi";
-            this.isViewMarkRoi.Size = new System.Drawing.Size(50, 17);
+            this.isViewMarkRoi.Size = new System.Drawing.Size(59, 20);
             this.isViewMarkRoi.TabIndex = 0;
             this.isViewMarkRoi.Text = "Mark";
             this.isViewMarkRoi.UseVisualStyleBackColor = true;
@@ -249,9 +259,10 @@ namespace RTC_Vision_Lite.Forms
             // mnuViewRoiName
             // 
             this.mnuViewRoiName.AutoSize = true;
-            this.mnuViewRoiName.Location = new System.Drawing.Point(483, 10);
+            this.mnuViewRoiName.Location = new System.Drawing.Point(644, 12);
+            this.mnuViewRoiName.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.mnuViewRoiName.Name = "mnuViewRoiName";
-            this.mnuViewRoiName.Size = new System.Drawing.Size(112, 17);
+            this.mnuViewRoiName.Size = new System.Drawing.Size(139, 20);
             this.mnuViewRoiName.TabIndex = 0;
             this.mnuViewRoiName.Text = "Normal ROI Name";
             this.mnuViewRoiName.UseVisualStyleBackColor = true;
@@ -259,9 +270,10 @@ namespace RTC_Vision_Lite.Forms
             // mnuIsViewNormalRoi
             // 
             this.mnuIsViewNormalRoi.AutoSize = true;
-            this.mnuIsViewNormalRoi.Location = new System.Drawing.Point(406, 10);
+            this.mnuIsViewNormalRoi.Location = new System.Drawing.Point(541, 12);
+            this.mnuIsViewNormalRoi.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.mnuIsViewNormalRoi.Name = "mnuIsViewNormalRoi";
-            this.mnuIsViewNormalRoi.Size = new System.Drawing.Size(78, 17);
+            this.mnuIsViewNormalRoi.Size = new System.Drawing.Size(95, 20);
             this.mnuIsViewNormalRoi.TabIndex = 0;
             this.mnuIsViewNormalRoi.Text = "Nomal ROI";
             this.mnuIsViewNormalRoi.UseVisualStyleBackColor = true;
@@ -269,9 +281,10 @@ namespace RTC_Vision_Lite.Forms
             // mnuIsViewMasterRoi
             // 
             this.mnuIsViewMasterRoi.AutoSize = true;
-            this.mnuIsViewMasterRoi.Location = new System.Drawing.Point(104, 10);
+            this.mnuIsViewMasterRoi.Location = new System.Drawing.Point(139, 12);
+            this.mnuIsViewMasterRoi.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.mnuIsViewMasterRoi.Name = "mnuIsViewMasterRoi";
-            this.mnuIsViewMasterRoi.Size = new System.Drawing.Size(58, 17);
+            this.mnuIsViewMasterRoi.Size = new System.Drawing.Size(70, 20);
             this.mnuIsViewMasterRoi.TabIndex = 0;
             this.mnuIsViewMasterRoi.Text = "Master";
             this.mnuIsViewMasterRoi.UseVisualStyleBackColor = true;
@@ -281,8 +294,9 @@ namespace RTC_Vision_Lite.Forms
             // 
             this.mnuIsViewMasterName.AutoSize = true;
             this.mnuIsViewMasterName.Location = new System.Drawing.Point(0, 0);
+            this.mnuIsViewMasterName.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.mnuIsViewMasterName.Name = "mnuIsViewMasterName";
-            this.mnuIsViewMasterName.Size = new System.Drawing.Size(89, 17);
+            this.mnuIsViewMasterName.Size = new System.Drawing.Size(110, 20);
             this.mnuIsViewMasterName.TabIndex = 0;
             this.mnuIsViewMasterName.Text = "Master Name";
             this.mnuIsViewMasterName.UseVisualStyleBackColor = true;
@@ -322,7 +336,7 @@ namespace RTC_Vision_Lite.Forms
             this.lblTest});
             this.pnlTools.Location = new System.Drawing.Point(0, 0);
             this.pnlTools.Name = "pnlTools";
-            this.pnlTools.Size = new System.Drawing.Size(30, 670);
+            this.pnlTools.Size = new System.Drawing.Size(40, 825);
             this.pnlTools.TabIndex = 6;
             this.pnlTools.Text = "toolStrip2";
             this.pnlTools.Visible = false;
@@ -330,7 +344,7 @@ namespace RTC_Vision_Lite.Forms
             // btnStep1
             // 
             this.btnStep1.Name = "btnStep1";
-            this.btnStep1.Size = new System.Drawing.Size(28, 6);
+            this.btnStep1.Size = new System.Drawing.Size(38, 6);
             // 
             // btnDraw
             // 
@@ -343,14 +357,14 @@ namespace RTC_Vision_Lite.Forms
             this.btnDraw.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnDraw.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnDraw.Name = "btnDraw";
-            this.btnDraw.Size = new System.Drawing.Size(28, 24);
+            this.btnDraw.Size = new System.Drawing.Size(38, 24);
             this.btnDraw.Text = "toolStripSplitButton1";
             // 
             // btnDrawRectang
             // 
             this.btnDrawRectang.Image = ((System.Drawing.Image)(resources.GetObject("btnDrawRectang.Image")));
             this.btnDrawRectang.Name = "btnDrawRectang";
-            this.btnDrawRectang.Size = new System.Drawing.Size(126, 22);
+            this.btnDrawRectang.Size = new System.Drawing.Size(158, 26);
             this.btnDrawRectang.Text = "Rectangle";
             this.btnDrawRectang.Click += new System.EventHandler(this.btnDrawRectang_Click);
             // 
@@ -359,14 +373,14 @@ namespace RTC_Vision_Lite.Forms
             this.btnDrawCircle.Image = ((System.Drawing.Image)(resources.GetObject("btnDrawCircle.Image")));
             this.btnDrawCircle.Name = "btnDrawCircle";
             this.btnDrawCircle.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.btnDrawCircle.Size = new System.Drawing.Size(126, 22);
+            this.btnDrawCircle.Size = new System.Drawing.Size(158, 26);
             this.btnDrawCircle.Text = "Circle";
             this.btnDrawCircle.Click += new System.EventHandler(this.btnDrawCircle_Click);
             // 
             // polygonToolStripMenuItem
             // 
             this.polygonToolStripMenuItem.Name = "polygonToolStripMenuItem";
-            this.polygonToolStripMenuItem.Size = new System.Drawing.Size(126, 22);
+            this.polygonToolStripMenuItem.Size = new System.Drawing.Size(158, 26);
             this.polygonToolStripMenuItem.Text = "Polygon";
             this.polygonToolStripMenuItem.Visible = false;
             // 
@@ -377,7 +391,7 @@ namespace RTC_Vision_Lite.Forms
             this.btnCut.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnCut.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnCut.Name = "btnCut";
-            this.btnCut.Size = new System.Drawing.Size(28, 24);
+            this.btnCut.Size = new System.Drawing.Size(38, 24);
             this.btnCut.Text = "toolStripButton1";
             this.btnCut.Click += new System.EventHandler(this.btnCut_Click);
             // 
@@ -388,7 +402,7 @@ namespace RTC_Vision_Lite.Forms
             this.btnCopy.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnCopy.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnCopy.Name = "btnCopy";
-            this.btnCopy.Size = new System.Drawing.Size(28, 24);
+            this.btnCopy.Size = new System.Drawing.Size(38, 24);
             this.btnCopy.Text = "toolStripButton2";
             this.btnCopy.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
@@ -399,7 +413,7 @@ namespace RTC_Vision_Lite.Forms
             this.btnPaste.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnPaste.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnPaste.Name = "btnPaste";
-            this.btnPaste.Size = new System.Drawing.Size(28, 24);
+            this.btnPaste.Size = new System.Drawing.Size(38, 24);
             this.btnPaste.Text = "toolStripButton3";
             // 
             // btnDelete
@@ -409,13 +423,13 @@ namespace RTC_Vision_Lite.Forms
             this.btnDelete.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnDelete.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(28, 24);
+            this.btnDelete.Size = new System.Drawing.Size(38, 24);
             this.btnDelete.Text = "toolStripButton4";
             // 
             // btnStep2
             // 
             this.btnStep2.Name = "btnStep2";
-            this.btnStep2.Size = new System.Drawing.Size(28, 6);
+            this.btnStep2.Size = new System.Drawing.Size(38, 6);
             // 
             // btnZoom
             // 
@@ -424,7 +438,7 @@ namespace RTC_Vision_Lite.Forms
             this.btnZoom.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnZoom.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnZoom.Name = "btnZoom";
-            this.btnZoom.Size = new System.Drawing.Size(28, 24);
+            this.btnZoom.Size = new System.Drawing.Size(38, 24);
             this.btnZoom.Text = "toolStripSplitButton1";
             // 
             // btnZoomEX
@@ -434,7 +448,7 @@ namespace RTC_Vision_Lite.Forms
             this.btnZoomEX.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnZoomEX.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnZoomEX.Name = "btnZoomEX";
-            this.btnZoomEX.Size = new System.Drawing.Size(28, 24);
+            this.btnZoomEX.Size = new System.Drawing.Size(38, 24);
             this.btnZoomEX.Text = "toolStripButton6";
             // 
             // btnZoomIn
@@ -444,7 +458,7 @@ namespace RTC_Vision_Lite.Forms
             this.btnZoomIn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnZoomIn.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnZoomIn.Name = "btnZoomIn";
-            this.btnZoomIn.Size = new System.Drawing.Size(28, 24);
+            this.btnZoomIn.Size = new System.Drawing.Size(38, 24);
             this.btnZoomIn.Text = "toolStripButton7";
             // 
             // btnZoomOut
@@ -454,7 +468,7 @@ namespace RTC_Vision_Lite.Forms
             this.btnZoomOut.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnZoomOut.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnZoomOut.Name = "btnZoomOut";
-            this.btnZoomOut.Size = new System.Drawing.Size(28, 24);
+            this.btnZoomOut.Size = new System.Drawing.Size(38, 24);
             this.btnZoomOut.Text = "toolStripButton8";
             // 
             // btnFitImageEx
@@ -464,13 +478,13 @@ namespace RTC_Vision_Lite.Forms
             this.btnFitImageEx.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnFitImageEx.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnFitImageEx.Name = "btnFitImageEx";
-            this.btnFitImageEx.Size = new System.Drawing.Size(28, 24);
+            this.btnFitImageEx.Size = new System.Drawing.Size(38, 24);
             this.btnFitImageEx.Text = "toolStripButton9";
             // 
             // btnStep3
             // 
             this.btnStep3.Name = "btnStep3";
-            this.btnStep3.Size = new System.Drawing.Size(28, 6);
+            this.btnStep3.Size = new System.Drawing.Size(38, 6);
             // 
             // btnRenameROI
             // 
@@ -479,7 +493,7 @@ namespace RTC_Vision_Lite.Forms
             this.btnRenameROI.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnRenameROI.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnRenameROI.Name = "btnRenameROI";
-            this.btnRenameROI.Size = new System.Drawing.Size(28, 24);
+            this.btnRenameROI.Size = new System.Drawing.Size(38, 24);
             this.btnRenameROI.Text = "toolStripButton10";
             // 
             // btnMoveROI
@@ -489,12 +503,12 @@ namespace RTC_Vision_Lite.Forms
             this.btnMoveROI.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnMoveROI.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnMoveROI.Name = "btnMoveROI";
-            this.btnMoveROI.Size = new System.Drawing.Size(28, 24);
+            this.btnMoveROI.Size = new System.Drawing.Size(38, 24);
             // 
             // btnStep4
             // 
             this.btnStep4.Name = "btnStep4";
-            this.btnStep4.Size = new System.Drawing.Size(28, 6);
+            this.btnStep4.Size = new System.Drawing.Size(38, 6);
             // 
             // btnConnectCamera
             // 
@@ -504,7 +518,7 @@ namespace RTC_Vision_Lite.Forms
             this.btnConnectCamera.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnConnectCamera.Margin = new System.Windows.Forms.Padding(0);
             this.btnConnectCamera.Name = "btnConnectCamera";
-            this.btnConnectCamera.Size = new System.Drawing.Size(28, 24);
+            this.btnConnectCamera.Size = new System.Drawing.Size(38, 24);
             this.btnConnectCamera.Text = "toolStripButton12";
             this.btnConnectCamera.Click += new System.EventHandler(this.btnConnectCamera_Click);
             // 
@@ -515,7 +529,7 @@ namespace RTC_Vision_Lite.Forms
             this.lblLive_Run.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.lblLive_Run.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.lblLive_Run.Name = "lblLive_Run";
-            this.lblLive_Run.Size = new System.Drawing.Size(28, 24);
+            this.lblLive_Run.Size = new System.Drawing.Size(38, 24);
             this.lblLive_Run.Text = "toolStripButton13";
             // 
             // lblLive_Stop
@@ -525,7 +539,7 @@ namespace RTC_Vision_Lite.Forms
             this.lblLive_Stop.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.lblLive_Stop.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.lblLive_Stop.Name = "lblLive_Stop";
-            this.lblLive_Stop.Size = new System.Drawing.Size(28, 24);
+            this.lblLive_Stop.Size = new System.Drawing.Size(38, 24);
             this.lblLive_Stop.Text = "toolStripButton14";
             // 
             // lblSnap
@@ -535,7 +549,7 @@ namespace RTC_Vision_Lite.Forms
             this.lblSnap.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.lblSnap.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.lblSnap.Name = "lblSnap";
-            this.lblSnap.Size = new System.Drawing.Size(28, 24);
+            this.lblSnap.Size = new System.Drawing.Size(38, 24);
             this.lblSnap.Text = "toolStripButton15";
             // 
             // btnSaveImage
@@ -545,7 +559,7 @@ namespace RTC_Vision_Lite.Forms
             this.btnSaveImage.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnSaveImage.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnSaveImage.Name = "btnSaveImage";
-            this.btnSaveImage.Size = new System.Drawing.Size(28, 24);
+            this.btnSaveImage.Size = new System.Drawing.Size(38, 24);
             this.btnSaveImage.Text = "toolStripButton16";
             // 
             // btnDirectSave
@@ -555,13 +569,13 @@ namespace RTC_Vision_Lite.Forms
             this.btnDirectSave.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnDirectSave.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnDirectSave.Name = "btnDirectSave";
-            this.btnDirectSave.Size = new System.Drawing.Size(28, 24);
+            this.btnDirectSave.Size = new System.Drawing.Size(38, 24);
             this.btnDirectSave.Text = "toolStripButton17";
             // 
             // btnStep5
             // 
             this.btnStep5.Name = "btnStep5";
-            this.btnStep5.Size = new System.Drawing.Size(28, 6);
+            this.btnStep5.Size = new System.Drawing.Size(38, 6);
             // 
             // lblLockROIEdit
             // 
@@ -569,7 +583,7 @@ namespace RTC_Vision_Lite.Forms
             this.lblLockROIEdit.Image = ((System.Drawing.Image)(resources.GetObject("lblLockROIEdit.Image")));
             this.lblLockROIEdit.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.lblLockROIEdit.Name = "lblLockROIEdit";
-            this.lblLockROIEdit.Size = new System.Drawing.Size(28, 24);
+            this.lblLockROIEdit.Size = new System.Drawing.Size(38, 24);
             this.lblLockROIEdit.Text = "toolStripButton18";
             // 
             // lblUnlockRoiEdit
@@ -578,7 +592,7 @@ namespace RTC_Vision_Lite.Forms
             this.lblUnlockRoiEdit.Image = ((System.Drawing.Image)(resources.GetObject("lblUnlockRoiEdit.Image")));
             this.lblUnlockRoiEdit.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.lblUnlockRoiEdit.Name = "lblUnlockRoiEdit";
-            this.lblUnlockRoiEdit.Size = new System.Drawing.Size(28, 24);
+            this.lblUnlockRoiEdit.Size = new System.Drawing.Size(38, 24);
             this.lblUnlockRoiEdit.Text = "toolStripButton19";
             // 
             // lblTest
@@ -587,11 +601,12 @@ namespace RTC_Vision_Lite.Forms
             this.lblTest.Image = ((System.Drawing.Image)(resources.GetObject("lblTest.Image")));
             this.lblTest.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.lblTest.Name = "lblTest";
-            this.lblTest.Size = new System.Drawing.Size(28, 24);
+            this.lblTest.Size = new System.Drawing.Size(38, 24);
             this.lblTest.Text = "toolStripButton20";
             // 
             // mnuMenuShape
             // 
+            this.mnuMenuShape.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.mnuMenuShape.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.mnuAddRectangSub,
             this.mnuAddCircleSub,
@@ -612,7 +627,7 @@ namespace RTC_Vision_Lite.Forms
             this.mnuClearAll,
             this.mnuMultiSelect});
             this.mnuMenuShape.Name = "mnuMenuShape";
-            this.mnuMenuShape.Size = new System.Drawing.Size(224, 400);
+            this.mnuMenuShape.Size = new System.Drawing.Size(272, 472);
             // 
             // mnuAddRectangSub
             // 
@@ -626,7 +641,7 @@ namespace RTC_Vision_Lite.Forms
             this.mnuAddRectang_U,
             this.mnuAddRectang1_U});
             this.mnuAddRectangSub.Name = "mnuAddRectangSub";
-            this.mnuAddRectangSub.Size = new System.Drawing.Size(223, 22);
+            this.mnuAddRectangSub.Size = new System.Drawing.Size(271, 26);
             this.mnuAddRectangSub.Text = "Add Rectang";
             this.mnuAddRectangSub.TextAlign = System.Drawing.ContentAlignment.BottomRight;
             this.mnuAddRectangSub.Click += new System.EventHandler(this.mnuAddRectangSub_Click);
@@ -634,56 +649,56 @@ namespace RTC_Vision_Lite.Forms
             // mnuAddRectang
             // 
             this.mnuAddRectang.Name = "mnuAddRectang";
-            this.mnuAddRectang.Size = new System.Drawing.Size(197, 22);
+            this.mnuAddRectang.Size = new System.Drawing.Size(246, 26);
             this.mnuAddRectang.Text = "Normal";
             this.mnuAddRectang.Click += new System.EventHandler(this.mnuAddRectang_Click);
             // 
             // mnuAddRectang1
             // 
             this.mnuAddRectang1.Name = "mnuAddRectang1";
-            this.mnuAddRectang1.Size = new System.Drawing.Size(197, 22);
+            this.mnuAddRectang1.Size = new System.Drawing.Size(246, 26);
             this.mnuAddRectang1.Text = "Normal (No Angle)";
             this.mnuAddRectang1.Click += new System.EventHandler(this.mnuAddRectang1_Click);
             // 
             // mnuAddRectang_Diff
             // 
             this.mnuAddRectang_Diff.Name = "mnuAddRectang_Diff";
-            this.mnuAddRectang_Diff.Size = new System.Drawing.Size(197, 22);
+            this.mnuAddRectang_Diff.Size = new System.Drawing.Size(246, 26);
             this.mnuAddRectang_Diff.Text = "Difference";
             this.mnuAddRectang_Diff.Click += new System.EventHandler(this.mnuAddRectang_Diff_Click);
             // 
             // mnuAddRectang1_Diff
             // 
             this.mnuAddRectang1_Diff.Name = "mnuAddRectang1_Diff";
-            this.mnuAddRectang1_Diff.Size = new System.Drawing.Size(197, 22);
+            this.mnuAddRectang1_Diff.Size = new System.Drawing.Size(246, 26);
             this.mnuAddRectang1_Diff.Text = "Diff (No Angle)";
             this.mnuAddRectang1_Diff.Click += new System.EventHandler(this.mnuAddRectang1_Diff_Click);
             // 
             // mnuAddRectang_I
             // 
             this.mnuAddRectang_I.Name = "mnuAddRectang_I";
-            this.mnuAddRectang_I.Size = new System.Drawing.Size(197, 22);
+            this.mnuAddRectang_I.Size = new System.Drawing.Size(246, 26);
             this.mnuAddRectang_I.Text = "Intersection";
             this.mnuAddRectang_I.Click += new System.EventHandler(this.mnuAddRectang_I_Click);
             // 
             // mnuAddRectang1_I
             // 
             this.mnuAddRectang1_I.Name = "mnuAddRectang1_I";
-            this.mnuAddRectang1_I.Size = new System.Drawing.Size(197, 22);
+            this.mnuAddRectang1_I.Size = new System.Drawing.Size(246, 26);
             this.mnuAddRectang1_I.Text = "Intersection (No Angle)";
             this.mnuAddRectang1_I.Click += new System.EventHandler(this.mnuAddRectang1_I_Click);
             // 
             // mnuAddRectang_U
             // 
             this.mnuAddRectang_U.Name = "mnuAddRectang_U";
-            this.mnuAddRectang_U.Size = new System.Drawing.Size(197, 22);
+            this.mnuAddRectang_U.Size = new System.Drawing.Size(246, 26);
             this.mnuAddRectang_U.Text = "Union";
             this.mnuAddRectang_U.Click += new System.EventHandler(this.mnuAddRectang_U_Click);
             // 
             // mnuAddRectang1_U
             // 
             this.mnuAddRectang1_U.Name = "mnuAddRectang1_U";
-            this.mnuAddRectang1_U.Size = new System.Drawing.Size(197, 22);
+            this.mnuAddRectang1_U.Size = new System.Drawing.Size(246, 26);
             this.mnuAddRectang1_U.Text = "Union (No Angle)";
             this.mnuAddRectang1_U.Click += new System.EventHandler(this.mnuAddRectang1_U_Click);
             // 
@@ -695,103 +710,103 @@ namespace RTC_Vision_Lite.Forms
             this.mnuAddCircle_I,
             this.mnuAddCircle_U});
             this.mnuAddCircleSub.Name = "mnuAddCircleSub";
-            this.mnuAddCircleSub.Size = new System.Drawing.Size(223, 22);
+            this.mnuAddCircleSub.Size = new System.Drawing.Size(271, 26);
             this.mnuAddCircleSub.Text = "Add Circle";
             // 
             // mnuAddCircle
             // 
             this.mnuAddCircle.Name = "mnuAddCircle";
-            this.mnuAddCircle.Size = new System.Drawing.Size(136, 22);
+            this.mnuAddCircle.Size = new System.Drawing.Size(224, 26);
             this.mnuAddCircle.Text = "Nomal";
             this.mnuAddCircle.Click += new System.EventHandler(this.mnuAddCircle_Click);
             // 
             // mnuAddCircle_Diff
             // 
             this.mnuAddCircle_Diff.Name = "mnuAddCircle_Diff";
-            this.mnuAddCircle_Diff.Size = new System.Drawing.Size(136, 22);
+            this.mnuAddCircle_Diff.Size = new System.Drawing.Size(224, 26);
             this.mnuAddCircle_Diff.Text = "Difference";
             this.mnuAddCircle_Diff.Click += new System.EventHandler(this.mnuAddCircle_Diff_Click);
             // 
             // mnuAddCircle_I
             // 
             this.mnuAddCircle_I.Name = "mnuAddCircle_I";
-            this.mnuAddCircle_I.Size = new System.Drawing.Size(136, 22);
+            this.mnuAddCircle_I.Size = new System.Drawing.Size(224, 26);
             this.mnuAddCircle_I.Text = "Intersection";
             this.mnuAddCircle_I.Click += new System.EventHandler(this.mnuAddCircle_I_Click);
             // 
             // mnuAddCircle_U
             // 
             this.mnuAddCircle_U.Name = "mnuAddCircle_U";
-            this.mnuAddCircle_U.Size = new System.Drawing.Size(136, 22);
+            this.mnuAddCircle_U.Size = new System.Drawing.Size(224, 26);
             this.mnuAddCircle_U.Text = "Union";
             // 
             // mnuAddMasterRoi
             // 
             this.mnuAddMasterRoi.Name = "mnuAddMasterRoi";
-            this.mnuAddMasterRoi.Size = new System.Drawing.Size(223, 22);
+            this.mnuAddMasterRoi.Size = new System.Drawing.Size(271, 26);
             this.mnuAddMasterRoi.Text = "Add Master ROI";
             this.mnuAddMasterRoi.Visible = false;
             // 
             // mnuAddMarkRoi
             // 
             this.mnuAddMarkRoi.Name = "mnuAddMarkRoi";
-            this.mnuAddMarkRoi.Size = new System.Drawing.Size(223, 22);
+            this.mnuAddMarkRoi.Size = new System.Drawing.Size(271, 26);
             this.mnuAddMarkRoi.Text = "toolStripMenuItem1";
             this.mnuAddMarkRoi.Visible = false;
             // 
             // mnuAddShapeWithRangMode
             // 
             this.mnuAddShapeWithRangMode.Name = "mnuAddShapeWithRangMode";
-            this.mnuAddShapeWithRangMode.Size = new System.Drawing.Size(223, 22);
+            this.mnuAddShapeWithRangMode.Size = new System.Drawing.Size(271, 26);
             this.mnuAddShapeWithRangMode.Text = "Add Shape With Rang Mode";
             this.mnuAddShapeWithRangMode.Visible = false;
             // 
             // mnuCopyROI
             // 
             this.mnuCopyROI.Name = "mnuCopyROI";
-            this.mnuCopyROI.Size = new System.Drawing.Size(223, 22);
+            this.mnuCopyROI.Size = new System.Drawing.Size(271, 26);
             this.mnuCopyROI.Text = "Copy";
             this.mnuCopyROI.Click += new System.EventHandler(this.mnuCopyROI_Click);
             // 
             // mnuPatseRoi
             // 
             this.mnuPatseRoi.Name = "mnuPatseRoi";
-            this.mnuPatseRoi.Size = new System.Drawing.Size(223, 22);
+            this.mnuPatseRoi.Size = new System.Drawing.Size(271, 26);
             this.mnuPatseRoi.Text = "Paste";
             this.mnuPatseRoi.Click += new System.EventHandler(this.mnuPatseRoi_Click);
             // 
             // mnuPasteWithLink
             // 
             this.mnuPasteWithLink.Name = "mnuPasteWithLink";
-            this.mnuPasteWithLink.Size = new System.Drawing.Size(223, 22);
+            this.mnuPasteWithLink.Size = new System.Drawing.Size(271, 26);
             this.mnuPasteWithLink.Text = "Patse With Link";
             this.mnuPasteWithLink.Visible = false;
             // 
             // mnuPasteOrigin
             // 
             this.mnuPasteOrigin.Name = "mnuPasteOrigin";
-            this.mnuPasteOrigin.Size = new System.Drawing.Size(223, 22);
+            this.mnuPasteOrigin.Size = new System.Drawing.Size(271, 26);
             this.mnuPasteOrigin.Text = "Paste Origin";
             this.mnuPasteOrigin.Visible = false;
             // 
             // mnuCopyThisROIToMaster
             // 
             this.mnuCopyThisROIToMaster.Name = "mnuCopyThisROIToMaster";
-            this.mnuCopyThisROIToMaster.Size = new System.Drawing.Size(223, 22);
+            this.mnuCopyThisROIToMaster.Size = new System.Drawing.Size(271, 26);
             this.mnuCopyThisROIToMaster.Text = "Copy This ROI To Master";
             this.mnuCopyThisROIToMaster.Visible = false;
             // 
             // mnuLinkToMaster
             // 
             this.mnuLinkToMaster.Name = "mnuLinkToMaster";
-            this.mnuLinkToMaster.Size = new System.Drawing.Size(223, 22);
+            this.mnuLinkToMaster.Size = new System.Drawing.Size(271, 26);
             this.mnuLinkToMaster.Text = "Link To Master...";
             this.mnuLinkToMaster.Visible = false;
             // 
             // mnuChangeName
             // 
             this.mnuChangeName.Name = "mnuChangeName";
-            this.mnuChangeName.Size = new System.Drawing.Size(223, 22);
+            this.mnuChangeName.Size = new System.Drawing.Size(271, 26);
             this.mnuChangeName.Text = "Change Name";
             this.mnuChangeName.Visible = false;
             this.mnuChangeName.Click += new System.EventHandler(this.mnuChangeName_Click);
@@ -799,28 +814,28 @@ namespace RTC_Vision_Lite.Forms
             // mnuChange
             // 
             this.mnuChange.Name = "mnuChange";
-            this.mnuChange.Size = new System.Drawing.Size(223, 22);
+            this.mnuChange.Size = new System.Drawing.Size(271, 26);
             this.mnuChange.Text = "Change To...";
             this.mnuChange.Visible = false;
             // 
             // mnuSelectAll
             // 
             this.mnuSelectAll.Name = "mnuSelectAll";
-            this.mnuSelectAll.Size = new System.Drawing.Size(223, 22);
+            this.mnuSelectAll.Size = new System.Drawing.Size(271, 26);
             this.mnuSelectAll.Text = "Select All";
             this.mnuSelectAll.Visible = false;
             // 
             // mnuDeselectAll
             // 
             this.mnuDeselectAll.Name = "mnuDeselectAll";
-            this.mnuDeselectAll.Size = new System.Drawing.Size(223, 22);
+            this.mnuDeselectAll.Size = new System.Drawing.Size(271, 26);
             this.mnuDeselectAll.Text = "Deselect All";
             this.mnuDeselectAll.Visible = false;
             // 
             // mnuDelete
             // 
             this.mnuDelete.Name = "mnuDelete";
-            this.mnuDelete.Size = new System.Drawing.Size(223, 22);
+            this.mnuDelete.Size = new System.Drawing.Size(271, 26);
             this.mnuDelete.Text = "Delete";
             this.mnuDelete.Click += new System.EventHandler(this.mnuDelete_Click);
             // 
@@ -828,7 +843,7 @@ namespace RTC_Vision_Lite.Forms
             // 
             this.mnuClearAll.Image = global::RTC_Vision_Lite.Properties.Resources.Clear_16x16;
             this.mnuClearAll.Name = "mnuClearAll";
-            this.mnuClearAll.Size = new System.Drawing.Size(223, 22);
+            this.mnuClearAll.Size = new System.Drawing.Size(271, 26);
             this.mnuClearAll.Text = "ClearAll";
             this.mnuClearAll.Click += new System.EventHandler(this.mnuClearAll_Click);
             // 
@@ -836,7 +851,7 @@ namespace RTC_Vision_Lite.Forms
             // 
             this.mnuMultiSelect.Name = "mnuMultiSelect";
             this.mnuMultiSelect.ShortcutKeyDisplayString = "Middle Mouse";
-            this.mnuMultiSelect.Size = new System.Drawing.Size(223, 22);
+            this.mnuMultiSelect.Size = new System.Drawing.Size(271, 26);
             this.mnuMultiSelect.Text = "Multi Select";
             this.mnuMultiSelect.Visible = false;
             this.mnuMultiSelect.Click += new System.EventHandler(this.mnuMultiSelect_Click);
@@ -850,11 +865,12 @@ namespace RTC_Vision_Lite.Forms
             this.SmartWindow.FitImage = true;
             this.SmartWindow.GetXY = ((System.Drawing.PointF)(resources.GetObject("SmartWindow.GetXY")));
             this.SmartWindow.KeySelect = new System.Guid("00000000-0000-0000-0000-000000000000");
-            this.SmartWindow.Location = new System.Drawing.Point(26, 50);
+            this.SmartWindow.Location = new System.Drawing.Point(35, 62);
             this.SmartWindow.LockRoi = true;
+            this.SmartWindow.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.SmartWindow.MoveImage = true;
             this.SmartWindow.Name = "SmartWindow";
-            this.SmartWindow.Size = new System.Drawing.Size(1155, 600);
+            this.SmartWindow.Size = new System.Drawing.Size(1540, 738);
             this.SmartWindow.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.SmartWindow.TabIndex = 7;
             this.SmartWindow.TabStop = false;
@@ -884,9 +900,10 @@ namespace RTC_Vision_Lite.Forms
             this.pnlQuickInfo.Controls.Add(this.lblRegionIndex);
             this.pnlQuickInfo.Controls.Add(this.lblR);
             this.pnlQuickInfo.Controls.Add(this.lblCordinatePreview);
-            this.pnlQuickInfo.Location = new System.Drawing.Point(334, 291);
+            this.pnlQuickInfo.Location = new System.Drawing.Point(445, 358);
+            this.pnlQuickInfo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pnlQuickInfo.Name = "pnlQuickInfo";
-            this.pnlQuickInfo.Size = new System.Drawing.Size(215, 138);
+            this.pnlQuickInfo.Size = new System.Drawing.Size(287, 170);
             this.pnlQuickInfo.TabIndex = 8;
             this.pnlQuickInfo.Visible = false;
             // 
@@ -894,9 +911,10 @@ namespace RTC_Vision_Lite.Forms
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(141, 22);
+            this.label4.Location = new System.Drawing.Point(188, 27);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(41, 13);
+            this.label4.Size = new System.Drawing.Size(51, 17);
             this.label4.TabIndex = 19;
             this.label4.Text = "Image";
             // 
@@ -904,63 +922,70 @@ namespace RTC_Vision_Lite.Forms
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(81, 22);
+            this.label1.Location = new System.Drawing.Point(108, 27);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(41, 13);
+            this.label1.Size = new System.Drawing.Size(51, 17);
             this.label1.TabIndex = 18;
             this.label1.Text = "Image";
             // 
             // lblMinG
             // 
             this.lblMinG.AutoSize = true;
-            this.lblMinG.Location = new System.Drawing.Point(141, 40);
+            this.lblMinG.Location = new System.Drawing.Point(188, 49);
+            this.lblMinG.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblMinG.Name = "lblMinG";
-            this.lblMinG.Size = new System.Drawing.Size(43, 13);
+            this.lblMinG.Size = new System.Drawing.Size(51, 16);
             this.lblMinG.TabIndex = 17;
             this.lblMinG.Text = "minG: 0";
             // 
             // lblRangeG
             // 
             this.lblRangeG.AutoSize = true;
-            this.lblRangeG.Location = new System.Drawing.Point(141, 76);
+            this.lblRangeG.Location = new System.Drawing.Point(188, 94);
+            this.lblRangeG.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblRangeG.Name = "lblRangeG";
-            this.lblRangeG.Size = new System.Drawing.Size(54, 13);
+            this.lblRangeG.Size = new System.Drawing.Size(65, 16);
             this.lblRangeG.TabIndex = 16;
             this.lblRangeG.Text = "rangeG: 0";
             // 
             // lblMaxG
             // 
             this.lblMaxG.AutoSize = true;
-            this.lblMaxG.Location = new System.Drawing.Point(141, 58);
+            this.lblMaxG.Location = new System.Drawing.Point(188, 71);
+            this.lblMaxG.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblMaxG.Name = "lblMaxG";
-            this.lblMaxG.Size = new System.Drawing.Size(46, 13);
+            this.lblMaxG.Size = new System.Drawing.Size(55, 16);
             this.lblMaxG.TabIndex = 15;
             this.lblMaxG.Text = "maxG: 0";
             // 
             // lblH
             // 
             this.lblH.AutoSize = true;
-            this.lblH.Location = new System.Drawing.Point(81, 40);
+            this.lblH.Location = new System.Drawing.Point(108, 49);
+            this.lblH.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblH.Name = "lblH";
-            this.lblH.Size = new System.Drawing.Size(27, 13);
+            this.lblH.Size = new System.Drawing.Size(30, 16);
             this.lblH.TabIndex = 12;
             this.lblH.Text = "H: 0";
             // 
             // lblV
             // 
             this.lblV.AutoSize = true;
-            this.lblV.Location = new System.Drawing.Point(81, 76);
+            this.lblV.Location = new System.Drawing.Point(108, 94);
+            this.lblV.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblV.Name = "lblV";
-            this.lblV.Size = new System.Drawing.Size(26, 13);
+            this.lblV.Size = new System.Drawing.Size(29, 16);
             this.lblV.TabIndex = 11;
             this.lblV.Text = "V: 0";
             // 
             // lblS
             // 
             this.lblS.AutoSize = true;
-            this.lblS.Location = new System.Drawing.Point(81, 58);
+            this.lblS.Location = new System.Drawing.Point(108, 71);
+            this.lblS.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblS.Name = "lblS";
-            this.lblS.Size = new System.Drawing.Size(26, 13);
+            this.lblS.Size = new System.Drawing.Size(29, 16);
             this.lblS.TabIndex = 10;
             this.lblS.Text = "S: 0";
             // 
@@ -968,82 +993,90 @@ namespace RTC_Vision_Lite.Forms
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(26, 22);
+            this.label10.Location = new System.Drawing.Point(35, 27);
+            this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(41, 13);
+            this.label10.Size = new System.Drawing.Size(51, 17);
             this.label10.TabIndex = 8;
             this.label10.Text = "Image";
             // 
             // lblG
             // 
             this.lblG.AutoSize = true;
-            this.lblG.Location = new System.Drawing.Point(26, 58);
+            this.lblG.Location = new System.Drawing.Point(35, 71);
+            this.lblG.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblG.Name = "lblG";
-            this.lblG.Size = new System.Drawing.Size(27, 13);
+            this.lblG.Size = new System.Drawing.Size(30, 16);
             this.lblG.TabIndex = 7;
             this.lblG.Text = "G: 0";
             // 
             // lblI
             // 
             this.lblI.AutoSize = true;
-            this.lblI.Location = new System.Drawing.Point(30, 94);
+            this.lblI.Location = new System.Drawing.Point(40, 116);
+            this.lblI.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblI.Name = "lblI";
-            this.lblI.Size = new System.Drawing.Size(22, 13);
+            this.lblI.Size = new System.Drawing.Size(23, 16);
             this.lblI.TabIndex = 6;
             this.lblI.Text = "I: 0";
             // 
             // lblB
             // 
             this.lblB.AutoSize = true;
-            this.lblB.Location = new System.Drawing.Point(26, 76);
+            this.lblB.Location = new System.Drawing.Point(35, 94);
+            this.lblB.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblB.Name = "lblB";
-            this.lblB.Size = new System.Drawing.Size(26, 13);
+            this.lblB.Size = new System.Drawing.Size(29, 16);
             this.lblB.TabIndex = 5;
             this.lblB.Text = "B: 0";
             // 
             // lblRegionIndex
             // 
             this.lblRegionIndex.AutoSize = true;
-            this.lblRegionIndex.Location = new System.Drawing.Point(26, 112);
+            this.lblRegionIndex.Location = new System.Drawing.Point(35, 138);
+            this.lblRegionIndex.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblRegionIndex.Name = "lblRegionIndex";
-            this.lblRegionIndex.Size = new System.Drawing.Size(99, 13);
+            this.lblRegionIndex.Size = new System.Drawing.Size(121, 16);
             this.lblRegionIndex.TabIndex = 4;
             this.lblRegionIndex.Text = "Region InputThree:";
             // 
             // lblR
             // 
             this.lblR.AutoSize = true;
-            this.lblR.Location = new System.Drawing.Point(26, 40);
+            this.lblR.Location = new System.Drawing.Point(35, 49);
+            this.lblR.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblR.Name = "lblR";
-            this.lblR.Size = new System.Drawing.Size(27, 13);
+            this.lblR.Size = new System.Drawing.Size(30, 16);
             this.lblR.TabIndex = 1;
             this.lblR.Text = "R: 0";
             // 
             // lblCordinatePreview
             // 
             this.lblCordinatePreview.AutoSize = true;
-            this.lblCordinatePreview.Location = new System.Drawing.Point(15, 0);
+            this.lblCordinatePreview.Location = new System.Drawing.Point(20, 0);
+            this.lblCordinatePreview.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblCordinatePreview.Name = "lblCordinatePreview";
-            this.lblCordinatePreview.Size = new System.Drawing.Size(102, 13);
+            this.lblCordinatePreview.Size = new System.Drawing.Size(115, 16);
             this.lblCordinatePreview.TabIndex = 0;
             this.lblCordinatePreview.Text = "X: 526.65 Y: 355.25";
             // 
             // lblPopup
             // 
             this.lblPopup.AutoSize = true;
-            this.lblPopup.Location = new System.Drawing.Point(977, 50);
+            this.lblPopup.Location = new System.Drawing.Point(1303, 62);
+            this.lblPopup.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblPopup.Name = "lblPopup";
-            this.lblPopup.Size = new System.Drawing.Size(48, 13);
+            this.lblPopup.Size = new System.Drawing.Size(61, 16);
             this.lblPopup.TabIndex = 20;
             this.lblPopup.Text = "lblPopup";
             this.lblPopup.Visible = false;
             // 
             // FrmHsmartWindow
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoValidate = System.Windows.Forms.AutoValidate.EnablePreventFocusChange;
-            this.ClientSize = new System.Drawing.Size(1204, 670);
+            this.ClientSize = new System.Drawing.Size(1605, 825);
             this.ControlBox = false;
             this.Controls.Add(this.lblPopup);
             this.Controls.Add(this.pnlQuickInfo);
@@ -1053,6 +1086,7 @@ namespace RTC_Vision_Lite.Forms
             this.Controls.Add(this.pnlTools);
             this.Cursor = System.Windows.Forms.Cursors.Default;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "FrmHsmartWindow";

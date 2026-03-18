@@ -1,4 +1,4 @@
-﻿using Emgu.CV.Structure;
+using Emgu.CV.Structure;
 using Emgu.CV;
 using System;
 using System.Collections.Generic;
@@ -37,6 +37,14 @@ namespace Blob_View
         {
             set { _inputHeightList = value; }
         }
+
+        #region Quân sửa
+        public List<int> InputDrawingTypes
+        {
+            set { _inputDrawingTypes = value; }
+        }
+        #endregion
+
         public PointF PositionMouse
         {
             set { _positionMouse = value; }
@@ -100,6 +108,11 @@ namespace Blob_View
         private List<int> _inputWidthList = null;
         private List<int> _inputHeightList = null;
         private bool _isShowImageResult = false;
+        
+        #region Quân sửa
+        private List<int> _inputDrawingTypes = null;
+        #endregion
+        
         private PointF _positionMouse = new PointF(-1, -1);
 
 
@@ -152,7 +165,28 @@ namespace Blob_View
                     for (int i = 0; i < _inputBlobList.Count; i++)
                     {
                         //CvInvoke.DrawContours(imgShow, _outputBlobList[i], -1, new MCvScalar(0, 255, 0), -1);
+                        
+                        #region Quân sửa ngày 16/03/2026
+                        // Không vẽ "circle theo bounding-rect" nữa vì sẽ ra hình chữ nhật/không đúng ellipse ROI.
+                        // Việc giới hạn theo ellipse ROI phải được thực hiện ở BlobTool (mask ROI),
+                        // nên BlobView chỉ cần FillPoly theo contour kết quả.
+                        // (Code cũ được comment lại theo yêu cầu)
+                        //if (_inputDrawingTypes != null && i < _inputDrawingTypes.Count 
+                        //    && _inputDrawingTypes[i] == 2) // 2 = Ellipse
+                        //{
+                        //    var rect = CvInvoke.BoundingRectangle(_inputBlobList[i]);
+                        //    int centerX = rect.X + rect.Width / 2;
+                        //    int centerY = rect.Y + rect.Height / 2;
+                        //    int radius = Math.Min(rect.Width, rect.Height) / 2;
+                        //    CvInvoke.Circle(imgShow, new Point(centerX, centerY), radius, 
+                        //        new MCvScalar(0, 255, 0), -1);
+                        //}
+                        //else
+                        //{
+                        //    CvInvoke.FillPoly(imgShow, _inputBlobList[i], new MCvScalar(0, 255, 0));
+                        //}
                         CvInvoke.FillPoly(imgShow, _inputBlobList[i], new MCvScalar(0, 255, 0));
+                        #endregion
                     }
                     _outputImageShow = imgShow.ToBitmap();
                    // _outputImage.Save(@"D:\Test\test.bmp");

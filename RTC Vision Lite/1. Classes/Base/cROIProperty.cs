@@ -506,7 +506,7 @@ namespace RTC_Vision_Lite.Classes
                 //var test = action.GetType().GetProperty(item.Name)?.GetValue(this, null);
                 var propertyInfo_Ac = (RTCVariableType)action.GetType().GetProperty(item.Name)?.GetValue(action, null);
                 if (propertyInfo_Roi == null || propertyInfo_Ac == null)
-                    return;
+                    continue;
                 propertyInfo_Roi.rtcIDRef = propertyInfo_Ac.rtcIDRef;
                 propertyInfo_Roi.rtcRef = propertyInfo_Ac.rtcRef;
                 propertyInfo_Roi.rtcPropNameRef = propertyInfo_Ac.rtcPropNameRef;
@@ -529,9 +529,14 @@ namespace RTC_Vision_Lite.Classes
                     case nameof(SListString):
                         ((SListString)propertyInfo_Roi).rtcValue = ((SListString)propertyInfo_Ac).rtcValue;
                         break;
+                    //case nameof(SListDouble):
+                    //    ((SListDouble)propertyInfo_Roi).rtcValue = ((SListDouble)propertyInfo_Ac).rtcValue;
+                    //    break;
+                    #region Quân sửa ngày 16/03
                     case nameof(SListDouble):
-                        ((SListDouble)propertyInfo_Roi).rtcValue = ((SListDouble)propertyInfo_Ac).rtcValue;
+                        ((SListDouble)propertyInfo_Roi).rtcValue = new List<double>(((SListDouble)propertyInfo_Ac).rtcValue);
                         break;
+                    #endregion
                     case nameof(SShapeList):
                         ((SShapeList)propertyInfo_Roi).rtcValue = ((SShapeList)propertyInfo_Ac).rtcValue;
                         break;
@@ -573,9 +578,14 @@ namespace RTC_Vision_Lite.Classes
                     case nameof(SDouble):
                         ((SDouble)propertyInfo_ROI).rtcValue = ((SDouble)propertyInfo_AC).rtcValue;
                         break;
+                    //case nameof(SListDouble):
+                    //    ((SListDouble)propertyInfo_ROI).rtcValue = ((SListDouble)propertyInfo_AC).rtcValue;
+                    //    break;
+                    #region Quân sửa ngày 16/03
                     case nameof(SListDouble):
-                        ((SListDouble)propertyInfo_ROI).rtcValue = ((SListDouble)propertyInfo_AC).rtcValue;
+                        ((SListDouble)propertyInfo_ROI).rtcValue = new List<double>(((SListDouble)propertyInfo_AC).rtcValue);
                         break;
+                    #endregion
                     default:
                         break;
                 }
@@ -594,7 +604,7 @@ namespace RTC_Vision_Lite.Classes
                     //var test = action.GetType().GetProperty(item.Name)?.GetValue(action, null);
                     propertyInfo_Ac = (RTCVariableType)action.GetType().GetProperty(item.Name)?.GetValue(action, null);
                     if (propertyInfo_Roi == null || propertyInfo_Ac == null)
-                        return;
+                        continue;
                     propertyInfo_Roi.rtcIDRef = propertyInfo_Ac.rtcIDRef;
                     propertyInfo_Roi.rtcRef = propertyInfo_Ac.rtcRef;
                     propertyInfo_Roi.rtcPropNameRef = propertyInfo_Ac.rtcPropNameRef;
@@ -617,9 +627,14 @@ namespace RTC_Vision_Lite.Classes
                         case nameof(SListString):
                             ((SListString)propertyInfo_Ac).rtcValue = ((SListString)propertyInfo_Roi).rtcValue;
                             break;
+                        //case nameof(SListDouble):
+                        //    ((SListDouble)propertyInfo_Ac).rtcValue = ((SListDouble)propertyInfo_Roi).rtcValue;
+                        //    break;
+                        #region Quân sửa ngyaf 16/03
                         case nameof(SListDouble):
-                            ((SListDouble)propertyInfo_Ac).rtcValue = ((SListDouble)propertyInfo_Roi).rtcValue;
+                            ((SListDouble)propertyInfo_Ac).rtcValue = new List<double>(((SListDouble)propertyInfo_Roi).rtcValue);
                             break;
+                        #endregion
                         case nameof(SListObject):
                             ((SListObject)propertyInfo_Ac).rtcValue = ((SListObject)propertyInfo_Roi).rtcValue;
                             break;

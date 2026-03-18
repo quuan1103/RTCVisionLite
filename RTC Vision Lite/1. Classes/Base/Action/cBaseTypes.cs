@@ -587,6 +587,7 @@ namespace RTC_Vision_Lite.Classes
                     {
                         int count = bmp.GetFrameCount(System.Drawing.Imaging.FrameDimension.Page);
                         if (count == -1)
+                      //  if (count >= 0)
                         {
                             rtcValueS = "0 Items";
                             rtcValueView = "0 Items";

@@ -1,0 +1,84 @@
+2026-03-11 10:48:08.9309 
+» Message:	No connection could be made because the target machine actively refused it 127.0.0.1:2002
+» Stack Trace:	   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at RTC_Vision_Lite.Classes.CSocketClient.ConnectCallback(IAsyncResult AR) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Connect\CSocketClient.cs:line 225
+2026-03-11 10:48:12.9451 
+» Message:	No connection could be made because the target machine actively refused it 127.0.0.1:2002
+» Stack Trace:	   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at RTC_Vision_Lite.Classes.CSocketClient.ConnectCallback(IAsyncResult AR) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Connect\CSocketClient.cs:line 225
+2026-03-11 14:36:30.4505 
+» Message:	Stack empty.
+» Stack Trace:	   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Collections.Generic.Stack`1.Pop()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 972
+2026-03-11 14:36:30.5212 
+» Message:	Stack empty.
+» Stack Trace:	   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Collections.Generic.Stack`1.Pop()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 972
+2026-03-11 14:36:30.6727 
+» Message:	Stack empty.
+» Stack Trace:	   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Collections.Generic.Stack`1.Pop()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 972
+2026-03-11 14:36:30.8195 
+» Message:	Stack empty.
+» Stack Trace:	   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Collections.Generic.Stack`1.Pop()
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 972
+2026-03-11 15:29:49.6318 
+» Message:	StartIndex cannot be less than zero.
+Parameter name: startIndex
+» Stack Trace:	   at System.String.Substring(Int32 startIndex, Int32 length)
+   at RTC_Vision_Lite.PublicFunctions.GlobFuncs.GetValuesFromValueView(String _sValue) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Global\GlobFuncs.cs:line 4086
+   at RTC_Vision_Lite.UserControls.ucBaseActionDetail.tlvAction_CellEditFinishing(Object sender, CellEditEventArgs e) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\3. UserControls\Tools\ucBaseActionDetail.cs:line 7682
+2026-03-11 15:31:16.1330 
+» Message:	StartIndex cannot be less than zero.
+Parameter name: startIndex
+» Stack Trace:	   at System.String.Substring(Int32 startIndex, Int32 length)
+   at RTC_Vision_Lite.PublicFunctions.GlobFuncs.GetValuesFromValueView(String _sValue) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Global\GlobFuncs.cs:line 4086
+   at RTC_Vision_Lite.UserControls.ucBaseActionDetail.tlvAction_CellEditFinishing(Object sender, CellEditEventArgs e) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\3. UserControls\Tools\ucBaseActionDetail.cs:line 7682
+2026-03-11 15:32:00.9454 
+» Message:	StartIndex cannot be less than zero.
+Parameter name: startIndex
+» Stack Trace:	   at System.String.Substring(Int32 startIndex, Int32 length)
+   at RTC_Vision_Lite.PublicFunctions.GlobFuncs.GetValuesFromValueView(String _sValue) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Global\GlobFuncs.cs:line 4086
+   at RTC_Vision_Lite.UserControls.ucBaseActionDetail.tlvAction_CellEditFinishing(Object sender, CellEditEventArgs e) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\3. UserControls\Tools\ucBaseActionDetail.cs:line 7682
+2026-03-11 15:43:46.5359 
+» Message:	StartIndex cannot be less than zero.
+Parameter name: startIndex
+» Stack Trace:	   at System.String.Substring(Int32 startIndex, Int32 length)
+   at RTC_Vision_Lite.PublicFunctions.GlobFuncs.GetValuesFromValueView(String _sValue) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Global\GlobFuncs.cs:line 4086
+   at RTC_Vision_Lite.UserControls.ucBaseActionDetail.tlvAction_CellEditFinishing(Object sender, CellEditEventArgs e) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\3. UserControls\Tools\ucBaseActionDetail.cs:line 7682
+2026-03-11 15:50:29.1112 
+» Message:	StartIndex cannot be less than zero.
+Parameter name: startIndex
+» Stack Trace:	   at System.String.Substring(Int32 startIndex, Int32 length)
+   at RTC_Vision_Lite.PublicFunctions.GlobFuncs.GetValuesFromValueView(String _sValue) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Global\GlobFuncs.cs:line 4086
+   at RTC_Vision_Lite.UserControls.ucBaseActionDetail.tlvAction_CellEditFinishing(Object sender, CellEditEventArgs e) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\3. UserControls\Tools\ucBaseActionDetail.cs:line 7682
+2026-03-11 16:19:44.4369 
+» Message:	StartIndex cannot be less than zero.
+Parameter name: startIndex
+» Stack Trace:	   at System.String.Substring(Int32 startIndex, Int32 length)
+   at RTC_Vision_Lite.PublicFunctions.GlobFuncs.GetValuesFromValueView(String _sValue) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Global\GlobFuncs.cs:line 4086
+   at RTC_Vision_Lite.UserControls.ucBaseActionDetail.tlvAction_CellEditFinishing(Object sender, CellEditEventArgs e) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\3. UserControls\Tools\ucBaseActionDetail.cs:line 7682
+2026-03-11 16:21:34.6744 
+» Message:	StartIndex cannot be less than zero.
+Parameter name: startIndex
+» Stack Trace:	   at System.String.Substring(Int32 startIndex, Int32 length)
+   at RTC_Vision_Lite.PublicFunctions.GlobFuncs.GetValuesFromValueView(String _sValue) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Global\GlobFuncs.cs:line 4086
+   at RTC_Vision_Lite.UserControls.ucBaseActionDetail.tlvAction_CellEditFinishing(Object sender, CellEditEventArgs e) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\3. UserControls\Tools\ucBaseActionDetail.cs:line 7682
+2026-03-11 16:57:08.3618 
+» Message:	StartIndex cannot be less than zero.
+Parameter name: startIndex
+» Stack Trace:	   at System.String.Substring(Int32 startIndex, Int32 length)
+   at RTC_Vision_Lite.PublicFunctions.GlobFuncs.GetValuesFromValueView(String _sValue) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Global\GlobFuncs.cs:line 4086
+   at RTC_Vision_Lite.UserControls.ucBaseActionDetail.tlvAction_CellEditFinishing(Object sender, CellEditEventArgs e) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\3. UserControls\Tools\ucBaseActionDetail.cs:line 7682
+2026-03-11 16:59:48.7061 
+» Message:	StartIndex cannot be less than zero.
+Parameter name: startIndex
+» Stack Trace:	   at System.String.Substring(Int32 startIndex, Int32 length)
+   at RTC_Vision_Lite.PublicFunctions.GlobFuncs.GetValuesFromValueView(String _sValue) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Global\GlobFuncs.cs:line 4086
+   at RTC_Vision_Lite.UserControls.ucBaseActionDetail.tlvAction_CellEditFinishing(Object sender, CellEditEventArgs e) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\3. UserControls\Tools\ucBaseActionDetail.cs:line 7682

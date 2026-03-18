@@ -997,7 +997,7 @@ namespace Blob_Color_Multi_ROI
             {
                 {point.X },
                 {point.Y},
-                {1 }
+                {1}
             });
             var C = new Matrix<double>(3, 1);
             CvInvoke.Gemm(A, B, 1.0, null, 0, C);

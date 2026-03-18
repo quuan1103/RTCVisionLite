@@ -430,7 +430,19 @@ namespace RTC_Vision_Lite.Classes
             #region Comment
             if (PropSrc.rtcIsIconic && PropDes.rtcIsIconic)
             {
+                // Trường hợp SImage (InputImage) dùng System.Drawing.Image
+                if (PropSrcValue.PropertyType == typeof(System.Drawing.Image) &&
+                    PropDesValue.PropertyType == typeof(System.Drawing.Image))
+                {
+                    var srcImg = (System.Drawing.Image)PropSrcValue.GetValue(PropSrc, null);
+                    PropDesValue.SetValue(PropDes,
+                        srcImg != null ? (System.Drawing.Image)srcImg.Clone() : null);
 
+                    //return; 
+                }
+
+                // (Nếu bạn có thêm các kiểu iconic khác như HObject, HRegion...
+                //  thì có thể giữ hoặc khôi phục code comment cũ ở đây.)
                 //Cả 2 thuộc tính là biến Iconic
                 //{
                 //    if (PropSrcValue.PropertyType == typeof(Image) &&

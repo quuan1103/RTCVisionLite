@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using RTCBase.Drawing;
 using Emgu.CV.Structure;
@@ -41,6 +41,14 @@ namespace Blob_Muilti_ROI
         {
             set { _fillHoles = value; }
         }
+
+        #region Quân sửa
+        public List<int> InputDrawingTypes
+        {
+            set { _inputDrawingTypes = value; }
+        }
+        #endregion
+
         public string GreyLevelThresholdType
         {
             set { _greyLevelThresholdType = value; }
@@ -222,6 +230,11 @@ namespace Blob_Muilti_ROI
 
 
         private string _errMessage = null;
+
+        #region Quân sửa
+        private List<int> _inputDrawingTypes = null;
+        #endregion
+
         private List<VectorOfVectorOfPoint> _outputBlobList = null;
         private List<double> _outputAreaList = null;
         private List<int> _outputWidthList = null;
@@ -518,24 +531,41 @@ namespace Blob_Muilti_ROI
 
                     for (int j = 0; j < _inSetOrigin.Count; j++)
                     {
-                        var arrROI = _inSetOrigin[j];
-                        PointF[] points = new PointF[4];
-                        for (int i = 0; i < 4; i++)
+                        #region Quân sửa ngày 16/03/2026
+                        // Nếu ROI là Ellipse thì mask theo ellipse (không mask theo hình chữ nhật)
+                        // Lưu ý: RTCRectangle.Center.X = Row, Center.Y = Col (theo cách tạo trong GenShapeList)
+                        if (_inputDrawingTypes != null && j < _inputDrawingTypes.Count && _inputDrawingTypes[j] == 2 && _ROI != null && _ROI.Count > j)
                         {
-                            points[i] = ConvertCoordinatesToOrigin(_toolOrigin, arrROI[i]);
+                            var roi = _ROI[j];
+                            var center = new PointF((float)roi.Center.X, (float)roi.Center.Y);
+                            var size = new SizeF((float)roi.Width, (float)roi.Height); // full size
+                            float angleDeg = (float)(roi.Phi * 180.0 / Math.PI);
+                            var rr = new RotatedRect(center, size, angleDeg);
+                            CvInvoke.Ellipse(blackImage, rr, new MCvScalar(1), -1);
                         }
-                        VectorOfVectorOfPoint lcontour = new VectorOfVectorOfPoint();
-                        VectorOfPoint contour = new VectorOfPoint();
-                        Point[] p0 = { new Point((int)Math.Floor(points[0].X), (int)Math.Floor(points[0].Y)) };
-                        Point[] p1 = { new Point((int)Math.Floor(points[1].X), (int)Math.Floor(points[1].Y)) };
-                        Point[] p2 = { new Point((int)Math.Floor(points[2].X), (int)Math.Floor(points[2].Y)) };
-                        Point[] p3 = { new Point((int)Math.Floor(points[3].X), (int)Math.Floor(points[3].Y)) };
-                        contour.Push(p0);
-                        contour.Push(p1);
-                        contour.Push(p2);
-                        contour.Push(p3);
-                        lcontour.Push(contour);
-                        CvInvoke.DrawContours(blackImage, lcontour, -1, new MCvScalar(1), -1);
+                        else
+                        {
+                            // Giữ nguyên cho Rectangle (mask theo 4 đỉnh)
+                            var arrROI = _inSetOrigin[j];
+                            PointF[] points = new PointF[4];
+                            for (int i = 0; i < 4; i++)
+                            {
+                                points[i] = ConvertCoordinatesToOrigin(_toolOrigin, arrROI[i]);
+                            }
+                            VectorOfVectorOfPoint lcontour = new VectorOfVectorOfPoint();
+                            VectorOfPoint contour = new VectorOfPoint();
+                            Point[] p0 = { new Point((int)Math.Floor(points[0].X), (int)Math.Floor(points[0].Y)) };
+                            Point[] p1 = { new Point((int)Math.Floor(points[1].X), (int)Math.Floor(points[1].Y)) };
+                            Point[] p2 = { new Point((int)Math.Floor(points[2].X), (int)Math.Floor(points[2].Y)) };
+                            Point[] p3 = { new Point((int)Math.Floor(points[3].X), (int)Math.Floor(points[3].Y)) };
+                            contour.Push(p0);
+                            contour.Push(p1);
+                            contour.Push(p2);
+                            contour.Push(p3);
+                            lcontour.Push(contour);
+                            CvInvoke.DrawContours(blackImage, lcontour, -1, new MCvScalar(1), -1);
+                        }
+                        #endregion
                     }
                     CvInvoke.Multiply(imgThes, blackImage, blackImage);
                 }
@@ -577,11 +607,13 @@ namespace Blob_Muilti_ROI
                             double perimeter = CvInvoke.ArcLength(contours[k], true);
                             rect = CvInvoke.BoundingRectangle(contours[k]);
                             double circularity = Math.Round((4 * Math.PI * area / (perimeter * perimeter)), 3);
-                            if (_enableAreaFilter && (_areaRange.Item1 >= area || area >= _areaRange.Item2))
-                            {
-                                flag = false;
-                            }
-                            if (_enableRowFilter && (_rowRange.Item1 >= (int)rect.Y || (int)rect.Y >= _rowRange.Item2))
+                            //if (_enableAreaFilter && (_areaRange.Item1 >= area || area >= _areaRange.Item2))
+                            //{
+                            //    flag = false;
+                            //}
+
+                            //if (_enableRowFilter && (_rowRange.Item1 >= (int)rect.Y || (int)rect.Y >= _rowRange.Item2))
+                            if (_enableRowFilter && _rowRange != null && (_rowRange.Item1 >= (int)rect.Y || (int)rect.Y >= _rowRange.Item2))
                             {
                                 flag = false;
                             }
@@ -601,6 +633,31 @@ namespace Blob_Muilti_ROI
                             {
                                 flag = false;
                             }
+
+                            //if (_enableAreaFilter && _areaRange != null && (_areaRange.Item1 >= area || area >= _areaRange.Item2))
+                            //{
+                            //    flag = false;
+                            //}
+                            //if (_enableRowFilter && _rowRange != null && (_rowRange.Item1 >= (int)rect.Y || (int)rect.Y >= _rowRange.Item2))
+                            //{
+                            //    flag = false;
+                            //}
+                            //if (_enableColumnFilter && _columnRange != null && (_columnRange.Item1 >= (int)rect.X || (int)rect.X >= _columnRange.Item2))
+                            //{
+                            //    flag = false;
+                            //}
+                            //if (_enableWidthFilter && _widthRange != null && (_widthRange.Item1 >= rect.Width || rect.Width >= _widthRange.Item2))
+                            //{
+                            //    flag = false;
+                            //}
+                            //if (_enableHeightFilter && _heightRange != null && (_heightRange.Item1 >= rect.Height || rect.Height >= _heightRange.Item2))
+                            //{
+                            //    flag = false;
+                            //}
+                            //if (_enableCircularityFilter && _circularityRange != null && (_circularityRange.Item1 >= circularity || circularity >= _circularityRange.Item2))
+                            //{
+                            //    flag = false;
+                            //}
                             if (flag == true)
                             {
                                 _outputBlobList.Add(tmp);
@@ -626,7 +683,8 @@ namespace Blob_Muilti_ROI
                             double circularity = Math.Round((4 * Math.PI * area / (perimeter * perimeter)), 3);
                             rect = CvInvoke.BoundingRectangle(contours[k]);
                             tmp.Push(contours[k]);
-                            if (_enableAreaFilter && (_areaRange.Item1 >= area || area >= _areaRange.Item2))
+                            //if (_enableAreaFilter && (_areaRange.Item1 >= area || area >= _areaRange.Item2))
+                            if (_enableRowFilter && _rowRange != null && (_rowRange.Item1 >= (int)rect.Y || (int)rect.Y >= _rowRange.Item2))
                             {
                                 flag = false;
                             }
@@ -689,7 +747,27 @@ namespace Blob_Muilti_ROI
                     for (int i = 0; i < _outputBlobList.Count; i++)
                     {
                         //CvInvoke.DrawContours(imgShow, _outputBlobList[i], -1, new MCvScalar(0, 255, 0), -1);
+                        
+                        #region Quân sửa ngày 16/03/2026
+                        // Không vẽ "circle theo bounding-rect" nữa vì sẽ ra hình chữ nhật/không đúng ellipse ROI.
+                        // ROI ellipse đã được mask ở bước Multiply(imgThes, mask), nên chỉ cần FillPoly theo contour kết quả.
+                        // (Code cũ được comment lại theo yêu cầu)
+                        //if (_inputDrawingTypes != null && i < _inputDrawingTypes.Count 
+                        //    && _inputDrawingTypes[i] == 2) // 2 = Ellipse
+                        //{
+                        //    var rect = CvInvoke.BoundingRectangle(_outputBlobList[i]);
+                        //    int centerX = rect.X + rect.Width / 2;
+                        //    int centerY = rect.Y + rect.Height / 2;
+                        //    int radius = Math.Min(rect.Width, rect.Height) / 2;
+                        //    CvInvoke.Circle(imgShow, new Point(centerX, centerY), radius, 
+                        //        new MCvScalar(0, 255, 0), -1);
+                        //}
+                        //else
+                        //{
+                        //    CvInvoke.FillPoly(imgShow, _outputBlobList[i], new MCvScalar(0, 255, 0));
+                        //}
                         CvInvoke.FillPoly(imgShow, _outputBlobList[i], new MCvScalar(0, 255, 0));
+                        #endregion
                     }
                     _outputImageShow = imgShow.ToBitmap();
                     imgShow.Dispose();
@@ -722,7 +800,27 @@ namespace Blob_Muilti_ROI
             for (int i = 0; i < _outputBlobList.Count; i++)
             {
                 //CvInvoke.DrawContours(imgShow, _outputBlobList[i], -1, new MCvScalar(0, 255, 0), -1);
-                CvInvoke.FillPoly(imgShow, _outputBlobList[i], new MCvScalar(0, 255, 0));
+                
+                #region Quân sửa
+                // Nếu có thông tin loại ROI và là Ellipse thì vẽ hình tròn
+                if (_inputDrawingTypes != null && i < _inputDrawingTypes.Count 
+                    && _inputDrawingTypes[i] == 2) // 2 = Ellipse
+                {
+                    // Lấy bounding rect từ contour để vẽ ellipse
+                    var rect = CvInvoke.BoundingRectangle(_outputBlobList[i]);
+                    int centerX = rect.X + rect.Width / 2;
+                    int centerY = rect.Y + rect.Height / 2;
+                    // Giả định width = height (circle), dùng bán kính nhỏ hơn
+                    int radius = Math.Min(rect.Width, rect.Height) / 2;
+                    CvInvoke.Circle(imgShow, new Point(centerX, centerY), radius, 
+                        new MCvScalar(0, 255, 0), -1); // -1 để fill
+                }
+                else
+                {
+                    // Giữ nguyên cho Rectangle
+                    CvInvoke.FillPoly(imgShow, _outputBlobList[i], new MCvScalar(0, 255, 0));
+                }
+                #endregion
             }
             _outputImageShow = imgShow.ToBitmap();
             imgShow.Dispose();

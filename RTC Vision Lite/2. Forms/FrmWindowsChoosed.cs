@@ -23,7 +23,8 @@ namespace RTC_Vision_Lite.Forms
         {
             InitializeComponent();
             ListCamChoosed = null; 
-            
+            PreviewData(); // quân sưa 09/03/2026
+
         }
         public List<Guid> ListCamChoosed { get; set; }
         public List<string> ListCamNameChoosed { get; set; }
@@ -37,7 +38,32 @@ namespace RTC_Vision_Lite.Forms
         }
 
 
-        #region FUNCTIONS
+        #region FUNCTIONS quân sửa 09/03/2026
+        //private void PreviewData()
+        //{
+        //    try
+        //    {
+        //        GlobVar.LockEvents = true;
+        //        tlChoosedCams.ClearObjects();
+        //        if (GlobVar.CurrentProject == null)
+        //            return;
+        //        var cams = GlobVar.CurrentProject.CAMs.Values.OrderBy(x => x.STT).ToList();
+        //        if (!cams.Any())
+        //            return;
+        //        foreach(var cam in cams)
+        //        {
+        //            bool choosed = false;
+        //            if (ListCamChoosed != null && ListCamChoosed.Contains(cam.ID))
+        //                choosed = true;
+        //            tlChoosedCams.ExpandAll();
+        //        }    
+        //    }    
+        //    finally
+        //    {
+        //        GlobVar.LockEvents = false;
+        //        SetCheckSelectTrueFalse();
+        //    }
+        //}
         private void PreviewData()
         {
             try
@@ -49,14 +75,29 @@ namespace RTC_Vision_Lite.Forms
                 var cams = GlobVar.CurrentProject.CAMs.Values.OrderBy(x => x.STT).ToList();
                 if (!cams.Any())
                     return;
-                foreach(var cam in cams)
+
+                List<WindowChoosed> listWindow = new List<WindowChoosed>();
+                foreach (var cam in cams)
                 {
                     bool choosed = false;
-                    if (ListCamChoosed != null && ListCamChoosed.Contains(cam.ID))
+                    // Sửa: Kiểm tra theo tên thay vì GUID
+                    if (ListCamNameChoosed != null && ListCamNameChoosed.Contains(cam.Name))
                         choosed = true;
-                    tlChoosedCams.ExpandAll();
-                }    
-            }    
+
+                    WindowChoosed wc = new WindowChoosed
+                    {
+                        ID = cam.ID,
+                        Name = cam.Name,
+                        Select = choosed,
+                        ActionType = 0,
+                        child = new List<WindowChoosed>()
+                    };
+                    listWindow.Add(wc);
+                }
+                // Sửa: Thêm objects vào TreeListView
+                tlChoosedCams.AddObjects(listWindow);
+                tlChoosedCams.ExpandAll();
+            }
             finally
             {
                 GlobVar.LockEvents = false;
@@ -76,6 +117,7 @@ namespace RTC_Vision_Lite.Forms
                 }    
             DialogResult = DialogResult.OK;
         }
+
         private void chkSelectAll_CheckedChanged(object sender, EventArgs e)
         {
             if (GlobVar.LockEvents)
@@ -152,7 +194,7 @@ namespace RTC_Vision_Lite.Forms
                 //txtFileName.Enabled = !cbCamName.Enabled;
 
                 //LoadProject();
-                //PreviewData();
+                PreviewData(); // quân sửa 09/03/2026
                 //FrmActionsChoose_Load_LoadOldCheck(tlChoosedActions.Objects.Cast<ActionsChoose>().ToList());
             }
             finally

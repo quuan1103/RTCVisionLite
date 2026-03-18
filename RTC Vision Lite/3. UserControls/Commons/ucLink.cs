@@ -24,6 +24,7 @@ namespace RTC_Vision_Lite.UserControls
         public ucLink()
         {
             InitializeComponent();
+            this.txtValue.Validating += new System.ComponentModel.CancelEventHandler(this.txtValue_Validating); // quân thêm
             RTCAction = null;
             RTCPropertyName = string.Empty;
             RTCIsPreviewValue = false;
@@ -214,7 +215,25 @@ namespace RTC_Vision_Lite.UserControls
             {
                 OnButtonLinkClickEvent(sender, eRTC);
             }
-        }    
+        }
+        #region// quân thêm 
+        private void txtValue_Validating(object sender, CancelEventArgs e)
+        {
+            if (RTCAction != null && !string.IsNullOrEmpty(RTCPropertyName))
+            {
+                var prop = RTCAction.GetType().GetProperty(RTCPropertyName);
+                if (prop != null)
+                {
+                    // Cast ve SString thay vi RTCVariableType
+                    var rtcVar = prop.GetValue(RTCAction) as SString;
+                    if (rtcVar != null)
+                    {
+                        rtcVar.rtcValue = txtValue.Text;
+                    }
+                }
+            }
+        }
+        #endregion
         private void btnGetFolder_Click(object sender, EventArgs e)
         {
             

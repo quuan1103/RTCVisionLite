@@ -104,7 +104,7 @@ namespace RTC_Vision_Lite.UserControls
             // PassFail
             // 
             this.PassFail.Margin = new System.Windows.Forms.Padding(5);
-            this.PassFail.Size = new System.Drawing.Size(865, 413);
+            this.PassFail.Size = new System.Drawing.Size(865, 391);
             // 
             // ScrollablePassFail
             // 
@@ -115,7 +115,7 @@ namespace RTC_Vision_Lite.UserControls
             this.ScrollablePassFail.Controls.Add(this.RTCPassed);
             this.ScrollablePassFail.Controls.Add(this.label11);
             this.ScrollablePassFail.Margin = new System.Windows.Forms.Padding(2);
-            this.ScrollablePassFail.Size = new System.Drawing.Size(865, 413);
+            this.ScrollablePassFail.Size = new System.Drawing.Size(865, 391);
             // 
             // ScrollableROI
             // 
@@ -400,11 +400,11 @@ namespace RTC_Vision_Lite.UserControls
             // 
             this.groupBox7.Controls.Add(this.RTCPositionAccuracy);
             this.groupBox7.Controls.Add(this.label13);
-            this.groupBox7.Location = new System.Drawing.Point(322, 36);
+            this.groupBox7.Location = new System.Drawing.Point(322, 35);
             this.groupBox7.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox7.Name = "groupBox7";
             this.groupBox7.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox7.Size = new System.Drawing.Size(295, 174);
+            this.groupBox7.Size = new System.Drawing.Size(295, 175);
             this.groupBox7.TabIndex = 11;
             this.groupBox7.TabStop = false;
             this.groupBox7.Text = "Acurracy";

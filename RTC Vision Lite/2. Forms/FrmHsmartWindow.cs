@@ -506,7 +506,7 @@ namespace RTC_Vision_Lite.Forms
                         {
                             Rec.Width = ((cRectangType)copyROI).Width;
                             Rec.Height = ((cRectangType)copyROI).Height;
-                            Rec.MarkID = new List<double> { ((cRectangType)copyROI).MasterID };
+                            Rec.MarkID = new List<double> { ((cRectangType)copyROI).MasterID }; 
                             Rec.MasterID = ((cRectangType)copyROI).MasterID;
                             Rec.Phi = ((cRectangType)copyROI).Phi;
                             Rec.Center.Row = ((cRectangType)copyROI).Width;
@@ -1476,6 +1476,7 @@ namespace RTC_Vision_Lite.Forms
                     return;
             }    
         }
+        
         private void ReviewAllROIS_General(bool isViewResult)
         {
             if (Action == null || Action.ActionType == EActionTypes.MainAction || Image == null) return;
@@ -1502,6 +1503,8 @@ namespace RTC_Vision_Lite.Forms
                                 DataRoi.CenterPointX = (float)Rec.Center.Row;
                                 DataRoi.CenterPointY = (float)Rec.Center.Col;
                                 DataRoi.ColorRoi = ROIB.Color;
+                           
+                                DataRoi.RoiType = GraphicsWindow.GraphicsWindow.ERoiTypes.Rectangle;// quân sửa
                                 DrawingObjects.Add(Rec.ID, DataRoi);
                                 ListRoi.Add(DataRoi);
                                 //SmartWindow.DrawROI(DataRoi);
@@ -1527,6 +1530,8 @@ namespace RTC_Vision_Lite.Forms
                                 DataRoi.CenterPointX = (float)Ell.Center.Row;
                                 DataRoi.CenterPointY = (float)Ell.Center.Col;
                                 DataRoi.ColorRoi = ROIB.Color;
+                            
+                                DataRoi.RoiType = GraphicsWindow.GraphicsWindow.ERoiTypes.Circle;// quân sửa
                                 DrawingObjects.Add(Ell.ID, DataRoi);
                                 ListRoi.Add(DataRoi);
                                 //SmartWindow.DrawROI(DataRoi);
@@ -1601,6 +1606,7 @@ namespace RTC_Vision_Lite.Forms
                                 DataRoi.CenterPointX = (float)Rec.Center.Row;
                                 DataRoi.CenterPointY = (float)Rec.Center.Col;
                                 DataRoi.ColorRoi = ROIB.Color;
+                                DataRoi.RoiType = GraphicsWindow.GraphicsWindow.ERoiTypes.Rectangle;
                                 DrawingObjects.Add(Rec.ID, DataRoi);
                                 ListRoi.Add(DataRoi);
                                 //SmartWindow.DrawROI(DataRoi);
@@ -1622,6 +1628,7 @@ namespace RTC_Vision_Lite.Forms
                                 DataRoi.CenterPointX = (float)Ell.Center.Row;
                                 DataRoi.CenterPointY = (float)Ell.Center.Col;
                                 DataRoi.ColorRoi = ROIB.Color;
+                                DataRoi.RoiType = GraphicsWindow.GraphicsWindow.ERoiTypes.Circle;
                                 DrawingObjects.Add(Ell.ID, DataRoi);
                                 ListRoi.Add(DataRoi);
                                 //SmartWindow.DrawROI(DataRoi);
@@ -1819,7 +1826,7 @@ namespace RTC_Vision_Lite.Forms
             //    Invalidate();
             //}
             //else
-            //{
+            //
 
             //    Point mnuLocation = GraphicsWindow.GraphicsWindow.MousePosition;
             //    Point NewRoiLocation = new Point((int)SmartWindow.PointImage.X, (int)SmartWindow.PointImage.Y);

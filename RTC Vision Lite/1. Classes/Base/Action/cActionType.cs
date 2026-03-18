@@ -1,4 +1,4 @@
-﻿using Emgu.CV;
+using Emgu.CV;
 using Emgu.CV.Structure;
 using Emgu.CV.Util;
 using NewPattern;
@@ -23,6 +23,7 @@ using System.Runtime.InteropServices;
 using System.Security.Cryptography;
 using System.Windows.Forms;
 using System.Windows.Media.Imaging;
+
 
 
 namespace RTC_Vision_Lite.Classes
@@ -2928,82 +2929,233 @@ namespace RTC_Vision_Lite.Classes
             List<double> areaList = new List<double>();
             List<int> widthList = new List<int>();
             List<int> heightList = new List<int>();
-            Bitmap bitmapImage = null;
-            Dictionary<long, RTCRectangle> DataShapes = GlobFuncs.GenShapeList(ShapeList);
-            _BlobTool.InputImage = InputGrayImage.rtcValue?.Clone();
-            foreach (long key in DataShapes.Keys)
+            List<int> drawingTypeList = new List<int>();
+            #region Quân sửa ngày 16/03/2026
+            // Ở tab EndPoint/PassFail ROI nằm trong FindShapeList (không phải ShapeList)
+            // Nên phải chọn đúng shapelist theo tab hiện tại để tránh mất ảnh/Run lỗi.
+            var shapeListForRun =
+                (TabPassActive != null && TabPassActive.rtcValue && FindShapeList != null) ? FindShapeList : ShapeList;
+
+            // Lấy DrawingTypes từ ShapeList để truyền cho BlobTool và BlobView
+            // ShapeList: mỗi ROI có 10 phần tử, DrawingType nằm ở vị trí Index + 5
+            if (shapeListForRun != null && shapeListForRun.rtcValue != null)
             {
-                DataROI = new List<RTCRectangle>();
-                for (int i = 0; i < ShapeListData.rtcValue.Count; i = i + 21)
+                for (int idx = 0; idx < shapeListForRun.rtcValue.Count; idx += 10) // GlobVar.ShapeListCount = 10
                 {
-                    if (GlobFuncs.Object2Long(ShapeListData.rtcValue[i + 0]) == key)
+                    if (idx + 5 < shapeListForRun.rtcValue.Count)
                     {
-                        _BlobTool.DetectType = ShapeListData.rtcValue[i + 1].ToString();
-                        _BlobTool.FillHoles = GlobFuncs.Object2Bool(ShapeListData.rtcValue[i + 2]);
-                        _BlobTool.GreyLevelThresholdType = GlobFuncs.Object2Str(ShapeListData.rtcValue[i + 3]);
-                        _BlobTool.ThresholdRange = new Tuple<int, int>(GlobFuncs.Object2Int(ShapeListData.rtcValue[i + 4]), GlobFuncs.Object2Int(ShapeListData.rtcValue[i + 5]));
-                        _BlobTool.EnableAreaFilter = GlobFuncs.Object2Bool(ShapeListData.rtcValue[i + 6]);
-                        _BlobTool.AreaRange = new Tuple<double, double>(GlobFuncs.Object2Double(ShapeListData.rtcValue[i + 7]), GlobFuncs.Object2Double(ShapeListData.rtcValue[i + 8]));
-                        _BlobTool.EnableWidthFilter = GlobFuncs.Object2Bool(ShapeListData.rtcValue[i + 9]);
-                        _BlobTool.WidthRange = new Tuple<double, double>(GlobFuncs.Object2Double(ShapeListData.rtcValue[i + 10]), GlobFuncs.Object2Double(ShapeListData.rtcValue[i + 11]));
-                        _BlobTool.EnableHeightFilter = GlobFuncs.Object2Bool(ShapeListData.rtcValue[i + 12]);
-                        _BlobTool.HeightRange = new Tuple<double, double>(GlobFuncs.Object2Double(ShapeListData.rtcValue[i + 13]), GlobFuncs.Object2Double(ShapeListData.rtcValue[i + 14]));
-                        _BlobTool.EnableOuterRadiusFilter = GlobFuncs.Object2Bool(ShapeListData.rtcValue[i + 15]);
-                        _BlobTool.OuterRadiusRange = new Tuple<double, double>(GlobFuncs.Object2Double(ShapeListData.rtcValue[i + 16]), GlobFuncs.Object2Double(ShapeListData.rtcValue[i + 17]));
-                        _BlobTool.RequiredPass = GlobFuncs.Object2Bool(ShapeListData.rtcValue[i + 18]);
-                        _BlobTool.RequireNumberOfBlobs = new Tuple<int, int>(GlobFuncs.Object2Int(ShapeListData.rtcValue[i + 19]), GlobFuncs.Object2Int(ShapeListData.rtcValue[i + 20]));
-                        //_BlobTool.RequiredPass = ShapeListData.
-
-                        _BlobTool.IsShowImageResult = !GlobVar.RunningProcess;
-                        Tuple<PointF, double> toolOrigin = Tuple.Create(new PointF(Lib.ToInt(ToolOrigin.rtcValue[0]), Lib.ToInt(ToolOrigin.rtcValue[1])),
-                        ToolOrigin.rtcValue[2]);
-                        _BlobTool.ToolOrigin = toolOrigin;
-                        _BlobTool.ROI = new List<RTCRectangle>();
-                        DataROI.Add(DataShapes[key]);
-
-
-                        //if (InSetOrigin.rtcValue == null || InSetOrigin.rtcValue.Count <= 0)
-                        //{
-                        InSetOrigin.rtcValue = GlobFuncs.ListPointFToListDouble(SetOrigin.Run(DataROI, toolOrigin));
-                        //}
-                        //_BlobTool.InSetOrigin = SetOrigin.Run(ROIs, toolOrigin);
-                        _BlobTool.InSetOrigin = GlobFuncs.ListDoubleToListPointF(InSetOrigin.rtcValue);
-                        _BlobTool.ROI = DataROI;
-
-                        var errMessage = _BlobTool.ErrMessage;
-                        bool Ressult = _BlobTool.Run();
-                        blobList.AddRange(_BlobTool.OutputBlobList);
-                        areaList.AddRange(_BlobTool.OutputAreaList);
-                        widthList.AddRange(_BlobTool.OutputWidthList);
-                        heightList.AddRange(_BlobTool.OutputHeightList);
-
-                        //Input_Image?.Dispose();
-                        //Input_Image = null;
-                        BlobView.InputImage = InputGrayImage.rtcValue.Clone();
-
-                        BlobView.InputBlobList = blobList;
-                        BlobView.InputAreaList = areaList;
-                        BlobView.InputHeightList = heightList;
-                        BlobView.InputWidthList = widthList;
-                        BlobView.IsShowImageResult = !GlobVar.RunningProcess;
-                        OutputBlobList.rtcValue.AddRange(_BlobTool.OutputBlobList);
-                        NumberOfBlobsFound.rtcValue.Add(_BlobTool.NumberOfBlobsFound);
-                        NumberOfBlobsFound.rtcValue = new List<double>() { NumberOfBlobsFound.rtcValue.Sum() };
-                        BlobView.Run();
+                        int drawingType = Lib.Object2Int(shapeListForRun.rtcValue[idx + 5]);
+                        drawingTypeList.Add(drawingType);
                     }
                 }
             }
+            #endregion
+            _BlobTool.InputImage = InputGrayImage.rtcValue?.Clone();
+            #region Quân sửa ngày 16/03/2026
+            // Truyền DrawingTypes cho BlobTool để vẽ đúng hình (Rect/Ellipse)
+            // Đặt ngoài vòng lặp ShapeListData để chỉ gán một lần
+            if (drawingTypeList.Count > 0)
+            {
+                _BlobTool.InputDrawingTypes = drawingTypeList;
+            }
+            #endregion
+            Dictionary<long, RTCRectangle> DataShapes =
+                (shapeListForRun != null) ? GlobFuncs.GenShapeList(shapeListForRun) : new Dictionary<long, RTCRectangle>();
+            bool hasShapeListData = ShapeListData != null && ShapeListData.rtcValue != null && ShapeListData.rtcValue.Count > 0;
+
+            #region Quân sửa ngày 16/03/2026
+            // Nếu đang ở tab EndPoint/PassFail và chưa có ROIProperties/ShapeListData tương ứng (thường xảy ra khi vẽ ROI mới),
+            // thì chạy BlobTool theo cấu hình chung của Action để tránh mất ảnh (màn hình đen) và vẫn hiển thị kết quả.
+            if (!hasShapeListData)
+            {
+                #region Quân sửa ngày 16/03/2026
+                // Khi không có ShapeListData thì chạy theo cấu hình chung của Action
+                // Cần truyền DrawingType đúng cho từng ROI
+                int idx = 0;
+                foreach (long key in DataShapes.Keys)
+                {
+                    #region Quân sửa ngày 16/03/2026
+                    // Truyền DrawingTypes cho BlobTool để mask đúng theo ROI (Rect/Ellipse)
+                    // Mỗi lần gọi BlobTool.Run() chỉ xử lý 1 ROI, nên cần truyền đúng index tương ứng
+                    if (drawingTypeList.Count > idx)
+                    {
+                        _BlobTool.InputDrawingTypes = new List<int> { drawingTypeList[idx] };
+                    }
+                    #endregion
+
+                    DataROI = new List<RTCRectangle> { DataShapes[key] };
+
+                    _BlobTool.DetectType = DetectType.rtcValue;
+                    _BlobTool.FillHoles = FillHoles.rtcValue;
+                    _BlobTool.GreyLevelThresholdType = GreyLevelThresholdType.rtcValue;
+                    _BlobTool.ThresholdRange = new Tuple<int, int>((int)ThresholdRange.rtcValue[0], (int)ThresholdRange.rtcValue[1]);
+                    _BlobTool.EnableAreaFilter = EnableAreaFilter.rtcValue;
+                    _BlobTool.AreaRange = new Tuple<double, double>(AreaRange.rtcValue[0], AreaRange.rtcValue[1]);
+                    _BlobTool.EnableWidthFilter = EnableWidthFilter.rtcValue;
+                    _BlobTool.WidthRange = new Tuple<double, double>(WidthRange.rtcValue[0], WidthRange.rtcValue[1]);
+                    _BlobTool.EnableHeightFilter = EnableHeightFilter.rtcValue;
+                    _BlobTool.HeightRange = new Tuple<double, double>(HeightRange.rtcValue[0], HeightRange.rtcValue[1]);
+                    _BlobTool.EnableOuterRadiusFilter = EnableOuterRadiusFilter.rtcValue;
+                    _BlobTool.OuterRadiusRange = new Tuple<double, double>(OuterRadiusRange.rtcValue[0], OuterRadiusRange.rtcValue[1]);
+                    _BlobTool.RequiredPass = true;
+                    _BlobTool.RequireNumberOfBlobs = new Tuple<int, int>(
+                        int.Parse(RequiredNumberOfBlobs.rtcValue[0].ToString()),
+                        int.TryParse(RequiredNumberOfBlobs.rtcValue[1].ToString(), out int rr) ? rr : 1000000000);
+
+                    _BlobTool.IsShowImageResult = true;
+                    Tuple<PointF, double> toolOrigin = Tuple.Create(
+                        new PointF(Lib.ToInt(ToolOrigin.rtcValue[0]), Lib.ToInt(ToolOrigin.rtcValue[1])),
+                        ToolOrigin.rtcValue[2]);
+                    _BlobTool.ToolOrigin = toolOrigin;
+
+                    InSetOrigin.rtcValue = GlobFuncs.ListPointFToListDouble(SetOrigin.Run(DataROI, toolOrigin));
+                    _BlobTool.InSetOrigin = GlobFuncs.ListDoubleToListPointF(InSetOrigin.rtcValue);
+                    _BlobTool.ROI = DataROI;
+
+                    _BlobTool.Run();
+                    blobList.AddRange(_BlobTool.OutputBlobList);
+                    areaList.AddRange(_BlobTool.OutputAreaList);
+                    widthList.AddRange(_BlobTool.OutputWidthList);
+                    heightList.AddRange(_BlobTool.OutputHeightList);
+                    
+                    idx++;
+                }
+
+                BlobView.InputImage = InputGrayImage.rtcValue.Clone();
+                BlobView.InputBlobList = blobList;
+                BlobView.InputAreaList = areaList;
+                BlobView.InputHeightList = heightList;
+                BlobView.InputWidthList = widthList;
+                BlobView.IsShowImageResult = true;
+                if (drawingTypeList.Count > 0)
+                {
+                    BlobView.InputDrawingTypes = drawingTypeList;
+                }
+
+                OutputBlobList.rtcValue.AddRange(blobList);
+                NumberOfBlobsFound.rtcValue = new List<double>() { blobList.Count };
+                BlobView.Run();
+            }
+            else
+            #endregion
+            {
+                foreach (long key in DataShapes.Keys)
+                {
+                    #region Quân sửa ngày 16/03/2026
+                    // Truyền DrawingTypes cho BlobTool để mask đúng theo ROI (Rect/Ellipse)
+                    // Lưu ý: mỗi lần gọi BlobTool.Run() chỉ xử lý 1 ROI, nên cần truyền đúng index tương ứng
+                    if (drawingTypeList.Count > 0)
+                    {
+                        // Tìm index của key trong DataShapes để lấy đúng DrawingType
+                        int keyIndex = DataShapes.Keys.ToList().IndexOf(key);
+                        if (keyIndex >= 0 && keyIndex < drawingTypeList.Count)
+                        {
+                            _BlobTool.InputDrawingTypes = new List<int> { drawingTypeList[keyIndex] };
+                        }
+                    }
+                    #endregion
+                    DataROI = new List<RTCRectangle>();
+                    for (int i = 0; i < ShapeListData.rtcValue.Count; i = i + 21)
+                    {
+                        if (GlobFuncs.Object2Long(ShapeListData.rtcValue[i + 0]) == key)
+                        {
+                            _BlobTool.DetectType = ShapeListData.rtcValue[i + 1].ToString();
+                            _BlobTool.FillHoles = GlobFuncs.Object2Bool(ShapeListData.rtcValue[i + 2]);
+                            _BlobTool.GreyLevelThresholdType = GlobFuncs.Object2Str(ShapeListData.rtcValue[i + 3]);
+                            _BlobTool.ThresholdRange = new Tuple<int, int>(GlobFuncs.Object2Int(ShapeListData.rtcValue[i + 4]), GlobFuncs.Object2Int(ShapeListData.rtcValue[i + 5]));
+                            _BlobTool.EnableAreaFilter = GlobFuncs.Object2Bool(ShapeListData.rtcValue[i + 6]);
+                            _BlobTool.AreaRange = new Tuple<double, double>(GlobFuncs.Object2Double(ShapeListData.rtcValue[i + 7]), GlobFuncs.Object2Double(ShapeListData.rtcValue[i + 8]));
+                            _BlobTool.EnableWidthFilter = GlobFuncs.Object2Bool(ShapeListData.rtcValue[i + 9]);
+                            _BlobTool.WidthRange = new Tuple<double, double>(GlobFuncs.Object2Double(ShapeListData.rtcValue[i + 10]), GlobFuncs.Object2Double(ShapeListData.rtcValue[i + 11]));
+                            _BlobTool.EnableHeightFilter = GlobFuncs.Object2Bool(ShapeListData.rtcValue[i + 12]);
+                            _BlobTool.HeightRange = new Tuple<double, double>(GlobFuncs.Object2Double(ShapeListData.rtcValue[i + 13]), GlobFuncs.Object2Double(ShapeListData.rtcValue[i + 14]));
+                            _BlobTool.EnableOuterRadiusFilter = GlobFuncs.Object2Bool(ShapeListData.rtcValue[i + 15]);
+                            _BlobTool.OuterRadiusRange = new Tuple<double, double>(GlobFuncs.Object2Double(ShapeListData.rtcValue[i + 16]), GlobFuncs.Object2Double(ShapeListData.rtcValue[i + 17]));
+                            _BlobTool.RequiredPass = GlobFuncs.Object2Bool(ShapeListData.rtcValue[i + 18]);
+                            _BlobTool.RequireNumberOfBlobs = new Tuple<int, int>(GlobFuncs.Object2Int(ShapeListData.rtcValue[i + 19]), GlobFuncs.Object2Int(ShapeListData.rtcValue[i + 20]));
+                            //_BlobTool.RequiredPass = ShapeListData.
+
+                            #region Quân sửa ngày 16/03/2026
+                            // Luôn tạo ảnh kết quả khi bấm Run trên UI (tránh màn hình đen)
+                            _BlobTool.IsShowImageResult = true;
+                            #endregion
+                            Tuple<PointF, double> toolOrigin = Tuple.Create(new PointF(Lib.ToInt(ToolOrigin.rtcValue[0]), Lib.ToInt(ToolOrigin.rtcValue[1])),
+                            ToolOrigin.rtcValue[2]);
+                            _BlobTool.ToolOrigin = toolOrigin;
+                            _BlobTool.ROI = new List<RTCRectangle>();
+                            DataROI.Add(DataShapes[key]);
+
+
+                            InSetOrigin.rtcValue = GlobFuncs.ListPointFToListDouble(SetOrigin.Run(DataROI, toolOrigin));
+                            _BlobTool.InSetOrigin = GlobFuncs.ListDoubleToListPointF(InSetOrigin.rtcValue);
+                            _BlobTool.ROI = DataROI;
+
+                            _BlobTool.Run();
+                            blobList.AddRange(_BlobTool.OutputBlobList);
+                            areaList.AddRange(_BlobTool.OutputAreaList);
+                            widthList.AddRange(_BlobTool.OutputWidthList);
+                            heightList.AddRange(_BlobTool.OutputHeightList);
+
+                            BlobView.InputImage = InputGrayImage.rtcValue.Clone();
+
+                            BlobView.InputBlobList = blobList;
+                            BlobView.InputAreaList = areaList;
+                            BlobView.InputHeightList = heightList;
+                            BlobView.InputWidthList = widthList;
+                            #region Quân sửa ngày 16/03/2026
+                            // Luôn tạo ảnh kết quả khi bấm Run trên UI (tránh màn hình đen)
+                            BlobView.IsShowImageResult = true;
+                            #endregion
+                            #region Quân sửa ngày 16/03/2026
+                            // Truyền DrawingTypes cho BlobView để vẽ đúng hình (Rect/Ellipse)
+                            if (drawingTypeList.Count > 0)
+                            {
+                                BlobView.InputDrawingTypes = drawingTypeList;
+                            }
+                            #endregion
+
+                            OutputBlobList.rtcValue.AddRange(_BlobTool.OutputBlobList);
+                            NumberOfBlobsFound.rtcValue.Add(_BlobTool.NumberOfBlobsFound);
+                            NumberOfBlobsFound.rtcValue = new List<double>() { NumberOfBlobsFound.rtcValue.Sum() };
+                            #region Quân sửa ngày 16/03/2026
+                            // Di chuyển BlobView.Run() ra ngoài vòng lặp để hiển thị tất cả blob cùng lúc (khi vẽ nhiều ROI)
+                            // (Comment lại, sẽ gọi sau vòng lặp)
+                            // BlobView.Run();
+                            #endregion
+                        }
+                    }
+                }
+                #region Quân sửa ngày 16/03/2026
+                // Gọi BlobView.Run() một lần sau khi đã duyệt hết tất cả các key/ROI
+                if (blobList.Count > 0)
+                {
+                    BlobView.InputImage = InputGrayImage.rtcValue.Clone();
+                    BlobView.InputBlobList = blobList;
+                    BlobView.InputAreaList = areaList;
+                    BlobView.InputHeightList = heightList;
+                    BlobView.InputWidthList = widthList;
+                    BlobView.IsShowImageResult = true;
+                    if (drawingTypeList.Count > 0)
+                    {
+                        BlobView.InputDrawingTypes = drawingTypeList;
+                    }
+                    BlobView.Run();
+                }
+                #endregion
+            }
+
+
             if (WindowHandle.rtcValue.InvokeRequired)
             {
                 WindowHandle.rtcValue.Invoke(new Action(() =>
                 {
                     NumberOfBlobsFound.rtcValue = new List<double>() { _BlobTool.NumberOfBlobsFound };
-                    if (OutputBlobList != null && OutputBlobList.rtcValue.Count > 0)
-                    {
-                        WindowHandle.rtcValue.Image = BlobView.OutputImageShow;
-                        OutputAreaList.rtcValue = _BlobTool.OutputAreaList;
-                        Passed.rtcValue = _BlobTool.Passed;
-                    }
+                    #region Quân sửa ngày 16/03/2026
+                    // Luôn cập nhật ảnh hiển thị để không bị đen màn hình khi không tìm thấy blob
+                    WindowHandle.rtcValue.Image = BlobView.OutputImageShow ?? InputImage.rtcValue;
+                    OutputAreaList.rtcValue = _BlobTool.OutputAreaList;
+                    Passed.rtcValue = _BlobTool.Passed;
+                    #endregion
                 }));
             }
             else
@@ -3011,22 +3163,12 @@ namespace RTC_Vision_Lite.Classes
 
 
                 NumberOfBlobsFound.rtcValue = new List<double>() { _BlobTool.NumberOfBlobsFound };
-                if (!GlobVar.RunningProcess)
-                {
-                    if (OutputBlobList != null && OutputBlobList.rtcValue.Count > 0)
-                    {
-                        WindowHandle.rtcValue.Image = BlobView.OutputImageShow;
-                        OutputAreaList.rtcValue = _BlobTool.OutputAreaList;
-                        //OutputWidthList.rtcValue = ColorBlobMultiROIS.OutputWidthList.Cast<double>().ToList();
-                        //OutputHeightList.rtcValue = ColorBlobMultiROIS.OutputHeightList.Cast<double>().ToList();
-                        Passed.rtcValue = _BlobTool.Passed;
-                    }
-                }
-                else
-                {
-                    WindowHandle.rtcValue.Image = InputImage.rtcValue;
-                    Passed.rtcValue = _BlobTool.Passed;
-                }
+                #region Quân sửa ngày 16/03/2026
+                // Luôn cập nhật ảnh hiển thị để không bị đen màn hình khi không tìm thấy blob
+                WindowHandle.rtcValue.Image = BlobView.OutputImageShow ?? InputImage.rtcValue;
+                OutputAreaList.rtcValue = _BlobTool.OutputAreaList;
+                Passed.rtcValue = _BlobTool.Passed;
+                #endregion
             }
 
         }
@@ -3142,6 +3284,7 @@ namespace RTC_Vision_Lite.Classes
                 Pattern.InputImage = InputGrayImage.rtcValue.Clone();
                 Pattern.ROITrain = ROIs;
                 bool Result = Pattern.Train();
+             
 
                 // Cập nhật giao diện người dùng
                 if (WindowHandle.rtcValue.InvokeRequired)
@@ -3181,6 +3324,7 @@ namespace RTC_Vision_Lite.Classes
             }
 
             else if (TabPassActive.rtcValue || RunIsSilent.rtcValue)
+
             {
                 if (!Pattern.Trained)
                 {
@@ -3259,6 +3403,8 @@ namespace RTC_Vision_Lite.Classes
                     WindowHandle.rtcValue.Image = Pattern.OutputImageShow;
                     //WindowHandle.rtcValue.Refresh();
                 }
+                Pattern.Run();
+
             }
         }
 
@@ -3989,3 +4135,4 @@ namespace RTC_Vision_Lite.Classes
         }
     }
 }
+#endregion

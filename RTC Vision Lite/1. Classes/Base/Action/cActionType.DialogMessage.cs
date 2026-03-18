@@ -34,7 +34,8 @@ namespace RTC_Vision_Lite.Classes
                 this.MyGroup.RunSimple ? (Form)GlobVar.FormMain : (Form)GlobVar.FrmActions,
                 GlobFuncs.Object2Int(WidthForm),
                 GlobFuncs.Object2Int(HeightForm),
-                InputImage.rtcIDRef != Guid.Empty ? InputImage.rtcValue : null,
+                //InputImage.rtcIDRef != Guid.Empty ? InputImage.rtcValue : null,
+                InputImage.rtcValue,
                 IsAutoClose.rtcValue,
                 AutoCloseWaitTime.rtcValue / 1000);
             DialogResultI.rtcValue = (int)dialogResult;

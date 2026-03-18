@@ -500,7 +500,8 @@ namespace RTC_Vision_Lite.Classes
         public cEllipseType()
         {
             Mode = EDrawingModes.fill;
-            DrawingType = EDrawingtypes.Rectang;
+          //  DrawingType = EDrawingtypes.Rectang;
+            DrawingType = EDrawingtypes.Ellipse;
             Radius1 = 100;
             Radius2 = 60;
             Phi = 0;
