@@ -1,4 +1,4 @@
-﻿using GraphicsWindow;
+using GraphicsWindow;
 using RTC_Vision_Lite.Classes;
 using RTC_Vision_Lite.PublicFunctions;
 using RTC_Vision_Lite.UserControls;
@@ -1133,9 +1133,69 @@ namespace RTC_Vision_Lite.Forms
                         {
                             SetRoiTrainFlagValue();
                             SetROIs();
-                            SwitchRoi();
+                           SwitchRoi();
                             CalcRegions();
                         }
+                    #region Quân sửa ngày 18/03
+                    //if (!_isGetPossition &&
+                    //    Action != null &&
+                    //    Action.IsMultiROI &&
+                    //    CurrentDrawingObject != null &&
+                    //    Action.ROIProperties != null &&
+                    //    Action.ROIProperties.ContainsKey(GlobFuncs.ConvertGuidToLong(CurrentDrawingObject.Key)))
+                    //{
+                    //    //  chỉ gọi SwitchRoi khi thực sự đổi sang ROI khác để tránh bind UI không cần thiết
+                    //    cROIProperty roiSelected = Action.GetROIPropertiesSelected();
+                    //    long currentId = GlobFuncs.ConvertGuidToLong(CurrentDrawingObject.Key);
+                    //    if (roiSelected == null || roiSelected.ID != currentId)
+                    //    {
+                    //        SwitchRoi();
+                    //    }
+                    //}
+                    if (!_isGetPossition &&
+                        Action != null &&
+                        Action.IsMultiROI &&
+                        CurrentDrawingObject != null &&
+                        Action.ROIProperties != null &&
+                        Action.ROIProperties.ContainsKey(GlobFuncs.ConvertGuidToLong(CurrentDrawingObject.Key)))
+                    {
+                        // Kiểm tra có đang edit ucRangeMaxMinLimit không
+                        //    var rangeControls = GlobFuncs.GetAllUserControl(this, typeof(RTC_Vision_Lite.UserControls.ucRangeMaxMinLimit));
+                        //    bool isEditingRange = rangeControls?.Any(x => ((RTC_Vision_Lite.UserControls.ucRangeMaxMinLimit)x).IsDragging) ?? false;
+
+                        //    if (!isEditingRange)
+                        //    {
+                        //        cROIProperty roiSelected = Action.GetROIPropertiesSelected();
+                        //        long currentId = GlobFuncs.ConvertGuidToLong(CurrentDrawingObject.Key);
+                        //        if (roiSelected == null || roiSelected.ID != currentId)
+                        //        {
+                        //            SwitchRoi();
+                        //        }
+                        //    }
+
+                        //}
+                        Control focusedControl = this.ContainsFocus ? this.ActiveControl : null;
+                        bool isFocusOnDetail = false;
+
+                        // Kiểm tra focus có trong detail panel hoặc các control con của nó không
+                        if (focusedControl != null && Action?.ViewInfo != null)
+                        {
+                            isFocusOnDetail = Action.ViewInfo == focusedControl ||
+                                             Action.ViewInfo.Contains(focusedControl);
+                        }
+
+                        if (!isFocusOnDetail)
+                        {
+                            cROIProperty roiSelected = Action.GetROIPropertiesSelected();
+                            long currentId = GlobFuncs.ConvertGuidToLong(CurrentDrawingObject.Key);
+                            if (roiSelected == null || roiSelected.ID != currentId)
+                            {
+                               SwitchRoi();
+                            }
+                        }
+                    }
+
+                        #endregion Quân sửa ngày 18/03
                     }
                     Point mnuLocation = GraphicsWindow.GraphicsWindow.MousePosition;
                     Point NewRoiLocation = new Point((int)SmartWindow.PointImage.X, (int)SmartWindow.PointImage.Y);
@@ -1161,6 +1221,7 @@ namespace RTC_Vision_Lite.Forms
         private void SwitchRoi(bool onlyGetValue = false)
         {
             if (Action == null || !Action.IsMultiROI) return;
+          
             var roiProperties = Action.ROIProperties.Values.Where(x => x.Selected);
             cROIProperty crp = null;
             if (roiProperties != null && roiProperties.Any())
@@ -1180,6 +1241,8 @@ namespace RTC_Vision_Lite.Forms
                 Action.ROIProperties[crp.ID] = crp;
                 ((ucBaseActionDetail)Action.ViewInfo).BindingDataToControls();
                 ((ucBaseActionDetail)Action.ViewInfo).RefreshPropertiesList();
+
+           
             }
         }
         private void GetRegionInMousePoint(MouseEventArgs e)
@@ -1380,7 +1443,9 @@ namespace RTC_Vision_Lite.Forms
             Action.PixelCount_ROITrain_ROI = GlobVar.Draw;
             Action.LineFind_ROITrain_ROI = GlobVar.Draw;
             Action.ColorBlob_ROITrain_Find = GlobVar.Draw;
-            Action.ColorBlob_ROITrain_ROI = GlobVar.Draw;
+             Action.ColorBlob_ROITrain_ROI = GlobVar.Draw;
+            //Action.ColorBlob_ROITrain_ROI = btnDraw.Visible;
+            //Action.ColorBlob_ROITrain_Find = btnDraw.Visible;
             Action.Calibrate_ROITrain_ROI = GlobVar.Draw;
             Action.Origin_ROITrain_ROI = GlobVar.Draw;
             Action.CodeReader_ROITrain_ROI = GlobVar.Draw;
@@ -1548,8 +1613,23 @@ namespace RTC_Vision_Lite.Forms
                             }
                     }
                 }
+                //SmartWindow.DrawROI(ListRoi);
+                //cROIProperty crpSelected = Action.GetROIPropertiesSelected();
+                //if (crpSelected == null || !Action.ROIProperties.ContainsKey(crpSelected.ID))
+                //{
+                //   SwitchRoi();
+                //}
                 SmartWindow.DrawROI(ListRoi);
-                SwitchRoi();
+                cROIProperty crpSelected = Action.GetROIPropertiesSelected();
+                if (crpSelected != null && Action.ROIProperties.ContainsKey(crpSelected.ID))
+                {
+                    SmartWindow.KeySelect = GlobFuncs.ConvertLongToGuid(crpSelected.ID);
+                    CurrentDrawingObject = DrawingObjects.ContainsKey(crpSelected.ID) ? DrawingObjects[crpSelected.ID] : null;
+                }
+                if (crpSelected == null || !Action.ROIProperties.ContainsKey(crpSelected.ID))
+                {
+                    SwitchRoi();
+                }
             }
             else
                 Action.ROIs = new Dictionary<long, object>();
@@ -1641,6 +1721,7 @@ namespace RTC_Vision_Lite.Forms
                     }
                 }
                 SmartWindow.DrawROI(ListRoi);
+              
                 SwitchRoi();
             }
             else
@@ -1946,7 +2027,7 @@ namespace RTC_Vision_Lite.Forms
             }
             isAccept = true;
         }
+       
 
-        
     }
 }

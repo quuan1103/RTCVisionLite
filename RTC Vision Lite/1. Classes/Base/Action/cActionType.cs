@@ -2151,6 +2151,14 @@ namespace RTC_Vision_Lite.Classes
                         GreenTolerance.rtcValue = new List<double> { (double)ColorBlobMultiROIS.GreenTolerance.Item1, (double)ColorBlobMultiROIS.GreenTolerance.Item2, (double)ColorBlobMultiROIS.GreenTolerance.Item3 };
                         RedTolerance.rtcValue = new List<double> { (double)ColorBlobMultiROIS.RedTolerance.Item1, (double)ColorBlobMultiROIS.RedTolerance.Item2, (double)ColorBlobMultiROIS.RedTolerance.Item3 };
                     }
+                    if (ROIProperty.ColorSpace != null && !string.IsNullOrEmpty(ROIProperty.ColorSpace.rtcValue))
+                    {
+                        ColorBlobMultiROIS.ColorSpace = ROIProperty.ColorSpace.rtcValue;
+                    }
+                    else
+                    {
+                        ColorBlobMultiROIS.ColorSpace = "HSV"; // default fallback
+                    }
                     ColorBlobMultiROIS.ColorSpace = ROIProperty.ColorSpace.rtcValue;
                     string err = ColorBlobMultiROIS.ErrMessage;
 
