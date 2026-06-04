@@ -1,4 +1,4 @@
-﻿using Emgu.CV.CvEnum;
+using Emgu.CV.CvEnum;
 using Emgu.CV.Structure;
 using Emgu.CV.Util;
 using Emgu.CV;
@@ -370,6 +370,12 @@ namespace Blob_Color_Multi_ROI
                 _blueTolerance = null;
                 _greenTolerance = null;
                 _redTolerance = null;
+                // _hueTolerance = Tuple.Create(0, 128, 0);       // fallback HSV H
+                //_saturationTolerance = Tuple.Create(0, 128, 0);     // fallback HSV S
+                //_intensityTolerance = Tuple.Create(0, 128, 0);      // fallback HSV V
+                //_blueTolerance = Tuple.Create(0, 128, 0);       // fallback BGR B
+                //_greenTolerance = Tuple.Create(0, 128, 0);        // fallback BGR G
+                //_redTolerance = Tuple.Create(0, 128, 0);
                 //var imgInput = _inputImage.ToImage<Bgr, byte>();
 
 
@@ -719,7 +725,9 @@ namespace Blob_Color_Multi_ROI
                         {
                             Image<Bgr, byte> imgTmp = new Image<Bgr, byte>(_inputImage.Width, _inputImage.Height);
                             CvInvoke.CvtColor(_inputImage, imgTmp, ColorConversion.Bgr2HsvFull);
+                          
                             CvInvoke.InRange(imgTmp, lower, upper, imgInRange);
+                           
                             imgTmp.Dispose();
                         }
                         //CvInvoke.InRange(_inputImage, lower, upper, imgInRange);
