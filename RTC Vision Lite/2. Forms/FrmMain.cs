@@ -5,6 +5,7 @@ using RTC_Vision_Lite.UserControls;
 using RTC_Vision_Lite.UserManager.Classes;
 using RTCConst;
 using RTCEnums;
+using System.IO;
 using RTCSystem;
 using System;
 using System.Collections.Generic;
@@ -18,11 +19,13 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Text;
 
 namespace RTC_Vision_Lite.Forms
 {
     public partial class FrmMain : FrmBase
     {
+
         public List<TableLayoutPanel> ListTableLayoutPanel;
 
         public List<ucCAM> listCam;
@@ -1002,6 +1005,7 @@ namespace RTC_Vision_Lite.Forms
                 return;
             try
             {
+                sender.GroupActions.StopLoop = false;
                 GlobFuncs.ShowWaitForm("Prepare Before Run...");
                 sender.GroupActions.Setting_PrepareDataAllBrachTools();
                 GlobVar.CurrentProject.SetOnlineCam(sender);

@@ -6,9 +6,11 @@ using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.IO.Ports;
 using System.Linq;
 using System.Reflection;
+using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
@@ -1942,7 +1944,13 @@ namespace RTC_Vision_Lite.Classes
                 r[cColName.IsCanReset] = item.IscanReset;
                 r[cColName.IsParent] = item.IsParent;
 
-                r[cColName.Value] = GlobFuncs.ListDouble2StrWithType(item.ListDoubleValue) == string.Empty ? GlobFuncs.ListString2StrWithType(item.ListStringValue) : GlobFuncs.ListDouble2StrWithType(item.ListDoubleValue);
+                string savedValue; 
+                if (item.ValueStyle == EHTupleStyle.Boolean && item.ListStringValue != null && item.ListStringValue.Count > 0)
+                    savedValue = GlobFuncs.ListString2StrWithType(item.ListStringValue);
+                else
+                    savedValue = GlobFuncs.ListDouble2StrWithType(item.ListDoubleValue) == string.Empty ? GlobFuncs.ListString2StrWithType(item.ListStringValue) : GlobFuncs.ListDouble2StrWithType(item.ListDoubleValue);
+                r[cColName.Value] = savedValue;
+               
                 r[cColName.ValueView] = item.ValueView;
                 r[cColName.ValueViewFull] = item.ValueViewFull;
 
@@ -3938,12 +3946,12 @@ namespace RTC_Vision_Lite.Classes
                     sbItem.RefIndex = GlobFuncs.GetDataRowValue_String(r, cColName.RefIndex);
 
                     sbItem.ListDoubleValue = new List<double>();
-
-                    sbItem.ListStringValue = new List<string>();
+                    
                     string htupleVal = GlobFuncs.GetDataRowValue_String(r, cColName.Value);
                     if (htupleVal != "")
                     {
                         string[] htupleVals = htupleVal.Split(cStrings.SepGDung);
+                      
                         if (htupleVals.Length != 2)
                         {
                             sbItem.ListStringValue = new List<string>();
@@ -3959,6 +3967,9 @@ namespace RTC_Vision_Lite.Classes
                                     sbItem.ListDoubleValue = GlobFuncs.Str2DoubleArr(htupleVals[0]);
                                     break;
                                 case cValueTypes.STRING:
+                                    sbItem.ListStringValue = GlobFuncs.Str2StringArr(htupleVals[0]);
+                                    break;
+                                case "Boolean":
                                     sbItem.ListStringValue = GlobFuncs.Str2StringArr(htupleVals[0]);
                                     break;
                                 case cValueTypes.DOUBLE:

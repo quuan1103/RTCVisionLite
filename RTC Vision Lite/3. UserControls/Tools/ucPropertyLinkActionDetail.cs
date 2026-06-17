@@ -27,6 +27,15 @@ namespace RTC_Vision_Lite.UserControls
         private ComboBox cbTargetProperty = new ComboBox();
         private ComboBox cbSourceProperty = new ComboBox();
         private ComboBox cbSourceTool = new ComboBox();
+
+        #region Quân sửa 0806 - Tách source/target handler riêng
+        private ComboBox cbSourceCamCombo = new ComboBox();
+        private ComboBox cbSourceToolCombo = new ComboBox();
+        private ComboBox cbSourcePropertyCombo = new ComboBox();
+        private ComboBox cbTargetCamCombo = new ComboBox();
+        private ComboBox cbTargetToolCombo = new ComboBox();
+        private ComboBox cbTargetPropertyCombo = new ComboBox();
+        #endregion
         private void btnAdd_Click(object sender, EventArgs e)
         {
             if (Action == null)
@@ -45,8 +54,8 @@ namespace RTC_Vision_Lite.UserControls
                 SourceID = Guid.Empty,
                 SourceName = string.Empty,
                 SourceIndex = new List<object>(),
-                TargetCamID = Action.MyGroup.MyCam.ID,
-                TargetID = Action.ID,
+                TargetCamID = Guid.Empty,
+                TargetID = Guid.Empty,
                 TargetName = string.Empty,
                 TargetIndex = new List<object>(),
                 DefaultValue = new List<object>()
@@ -86,18 +95,15 @@ namespace RTC_Vision_Lite.UserControls
                 newNode.SourceCam = sourceCam != null ? (sourceCam.Name == Action.MyGroup.MyCam.Name ? cStrings.This : sourceCam.Name) : string.Empty;
                 newNode.SourceTool = sourceAction?.Name.rtcValue ?? string.Empty;
                 newNode.SourceName = linkItem.SourceName;
-                newNode.SourceIndex = GlobFuncs.ListObject2Str(linkItem.SourceIndex).ToString().Replace("[", "").Replace("]", "").Replace(@"""", "");
+                //newNode.SourceIndex = GlobFuncs.ListObject2Str(linkItem.SourceIndex).ToString().Replace("[", "").Replace("]", "").Replace(@"""", "");
+                newNode.SourceIndex = GlobFuncs.ListObject2Str(linkItem.SourceIndex).Replace("[", "").Replace("]", "").Replace(@"""", "");
+                if (string.IsNullOrEmpty(newNode.SourceIndex) || newNode.SourceIndex == "None")
+                    newNode.SourceIndex = cStrings.None;
                 newNode.TargetCam = targetCam != null ? (targetCam.Name == Action.MyGroup.MyCam.Name ? cStrings.This : targetCam.Name) : string.Empty;
                 newNode.TargetTool = targetAction?.Name.rtcValue ?? string.Empty;
                 newNode.TargetName = linkItem.TargetName;
                 newNode.TargetIndex = GlobFuncs.ListObject2Str(linkItem.TargetIndex).ToString().Replace("[", "").Replace("]", "").Replace(@"""", "");
                 tlLink.AddObject(newNode);
-                // QUân sửa
-                var firstObject = tlLink.Objects.Cast<PropertyLink>().FirstOrDefault();
-                if (firstObject != null)
-                    tlLink.FocusedObject = firstObject;
-                tlLink.SelectedObject = firstObject;
-                tlLink.Focus();
                 return true;
             }
             finally
@@ -108,37 +114,69 @@ namespace RTC_Vision_Lite.UserControls
 
         private void btnClone_Click(object sender, EventArgs e)
         {
-            if (tlLink.FocusedObject == null || Action == null)
+            //if (tlLink.FocusedObject == null || Action == null)
+            //    return;
+            //List<PropertyLink> AllNodes = tlLink.Objects.Cast<PropertyLink>().ToList();
+            //int currentNodeIndex = tlLink.IndexOf(tlLink.FocusedObject);
+            //bool isMoveWhenAfterAdd = currentNodeIndex != AllNodes.Count - 1;
+            //int iOrderNum = ((PropertyLink)tlLink.FocusedObject).OrderNumber;
+            //cLinkProperty cloneProperty = Action.LinkProperty.Find(x => x.OrderNum == iOrderNum);
+            //if (cloneProperty == null)
+            //    return;
+            //cLinkProperty newLink = cloneProperty.Clone();
+            //int newLinkOrder = 0;
+            //foreach (cLinkProperty linkProperty in Action.LinkProperty)
+            //    if (newLinkOrder <= linkProperty.OrderNum)
+            //        newLinkOrder = linkProperty.OrderNum;
+            //newLinkOrder += 1;
+            //newLink.OrderNum = newLinkOrder;
+            //Action.LinkProperty.Add(newLink);
+            //AddLinkItemToTreeList(newLink);
+            //AllNodes = tlLink.Objects.Cast<PropertyLink>().ToList();
+            //if (isMoveWhenAfterAdd)
+            //{
+            //    PropertyLink nodeMove = AllNodes[AllNodes.Count - 1];
+            //    AllNodes.Remove(AllNodes[AllNodes.Count - 1]);
+            //    AllNodes.Insert(currentNodeIndex + 1, nodeMove);
+            //    tlLink.ClearObjects();
+            //    foreach (PropertyLink Node in AllNodes)
+            //    {
+            //        tlLink.AddObject(Node);
+            //    }
+            //    ReOrderNum();
+            //}
+            if (tlLink.FocusedObject == null || Action == null || Action.LinkProperty == null)
                 return;
-            List<PropertyLink> AllNodes = tlLink.Objects.Cast<PropertyLink>().ToList();
-            int currentNodeIndex = tlLink.IndexOf(tlLink.FocusedObject);
-            bool isMoveWhenAfterAdd = currentNodeIndex != AllNodes.Count - 1;
-            int iOrderNum = ((PropertyLink)tlLink.FocusedObject).OrderNumber;
+            PropertyLink focusedObject = tlLink.FocusedObject as PropertyLink;
+            if (focusedObject == null)
+                return;
+            List<PropertyLink> allNodes = tlLink.Objects.Cast<PropertyLink>().ToList();
+            int currentNodeIndex = tlLink.IndexOf(focusedObject);
+            if (currentNodeIndex < 0)
+                return;
+            bool isMoveWhenAfterAdd = currentNodeIndex != allNodes.Count - 1;
+            int iOrderNum = focusedObject.OrderNumber;
             cLinkProperty cloneProperty = Action.LinkProperty.Find(x => x.OrderNum == iOrderNum);
             if (cloneProperty == null)
                 return;
             cLinkProperty newLink = cloneProperty.Clone();
-            int newLinkOrder = 0;
-            foreach (cLinkProperty linkProperty in Action.LinkProperty)
-                if (newLinkOrder <= linkProperty.OrderNum)
-                    newLinkOrder = linkProperty.OrderNum;
-            newLinkOrder += 1;
+            int newLinkOrder = Action.LinkProperty.Count == 0 ? 1 : Action.LinkProperty.Max(x => x.OrderNum) + 1;
             newLink.OrderNum = newLinkOrder;
             Action.LinkProperty.Add(newLink);
             AddLinkItemToTreeList(newLink);
-            AllNodes = tlLink.Objects.Cast<PropertyLink>().ToList();
+            allNodes = tlLink.Objects.Cast<PropertyLink>().ToList();
+            PropertyLink nodeMove = allNodes[allNodes.Count - 1];
             if (isMoveWhenAfterAdd)
             {
-                PropertyLink nodeMove = AllNodes[AllNodes.Count - 1];
-                AllNodes.Remove(AllNodes[AllNodes.Count - 1]);
-                AllNodes.Insert(currentNodeIndex + 1, nodeMove);
-                tlLink.ClearObjects();
-                foreach (PropertyLink Node in AllNodes)
-                {
-                    tlLink.AddObject(Node);
-                }
-                ReOrderNum();
+                allNodes.RemoveAt(allNodes.Count - 1);
+                allNodes.Insert(currentNodeIndex + 1, nodeMove);
+                tlLink.SetObjects(allNodes);
             }
+            ReOrderNum();
+            tlLink.FocusedObject = nodeMove;
+            tlLink.SelectObject(nodeMove);
+            tlLink.EnsureModelVisible(nodeMove);
+            tlLink.Focus();
         }
 
         private void btnReset_Click(object sender, EventArgs e)
@@ -219,6 +257,8 @@ namespace RTC_Vision_Lite.UserControls
                         newNode.SourceName = linkItem.SourceName;
                         newNode.SourceIndex = linkItem.SourceIndex[0].ToString().Replace("[", "").Replace("]", "").Replace(@"""", "");
                         newNode.TargetCam = targetCam != null ? (targetCam.Name == Action.MyGroup.MyCam.Name ? cStrings.This : targetCam.Name) : string.Empty;
+                        //  newNode.SourceIndex = GlobFuncs.ListObject2Str(linkItem.SourceIndex).Replace("[", "").Replace("]", "").Replace(@"""", "");
+                        //   newNode.TargetIndex = GlobFuncs.ListObject2Str(linkItem.TargetIndex).Replace("[", "").Replace("]", "").Replace(@"""", "");
                         newNode.TargetTool = targetAction?.Name.rtcValue ?? string.Empty;
                         newNode.TargetName = linkItem.TargetName;
                         newNode.TargetIndex = linkItem.TargetIndex.Count > 0 ? linkItem.TargetIndex[0].ToString().Replace("[", "").Replace("]", "").Replace(@"""", "") : "None";
@@ -276,6 +316,8 @@ namespace RTC_Vision_Lite.UserControls
 
         private void btnRunTest_Click(object sender, EventArgs e)
         {
+            if (Action == null)
+                return;
             Action.Run_LinkValue_Test();
         }
 
@@ -325,13 +367,16 @@ namespace RTC_Vision_Lite.UserControls
             {
                 GlobVar.LockEvents = true;
                 if (Action == null || Action.LinkProperty == null) return;
-                PropertyLink FocusNode = (PropertyLink)tlLink.FocusedObject;
-                if (FocusNode == null) return;
-                int IndexNode = tlLink.IndexOf(FocusNode);
-                List<PropertyLink> AllNodes = tlLink.Objects.Cast<PropertyLink>().ToList();
-                PropertyLink nodeMove = AllNodes[IndexNode];
-                AllNodes.Remove(AllNodes[IndexNode]);
-                AllNodes.Insert(IndexNode - 1, nodeMove);
+                PropertyLink focusNode = tlLink.FocusedObject as PropertyLink;
+                if (focusNode == null) return;
+                int indexNode = tlLink.IndexOf(focusNode);
+                List<PropertyLink> allNodes = tlLink.Objects.Cast<PropertyLink>().ToList();
+                if (indexNode <= 0 || indexNode >= allNodes.Count)
+                    return;
+
+                PropertyLink nodeMove = allNodes[indexNode];
+                allNodes[indexNode] = allNodes[indexNode - 1];
+                allNodes[indexNode - 1] = nodeMove;
                 tlLink.ClearObjects();
                 //foreach (PropertyLink Node in AllNodes)
                 //{
@@ -339,7 +384,7 @@ namespace RTC_Vision_Lite.UserControls
                 //}
 
                 // Quân sửa
-                foreach (PropertyLink Node in AllNodes)
+                foreach (PropertyLink Node in allNodes)
                     tlLink.AddObject(Node);
                 ReOrderNum();
                 tlLink.FocusedObject = nodeMove;
@@ -372,243 +417,350 @@ namespace RTC_Vision_Lite.UserControls
                 linkProperty.OrderNum = orderOldNew[linkProperty.OrderNum];
         }
 
+       
+
 
         private void tlLink_CellEditStarting(object sender, BrightIdeasSoftware.CellEditEventArgs e)
         {
+            #region Quân sửa 0806 - Gán editor riêng cho từng cột
             if (e.Column == colSourceCam)
             {
-                cbCam = new ComboBox();
-                LoadListCamToCombo();
-
-                cbCam.DropDownStyle = ComboBoxStyle.DropDownList;
-
-                cbCam.Bounds = e.CellBounds;
+                cbSourceCamCombo = new ComboBox();
+                LoadSourceCamToCombo();
+                cbSourceCamCombo.DropDownStyle = ComboBoxStyle.DropDownList;
+                cbSourceCamCombo.Bounds = e.CellBounds;
                 if (e.Value != null)
-                    cbCam.SelectedItem = e.Value;
-                //cbBool.SelectedIndexChanged += ComboBoxSelectedIndexChanged;
-                cbCam.SelectedIndexChanged += cbCam_SelectedIndexChanged;
-                e.Control = cbCam;
+                    cbSourceCamCombo.SelectedItem = e.Value;
+                cbSourceCamCombo.SelectedIndexChanged += cbSourceCam_SelectedIndexChanged;
+                e.Control = cbSourceCamCombo;
             }
             else if (e.Column == colSourceTool)
             {
-                cbSourceTool = new ComboBox();
+                cbSourceToolCombo = new ComboBox();
                 LoadSourceToolToCombo();
-                cbSourceTool.DropDownStyle = ComboBoxStyle.DropDownList;
-                cbSourceTool.Bounds = e.CellBounds;
+                cbSourceToolCombo.DropDownStyle = ComboBoxStyle.DropDownList;
+                cbSourceToolCombo.Bounds = e.CellBounds;
                 if (e.Value != null)
-                    cbSourceTool.SelectedItem = e.Value;
-                cbSourceTool.SelectedIndexChanged += cbSourceTool_SelectedIndexChanged;
-                e.Control = cbSourceTool;
+                    cbSourceToolCombo.SelectedItem = e.Value;
+                cbSourceToolCombo.SelectedIndexChanged += cbSourceTool_SelectedIndexChanged;
+                e.Control = cbSourceToolCombo;
             }
             else if (e.Column == colSourceName)
             {
-                cbSourceProperty = new ComboBox();
-                LoadSourcePropertyToCom();
-                cbSourceProperty.DropDownStyle = ComboBoxStyle.DropDownList;
-                cbSourceProperty.Bounds = e.CellBounds;
+                cbSourcePropertyCombo = new ComboBox();
+                LoadSourcePropertyToCombo();
+                cbSourcePropertyCombo.DropDownStyle = ComboBoxStyle.DropDownList;
+                cbSourcePropertyCombo.Bounds = e.CellBounds;
                 if (e.Value != null)
-                    cbSourceProperty.SelectedItem = e.Value;
-                cbSourceProperty.SelectedIndexChanged += cbSourceProperty_SelectedIndexChanged;
-                e.Control = cbSourceProperty;
+                    cbSourcePropertyCombo.SelectedItem = e.Value;
+                cbSourcePropertyCombo.SelectedIndexChanged += cbSourceProperty_SelectedIndexChanged;
+                e.Control = cbSourcePropertyCombo;
             }
-            if (e.Column == colTargetCam)
+            else if (e.Column == colTargetCam)
             {
-                cbCam = new ComboBox();
-                LoadListCamToCombo();
-
-                cbCam.DropDownStyle = ComboBoxStyle.DropDownList;
-                cbCam.Bounds = e.CellBounds;
+                cbTargetCamCombo = new ComboBox();
+                LoadTargetCamToCombo();
+                cbTargetCamCombo.DropDownStyle = ComboBoxStyle.DropDownList;
+                cbTargetCamCombo.Bounds = e.CellBounds;
                 if (e.Value != null)
-                    cbCam.SelectedItem = e.Value;
-                //cbBool.SelectedIndexChanged += ComboBoxSelectedIndexChanged;
-                cbCam.SelectedIndexChanged += cbCam_SelectedIndexChanged;
-                e.Control = cbCam;
+                    cbTargetCamCombo.SelectedItem = e.Value;
+                cbTargetCamCombo.SelectedIndexChanged += cbTargetCam_SelectedIndexChanged;
+                e.Control = cbTargetCamCombo;
             }
             else if (e.Column == colTargetTool)
             {
-                cbSourceTool = new ComboBox();
-                LoadSourceToolToCombo();
-                cbSourceTool.DropDownStyle = ComboBoxStyle.DropDownList;
-                cbSourceTool.Bounds = e.CellBounds;
+                cbTargetToolCombo = new ComboBox();
+                LoadTargetToolToCombo();
+                cbTargetToolCombo.DropDownStyle = ComboBoxStyle.DropDownList;
+                cbTargetToolCombo.Bounds = e.CellBounds;
                 if (e.Value != null)
-                    cbSourceTool.SelectedItem = e.Value;
-                cbSourceTool.SelectedIndexChanged += cbSourceTool_SelectedIndexChanged;
-                e.Control = cbSourceTool;
+                    cbTargetToolCombo.SelectedItem = e.Value;
+                cbTargetToolCombo.SelectedIndexChanged += cbTargetTool_SelectedIndexChanged;
+                e.Control = cbTargetToolCombo;
             }
             else if (e.Column == colTargetName)
             {
-                cbSourceProperty = new ComboBox();
-                LoadSourcePropertyToCom();
-                cbSourceProperty.DropDownStyle = ComboBoxStyle.DropDownList;
-                cbSourceProperty.Bounds = e.CellBounds;
+                cbTargetPropertyCombo = new ComboBox();
+                LoadTargetPropertyToCombo();
+                cbTargetPropertyCombo.DropDownStyle = ComboBoxStyle.DropDownList;
+                cbTargetPropertyCombo.Bounds = e.CellBounds;
                 if (e.Value != null)
-                    cbSourceProperty.SelectedItem = e.Value;
-                cbSourceProperty.SelectedIndexChanged += cbSourceProperty_SelectedIndexChanged;
-                e.Control = cbSourceProperty;
+                    cbTargetPropertyCombo.SelectedItem = e.Value;
+                cbTargetPropertyCombo.SelectedIndexChanged += cbTargetProperty_SelectedIndexChanged;
+                e.Control = cbTargetPropertyCombo;
             }
+            #endregion
 
+            #region Quân sửa 0806 - Code cũ giữ lại để đối chiếu
+            //if (e.Column == colSourceCam)
+            //{
+            //    cbCam = new ComboBox();
+            //    LoadListCamToCombo();
+            //
+            //    cbCam.DropDownStyle = ComboBoxStyle.DropDownList;
+            //
+            //    cbCam.Bounds = e.CellBounds;
+            //    if (e.Value != null)
+            //        cbCam.SelectedItem = e.Value;
+            //    //cbBool.SelectedIndexChanged += ComboBoxSelectedIndexChanged;
+            //    cbCam.SelectedIndexChanged += cbCam_SelectedIndexChanged;
+            //    e.Control = cbCam;
+            //}
+            //else if (e.Column == colSourceTool)
+            //{
+            //    cbSourceTool = new ComboBox();
+            //    LoadSourceToolToCombo();
+            //    cbSourceTool.DropDownStyle = ComboBoxStyle.DropDownList;
+            //    cbSourceTool.Bounds = e.CellBounds;
+            //    if (e.Value != null)
+            //        cbSourceTool.SelectedItem = e.Value;
+            //    cbSourceTool.SelectedIndexChanged += cbSourceTool_SelectedIndexChanged;
+            //    e.Control = cbSourceTool;
+            //}
+            //else if (e.Column == colSourceName)
+            //{
+            //    cbSourceProperty = new ComboBox();
+            //    LoadSourcePropertyToCom();
+            //    cbSourceProperty.DropDownStyle = ComboBoxStyle.DropDownList;
+            //    cbSourceProperty.Bounds = e.CellBounds;
+            //    if (e.Value != null)
+            //        cbSourceProperty.SelectedItem = e.Value;
+            //    cbSourceProperty.SelectedIndexChanged += cbSourceProperty_SelectedIndexChanged;
+            //    e.Control = cbSourceProperty;
+            //}
+            //if (e.Column == colTargetCam)
+            //{
+            //    cbCam = new ComboBox();
+            //    LoadListCamToCombo();
+            //
+            //    cbCam.DropDownStyle = ComboBoxStyle.DropDownList;
+            //    cbCam.Bounds = e.CellBounds;
+            //    if (e.Value != null)
+            //        cbCam.SelectedItem = e.Value;
+            //    //cbBool.SelectedIndexChanged += ComboBoxSelectedIndexChanged;
+            //    cbCam.SelectedIndexChanged += cbCam_SelectedIndexChanged;
+            //    e.Control = cbCam;
+            //}
+            //else if (e.Column == colTargetTool)
+            //{
+            //    cbSourceTool = new ComboBox();
+            //    LoadSourceToolToCombo();
+            //    cbSourceTool.DropDownStyle = ComboBoxStyle.DropDownList;
+            //    cbSourceTool.Bounds = e.CellBounds;
+            //    if (e.Value != null)
+            //        cbSourceTool.SelectedItem = e.Value;
+            //    cbSourceTool.SelectedIndexChanged += cbSourceTool_SelectedIndexChanged;
+            //    e.Control = cbSourceTool;
+            //}
+            //else if (e.Column == colTargetName)
+            //{
+            //    cbSourceProperty = new ComboBox();
+            //    LoadSourcePropertyToCom();
+            //    cbSourceProperty.DropDownStyle = ComboBoxStyle.DropDownList;
+            //    cbSourceProperty.Bounds = e.CellBounds;
+            //    if (e.Value != null)
+            //        cbSourceProperty.SelectedItem = e.Value;
+            //    cbSourceProperty.SelectedIndexChanged += cbSourceProperty_SelectedIndexChanged;
+            //    e.Control = cbSourceProperty;
+            //}
+            #endregion
         }
+
+        #region Quân sửa 0806 - Hàm load dữ liệu editor riêng
+        private void LoadSourceCamToCombo()
+        {
+            cbSourceCamCombo.Items.Clear();
+            if (GlobVar.CurrentProject == null)
+                return;
+
+            foreach (cCAMTypes cam in GlobVar.CurrentProject.CAMs.Values)
+            {
+                if (Action.MyGroup.MyCam != null && cam.Name == Action.MyGroup.MyCam.Name)
+                    cbSourceCamCombo.Items.Add(cStrings.This);
+                else
+                    cbSourceCamCombo.Items.Add(cam.Name);
+            }
+        }
+
+        private void LoadTargetCamToCombo()
+        {
+            cbTargetCamCombo.Items.Clear();
+            if (GlobVar.CurrentProject == null)
+                return;
+
+            foreach (cCAMTypes cam in GlobVar.CurrentProject.CAMs.Values)
+            {
+                if (Action.MyGroup.MyCam != null && cam.Name == Action.MyGroup.MyCam.Name)
+                    cbTargetCamCombo.Items.Add(cStrings.This);
+                else
+                    cbTargetCamCombo.Items.Add(cam.Name);
+            }
+        }
+
         private void LoadSourceToolToCombo()
         {
-            if (tlLink.SelectedColumn == colSourceTool)
-            {
-                string sCamName = ((PropertyLink)tlLink.FocusedObject).SourceCam;
-                cGroupActions groupActions = sCamName == cStrings.This
-             ? GlobVar.GroupActions
-             : GlobVar.CurrentProject.CAMs.Values.FirstOrDefault(x => x.Name == sCamName)?.GroupActions;
-                if (groupActions == null)
-                    return;
-                var orderActions = groupActions.Actions.Values.OrderBy(x => x.STT).ToList();
-                foreach (cAction action in orderActions)
-                    cbSourceTool.Items.Add(action.Name.rtcValue);
-            }
-            else if (tlLink.SelectedColumn == colTargetTool)
-            {
-                string sCamName = ((PropertyLink)tlLink.FocusedObject).TargetCam;
-                cGroupActions groupActions = sCamName == cStrings.This
-             ? GlobVar.GroupActions
-             : GlobVar.CurrentProject.CAMs.Values.FirstOrDefault(x => x.Name == sCamName)?.GroupActions;
-                if (groupActions == null)
-                    return;
-                var orderActions = groupActions.Actions.Values.OrderBy(x => x.STT).ToList();
-                foreach (cAction action in orderActions)
-                    cbSourceTool.Items.Add(action.Name.rtcValue);
-            }
-
-        }
-        private void LoadSourcePropertyToCom()
-        {
-            if (tlLink.SelectedColumn == colSourceName)
-            {
-                string sCamName = colSourceCam.GetValue(tlLink.FocusedObject)?.ToString();
-                cGroupActions groupActions = sCamName == cStrings.This
-                    ? GlobVar.GroupActions
-                    : GlobVar.CurrentProject.CAMs.Values.FirstOrDefault(x => x.Name == sCamName)?.GroupActions;
-                if (groupActions == null)
-                    return;
-                string sToolName = colSourceTool.GetValue(tlLink.FocusedObject).ToString();
-                cAction sourceAction = groupActions.Actions.Values.FirstOrDefault(x => x.Name.rtcValue == sToolName);
-                if (sourceAction == null)
-                    return;
-                var listPropertyInfo = sourceAction.GetType().GetProperties().Where(x => ((RTCVariableType)x.GetValue(sourceAction, null)) != null &&
-                    ((RTCVariableType)x.GetValue(sourceAction, null)).rtcActive).ToList();
-                foreach (var property in listPropertyInfo)
-                    cbSourceProperty.Items.Add(property.Name);
-                if (sourceAction.MyExpression != null && sourceAction.MyExpression.Operands != null)
-                    foreach (SStringBuilderItem operand in sourceAction.MyExpression.Operands)
-                        cbSourceProperty.Items.Add(operand.Name);
-                if (sourceAction.DataItems != null)
-                    foreach (SStringBuilderItem item in sourceAction.DataItems)
-                        cbSourceProperty.Items.Add(item.Name);
-            }
-            else if (tlLink.SelectedColumn == colTargetName)
-            {
-                string sCamName = colTargetCam.GetValue(tlLink.FocusedObject)?.ToString();
-                cGroupActions groupActions = sCamName == cStrings.This
-                    ? GlobVar.GroupActions
-                    : GlobVar.CurrentProject.CAMs.Values.FirstOrDefault(x => x.Name == sCamName)?.GroupActions;
-                if (groupActions == null)
-                    return;
-                string sToolName = colTargetTool.GetValue(tlLink.FocusedObject).ToString();
-                cAction sourceAction = groupActions.Actions.Values.FirstOrDefault(x => x.Name.rtcValue == sToolName);
-                if (sourceAction == null)
-                    return;
-                var listPropertyInfo = sourceAction.GetType().GetProperties().Where(x => ((RTCVariableType)x.GetValue(sourceAction, null)) != null &&
-                    ((RTCVariableType)x.GetValue(sourceAction, null)).rtcActive).ToList();
-                foreach (var property in listPropertyInfo)
-                    cbSourceProperty.Items.Add(property.Name);
-                if (sourceAction.MyExpression != null && sourceAction.MyExpression.Operands != null)
-                    foreach (SStringBuilderItem operand in sourceAction.MyExpression.Operands)
-                        cbSourceProperty.Items.Add(operand.Name);
-                if (sourceAction.DataItems != null)
-                    foreach (SStringBuilderItem item in sourceAction.DataItems)
-                        cbSourceProperty.Items.Add(item.Name);
-            }
-        }
-        private void cbCam_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            cbSourceTool.Items.Clear();
-            cbSourceProperty.Items.Clear();
+            cbSourceToolCombo.Items.Clear();
             if (tlLink.FocusedObject == null)
                 return;
+
+            string sCamName = colSourceCam.GetValue(tlLink.FocusedObject)?.ToString();
+            cGroupActions groupActions = sCamName == cStrings.This
+                ? GlobVar.GroupActions
+                : GlobVar.CurrentProject?.CAMs.Values.FirstOrDefault(x => x.Name == sCamName)?.GroupActions;
+
+            if (groupActions == null)
+                return;
+
+            foreach (cAction action in groupActions.Actions.Values.OrderBy(x => x.STT))
+                cbSourceToolCombo.Items.Add(action.Name.rtcValue);
+        }
+
+        private void LoadTargetToolToCombo()
+        {
+            cbTargetToolCombo.Items.Clear();
+            if (tlLink.FocusedObject == null)
+                return;
+
+            string sCamName = colTargetCam.GetValue(tlLink.FocusedObject)?.ToString();
+            cGroupActions groupActions = sCamName == cStrings.This
+                ? GlobVar.GroupActions
+                : GlobVar.CurrentProject?.CAMs.Values.FirstOrDefault(x => x.Name == sCamName)?.GroupActions;
+
+            if (groupActions == null)
+                return;
+
+            foreach (cAction action in groupActions.Actions.Values.OrderBy(x => x.STT))
+                cbTargetToolCombo.Items.Add(action.Name.rtcValue);
+        }
+
+        private void LoadSourcePropertyToCombo()
+        {
+            cbSourcePropertyCombo.Items.Clear();
+            if (tlLink.FocusedObject == null)
+                return;
+
+            string sCamName = colSourceCam.GetValue(tlLink.FocusedObject)?.ToString();
+            cGroupActions groupActions = sCamName == cStrings.This
+                ? GlobVar.GroupActions
+                : GlobVar.CurrentProject?.CAMs.Values.FirstOrDefault(x => x.Name == sCamName)?.GroupActions;
+            if (groupActions == null)
+                return;
+
+            string sToolName = colSourceTool.GetValue(tlLink.FocusedObject)?.ToString();
+            cAction sourceAction = groupActions.Actions.Values.FirstOrDefault(x => x.Name.rtcValue == sToolName);
+            if (sourceAction == null)
+                return;
+
+            var listPropertyInfo = sourceAction.GetType().GetProperties().Where(x => ((RTCVariableType)x.GetValue(sourceAction, null)) != null &&
+                ((RTCVariableType)x.GetValue(sourceAction, null)).rtcActive).ToList();
+            foreach (var property in listPropertyInfo)
+                cbSourcePropertyCombo.Items.Add(property.Name);
+            if (sourceAction.MyExpression != null && sourceAction.MyExpression.Operands != null)
+                foreach (SStringBuilderItem operand in sourceAction.MyExpression.Operands)
+                    cbSourcePropertyCombo.Items.Add(operand.Name);
+            if (sourceAction.DataItems != null)
+                foreach (SStringBuilderItem item in sourceAction.DataItems)
+                    cbSourcePropertyCombo.Items.Add(item.Name);
+        }
+
+        private void LoadTargetPropertyToCombo()
+        {
+            cbTargetPropertyCombo.Items.Clear();
+            if (tlLink.FocusedObject == null)
+                return;
+
+            string sCamName = colTargetCam.GetValue(tlLink.FocusedObject)?.ToString();
+            cGroupActions groupActions = sCamName == cStrings.This
+                ? GlobVar.GroupActions
+                : GlobVar.CurrentProject?.CAMs.Values.FirstOrDefault(x => x.Name == sCamName)?.GroupActions;
+            if (groupActions == null)
+                return;
+
+            string sToolName = colTargetTool.GetValue(tlLink.FocusedObject)?.ToString();
+            cAction targetAction = groupActions.Actions.Values.FirstOrDefault(x => x.Name.rtcValue == sToolName);
+            if (targetAction == null)
+                return;
+
+            var listPropertyInfo = targetAction.GetType().GetProperties().Where(x => ((RTCVariableType)x.GetValue(targetAction, null)) != null &&
+                ((RTCVariableType)x.GetValue(targetAction, null)).rtcActive).ToList();
+            foreach (var property in listPropertyInfo)
+                cbTargetPropertyCombo.Items.Add(property.Name);
+            if (targetAction.MyExpression != null && targetAction.MyExpression.Operands != null)
+                foreach (SStringBuilderItem operand in targetAction.MyExpression.Operands)
+                    cbTargetPropertyCombo.Items.Add(operand.Name);
+            if (targetAction.DataItems != null)
+                foreach (SStringBuilderItem item in targetAction.DataItems)
+                    cbTargetPropertyCombo.Items.Add(item.Name);
+        }
+        #endregion
+
+        #region Quân sửa 0806 - Handler riêng cho editor
+        private void cbSourceCam_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            cbSourceToolCombo.Items.Clear();
+            cbSourcePropertyCombo.Items.Clear();
+            if (tlLink.FocusedObject == null)
+                return;
+
             ComboBox edit = (ComboBox)sender;
-            string sCamName = edit.Text;
-            if (tlLink.SelectedColumn == colSourceCam)
-            {
-                colSourceCam.PutValue(tlLink.FocusedObject, sCamName);
-
-            }
-            else if (tlLink.SelectedColumn == colTargetCam)
-            {
-                colTargetCam.PutValue(tlLink.FocusedObject, sCamName);
-
-            }
-
+            colSourceCam.PutValue(tlLink.FocusedObject, edit.Text);
             tlLink.FinishCellEdit();
         }
+
+        private void cbTargetCam_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            cbTargetToolCombo.Items.Clear();
+            cbTargetPropertyCombo.Items.Clear();
+            if (tlLink.FocusedObject == null)
+                return;
+
+            ComboBox edit = (ComboBox)sender;
+            colTargetCam.PutValue(tlLink.FocusedObject, edit.Text);
+            tlLink.FinishCellEdit();
+        }
+
         private void cbSourceTool_SelectedIndexChanged(object sender, EventArgs e)
         {
-            cbSourceProperty.Items.Clear();
+            cbSourcePropertyCombo.Items.Clear();
             if (tlLink.FocusedObject == null)
                 return;
-            cGroupActions groupActions;
-            string sCamName;
-            ComboBox edit = (ComboBox)sender;
-            string sToolName = edit.Text;
-            if (tlLink.SelectedColumn == colSourceTool)
-            {
-                sCamName = colSourceCam.GetValue(tlLink.FocusedObject).ToString();
-                groupActions = sCamName == cStrings.This
-                   ? GlobVar.GroupActions
-                   : GlobVar.CurrentProject.CAMs.Values.FirstOrDefault(x => x.Name == sCamName)?.GroupActions;
-                if (groupActions == null)
-                    return;
-                colSourceTool.PutValue(tlLink.FocusedObject, sToolName);
-                cAction sourceAction = groupActions.Actions.Values.FirstOrDefault(x => x.Name.rtcValue == sToolName);
-                if (sourceAction == null)
-                    return;
-                var listPropertyInfo = sourceAction.GetType().GetProperties().Where(x => ((RTCVariableType)x.GetValue(sourceAction, null)) != null &&
-                    ((RTCVariableType)x.GetValue(sourceAction, null)).rtcActive).ToList();
-                foreach (var property in listPropertyInfo)
-                    cbSourceProperty.Items.Add(property.Name);
-                if (sourceAction.MyExpression != null && sourceAction.MyExpression.Operands != null)
-                    foreach (SStringBuilderItem operand in sourceAction.MyExpression.Operands)
-                        cbSourceProperty.Items.Add(operand.Name);
-                if (sourceAction.DataItems != null)
-                    foreach (SStringBuilderItem item in sourceAction.DataItems)
-                        cbSourceProperty.Items.Add(item.Name);
-                tlLink.FinishCellEdit();
 
-            }
-            else if (tlLink.SelectedColumn == colTargetTool)
-            {
-                sCamName = colTargetCam.GetValue(tlLink.FocusedObject).ToString();
-                groupActions = sCamName == cStrings.This
-                   ? GlobVar.GroupActions
-                   : GlobVar.CurrentProject.CAMs.Values.FirstOrDefault(x => x.Name == sCamName)?.GroupActions;
-                if (groupActions == null)
-                    return;
-                colTargetTool.PutValue(tlLink.FocusedObject, sToolName);
-                cAction targetAction = groupActions.Actions.Values.FirstOrDefault(x => x.Name.rtcValue == sToolName);
-                if (targetAction == null)
-                    return;
-                var listPropertyInfo = targetAction.GetType().GetProperties().Where(x => ((RTCVariableType)x.GetValue(targetAction, null)) != null &&
-                    ((RTCVariableType)x.GetValue(targetAction, null)).rtcActive).ToList();
-                foreach (var property in listPropertyInfo)
-                    cbSourceProperty.Items.Add(property.Name);
-                if (targetAction.MyExpression != null && targetAction.MyExpression.Operands != null)
-                    foreach (SStringBuilderItem operand in targetAction.MyExpression.Operands)
-                        cbSourceProperty.Items.Add(operand.Name);
-                if (targetAction.DataItems != null)
-                    foreach (SStringBuilderItem item in targetAction.DataItems)
-                        cbSourceProperty.Items.Add(item.Name);
-                tlLink.FinishCellEdit();
-            }
-        }
-        private void cbSourceProperty_SelectedIndexChanged(object sender, EventArgs e)
-        {
+            ComboBox edit = (ComboBox)sender;
+            colSourceTool.PutValue(tlLink.FocusedObject, edit.Text);
             tlLink.FinishCellEdit();
         }
+
+        private void cbTargetTool_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            cbTargetPropertyCombo.Items.Clear();
+            if (tlLink.FocusedObject == null)
+                return;
+
+            ComboBox edit = (ComboBox)sender;
+            colTargetTool.PutValue(tlLink.FocusedObject, edit.Text);
+            tlLink.FinishCellEdit();
+        }
+
+        private void cbSourceProperty_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (tlLink.FocusedObject == null)
+                return;
+
+            ComboBox edit = (ComboBox)sender;
+            colSourceName.PutValue(tlLink.FocusedObject, edit.Text);
+            tlLink.FinishCellEdit();
+        }
+
+        private void cbTargetProperty_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (tlLink.FocusedObject == null)
+                return;
+
+            ComboBox edit = (ComboBox)sender;
+            colTargetName.PutValue(tlLink.FocusedObject, edit.Text);
+            tlLink.FinishCellEdit();
+        }
+        #endregion
 
         private void tlLink_CellEditFinishing(object sender, BrightIdeasSoftware.CellEditEventArgs e)
         {
@@ -663,40 +815,90 @@ namespace RTC_Vision_Lite.UserControls
         }
         private void GetLinkItemValue()
         {
-            if (tlLink.FocusedObject == null)
+            #region Quân sửa 0806 - Đồng bộ model theo source/target riêng
+            if (tlLink.FocusedObject == null || Action == null || Action.LinkProperty == null)
                 return;
-            if (!int.TryParse(colOrderNumber.GetValue(tlLink.FocusedObject).ToString(), out int orderNum))
-                return;
-            cLinkProperty linkItem = Action.LinkProperty?.FirstOrDefault(x => x.OrderNum == orderNum);
 
+            if (!int.TryParse(colOrderNumber.GetValue(tlLink.FocusedObject)?.ToString(), out int orderNum))
+                return;
+
+            cLinkProperty linkItem = Action.LinkProperty.FirstOrDefault(x => x.OrderNum == orderNum);
             if (linkItem == null)
                 return;
-            PropertyLink SelectedNode = ((PropertyLink)tlLink.FocusedObject);
-            string sCamName = SelectedNode.SourceCam;
-            cCAMTypes sourceCam = (sCamName == cStrings.This) ? Action.MyGroup.MyCam :
-                GlobVar.CurrentProject.CAMs.Values.FirstOrDefault(x => x.Name == sCamName);
-            sCamName = SelectedNode.TargetCam;
-            cCAMTypes TargetCam = (sCamName == cStrings.This) ? Action.MyGroup.MyCam :
-            GlobVar.CurrentProject.CAMs.Values.FirstOrDefault(x => x.Name == sCamName);
+
+            PropertyLink selectedNode = (PropertyLink)tlLink.FocusedObject;
+
+            string sCamName = selectedNode.SourceCam;
+            cCAMTypes sourceCam = (sCamName == cStrings.This)
+                ? Action.MyGroup.MyCam
+                : GlobVar.CurrentProject?.CAMs.Values.FirstOrDefault(x => x.Name == sCamName);
+
+            sCamName = selectedNode.TargetCam;
+            cCAMTypes targetCam = (sCamName == cStrings.This)
+                ? Action.MyGroup.MyCam
+                : GlobVar.CurrentProject?.CAMs.Values.FirstOrDefault(x => x.Name == sCamName);
+
             linkItem.SourceCamID = sourceCam?.ID ?? Guid.Empty;
-            linkItem.TargetCamID = TargetCam?.ID ?? Guid.Empty;
+            linkItem.TargetCamID = targetCam?.ID ?? Guid.Empty;
 
+            cGroupActions sourceGroup = linkItem.SourceCamID == Action.MyGroup.MyCam.ID
+                ? GlobVar.GroupActions
+                : sourceCam?.GroupActions;
 
-            string sToolName = SelectedNode.SourceTool;
+            cGroupActions targetGroup = linkItem.TargetCamID == Action.MyGroup.MyCam.ID
+                ? GlobVar.GroupActions
+                : targetCam?.GroupActions;
 
-            cGroupActions sourceGroup = linkItem.SourceCamID == Action.MyGroup.MyCam.ID ? GlobVar.GroupActions : sourceCam?.GroupActions;
-            cGroupActions targetGroup = linkItem.SourceCamID == Action.MyGroup.MyCam.ID ? GlobVar.GroupActions : TargetCam?.GroupActions;
+            cAction sourceAction = sourceGroup?.Actions.Values
+                .FirstOrDefault(x => x.Name.rtcValue == selectedNode.SourceTool);
 
-            cAction sourceAction = sourceGroup?.Actions.Values.FirstOrDefault(x => x.Name.rtcValue == sToolName);
-            sToolName = SelectedNode.TargetTool;
-            cAction targetAction = targetGroup?.Actions.Values.FirstOrDefault(x => x.Name.rtcValue == sToolName);
+            cAction targetAction = targetGroup?.Actions.Values
+                .FirstOrDefault(x => x.Name.rtcValue == selectedNode.TargetTool);
 
             linkItem.SourceID = sourceAction?.ID ?? Guid.Empty;
             linkItem.TargetID = targetAction?.ID ?? Guid.Empty;
-            linkItem.SourceName = SelectedNode.SourceName;
-            linkItem.TargetName = SelectedNode.TargetName;
-            linkItem.SourceIndex = GlobFuncs.Str2StringObj(SelectedNode.SourceIndex, cDelimiterValues.Comma);
-            linkItem.TargetIndex = GlobFuncs.Str2StringObj(SelectedNode.TargetIndex, cDelimiterValues.Comma);
+            linkItem.SourceName = selectedNode.SourceName ?? string.Empty;
+            linkItem.TargetName = selectedNode.TargetName ?? string.Empty;
+            linkItem.SourceIndex = GlobFuncs.Str2StringObj(selectedNode.SourceIndex, cDelimiterValues.Comma);
+            linkItem.TargetIndex = GlobFuncs.Str2StringObj(selectedNode.TargetIndex, cDelimiterValues.Comma);
+            #endregion
+
+            #region Quân sửa 0806 - Code cũ giữ lại để đối chiếu
+            //if (tlLink.FocusedObject == null)
+            //    return;
+            //if (!int.TryParse(colOrderNumber.GetValue(tlLink.FocusedObject).ToString(), out int orderNum))
+            //    return;
+            //cLinkProperty linkItem = Action.LinkProperty?.FirstOrDefault(x => x.OrderNum == orderNum);
+            //
+            //if (linkItem == null)
+            //    return;
+            //PropertyLink SelectedNode = ((PropertyLink)tlLink.FocusedObject);
+            //string sCamName = SelectedNode.SourceCam;
+            //cCAMTypes sourceCam = (sCamName == cStrings.This) ? Action.MyGroup.MyCam :
+            //    GlobVar.CurrentProject.CAMs.Values.FirstOrDefault(x => x.Name == sCamName);
+            //sCamName = SelectedNode.TargetCam;
+            //cCAMTypes TargetCam = (sCamName == cStrings.This) ? Action.MyGroup.MyCam :
+            //GlobVar.CurrentProject.CAMs.Values.FirstOrDefault(x => x.Name == sCamName);
+            //linkItem.SourceCamID = sourceCam?.ID ?? Guid.Empty;
+            //linkItem.TargetCamID = TargetCam?.ID ?? Guid.Empty;
+            //
+            //
+            //string sToolName = SelectedNode.SourceTool;
+            //
+            //cGroupActions sourceGroup = linkItem.SourceCamID == Action.MyGroup.MyCam.ID ? GlobVar.GroupActions : sourceCam?.GroupActions;
+            //cGroupActions targetGroup = linkItem.SourceCamID == Action.MyGroup.MyCam.ID ? GlobVar.GroupActions : TargetCam?.GroupActions;
+            //
+            //cAction sourceAction = sourceGroup?.Actions.Values.FirstOrDefault(x => x.Name.rtcValue == sToolName);
+            //sToolName = SelectedNode.TargetTool;
+            //cAction targetAction = targetGroup?.Actions.Values.FirstOrDefault(x => x.Name.rtcValue == sToolName);
+            //
+            //linkItem.SourceID = sourceAction?.ID ?? Guid.Empty;
+            //linkItem.TargetID = targetAction?.ID ?? Guid.Empty;
+            //linkItem.SourceName = SelectedNode.SourceName;
+            //linkItem.TargetName = SelectedNode.TargetName;
+            //linkItem.SourceIndex = GlobFuncs.Str2StringObj(SelectedNode.SourceIndex, cDelimiterValues.Comma);
+            //linkItem.TargetIndex = GlobFuncs.Str2StringObj(SelectedNode.TargetIndex, cDelimiterValues.Comma);
+            #endregion
         }
     }
 }

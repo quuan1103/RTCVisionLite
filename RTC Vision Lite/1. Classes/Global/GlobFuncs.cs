@@ -41,11 +41,14 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
+using System.Text;
 
 namespace RTC_Vision_Lite.PublicFunctions
 {
     internal static class GlobFuncs
     {
+       
         #region SYSTEM
 
         public static DateTime GetLinkerTime(this Assembly assembly, TimeZoneInfo target = null)
@@ -2069,7 +2072,12 @@ namespace RTC_Vision_Lite.PublicFunctions
         {
             string result = string.Empty;
             if (ListValue.Count == 0) return "NONE";
-            else if (ListValue.Count == 1) return ListValue[0].GetType().Name.ToString().ToUpper();
+            else if (ListValue.Count == 1)
+            {
+                result = ListValue[0].GetType().Name.ToString().ToUpper();
+               
+                return result;
+            }
             else
             {
                 for (int i = 0; i < ListValue.Count - 1; i++)
@@ -2083,6 +2091,7 @@ namespace RTC_Vision_Lite.PublicFunctions
                             case "Int64":
                                 result = "INTERGER";
                                 break;
+                            case "Boolean":
                             case "String":
                                 result = "STRING";
                                 break;
@@ -3839,7 +3848,9 @@ namespace RTC_Vision_Lite.PublicFunctions
         }
         public static List<object> Str2StringObj(string _Value, string _SEP)
         {
-            return Str2StringObj(_Value);
+            // return Str2StringObj(_Value);
+            char sep = string.IsNullOrEmpty(_SEP) ? ',' : _SEP[0];
+            return Str2StringObj(_Value, sep);
         }
 
 
@@ -4033,6 +4044,7 @@ namespace RTC_Vision_Lite.PublicFunctions
         }
         internal static void ViewApplicationSettings()
         {
+
             //if(GlobVar.RTCVision.SecurityOptions.SecurityModes == cSecurityModes.SecurityModes_UseAccount)
             //{
             //    if(!cUser.Show)
@@ -4040,6 +4052,8 @@ namespace RTC_Vision_Lite.PublicFunctions
             FrmSettings _frmSettings = new FrmSettings();
             _frmSettings.Settings = GlobFuncs.Clone(GlobVar.RTCVision);
             _frmSettings.ShowDialog();
+
+
 
             bool areEqual = System.Object.ReferenceEquals(_frmSettings.Settings, GlobVar.RTCVision);
             if (!areEqual)

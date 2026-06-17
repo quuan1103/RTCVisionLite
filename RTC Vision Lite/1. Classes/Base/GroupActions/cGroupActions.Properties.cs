@@ -34,7 +34,7 @@ namespace RTC_Vision_Lite.Classes
 
         public bool IsMasterMode = false;
 
-        public Dictionary<string, object> Refvalues;
+        public Dictionary<string, object> RefValues;
 
         public bool Passed = false;
 

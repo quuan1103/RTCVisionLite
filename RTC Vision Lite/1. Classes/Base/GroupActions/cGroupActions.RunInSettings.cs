@@ -18,11 +18,13 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 
 namespace RTC_Vision_Lite.Classes
 {
     public partial class cGroupActions
     {
+       
         internal Thread threadRun = null;
         private Thread threadView = null;
         private Stopwatch _toltalTime = null;
@@ -86,6 +88,7 @@ namespace RTC_Vision_Lite.Classes
         {
             try
             {
+              
                 StopLoop = true;
                 IsRun = false;
                 //Thread.Sleep(300);
@@ -396,28 +399,16 @@ namespace RTC_Vision_Lite.Classes
             {
                 if (!MyCam.IsHide && MyCam.IsActive && (GlobVar.RTCVision.ViewOptions.IsViewCycleTimeInWindow ||
                     GlobVar.RTCVision.ViewOptions.IsViewRunCountInWindow))
-                    if (MyCam.View.lblCycleTime.InvokeRequired)
-                    {
-                        MyCam.View.lblCycleTime.Invoke((MethodInvoker)delegate
-                        {
-                            MyCam.View.lblCycleTime.Visible = true;
-                            MyCam.View.lblCycleTime.Text = string.Empty;
-                            if (GlobVar.RTCVision.ViewOptions.IsViewCycleTimeInWindow)
-                                MyCam.View.lblCycleTime.Text = string.Format(cStrings.TotalTime, totalTime);
-                            if (GlobVar.RTCVision.ViewOptions.IsViewRunCountInWindow)
-                                MyCam.View.lblCycleTime.Text = MyCam.View.lblCycleTime.Text == string.Empty ?
-                                "RC : " + runCount.ToString() : MyCam.View.lblCycleTime.Text + " -RC: " + runCount.ToString();
-                        });
-                    }
-                    else
-                    {
-                        MyCam.View.lblCycleTime.Visible = true;
-                        if (GlobVar.RTCVision.ViewOptions.IsViewCycleTimeInWindow)
-                            MyCam.View.lblCycleTime.Text = String.Format(cStrings.TotalTime, totalTime);
-                        if (GlobVar.RTCVision.ViewOptions.IsViewRunCountInWindow)
-                            MyCam.View.lblCycleTime.Text = MyCam.View.lblCycleTime.Text == String.Empty ?
-                                "RC : " + runCount.ToString() : MyCam.View.lblCycleTime.Text + " -RC: " + runCount.ToString();
-                    } 
+                {
+                    string status = string.Empty;
+                    if (GlobVar.RTCVision.ViewOptions.IsViewCycleTimeInWindow)
+                        status = string.Format(cStrings.TotalTime, totalTime);
+                    if (GlobVar.RTCVision.ViewOptions.IsViewRunCountInWindow)
+                        status = status == string.Empty ?
+                            "RC : " + runCount.ToString() : status + " -RC: " + runCount.ToString();
+
+                    MyCam.View.ShowStatus(status);
+                }
             } 
             switch (SourceImageSettings.ImageSourceType)
             {

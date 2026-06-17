@@ -96,6 +96,7 @@ namespace RTC_Vision_Lite.Forms
             // toolStrip1
             // 
             this.toolStrip1.BackColor = System.Drawing.SystemColors.Control;
+            this.toolStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.btnSaveJob,
             this.btnSaveAndClose,
@@ -109,7 +110,7 @@ namespace RTC_Vision_Lite.Forms
             this.mnuResetCounter});
             this.toolStrip1.Location = new System.Drawing.Point(0, 24);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(1284, 25);
+            this.toolStrip1.Size = new System.Drawing.Size(1712, 27);
             this.toolStrip1.TabIndex = 0;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -121,7 +122,7 @@ namespace RTC_Vision_Lite.Forms
             this.btnSaveJob.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnSaveJob.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnSaveJob.Name = "btnSaveJob";
-            this.btnSaveJob.Size = new System.Drawing.Size(51, 22);
+            this.btnSaveJob.Size = new System.Drawing.Size(55, 24);
             this.btnSaveJob.Text = "Save";
             this.btnSaveJob.Click += new System.EventHandler(this.btnSaveJob_Click);
             // 
@@ -131,7 +132,7 @@ namespace RTC_Vision_Lite.Forms
             this.btnSaveAndClose.Image = global::RTC_Vision_Lite.Properties.Resources.Export_16x16;
             this.btnSaveAndClose.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnSaveAndClose.Name = "btnSaveAndClose";
-            this.btnSaveAndClose.Size = new System.Drawing.Size(96, 22);
+            this.btnSaveAndClose.Size = new System.Drawing.Size(100, 24);
             this.btnSaveAndClose.Text = "Save && Close";
             this.btnSaveAndClose.Click += new System.EventHandler(this.btnSaveAndClose_Click);
             // 
@@ -141,7 +142,7 @@ namespace RTC_Vision_Lite.Forms
             this.btnIInsertTool.Image = global::RTC_Vision_Lite.Properties.Resources.InsertSectionBreakEvenPage_16x16;
             this.btnIInsertTool.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnIInsertTool.Name = "btnIInsertTool";
-            this.btnIInsertTool.Size = new System.Drawing.Size(81, 22);
+            this.btnIInsertTool.Size = new System.Drawing.Size(86, 24);
             this.btnIInsertTool.Text = "Insert Tool";
             this.btnIInsertTool.Click += new System.EventHandler(this.btnIInsertTool_Click);
             // 
@@ -151,7 +152,7 @@ namespace RTC_Vision_Lite.Forms
             this.mnuRunprevius.Image = ((System.Drawing.Image)(resources.GetObject("mnuRunprevius.Image")));
             this.mnuRunprevius.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.mnuRunprevius.Name = "mnuRunprevius";
-            this.mnuRunprevius.Size = new System.Drawing.Size(23, 22);
+            this.mnuRunprevius.Size = new System.Drawing.Size(24, 24);
             this.mnuRunprevius.Text = "toolStripButton2";
             this.mnuRunprevius.Click += new System.EventHandler(this.mnuRunprevius_Click);
             // 
@@ -161,7 +162,7 @@ namespace RTC_Vision_Lite.Forms
             this.mnuRunJob.Image = global::RTC_Vision_Lite.Properties.Resources.Play_16x161;
             this.mnuRunJob.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.mnuRunJob.Name = "mnuRunJob";
-            this.mnuRunJob.Size = new System.Drawing.Size(23, 22);
+            this.mnuRunJob.Size = new System.Drawing.Size(24, 24);
             this.mnuRunJob.Click += new System.EventHandler(this.mnuRunJob_Click);
             // 
             // mnuStop
@@ -170,7 +171,7 @@ namespace RTC_Vision_Lite.Forms
             this.mnuStop.Image = global::RTC_Vision_Lite.Properties.Resources.Stop_16x16;
             this.mnuStop.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.mnuStop.Name = "mnuStop";
-            this.mnuStop.Size = new System.Drawing.Size(23, 22);
+            this.mnuStop.Size = new System.Drawing.Size(24, 24);
             this.mnuStop.Text = "toolStripButton2";
             this.mnuStop.Visible = false;
             this.mnuStop.Click += new System.EventHandler(this.mnuStop_Click);
@@ -181,7 +182,7 @@ namespace RTC_Vision_Lite.Forms
             this.mnuRunOneJob.Image = global::RTC_Vision_Lite.Properties.Resources.RunOneJob;
             this.mnuRunOneJob.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.mnuRunOneJob.Name = "mnuRunOneJob";
-            this.mnuRunOneJob.Size = new System.Drawing.Size(23, 22);
+            this.mnuRunOneJob.Size = new System.Drawing.Size(24, 24);
             this.mnuRunOneJob.Text = "toolStripButton3";
             this.mnuRunOneJob.Click += new System.EventHandler(this.mnuRunOneJob_Click);
             // 
@@ -191,7 +192,7 @@ namespace RTC_Vision_Lite.Forms
             this.mnuRunNext.Image = ((System.Drawing.Image)(resources.GetObject("mnuRunNext.Image")));
             this.mnuRunNext.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.mnuRunNext.Name = "mnuRunNext";
-            this.mnuRunNext.Size = new System.Drawing.Size(23, 22);
+            this.mnuRunNext.Size = new System.Drawing.Size(24, 24);
             this.mnuRunNext.Text = "toolStripButton1";
             this.mnuRunNext.Click += new System.EventHandler(this.mnuRunNext_Click);
             // 
@@ -201,7 +202,7 @@ namespace RTC_Vision_Lite.Forms
             this.mnuRunCurrentImage.Image = global::RTC_Vision_Lite.Properties.Resources.RunCurrentImage;
             this.mnuRunCurrentImage.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.mnuRunCurrentImage.Name = "mnuRunCurrentImage";
-            this.mnuRunCurrentImage.Size = new System.Drawing.Size(23, 22);
+            this.mnuRunCurrentImage.Size = new System.Drawing.Size(24, 24);
             this.mnuRunCurrentImage.Text = "Run Current Image";
             this.mnuRunCurrentImage.Click += new System.EventHandler(this.mnuRunCurrentImage_Click);
             // 
@@ -211,7 +212,7 @@ namespace RTC_Vision_Lite.Forms
             this.mnuResetCounter.Image = ((System.Drawing.Image)(resources.GetObject("mnuResetCounter.Image")));
             this.mnuResetCounter.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.mnuResetCounter.Name = "mnuResetCounter";
-            this.mnuResetCounter.Size = new System.Drawing.Size(101, 22);
+            this.mnuResetCounter.Size = new System.Drawing.Size(105, 24);
             this.mnuResetCounter.Text = "Reset Counter";
             this.mnuResetCounter.Click += new System.EventHandler(this.mnuResetCounter_Click);
             // 
@@ -230,8 +231,8 @@ namespace RTC_Vision_Lite.Forms
             this.testToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 2, 0, 2);
-            this.menuStrip1.Size = new System.Drawing.Size(1284, 24);
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(5, 2, 0, 2);
+            this.menuStrip1.Size = new System.Drawing.Size(1712, 24);
             this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -376,7 +377,7 @@ namespace RTC_Vision_Lite.Forms
             // toolsToolStripMenuItem
             // 
             this.toolsToolStripMenuItem.Name = "toolsToolStripMenuItem";
-            this.toolsToolStripMenuItem.Size = new System.Drawing.Size(46, 20);
+            this.toolsToolStripMenuItem.Size = new System.Drawing.Size(47, 20);
             this.toolsToolStripMenuItem.Text = "Tools";
             this.toolsToolStripMenuItem.Visible = false;
             // 
@@ -402,7 +403,7 @@ namespace RTC_Vision_Lite.Forms
             this.showDetailToolStripMenuItem,
             this.setValueToolStripMenuItem});
             this.testToolStripMenuItem.Name = "testToolStripMenuItem";
-            this.testToolStripMenuItem.Size = new System.Drawing.Size(39, 20);
+            this.testToolStripMenuItem.Size = new System.Drawing.Size(40, 20);
             this.testToolStripMenuItem.Text = "Test";
             this.testToolStripMenuItem.Visible = false;
             // 
@@ -443,9 +444,10 @@ namespace RTC_Vision_Lite.Forms
             this.panel2.Controls.Add(this.splitter2);
             this.panel2.Controls.Add(this.panel4);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel2.Location = new System.Drawing.Point(235, 0);
+            this.panel2.Location = new System.Drawing.Point(313, 0);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1049, 813);
+            this.panel2.Size = new System.Drawing.Size(1399, 1010);
             this.panel2.TabIndex = 3;
             // 
             // panel1
@@ -454,9 +456,10 @@ namespace RTC_Vision_Lite.Forms
             this.panel1.Controls.Add(this.splitter1);
             this.panel1.Controls.Add(this.PanActionInfo);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel1.Location = new System.Drawing.Point(680, 0);
+            this.panel1.Location = new System.Drawing.Point(907, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(369, 813);
+            this.panel1.Size = new System.Drawing.Size(492, 1010);
             this.panel1.TabIndex = 12;
             // 
             // PanHsmartWindow
@@ -464,17 +467,19 @@ namespace RTC_Vision_Lite.Forms
             this.PanHsmartWindow.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.PanHsmartWindow.Dock = System.Windows.Forms.DockStyle.Fill;
             this.PanHsmartWindow.Location = new System.Drawing.Point(0, 0);
+            this.PanHsmartWindow.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.PanHsmartWindow.Name = "PanHsmartWindow";
-            this.PanHsmartWindow.Size = new System.Drawing.Size(369, 336);
+            this.PanHsmartWindow.Size = new System.Drawing.Size(492, 423);
             this.PanHsmartWindow.TabIndex = 1;
             this.PanHsmartWindow.Paint += new System.Windows.Forms.PaintEventHandler(this.PanHsmartWindow_Paint);
             // 
             // splitter1
             // 
             this.splitter1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.splitter1.Location = new System.Drawing.Point(0, 336);
+            this.splitter1.Location = new System.Drawing.Point(0, 423);
+            this.splitter1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.splitter1.Name = "splitter1";
-            this.splitter1.Size = new System.Drawing.Size(369, 3);
+            this.splitter1.Size = new System.Drawing.Size(492, 4);
             this.splitter1.TabIndex = 14;
             this.splitter1.TabStop = false;
             // 
@@ -483,16 +488,18 @@ namespace RTC_Vision_Lite.Forms
             this.PanActionInfo.BackColor = System.Drawing.SystemColors.Control;
             this.PanActionInfo.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.PanActionInfo.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.PanActionInfo.Location = new System.Drawing.Point(0, 339);
+            this.PanActionInfo.Location = new System.Drawing.Point(0, 427);
+            this.PanActionInfo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.PanActionInfo.Name = "PanActionInfo";
-            this.PanActionInfo.Size = new System.Drawing.Size(369, 474);
+            this.PanActionInfo.Size = new System.Drawing.Size(492, 583);
             this.PanActionInfo.TabIndex = 0;
             // 
             // splitter2
             // 
-            this.splitter2.Location = new System.Drawing.Point(677, 0);
+            this.splitter2.Location = new System.Drawing.Point(903, 0);
+            this.splitter2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.splitter2.Name = "splitter2";
-            this.splitter2.Size = new System.Drawing.Size(3, 813);
+            this.splitter2.Size = new System.Drawing.Size(4, 1010);
             this.splitter2.TabIndex = 13;
             this.splitter2.TabStop = false;
             // 
@@ -501,8 +508,9 @@ namespace RTC_Vision_Lite.Forms
             this.panel4.Controls.Add(this.ucActionList);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel4.Location = new System.Drawing.Point(0, 0);
+            this.panel4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(677, 813);
+            this.panel4.Size = new System.Drawing.Size(903, 1010);
             this.panel4.TabIndex = 15;
             // 
             // ucActionList
@@ -511,10 +519,10 @@ namespace RTC_Vision_Lite.Forms
             this.ucActionList.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ucActionList.Dock = System.Windows.Forms.DockStyle.Fill;
             this.ucActionList.Location = new System.Drawing.Point(0, 0);
-            this.ucActionList.Margin = new System.Windows.Forms.Padding(4);
+            this.ucActionList.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.ucActionList.ModelViewGrid = RTCEnums.EModeViewGrid.MainView;
             this.ucActionList.Name = "ucActionList";
-            this.ucActionList.Size = new System.Drawing.Size(677, 813);
+            this.ucActionList.Size = new System.Drawing.Size(903, 1010);
             this.ucActionList.TabIndex = 10;
             this.ucActionList.OnFocusedNodeChanged += new RTC_Vision_Lite.UserControls.FocusedNodeChanged(this.ucActionList1_OnFocusedNodeChanged);
             this.ucActionList.Load += new System.EventHandler(this.ucActionList_Load);
@@ -524,8 +532,9 @@ namespace RTC_Vision_Lite.Forms
             this.pnlTemplate.Controls.Add(this.ucTemplateTools);
             this.pnlTemplate.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnlTemplate.Location = new System.Drawing.Point(0, 0);
+            this.pnlTemplate.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pnlTemplate.Name = "pnlTemplate";
-            this.pnlTemplate.Size = new System.Drawing.Size(232, 813);
+            this.pnlTemplate.Size = new System.Drawing.Size(309, 1010);
             this.pnlTemplate.TabIndex = 14;
             // 
             // ucTemplateTools
@@ -535,9 +544,9 @@ namespace RTC_Vision_Lite.Forms
             this.ucTemplateTools.IsDaNap = false;
             this.ucTemplateTools.IsLocate = false;
             this.ucTemplateTools.Location = new System.Drawing.Point(0, 0);
-            this.ucTemplateTools.Margin = new System.Windows.Forms.Padding(4);
+            this.ucTemplateTools.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.ucTemplateTools.Name = "ucTemplateTools";
-            this.ucTemplateTools.Size = new System.Drawing.Size(232, 813);
+            this.ucTemplateTools.Size = new System.Drawing.Size(309, 1010);
             this.ucTemplateTools.TabIndex = 9;
             this.ucTemplateTools.OnAddAction += new RTC_Vision_Lite.Classes.AddAction(this.ucTemplateTools_OnAddAction);
             this.ucTemplateTools.Load += new System.EventHandler(this.ucTemplateTools_Load);
@@ -547,8 +556,9 @@ namespace RTC_Vision_Lite.Forms
             this.panel3.Controls.Add(this.pnlTemplate);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel3.Location = new System.Drawing.Point(0, 0);
+            this.panel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(232, 813);
+            this.panel3.Size = new System.Drawing.Size(309, 1010);
             this.panel3.TabIndex = 10;
             // 
             // panel5
@@ -557,26 +567,28 @@ namespace RTC_Vision_Lite.Forms
             this.panel5.Controls.Add(this.splitter3);
             this.panel5.Controls.Add(this.panel3);
             this.panel5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel5.Location = new System.Drawing.Point(0, 49);
+            this.panel5.Location = new System.Drawing.Point(0, 51);
+            this.panel5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(1284, 813);
+            this.panel5.Size = new System.Drawing.Size(1712, 1010);
             this.panel5.TabIndex = 10;
             // 
             // splitter3
             // 
-            this.splitter3.Location = new System.Drawing.Point(232, 0);
+            this.splitter3.Location = new System.Drawing.Point(309, 0);
+            this.splitter3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.splitter3.MinExtra = 5;
             this.splitter3.MinSize = 5;
             this.splitter3.Name = "splitter3";
-            this.splitter3.Size = new System.Drawing.Size(3, 813);
+            this.splitter3.Size = new System.Drawing.Size(4, 1010);
             this.splitter3.TabIndex = 10;
             this.splitter3.TabStop = false;
             // 
             // FrmActions
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1284, 862);
+            this.ClientSize = new System.Drawing.Size(1712, 1061);
             this.Controls.Add(this.panel5);
             this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.menuStrip1);
@@ -584,6 +596,7 @@ namespace RTC_Vision_Lite.Forms
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
+            this.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.Name = "FrmActions";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "RTC Vision";

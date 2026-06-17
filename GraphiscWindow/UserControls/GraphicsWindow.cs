@@ -145,6 +145,7 @@ namespace GraphicsWindow
         {
             this.BackColor = Color.Black;
             this.BorderStyle = BorderStyle.None;
+           // this.SizeMode = PictureBoxSizeMode.Zoom;
             this.SizeMode = PictureBoxSizeMode.Zoom;
             //DataRoiF DataStart = new DataRoiF();
             //ListDataRoiF.Add(DataStart);
@@ -155,8 +156,22 @@ namespace GraphicsWindow
             if (this.Image != null)
                 this.Image.Dispose();
             if (image != null)
+            
                 this.Image = (Image)image.Clone();
-        }
+            
+                //if (this.Image != null)
+                //    this.Image.Dispose();
+                //if (image != null)
+                //{
+                //    // Không dùng Graphics để tránh interpolation artifact
+                //    Bitmap src = new Bitmap(image);
+                //    Bitmap bmp = src.Clone(
+                //        new Rectangle(0, 0, src.Width, src.Height),
+                //        PixelFormat.Format32bppArgb);
+                //    src.Dispose();
+                //    this.Image = bmp;
+                //}
+            }
         public List<DataRoi> ListDataRoiOutput
         {
             get
@@ -362,18 +377,22 @@ namespace GraphicsWindow
                 base.OnPaint(e);
                 e.Graphics.Clear(BackColor);
                 e.Graphics.Transform = Tranform;
+              //  e.Graphics.InterpolationMode = InterpolationMode.NearestNeighbor;
+               // e.Graphics.PixelOffsetMode = PixelOffsetMode.Half;
                 e.Graphics.InterpolationMode = InterpolationMode.NearestNeighbor;
-                e.Graphics.PixelOffsetMode = PixelOffsetMode.Half;
+                //   e.Graphics.PixelOffsetMode = PixelOffsetMode.HighQuality;
+                e.Graphics.PixelOffsetMode = PixelOffsetMode.HighQuality;
                 if (Image != null)
                     try
                     {
-                        tyle = Image.VerticalResolution / e.Graphics.DpiX;
+                      //  tyle = Image.VerticalResolution / e.Graphics.DpiX;
                         e.Graphics.DrawImage(this.Image, 0f, 0f);
                     }
                     catch (Exception)
                     {
 
                     }
+
                 ClipBound = e.Graphics.ClipBounds;
                 workingGraphics = e.Graphics;
                 Rotary = Tranform.Clone();
@@ -392,6 +411,7 @@ namespace GraphicsWindow
             {
                 Exception = ">>>>> Void OnPaint: " + ex.ToString();
             }
+          //  base.OnPaint(e);
         }
         public void ClearImage()
         {

@@ -23,6 +23,7 @@ using System.Runtime.InteropServices;
 using System.Security.Cryptography;
 using System.Windows.Forms;
 using System.Windows.Media.Imaging;
+using System.IO;
 
 
 
@@ -30,6 +31,7 @@ namespace RTC_Vision_Lite.Classes
 {
     public partial class cAction
     {
+
         private object _lockImage = new object();
         public cAction(EActionTypes eActionType, EObjectTypes eObjectType, FrmHsmartWindow _frmHsmartWindow, cGroupActions myGroupActions)
         {
@@ -2592,8 +2594,9 @@ namespace RTC_Vision_Lite.Classes
             isPrepare = false;
             MyExpression.CalculateMode = CalculateMode.rtcValue;
             MyExpression.Calculate();
-            Passed.rtcValue = MyExpression.Result.bValue;
-            Result.rtcValue = MyExpression.Result.hValue;
+           Passed.rtcValue = MyExpression.Result.bValue;
+           Result.rtcValue = MyExpression.Result.hValue;
+           // bool expression = MyExpression.Result.bValue; 
             var listBranchItems = MyGroup.Actions.Values.Where(x =>
             x.ActionType == EActionTypes.BranchItem && x.IDBranch == ID).ToList();
             if (!listBranchItems.Any()) return;
@@ -2634,7 +2637,11 @@ namespace RTC_Vision_Lite.Classes
             isPrepare = false;
             MyExpression.CalculateMode = CalculateMode.rtcValue;
             MyExpression.Calculate();
-            Passed.rtcValue = MyExpression.Result.bValue;
+            bool expressionResult = MyExpression.Result.bValue;
+            Passed.rtcValue = true;
+            
+
+
             var listBranchItems = MyGroup.Actions.Values.Where(x =>
             x.ActionType == EActionTypes.BranchItem && x.IDBranch == ID).ToList();
             if (!listBranchItems.Any()) return;
@@ -2642,14 +2649,19 @@ namespace RTC_Vision_Lite.Classes
             {
                 branchItem.Passed.rtcValue = false;
                 // So sánh điều kiện của tool branch
-                if (Passed.rtcValue &&
-                    branchItem.Name.rtcValue == cStrings.True.ToUpper())
+                //if (Passed.rtcValue &&
+                //    branchItem.Name.rtcValue == cStrings.True.ToUpper())
+                //    branchItem.Passed.rtcValue = true;
+                //else if (!Passed.rtcValue &&
+                //          branchItem.Name.rtcValue == cStrings.False.ToUpper())
+                //    branchItem.Passed.rtcValue = true;
+                if (expressionResult &&
+            branchItem.Name.rtcValue == cStrings.True.ToUpper())
                     branchItem.Passed.rtcValue = true;
-                else if (!Passed.rtcValue &&
+                else if (!expressionResult &&
                           branchItem.Name.rtcValue == cStrings.False.ToUpper())
                     branchItem.Passed.rtcValue = true;
                 ApplyIsCanRunToAllToolOfBranchItem(branchItem, Enable.rtcValue && branchItem.Passed.rtcValue, true, true);
-
             }
         }
 
@@ -3249,14 +3261,16 @@ namespace RTC_Vision_Lite.Classes
                     {
 
                         WindowHandle.rtcValue.Image = OriginTool.OutputImageShow;
-                        Passed.rtcValue = Passed.rtcValue && OriginTool.Passed;
+                      //  Passed.rtcValue = Passed.rtcValue && OriginTool.Passed;
+                      Passed.rtcValue = OriginTool.Passed;
                         //WindowHandle.rtcValue.Refresh();
                     }));
                 }
                 else
                 {
                     WindowHandle.rtcValue.Image = OriginTool.OutputImageShow;
-                    Passed.rtcValue = Passed.rtcValue && OriginTool.Passed;
+                  //  Passed.rtcValue = Passed.rtcValue && OriginTool.Passed;
+                    Passed.rtcValue = OriginTool.Passed;
                     //WindowHandle.rtcValue.Refresh();
                 }
             }
@@ -4055,6 +4069,12 @@ namespace RTC_Vision_Lite.Classes
                     if (rtcVariableType == null)
                         continue;
 
+                    if (propertyInfo.Name == nameof(ResultOK) || propertyInfo.Name == nameof(Passed))
+                    {
+                        object valueBefore = rtcVariableType.GetType().GetProperty(cPropertyName.rtcValue)?.GetValue(rtcVariableType, null);
+                 
+                    }
+
                     switch (propertyInfo.PropertyType.Name)
                     {
                         case nameof(SBool):
@@ -4084,6 +4104,12 @@ namespace RTC_Vision_Lite.Classes
 
                     if (this.ActionType != EActionTypes.MainAction && this.ViewInfo != null)
                         ((ucBaseActionDetail)this.ViewInfo).ReviewAllPropertyValueToViewInfo();
+
+                    if (propertyInfo.Name == nameof(ResultOK) || propertyInfo.Name == nameof(Passed))
+                    {
+                        object valueAfter = rtcVariableType.GetType().GetProperty(cPropertyName.rtcValue)?.GetValue(rtcVariableType, null);
+                    
+                    }
                 }
         }
         public void ResetCount(bool _WithInterface = false)

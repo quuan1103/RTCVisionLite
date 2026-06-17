@@ -11,11 +11,14 @@ using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
+using System.Text;
 
 namespace RTC_Vision_Lite.Classes
 {
     public partial class cGroupActions
     {
+       
         public void ViewResult_CleanData()
         {
             try
@@ -110,8 +113,8 @@ namespace RTC_Vision_Lite.Classes
                                     break;
                                 }
                         }
-                        if (Refvalues.ContainsKey(action.ID + property.Name))
-                            Refvalues.Remove(action.ID + property.Name);
+                        if (RefValues.ContainsKey(action.ID + property.Name))
+                            RefValues.Remove(action.ID + property.Name);
                     }
             }
         }
@@ -146,12 +149,26 @@ namespace RTC_Vision_Lite.Classes
         {
             try
             {
-                if (isViewResult)
+           
+            if (isViewResult)
+            {
+                if (!ViewResult_PrepareBeforeRun(SmartWindowControl))
+                    return;
+                ViewResult_ViewToolData(SmartWindowControl);
+            }
+
+                #region Quân sửa 0906
+                //if (RunSimple && MyCam?.View != null)
+                //{               
+                //    if (!StopLoop)
+                //        MyCam.View.SetOkNg(MainAction.ResultOK.rtcValue);
+                //}
+                if (MyCam?.View != null)
                 {
-                    if (!ViewResult_PrepareBeforeRun(SmartWindowControl))
-                        return;
-                    ViewResult_ViewToolData(SmartWindowControl);
+                    if (!StopLoop)
+                        MyCam.View.SetOkNg(MainAction.ResultOK.rtcValue);
                 }
+                #endregion
 
                 ViewResult_CleanData();
             }

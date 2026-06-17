@@ -15,7 +15,7 @@ namespace RTC_Vision_Lite.Classes
     public partial class cAction
     {
         public async void Run_DataSet()
-        {
+         {
             IsFinishRunOneTime.rtcValue = false;
             Passed.rtcValue = false;
             Run_DataSet_CalculateBlobList();
@@ -116,10 +116,11 @@ namespace RTC_Vision_Lite.Classes
                             action.MyGroup.SetValuetoVariableIsParentRef(action);
                     }
                 }
-                Passed.rtcValue = true;
-                if (IsRunOneTime.rtcValue)
-                    IsFinishRunOneTime.rtcValue = Passed.rtcValue;
+               
             }
+            Passed.rtcValue = true;
+            if (IsRunOneTime.rtcValue)
+                IsFinishRunOneTime.rtcValue = Passed.rtcValue;
         }
         private void Run_DataSet_CalculateImageArray()
         {
@@ -195,6 +196,7 @@ namespace RTC_Vision_Lite.Classes
                 }
                 else if (!cam.GroupActions.Actions.TryGetValue(linkProperty.SourceID, out action))
                     continue;
+
                 RTCVariableType rtcVariableType = (RTCVariableType)action.GetType().GetProperty(linkProperty.SourceName)?.GetValue(action, null);
                 if (rtcVariableType != null && !rtcVariableType.rtcIsIconic)
                 {
@@ -210,7 +212,7 @@ namespace RTC_Vision_Lite.Classes
                                 Value.rtcValue.Append(GlobFuncs.Object2Str(obj).ToString().ToLower());
                                 break;
                             }
-                        case nameof(SInt):
+                        case nameof(SInt): 
                             {
                                 Value.rtcValue.Append(GlobFuncs.Object2Str(obj));
                                 break;
@@ -270,7 +272,7 @@ namespace RTC_Vision_Lite.Classes
                         Value.rtcValue.AddRange(GlobFuncs.GetValueDoubleByIndex(stringBuilderItem.ListDoubleValue, linkProperty.SourceIndex[0].ToString()).
                             Cast<string>().ToList());
                     }
-                }    
+                }
             }
             Value.rtcValue = Value.rtcValue;
         }
@@ -285,7 +287,7 @@ namespace RTC_Vision_Lite.Classes
                 BlobList.rtcValue = new List<Emgu.CV.Util.VectorOfVectorOfPoint>();
             }    
             foreach(cLinkProperty linkProperty in orderList)
-            {
+            {  
                 if (!GlobVar.CurrentProject.CAMs.TryGetValue(linkProperty.SourceCamID, out cCAMTypes cam))
                     continue;
                 cAction action = null;
@@ -300,7 +302,8 @@ namespace RTC_Vision_Lite.Classes
                         continue;
                 }
                 else if (!cam.GroupActions.Actions.TryGetValue(linkProperty.SourceID, out action))
-                    continue;
+                    continue;  
+
                 RTCVariableType rtcVariableType = (RTCVariableType)action.GetType().GetProperty(linkProperty.SourceName)?.GetValue(action, null);
                 if(rtcVariableType != null && rtcVariableType.GetType() == typeof(SListVector))
                 {

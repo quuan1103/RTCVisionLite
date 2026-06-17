@@ -437,6 +437,7 @@ namespace RTC_Vision_Lite.Forms
                                     ((ucBaseActionDetail)Action.ViewInfo).ViewActionLinkSummary();
                                     ((ucBaseActionDetail)Action.ViewInfo).BindingDataToControls();
                                 }
+                        
                                      ((ucBaseActionDetail)Action.ViewInfo).IsRun = Action.MyGroup.IsRun;
                                 Action.EnableOrDisableTabRoiByActionType();
                             }
@@ -1375,6 +1376,20 @@ namespace RTC_Vision_Lite.Forms
             pnlTemplate.Enabled = true;
             var TEST = GlobVar.fHsmartWindow.Image;
             GlobVar.fHsmartWindow.IsRun = false;
+
+            #region Quân sửa 0906
+            if (GlobVar.CurrentProject?.CAMs != null)
+            {
+                foreach (cCAMTypes cam in GlobVar.CurrentProject.CAMs.Values)
+                {
+                    if (cam == null || !cam.IsActive || cam.IsHide || cam.View == null)
+                        continue;
+
+                    cam.View.RemoveOkNg();
+                    cam.View.ViewDefaultText();
+                }
+            }
+            #endregion
         }
 
         private void mnuRunOneJob_Click(object sender, EventArgs e)

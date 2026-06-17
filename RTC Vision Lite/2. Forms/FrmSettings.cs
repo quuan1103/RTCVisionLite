@@ -15,6 +15,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 namespace RTC_Vision_Lite.Forms
 {
     public partial class FrmSettings : FrmBase

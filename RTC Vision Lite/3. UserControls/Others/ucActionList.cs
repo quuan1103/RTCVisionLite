@@ -994,7 +994,7 @@ namespace RTC_Vision_Lite.UserControls
             }
             finally
             {
-                tl.Refresh();
+              //  tl.Refresh();
                 //int targetIndex = tl.IndexOf(tl.FocusedObject);
                 //// Lấy vị trí của các item
                 //Rectangle rectTarget = tl.GetItemRect(targetIndex);

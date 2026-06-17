@@ -520,6 +520,7 @@ namespace RTCConst
         public const string STRING = "STRING";
         public const string MIXED = "MIXED";
         public const string OBJECT = "OBJECT";
+        public const string BOOLEAN = "BOOLEAN";
 
     }
     public class cPixelFormatName
@@ -803,7 +804,8 @@ namespace RTCConst
 
         public const string ASync = "ASync";
         public const string NoRead = "NoRead";
-        public const string TotalTime = "TotalTime";
+       // public const string TotalTime = "TotalTime";
+        public const string TotalTime = "T: {0}";
         public const string Stop = "Stop";
         public const string ImageFilter = "Image Filte (*.png, *.jpg, *.bmp,*.tiff,*tif)|*.png;*.jpg;*.bmp;*.tiff;*.tif|All Files (*.*)|*.*";
         public const string NG = "NG";
