@@ -1,27 +1,29 @@
 ﻿//using CommonTools;
-using RTC_Vision_Lite.Commons;
+using BrightIdeasSoftware;
+using CommonTools;
+using DevExpress.UIAutomation;
 using RTC_Vision_Lite.Classes;
+using RTC_Vision_Lite.Commons;
+using RTC_Vision_Lite.Forms;
 using RTC_Vision_Lite.PublicFunctions;
 using RTCConst;
 using RTCEnums;
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
+using System.IO.Ports;
 using System.Linq;
 using System.Reflection;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using BrightIdeasSoftware;
-using System.Collections;
-using System.IO.Ports;
 using System.Windows.Forms.VisualStyles;
-using RTC_Vision_Lite.Forms;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.TextBox;
-using System.Runtime.CompilerServices;
-using CommonTools;
 
 namespace RTC_Vision_Lite.UserControls
 {
@@ -41,6 +43,7 @@ namespace RTC_Vision_Lite.UserControls
 
 
         private bool ShowEditor;
+        private TabPage _lastSetupTab;
         public ucBaseActionDetail()
         {
 
@@ -50,6 +53,8 @@ namespace RTC_Vision_Lite.UserControls
             // buttonColumn.AspectName = "YourAspectName";
             InitializeComponent();
             PageSetup.SelectedTab = General;
+            _lastSetupTab = PageSetup.SelectedTab;
+            PageSetup.SelectedIndexChanged += PageSetup_SelectedIndexChanged;
             HideShowPropertiesButtonByActionType();
             //HeaderFormatStyle headerFormatStyle = new HeaderFormatStyle();
             //headerFormatStyle.SetBackColor(Color.LightSlateGray);
@@ -92,6 +97,16 @@ namespace RTC_Vision_Lite.UserControls
            // tlvAction.DrawColumnHeader += tlvAction_DrawColumnHeader;
             tlvAction.DrawSubItem += treeListView1_DrawSubItem;
 
+        }
+        private void PageSetup_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (PageSetup.SelectedTab != null)
+                _lastSetupTab = PageSetup.SelectedTab;
+        }
+        private void RestoreLastSetupTab()
+        {
+            if (_lastSetupTab != null && PageSetup.TabPages.Contains(_lastSetupTab))
+                PageSetup.SelectedTab = _lastSetupTab;
         }
         private void tlvAction_DrawColumnHeader(object sender, DrawListViewColumnHeaderEventArgs e)
         {
@@ -165,7 +180,7 @@ namespace RTC_Vision_Lite.UserControls
                 //{
                 //    //Nodes.CheckBoxVisible
                 //}    
-
+            
 
             }
         }
@@ -4598,6 +4613,7 @@ namespace RTC_Vision_Lite.UserControls
             try
             {
                 GlobVar.LockEvents = true;
+
                 //TabProperties.SuspendLayout();
                 //TabProperties.Controls.Clear();
                 //tlAct.BeginUpdate();
@@ -4721,9 +4737,10 @@ namespace RTC_Vision_Lite.UserControls
             finally
             {
                 GlobVar.LockEvents = false;
+
                 //tlAct.ResumeLayout();
                 //tlAct.EndUpdate();
-         
+   
 
             }
         }
@@ -4963,11 +4980,13 @@ namespace RTC_Vision_Lite.UserControls
         public void RunAction(bool widthShowMessage = false, bool forceRun = false)
         {
 
-            if (GlobVar.GroupActions.IsRun) return;
-            if (GlobVar.GroupActions.IsRun && !forceRun) return;
+        
+        if (GlobVar.GroupActions.IsRun) return;
+        if (GlobVar.GroupActions.IsRun && !forceRun) return;
 
             if (Action != null)
             {
+               
                 GlobVar.GroupActions.Actions[Action.ID] = Action;
                 GlobVar.GroupActions.Setting_Run(ERunActionMode.CurentAction, false, "", widthShowMessage);
             }
@@ -5152,6 +5171,10 @@ namespace RTC_Vision_Lite.UserControls
         }
         private void PageActionSetting_SelectedIndexChanged(object sender, EventArgs e)
         {
+            if (PageActionSetting.SelectedTab == TabSetUp)
+            {
+                RestoreLastSetupTab();
+            }
             switch (PageActionSetting.SelectedIndex)
             {
                 case 0:
@@ -5536,6 +5559,7 @@ namespace RTC_Vision_Lite.UserControls
             cbOperandType.Items.Add("Real");
             cbOperandType.Items.Add("String");
             FocusingCol = e.Column;
+            cbOperandType.DropDownStyle = ComboBoxStyle.DropDownList;
             EPropertyState eNodeState = (EPropertyState)this.State.GetValue(e.ListViewItem.RowObject);
             if ((Action.ActionType == EActionTypes.Branch ||
                 Action.ActionType == EActionTypes.Switch ||
@@ -5571,10 +5595,12 @@ namespace RTC_Vision_Lite.UserControls
                     {
                         SStringBuilderItem _Operand = Action.MyExpression.Operands.Find(x => x.Name == _OperandName);
                         if (_Operand == null) return;
+                        
                         if (comboBox.Text == cDataTypes.Boolean)
                         {
                             _Operand.ValueStyle = EHTupleStyle.Boolean;
                             _Operand.ListStringValue = new List<string>() { cStrings.False };
+                            _Operand.ListDoubleValue = new List<double>(); // FIX: Clear ListDoubleValue to prevent it from being used when saving
                         }
                         else if (comboBox.Text == cDataTypes.Integer)
                         {
@@ -5610,6 +5636,7 @@ namespace RTC_Vision_Lite.UserControls
                         {
                             _Operand.ValueStyle = EHTupleStyle.Boolean;
                             _Operand.ListStringValue = new List<string>() { cStrings.False };
+                            _Operand.ListDoubleValue = new List<double>(); // FIX: Clear ListDoubleValue to prevent it from being used when saving
                         }
                         else if (comboBox.Text == cDataTypes.Integer)
                         {
@@ -5645,6 +5672,7 @@ namespace RTC_Vision_Lite.UserControls
                             case cDataTypes.Boolean:
                                 dataItem.ValueStyle = EHTupleStyle.Boolean;
                                 dataItem.ListStringValue = new List<string>() { cStrings.False };
+                                dataItem.ListDoubleValue = new List<double>(); // FIX: Clear ListDoubleValue to prevent it from being used when saving
                                 break;
                             case cDataTypes.BooleanList:
                                 dataItem.ValueStyle = EHTupleStyle.BooleanList;
@@ -5879,16 +5907,15 @@ namespace RTC_Vision_Lite.UserControls
 
         private OLVColumn FocusingCol = null;
         private void CustomNodeCellEdit_Column_Value(CellEditEventArgs e)
-        {
-           
+        {            
             EPropertyState eNodeState = GlobFuncs.GetPropertyNodeState((MyPropertiesItem)e.RowObject, this.State);
             ComboBox cbBool = new ComboBox();
             cbBool.Items.Add(cStrings.True);
             cbBool.DropDownStyle = ComboBoxStyle.DropDownList;
 
             cbBool.Items.Add(cStrings.False);
-            //cbBool.SelectedIndexChanged -= ComboBoxSelectedIndexChanged;
-            //cbBool.SelectedIndexChanged += ComboBoxSelectedIndexChanged;
+            cbBool.SelectedIndexChanged -= ComboBoxSelectedIndexChanged;
+            cbBool.SelectedIndexChanged += ComboBoxSelectedIndexChanged;
 
             // cbBool.SelectedIndexChanged -= 
             TextBox txt = new TextBox();
@@ -6158,6 +6185,9 @@ namespace RTC_Vision_Lite.UserControls
                             {
                                 case EHTupleStyle.Boolean:
                                     {
+                                        cbBool.Bounds = e.CellBounds;
+                                        cbBool.SelectedIndex = cbBool.Items.IndexOf(e.Value);
+                                        cbBool.SelectedIndexChanged += ComboBoxSelectedIndexChanged;
                                         e.Control = cbBool;
                                         cbBool.DropDownStyle = ComboBoxStyle.DropDownList;
 
@@ -6175,6 +6205,7 @@ namespace RTC_Vision_Lite.UserControls
                         break;
                     }
             }
+            
         } 
 
 
@@ -6616,11 +6647,14 @@ namespace RTC_Vision_Lite.UserControls
         }
         private void ComboBoxSelectedIndexChanged(object sender, EventArgs e)
         {
+           
             //var test = tlvAction.CellEditKeyEngine.GetType().GetProperties();
             MyPropertiesItem focusNode = (MyPropertiesItem)tlvAction.FocusedObject;
             if (focusNode == null || FocusingCol != this.Value)
                 return;
             ComboBox comboBox = (ComboBox)sender;
+            if (comboBox.SelectedIndex < 0)
+                return;
             EPropertyState ePropertyState = GlobFuncs.GetPropertyNodeState(focusNode, this.State);
             if (ePropertyState == EPropertyState.Operand)
             {
@@ -6639,11 +6673,14 @@ namespace RTC_Vision_Lite.UserControls
                         break;
                 }
                 if (openandItem == null) return;
+               
                 switch (openandItem.ValueStyle)
                 {
                     case EHTupleStyle.Boolean:
-                        openandItem.ListStringValue = new List<string>() { comboBox.SelectedValue.ToString() };
-                        break;
+                        openandItem.ListStringValue = new List<string>() { (comboBox.SelectedItem ?? comboBox.Text ?? "").ToString() };
+                        
+                        break;                       
+                
                     case EHTupleStyle.Integer:
                         openandItem.ListDoubleValue = new List<double>() { int.Parse(comboBox.SelectedValue.ToString()) };
                         break;
@@ -8377,7 +8414,8 @@ namespace RTC_Vision_Lite.UserControls
                     var item = model as MyPropertiesItem; // Thay YourModelClass bằng lớp đối tượng của bạn
                     RTCVariableType rtcValue = (RTCVariableType)Action.GetType()
                                       .GetProperty((string)this.PropName.GetValue(model))?.GetValue(Action, null);
-                    return rtcValue.rtcIsHighLight;
+                    // return rtcValue.rtcIsHighLight;
+                    return rtcValue != null && rtcValue.rtcIsHighLight;
                 });
             }
             else

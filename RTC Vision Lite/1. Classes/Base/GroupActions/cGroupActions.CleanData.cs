@@ -12,7 +12,7 @@ namespace RTC_Vision_Lite.Classes
         {
             foreach (cAction action in Actions.Values)
                 action.ResetMyPropertyValue();
-            Refvalues.Clear();
+            RefValues.Clear();
 
             if (frmHsmartWindow != null)
                 frmHsmartWindow.ResetImage();

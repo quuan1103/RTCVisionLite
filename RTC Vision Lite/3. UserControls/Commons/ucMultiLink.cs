@@ -411,6 +411,7 @@ namespace RTC_Vision_Lite.UserControls
                     tlLink.AddObject(Node);
                 }    
                 ReOrderNum();
+                tlLink.FocusedObject = nodeMove;
             }
         }
         private void btnRemove_Click(object sender, EventArgs e)
@@ -448,6 +449,7 @@ namespace RTC_Vision_Lite.UserControls
                 if (FocusNode == null) return;
                 int IndexNode = tlLink.IndexOf(FocusNode);
                 List<MultiLink> AllNodes = tlLink.Objects.Cast<MultiLink>().ToList();
+                if (IndexNode <= 0) { return; }
                 MultiLink nodeMove = AllNodes[IndexNode];
                 AllNodes.Remove(AllNodes[IndexNode]);
                 AllNodes.Insert(IndexNode - 1, nodeMove);
@@ -457,6 +459,7 @@ namespace RTC_Vision_Lite.UserControls
                     tlLink.AddObject(Node);
                 }
                 ReOrderNum();
+                tlLink.FocusedObject = nodeMove;
             }
             finally
             {
@@ -474,6 +477,7 @@ namespace RTC_Vision_Lite.UserControls
                 if (FocusNode == null) return;
                 int IndexNode = tlLink.IndexOf(FocusNode);
                 List<MultiLink> AllNodes = tlLink.Objects.Cast<MultiLink>().ToList();
+
                 if(IndexNode >= AllNodes.Count - 1)
                 {
                     return;
@@ -487,6 +491,7 @@ namespace RTC_Vision_Lite.UserControls
                     tlLink.AddObject(Node);
                 }
                 ReOrderNum();
+                tlLink.FocusedObject = nodeMove;
             }
             finally
             {

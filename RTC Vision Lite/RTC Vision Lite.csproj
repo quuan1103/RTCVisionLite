@@ -75,10 +75,6 @@
     <ApplicationIcon>RtcIcon.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="AffineImage, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>Output\AffineImage.dll</HintPath>
-    </Reference>
     <Reference Include="Alignment">
       <HintPath>..\..\RTCVison_Lite_DangVersion\RTCVison_Lite\Tạo dll\12. Alignment\Alignment\obj\Debug\Alignment.dll</HintPath>
     </Reference>
@@ -90,10 +86,6 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>Output\Basler.Pylon.dll</HintPath>
     </Reference>
-    <Reference Include="CodeReader, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>Output\CodeReader.dll</HintPath>
-    </Reference>
     <Reference Include="CommonTools, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>bin\Debug\CommonTools.dll</HintPath>
@@ -103,7 +95,6 @@
     <Reference Include="DevExpress.Drawing.v24.2, Version=24.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.Printing.v24.2.Core, Version=24.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.Utils.v24.2, Version=24.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
-
     <Reference Include="Interop.ActUtlType64Lib">
       <HintPath>..\..\RTCVision Lite_Coding\Output\Interop.ActUtlType64Lib.dll</HintPath>
       <EmbedInteropTypes>True</EmbedInteropTypes>
@@ -135,12 +126,14 @@
       <HintPath>..\Output\RTCBaseTypes.dll</HintPath>
     </Reference>
     <Reference Include="RTCBaslerSdk">
-      <HintPath>..\RTCBaslerSdk (1)\bin\Debug\RTCBaslerSdk.dll</HintPath>
+      <HintPath>..\RTCBaslerSdk (1)\obj\Debug\RTCBaslerSdk.dll</HintPath>
     </Reference>
     <Reference Include="RTCLicense">
       <HintPath>..\..\..\3. Document\0. RTCVision\Output\RTCLicense.dll</HintPath>
     </Reference>
-    <Reference Include="System" />
+    <Reference Include="System">
+      <HintPath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.dll</HintPath>
+    </Reference>
     <Reference Include="System.ComponentModel.Composition" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
@@ -170,6 +163,9 @@
     <Reference Include="WindowShow, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\DCWindow\WindowShow.dll</HintPath>
+    </Reference>
+    <Reference Include="zxing">
+      <HintPath>..\19. CodeReader\CodeReader\bin\Debug\zxing.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -1632,6 +1628,7 @@
     <EmbeddedResource Include="5. UserManager\Forms\FrmUser.resx">
       <DependentUpon>FrmUser.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
@@ -1699,6 +1696,10 @@
       <Project>{b2b7e4db-f4f0-40f1-ba72-a08aa4da0a0b}</Project>
       <Name>Blob_Muilti_ROI</Name>
     </ProjectReference>
+    <ProjectReference Include="..\20. AffineImage\AffineImage\AffineImage.csproj">
+      <Project>{fa6dc7a9-7c59-4975-8737-5806afe0db92}</Project>
+      <Name>AffineImage</Name>
+    </ProjectReference>
     <ProjectReference Include="..\4. Blob_Color_Multi_ROI\Blob_Color_Multi_ROI\Blob_Color_Multi_ROI.csproj">
       <Project>{0fef6ee9-eae7-4c9c-b6e7-c181afe4deb5}</Project>
       <Name>Blob_Color_Multi_ROI</Name>
@@ -1762,6 +1763,10 @@
     <ProjectReference Include="..\SetOrigin\SetOrigin\SetOrigin.csproj">
       <Project>{6272fb1d-f065-48b3-8e3a-2b7585be6420}</Project>
       <Name>SetOrigin</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\19. CodeReader\CodeReader\CodeReader.csproj">
+      <Project>{82AF12D1-3E71-4663-BE69-6B95FB55C7E9}</Project>
+      <Name>CodeReader</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
@@ -2921,10 +2926,13 @@
       <Version>1.0.118</Version>
     </PackageReference>
     <PackageReference Include="System.Drawing.Common">
-      <Version>8.0.0</Version>
+      <Version>8.0.1</Version>
     </PackageReference>
     <PackageReference Include="WindowsAPICodePack-Core">
       <Version>1.1.2</Version>
+    </PackageReference>
+    <PackageReference Include="ZXing.Net">
+      <Version>0.16.11</Version>
     </PackageReference>
   </ItemGroup>
   <ItemGroup>

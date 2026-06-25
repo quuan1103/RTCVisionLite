@@ -57,7 +57,7 @@ namespace RTC_Vision_Lite.UserControls
             this.LayoutCAM_Maximize.Controls.Add(this.LayoutCAM, 0, 1);
             this.LayoutCAM_Maximize.Dock = System.Windows.Forms.DockStyle.Fill;
             this.LayoutCAM_Maximize.Location = new System.Drawing.Point(0, 0);
-            this.LayoutCAM_Maximize.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.LayoutCAM_Maximize.Margin = new System.Windows.Forms.Padding(4);
             this.LayoutCAM_Maximize.Name = "LayoutCAM_Maximize";
             this.LayoutCAM_Maximize.RowCount = 2;
             this.LayoutCAM_Maximize.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.771987F));
@@ -71,7 +71,7 @@ namespace RTC_Vision_Lite.UserControls
             this.panel2.Controls.Add(this.lblCAMName);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel2.Location = new System.Drawing.Point(4, 4);
-            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(127, 28);
             this.panel2.TabIndex = 1;
@@ -83,10 +83,10 @@ namespace RTC_Vision_Lite.UserControls
             this.lblCAMName.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
             this.lblCAMName.ForeColor = System.Drawing.Color.Gainsboro;
             this.lblCAMName.Location = new System.Drawing.Point(0, 0);
-            this.lblCAMName.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.lblCAMName.Margin = new System.Windows.Forms.Padding(4);
             this.lblCAMName.Name = "lblCAMName";
-            this.lblCAMName.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.lblCAMName.Size = new System.Drawing.Size(95, 27);
+            this.lblCAMName.Padding = new System.Windows.Forms.Padding(4);
+            this.lblCAMName.Size = new System.Drawing.Size(114, 31);
             this.lblCAMName.TabIndex = 0;
             this.lblCAMName.Text = "CAMERA 01";
             // 
@@ -102,7 +102,7 @@ namespace RTC_Vision_Lite.UserControls
             this.panel1.Controls.Add(this.btnMaximize);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(139, 4);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(545, 28);
             this.panel1.TabIndex = 0;
@@ -114,7 +114,7 @@ namespace RTC_Vision_Lite.UserControls
             this.btnPassFail.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPassFail.ForeColor = System.Drawing.Color.Transparent;
             this.btnPassFail.Location = new System.Drawing.Point(235, 0);
-            this.btnPassFail.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnPassFail.Margin = new System.Windows.Forms.Padding(4);
             this.btnPassFail.Name = "btnPassFail";
             this.btnPassFail.Size = new System.Drawing.Size(37, 28);
             this.btnPassFail.TabIndex = 0;
@@ -128,7 +128,7 @@ namespace RTC_Vision_Lite.UserControls
             this.btnPause.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnPause.Image = global::RTC_Vision_Lite.Properties.Resources.Pause_16x16;
             this.btnPause.Location = new System.Drawing.Point(280, 0);
-            this.btnPause.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnPause.Margin = new System.Windows.Forms.Padding(4);
             this.btnPause.Name = "btnPause";
             this.btnPause.Size = new System.Drawing.Size(37, 28);
             this.btnPause.TabIndex = 1;
@@ -140,7 +140,7 @@ namespace RTC_Vision_Lite.UserControls
             this.btnRun.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnRun.Image = global::RTC_Vision_Lite.Properties.Resources.Play_16x16;
             this.btnRun.Location = new System.Drawing.Point(325, 0);
-            this.btnRun.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnRun.Margin = new System.Windows.Forms.Padding(4);
             this.btnRun.Name = "btnRun";
             this.btnRun.Size = new System.Drawing.Size(37, 28);
             this.btnRun.TabIndex = 1;
@@ -152,7 +152,7 @@ namespace RTC_Vision_Lite.UserControls
             this.btnSetting.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSetting.Image = global::RTC_Vision_Lite.Properties.Resources.ModelEditor_Settings;
             this.btnSetting.Location = new System.Drawing.Point(371, 0);
-            this.btnSetting.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnSetting.Margin = new System.Windows.Forms.Padding(4);
             this.btnSetting.Name = "btnSetting";
             this.btnSetting.Size = new System.Drawing.Size(37, 28);
             this.btnSetting.TabIndex = 1;
@@ -162,7 +162,7 @@ namespace RTC_Vision_Lite.UserControls
             // 
             this.btnMinimize.BackColor = System.Drawing.Color.Transparent;
             this.btnMinimize.Location = new System.Drawing.Point(416, 0);
-            this.btnMinimize.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnMinimize.Margin = new System.Windows.Forms.Padding(4);
             this.btnMinimize.Name = "btnMinimize";
             this.btnMinimize.Size = new System.Drawing.Size(37, 28);
             this.btnMinimize.TabIndex = 1;
@@ -175,7 +175,7 @@ namespace RTC_Vision_Lite.UserControls
             this.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnClose.Image = global::RTC_Vision_Lite.Properties.Resources.Cancel_16x16;
             this.btnClose.Location = new System.Drawing.Point(508, 0);
-            this.btnClose.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnClose.Margin = new System.Windows.Forms.Padding(4);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(37, 28);
             this.btnClose.TabIndex = 1;
@@ -185,7 +185,7 @@ namespace RTC_Vision_Lite.UserControls
             // 
             this.btnMaximize.BackColor = System.Drawing.Color.Transparent;
             this.btnMaximize.Location = new System.Drawing.Point(461, 0);
-            this.btnMaximize.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnMaximize.Margin = new System.Windows.Forms.Padding(4);
             this.btnMaximize.Name = "btnMaximize";
             this.btnMaximize.Size = new System.Drawing.Size(37, 28);
             this.btnMaximize.TabIndex = 1;
@@ -200,7 +200,7 @@ namespace RTC_Vision_Lite.UserControls
             this.LayoutCAM.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 27F));
             this.LayoutCAM.Dock = System.Windows.Forms.DockStyle.Fill;
             this.LayoutCAM.Location = new System.Drawing.Point(4, 40);
-            this.LayoutCAM.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.LayoutCAM.Margin = new System.Windows.Forms.Padding(4);
             this.LayoutCAM.Name = "LayoutCAM";
             this.LayoutCAM.RowCount = 1;
             this.LayoutCAM.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
@@ -212,7 +212,7 @@ namespace RTC_Vision_Lite.UserControls
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.LayoutCAM_Maximize);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "ucGroupCAMs";
             this.Size = new System.Drawing.Size(688, 378);
             this.LayoutCAM_Maximize.ResumeLayout(false);

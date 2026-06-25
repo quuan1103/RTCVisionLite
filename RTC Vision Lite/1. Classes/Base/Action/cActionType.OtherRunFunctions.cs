@@ -188,6 +188,7 @@ namespace RTC_Vision_Lite.Classes
                     {
                         case EHTupleStyle.Boolean:
                             dataItem.ListStringValue = new List<string> { (false.ToString().ToLower()) };
+                            dataItem.ListDoubleValue = new List<double>(); // FIX: Clear ListDoubleValue to prevent it from being used when saving
                             break;
                         case EHTupleStyle.Integer:
                             dataItem.ListDoubleValue = new List<double>(0);
@@ -211,6 +212,7 @@ namespace RTC_Vision_Lite.Classes
                     {
                         case EHTupleStyle.Boolean:
                             operandItem.ListStringValue = new List<string> { (false.ToString().ToLower()) };
+                            operandItem.ListDoubleValue = new List<double>(); // FIX: Clear ListDoubleValue to prevent it from being used when saving
                             break;
                         case EHTupleStyle.Integer:
                             operandItem.ListDoubleValue = new List<double>(0);
@@ -1001,6 +1003,7 @@ namespace RTC_Vision_Lite.Classes
                     {
                         case EHTupleStyle.Boolean:
                             dataItem.ListStringValue = new List<string>() { false.ToString().ToLower() };
+                            dataItem.ListDoubleValue = new List<double>(); // FIX: Clear ListDoubleValue to prevent it from being used when saving
                             break;
                         case EHTupleStyle.Integer:
                             dataItem.ListDoubleValue = new List<double>() { 0 };
@@ -1035,6 +1038,7 @@ namespace RTC_Vision_Lite.Classes
                     {
                         case EHTupleStyle.Boolean:
                             operandItem.ListStringValue = new List<string>() { false.ToString().ToLower() };
+                            operandItem.ListDoubleValue = new List<double>(); // FIX: Clear ListDoubleValue to prevent it from being used when saving
                             break;
                         case EHTupleStyle.Integer:
                             operandItem.ListDoubleValue = new List<double>() { 0 };

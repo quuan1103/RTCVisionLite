@@ -1,0 +1,64 @@
+2026-06-17 02:14:06.5665 
+» Message:	Object is currently in use elsewhere.
+» Stack Trace:	   at System.Drawing.Image.Clone()
+   at RTC_Vision_Lite.Classes.cAction.BackupImage(Image image) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 3691
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_BackupImage() in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 130
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_CleanData() in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 26
+2026-06-17 14:45:36.2886 
+» Message:	The PortName cannot be empty.
+Parameter name: PortName
+» Stack Trace:	   at System.IO.Ports.SerialPort.set_PortName(String value)
+   at RTC_Vision_Lite.Classes.cCOM.Connect() in C:\RTC\RTCVisonLite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Connect\cCOM.cs:line 140
+2026-06-17 14:45:43.6821 
+» Message:	The PortName cannot be empty.
+Parameter name: PortName
+» Stack Trace:	   at System.IO.Ports.SerialPort.set_PortName(String value)
+   at RTC_Vision_Lite.Classes.cCOM.Connect() in C:\RTC\RTCVisonLite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Connect\cCOM.cs:line 140
+2026-06-17 14:45:46.5284 
+» Message:	The PortName cannot be empty.
+Parameter name: PortName
+» Stack Trace:	   at System.IO.Ports.SerialPort.set_PortName(String value)
+   at RTC_Vision_Lite.Classes.cCOM.Connect() in C:\RTC\RTCVisonLite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Connect\cCOM.cs:line 140
+2026-06-17 14:45:47.6760 
+» Message:	The PortName cannot be empty.
+Parameter name: PortName
+» Stack Trace:	   at System.IO.Ports.SerialPort.set_PortName(String value)
+   at RTC_Vision_Lite.Classes.cCOM.Connect() in C:\RTC\RTCVisonLite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Connect\cCOM.cs:line 140
+2026-06-17 14:45:48.2675 
+» Message:	The PortName cannot be empty.
+Parameter name: PortName
+» Stack Trace:	   at System.IO.Ports.SerialPort.set_PortName(String value)
+   at RTC_Vision_Lite.Classes.cCOM.Connect() in C:\RTC\RTCVisonLite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Connect\cCOM.cs:line 140
+2026-06-17 14:45:48.4220 
+» Message:	The PortName cannot be empty.
+Parameter name: PortName
+» Stack Trace:	   at System.IO.Ports.SerialPort.set_PortName(String value)
+   at RTC_Vision_Lite.Classes.cCOM.Connect() in C:\RTC\RTCVisonLite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Connect\cCOM.cs:line 140
+2026-06-17 14:45:48.5563 
+» Message:	The PortName cannot be empty.
+Parameter name: PortName
+» Stack Trace:	   at System.IO.Ports.SerialPort.set_PortName(String value)
+   at RTC_Vision_Lite.Classes.cCOM.Connect() in C:\RTC\RTCVisonLite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Connect\cCOM.cs:line 140
+2026-06-17 14:46:07.3293 
+» Message:	Object is currently in use elsewhere.
+» Stack Trace:	   at System.Drawing.Image.Clone()
+   at RTC_Vision_Lite.Classes.cAction.BackupImage(Image image) in C:\RTC\RTCVisonLite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 3691
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_BackupImage() in C:\RTC\RTCVisonLite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 130
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_CleanData() in C:\RTC\RTCVisonLite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 26
+2026-06-17 15:36:52.5436 
+» Message:	Access to the port 'COM3' is denied.
+» Stack Trace:	   at System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   at System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   at System.IO.Ports.SerialPort.Open()
+   at RTC_Vision_Lite.Classes.cCOM.Connect() in C:\RTC\RTCVisonLite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Connect\cCOM.cs:line 147
+2026-06-17 15:36:52.8910 
+» Message:	Access to the port 'COM3' is denied.
+» Stack Trace:	   at System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   at System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   at System.IO.Ports.SerialPort.Open()
+   at RTC_Vision_Lite.Classes.cCOM.Connect() in C:\RTC\RTCVisonLite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Connect\cCOM.cs:line 147
+2026-06-17 16:29:18.0333 
+» Message:	The PortName cannot be empty.
+Parameter name: PortName
+» Stack Trace:	   at System.IO.Ports.SerialPort.set_PortName(String value)
+   at RTC_Vision_Lite.Classes.cCOM.Connect() in C:\RTC\RTCVisonLite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Connect\cCOM.cs:line 140

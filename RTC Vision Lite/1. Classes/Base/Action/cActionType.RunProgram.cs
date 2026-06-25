@@ -102,11 +102,38 @@ namespace RTC_Vision_Lite.Classes
                 return;
             }
 
+            //foreach (cCAMTypes cam in camTypesList)
+            //{
+            //    if (RunMode.rtcValue == cRunMode.Sync)
+            //    {
+            //        //cam.GroupActions.Setting_Run(ERunActionMode.Next);
+            //        //if (string.IsNullOrEmpty(cam.GroupActions.ErrMessage))
+            //        cam.GroupActions.MainAction.NoCaptureAndUsingDirectImage.rtcValue = NoCaptureAndUsingDirectImage.rtcValue;
+            //         if (NoCaptureAndUsingDirectImage.rtcValue)
+            //         cam.GroupActions.MainAction.InputImage.rtcValue = InputImage.rtcValue.CopyImage();
+            //            Passed.rtcValue = true;
+            //        IsRunning.rtcValue = false;
+            //        ResultOK.rtcValue = cam.GroupActions.Actions[cam.GroupActions.IDMainAction].ResultOK.rtcValue;
+            //    }
+            //    else
+            //    {
+            //        Task.Factory.StartNew(() => cam.GroupActions.Setting_Run(ERunActionMode.Next,
+            //             false, "", false, true, true, this));
+            //        if (string.IsNullOrEmpty(cam.GroupActions.ErrMessage))
+            //            Passed.rtcValue = true;
+            //    }
+            //}
             foreach (cCAMTypes cam in camTypesList)
             {
+                cam.GroupActions.MainAction.NoCaptureAndUsingDirectImage.rtcValue = NoCaptureAndUsingDirectImage.rtcValue;
+                if (NoCaptureAndUsingDirectImage.rtcValue)
+                    cam.GroupActions.MainAction.InputImage.rtcValue = GlobFuncs.CopyImage(InputImage.rtcValue);
                 if (RunMode.rtcValue == cRunMode.Sync)
                 {
-                    cam.GroupActions.Setting_Run(ERunActionMode.Next);
+                    #pragma warning disable 4014
+                    cam.GroupActions.Setting_Run(ERunActionMode.Next,
+                    #pragma warning restore 4014
+                        false, string.Empty, false, true, true, this);
                     if (string.IsNullOrEmpty(cam.GroupActions.ErrMessage))
                         Passed.rtcValue = true;
                     IsRunning.rtcValue = false;
@@ -115,7 +142,7 @@ namespace RTC_Vision_Lite.Classes
                 else
                 {
                     Task.Factory.StartNew(() => cam.GroupActions.Setting_Run(ERunActionMode.Next,
-                         false, "", false, true, true, this));
+                        false, string.Empty, false, true, true, this));
                     if (string.IsNullOrEmpty(cam.GroupActions.ErrMessage))
                         Passed.rtcValue = true;
                 }

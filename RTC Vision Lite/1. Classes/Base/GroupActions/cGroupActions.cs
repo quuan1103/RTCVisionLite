@@ -202,7 +202,7 @@ namespace RTC_Vision_Lite.Classes
                 {
                     Actions.Remove(orderedlist[i].Value.ID);
                 }
-                Refvalues.Clear();
+                RefValues.Clear();
                 DataChanged = true;
                 return true;
             }
@@ -241,7 +241,7 @@ namespace RTC_Vision_Lite.Classes
                     foreach (PropertyInfo nProperty in PropertyIsParents)
                     {
                         string sKey = Action.ID.ToString() + nProperty.Name;
-                        if (Refvalues.ContainsKey(sKey)) Refvalues.Remove(sKey);
+                        if (RefValues.ContainsKey(sKey)) RefValues.Remove(sKey);
 
                     }
                     // Loại bỏ trong action Pass/Fail
@@ -408,7 +408,7 @@ namespace RTC_Vision_Lite.Classes
             FeedbackData = string.Empty;
             SourceImageSettings = new cSourceImageSettings();
             ImageErrors = new List<string>();
-            Refvalues = new Dictionary<string, object>();
+            RefValues = new Dictionary<string, object>();
             MyCam = null;
             Actions = new Dictionary<Guid, cAction>();
             Passed = false;
@@ -433,7 +433,7 @@ namespace RTC_Vision_Lite.Classes
             FeedbackData = string.Empty;
             SourceImageSettings = new cSourceImageSettings();
             ImageErrors = new List<string>();
-            Refvalues = new Dictionary<string, object>();
+            RefValues = new Dictionary<string, object>();
             MyCam = null;
             Actions = new Dictionary<Guid, cAction>();
             Passed = false;
@@ -747,8 +747,8 @@ namespace RTC_Vision_Lite.Classes
         /// ///////////////////////////////////////////////////////////////////////////////
         private void SetValueToDicRefValue(cAction action, string propertyName, object value)
         {
-            if (Refvalues == null)
-                Refvalues = new Dictionary<string, object>();
+            if (RefValues == null)
+                RefValues = new Dictionary<string, object>();
             string sKey = string.Empty;
             if (value != null)
             {
@@ -758,35 +758,35 @@ namespace RTC_Vision_Lite.Classes
             {
                 sKey = action.ID.ToString() + propertyName;
             }
-            if (Refvalues.ContainsKey(sKey))
+            if (RefValues.ContainsKey(sKey))
             {
-                Refvalues[sKey] = null;
+                RefValues[sKey] = null;
                 if (value != null)
                 {
                     //var tesr = value.GetType();
                     if (value.GetType() == typeof(List<object>))
-                        Refvalues[sKey] = GlobFuncs.CloneValue((List<object>)value);
+                        RefValues[sKey] = GlobFuncs.CloneValue((List<object>)value);
                     else if (value.GetType() == typeof(List<string>))
-                        Refvalues[sKey] = (List<string>)value;
+                        RefValues[sKey] = (List<string>)value;
                     else if (value.GetType() == typeof(List<double>))
-                        Refvalues[sKey] = (List<double>)value;
+                        RefValues[sKey] = (List<double>)value;
                     else
-                        Refvalues[sKey] = value;
+                        RefValues[sKey] = value;
                 }
             }
             else
             {
                 if (value == null)
-                    Refvalues.Add(sKey, null);
+                    RefValues.Add(sKey, null);
                 else
                 {
                     if (value.GetType() == typeof(List<object>))
                     {
                         //var test = GlobFuncs.CloneList((List<string>)value);
-                        Refvalues.Add(sKey, GlobFuncs.CloneValue((List<object>)value));
+                        RefValues.Add(sKey, GlobFuncs.CloneValue((List<object>)value));
                     }
                     else
-                        Refvalues.Add(sKey, value);
+                        RefValues.Add(sKey, value);
                 }
             }
         }
@@ -849,27 +849,27 @@ namespace RTC_Vision_Lite.Classes
                     sbItem.ListDoubleValue = new List<double>() { };
                     sbItem.ListStringValue = new List<string>() { };
                     string sKey = sbItem.RefID.ToString() + sbItem.RefPropName;
-                    if (!Refvalues.ContainsKey(sKey))
+                    if (!RefValues.ContainsKey(sKey))
                         SetValuetoVariableIsParentRef(Actions[sbItem.RefID]);
-                    if (!Refvalues.TryGetValue(sKey, out object value))
+                    if (!RefValues.TryGetValue(sKey, out object value))
                         continue;
                     string sValue = string.Empty;
                     var test = nameof(List<string>);
-                    if (Refvalues[sKey]?.GetType().Name != null &&
-                        Refvalues[sKey]?.GetType().Name == "List`1")
+                    if (RefValues[sKey]?.GetType().Name != null &&
+                        RefValues[sKey]?.GetType().Name == "List`1")
 
                     {
-                        var testt = Refvalues[sKey]?.GetType();
-                        switch (Refvalues[sKey]?.GetType())
+                        var testt = RefValues[sKey]?.GetType();
+                        switch (RefValues[sKey]?.GetType())
                         {
                             case Type t when t == typeof(List<string>):
-                                sValue = GlobFuncs.Ve2Str(GlobFuncs.GetValueStringByIndex((List<string>)Refvalues[sKey], sbItem.RefIndex));
+                                sValue = GlobFuncs.Ve2Str(GlobFuncs.GetValueStringByIndex((List<string>)RefValues[sKey], sbItem.RefIndex));
                                 break;
                             case Type t when t == typeof(List<double>):
-                                sValue = GlobFuncs.Ve2Str(GlobFuncs.GetValueDoubleByIndex((List<double>)Refvalues[sKey], sbItem.RefIndex));
+                                sValue = GlobFuncs.Ve2Str(GlobFuncs.GetValueDoubleByIndex((List<double>)RefValues[sKey], sbItem.RefIndex));
                                 break;
                             case Type t when t == typeof(List<object>):
-                                sValue = GlobFuncs.Ve2Str(GlobFuncs.GetValueObjectByIndex((List<object>)Refvalues[sKey], sbItem.RefIndex));
+                                sValue = GlobFuncs.Ve2Str(GlobFuncs.GetValueObjectByIndex((List<object>)RefValues[sKey], sbItem.RefIndex));
                                 break;
                         }
 
@@ -932,9 +932,9 @@ namespace RTC_Vision_Lite.Classes
                 if (PropValue == null)
                     return;
                 string sKey = variableTypeDes.rtcIDRef.ToString() + variableTypeDes.rtcPropNameRef;
-                if (!Refvalues.ContainsKey(sKey))
+                if (!RefValues.ContainsKey(sKey))
                     SetValuetoVariableIsParentRef(Actions[variableTypeDes.rtcIDRef]);
-                if (Refvalues.ContainsKey(sKey))
+                if (RefValues.ContainsKey(sKey))
                 {
                     RTCVariableType variableTypeSrc = (RTCVariableType)Actions[variableTypeDes.rtcIDRef].GetType().
                         GetProperty(variableTypeDes.rtcPropNameRef)?.GetValue(Actions[variableTypeDes.rtcIDRef], null);
@@ -945,9 +945,9 @@ namespace RTC_Vision_Lite.Classes
                         if (propertyInfoSrc.PropertyType == typeof(SImage) &&
                             propertyInfoDes.PropertyType == typeof(SImage))
                         {
-                            if (Refvalues[sKey] != null)
+                            if (RefValues[sKey] != null)
 
-                                PropValue.SetValue(variableTypeDes, ((Image)Refvalues[sKey]).Clone());
+                                PropValue.SetValue(variableTypeDes, ((Image)RefValues[sKey]).Clone());
 
                             continue;
                             //GlobFuncs.GetValueFromSImageByIndex())
@@ -958,12 +958,12 @@ namespace RTC_Vision_Lite.Classes
                             {
                                 case nameof(SGrayImage):
                                     {
-                                        PropValue.SetValue(variableTypeDes, (Image<Gray, byte>)Refvalues[sKey]);
+                                        PropValue.SetValue(variableTypeDes, (Image<Gray, byte>)RefValues[sKey]);
                                         break;
                                     }
                                 case nameof(SBgrImage):
                                     {
-                                        PropValue.SetValue(variableTypeDes, (Image<Bgr, byte>)Refvalues[sKey]);
+                                        PropValue.SetValue(variableTypeDes, (Image<Bgr, byte>)RefValues[sKey]);
                                         break;
                                     }
 
@@ -973,22 +973,22 @@ namespace RTC_Vision_Lite.Classes
                     else if (!variableTypeDes.rtcIsIconic && !variableTypeSrc.rtcIsIconic)
                     {
                         if (propertyInfoDes.PropertyType.Name == nameof(SListString) &&
-                             Refvalues[sKey].GetType().Name != nameof(SListString))
+                             RefValues[sKey].GetType().Name != nameof(SListString))
                         {
-                            if (Refvalues[sKey].GetType().Name != nameof(Boolean))
-                                PropValue.SetValue(variableTypeDes, new List<string>() { GlobFuncs.Ve2Str(Refvalues[sKey]) });
+                            if (RefValues[sKey].GetType().Name != nameof(Boolean))
+                                PropValue.SetValue(variableTypeDes, new List<string>() { GlobFuncs.Ve2Str(RefValues[sKey]) });
                             else
-                                PropValue.SetValue(variableTypeDes, new List<string>() { Refvalues[sKey].ToString().ToString().ToLower() });
+                                PropValue.SetValue(variableTypeDes, new List<string>() { RefValues[sKey].ToString().ToString().ToLower() });
                         }
                         else if (propertyInfoDes.PropertyType.Name == nameof(SListDouble) &&
-                             Refvalues[sKey].GetType().Name != nameof(SListDouble))
+                             RefValues[sKey].GetType().Name != nameof(SListDouble))
                         {
-                            PropValue.SetValue(variableTypeDes, GlobFuncs.GetValueDoubleByIndex((List<double>)Refvalues[sKey], variableTypeDes.rtcRefIndex));
+                            PropValue.SetValue(variableTypeDes, GlobFuncs.GetValueDoubleByIndex((List<double>)RefValues[sKey], variableTypeDes.rtcRefIndex));
                         }
                         else if (propertyInfoDes.PropertyType.Name == nameof(SListObject) &&
-                             Refvalues[sKey].GetType().Name != nameof(SListObject))
+                             RefValues[sKey].GetType().Name != nameof(SListObject))
                         {
-                            PropValue.SetValue(variableTypeDes, GlobFuncs.GetValueObjectByIndex(new List<object> { Refvalues[sKey] }, variableTypeDes.rtcRefIndex));
+                            PropValue.SetValue(variableTypeDes, GlobFuncs.GetValueObjectByIndex(new List<object> { RefValues[sKey] }, variableTypeDes.rtcRefIndex));
                         }
 
                         else
@@ -996,30 +996,30 @@ namespace RTC_Vision_Lite.Classes
                             if ((propertyInfoDes.PropertyType.Name != nameof(SListDouble) &&
                              propertyInfoDes.PropertyType.Name != nameof(SListString) &&
                              propertyInfoDes.PropertyType.Name != nameof(SListObject)) &&
-                             (Refvalues[sKey]?.GetType().Name != null &&
-                             (Refvalues[sKey]?.GetType() == typeof(List<double>) ||
-                              Refvalues[sKey]?.GetType() == typeof(List<string>) ||
-                              Refvalues[sKey]?.GetType() == typeof(List<object>))))
+                             (RefValues[sKey]?.GetType().Name != null &&
+                             (RefValues[sKey]?.GetType() == typeof(List<double>) ||
+                              RefValues[sKey]?.GetType() == typeof(List<string>) ||
+                              RefValues[sKey]?.GetType() == typeof(List<object>))))
                             {
                                 string sValue = string.Empty;
-                                switch (Refvalues[sKey]?.GetType())
+                                switch (RefValues[sKey]?.GetType())
                                 {
                                     case Type t when t == typeof(List<string>):
                                         {
-                                            List<string> hValue = GlobFuncs.GetValueStringByIndex((List<string>)Refvalues[sKey], variableTypeDes.rtcRefIndex);
+                                            List<string> hValue = GlobFuncs.GetValueStringByIndex((List<string>)RefValues[sKey], variableTypeDes.rtcRefIndex);
                                             sValue = GlobFuncs.Ve2Str(hValue);
                                             break;
                                         }
                                     case Type t when t == typeof(List<double>):
                                         {
 
-                                            List<double> hValue = GlobFuncs.GetValueDoubleByIndex((List<double>)Refvalues[sKey], variableTypeDes.rtcRefIndex);
+                                            List<double> hValue = GlobFuncs.GetValueDoubleByIndex((List<double>)RefValues[sKey], variableTypeDes.rtcRefIndex);
                                             sValue = GlobFuncs.Ve2Str(hValue);
                                             break;
                                         }
                                     case Type t when t == typeof(List<object>):
                                         {
-                                            PropValue.SetValue(variableTypeDes, GlobFuncs.GetValueObjectByIndex((List<object>)Refvalues[sKey], variableTypeDes.rtcRefIndex));
+                                            PropValue.SetValue(variableTypeDes, GlobFuncs.GetValueObjectByIndex((List<object>)RefValues[sKey], variableTypeDes.rtcRefIndex));
                                             break;
                                         }
                                 }
@@ -1050,33 +1050,33 @@ namespace RTC_Vision_Lite.Classes
                             else if ((propertyInfoDes.PropertyType.Name == nameof(SListDouble) ||
                                  propertyInfoDes.PropertyType.Name == nameof(SListString) ||
                                  propertyInfoDes.PropertyType.Name == nameof(SListObject)) &&
-                                 (Refvalues[sKey]?.GetType().Name != null &&
-                                 (Refvalues[sKey]?.GetType() == typeof(List<double>) ||
-                                  Refvalues[sKey]?.GetType() == typeof(List<string>) ||
-                                  Refvalues[sKey]?.GetType() == typeof(List<object>))))
-                                switch (Refvalues[sKey]?.GetType())
+                                 (RefValues[sKey]?.GetType().Name != null &&
+                                 (RefValues[sKey]?.GetType() == typeof(List<double>) ||
+                                  RefValues[sKey]?.GetType() == typeof(List<string>) ||
+                                  RefValues[sKey]?.GetType() == typeof(List<object>))))
+                                switch (RefValues[sKey]?.GetType())
                                 {
 
                                     case Type t when t == typeof(List<string>):
                                         {
-                                            PropValue.SetValue(variableTypeDes, GlobFuncs.GetValueStringByIndex((List<string>)Refvalues[sKey], variableTypeDes.rtcRefIndex));
+                                            PropValue.SetValue(variableTypeDes, GlobFuncs.GetValueStringByIndex((List<string>)RefValues[sKey], variableTypeDes.rtcRefIndex));
                                             break;
 
                                         }
                                     case Type t when t == typeof(List<double>):
                                         {
 
-                                            PropValue.SetValue(variableTypeDes, GlobFuncs.GetValueDoubleByIndex((List<double>)Refvalues[sKey], variableTypeDes.rtcRefIndex));
+                                            PropValue.SetValue(variableTypeDes, GlobFuncs.GetValueDoubleByIndex((List<double>)RefValues[sKey], variableTypeDes.rtcRefIndex));
                                             break;
                                         }
                                     case Type t when t == typeof(List<object>):
                                         {
-                                            PropValue.SetValue(variableTypeDes, GlobFuncs.GetValueObjectByIndex((List<object>)Refvalues[sKey], variableTypeDes.rtcRefIndex));
+                                            PropValue.SetValue(variableTypeDes, GlobFuncs.GetValueObjectByIndex((List<object>)RefValues[sKey], variableTypeDes.rtcRefIndex));
                                             break;
                                         }
                                 }
                             else
-                                PropValue.SetValue(variableTypeDes, Refvalues[sKey]);
+                                PropValue.SetValue(variableTypeDes, RefValues[sKey]);
                             if (action.MyExpression != null && propertyInfoDes.Name == nameof(action.Expression))
                                 action.MyExpression.Expression = PropValue.GetValue(variableTypeDes).ToString();
                         }
@@ -1248,7 +1248,7 @@ namespace RTC_Vision_Lite.Classes
             }
             finally
             {
-                GlobFuncs.CloseWaitForm();
+                GlobFuncs.CloseWaitForm();             
             }
             return result;
         }
@@ -1290,6 +1290,21 @@ namespace RTC_Vision_Lite.Classes
                 }
             }
         }
+        public void BuildRefIndexValue(RTCVariableType rtcVariableType)
+        {
+            if (rtcVariableType.rtcIDRefIndex == Guid.Empty)
+            {
+                rtcVariableType.rtcRefIndexValue = rtcVariableType.rtcRefIndex;
+                return;
+            }
+            rtcVariableType.rtcRefIndexValue = string.Empty;
+            if (RefValues == null)
+                return;
+            string key = $"{rtcVariableType.rtcIDRefIndex}{rtcVariableType.rtcPropNameRefIndex}";
+            if (RefValues.ContainsKey(key))
+                rtcVariableType.rtcRefIndexValue = GlobFuncs.Object2Str(RefValues[key]);
+
+        } 
         internal void PrepareDataBeforeRun()
         {
             AllPropertyParentRef = null;

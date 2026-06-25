@@ -2,6 +2,7 @@
 using RTCEnums;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -40,6 +41,7 @@ namespace RTC_Vision_Lite.Classes
             branchItemAction.IsCanRun = isCanRun;
             if (branchItemAction.IsCanRun && isSetBreak)
                 this.MyGroup.IndexBreak = branchItemAction.STT - 1;
+
             var listActionInBranchItem = MyGroup.Actions.Values.Where(x => x.IDBranchItem == branchItemAction.ID).OrderBy(x => x.STT);
             foreach (cAction action in listActionInBranchItem)
             {
@@ -110,7 +112,6 @@ namespace RTC_Vision_Lite.Classes
                     return;
                 foreach (cAction branchItem in listBranchItems)
                     ApplyIsCanRunToAllToolOfBranchItem(branchItem, false, false);
-
             }
             finally
             {

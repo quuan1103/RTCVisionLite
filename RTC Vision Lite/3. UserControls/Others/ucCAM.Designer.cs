@@ -56,6 +56,7 @@ namespace RTC_Vision_Lite.UserControls
             this.lblTotalCounter = new System.Windows.Forms.Label();
             this.lblNGCounter = new System.Windows.Forms.Label();
             this.lblOKCounter = new System.Windows.Forms.Label();
+            this.btnPassFail = new System.Windows.Forms.Button();
             this.panel4 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
             this.tlpHeader = new System.Windows.Forms.TableLayoutPanel();
@@ -190,7 +191,7 @@ namespace RTC_Vision_Lite.UserControls
             this.tlpFooter.Controls.Add(this.lblCoordinates, 0, 0);
             this.tlpFooter.Controls.Add(this.flowLayoutPanel1, 1, 0);
             this.tlpFooter.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.tlpFooter.Location = new System.Drawing.Point(0, 0);
+            this.tlpFooter.Location = new System.Drawing.Point(0, 14);
             this.tlpFooter.Margin = new System.Windows.Forms.Padding(3, 0, 3, 0);
             this.tlpFooter.Name = "tlpFooter";
             this.tlpFooter.Padding = new System.Windows.Forms.Padding(0, 2, 0, 0);
@@ -198,7 +199,7 @@ namespace RTC_Vision_Lite.UserControls
             this.tlpFooter.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tlpFooter.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tlpFooter.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tlpFooter.Size = new System.Drawing.Size(791, 25);
+            this.tlpFooter.Size = new System.Drawing.Size(1547, 25);
             this.tlpFooter.TabIndex = 2;
             // 
             // lblCoordinates
@@ -208,7 +209,7 @@ namespace RTC_Vision_Lite.UserControls
             this.lblCoordinates.Location = new System.Drawing.Point(3, 6);
             this.lblCoordinates.Margin = new System.Windows.Forms.Padding(3, 4, 3, 0);
             this.lblCoordinates.Name = "lblCoordinates";
-            this.lblCoordinates.Size = new System.Drawing.Size(153, 13);
+            this.lblCoordinates.Size = new System.Drawing.Size(172, 16);
             this.lblCoordinates.TabIndex = 0;
             this.lblCoordinates.Text = "X: 526.65 Y: 355.25 - I: 100.00";
             // 
@@ -229,10 +230,10 @@ namespace RTC_Vision_Lite.UserControls
             this.flowLayoutPanel1.Controls.Add(this.lblOKCounter);
             this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.flowLayoutPanel1.FlowDirection = System.Windows.Forms.FlowDirection.RightToLeft;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(162, 2);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(181, 2);
             this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(3, 0, 3, 0);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(626, 23);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(1363, 23);
             this.flowLayoutPanel1.TabIndex = 1;
             // 
             // btnRunNext
@@ -240,43 +241,46 @@ namespace RTC_Vision_Lite.UserControls
             this.btnRunNext.FlatAppearance.BorderSize = 0;
             this.btnRunNext.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnRunNext.Image = global::RTC_Vision_Lite.Properties.Resources.btnRunNext_ImageOptions_Image;
-            this.btnRunNext.Location = new System.Drawing.Point(603, 0);
+            this.btnRunNext.Location = new System.Drawing.Point(1340, 0);
             this.btnRunNext.Margin = new System.Windows.Forms.Padding(3, 0, 3, 0);
             this.btnRunNext.Name = "btnRunNext";
             this.btnRunNext.Size = new System.Drawing.Size(20, 19);
             this.btnRunNext.TabIndex = 17;
             this.btnRunNext.UseVisualStyleBackColor = true;
+            this.btnRunNext.Click += new System.EventHandler(this.btnRunNext_Click);
             // 
             // btnRunCurrent
             // 
             this.btnRunCurrent.FlatAppearance.BorderSize = 0;
             this.btnRunCurrent.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnRunCurrent.Image = global::RTC_Vision_Lite.Properties.Resources.btnRunCurrent_ImageOptions_Image;
-            this.btnRunCurrent.Location = new System.Drawing.Point(577, 0);
+            this.btnRunCurrent.Location = new System.Drawing.Point(1314, 0);
             this.btnRunCurrent.Margin = new System.Windows.Forms.Padding(3, 0, 3, 0);
             this.btnRunCurrent.Name = "btnRunCurrent";
             this.btnRunCurrent.Size = new System.Drawing.Size(20, 19);
             this.btnRunCurrent.TabIndex = 16;
             this.btnRunCurrent.UseVisualStyleBackColor = true;
+            this.btnRunCurrent.Click += new System.EventHandler(this.btnRunCurrent_Click);
             // 
             // btnRunBack
             // 
             this.btnRunBack.FlatAppearance.BorderSize = 0;
             this.btnRunBack.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnRunBack.Image = global::RTC_Vision_Lite.Properties.Resources.btnRunBack_ImageOptions_Image;
-            this.btnRunBack.Location = new System.Drawing.Point(551, 0);
+            this.btnRunBack.Location = new System.Drawing.Point(1288, 0);
             this.btnRunBack.Margin = new System.Windows.Forms.Padding(3, 0, 3, 0);
             this.btnRunBack.Name = "btnRunBack";
             this.btnRunBack.Size = new System.Drawing.Size(20, 19);
             this.btnRunBack.TabIndex = 15;
             this.btnRunBack.UseVisualStyleBackColor = true;
+            this.btnRunBack.Click += new System.EventHandler(this.btnRunBack_Click);
             // 
             // btnLive
             // 
             this.btnLive.FlatAppearance.BorderSize = 0;
             this.btnLive.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLive.Image = global::RTC_Vision_Lite.Properties.Resources.LiveCam16x161;
-            this.btnLive.Location = new System.Drawing.Point(525, 0);
+            this.btnLive.Location = new System.Drawing.Point(1262, 0);
             this.btnLive.Margin = new System.Windows.Forms.Padding(3, 0, 3, 0);
             this.btnLive.Name = "btnLive";
             this.btnLive.Size = new System.Drawing.Size(20, 19);
@@ -288,7 +292,7 @@ namespace RTC_Vision_Lite.UserControls
             this.btnStopLive.FlatAppearance.BorderSize = 0;
             this.btnStopLive.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnStopLive.Image = global::RTC_Vision_Lite.Properties.Resources.stoplive16x16;
-            this.btnStopLive.Location = new System.Drawing.Point(499, 0);
+            this.btnStopLive.Location = new System.Drawing.Point(1236, 0);
             this.btnStopLive.Margin = new System.Windows.Forms.Padding(3, 0, 3, 0);
             this.btnStopLive.Name = "btnStopLive";
             this.btnStopLive.Size = new System.Drawing.Size(20, 19);
@@ -300,7 +304,7 @@ namespace RTC_Vision_Lite.UserControls
             this.btnSnap.FlatAppearance.BorderSize = 0;
             this.btnSnap.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSnap.Image = global::RTC_Vision_Lite.Properties.Resources.Image_16x16;
-            this.btnSnap.Location = new System.Drawing.Point(473, 0);
+            this.btnSnap.Location = new System.Drawing.Point(1210, 0);
             this.btnSnap.Margin = new System.Windows.Forms.Padding(3, 0, 3, 0);
             this.btnSnap.Name = "btnSnap";
             this.btnSnap.Size = new System.Drawing.Size(20, 19);
@@ -312,7 +316,7 @@ namespace RTC_Vision_Lite.UserControls
             this.btnSaveImage.FlatAppearance.BorderSize = 0;
             this.btnSaveImage.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSaveImage.Image = global::RTC_Vision_Lite.Properties.Resources.SaveImage;
-            this.btnSaveImage.Location = new System.Drawing.Point(447, 0);
+            this.btnSaveImage.Location = new System.Drawing.Point(1184, 0);
             this.btnSaveImage.Margin = new System.Windows.Forms.Padding(3, 0, 3, 0);
             this.btnSaveImage.Name = "btnSaveImage";
             this.btnSaveImage.Size = new System.Drawing.Size(20, 19);
@@ -324,7 +328,7 @@ namespace RTC_Vision_Lite.UserControls
             this.btnMove.FlatAppearance.BorderSize = 0;
             this.btnMove.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMove.Image = global::RTC_Vision_Lite.Properties.Resources.SwitchRowColumn_16x16;
-            this.btnMove.Location = new System.Drawing.Point(421, 0);
+            this.btnMove.Location = new System.Drawing.Point(1158, 0);
             this.btnMove.Margin = new System.Windows.Forms.Padding(3, 0, 3, 0);
             this.btnMove.Name = "btnMove";
             this.btnMove.Size = new System.Drawing.Size(20, 19);
@@ -336,7 +340,7 @@ namespace RTC_Vision_Lite.UserControls
             this.btnNG.FlatAppearance.BorderSize = 0;
             this.btnNG.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnNG.Image = global::RTC_Vision_Lite.Properties.Resources.NG16x16;
-            this.btnNG.Location = new System.Drawing.Point(395, 0);
+            this.btnNG.Location = new System.Drawing.Point(1132, 0);
             this.btnNG.Margin = new System.Windows.Forms.Padding(3, 0, 3, 0);
             this.btnNG.Name = "btnNG";
             this.btnNG.Size = new System.Drawing.Size(20, 19);
@@ -348,7 +352,7 @@ namespace RTC_Vision_Lite.UserControls
             this.btnOK.FlatAppearance.BorderSize = 0;
             this.btnOK.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnOK.Image = global::RTC_Vision_Lite.Properties.Resources.OK16x16;
-            this.btnOK.Location = new System.Drawing.Point(369, 0);
+            this.btnOK.Location = new System.Drawing.Point(1106, 0);
             this.btnOK.Margin = new System.Windows.Forms.Padding(3, 0, 3, 0);
             this.btnOK.Name = "btnOK";
             this.btnOK.Size = new System.Drawing.Size(20, 19);
@@ -362,7 +366,7 @@ namespace RTC_Vision_Lite.UserControls
             this.lblTotalCounter.ForeColor = System.Drawing.SystemColors.Window;
             this.lblTotalCounter.Image = global::RTC_Vision_Lite.Properties.Resources.Reset2_16x16;
             this.lblTotalCounter.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.lblTotalCounter.Location = new System.Drawing.Point(253, 0);
+            this.lblTotalCounter.Location = new System.Drawing.Point(990, 0);
             this.lblTotalCounter.Name = "lblTotalCounter";
             this.lblTotalCounter.Size = new System.Drawing.Size(110, 20);
             this.lblTotalCounter.TabIndex = 5;
@@ -374,7 +378,7 @@ namespace RTC_Vision_Lite.UserControls
             this.lblNGCounter.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.lblNGCounter.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNGCounter.ForeColor = System.Drawing.Color.Red;
-            this.lblNGCounter.Location = new System.Drawing.Point(167, 0);
+            this.lblNGCounter.Location = new System.Drawing.Point(904, 0);
             this.lblNGCounter.Name = "lblNGCounter";
             this.lblNGCounter.Size = new System.Drawing.Size(80, 20);
             this.lblNGCounter.TabIndex = 6;
@@ -386,31 +390,48 @@ namespace RTC_Vision_Lite.UserControls
             this.lblOKCounter.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.lblOKCounter.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblOKCounter.ForeColor = System.Drawing.Color.Lime;
-            this.lblOKCounter.Location = new System.Drawing.Point(78, 0);
+            this.lblOKCounter.Location = new System.Drawing.Point(815, 0);
             this.lblOKCounter.Name = "lblOKCounter";
             this.lblOKCounter.Size = new System.Drawing.Size(83, 20);
             this.lblOKCounter.TabIndex = 7;
             this.lblOKCounter.Text = "OK: 0 (0%)";
             this.lblOKCounter.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // btnPassFail
+            // 
+            this.btnPassFail.BackColor = System.Drawing.Color.LimeGreen;
+            this.btnPassFail.FlatAppearance.BorderSize = 0;
+            this.btnPassFail.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPassFail.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPassFail.ForeColor = System.Drawing.Color.White;
+            this.btnPassFail.Location = new System.Drawing.Point(735, 39);
+            this.btnPassFail.Margin = new System.Windows.Forms.Padding(0);
+            this.btnPassFail.Name = "btnPassFail";
+            this.btnPassFail.Size = new System.Drawing.Size(48, 32);
+            this.btnPassFail.TabIndex = 7;
+            this.btnPassFail.Text = "OK";
+            this.btnPassFail.UseVisualStyleBackColor = false;
+            this.btnPassFail.Visible = false;
+            // 
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.DimGray;
             this.panel4.Controls.Add(this.tlpFooter);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel4.Location = new System.Drawing.Point(0, 302);
+            this.panel4.Location = new System.Drawing.Point(0, 602);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(791, 25);
+            this.panel4.Size = new System.Drawing.Size(1547, 39);
             this.panel4.TabIndex = 4;
             // 
             // panel5
             // 
             this.panel5.Controls.Add(this.tlpHeader);
+            this.panel5.Controls.Add(this.btnPassFail);
             this.panel5.Controls.Add(this.SmartWindow);
             this.panel5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel5.Location = new System.Drawing.Point(0, 0);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(791, 302);
+            this.panel5.Size = new System.Drawing.Size(1547, 602);
             this.panel5.TabIndex = 5;
             // 
             // tlpHeader
@@ -427,7 +448,7 @@ namespace RTC_Vision_Lite.UserControls
             this.tlpHeader.Name = "tlpHeader";
             this.tlpHeader.RowCount = 1;
             this.tlpHeader.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tlpHeader.Size = new System.Drawing.Size(791, 33);
+            this.tlpHeader.Size = new System.Drawing.Size(1547, 33);
             this.tlpHeader.TabIndex = 6;
             // 
             // flowLayoutPanel3
@@ -438,7 +459,7 @@ namespace RTC_Vision_Lite.UserControls
             this.flowLayoutPanel3.Location = new System.Drawing.Point(3, 0);
             this.flowLayoutPanel3.Margin = new System.Windows.Forms.Padding(3, 0, 3, 0);
             this.flowLayoutPanel3.Name = "flowLayoutPanel3";
-            this.flowLayoutPanel3.Size = new System.Drawing.Size(310, 33);
+            this.flowLayoutPanel3.Size = new System.Drawing.Size(612, 33);
             this.flowLayoutPanel3.TabIndex = 3;
             // 
             // flowLayoutPanel2
@@ -451,7 +472,7 @@ namespace RTC_Vision_Lite.UserControls
             this.flowLayoutPanel2.Controls.Add(this.lblCycleTime);
             this.flowLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Right;
             this.flowLayoutPanel2.FlowDirection = System.Windows.Forms.FlowDirection.RightToLeft;
-            this.flowLayoutPanel2.Location = new System.Drawing.Point(319, 3);
+            this.flowLayoutPanel2.Location = new System.Drawing.Point(1075, 3);
             this.flowLayoutPanel2.Name = "flowLayoutPanel2";
             this.flowLayoutPanel2.Size = new System.Drawing.Size(469, 27);
             this.flowLayoutPanel2.TabIndex = 5;
@@ -469,7 +490,8 @@ namespace RTC_Vision_Lite.UserControls
             this.SmartWindow.LockRoi = false;
             this.SmartWindow.MoveImage = false;
             this.SmartWindow.Name = "SmartWindow";
-            this.SmartWindow.Size = new System.Drawing.Size(789, 271);
+            this.SmartWindow.Size = new System.Drawing.Size(1545, 571);
+            this.SmartWindow.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.SmartWindow.TabIndex = 1;
             this.SmartWindow.TabStop = false;
             this.SmartWindow.ZoomClick = false;
@@ -485,7 +507,7 @@ namespace RTC_Vision_Lite.UserControls
             this.Controls.Add(this.panel5);
             this.Controls.Add(this.panel4);
             this.Name = "ucCAM";
-            this.Size = new System.Drawing.Size(791, 327);
+            this.Size = new System.Drawing.Size(1547, 641);
             ((System.ComponentModel.ISupportInitialize)(this.picImageMode)).EndInit();
             this.tlpFooter.ResumeLayout(false);
             this.tlpFooter.PerformLayout();
@@ -514,6 +536,7 @@ namespace RTC_Vision_Lite.UserControls
         private System.Windows.Forms.TableLayoutPanel tlpFooter;
         private System.Windows.Forms.Label lblCoordinates;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
+        public System.Windows.Forms.Button btnPassFail;
         public System.Windows.Forms.Label lblTotalCounter;
         public System.Windows.Forms.Label lblNGCounter;
         public System.Windows.Forms.Label lblOKCounter;

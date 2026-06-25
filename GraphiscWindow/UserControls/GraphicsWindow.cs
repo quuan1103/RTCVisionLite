@@ -145,6 +145,7 @@ namespace GraphicsWindow
         {
             this.BackColor = Color.Black;
             this.BorderStyle = BorderStyle.None;
+           // this.SizeMode = PictureBoxSizeMode.Zoom;
             this.SizeMode = PictureBoxSizeMode.Zoom;
             //DataRoiF DataStart = new DataRoiF();
             //ListDataRoiF.Add(DataStart);
@@ -152,10 +153,30 @@ namespace GraphicsWindow
 
         public void SetImage(Image image)
         {
-            if (this.Image != null)
-                this.Image.Dispose();
+            //if (this.Image != null)
+            //    this.Image.Dispose();
+            //if (image != null)
+
+            //    this.Image = (Image)image.Clone();
+              if (this.Image != null)
+            {
+                var old = this.Image;
+                this.Image = null;
+                old.Dispose();
+            }
+
             if (image != null)
-                this.Image = (Image)image.Clone();
+            {
+                // Force copy toàn bộ pixel ra bitmap độc lập,
+                // không phụ thuộc Stream/Bitmap gốc (tránh garbage pixel ngẫu nhiên)
+                Bitmap deepCopy = new Bitmap(image.Width, image.Height, PixelFormat.Format32bppArgb);
+                using (Graphics g = Graphics.FromImage(deepCopy))
+                {
+                    g.InterpolationMode = InterpolationMode.NearestNeighbor;
+                    g.DrawImage(image, 0, 0, image.Width, image.Height);
+                }
+                this.Image = deepCopy;
+            }
         }
         public List<DataRoi> ListDataRoiOutput
         {
@@ -362,18 +383,22 @@ namespace GraphicsWindow
                 base.OnPaint(e);
                 e.Graphics.Clear(BackColor);
                 e.Graphics.Transform = Tranform;
+              //  e.Graphics.InterpolationMode = InterpolationMode.NearestNeighbor;
+               // e.Graphics.PixelOffsetMode = PixelOffsetMode.Half;
                 e.Graphics.InterpolationMode = InterpolationMode.NearestNeighbor;
-                e.Graphics.PixelOffsetMode = PixelOffsetMode.Half;
+                //   e.Graphics.PixelOffsetMode = PixelOffsetMode.HighQuality;
+                e.Graphics.PixelOffsetMode = PixelOffsetMode.None;
                 if (Image != null)
                     try
                     {
-                        tyle = Image.VerticalResolution / e.Graphics.DpiX;
+                      //  tyle = Image.VerticalResolution / e.Graphics.DpiX;
                         e.Graphics.DrawImage(this.Image, 0f, 0f);
                     }
                     catch (Exception)
                     {
 
                     }
+
                 ClipBound = e.Graphics.ClipBounds;
                 workingGraphics = e.Graphics;
                 Rotary = Tranform.Clone();
@@ -392,6 +417,7 @@ namespace GraphicsWindow
             {
                 Exception = ">>>>> Void OnPaint: " + ex.ToString();
             }
+          //  base.OnPaint(e);
         }
         public void ClearImage()
         {

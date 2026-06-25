@@ -182,6 +182,7 @@ namespace RTC_Vision_Lite.Classes
         public SInt NgCount { get; set; }
         public SInt TotalCount { get; set; }
 
+        public SBool OnlyRunningTools { get; set; }
         public SBool MatchCase { get; set; }
         public SString StatusType { get; set; }
         public SString CustomStatusType { get; set; }

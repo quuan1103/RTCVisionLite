@@ -78,23 +78,52 @@ namespace RTC_Vision_Lite.Classes
                     }
                 case cOKNGCounterRunMode.Both:
                     {
+                        #region Quân sửa 0806
                         cCAMTypes camTypes = GlobVar.CurrentProject.CAMs.Values.FirstOrDefault(x => x.Name.ToLower() == MyGroup.MyCam.Name.ToLower());
+
+                        // Quân sửa 0806: bỏ luồng cũ vì break sớm làm TotalCount không tăng và UI không refresh.
+                        // if (this.CounterType.rtcValue == cStrings.OK)
+                        // {
+                        //     GlobVar.CurrentProject.OKCount += 1;
+                        //     MyGroup.MainAction.OkCount.rtcValue += 1;
+                        //     break;
+                        // }
+                        // else if (this.CounterNG.rtcValue == cStrings.NG)
+                        // {
+                        //     GlobVar.CurrentProject.NGCount += 1;
+                        //     MyGroup.MainAction.NgCount.rtcValue += 1;
+                        //     break;
+                        // }
+                        // GlobVar.CurrentProject.TotalCount += 1;
+                        // this.MyGroup.MyCam.TotalCount += 1;
+                        // this.MyGroup?.MyCam?.View?.UpdateCounterToUI();
+                        // cProjectFunctions.SaveCamSetting_OnlyCounter(GlobVar.CurrentProject, this.MyGroup?.MyCam);
+
                         if (this.CounterType.rtcValue == cStrings.OK)
                         {
                             GlobVar.CurrentProject.OKCount += 1;
                             MyGroup.MainAction.OkCount.rtcValue += 1;
-                            break;
+                            if (camTypes != null)
+                                camTypes.OKCount += 1;
                         }
-                        else if (this.CounterNG.rtcValue == cStrings.NG)
+                        else if (this.CounterType.rtcValue == cStrings.NG)
                         {
                             GlobVar.CurrentProject.NGCount += 1;
                             MyGroup.MainAction.NgCount.rtcValue += 1;
-                            break;
+                            if (camTypes != null)
+                                camTypes.NGCount += 1;
                         }
+
                         GlobVar.CurrentProject.TotalCount += 1;
-                        this.MyGroup.MyCam.TotalCount += 1;
+                        MyGroup.MainAction.TotalCount.rtcValue += 1;
+                        if (camTypes != null)
+                            camTypes.TotalCount += 1;
+
                         this.MyGroup?.MyCam?.View?.UpdateCounterToUI();
+                        cProjectFunctions.UpdateCounterToForm();
+                        cProjectFunctions.SaveProject_OnlyCounter(GlobVar.CurrentProject);
                         cProjectFunctions.SaveCamSetting_OnlyCounter(GlobVar.CurrentProject, this.MyGroup?.MyCam);
+                        #endregion
                         break;
                     }
             }

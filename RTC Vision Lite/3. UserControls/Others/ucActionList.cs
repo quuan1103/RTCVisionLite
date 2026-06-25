@@ -45,7 +45,7 @@ namespace RTC_Vision_Lite.UserControls
 
         public static int NameAcID = -1;
         public static int DescriptionID = -1;
-        private ESmallViewMode _smallViewMode = ESmallViewMode.Normal;
+        private ESmallViewMode _smallViewMode = ESmallViewMode.Small;
         private cAction currentActionSelect = null;
 
         private List<Guid> viewedActions = new List<Guid>();
@@ -130,8 +130,7 @@ namespace RTC_Vision_Lite.UserControls
             // Gọi phương thức mặc định để vẽ item
             e.DrawText();
         }
-       
-   
+
         public void ViewData()
         {
             try
@@ -478,7 +477,7 @@ namespace RTC_Vision_Lite.UserControls
             }
 
         }
-
+       
         public cAction GetActionFormNode(ActionTools node)
         {
             try
@@ -995,7 +994,7 @@ namespace RTC_Vision_Lite.UserControls
             }
             finally
             {
-                tl.Refresh();
+              //  tl.Refresh();
                 //int targetIndex = tl.IndexOf(tl.FocusedObject);
                 //// Lấy vị trí của các item
                 //Rectangle rectTarget = tl.GetItemRect(targetIndex);
@@ -1182,66 +1181,76 @@ namespace RTC_Vision_Lite.UserControls
             DeleteTools();
         }
 
+
+
         public void DeleteTools()
         {
+           
+            var selectedNodes = tl.SelectedObjects.Cast<ActionTools>()
+       .Where(n => GlobFuncs.GetNodeType(n, this.NodeType) == ENodeTypes.Action
+                || GlobFuncs.GetNodeType(n, this.NodeType) == ENodeTypes.Group)
+       .GroupBy(n => Guid.Parse(this.ID.GetValue(n).ToString()))
+       .Select(g => g.First())
+       .ToList();
+
+            if (selectedNodes.Count == 0)
+            {
+                cMessageBox.Warning(cMessageContent.War_NotSelectedToolToDelete);
+                return;
+            }
+
+            if (cMessageBox.Question_YesNo(cMessageContent.Que_DeleteObject) != DialogResult.Yes)
+                return;
+
+            // Sắp xếp xóa từ node sâu nhất lên, tránh đụng vào con đã mất cha
+            int GetDepth(ActionTools n)
+            {
+                int d = 0;
+                while (n.Parent != null) { d++; n = n.Parent; }
+                return d;
+            }
+            selectedNodes = selectedNodes.OrderByDescending(GetDepth).ToList();
+
+            GlobVar.LockEvents = true;
+            tl.BeginUpdate();
+
+            var affectedParents = new HashSet<ActionTools>();
+
             try
             {
-                ActionTools SelectedNode = (ActionTools)tl.FocusedObject;
-                ActionTools ParentNode = (ActionTools)SelectedNode.Parent;
-
-
-                if (tl.SelectedItem == null || tl.SelectedIndices.Count <= 0)
+                foreach (ActionTools node in selectedNodes)
                 {
-                    cMessageBox.Warning(cMessageContent.War_NotSelectedToolToDelete);
-                    return;
-                }
-                if (cMessageBox.Question_YesNo(cMessageContent.Que_DeleteObject) == DialogResult.No)
-                    return;
-                GlobVar.LockEvents = true;
-                // int NodeIndex = 0;
-                List<ActionTools> AllNode = tl.SelectedObjects.Cast<ActionTools>().ToList();
-                foreach (ActionTools treeListNode in AllNode)
-                {
-                    if (ParentNode == null)
-                        return;
-                    cAction action = GetActionFormNode(treeListNode);
-                    if (action.ActionType == EActionTypes.MainAction)
+                    ActionTools parent = (ActionTools)node.Parent;
+                    if (parent == null) continue;
+
+                    cAction action = GetActionFormNode(node);
+                    if (action == null || action.ActionType == EActionTypes.MainAction)
                         continue;
-                    GlobVar.GroupActions.RemoveAction(Guid.Parse(this.ID.GetValue((ActionTools)treeListNode).ToString()));
-                    string imageMaster = $"{GlobVar.CurrentProject.FolderNameFullPath}\\{ treeListNode.Name}.bmp";
-                    if (File.Exists(imageMaster))
-                        File.Delete(imageMaster);
-                    //NodeIndex = ParentNode.child.IndexOf(treeListNode);
-                    ParentNode.child.Remove(treeListNode);
-                    tl.BeginUpdate();
-                    tl.RefreshObject(ParentNode);
-                    tl.EndUpdate();
 
+                    Guid actionId = Guid.Parse(this.ID.GetValue(node).ToString());
+                    if (!GlobVar.GroupActions.Actions.ContainsKey(actionId))
+                        continue; // đã bị xóa logic ở vòng trước đó (vd: con của branch đã xóa)
+
+                    GlobVar.GroupActions.RemoveAction(actionId);
+
+                    string imageMaster = $"{GlobVar.CurrentProject.FolderNameFullPath}\\{node.Name}.bmp";
+                    if (File.Exists(imageMaster)) File.Delete(imageMaster);
+
+                    // CHỈ sửa data model, KHÔNG gọi RefreshObject ở đây
+                    parent.child.Remove(node);
+                    affectedParents.Add(parent);
                 }
 
-                List<ActionTools> Parent = tl.Objects.Cast<ActionTools>().ToList();
-                NumberedOrderAction(Parent);
-                tl.SelectedObject = ParentNode;
-                GlobVar.LockEvents = false;
-            
-                //if (Parent[0].child.Count > 0)
-                //{
-                //    var FoccusNode = Parent[0].child[NodeIndex - 1];
-                //    tl.SelectedObject = null;
-                //    tl.SelectedObject = FoccusNode;
-                //}
-                //else
-                //{
-                //    var FoccusNode = Parent[0];
-                //    tl.SelectedObject = null;
-                //    tl.SelectedObject = FoccusNode;
-                //}
+                NumberedOrderAction(tl.Objects.Cast<ActionTools>().ToList());
             }
             finally
             {
+                // Refresh 1 lần duy nhất sau khi toàn bộ cấu trúc đã ổn định
+                tl.SetObjects(tl.Roots);   // rebuild toàn bộ flat-list/index map từ Roots
+                tl.EndUpdate();
                 GlobVar.LockEvents = false;
+                tl.ExpandAll();   // hoặc restore expand state nếu bạn đã làm theo gợi ý lần trước
                 tl.Refresh();
-
             }
         }
         private void NumberedOrderAction(List<ActionTools> Nodes)
@@ -1880,21 +1889,28 @@ namespace RTC_Vision_Lite.UserControls
 
         private void ApplySmallView()
         {
-            var currentRoots = tl.Roots.Cast<ActionTools>().ToList();
-            if (currentRoots == null || currentRoots.Count <= 0)
-                return;
+            try
+            {
+                // Lưu lại roots trước
+                var currentRoots = tl.Roots.Cast<ActionTools>().ToList();
 
-            // Thứ tự đúng: Set RowHeight → Font → Roots → BuildList → ExpandAll → Refresh
-            SetNodeHeight(currentRoots);
-            UpdateFont();
-            tl.CanExpandGetter = x => (x as ActionTools).child.Count > 0;
-            tl.ChildrenGetter = x => (x as ActionTools).child;
+                tl.BeginUpdate();
+                SetNodeHeight(currentRoots);
+                UpdateFont();
+                tl.CanExpandGetter = x => (x as ActionTools).child.Count > 0;
+                tl.ChildrenGetter = x => (x as ActionTools).child;
+            }
+            finally
+            {
+                tl.EndUpdate();
 
-            // Không cần gán lại roots nếu đã có dữ liệu, chỉ cần refresh
-            tl.BuildList(false);
-            tl.ExpandAll();
-            tl.Refresh();
-            tl.Invalidate(true);
+                // Set lại roots sau khi EndUpdate
+                //  tl.Roots = roots;
+                tl.BuildList(false);
+                tl.ExpandAll();
+                tl.Refresh();
+                tl.Invalidate(true);
+            }
         }
 
         internal void UpdateFont()
@@ -1902,113 +1918,112 @@ namespace RTC_Vision_Lite.UserControls
             if (tl.InvokeRequired)
             {
                 tl.Invoke(new Action(() =>
-                {
-
-                    tl.Font = CommonData.GetFontStyle(cFontStyle.ListOfToolOfModelLarge);
-                }));
+                    {
+                        switch (_smallViewMode)
+                        {
+                            case ESmallViewMode.Small:
+                                tl.Font = CommonData.GetFontStyle(cFontStyle.ListOfToolOfModelSmall);
+                                break;
+                            case ESmallViewMode.Normal:
+                                tl.Font = CommonData.GetFontStyle(cFontStyle.ListOfToolOfModelNomal);
+                                break;
+                            case ESmallViewMode.Large:
+                                tl.Font = CommonData.GetFontStyle(cFontStyle.ListOfToolOfModelLarge);
+                                break;
+                            default:
+                                tl.Font = CommonData.GetFontStyle(cFontStyle.ListOfToolOfModelNomal);
+                                break;
+                        }
+                    }));
             }
             else
-            {
+                switch (_smallViewMode)
+                {
+                    case ESmallViewMode.Small:
+                        tl.Font = CommonData.GetFontStyle(cFontStyle.ListOfToolOfModelSmall);
+                        break;
+                    case ESmallViewMode.Normal:
+                        tl.Font = CommonData.GetFontStyle(cFontStyle.ListOfToolOfModelNomal);
+                        break;
+                    case ESmallViewMode.Large:
+                        tl.Font = CommonData.GetFontStyle(cFontStyle.ListOfToolOfModelLarge);
+                        break;
+                    default:
+                        tl.Font = CommonData.GetFontStyle(cFontStyle.ListOfToolOfModelNomal);
+                        break;
+                }
 
-                tl.Font = CommonData.GetFontStyle(cFontStyle.ListOfToolOfModelLarge);
-            }
         }
-        //internal void UpdateFont()
-        //{
-        //    if (tl.InvokeRequired)
-        //    {
-        //        tl.Invoke(new Action(() =>
-        //        {
-        //            switch (_smallViewMode)
-        //            {
-        //                case ESmallViewMode.Small:
-        //                    tl.Font = CommonData.GetFontStyle(cFontStyle.ListOfToolOfModelSmall);
-        //                    break;
-        //                case ESmallViewMode.Normal:
-        //                    tl.Font = CommonData.GetFontStyle(cFontStyle.ListOfToolOfModelNomal);
-        //                    break;
-        //                case ESmallViewMode.Large:
-        //                    tl.Font = CommonData.GetFontStyle(cFontStyle.ListOfToolOfModelLarge);
-        //                    break;
-        //                default:
-        //                    tl.Font = CommonData.GetFontStyle(cFontStyle.ListOfToolOfModelNomal);
-        //                    break;
-        //            }
 
-        //            // Test: Force same font for all modes to isolate the issue
-        //            // tl.Font = CommonData.GetFontStyle(cFontStyle.ListOfToolOfModelLarge);
-        //        }));
-        //    }
-        //    else
+        //private void SetNodeHeight(List<ActionTools> Nodes)
+        //{
+        //    //if (Nodes == null || Nodes.Count <= 0)
+        //    //    return;
+        //    switch (_smallViewMode)
         //    {
-        //        switch (_smallViewMode)
-        //        {
-        //            case ESmallViewMode.Small:
-        //                tl.Font = CommonData.GetFontStyle(cFontStyle.ListOfToolOfModelSmall);
-        //                break;
-        //            case ESmallViewMode.Normal:
-        //                tl.Font = CommonData.GetFontStyle(cFontStyle.ListOfToolOfModelNomal);
-        //                break;
-        //            case ESmallViewMode.Large:
-        //                tl.Font = CommonData.GetFontStyle(cFontStyle.ListOfToolOfModelLarge);
-        //                break;
-        //            default:
-        //                tl.Font = CommonData.GetFontStyle(cFontStyle.ListOfToolOfModelNomal);
-        //                break;
-        //        }           
+        //        case ESmallViewMode.Small:
+        //            tl.StateImageList = GlobVar.imlActionType16;
+        //            tl.SmallImageList = GlobVar.imlActionType16;
+        //            tl.RowHeight = 20;
+        //            break;
+        //        case ESmallViewMode.Normal:
+        //            tl.StateImageList = GlobVar.imlActionType24;
+        //            tl.SmallImageList = GlobVar.imlActionType24;
+        //            tl.RowHeight = 24;
+        //            break;
+        //        case ESmallViewMode.Large:
+        //            tl.StateImageList = GlobVar.imlActionType32;
+        //            tl.SmallImageList = GlobVar.imlActionType32;
+        //            tl.RowHeight = 32;
+        //            break;
+        //        default:
+        //            tl.StateImageList = GlobVar.imlActionType24;
+        //            tl.SmallImageList = GlobVar.imlActionType24;
+        //            tl.RowHeight = 24;
+        //            break;
+        //            tl.TreeColumnRenderer.IsShowLines = false;
+
         //    }
         //}
         private void SetNodeHeight(List<ActionTools> Nodes)
         {
             if (Nodes == null || Nodes.Count <= 0)
                 return;
+
+            // Lưu lại width của tất cả các cột trước khi thay đổi
+            //var columnWidths = new Dictionary<OLVColumn, int>();
+            //foreach (OLVColumn col in tl.Columns)
+            //    columnWidths[col] = col.Width;
+
             switch (_smallViewMode)
             {
                 case ESmallViewMode.Small:
-                    tl.StateImageList = GlobVar.imlActionType16;
-                    tl.SmallImageList = GlobVar.imlActionType16;
-                    tl.RowHeight = 16;
+                    //tl.StateImageList = GlobVar.imlActionType16;
+                    //tl.SmallImageList = GlobVar.imlActionType16;
+                    tl.RowHeight = 20;
                     break;
                 case ESmallViewMode.Normal:
-                    tl.StateImageList = GlobVar.imlActionType24;
-                    tl.SmallImageList = GlobVar.imlActionType24;
+                    //tl.StateImageList = GlobVar.imlActionType24;
+                    //tl.SmallImageList = GlobVar.imlActionType24;
                     tl.RowHeight = 24;
                     break;
                 case ESmallViewMode.Large:
-                    tl.StateImageList = GlobVar.imlActionType32;
-                    tl.SmallImageList = GlobVar.imlActionType32;
+                    //tl.StateImageList = GlobVar.imlActionType32;
+                    //tl.SmallImageList = GlobVar.imlActionType32;
                     tl.RowHeight = 32;
                     break;
                 default:
-                    tl.StateImageList = GlobVar.imlActionType24;
-                    tl.SmallImageList = GlobVar.imlActionType24;
+                    //tl.StateImageList = GlobVar.imlActionType24;
+                    //tl.SmallImageList = GlobVar.imlActionType24;
                     tl.RowHeight = 24;
                     break;
-                   // tl.TreeColumnRenderer.IsShowLines = false;
-
             }
-        }
-        //private void SetNodeHeight(List<ActionTools> Nodes)
-        //{
-        //    if (Nodes == null || Nodes.Count <= 0)
-        //        return;
 
-        //    switch (_smallViewMode)
-        //    {
-        //        case ESmallViewMode.Small:
-        //            tl.RowHeight = 18;
-        //            break;
-        //        case ESmallViewMode.Normal:
-        //            tl.RowHeight = 26;
-        //            break;
-        //        case ESmallViewMode.Large:
-        //            tl.RowHeight = 32;
-        //            break;
-        //        default:
-        //            tl.RowHeight = 24;
-        //            break;
-        //    }
-        //}
+            //// Restore lại width của tất cả các cột sau khi thay đổi
+            //foreach (OLVColumn col in tl.Columns)
+            //    if (columnWidths.ContainsKey(col))
+            //        col.Width = columnWidths[col];
+        }
         private void btnDeleteAll_Click(object sender, EventArgs e)
         {
             DeleteAllTool();
@@ -2106,7 +2121,6 @@ namespace RTC_Vision_Lite.UserControls
         {
             //var test = tl.Cursor;
             ENodeTypes eNodeTypes = GlobFuncs.GetNodeType((ActionTools)e.Model, this.NodeType);
-
             //if (e.Column == colEnable)
             //{
             //    if (((ActionTools)e.Model).ActionType == EActionTypes.MainAction)
@@ -2190,15 +2204,6 @@ namespace RTC_Vision_Lite.UserControls
                         {
                             e.SubItem.BackColor = Color.LimeGreen;
                         }
-                }
-                // quân thêm
-                if (e.Model == tl.SelectedObject)
-                {
-                    e.SubItem.Font = new Font(e.SubItem.Font, FontStyle.Bold);
-                }
-                if (e.Item.Selected)
-                {
-                    e.SubItem.Font = new Font(e.SubItem.Font, FontStyle.Bold);
                 }
 
             }
@@ -2672,7 +2677,7 @@ namespace RTC_Vision_Lite.UserControls
         {
             if (e.Column == colEnable)
             {
-                cAction action = GetActionFormNode((ActionTools)e.RowObject);
+                cAction action = GetActionFormNode((ActionTools)e.RowObject);             
                 bool Checked = e.NewValue == CheckState.Checked ? true : false;
                 action.Enable.rtcValue = Checked;
             }

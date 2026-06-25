@@ -333,7 +333,6 @@ namespace RTC_Vision_Lite.UserControls
                 link.rtcPropNameRef = cbPropName.SelectedItem.ToString();
                 this.colPropName.PutValue(focusNode, link.rtcPropNameRef);
             }
-
         }
         private void ComBoBoxToolResultSelectedIndexChange(object sender, EventArgs e)
         {

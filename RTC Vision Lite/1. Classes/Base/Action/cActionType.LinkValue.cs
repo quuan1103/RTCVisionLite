@@ -7,11 +7,13 @@ using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
+using Newtonsoft.Json;
 
 namespace RTC_Vision_Lite.Classes
 {
@@ -27,7 +29,7 @@ namespace RTC_Vision_Lite.Classes
         }
         public void Run_LinkValue_LinkPropToProp(cLinkProperty linkItem, RTCVariableType sourceInfo,
                  RTCVariableType targetInfo)
-        {
+        {          
             if (sourceInfo == null || targetInfo == null)
                 return;
 
@@ -292,10 +294,19 @@ namespace RTC_Vision_Lite.Classes
                             sourceValueType = nameof(SBool);
                             break;
                         }
-                    case nameof(SListImage):
+                    case nameof(SImage):
                         {
                             imageValue = (Image)sourceInfo.GetType().GetProperty(cPropertyName.rtcValue)?.GetValue(sourceInfo, null);
-                            imageValue = GlobFuncs.GetValueFromSImageByIndex(new List<Image>() { imageValue }, GlobFuncs.Ve2Str(linkItem.SourceIndex))[0];
+                            if (imageValue != null)
+                                imageValue = (Image)imageValue.Clone();
+                            sourceValueType = nameof(SImage);
+                            break;
+                        }
+                    case nameof(SListImage):
+                        {
+                            List<Image> imageListValue = (List<Image>)sourceInfo.GetType().GetProperty(cPropertyName.rtcValue)?.GetValue(sourceInfo, null);
+                            imageListValue = GlobFuncs.GetValueFromSImageByIndex(imageListValue, GlobFuncs.Ve2Str(linkItem.SourceIndex));
+                            imageValue = imageListValue != null && imageListValue.Count > 0 ? imageListValue[0] : null;
                             if (imageValue != null)
                                 imageValue = (Image)imageValue.Clone();
                             sourceValueType = nameof(SImage);
@@ -740,6 +751,12 @@ namespace RTC_Vision_Lite.Classes
                             targetInfoValue.SetValue(targetInfo, imageValue);
                             //imageValue.WriteImage("bmp",0,@"D:\1.bmp");
 
+                            break;
+                        }
+                    case nameof(SListImage):
+                        {
+                            List<Image> imageListValue = imageValue != null ? new List<Image>() { imageValue } : new List<Image>();
+                            targetInfoValue.SetValue(targetInfo, GlobFuncs.GetValueFromSImageByIndex(imageListValue, GlobFuncs.Ve2Str(linkItem.TargetIndex)));
                             break;
                         }
                     case nameof(SListVector):

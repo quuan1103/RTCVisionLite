@@ -11,12 +11,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using RTCConst;
+using System.IO;
+using System.Text;
 
 namespace RTC_Vision_Lite.UserControls
 {
     public delegate void ucCAMButtonClickEvent(object CAMsender, object sender, EventArgs e);
     public partial class ucCAM : UserControl
     {
+
         public event ucCAMButtonClickEvent OnMaximizeButtonClickEvent;
         public event ucCAMButtonClickEvent OnMinimizeButtonClickEvent;
         public event ucCAMButtonClickEvent OnSetupToolsButtonClickEvent;
@@ -31,6 +35,8 @@ namespace RTC_Vision_Lite.UserControls
         }
 
         private cCAMTypes _myCAM;
+        private bool? _lastDisplayedResultOk;
+        private bool _hasDisplayedResult;
 
         public cCAMTypes MyCAM
         {
@@ -61,7 +67,14 @@ namespace RTC_Vision_Lite.UserControls
         {
             if (MyCAM.IsHide || !MyCAM.IsActive)
                 return;
+
+
+            UpdateFont();
             ViewImageMode();
+            InitBackgroundColor();
+            RebuildPassFailPosition();
+
+
             if (!string.IsNullOrEmpty(_FileName_ImageTemplate) && File.Exists(_FileName_ImageTemplate))
             {
                 try
@@ -84,6 +97,9 @@ namespace RTC_Vision_Lite.UserControls
             else
                 lblCamName.ForeColor = Color.White;
             RebuildButton();
+
+            if (_hasDisplayedResult && _lastDisplayedResultOk.HasValue)
+                SetOkNg(_lastDisplayedResultOk.Value);
         }
         public void ClearWindow()
         {
@@ -94,7 +110,7 @@ namespace RTC_Vision_Lite.UserControls
                 return;
             }
             tlpHeader.BackColor = Color.DimGray;
-            //GlobFuncs.VisibleControl(btnPassFail, false)
+            btnPassFail.Visible = false;
             SmartWindow.ClearImage();
             SmartWindow.ClearAllRoi();
             SmartWindow.ClearDispText();
@@ -176,6 +192,167 @@ namespace RTC_Vision_Lite.UserControls
 
             GlobFuncs.VisibleControl(lblCoordinates, GlobVar.RTCVision.ViewOptions.CamFooter_IsViewCoordinates);
         }
+
+        #region Quân sửa 0806
+        private void ResetCamNameAppearance()
+        {
+            if (MyCAM == null)
+                return;
+
+            lblCamName.Text = MyCAM.Name;
+            if (MyCAM.IsMaster)
+                lblCamName.ForeColor = Color.Gold;
+            else if (MyCAM.IsBackground)
+                lblCamName.ForeColor = Color.Silver;
+            else
+                lblCamName.ForeColor = Color.White;
+        }
+
+        private void RebuildPassFailPosition()
+        {
+            if (btnPassFail == null)
+                return;
+
+            int margin = 6;
+            int top = tlpHeader.Bottom + margin;
+            int left = panel5.ClientSize.Width - btnPassFail.Width - margin;
+
+            if (left < margin)
+                left = margin;
+
+            btnPassFail.Location = new Point(left, top);
+            btnPassFail.BringToFront();
+        }
+        private Color GetOKColor()
+        {
+            if (GlobVar.RTCVision.SWindowOptions.IsUseOKFrameColor)
+            {
+                string colorStr = GlobVar.RTCVision.SWindowOptions.OKFrameColor;
+                if (!string.IsNullOrEmpty(colorStr))
+                {
+                    try { return ColorTranslator.FromHtml(colorStr); }
+                    catch { }
+                }
+            }
+            return Color.LimeGreen; // default
+        }
+        private Color GetNGColor()
+        {
+            if (GlobVar.RTCVision.SWindowOptions.IsUseNGFrameColor)
+            {
+                string colorStr = GlobVar.RTCVision.SWindowOptions.NGFrameColor;
+                if (!string.IsNullOrEmpty(colorStr))
+                {
+                    try { return ColorTranslator.FromHtml(colorStr); }
+                    catch { }
+                }
+            }
+            return Color.Red; // default
+        }
+
+        private void SetPassFailState(bool isOk)
+        {
+            //btnPassFail.Text = isOk ? "OK" : "NG";
+            //btnPassFail.BackColor = isOk ? Color.LimeGreen : Color.Red;
+            //btnPassFail.Visible = true;
+            //RebuildPassFailPosition();
+            btnPassFail.Text = isOk ? "OK" : "NG";
+            btnPassFail.BackColor = isOk ? GetOKColor() : GetNGColor();
+            btnPassFail.Visible = true;
+            RebuildPassFailPosition();
+        }
+
+        public void ViewDefaultText()
+        {
+            if (MyCAM.IsHide || !MyCAM.IsActive)
+                return;
+
+            if (MyCAM.GroupActions.IsRun)
+                return;
+
+            if (InvokeRequired)
+            {
+                BeginInvoke(new Action(ViewDefaultText));
+                return;
+            }
+
+            ClearWindow();
+            ShowStatus(string.Empty);
+        }
+
+        public void InitBackgroundColor()
+        {
+            if (MyCAM.IsHide || !MyCAM.IsActive)
+                return;
+
+            if (SmartWindow.InvokeRequired)
+            {
+                SmartWindow.Invoke(new MethodInvoker(InitBackgroundColor));
+                return;
+            }
+
+            SmartWindow.ClearDispText();
+            tlpHeader.BackColor = Color.DimGray;
+            ResetCamNameAppearance();
+        }
+
+        public void ShowStatus(string status)
+        {
+            if (MyCAM.IsHide || !MyCAM.IsActive)
+                return;
+
+            if (lblCycleTime.InvokeRequired)
+            {
+                lblCycleTime.Invoke(new Action(() =>
+                {
+                    lblCycleTime.Visible = true;
+                    lblCycleTime.Text = status;
+                }));
+            }
+            else
+            {
+                lblCycleTime.Visible = true;
+                lblCycleTime.Text = status;
+            }
+        }
+
+        public void SetOkNg(bool isOk = true)
+        {
+            if (MyCAM.IsHide || !MyCAM.IsActive)
+                return;
+
+            if (tlpHeader.InvokeRequired)
+            {
+                tlpHeader.BeginInvoke(new Action(() => SetOkNg(isOk)));
+                return;
+            }
+
+          
+            lblCamName.Text = MyCAM.Name;
+            Color color = isOk ? GetOKColor() : GetNGColor();
+            _lastDisplayedResultOk = isOk;
+            _hasDisplayedResult = true;
+            SetPassFailState(isOk);
+            if (tlpHeader.BackColor != color)
+                tlpHeader.BackColor = color;
+        }
+
+        public void RemoveOkNg()
+        {
+            if (MyCAM.IsHide || !MyCAM.IsActive)
+                return;
+
+            if (tlpHeader.InvokeRequired)
+            {
+                tlpHeader.BeginInvoke(new Action(RemoveOkNg));
+                return;
+            }
+
+            btnPassFail.Visible = false;
+            tlpHeader.BackColor = Color.DimGray;
+            ResetCamNameAppearance();
+        }
+        #endregion
         internal void UpdateCounterToUI()
         {
             if (MyCAM.IsHide || !MyCAM.IsActive)
@@ -280,6 +457,39 @@ namespace RTC_Vision_Lite.UserControls
             }    
         }
 
+        private void btnRunCurrent_Click(object sender, EventArgs e)
+        {
+            if (MyCAM == null || MyCAM.GroupActions == null)
+                return;
+
+            MyCAM.GroupActions.IsRun = false;
+#pragma warning disable 4014
+            MyCAM.GroupActions.Setting_Run(ERunActionMode.Current);
+#pragma warning restore 4014
+        }
+
+        private void btnRunBack_Click(object sender, EventArgs e)
+        {
+            if (MyCAM == null || MyCAM.GroupActions == null)
+                return;
+
+            MyCAM.GroupActions.IsRun = false;
+#pragma warning disable 4014
+            MyCAM.GroupActions.Setting_Run(ERunActionMode.Prev);
+#pragma warning restore 4014
+        }
+
+        private void btnRunNext_Click(object sender, EventArgs e)
+        {
+            if (MyCAM == null || MyCAM.GroupActions == null)
+                return;
+
+            MyCAM.GroupActions.IsRun = false;
+#pragma warning disable 4014
+            MyCAM.GroupActions.Setting_Run(ERunActionMode.Next);
+#pragma warning restore 4014
+        }
+
         private void label1_Click(object sender, EventArgs e)
         {
 
@@ -287,6 +497,7 @@ namespace RTC_Vision_Lite.UserControls
 
         private void btnStop_Click(object sender, EventArgs e)
         {
+           
             if (OnStopButtonClickEvent != null)
             {
                 OnStopButtonClickEvent(this, sender, e);
@@ -301,6 +512,12 @@ namespace RTC_Vision_Lite.UserControls
         private void SmartWindow_MouseMove(object sender, MouseEventArgs e)
         {
             lblCoordinates.Text = "R: " + e.Y.ToString() + ", C: " + e.X.ToString();
+        }
+
+        protected override void OnResize(EventArgs e)
+        {
+            base.OnResize(e);
+            RebuildPassFailPosition();
         }
     }
 }
