@@ -1,4 +1,4 @@
-﻿using RTC_Vision_Lite.Classes;
+using RTC_Vision_Lite.Classes;
 using RTC_Vision_Lite.PublicFunctions;
 using RTCConst;
 using System;
@@ -239,6 +239,7 @@ namespace RTC_Vision_Lite.UserControls
         public ucRangeMaxMin()
         {
             InitializeComponent();
+            lblFeatures.DoubleClick += LblFeatures_DoubleClick;
             if (_RTCUseCheckbox)
             {
                 txtRangeMax.Enabled = chkEnable.Checked;
@@ -251,6 +252,35 @@ namespace RTC_Vision_Lite.UserControls
             }
             //RTCChecked = false;
             //txtRangeMin.Mask.
+        }
+
+        private void LblFeatures_DoubleClick(object sender, EventArgs e)
+        {
+            if (txtRangeMin.Enabled && txtRangeMax.Enabled)
+            {
+                txtRangeMin.Text = "0";
+                txtRangeMax.Text = "inf";
+                RTCRangeMax_KeyDown(txtRangeMax, new KeyEventArgs(Keys.Enter));
+            }
+        }
+
+        private bool TryParseDoubleOrInfinity(string text, out double value)
+        {
+            value = 0;
+            if (string.IsNullOrWhiteSpace(text)) return false;
+            string cleanText = text.Trim().ToLower();
+            if (cleanText == "inf" || cleanText == "infinity")
+            {
+                value = double.PositiveInfinity;
+                return true;
+            }
+            if (cleanText == "-inf" || cleanText == "-infinity")
+            {
+                value = double.NegativeInfinity;
+                return true;
+            }
+            return double.TryParse(text, System.Globalization.NumberStyles.Any, System.Globalization.CultureInfo.InvariantCulture, out value) ||
+                   double.TryParse(text, out value);
         }
         public void UpdateCheckboxValue (bool value)
         {
@@ -504,6 +534,13 @@ namespace RTC_Vision_Lite.UserControls
         {
             if (e.KeyCode == Keys.Enter)
             {
+                string textMin = txtRangeMin.Text.Trim().ToLower();
+                string textMax = txtRangeMax.Text.Trim().ToLower();
+                if (textMin == "a" || textMin == "all" || textMax == "a" || textMax == "all")
+                {
+                    txtRangeMin.Text = "0";
+                    txtRangeMax.Text = "inf";
+                }
                 if (RTCAction != null && RTCValuePropertyName != String.Empty)
                 {
                     RTCE_SValueChangeEventArgs eRTC = new RTCE_SValueChangeEventArgs();
@@ -519,26 +556,10 @@ namespace RTC_Vision_Lite.UserControls
                                 {
                                     if (ldValue.rtcValue == null)
                                     {
-                                        ldValue.rtcValue = new List<double> { };
-                                        ldValue.rtcValue.Add(0);
-                                        ldValue.rtcValue.Add(0);
+                                        ldValue.rtcValue = new List<double> { 0, 0 };
                                     }
-                                    if (txtRangeMin.Text == "Inf")
-                                    {
-                                        //ldValue.rtcValue[0] = "inf";
-                                    }
-                                    else
-                                    {
-                                        ldValue.rtcValue[0] = double.Parse(txtRangeMin.Text);
-                                    }
-                                    if (txtRangeMax.Text == "Inf")
-                                    {
-                                        //ldValue.rtcValue[1] = "inf";
-                                    }
-                                    else
-                                    {
-                                        ldValue.rtcValue[1] = double.Parse(txtRangeMax.Text);
-                                    }
+                                    ldValue.rtcValue[0] = TryParseDoubleOrInfinity(txtRangeMin.Text, out double minVal) ? minVal : 0;
+                                    ldValue.rtcValue[1] = TryParseDoubleOrInfinity(txtRangeMax.Text, out double maxVal) ? maxVal : 0;
                                     chkEnable.Focus();
                                     eRTC.Value = ldValue;
                                     if (OnSValueChangeEvent != null)
@@ -559,21 +580,23 @@ namespace RTC_Vision_Lite.UserControls
                                         ldValue.rtcValue.Add(0);
                                         ldValue.rtcValue.Add(0);
                                     }
-                                    if (txtRangeMin.Text == "Inf")
+                                    string minTextClean = txtRangeMin.Text.Trim().ToLower();
+                                    if (minTextClean == "inf" || minTextClean == "infinity")
                                     {
                                         ldValue.rtcValue[0] = "inf";
                                     }
                                     else
                                     {
-                                        ldValue.rtcValue[0] = double.Parse(txtRangeMin.Text);
+                                        ldValue.rtcValue[0] = double.TryParse(txtRangeMin.Text, out double minVal) ? minVal : 0;
                                     }
-                                    if (txtRangeMax.Text.ToLower() == "inf")
+                                    string maxTextClean = txtRangeMax.Text.Trim().ToLower();
+                                    if (maxTextClean == "inf" || maxTextClean == "infinity")
                                     {
                                         ldValue.rtcValue[1] = "inf";
                                     }
                                     else
                                     {
-                                        ldValue.rtcValue[1] = double.TryParse(txtRangeMax.Text, out double Value) ? Value : 0;
+                                        ldValue.rtcValue[1] = double.TryParse(txtRangeMax.Text, out double maxVal) ? maxVal : 0;
                                     }
                                     eRTC.ObjectValue = ldValue;
                                     if (OnSValueChangeEvent != null)
@@ -586,7 +609,7 @@ namespace RTC_Vision_Lite.UserControls
                         default:
                             break;
                     }
-                   
+                    
                 }
             }
         }
@@ -595,7 +618,13 @@ namespace RTC_Vision_Lite.UserControls
 
             if (e.KeyCode == Keys.Enter)
             {
-
+                string textMin = txtRangeMin.Text.Trim().ToLower();
+                string textMax = txtRangeMax.Text.Trim().ToLower();
+                if (textMin == "a" || textMin == "all" || textMax == "a" || textMax == "all")
+                {
+                    txtRangeMin.Text = "0";
+                    txtRangeMax.Text = "inf";
+                }
                 if (RTCAction != null && RTCValuePropertyName != String.Empty)
                 {
                     RTCE_SValueChangeEventArgs eRTC = new RTCE_SValueChangeEventArgs();
@@ -611,28 +640,10 @@ namespace RTC_Vision_Lite.UserControls
                                 {
                                     if (ldValue.rtcValue == null)
                                     {
-                                        ldValue.rtcValue = new List<double> { };
-                                        ldValue.rtcValue.Add(0);
-                                        ldValue.rtcValue.Add(0);
+                                        ldValue.rtcValue = new List<double> { 0, 0 };
                                     }
-                                    if (txtRangeMin.Text == "Inf")
-                                    {
-                                        //ldValue.rtcValue[0] = "inf";
-                                    }
-                                    else
-                                    {
-                                        ldValue.rtcValue[0] = double.Parse(txtRangeMin.Text);
-
-                                    }
-                                    if (txtRangeMax.Text == "Inf")
-                                    {
-                                        //ldValue.rtcValue[1] = "inf";
-                                    }
-                                    else
-                                    {
-                                        ldValue.rtcValue[1] = double.Parse(txtRangeMax.Text);
-
-                                    }
+                                    ldValue.rtcValue[0] = TryParseDoubleOrInfinity(txtRangeMin.Text, out double minVal) ? minVal : 0;
+                                    ldValue.rtcValue[1] = TryParseDoubleOrInfinity(txtRangeMax.Text, out double maxVal) ? maxVal : 0;
                                     eRTC.Value = ldValue;
                                     if (OnSValueChangeEvent != null)
                                     {
@@ -652,23 +663,23 @@ namespace RTC_Vision_Lite.UserControls
                                         ldValue.rtcValue.Add(0);
                                         ldValue.rtcValue.Add(0);
                                     }
-                                    if (txtRangeMin.Text == "Inf")
+                                    string minTextClean = txtRangeMin.Text.Trim().ToLower();
+                                    if (minTextClean == "inf" || minTextClean == "infinity")
                                     {
                                         ldValue.rtcValue[0] = "inf";
                                     }
                                     else
                                     {
-                                        ldValue.rtcValue[0] = double.Parse(txtRangeMin.Text);
-
+                                        ldValue.rtcValue[0] = double.TryParse(txtRangeMin.Text, out double minVal) ? minVal : 0;
                                     }
-                                    if (txtRangeMax.Text == "Inf")
+                                    string maxTextClean = txtRangeMax.Text.Trim().ToLower();
+                                    if (maxTextClean == "inf" || maxTextClean == "infinity")
                                     {
-                                        //ldValue.rtcValue[1] = "inf";
+                                        ldValue.rtcValue[1] = "inf";
                                     }
                                     else
                                     {
-                                        ldValue.rtcValue[1] = double.Parse(txtRangeMax.Text);
-
+                                        ldValue.rtcValue[1] = double.TryParse(txtRangeMax.Text, out double maxVal) ? maxVal : 0;
                                     }
 
                                     eRTC.ObjectValue = ldValue;
@@ -687,40 +698,54 @@ namespace RTC_Vision_Lite.UserControls
         }
         private void RTCRangeMin_Validating(object sender, System.ComponentModel.CancelEventArgs e)
         {
-            double dvalue = 0;
-            if (txtRangeMin.Text.ToLower() == "infinity" || txtRangeMin.Text.ToLower() == "inf")
+            string cleanText = txtRangeMin.Text.Trim().ToLower();
+            if (cleanText == "a" || cleanText == "all")
+            {
+                txtRangeMin.Text = "0";
+                txtRangeMax.Text = "inf";
+                e.Cancel = false;
+                return;
+            }
+
+            if (cleanText == "infinity" || cleanText == "inf")
             {
                 e.Cancel = false;
+                return;
             }
-            else
+
+            double dvalue = 0;
             if (double.TryParse(txtRangeMin.Text, out dvalue))
             {
                 if (RTCIsLimit)
                 {
                     SListDouble dbValue = (SListDouble)RTCAction.GetType().GetProperty(RTCValuePropertyName).GetValue(RTCAction, null);
-                    if (dbValue != null && (dbValue.rtcValue == null || (dbValue.rtcValue != null && dbValue.rtcValue.Count >= 4)))
+                    if (dbValue != null && (dbValue.rtcValue != null && dbValue.rtcValue.Count >= 4))
                     {
-                        if (GlobFuncs.Ve2Str(dbValue.rtcValue[2]).ToString().ToLower() != "infinity" &&
-                            GlobFuncs.Ve2Str(dbValue.rtcValue[2]).ToString().ToLower() != "inf")
+                        string limitMinStr = GlobFuncs.Ve2Str(dbValue.rtcValue[2]).ToString().ToLower();
+                        if (limitMinStr != "infinity" && limitMinStr != "inf")
                         {
-                            if (double.TryParse(GlobFuncs.Ve2Str(dbValue.rtcValue[2]), out double dvaluemin))
+                            if (double.TryParse(limitMinStr, out double dvaluemin))
+                            {
                                 if (dvalue < dvaluemin)
                                 {
                                     txtRangeMin.Text = dvaluemin.ToString();
                                     e.Cancel = false;
                                     return;
-
                                 }
+                            }
                         }
                     }
-
                 }
-                if (txtRangeMax.Text != cPropertyValue.Inf)
+
+                string maxTextClean = txtRangeMax.Text.Trim().ToLower();
+                if (maxTextClean != "infinity" && maxTextClean != "inf")
                 {
-                    if (dvalue > double.Parse(txtRangeMax.Text))
+                    if (double.TryParse(txtRangeMax.Text, out double dmax))
                     {
-                        e.Cancel = true;
-                        
+                        if (dvalue > dmax)
+                        {
+                            e.Cancel = true;
+                        }
                     }
                 }
             }
@@ -729,55 +754,75 @@ namespace RTC_Vision_Lite.UserControls
                 e.Cancel = true;
             }
         }
+
         private void RTCRangeMax_Validating(object sender, System.ComponentModel.CancelEventArgs e)
         {
-            double dvalue = 0;
-            if (txtRangeMax.Text.ToLower() == "infinity" || txtRangeMin.Text.ToLower() == "inf")
+            string cleanText = txtRangeMax.Text.Trim().ToLower();
+            if (cleanText == "a" || cleanText == "all")
+            {
+                txtRangeMin.Text = "0";
+                txtRangeMax.Text = "inf";
+                e.Cancel = false;
+                return;
+            }
+
+            if (cleanText == "infinity" || cleanText == "inf")
             {
                 if (RTCIsLimit)
                 {
                     SListDouble ldValue = (SListDouble)RTCAction.GetType().GetProperty(RTCValuePropertyName).GetValue(RTCAction, null);
-                    if (ldValue != null && (ldValue.rtcValue == null || (ldValue.rtcValue != null && ldValue.rtcValue.Count >=4 )))
+                    if (ldValue != null && (ldValue.rtcValue != null && ldValue.rtcValue.Count >= 4))
                     {
-                        if (GlobFuncs.Ve2Str(ldValue.rtcValue[3]).ToLower() != "infinity" && 
-                            GlobFuncs.Ve2Str(ldValue.rtcValue[3]).ToLower() != "inf")
+                        string limitMaxStr = GlobFuncs.Ve2Str(ldValue.rtcValue[3]).ToLower();
+                        if (limitMaxStr != "infinity" && limitMaxStr != "inf")
                         {
-                            if (double.TryParse(GlobFuncs.Ve2Str(ldValue.rtcValue[3]), out double dvalueMax))
+                            if (double.TryParse(limitMaxStr, out double dvalueMax))
                             {
                                 txtRangeMax.Text = dvalueMax.ToString();
                                 e.Cancel = false;
                                 return;
-                            }    
-                        }    
-                    }    
-                }    
+                            }
+                        }
+                    }
+                }
+                e.Cancel = false;
+                return;
             }
-            else
+
+            double dvalue = 0;
             if (double.TryParse(txtRangeMax.Text, out dvalue))
             {
                 if (RTCIsLimit)
                 {
                     SListDouble dbValue = (SListDouble)RTCAction.GetType().GetProperty(RTCValuePropertyName).GetValue(RTCAction, null);
-                    if (dbValue != null && (dbValue.rtcValue == null || (dbValue.rtcValue != null && dbValue.rtcValue.Count >= 4)))
+                    if (dbValue != null && (dbValue.rtcValue != null && dbValue.rtcValue.Count >= 4))
                     {
-                        if (GlobFuncs.Ve2Str(dbValue.rtcValue[3]).ToString().ToLower() != "infinity" &&
-                            GlobFuncs.Ve2Str(dbValue.rtcValue[3]).ToString().ToLower() != "inf")
+                        string limitMaxStr = GlobFuncs.Ve2Str(dbValue.rtcValue[3]).ToString().ToLower();
+                        if (limitMaxStr != "infinity" && limitMaxStr != "inf")
                         {
-                            if (double.TryParse(GlobFuncs.Ve2Str(dbValue.rtcValue[3]), out double dvaluemax))
+                            if (double.TryParse(limitMaxStr, out double dvaluemax))
+                            {
                                 if (dvalue > dvaluemax)
                                 {
-                                    txtRangeMin.Text = dvaluemax.ToString();
+                                    txtRangeMax.Text = dvaluemax.ToString();
                                     e.Cancel = false;
                                     return;
-
                                 }
+                            }
                         }
                     }
-
                 }
-                if (dvalue < double.Parse(txtRangeMin.Text))
+
+                string minTextClean = txtRangeMin.Text.Trim().ToLower();
+                if (minTextClean != "infinity" && minTextClean != "inf")
                 {
-                        e.Cancel = true;
+                    if (double.TryParse(txtRangeMin.Text, out double dmin))
+                    {
+                        if (dvalue < dmin)
+                        {
+                            e.Cancel = true;
+                        }
+                    }
                 }
             }
             else

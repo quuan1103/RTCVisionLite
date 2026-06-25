@@ -1,4 +1,4 @@
-﻿using Emgu.CV;
+using Emgu.CV;
 using Emgu.CV.Structure;
 using Emgu.CV.Util;
 using NewPattern;
@@ -2795,6 +2795,14 @@ namespace RTC_Vision_Lite.Classes
             _BlobTool = new Blob_Muilti_ROI.BlobTool();
             var test = GlobVar.GroupActions;
             _BlobTool.InputImage = InputGrayImage.rtcValue?.Clone();
+            try
+            {
+                System.IO.File.WriteAllText(@"C:\Users\laidu\.gemini\antigravity\brain\c41725f0-e1c8-4d13-9590-955e51a04de4\scratch\blob_debug.txt", 
+                    $"InputImage: {InputImage?.rtcValue?.Width}x{InputImage?.rtcValue?.Height}\r\n" +
+                    $"InputGrayImage: {InputGrayImage?.rtcValue?.Width}x{InputGrayImage?.rtcValue?.Height}\r\n" +
+                    $"_BlobTool.InputImage: {_BlobTool.InputImage?.Width}x{_BlobTool.InputImage?.Height}");
+            }
+            catch {}
             //InputGrayImage.rtcValue.Save("D:\\Test.jpg");
             _BlobTool.DetectType = DetectType.rtcValue;
             _BlobTool.GreyLevelThresholdType = GreyLevelThresholdType.rtcValue;
@@ -2903,6 +2911,12 @@ namespace RTC_Vision_Lite.Classes
             Bitmap bitmapImage = null;
             Dictionary<long, RTCRectangle> DataShapes = GlobFuncs.GenShapeList(ShapeList);
             _BlobTool.InputImage = InputGrayImage.rtcValue?.Clone();
+            try
+            {
+                System.IO.File.AppendAllText(@"C:\Users\laidu\.gemini\antigravity\brain\c41725f0-e1c8-4d13-9590-955e51a04de4\scratch\blob_debug.txt",
+                    $"[{DateTime.Now:HH:mm:ss}] Run_BlobMultiROI: InputGrayImage={InputGrayImage.rtcValue?.Width}x{InputGrayImage.rtcValue?.Height}\r\n");
+            }
+            catch {}
             foreach (long key in DataShapes.Keys)
             {
                 DataROI = new List<RTCRectangle>();

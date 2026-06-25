@@ -33,9 +33,9 @@ namespace RTC_Vision_Lite.UserControls
             this.lblRef = new System.Windows.Forms.Label();
             this.btnRemoveLink = new System.Windows.Forms.Button();
             this.lblCaption = new System.Windows.Forms.Label();
-            this.txtValue = new System.Windows.Forms.TextBox();
             this.btnLink = new System.Windows.Forms.Button();
             this.btnGetFolder = new System.Windows.Forms.Button();
+            this.txtValue = new System.Windows.Forms.TextBox();
             this.tlpLink.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -96,17 +96,6 @@ namespace RTC_Vision_Lite.UserControls
             this.lblCaption.Text = "Caption";
             this.lblCaption.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // txtValue
-            // 
-            this.txtValue.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtValue.Location = new System.Drawing.Point(123, 2);
-            this.txtValue.Margin = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.txtValue.MaximumSize = new System.Drawing.Size(1000, 122);
-            this.txtValue.MinimumSize = new System.Drawing.Size(40, 36);
-            this.txtValue.Name = "txtValue";
-            this.txtValue.Size = new System.Drawing.Size(394, 36);
-            this.txtValue.TabIndex = 1;
-            // 
             // btnLink
             // 
             this.btnLink.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -130,6 +119,17 @@ namespace RTC_Vision_Lite.UserControls
             this.btnGetFolder.TabIndex = 3;
             this.btnGetFolder.UseVisualStyleBackColor = true;
             this.btnGetFolder.Click += new System.EventHandler(this.btnGetFolder_Click);
+            // 
+            // txtValue
+            // 
+            this.txtValue.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtValue.Location = new System.Drawing.Point(123, 10);
+            this.txtValue.Margin = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.txtValue.MaximumSize = new System.Drawing.Size(1000, 122);
+            this.txtValue.MinimumSize = new System.Drawing.Size(40, 36);
+            this.txtValue.Name = "txtValue";
+            this.txtValue.Size = new System.Drawing.Size(394, 36);
+            this.txtValue.TabIndex = 1;
             // 
             // ucLink
             // 

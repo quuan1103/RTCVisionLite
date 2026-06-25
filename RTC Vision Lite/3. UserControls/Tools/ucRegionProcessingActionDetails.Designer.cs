@@ -45,23 +45,31 @@ namespace RTC_Vision_Lite.UserControls
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.RTCMaskAngle = new System.Windows.Forms.TextBox();
+            this.label13 = new System.Windows.Forms.Label();
             this.RTCInterations = new System.Windows.Forms.TextBox();
             this.RTCMaskHeight = new System.Windows.Forms.TextBox();
-            this.RTCMaskRadius = new System.Windows.Forms.TextBox();
             this.RTCMaskWidth = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.RTCMaskType = new System.Windows.Forms.ComboBox();
-            this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
+            this.RTCMaskRadius = new System.Windows.Forms.TextBox();
             this.RTCMargin = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.RTCMorphologyType = new System.Windows.Forms.ComboBox();
             this.label19 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.ucImageLink = new RTC_Vision_Lite.UserControls.ucImageLink();
+            this.ucInputRegion = new RTC_Vision_Lite.UserControls.ucImageLink();
+            this.RTCIsMorphology = new System.Windows.Forms.CheckBox();
+            this.RTCIsRegionMath = new System.Windows.Forms.CheckBox();
+            this.RTCIsConnection = new System.Windows.Forms.CheckBox();
+            this.label14 = new System.Windows.Forms.Label();
+            this.RTCRegionMath = new System.Windows.Forms.ComboBox();
+            this.RTCPassed = new System.Windows.Forms.Label();
             this.PageActionSetting.SuspendLayout();
             this.ScrollableGeneral.SuspendLayout();
             this.PageSetup.SuspendLayout();
@@ -80,9 +88,11 @@ namespace RTC_Vision_Lite.UserControls
             // PageActionSetting
             // 
             this.PageActionSetting.Margin = new System.Windows.Forms.Padding(5);
+            this.PageActionSetting.SelectedIndexChanged += new System.EventHandler(this.PageActionSetting_SelectedIndexChanged);
             // 
             // ScrollableGeneral
             // 
+            this.ScrollableGeneral.Controls.Add(this.ucInputRegion);
             this.ScrollableGeneral.Controls.Add(this.ucImageLink);
             this.ScrollableGeneral.Controls.Add(this.ucOrigin1);
             this.ScrollableGeneral.Controls.Add(this.label1);
@@ -119,7 +129,12 @@ namespace RTC_Vision_Lite.UserControls
             // 
             // ScrollableROI
             // 
-            this.ScrollableROI.Controls.Add(this.label6);
+            this.ScrollableROI.Controls.Add(this.RTCPassed);
+            this.ScrollableROI.Controls.Add(this.RTCRegionMath);
+            this.ScrollableROI.Controls.Add(this.label14);
+            this.ScrollableROI.Controls.Add(this.RTCIsConnection);
+            this.ScrollableROI.Controls.Add(this.RTCIsRegionMath);
+            this.ScrollableROI.Controls.Add(this.RTCIsMorphology);
             this.ScrollableROI.Controls.Add(this.label12);
             this.ScrollableROI.Controls.Add(this.groupBox1);
             this.ScrollableROI.Location = new System.Drawing.Point(2, 2);
@@ -211,7 +226,7 @@ namespace RTC_Vision_Lite.UserControls
             this.ucOrigin1.Action = null;
             this.ucOrigin1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.ucOrigin1.Location = new System.Drawing.Point(15, 128);
+            this.ucOrigin1.Location = new System.Drawing.Point(15, 215);
             this.ucOrigin1.Margin = new System.Windows.Forms.Padding(2, 7, 2, 7);
             this.ucOrigin1.Name = "ucOrigin1";
             this.ucOrigin1.PropertyName = "ToolOrigin";
@@ -381,32 +396,51 @@ namespace RTC_Vision_Lite.UserControls
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.RTCMaskAngle);
+            this.groupBox1.Controls.Add(this.label13);
             this.groupBox1.Controls.Add(this.RTCInterations);
             this.groupBox1.Controls.Add(this.RTCMaskHeight);
-            this.groupBox1.Controls.Add(this.RTCMaskRadius);
             this.groupBox1.Controls.Add(this.RTCMaskWidth);
             this.groupBox1.Controls.Add(this.label9);
             this.groupBox1.Controls.Add(this.RTCMaskType);
-            this.groupBox1.Controls.Add(this.label10);
             this.groupBox1.Controls.Add(this.label11);
+            this.groupBox1.Controls.Add(this.RTCMaskRadius);
             this.groupBox1.Controls.Add(this.RTCMargin);
             this.groupBox1.Controls.Add(this.label2);
+            this.groupBox1.Controls.Add(this.label10);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.RTCMorphologyType);
             this.groupBox1.Controls.Add(this.label19);
             this.groupBox1.Controls.Add(this.label18);
-            this.groupBox1.Location = new System.Drawing.Point(19, 36);
+            this.groupBox1.Location = new System.Drawing.Point(19, 67);
             this.groupBox1.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox1.Size = new System.Drawing.Size(551, 127);
+            this.groupBox1.Size = new System.Drawing.Size(528, 127);
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Settings";
             // 
+            // RTCMaskAngle
+            // 
+            this.RTCMaskAngle.Location = new System.Drawing.Point(378, 47);
+            this.RTCMaskAngle.Name = "RTCMaskAngle";
+            this.RTCMaskAngle.Size = new System.Drawing.Size(138, 22);
+            this.RTCMaskAngle.TabIndex = 20;
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Location = new System.Drawing.Point(279, 53);
+            this.label13.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(67, 13);
+            this.label13.TabIndex = 19;
+            this.label13.Text = "Mask Angle";
+            // 
             // RTCInterations
             // 
-            this.RTCInterations.Location = new System.Drawing.Point(402, 69);
+            this.RTCInterations.Location = new System.Drawing.Point(378, 96);
             this.RTCInterations.Name = "RTCInterations";
             this.RTCInterations.Size = new System.Drawing.Size(138, 22);
             this.RTCInterations.TabIndex = 18;
@@ -418,13 +452,6 @@ namespace RTC_Vision_Lite.UserControls
             this.RTCMaskHeight.Size = new System.Drawing.Size(138, 22);
             this.RTCMaskHeight.TabIndex = 17;
             // 
-            // RTCMaskRadius
-            // 
-            this.RTCMaskRadius.Location = new System.Drawing.Point(402, 44);
-            this.RTCMaskRadius.Name = "RTCMaskRadius";
-            this.RTCMaskRadius.Size = new System.Drawing.Size(138, 22);
-            this.RTCMaskRadius.TabIndex = 16;
-            // 
             // RTCMaskWidth
             // 
             this.RTCMaskWidth.Location = new System.Drawing.Point(130, 44);
@@ -435,42 +462,40 @@ namespace RTC_Vision_Lite.UserControls
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(303, 74);
+            this.label9.Location = new System.Drawing.Point(279, 104);
             this.label9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(66, 13);
             this.label9.TabIndex = 14;
             this.label9.Text = "Interations:";
+            this.label9.Click += new System.EventHandler(this.label9_Click);
             // 
             // RTCMaskType
             // 
             this.RTCMaskType.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.RTCMaskType.FormattingEnabled = true;
-            this.RTCMaskType.Location = new System.Drawing.Point(402, 19);
+            this.RTCMaskType.Location = new System.Drawing.Point(378, 19);
             this.RTCMaskType.Margin = new System.Windows.Forms.Padding(2);
             this.RTCMaskType.Name = "RTCMaskType";
             this.RTCMaskType.Size = new System.Drawing.Size(138, 21);
             this.RTCMaskType.TabIndex = 12;
             // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(303, 49);
-            this.label10.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(75, 13);
-            this.label10.TabIndex = 11;
-            this.label10.Text = "Mask Radius:";
-            // 
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(303, 23);
+            this.label11.Location = new System.Drawing.Point(279, 23);
             this.label11.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(62, 13);
             this.label11.TabIndex = 10;
             this.label11.Text = "Mask Type:";
+            // 
+            // RTCMaskRadius
+            // 
+            this.RTCMaskRadius.Location = new System.Drawing.Point(378, 72);
+            this.RTCMaskRadius.Name = "RTCMaskRadius";
+            this.RTCMaskRadius.Size = new System.Drawing.Size(138, 22);
+            this.RTCMaskRadius.TabIndex = 16;
             // 
             // RTCMargin
             // 
@@ -485,12 +510,22 @@ namespace RTC_Vision_Lite.UserControls
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(22, 100);
+            this.label2.Location = new System.Drawing.Point(22, 102);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(72, 13);
             this.label2.TabIndex = 7;
             this.label2.Text = "Margin Type:";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(279, 78);
+            this.label10.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(75, 13);
+            this.label10.TabIndex = 11;
+            this.label10.Text = "Mask Radius:";
             // 
             // label3
             // 
@@ -532,17 +567,6 @@ namespace RTC_Vision_Lite.UserControls
             this.label18.TabIndex = 0;
             this.label18.Text = "Mophology Type";
             // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.ForeColor = System.Drawing.Color.Green;
-            this.label6.Location = new System.Drawing.Point(82, 16);
-            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(42, 13);
-            this.label6.TabIndex = 18;
-            this.label6.Text = "Passed";
-            // 
             // label12
             // 
             this.label12.AutoSize = true;
@@ -564,6 +588,86 @@ namespace RTC_Vision_Lite.UserControls
             this.ucImageLink.PropertyName = "InputImage";
             this.ucImageLink.Size = new System.Drawing.Size(683, 75);
             this.ucImageLink.TabIndex = 16;
+            // 
+            // ucInputRegion
+            // 
+            this.ucInputRegion.Action = null;
+            this.ucInputRegion.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.ucInputRegion.Caption = "Input Region";
+            this.ucInputRegion.Location = new System.Drawing.Point(15, 130);
+            this.ucInputRegion.Name = "ucInputRegion";
+            this.ucInputRegion.PropertyName = "InputRegion";
+            this.ucInputRegion.Size = new System.Drawing.Size(683, 75);
+            this.ucInputRegion.TabIndex = 17;
+            // 
+            // RTCIsMorphology
+            // 
+            this.RTCIsMorphology.AutoSize = true;
+            this.RTCIsMorphology.Location = new System.Drawing.Point(19, 39);
+            this.RTCIsMorphology.Name = "RTCIsMorphology";
+            this.RTCIsMorphology.Size = new System.Drawing.Size(128, 17);
+            this.RTCIsMorphology.TabIndex = 19;
+            this.RTCIsMorphology.Text = "Enable Morphology";
+            this.RTCIsMorphology.UseVisualStyleBackColor = true;
+            // 
+            // RTCIsRegionMath
+            // 
+            this.RTCIsRegionMath.AutoSize = true;
+            this.RTCIsRegionMath.Location = new System.Drawing.Point(150, 208);
+            this.RTCIsRegionMath.Name = "RTCIsRegionMath";
+            this.RTCIsRegionMath.Size = new System.Drawing.Size(131, 17);
+            this.RTCIsRegionMath.TabIndex = 20;
+            this.RTCIsRegionMath.Text = "Enable Region Math";
+            this.RTCIsRegionMath.UseVisualStyleBackColor = true;
+            // 
+            // RTCIsConnection
+            // 
+            this.RTCIsConnection.AutoSize = true;
+            this.RTCIsConnection.Location = new System.Drawing.Point(20, 208);
+            this.RTCIsConnection.Name = "RTCIsConnection";
+            this.RTCIsConnection.Size = new System.Drawing.Size(124, 17);
+            this.RTCIsConnection.TabIndex = 21;
+            this.RTCIsConnection.Text = "Enable Connection";
+            this.RTCIsConnection.UseVisualStyleBackColor = true;
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Location = new System.Drawing.Point(298, 208);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(74, 13);
+            this.label14.TabIndex = 22;
+            this.label14.Text = "Region Math";
+            // 
+            // RTCRegionMath
+            // 
+            this.RTCRegionMath.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.RTCRegionMath.FormattingEnabled = true;
+            this.RTCRegionMath.Items.AddRange(new object[] {
+            "union1",
+            "union2",
+            "difference",
+            "intersection",
+            "sketelon",
+            "fillup",
+            "concat",
+            "shape_trans"});
+            this.RTCRegionMath.Location = new System.Drawing.Point(397, 204);
+            this.RTCRegionMath.Name = "RTCRegionMath";
+            this.RTCRegionMath.Size = new System.Drawing.Size(138, 21);
+            this.RTCRegionMath.TabIndex = 23;
+            // 
+            // RTCPassed
+            // 
+            this.RTCPassed.AutoSize = true;
+            this.RTCPassed.ForeColor = System.Drawing.Color.Green;
+            this.RTCPassed.Location = new System.Drawing.Point(91, 16);
+            this.RTCPassed.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.RTCPassed.Name = "RTCPassed";
+            this.RTCPassed.Size = new System.Drawing.Size(42, 13);
+            this.RTCPassed.TabIndex = 24;
+            this.RTCPassed.Text = "Passed";
             // 
             // ucRegionProcessingActionDetails
             // 
@@ -624,8 +728,16 @@ namespace RTC_Vision_Lite.UserControls
         private System.Windows.Forms.TextBox RTCMaskHeight;
         private System.Windows.Forms.TextBox RTCMaskRadius;
         private System.Windows.Forms.TextBox RTCMaskWidth;
-        private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label12;
         private ucImageLink ucImageLink;
+        private ucImageLink ucInputRegion;
+        private System.Windows.Forms.CheckBox RTCIsMorphology;
+        private System.Windows.Forms.CheckBox RTCIsConnection;
+        private System.Windows.Forms.CheckBox RTCIsRegionMath;
+        private System.Windows.Forms.TextBox RTCMaskAngle;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.ComboBox RTCRegionMath;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Label RTCPassed;
     }
 }

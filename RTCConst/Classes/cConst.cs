@@ -1389,7 +1389,7 @@ namespace RTCConst
     public class cBlobTool
     {
         public const string GreyLevelThresholdType_BrightPixels = "AutoThreshold Contrasting Bright Pixels";
-        public const string GreyLevelThresholdType_DarkPixels = "AutoThreshold Constrasting Dark Pixels";
+        public const string GreyLevelThresholdType_DarkPixels = "AutoThreshold Contrasting Dark Pixels";
         public const string GreyLevelThresholdType_FixedThresholdRange = "Fixed Threshold Range";
 
         public const string DectectType_DetectInRangeBlobs = "Detect In Range Blobs";

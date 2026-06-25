@@ -1,0 +1,12 @@
+2026-06-10 15:44:21.2315 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Bitmap..ctor(String filename)
+   at RTC_Vision_Lite.UserControls.ucMainActions.GetCurrentImgIndex(DataGridViewRow row) in E:\01.RTCVision Lite\RTC Vision Lite\3. UserControls\Tools\ucMainActions.cs:line 478
+2026-06-10 15:44:46.6344 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Bitmap..ctor(String filename)
+   at RTC_Vision_Lite.UserControls.ucMainActions.GetCurrentImgIndex(DataGridViewRow row) in E:\01.RTCVision Lite\RTC Vision Lite\3. UserControls\Tools\ucMainActions.cs:line 478
+2026-06-10 15:44:49.2212 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Bitmap..ctor(String filename)
+   at RTC_Vision_Lite.UserControls.ucMainActions.GetCurrentImgIndex(DataGridViewRow row) in E:\01.RTCVision Lite\RTC Vision Lite\3. UserControls\Tools\ucMainActions.cs:line 478

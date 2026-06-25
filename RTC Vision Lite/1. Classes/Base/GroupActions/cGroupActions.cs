@@ -1,4 +1,4 @@
-﻿using Emgu.CV.Structure;
+using Emgu.CV.Structure;
 using Emgu.CV;
 using RTC_Vision_Lite.Forms;
 using RTC_Vision_Lite.Properties;
@@ -830,6 +830,21 @@ namespace RTC_Vision_Lite.Classes
                     GetValueToVariableIsRef_Properties(action);
                     GetValueToVariableIsRef_Expression(action);
                 }
+
+                if (action.InputImage != null && action.InputImage.rtcValue != null && action.InputImage.rtcIDRef != Guid.Empty && action.InputImage.rtcIDRef != IDMainAction)
+                {
+                    if (action.InputBgrImage != null)
+                    {
+                        action.InputBgrImage.rtcValue?.Dispose();
+                        action.InputBgrImage.rtcValue = GlobFuncs.BitmapToBgrImage(new Bitmap(action.InputImage.rtcValue));
+                    }
+                    if (action.InputGrayImage != null)
+                    {
+                        action.InputGrayImage.rtcValue?.Dispose();
+                        action.InputGrayImage.rtcValue = GlobFuncs.BitmapToGrayImage(new Bitmap(action.InputImage.rtcValue));
+                    }
+                }
+
                 return true;
             }
             catch (Exception ex)
@@ -911,6 +926,40 @@ namespace RTC_Vision_Lite.Classes
 
         private void GetValueToVariableIsRef_Properties(cAction action)
         {
+            if (action.ActionType != EActionTypes.MainAction)
+            {
+                if (action.InputImage != null && action.InputImage.rtcIDRef != action.MyGroup.IDMainAction && action.InputImage.rtcIDRef != Guid.Empty)
+                {
+                    if (action.InputBgrImage != null && (action.InputBgrImage.rtcIDRef == action.MyGroup.IDMainAction || action.InputBgrImage.rtcIDRef == Guid.Empty))
+                    {
+                        action.InputBgrImage.rtcIDRef = action.InputImage.rtcIDRef;
+                        action.InputBgrImage.rtcPropNameRef = action.InputImage.rtcPropNameRef;
+                        action.InputBgrImage.rtcRef = action.InputImage.rtcRef;
+                    }
+                    if (action.InputGrayImage != null && (action.InputGrayImage.rtcIDRef == action.MyGroup.IDMainAction || action.InputGrayImage.rtcIDRef == Guid.Empty))
+                    {
+                        action.InputGrayImage.rtcIDRef = action.InputImage.rtcIDRef;
+                        action.InputGrayImage.rtcPropNameRef = action.InputImage.rtcPropNameRef;
+                        action.InputGrayImage.rtcRef = action.InputImage.rtcRef;
+                    }
+                }
+                if (action.InputImage2 != null && action.InputImage2.rtcIDRef != action.MyGroup.IDMainAction && action.InputImage2.rtcIDRef != Guid.Empty)
+                {
+                    if (action.InputBgrImage2 != null && (action.InputBgrImage2.rtcIDRef == action.MyGroup.IDMainAction || action.InputBgrImage2.rtcIDRef == Guid.Empty))
+                    {
+                        action.InputBgrImage2.rtcIDRef = action.InputImage2.rtcIDRef;
+                        action.InputBgrImage2.rtcPropNameRef = action.InputImage2.rtcPropNameRef;
+                        action.InputBgrImage2.rtcRef = action.InputImage2.rtcRef;
+                    }
+                    if (action.InputGrayImage2 != null && (action.InputGrayImage2.rtcIDRef == action.MyGroup.IDMainAction || action.InputGrayImage2.rtcIDRef == Guid.Empty))
+                    {
+                        action.InputGrayImage2.rtcIDRef = action.InputImage2.rtcIDRef;
+                        action.InputGrayImage2.rtcPropNameRef = action.InputImage2.rtcPropNameRef;
+                        action.InputGrayImage2.rtcRef = action.InputImage2.rtcRef;
+                    }
+                }
+            }
+
             List<PropertyInfo> propertyHaveRefs = null;
             if (RunSimple && AllPropertyParentRef != null)
                 AllPropertyHaveRef.TryGetValue(action.ID, out propertyHaveRefs);
@@ -940,35 +989,65 @@ namespace RTC_Vision_Lite.Classes
                         GetProperty(variableTypeDes.rtcPropNameRef)?.GetValue(Actions[variableTypeDes.rtcIDRef], null);
                     PropertyInfo propertyInfoSrc = Actions[variableTypeDes.rtcIDRef].GetType()
                         .GetProperty(variableTypeDes.rtcPropNameRef);
-                    if (variableTypeSrc.rtcIsIconic && variableTypeDes.rtcIsIconic) // cả 2 thuộc tính đều là iconnic
+                    if (variableTypeSrc.rtcIsIconic && variableTypeDes.rtcIsIconic) // cả 2 thuộc tính đều là iconic
                     {
-                        if (propertyInfoSrc.PropertyType == typeof(SImage) &&
-                            propertyInfoDes.PropertyType == typeof(SImage))
+                        object srcVal = Refvalues.ContainsKey(sKey) ? Refvalues[sKey] : null;
+                        if (srcVal != null)
                         {
-                            if (Refvalues[sKey] != null)
-
-                                PropValue.SetValue(variableTypeDes, ((Image)Refvalues[sKey]).Clone());
-
-                            continue;
-                            //GlobFuncs.GetValueFromSImageByIndex())
-                            //return;
-                        }
-                        else if (propertyInfoDes.PropertyType == propertyInfoDes.PropertyType)
-                            switch (propertyInfoSrc.PropertyType.Name)
+                            try
                             {
-                                case nameof(SGrayImage):
+                                if (propertyInfoDes.PropertyType == typeof(SImage))
+                                {
+                                    if (srcVal is Image sysImg)
                                     {
-                                        PropValue.SetValue(variableTypeDes, (Image<Gray, byte>)Refvalues[sKey]);
-                                        break;
+                                        PropValue.SetValue(variableTypeDes, sysImg.Clone());
                                     }
-                                case nameof(SBgrImage):
+                                    else if (srcVal is Image<Bgr, byte> bgrImg)
                                     {
-                                        PropValue.SetValue(variableTypeDes, (Image<Bgr, byte>)Refvalues[sKey]);
-                                        break;
+                                        PropValue.SetValue(variableTypeDes, bgrImg.ToBitmap());
                                     }
-
+                                    else if (srcVal is Image<Gray, byte> grayImg)
+                                    {
+                                        PropValue.SetValue(variableTypeDes, grayImg.ToBitmap());
+                                    }
+                                }
+                                else if (propertyInfoDes.PropertyType == typeof(SBgrImage))
+                                {
+                                    if (srcVal is Image<Bgr, byte> bgrImg)
+                                    {
+                                        PropValue.SetValue(variableTypeDes, bgrImg.Clone());
+                                    }
+                                    else if (srcVal is Image<Gray, byte> grayImg)
+                                    {
+                                        PropValue.SetValue(variableTypeDes, grayImg.Convert<Bgr, byte>());
+                                    }
+                                    else if (srcVal is Image sysImg)
+                                    {
+                                        PropValue.SetValue(variableTypeDes, GlobFuncs.BitmapToBgrImage(new Bitmap(sysImg)));
+                                    }
+                                }
+                                else if (propertyInfoDes.PropertyType == typeof(SGrayImage))
+                                {
+                                    if (srcVal is Image<Gray, byte> grayImg)
+                                    {
+                                        PropValue.SetValue(variableTypeDes, grayImg.Clone());
+                                    }
+                                    else if (srcVal is Image<Bgr, byte> bgrImg)
+                                    {
+                                        PropValue.SetValue(variableTypeDes, bgrImg.Convert<Gray, byte>());
+                                    }
+                                    else if (srcVal is Image sysImg)
+                                    {
+                                        PropValue.SetValue(variableTypeDes, GlobFuncs.BitmapToGrayImage(new Bitmap(sysImg)));
+                                    }
+                                }
                             }
-
+                            catch (Exception ex)
+                            {
+                                GlobFuncs.SaveErr(ex);
+                            }
+                        }
+                        continue;
                     }
                     else if (!variableTypeDes.rtcIsIconic && !variableTypeSrc.rtcIsIconic)
                     {
@@ -1273,19 +1352,71 @@ namespace RTC_Vision_Lite.Classes
                 }
                 else
                 {
-                    var tesstt = value.GetType().FullName;
-                    switch (value)
+                    bool isDoubleList = false;
+                    switch (sbItem.ValueStyle)
                     {
-                        case List<string> listString:
-                            sbItem.ListStringValue = listString;
+                        case EHTupleStyle.PointList:
+                        case EHTupleStyle.Rectangle:
+                        case EHTupleStyle.Origin:
+                        case EHTupleStyle.OriginList:
+                        case EHTupleStyle.RectangleList:
+                        case EHTupleStyle.Point:
+                        case EHTupleStyle.Integer:
+                        case EHTupleStyle.IntegerList:
+                        case EHTupleStyle.Real:
+                        case EHTupleStyle.RealList:
+                            isDoubleList = true;
                             break;
+                    }
 
-                        case List<double> listDouble:
+                    if (isDoubleList)
+                    {
+                        if (value is List<double> listDouble)
+                        {
                             sbItem.ListDoubleValue = listDouble;
-                            break;
-                        default:
-                            sbItem.ListStringValue = (List<string>)value;
-                            break;
+                        }
+                        else if (value is System.Collections.IEnumerable enumerable && !(value is string))
+                        {
+                            var list = new List<double>();
+                            foreach (var item in enumerable)
+                            {
+                                if (item != null)
+                                {
+                                    if (double.TryParse(item.ToString(), System.Globalization.NumberStyles.Any, System.Globalization.CultureInfo.InvariantCulture, out double dVal))
+                                        list.Add(dVal);
+                                    else
+                                        list.Add(0.0);
+                                }
+                            }
+                            sbItem.ListDoubleValue = list;
+                        }
+                        else
+                        {
+                            if (double.TryParse(value.ToString(), System.Globalization.NumberStyles.Any, System.Globalization.CultureInfo.InvariantCulture, out double dVal))
+                                sbItem.ListDoubleValue = new List<double> { dVal };
+                            else
+                                sbItem.ListDoubleValue = new List<double> { 0.0 };
+                        }
+                    }
+                    else
+                    {
+                        if (value is List<string> listString)
+                        {
+                            sbItem.ListStringValue = listString;
+                        }
+                        else if (value is System.Collections.IEnumerable enumerable && !(value is string))
+                        {
+                            var list = new List<string>();
+                            foreach (var item in enumerable)
+                            {
+                                list.Add(item?.ToString() ?? string.Empty);
+                            }
+                            sbItem.ListStringValue = list;
+                        }
+                        else
+                        {
+                            sbItem.ListStringValue = new List<string> { value.ToString() };
+                        }
                     }
                 }
             }

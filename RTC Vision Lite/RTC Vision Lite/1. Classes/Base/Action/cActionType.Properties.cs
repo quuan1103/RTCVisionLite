@@ -1,4 +1,4 @@
-﻿using ActUtlType64Lib;
+using ActUtlType64Lib;
 using BrightIdeasSoftware;
 using CommonTools;
 using Emgu.CV;
@@ -143,9 +143,36 @@ namespace RTC_Vision_Lite.Classes
             {
                 if (MyGroup.Actions.TryGetValue(InputImage.rtcIDRef, out cAction sourceAction))
                 {
-                    RTCVariableType sourceImagePropInfo = (RTCVariableType)sourceAction.GetType().GetProperty(InputImage.rtcPropNameRef)?.GetValue(sourceAction, null);
-                    InputImage.rtcValue = (Image)sourceImagePropInfo?.GetType().GetProperty(cPropertyName.rtcValue)
-                        ?.GetValue(sourceImagePropInfo, null);
+                    if (sourceAction.ActionType == EActionTypes.ImageSplit &&
+                        !string.IsNullOrEmpty(InputImage.rtcRefIndex) &&
+                        int.TryParse(InputImage.rtcRefIndex, out int splitIdx))
+                    {
+                        if (sourceAction.SplitImage != null &&
+                            sourceAction.SplitImage.OutputImage != null &&
+                            splitIdx >= 1 &&
+                            splitIdx <= sourceAction.SplitImage.OutputImage.Count)
+                        {
+                            InputImage.rtcValue = (Image)sourceAction.SplitImage.OutputImage[splitIdx - 1].Clone();
+                        }
+                    }
+
+                    if (InputImage.rtcValue == null)
+                    {
+                        RTCVariableType sourceImagePropInfo = (RTCVariableType)sourceAction.GetType().GetProperty(InputImage.rtcPropNameRef)?.GetValue(sourceAction, null);
+                        InputImage.rtcValue = (Image)sourceImagePropInfo?.GetType().GetProperty(cPropertyName.rtcValue)
+                            ?.GetValue(sourceImagePropInfo, null);
+                    }
+                }
+            }
+            if (InputImage.rtcValue != null)
+            {
+                if (InputGrayImage != null)
+                {
+                    InputGrayImage.rtcValue = GlobFuncs.BitmapToGrayImage(new Bitmap(InputImage.rtcValue));
+                }
+                if (InputBgrImage != null)
+                {
+                    InputBgrImage.rtcValue = GlobFuncs.BitmapToBgrImage(new Bitmap(InputImage.rtcValue));
                 }
             }
             //InputImage.rtcActive = null;

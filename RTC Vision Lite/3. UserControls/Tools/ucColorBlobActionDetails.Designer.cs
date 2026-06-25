@@ -1,4 +1,4 @@
-﻿
+
 namespace RTC_Vision_Lite.UserControls
 {
     partial class ucColorBlobActionDetails
@@ -48,7 +48,6 @@ namespace RTC_Vision_Lite.UserControls
             this.ucRangeMaxMinWidth = new RTC_Vision_Lite.UserControls.ucRangeMaxMin();
             this.RTCPassed = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
@@ -118,7 +117,6 @@ namespace RTC_Vision_Lite.UserControls
             // 
             // ScrollablePassFail
             // 
-            this.ScrollablePassFail.Controls.Add(this.label2);
             this.ScrollablePassFail.Controls.Add(this.groupBox9);
             this.ScrollablePassFail.Controls.Add(this.label3);
             this.ScrollablePassFail.Controls.Add(this.groupBox7);
@@ -502,7 +500,7 @@ namespace RTC_Vision_Lite.UserControls
             // 
             this.RTCPassed.AutoSize = true;
             this.RTCPassed.ForeColor = System.Drawing.Color.Green;
-            this.RTCPassed.Location = new System.Drawing.Point(308, -21);
+            this.RTCPassed.Location = new System.Drawing.Point(94, 16);
             this.RTCPassed.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.RTCPassed.Name = "RTCPassed";
             this.RTCPassed.Size = new System.Drawing.Size(42, 13);
@@ -518,17 +516,6 @@ namespace RTC_Vision_Lite.UserControls
             this.label6.Size = new System.Drawing.Size(54, 13);
             this.label6.TabIndex = 6;
             this.label6.Text = "Pass/Fail:";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.ForeColor = System.Drawing.Color.Green;
-            this.label2.Location = new System.Drawing.Point(82, 16);
-            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(42, 13);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "Passed";
             // 
             // label3
             // 
@@ -811,6 +798,7 @@ namespace RTC_Vision_Lite.UserControls
             this.RTCColorSpace.Name = "RTCColorSpace";
             this.RTCColorSpace.Size = new System.Drawing.Size(192, 21);
             this.RTCColorSpace.TabIndex = 3;
+            this.RTCColorSpace.SelectedIndexChanged += new System.EventHandler(this.RTCColorSpace_SelectedIndexChanged);
             // 
             // RTCFillHoles
             // 
@@ -884,7 +872,6 @@ namespace RTC_Vision_Lite.UserControls
         private ucRangeMaxMin ucRangeMaxMinWidth;
         private System.Windows.Forms.Label RTCPassed;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.ComboBox RTCColorSpace;
         private System.Windows.Forms.GroupBox groupBox1;

@@ -18,14 +18,6 @@ namespace RTC_Vision_Lite.UserControls
             InitializeComponent();
         }
         
-        private void RTCTrainPressed_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btnRunMultiROI_Click(object sender, EventArgs e)
-        {
-
-        }
+       
     }
 }

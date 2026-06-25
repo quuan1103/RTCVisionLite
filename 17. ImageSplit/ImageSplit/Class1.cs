@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Linq;
@@ -187,8 +187,9 @@ namespace ImageSplit
                                     if (_isImageColor)
                                     {
                                         Image<Bgr, byte> img = _inputImageColor.Clone();
-                                        CvInvoke.Multiply(img, blackImage, img);
-                                        img = img.GetSubRect(boundingBox);
+                                        using (var maskBgr = blackImage.Convert<Bgr, byte>())
+                                            CvInvoke.Multiply(img, maskBgr, img);
+                                        img = img.GetSubRect(boundingBox).Clone();
                                         _outputListImage.Add(img.ToBitmap());
                                         if (_isShowImageResult)
                                         {
@@ -199,7 +200,7 @@ namespace ImageSplit
                                     {
                                         Image<Gray, byte> img = _inputImageGray.Clone();
                                         CvInvoke.Multiply(img, blackImage, img);
-                                        img = img.GetSubRect(boundingBox);
+                                        img = img.GetSubRect(boundingBox).Clone();
                                         _outputListImage.Add(img.ToBitmap());
                                         if (_isShowImageResult)
                                         {
@@ -237,7 +238,7 @@ namespace ImageSplit
                                             CvInvoke.DrawContours(blackImage, lcontour, -1, new MCvScalar(1,1,1), -1);
                                             Image<Bgr, byte> img = _inputImageColor.Clone();
                                             CvInvoke.Multiply(img, blackImage, img);
-                                            img = img.GetSubRect(boundingBox);
+                                            img = img.GetSubRect(boundingBox).Clone();
                                             _outputListImage.Add(img.ToBitmap());
                                         }
                                         else
@@ -246,7 +247,7 @@ namespace ImageSplit
                                             CvInvoke.DrawContours(blackImage, lcontour, -1, new MCvScalar(1), -1);
                                             Image<Gray, byte> img = _inputImageGray.Clone();
                                             CvInvoke.Multiply(img, blackImage, img);
-                                            img = img.GetSubRect(boundingBox);
+                                            img = img.GetSubRect(boundingBox).Clone();
                                             _outputListImage.Add(img.ToBitmap());
                                         }
                                         lcontourshow.Push(contour);
@@ -268,7 +269,7 @@ namespace ImageSplit
                                             CvInvoke.DrawContours(blackImage, lcontourshow, -1, new MCvScalar(1, 1, 1), -1);
                                             Image<Bgr, byte> img = _inputImageColor.Clone();
                                             CvInvoke.Multiply(img, blackImage, img);
-                                            img = img.GetSubRect(boundingBoxShow);
+                                            img = img.GetSubRect(boundingBoxShow).Clone();
                                             if (_isShowImageResult)
                                             {
                                                 _outputImageShow = img.ToBitmap();
@@ -280,7 +281,7 @@ namespace ImageSplit
                                             CvInvoke.DrawContours(blackImage, lcontourshow, -1, new MCvScalar(1), -1);
                                             Image<Gray, byte> img = _inputImageGray.Clone();
                                             CvInvoke.Multiply(img, blackImage, img);
-                                            img = img.GetSubRect(boundingBoxShow);
+                                            img = img.GetSubRect(boundingBoxShow).Clone();
                                             if (_isShowImageResult)
                                             {
                                                 _outputImageShow = img.ToBitmap();
@@ -314,7 +315,8 @@ namespace ImageSplit
                                     if (_isImageColor)
                                     {
                                         Image<Bgr, byte> img = _inputImageColor.Clone();
-                                        CvInvoke.Multiply(img, blackImage, img);
+                                        using (var maskBgr = blackImage.Convert<Bgr, byte>())
+                                            CvInvoke.Multiply(img, maskBgr, img);
                                         _outputListImage.Add(img.ToBitmap());
                                         if (_isShowImageResult)
                                         {
@@ -334,9 +336,9 @@ namespace ImageSplit
                                 }
                                 else
                                 {
-                                    var blackImage = new Image<Gray, byte>(imgWidth, imgHeight, new Gray(0));
                                     for (int i = 0; i < _inSetOrigin.Count; i++)
                                     {
+                                        var blackImage = new Image<Gray, byte>(imgWidth, imgHeight, new Gray(0));
                                         VectorOfVectorOfPoint lcontour = new VectorOfVectorOfPoint();
                                         PointF[] points = new PointF[4];
                                         for (int j = 0; j < 4; j++)
@@ -351,7 +353,8 @@ namespace ImageSplit
                                         if (_isImageColor)
                                         {
                                             Image<Bgr, byte> img = _inputImageColor.Clone();
-                                            CvInvoke.Multiply(img, blackImage, img);
+                                            using (var maskBgr = blackImage.Convert<Bgr, byte>())
+                                                CvInvoke.Multiply(img, maskBgr, img);
                                             _outputListImage.Add(img.ToBitmap());
                                             if (_isShowImageResult)
                                             {
@@ -368,6 +371,7 @@ namespace ImageSplit
                                                 _outputImageShow = img.ToBitmap();
                                             }
                                         }
+                                        blackImage.Dispose();
                                     }
 
                                 }
@@ -409,7 +413,7 @@ namespace ImageSplit
                                 Rectangle rec = new Rectangle(0, 0, _colNumber, _rowNumber);
                                 if (_isImageColor)
                                 {
-                                    Image<Bgr, byte> img = _inputImageColor.GetSubRect(rec);
+                                    Image<Bgr, byte> img = _inputImageColor.GetSubRect(rec).Clone();
                                     _outputListImage.Add(img.ToBitmap());
                                     if (_isShowImageResult)
                                     {
@@ -418,7 +422,7 @@ namespace ImageSplit
                                 }
                                 else
                                 {
-                                    Image<Gray, byte> img = _inputImageGray.GetSubRect(rec);
+                                    Image<Gray, byte> img = _inputImageGray.GetSubRect(rec).Clone();
                                     _outputListImage.Add(img.ToBitmap());
                                     if (_isShowImageResult)
                                     {
@@ -435,7 +439,8 @@ namespace ImageSplit
                                 if (_isImageColor)
                                 {
                                     Image<Bgr, byte> img = _inputImageColor.Clone();
-                                    CvInvoke.Multiply(img, blackImage, img);
+                                    using (var maskBgr = blackImage.Convert<Bgr, byte>())
+                                        CvInvoke.Multiply(img, maskBgr, img);
                                     _outputListImage.Add(img.ToBitmap());
                                     if (_isShowImageResult)
                                     {
@@ -503,8 +508,9 @@ namespace ImageSplit
                                     boundingBox = Rectangle.Union(boundingBox, rect);
                                 }
                             }
-                            CvInvoke.Multiply(img, blackImage, img);
-                            img = img.GetSubRect(boundingBox);
+                            using (var maskBgr = blackImage.Convert<Bgr, byte>())
+                                CvInvoke.Multiply(img, maskBgr, img);
+                            img = img.GetSubRect(boundingBox).Clone();
                             _outputListImage.Add(img.ToBitmap());
                             if (_isShowImageResult)
                             {
@@ -529,7 +535,7 @@ namespace ImageSplit
                                 }
                             }
                             CvInvoke.Multiply(img, blackImage, img);
-                            img = img.GetSubRect(boundingBox);
+                            img = img.GetSubRect(boundingBox).Clone();
                             _outputListImage.Add(img.ToBitmap());
                             if (_isShowImageResult)
                             {
@@ -548,7 +554,8 @@ namespace ImageSplit
                             {
                                 CvInvoke.DrawContours(blackImage, _inputRegion[i], -1, new MCvScalar(1), -1);
                             }
-                            CvInvoke.Multiply(img, blackImage, img);
+                            using (var maskBgr = blackImage.Convert<Bgr, byte>())
+                                CvInvoke.Multiply(img, maskBgr, img);
                             _outputListImage.Add(img.ToBitmap());
                             if (_isShowImageResult)
                             {

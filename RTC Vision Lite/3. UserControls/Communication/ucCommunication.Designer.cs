@@ -133,7 +133,7 @@ namespace RTC_Vision_Lite.UserControls
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(727, 251);
+            this.panel2.Size = new System.Drawing.Size(483, 251);
             this.panel2.TabIndex = 1;
             // 
             // groupBox3
@@ -144,7 +144,7 @@ namespace RTC_Vision_Lite.UserControls
             this.groupBox3.ForeColor = System.Drawing.Color.White;
             this.groupBox3.Location = new System.Drawing.Point(480, 0);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(247, 251);
+            this.groupBox3.Size = new System.Drawing.Size(3, 251);
             this.groupBox3.TabIndex = 3;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Directions";
@@ -155,7 +155,7 @@ namespace RTC_Vision_Lite.UserControls
             this.label5.ForeColor = System.Drawing.Color.White;
             this.label5.Location = new System.Drawing.Point(3, 162);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(241, 86);
+            this.label5.Size = new System.Drawing.Size(0, 86);
             this.label5.TabIndex = 1;
             this.label5.Text = "After selecting communication, you can edit the information to communicate with t" +
     "he device.";
@@ -166,7 +166,7 @@ namespace RTC_Vision_Lite.UserControls
             this.label4.ForeColor = System.Drawing.Color.White;
             this.label4.Location = new System.Drawing.Point(3, 16);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(241, 146);
+            this.label4.Size = new System.Drawing.Size(0, 146);
             this.label4.TabIndex = 0;
             this.label4.Text = resources.GetString("label4.Text");
             this.label4.Visible = false;
@@ -290,7 +290,7 @@ namespace RTC_Vision_Lite.UserControls
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel3.Location = new System.Drawing.Point(0, 251);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(727, 231);
+            this.panel3.Size = new System.Drawing.Size(483, 7);
             this.panel3.TabIndex = 2;
             // 
             // ucCommunication
@@ -300,7 +300,7 @@ namespace RTC_Vision_Lite.UserControls
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
             this.Name = "ucCommunication";
-            this.Size = new System.Drawing.Size(727, 482);
+            this.Size = new System.Drawing.Size(483, 258);
             this.groupBox1.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

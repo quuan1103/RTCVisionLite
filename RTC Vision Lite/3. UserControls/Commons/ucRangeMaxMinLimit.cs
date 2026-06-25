@@ -1,4 +1,4 @@
-﻿using RTC_Vision_Lite.Classes;
+using RTC_Vision_Lite.Classes;
 using RTC_Vision_Lite.PublicFunctions;
 using System;
 using System.Collections.Generic;
@@ -159,7 +159,7 @@ namespace RTC_Vision_Lite.UserControls
                     return;
                 }
                 SListDouble rtcvar = (SListDouble)RTCAction.GetType().GetProperty(_RTCPropertyName).GetValue(RTCAction, null);
-                if( rtcvar != null && rtcvar.rtcValue != null)
+                if( rtcvar != null && rtcvar.rtcValue != null && rtcvar.rtcValue.Count >= 4)
                 {
                     RTCBeginValue = rtcvar.rtcValue[0];
                     RTCEndValue = rtcvar.rtcValue[1];
@@ -296,8 +296,11 @@ namespace RTC_Vision_Lite.UserControls
             RTCE_SValueChangeEventArgs eRTC = new RTCE_SValueChangeEventArgs();
             eRTC.PropertyName = RTCPropertyName;
             SListDouble ldValue = (SListDouble)RTCAction.GetType().GetProperty(RTCPropertyName).GetValue(RTCAction, null);
-            ldValue.rtcValue[0] = minVal;
-            ldValue.rtcValue[1] = maxVal;
+            if (ldValue != null && ldValue.rtcValue != null && ldValue.rtcValue.Count >= 2)
+            {
+                ldValue.rtcValue[0] = minVal;
+                ldValue.rtcValue[1] = maxVal;
+            }
             eRTC.Value = ldValue;
             if (OnValueChangeEvents != null )
             {

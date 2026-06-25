@@ -133,9 +133,8 @@ namespace RTC_Vision_Lite.Forms
             this.pnlMainMenu.Controls.Add(this.picLogo);
             this.pnlMainMenu.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnlMainMenu.Location = new System.Drawing.Point(0, 0);
-            this.pnlMainMenu.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pnlMainMenu.Name = "pnlMainMenu";
-            this.pnlMainMenu.Size = new System.Drawing.Size(1832, 68);
+            this.pnlMainMenu.Size = new System.Drawing.Size(1374, 55);
             this.pnlMainMenu.TabIndex = 0;
             // 
             // panel2
@@ -143,10 +142,9 @@ namespace RTC_Vision_Lite.Forms
             this.panel2.Controls.Add(this.barTools);
             this.panel2.Controls.Add(this.panel1);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel2.Location = new System.Drawing.Point(164, 0);
-            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel2.Location = new System.Drawing.Point(123, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1668, 68);
+            this.panel2.Size = new System.Drawing.Size(1251, 55);
             this.panel2.TabIndex = 1;
             // 
             // barTools
@@ -170,10 +168,9 @@ namespace RTC_Vision_Lite.Forms
             this.mnuStop,
             this.mnuCleanWindow,
             this.mnuCleanImage});
-            this.barTools.Location = new System.Drawing.Point(0, 39);
+            this.barTools.Location = new System.Drawing.Point(0, 32);
             this.barTools.Name = "barTools";
-            this.barTools.Padding = new System.Windows.Forms.Padding(8, 2, 0, 2);
-            this.barTools.Size = new System.Drawing.Size(1668, 27);
+            this.barTools.Size = new System.Drawing.Size(1251, 27);
             this.barTools.TabIndex = 7;
             this.barTools.Text = "menuStrip2";
             this.barTools.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.barTools_ItemClicked);
@@ -190,7 +187,7 @@ namespace RTC_Vision_Lite.Forms
             this.cbProjects1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbProjects1.FlatStyle = System.Windows.Forms.FlatStyle.Standard;
             this.cbProjects1.Name = "cbProjects1";
-            this.cbProjects1.Size = new System.Drawing.Size(199, 23);
+            this.cbProjects1.Size = new System.Drawing.Size(150, 23);
             this.cbProjects1.SelectedIndexChanged += new System.EventHandler(this.cbProjects1_SelectedIndexChanged);
             // 
             // mnuRefeshProjectList
@@ -210,7 +207,7 @@ namespace RTC_Vision_Lite.Forms
             this.cbProjects.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbProjects.FlatStyle = System.Windows.Forms.FlatStyle.Standard;
             this.cbProjects.Name = "cbProjects";
-            this.cbProjects.Size = new System.Drawing.Size(99, 23);
+            this.cbProjects.Size = new System.Drawing.Size(75, 23);
             this.cbProjects.Visible = false;
             this.cbProjects.SelectedIndexChanged += new System.EventHandler(this.cbProjects_SelectedIndexChanged);
             // 
@@ -298,9 +295,9 @@ namespace RTC_Vision_Lite.Forms
             this.panel1.Controls.Add(this.barMenu);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1668, 39);
+            this.panel1.Size = new System.Drawing.Size(1251, 32);
             this.panel1.TabIndex = 8;
             // 
             // flowLayoutPanel1
@@ -309,11 +306,10 @@ namespace RTC_Vision_Lite.Forms
             this.flowLayoutPanel1.Controls.Add(this.mnuUserName);
             this.flowLayoutPanel1.Controls.Add(this.mnuLogin);
             this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Right;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(1388, 0);
-            this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(1041, 0);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
             this.flowLayoutPanel1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(280, 39);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(210, 32);
             this.flowLayoutPanel1.TabIndex = 8;
             this.flowLayoutPanel1.Visible = false;
             // 
@@ -324,10 +320,9 @@ namespace RTC_Vision_Lite.Forms
             this.mnuLogout.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.mnuLogout.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mnuLogout.ForeColor = System.Drawing.Color.Olive;
-            this.mnuLogout.Location = new System.Drawing.Point(209, 4);
-            this.mnuLogout.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.mnuLogout.Location = new System.Drawing.Point(157, 3);
             this.mnuLogout.Name = "mnuLogout";
-            this.mnuLogout.Size = new System.Drawing.Size(67, 28);
+            this.mnuLogout.Size = new System.Drawing.Size(50, 23);
             this.mnuLogout.TabIndex = 10;
             this.mnuLogout.Text = "Logout";
             this.mnuLogout.UseVisualStyleBackColor = true;
@@ -341,10 +336,9 @@ namespace RTC_Vision_Lite.Forms
             this.mnuUserName.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mnuUserName.ForeColor = System.Drawing.Color.Green;
             this.mnuUserName.Image = global::RTC_Vision_Lite.Properties.Resources.User_16x16;
-            this.mnuUserName.Location = new System.Drawing.Point(117, 4);
-            this.mnuUserName.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.mnuUserName.Location = new System.Drawing.Point(88, 3);
             this.mnuUserName.Name = "mnuUserName";
-            this.mnuUserName.Size = new System.Drawing.Size(84, 28);
+            this.mnuUserName.Size = new System.Drawing.Size(63, 23);
             this.mnuUserName.TabIndex = 8;
             this.mnuUserName.Text = "User";
             this.mnuUserName.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
@@ -359,10 +353,9 @@ namespace RTC_Vision_Lite.Forms
             this.mnuLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mnuLogin.ForeColor = System.Drawing.Color.Green;
             this.mnuLogin.Image = global::RTC_Vision_Lite.Properties.Resources.BO_Security_Permission;
-            this.mnuLogin.Location = new System.Drawing.Point(9, 4);
-            this.mnuLogin.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.mnuLogin.Location = new System.Drawing.Point(7, 3);
             this.mnuLogin.Name = "mnuLogin";
-            this.mnuLogin.Size = new System.Drawing.Size(100, 28);
+            this.mnuLogin.Size = new System.Drawing.Size(75, 23);
             this.mnuLogin.TabIndex = 9;
             this.mnuLogin.Text = "Login";
             this.mnuLogin.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
@@ -380,10 +373,9 @@ namespace RTC_Vision_Lite.Forms
             this.mnuTool,
             this.mnuHelp,
             this.mnuUserManager});
-            this.barMenu.Location = new System.Drawing.Point(4, 9);
+            this.barMenu.Location = new System.Drawing.Point(3, 7);
             this.barMenu.Name = "barMenu";
-            this.barMenu.Padding = new System.Windows.Forms.Padding(8, 2, 0, 2);
-            this.barMenu.Size = new System.Drawing.Size(432, 24);
+            this.barMenu.Size = new System.Drawing.Size(171, 24);
             this.barMenu.TabIndex = 6;
             this.barMenu.Text = "menuStrip1";
             // 
@@ -601,9 +593,8 @@ namespace RTC_Vision_Lite.Forms
             this.picLogo.Dock = System.Windows.Forms.DockStyle.Left;
             this.picLogo.Image = global::RTC_Vision_Lite.Properties.Resources.RTCLogo;
             this.picLogo.Location = new System.Drawing.Point(0, 0);
-            this.picLogo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.picLogo.Name = "picLogo";
-            this.picLogo.Size = new System.Drawing.Size(164, 68);
+            this.picLogo.Size = new System.Drawing.Size(123, 55);
             this.picLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picLogo.TabIndex = 0;
             this.picLogo.TabStop = false;
@@ -615,10 +606,9 @@ namespace RTC_Vision_Lite.Forms
             this.TabControlCAM.Dock = System.Windows.Forms.DockStyle.Fill;
             this.TabControlCAM.ItemSize = new System.Drawing.Size(0, 1);
             this.TabControlCAM.Location = new System.Drawing.Point(0, 0);
-            this.TabControlCAM.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.TabControlCAM.Name = "TabControlCAM";
             this.TabControlCAM.SelectedIndex = 0;
-            this.TabControlCAM.Size = new System.Drawing.Size(1832, 643);
+            this.TabControlCAM.Size = new System.Drawing.Size(1374, 523);
             this.TabControlCAM.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
             this.TabControlCAM.TabIndex = 1;
             // 
@@ -628,10 +618,9 @@ namespace RTC_Vision_Lite.Forms
             this.tabDefault.Controls.Add(this.LayoutCAM_Maximize);
             this.tabDefault.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tabDefault.Location = new System.Drawing.Point(4, 5);
-            this.tabDefault.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tabDefault.Name = "tabDefault";
-            this.tabDefault.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.tabDefault.Size = new System.Drawing.Size(1824, 634);
+            this.tabDefault.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabDefault.Size = new System.Drawing.Size(1366, 514);
             this.tabDefault.TabIndex = 0;
             this.tabDefault.Text = "Single CAM";
             this.tabDefault.UseVisualStyleBackColor = true;
@@ -642,17 +631,16 @@ namespace RTC_Vision_Lite.Forms
             this.LayoutCAM.BackColor = System.Drawing.Color.Black;
             this.LayoutCAM.ColumnCount = 5;
             this.LayoutCAM.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.LayoutCAM.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 27F));
-            this.LayoutCAM.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 27F));
-            this.LayoutCAM.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 27F));
-            this.LayoutCAM.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 27F));
+            this.LayoutCAM.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.LayoutCAM.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.LayoutCAM.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.LayoutCAM.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.LayoutCAM.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.LayoutCAM.Location = new System.Drawing.Point(4, 4);
-            this.LayoutCAM.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.LayoutCAM.Location = new System.Drawing.Point(3, 3);
             this.LayoutCAM.Name = "LayoutCAM";
             this.LayoutCAM.RowCount = 1;
             this.LayoutCAM.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.LayoutCAM.Size = new System.Drawing.Size(1816, 626);
+            this.LayoutCAM.Size = new System.Drawing.Size(1360, 508);
             this.LayoutCAM.TabIndex = 19;
             // 
             // LayoutCAM_Maximize
@@ -661,12 +649,11 @@ namespace RTC_Vision_Lite.Forms
             this.LayoutCAM_Maximize.ColumnCount = 1;
             this.LayoutCAM_Maximize.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.LayoutCAM_Maximize.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.LayoutCAM_Maximize.Location = new System.Drawing.Point(4, 4);
-            this.LayoutCAM_Maximize.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.LayoutCAM_Maximize.Location = new System.Drawing.Point(3, 3);
             this.LayoutCAM_Maximize.Name = "LayoutCAM_Maximize";
             this.LayoutCAM_Maximize.RowCount = 1;
             this.LayoutCAM_Maximize.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.LayoutCAM_Maximize.Size = new System.Drawing.Size(1816, 626);
+            this.LayoutCAM_Maximize.Size = new System.Drawing.Size(1360, 508);
             this.LayoutCAM_Maximize.TabIndex = 20;
             // 
             // flowLayoutPanel2
@@ -683,9 +670,8 @@ namespace RTC_Vision_Lite.Forms
             this.flowLayoutPanel2.Controls.Add(this.mnuSetupTools);
             this.flowLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.flowLayoutPanel2.Location = new System.Drawing.Point(0, 0);
-            this.flowLayoutPanel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.flowLayoutPanel2.Name = "flowLayoutPanel2";
-            this.flowLayoutPanel2.Size = new System.Drawing.Size(1832, 37);
+            this.flowLayoutPanel2.Size = new System.Drawing.Size(1374, 30);
             this.flowLayoutPanel2.TabIndex = 0;
             // 
             // lblStatus
@@ -695,20 +681,18 @@ namespace RTC_Vision_Lite.Forms
             this.lblStatus.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.lblStatus.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblStatus.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblStatus.Location = new System.Drawing.Point(4, 4);
-            this.lblStatus.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.lblStatus.Location = new System.Drawing.Point(3, 3);
             this.lblStatus.Name = "lblStatus";
-            this.lblStatus.Size = new System.Drawing.Size(64, 31);
+            this.lblStatus.Size = new System.Drawing.Size(48, 25);
             this.lblStatus.TabIndex = 13;
             this.lblStatus.Text = "Ready";
             // 
             // splitter1
             // 
-            this.splitter1.Location = new System.Drawing.Point(76, 4);
-            this.splitter1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.splitter1.Location = new System.Drawing.Point(57, 3);
             this.splitter1.MinSize = 20;
             this.splitter1.Name = "splitter1";
-            this.splitter1.Size = new System.Drawing.Size(3, 31);
+            this.splitter1.Size = new System.Drawing.Size(2, 25);
             this.splitter1.TabIndex = 7;
             this.splitter1.TabStop = false;
             // 
@@ -719,25 +703,23 @@ namespace RTC_Vision_Lite.Forms
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button3.Location = new System.Drawing.Point(87, 4);
-            this.button3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button3.Location = new System.Drawing.Point(65, 3);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(91, 31);
+            this.button3.Size = new System.Drawing.Size(68, 25);
             this.button3.TabIndex = 12;
             this.button3.Text = "Run Mode";
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // mnuRunMode
             // 
-            this.mnuRunMode.Location = new System.Drawing.Point(186, 4);
-            this.mnuRunMode.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.mnuRunMode.MinimumSize = new System.Drawing.Size(60, 27);
+            this.mnuRunMode.Location = new System.Drawing.Point(139, 3);
+            this.mnuRunMode.MinimumSize = new System.Drawing.Size(45, 22);
             this.mnuRunMode.Name = "mnuRunMode";
             this.mnuRunMode.OffBackColor = System.Drawing.Color.Gray;
             this.mnuRunMode.OffToggleColor = System.Drawing.Color.Gainsboro;
             this.mnuRunMode.OnBackColor = System.Drawing.Color.RoyalBlue;
             this.mnuRunMode.OnToggleColor = System.Drawing.Color.WhiteSmoke;
-            this.mnuRunMode.Size = new System.Drawing.Size(93, 27);
+            this.mnuRunMode.Size = new System.Drawing.Size(70, 22);
             this.mnuRunMode.TabIndex = 2;
             this.mnuRunMode.UseVisualStyleBackColor = true;
             this.mnuRunMode.CheckedChanged += new System.EventHandler(this.mnuRunMode_CheckedChanged);
@@ -749,34 +731,31 @@ namespace RTC_Vision_Lite.Forms
             this.lblAutoMode.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.lblAutoMode.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAutoMode.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblAutoMode.Location = new System.Drawing.Point(287, 4);
-            this.lblAutoMode.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.lblAutoMode.Location = new System.Drawing.Point(215, 3);
             this.lblAutoMode.Name = "lblAutoMode";
-            this.lblAutoMode.Size = new System.Drawing.Size(92, 31);
+            this.lblAutoMode.Size = new System.Drawing.Size(69, 25);
             this.lblAutoMode.TabIndex = 10;
             this.lblAutoMode.Text = "Auto Mode";
             // 
             // mnuAutoMode
             // 
-            this.mnuAutoMode.Location = new System.Drawing.Point(387, 4);
-            this.mnuAutoMode.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.mnuAutoMode.MinimumSize = new System.Drawing.Size(60, 27);
+            this.mnuAutoMode.Location = new System.Drawing.Point(290, 3);
+            this.mnuAutoMode.MinimumSize = new System.Drawing.Size(45, 22);
             this.mnuAutoMode.Name = "mnuAutoMode";
             this.mnuAutoMode.OffBackColor = System.Drawing.Color.Gray;
             this.mnuAutoMode.OffToggleColor = System.Drawing.Color.Gainsboro;
             this.mnuAutoMode.OnBackColor = System.Drawing.Color.Blue;
             this.mnuAutoMode.OnToggleColor = System.Drawing.Color.WhiteSmoke;
-            this.mnuAutoMode.Size = new System.Drawing.Size(93, 27);
+            this.mnuAutoMode.Size = new System.Drawing.Size(70, 22);
             this.mnuAutoMode.TabIndex = 4;
             this.mnuAutoMode.UseVisualStyleBackColor = true;
             this.mnuAutoMode.CheckedChanged += new System.EventHandler(this.mnuAutoMode_CheckedChanged);
             // 
             // splitter2
             // 
-            this.splitter2.Location = new System.Drawing.Point(488, 4);
-            this.splitter2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.splitter2.Location = new System.Drawing.Point(366, 3);
             this.splitter2.Name = "splitter2";
-            this.splitter2.Size = new System.Drawing.Size(3, 31);
+            this.splitter2.Size = new System.Drawing.Size(2, 25);
             this.splitter2.TabIndex = 8;
             this.splitter2.TabStop = false;
             // 
@@ -787,10 +766,9 @@ namespace RTC_Vision_Lite.Forms
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button2.Location = new System.Drawing.Point(499, 4);
-            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button2.Location = new System.Drawing.Point(374, 3);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 31);
+            this.button2.Size = new System.Drawing.Size(56, 25);
             this.button2.TabIndex = 11;
             this.button2.Text = "Online";
             // 
@@ -798,15 +776,14 @@ namespace RTC_Vision_Lite.Forms
             // 
             this.mnuOnlineMode.Checked = true;
             this.mnuOnlineMode.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.mnuOnlineMode.Location = new System.Drawing.Point(582, 4);
-            this.mnuOnlineMode.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.mnuOnlineMode.MinimumSize = new System.Drawing.Size(60, 27);
+            this.mnuOnlineMode.Location = new System.Drawing.Point(436, 3);
+            this.mnuOnlineMode.MinimumSize = new System.Drawing.Size(45, 22);
             this.mnuOnlineMode.Name = "mnuOnlineMode";
             this.mnuOnlineMode.OffBackColor = System.Drawing.Color.Gray;
             this.mnuOnlineMode.OffToggleColor = System.Drawing.Color.Gainsboro;
             this.mnuOnlineMode.OnBackColor = System.Drawing.Color.RoyalBlue;
             this.mnuOnlineMode.OnToggleColor = System.Drawing.Color.WhiteSmoke;
-            this.mnuOnlineMode.Size = new System.Drawing.Size(93, 27);
+            this.mnuOnlineMode.Size = new System.Drawing.Size(70, 22);
             this.mnuOnlineMode.TabIndex = 6;
             this.mnuOnlineMode.Text = "toggleButton3";
             this.mnuOnlineMode.UseVisualStyleBackColor = true;
@@ -819,10 +796,9 @@ namespace RTC_Vision_Lite.Forms
             this.mnuSetupTools.ForeColor = System.Drawing.Color.Navy;
             this.mnuSetupTools.Image = global::RTC_Vision_Lite.Properties.Resources.LoadPageSetup_16x16;
             this.mnuSetupTools.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.mnuSetupTools.Location = new System.Drawing.Point(683, 4);
-            this.mnuSetupTools.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.mnuSetupTools.Location = new System.Drawing.Point(512, 3);
             this.mnuSetupTools.Name = "mnuSetupTools";
-            this.mnuSetupTools.Size = new System.Drawing.Size(133, 28);
+            this.mnuSetupTools.Size = new System.Drawing.Size(100, 23);
             this.mnuSetupTools.TabIndex = 1;
             this.mnuSetupTools.Text = "INSPECTION";
             this.mnuSetupTools.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -838,10 +814,9 @@ namespace RTC_Vision_Lite.Forms
             this.flowLayoutPanel3.Controls.Add(this.lblOK);
             this.flowLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Right;
             this.flowLayoutPanel3.FlowDirection = System.Windows.Forms.FlowDirection.RightToLeft;
-            this.flowLayoutPanel3.Location = new System.Drawing.Point(933, 0);
-            this.flowLayoutPanel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.flowLayoutPanel3.Location = new System.Drawing.Point(700, 0);
             this.flowLayoutPanel3.Name = "flowLayoutPanel3";
-            this.flowLayoutPanel3.Size = new System.Drawing.Size(899, 37);
+            this.flowLayoutPanel3.Size = new System.Drawing.Size(674, 30);
             this.flowLayoutPanel3.TabIndex = 0;
             // 
             // lblVersion
@@ -849,10 +824,9 @@ namespace RTC_Vision_Lite.Forms
             this.lblVersion.AutoSize = true;
             this.lblVersion.Dock = System.Windows.Forms.DockStyle.Right;
             this.lblVersion.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblVersion.Location = new System.Drawing.Point(791, 0);
-            this.lblVersion.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblVersion.Location = new System.Drawing.Point(581, 0);
             this.lblVersion.Name = "lblVersion";
-            this.lblVersion.Size = new System.Drawing.Size(104, 40);
+            this.lblVersion.Size = new System.Drawing.Size(90, 32);
             this.lblVersion.TabIndex = 0;
             this.lblVersion.Text = "Version 1.0.0       ";
             this.lblVersion.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -865,10 +839,9 @@ namespace RTC_Vision_Lite.Forms
             this.lblTime.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.lblTime.ForeColor = System.Drawing.Color.Navy;
             this.lblTime.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.lblTime.Location = new System.Drawing.Point(683, 4);
-            this.lblTime.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.lblTime.Location = new System.Drawing.Point(500, 3);
             this.lblTime.Name = "lblTime";
-            this.lblTime.Size = new System.Drawing.Size(100, 32);
+            this.lblTime.Size = new System.Drawing.Size(75, 26);
             this.lblTime.TabIndex = 6;
             this.lblTime.Text = "Time";
             this.lblTime.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
@@ -882,10 +855,9 @@ namespace RTC_Vision_Lite.Forms
             this.lblTotal.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.lblTotal.Image = global::RTC_Vision_Lite.Properties.Resources.Reset2_16x16;
             this.lblTotal.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.lblTotal.Location = new System.Drawing.Point(575, 4);
-            this.lblTotal.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.lblTotal.Location = new System.Drawing.Point(419, 3);
             this.lblTotal.Name = "lblTotal";
-            this.lblTotal.Size = new System.Drawing.Size(100, 32);
+            this.lblTotal.Size = new System.Drawing.Size(75, 26);
             this.lblTotal.TabIndex = 5;
             this.lblTotal.Text = "Total";
             this.lblTotal.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
@@ -900,10 +872,9 @@ namespace RTC_Vision_Lite.Forms
             this.lblNG.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.lblNG.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNG.ForeColor = System.Drawing.Color.Red;
-            this.lblNG.Location = new System.Drawing.Point(460, 4);
-            this.lblNG.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.lblNG.Location = new System.Drawing.Point(333, 3);
             this.lblNG.Name = "lblNG";
-            this.lblNG.Size = new System.Drawing.Size(107, 31);
+            this.lblNG.Size = new System.Drawing.Size(80, 25);
             this.lblNG.TabIndex = 3;
             this.lblNG.Text = "NG: 0 (0%)";
             this.lblNG.UseVisualStyleBackColor = false;
@@ -916,10 +887,9 @@ namespace RTC_Vision_Lite.Forms
             this.lblOK.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.lblOK.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblOK.ForeColor = System.Drawing.Color.Green;
-            this.lblOK.Location = new System.Drawing.Point(347, 4);
-            this.lblOK.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.lblOK.Location = new System.Drawing.Point(248, 3);
             this.lblOK.Name = "lblOK";
-            this.lblOK.Size = new System.Drawing.Size(105, 31);
+            this.lblOK.Size = new System.Drawing.Size(79, 25);
             this.lblOK.TabIndex = 4;
             this.lblOK.Text = "OK: 0 (0%)";
             this.lblOK.UseVisualStyleBackColor = false;
@@ -934,10 +904,9 @@ namespace RTC_Vision_Lite.Forms
             this.panel3.Controls.Add(this.flowLayoutPanel3);
             this.panel3.Controls.Add(this.flowLayoutPanel2);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel3.Location = new System.Drawing.Point(0, 643);
-            this.panel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel3.Location = new System.Drawing.Point(0, 523);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1832, 37);
+            this.panel3.Size = new System.Drawing.Size(1374, 30);
             this.panel3.TabIndex = 2;
             // 
             // panel4
@@ -945,9 +914,8 @@ namespace RTC_Vision_Lite.Forms
             this.panel4.Controls.Add(this.TabControlCAM);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel4.Location = new System.Drawing.Point(0, 0);
-            this.panel4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(1832, 643);
+            this.panel4.Size = new System.Drawing.Size(1374, 523);
             this.panel4.TabIndex = 3;
             // 
             // panel5
@@ -955,10 +923,9 @@ namespace RTC_Vision_Lite.Forms
             this.panel5.Controls.Add(this.panel4);
             this.panel5.Controls.Add(this.panel3);
             this.panel5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel5.Location = new System.Drawing.Point(0, 68);
-            this.panel5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel5.Location = new System.Drawing.Point(0, 55);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(1832, 680);
+            this.panel5.Size = new System.Drawing.Size(1374, 553);
             this.panel5.TabIndex = 1;
             // 
             // columnButtonRenderer1
@@ -1414,17 +1381,17 @@ namespace RTC_Vision_Lite.Forms
             // 
             // FrmMain
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(1832, 748);
+            this.ClientSize = new System.Drawing.Size(1374, 608);
             this.Controls.Add(this.panel5);
             this.Controls.Add(this.pnlMainMenu);
             this.ForeColor = System.Drawing.SystemColors.InfoText;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.KeyPreview = true;
-            this.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "FrmMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "RTC VISION LITE";

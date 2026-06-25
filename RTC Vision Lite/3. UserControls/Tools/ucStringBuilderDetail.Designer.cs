@@ -243,12 +243,11 @@ namespace RTC_Vision_Lite.UserControls
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label1.Location = new System.Drawing.Point(166, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(53, 29);
+            this.label1.Size = new System.Drawing.Size(51, 29);
             this.label1.TabIndex = 2;
             this.label1.Text = "Reorder:";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -256,7 +255,7 @@ namespace RTC_Vision_Lite.UserControls
             // btnDown
             // 
             this.btnDown.Image = global::RTC_Vision_Lite.Properties.Resources.Down;
-            this.btnDown.Location = new System.Drawing.Point(225, 3);
+            this.btnDown.Location = new System.Drawing.Point(223, 3);
             this.btnDown.Name = "btnDown";
             this.btnDown.Size = new System.Drawing.Size(30, 23);
             this.btnDown.TabIndex = 3;
@@ -266,7 +265,7 @@ namespace RTC_Vision_Lite.UserControls
             // btnUp
             // 
             this.btnUp.Image = global::RTC_Vision_Lite.Properties.Resources.Up;
-            this.btnUp.Location = new System.Drawing.Point(261, 3);
+            this.btnUp.Location = new System.Drawing.Point(259, 3);
             this.btnUp.Name = "btnUp";
             this.btnUp.Size = new System.Drawing.Size(28, 23);
             this.btnUp.TabIndex = 4;
@@ -275,7 +274,7 @@ namespace RTC_Vision_Lite.UserControls
             // 
             // btnAdd
             // 
-            this.btnAdd.Location = new System.Drawing.Point(295, 3);
+            this.btnAdd.Location = new System.Drawing.Point(293, 3);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(75, 23);
             this.btnAdd.TabIndex = 5;
@@ -285,7 +284,7 @@ namespace RTC_Vision_Lite.UserControls
             // 
             // btnClone
             // 
-            this.btnClone.Location = new System.Drawing.Point(376, 3);
+            this.btnClone.Location = new System.Drawing.Point(374, 3);
             this.btnClone.Name = "btnClone";
             this.btnClone.Size = new System.Drawing.Size(75, 23);
             this.btnClone.TabIndex = 6;
@@ -295,7 +294,7 @@ namespace RTC_Vision_Lite.UserControls
             // 
             // btnGroup
             // 
-            this.btnGroup.Location = new System.Drawing.Point(457, 3);
+            this.btnGroup.Location = new System.Drawing.Point(455, 3);
             this.btnGroup.Name = "btnGroup";
             this.btnGroup.Size = new System.Drawing.Size(75, 23);
             this.btnGroup.TabIndex = 7;
@@ -305,7 +304,7 @@ namespace RTC_Vision_Lite.UserControls
             // 
             // btnUnGroup
             // 
-            this.btnUnGroup.Location = new System.Drawing.Point(538, 3);
+            this.btnUnGroup.Location = new System.Drawing.Point(536, 3);
             this.btnUnGroup.Name = "btnUnGroup";
             this.btnUnGroup.Size = new System.Drawing.Size(75, 23);
             this.btnUnGroup.TabIndex = 8;

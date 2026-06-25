@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
@@ -306,7 +306,37 @@ namespace RTC_Vision_Lite.Classes
                         }
                         return true;
                     }
-                    
+
+                    if (propNameDes == nameof(InputImage))
+                    {
+                        if (InputBgrImage != null)
+                        {
+                            InputBgrImage.rtcIDRef = PropDes.rtcIDRef;
+                            InputBgrImage.rtcPropNameRef = PropDes.rtcPropNameRef;
+                            InputBgrImage.rtcRef = PropDes.rtcRef;
+                        }
+                        if (InputGrayImage != null)
+                        {
+                            InputGrayImage.rtcIDRef = PropDes.rtcIDRef;
+                            InputGrayImage.rtcPropNameRef = PropDes.rtcPropNameRef;
+                            InputGrayImage.rtcRef = PropDes.rtcRef;
+                        }
+                    }
+                    else if (propNameDes == nameof(InputImage2))
+                    {
+                        if (InputBgrImage2 != null)
+                        {
+                            InputBgrImage2.rtcIDRef = PropDes.rtcIDRef;
+                            InputBgrImage2.rtcPropNameRef = PropDes.rtcPropNameRef;
+                            InputBgrImage2.rtcRef = PropDes.rtcRef;
+                        }
+                        if (InputGrayImage2 != null)
+                        {
+                            InputGrayImage2.rtcIDRef = PropDes.rtcIDRef;
+                            InputGrayImage2.rtcPropNameRef = PropDes.rtcPropNameRef;
+                            InputGrayImage2.rtcRef = PropDes.rtcRef;
+                        }
+                    }
                 }
             }
             else if (dataItemDes != null)

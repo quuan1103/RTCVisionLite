@@ -2035,33 +2035,6 @@ namespace RTC_Vision_Lite.Classes
         }
         private void Run_SplitImage()
         {
-
-            Tuple<PointF, double> toolOrigin;
-
-            //OutputImage.rtcValue = DistanceMeasurementTool.OutputImage;
-            if (ToolOrigin.rtcValue.Count < 3)
-            {
-                toolOrigin = Tuple.Create(new PointF(0, 0), 0.0);
-            }
-            else
-            {
-                toolOrigin = Tuple.Create(new PointF(Lib.ToInt(ToolOrigin.rtcValue[0]), Lib.ToInt(ToolOrigin.rtcValue[1])),
-                   ToolOrigin.rtcValue[2]);
-            }
-            List<RTCRectangle> ROIs = new List<RTCRectangle>();
-            Dictionary<long, RTCRectangle> DataShapes = GlobFuncs.GenShapeList(ShapeListOriginal);
-            foreach (long key in DataShapes.Keys)
-            {
-                ROIs.Add(DataShapes[key]);
-            }
-            if (ROIs.Count <= 0)
-            {
-                ROIs.Add(GlobFuncs.GenRectangleImage(InputImage.rtcValue));
-            }
-            if (InSetOrigin.rtcValue == null || InSetOrigin.rtcValue.Count <= 0)
-            {
-                InSetOrigin.rtcValue = GlobFuncs.ListPointFToListDouble(SetOrigin.Run(ROIs, toolOrigin));
-            }
             SplitImage.InputImageGray = InputGrayImage.rtcValue.Clone();
             SplitImage.InputImageColor = InputBgrImage.rtcValue.Clone();
             SplitImage.IsImageColor = true;
@@ -2071,10 +2044,60 @@ namespace RTC_Vision_Lite.Classes
             SplitImage.ColumnNumber = Lib.ToInt(ColumnNumber.rtcValue[0]);
             SplitImage.RowNumber = Lib.ToInt(RowNumber.rtcValue[0]);
             SplitImage.SplitROIType = ShapeListROIType.rtcValue;
-            SplitImage.SplitType = SplitType.rtcValue;
-            SplitImage.ROI = DataShapes.Values.Cast<RTCRectangle>().ToList();
-            SplitImage.ToolOrigin = toolOrigin;
+            SplitImage.SplitType = SplitType.rtcValue;         
             SplitImage.IsShowImageResult = true;
+            Tuple<PointF, double> toolOrigin;
+            //OutputImage.rtcValue = DistanceMeasurementTool.OutputImage;
+            //if (ToolOrigin.rtcValue.Count < 3)
+            //{
+            //    toolOrigin = Tuple.Create(new PointF(0, 0), 0.0);
+            //}
+            //else
+            //{
+            //    toolOrigin = Tuple.Create(new PointF(Lib.ToInt(ToolOrigin.rtcValue[0]), Lib.ToInt(ToolOrigin.rtcValue[1])),
+            //       ToolOrigin.rtcValue[2]);
+            //}
+            //List<RTCRectangle> ROIs = new List<RTCRectangle>();
+            //// Dictionary<long, RTCRectangle> DataShapes = GlobFuncs.GenShapeList(ShapeListOriginal);
+            //Dictionary<long, RTCRectangle> DataShapes = GlobFuncs.GenShapeList(ShapeList);
+            //foreach (long key in DataShapes.Keys)
+            //{
+            //    ROIs.Add(DataShapes[key]);
+            //}
+            //if (ROIs.Count <= 0)
+            //{
+            //    ROIs.Add(GlobFuncs.GenRectangleImage(InputImage.rtcValue));
+            //}
+            //if (InSetOrigin.rtcValue == null || InSetOrigin.rtcValue.Count <= 0)
+            //{
+            //    InSetOrigin.rtcValue = GlobFuncs.ListPointFToListDouble(SetOrigin.Run(ROIs, toolOrigin));
+            //}
+            if (ToolOrigin.rtcValue.Count < 3)
+            {
+                toolOrigin = Tuple.Create(new PointF(0, 0), 0.0);
+            }
+            else
+            {
+                toolOrigin = Tuple.Create(new PointF(Lib.ToInt(ToolOrigin.rtcValue[0]), Lib.ToInt(ToolOrigin.rtcValue[1])),
+                   ToolOrigin.rtcValue[2]);
+            }
+            _BlobTool.ToolOrigin = toolOrigin;
+            List<RTCRectangle> ROIs = new List<RTCRectangle>();
+            Dictionary<long, RTCRectangle> DataShape = GlobFuncs.GenShapeList(ShapeListOriginal);
+            foreach (long key in DataShape.Keys)
+            {
+                ROIs.Add(DataShape[key]);
+            }
+            if (ROIs.Count <= 0)
+            {
+                ROIs.Add(GlobFuncs.GenRectangleImage(InputImage.rtcValue));
+            }
+            if (InSetOrigin.rtcValue == null || InSetOrigin.rtcValue.Count <= 0)
+            {
+                InSetOrigin.rtcValue = GlobFuncs.ListPointFToListDouble(SetOrigin.Run(ROIs, toolOrigin));
+            }
+            SplitImage.ROI = DataShape.Values.Cast<RTCRectangle>().ToList();
+            SplitImage.ToolOrigin = toolOrigin;
             bool Result = SplitImage.Run();
             if (WindowHandle.rtcValue.InvokeRequired)
             {
@@ -2092,8 +2115,8 @@ namespace RTC_Vision_Lite.Classes
 
                 OutputImage.rtcValue = SplitImage.OutputImageShow;
                 //WindowHandle.rtcValue.Image = GlobFuncs.BitmapToBgrImage(SplitImage.OutputImage).ToBitmap();
-
                 WindowHandle.rtcValue.Image = SplitImage.OutputImageShow;
+                Passed.rtcValue = SplitImage.Passed;
             }
             if (SaveMode.rtcValue == cSplitSaveMode.Folder)
             {
@@ -2826,6 +2849,7 @@ namespace RTC_Vision_Lite.Classes
             _BlobTool.HeightRange = new Tuple<double, double>(HeightRange.rtcValue[0], HeightRange.rtcValue[1]);
             _BlobTool.OuterRadiusRange = new Tuple<double, double>(OuterRadiusRange.rtcValue[0], OuterRadiusRange.rtcValue[1]);
             _BlobTool.WidthRange = new Tuple<double, double>(WidthRange.rtcValue[0], WidthRange.rtcValue[1]);
+            _BlobTool.RowRange = new Tuple<double, double>(RowRange.rtcValue[0], RowRange.rtcValue[1]);
 
             _BlobTool.RequireNumberOfBlobs = new Tuple<int, int>(int.Parse(RequiredNumberOfBlobs.rtcValue[0].ToString()), int.TryParse(RequiredNumberOfBlobs.rtcValue[1].ToString(), out int Result) ? Result : 1000000000);
             _BlobTool.EnableAreaFilter = EnableAreaFilter.rtcValue;
@@ -2863,6 +2887,22 @@ namespace RTC_Vision_Lite.Classes
             }
             //_BlobTool.InSetOrigin = SetOrigin.Run(ROIs, toolOrigin);
             _BlobTool.InSetOrigin = GlobFuncs.ListDoubleToListPointF(InSetOrigin.rtcValue);
+            List<int> drawingTypeList = new List<int>();
+            if (ShapeListOriginal != null && ShapeListOriginal.rtcValue != null)
+            {
+                for (int idx = 0; idx < ShapeListOriginal.rtcValue.Count; idx += 10)
+                {
+                    if (idx + 5 < ShapeListOriginal.rtcValue.Count)
+                    {
+                        int drawingType = Lib.Object2Int(ShapeListOriginal.rtcValue[idx + 5]);
+                        drawingTypeList.Add(drawingType);
+                    }
+                }
+            }
+            if (drawingTypeList.Count > 0)
+            {
+                _BlobTool.InputDrawingTypes = drawingTypeList;
+            }
             _BlobTool.ROI = ROIs;
             var errMessage = _BlobTool.ErrMessage;
 
@@ -3005,6 +3045,12 @@ namespace RTC_Vision_Lite.Classes
                     _BlobTool.HeightRange = new Tuple<double, double>(HeightRange.rtcValue[0], HeightRange.rtcValue[1]);
                     _BlobTool.EnableOuterRadiusFilter = EnableOuterRadiusFilter.rtcValue;
                     _BlobTool.OuterRadiusRange = new Tuple<double, double>(OuterRadiusRange.rtcValue[0], OuterRadiusRange.rtcValue[1]);
+                    _BlobTool.EnableCircularityFilter = EnableCircularityFilter.rtcValue;
+                    _BlobTool.CircularityRange = new Tuple<double, double>(CircularityRange.rtcValue[0], CircularityRange.rtcValue[1]);
+                    _BlobTool.EnableRowFilter = EnableRowFilter.rtcValue;
+                    _BlobTool.RowRange = new Tuple<double, double>(RowRange.rtcValue[0], RowRange.rtcValue[1]);
+                    _BlobTool.EnableColumnFilter = EnableColumnFilter.rtcValue;
+                    _BlobTool.ColumnRange = new Tuple<double, double>(ColumnRange.rtcValue[0], ColumnRange.rtcValue[1]);
                     _BlobTool.RequiredPass = true;
                     _BlobTool.RequireNumberOfBlobs = new Tuple<int, int>(
                         int.Parse(RequiredNumberOfBlobs.rtcValue[0].ToString()),
@@ -3081,6 +3127,12 @@ namespace RTC_Vision_Lite.Classes
                             _BlobTool.OuterRadiusRange = new Tuple<double, double>(GlobFuncs.Object2Double(ShapeListData.rtcValue[i + 16]), GlobFuncs.Object2Double(ShapeListData.rtcValue[i + 17]));
                             _BlobTool.RequiredPass = GlobFuncs.Object2Bool(ShapeListData.rtcValue[i + 18]);
                             _BlobTool.RequireNumberOfBlobs = new Tuple<int, int>(GlobFuncs.Object2Int(ShapeListData.rtcValue[i + 19]), GlobFuncs.Object2Int(ShapeListData.rtcValue[i + 20]));
+                            _BlobTool.EnableRowFilter = EnableRowFilter.rtcValue;
+                            _BlobTool.RowRange = new Tuple<double, double>(RowRange.rtcValue[0], RowRange.rtcValue[1]);
+                            _BlobTool.EnableColumnFilter = EnableColumnFilter.rtcValue;
+                            _BlobTool.ColumnRange = new Tuple<double, double>(ColumnRange.rtcValue[0], ColumnRange.rtcValue[1]);
+                            _BlobTool.EnableCircularityFilter = EnableCircularityFilter.rtcValue;
+                            _BlobTool.CircularityRange = new Tuple<double, double>(CircularityRange.rtcValue[0], CircularityRange.rtcValue[1]);
                             //_BlobTool.RequiredPass = ShapeListData.
 
                             #region Quân sửa ngày 16/03/2026

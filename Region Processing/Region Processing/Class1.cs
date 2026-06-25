@@ -198,7 +198,7 @@ namespace Region_Processing
                         if (_margin == cRegionProcessing.Margin_Fill)
                             CvInvoke.FillPoly(imgShow, _outputRegion[i], new MCvScalar(0, 255, 0));
                         else if (_margin == cRegionProcessing.Margin_Margin)
-                            CvInvoke.DrawContours(imgShow, _outputRegion[i], -1, new MCvScalar(0, 255, 0), 1);
+                            CvInvoke.DrawContours(imgShow, _outputRegion[i], -1, new MCvScalar(0, 255, 0), 5);
 
                     }
                     _outputImageShow = imgShow.ToBitmap();
@@ -226,7 +226,7 @@ namespace Region_Processing
                 if (_margin == RTCConst.cRegionProcessing.Margin_Fill)
                     CvInvoke.FillPoly(imgShow, _outputRegion[i], new MCvScalar(0, 255, 0));
                 else if (_margin == RTCConst.cRegionProcessing.Margin_Margin)
-                    CvInvoke.DrawContours(imgShow, _outputRegion[i], -1, new MCvScalar(0, 255, 0), 1);
+                    CvInvoke.DrawContours(imgShow, _outputRegion[i], -1, new MCvScalar(0, 255, 0), 5);
 
             }
             _outputImageShow = imgShow.ToBitmap();

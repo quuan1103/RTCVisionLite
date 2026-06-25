@@ -104,12 +104,12 @@ namespace RTC_Vision_Lite.UserControls
             // PassFail
             // 
             this.PassFail.Margin = new System.Windows.Forms.Padding(4);
-            this.PassFail.Size = new System.Drawing.Size(865, 413);
+            this.PassFail.Size = new System.Drawing.Size(865, 475);
             // 
             // ScrollablePassFail
             // 
             this.ScrollablePassFail.Margin = new System.Windows.Forms.Padding(2);
-            this.ScrollablePassFail.Size = new System.Drawing.Size(865, 413);
+            this.ScrollablePassFail.Size = new System.Drawing.Size(865, 475);
             // 
             // ScrollableROI
             // 
@@ -142,23 +142,23 @@ namespace RTC_Vision_Lite.UserControls
             // 
             this.Method.Margin = new System.Windows.Forms.Padding(2);
             this.Method.Padding = new System.Windows.Forms.Padding(2);
-            this.Method.Size = new System.Drawing.Size(865, 413);
+            this.Method.Size = new System.Drawing.Size(865, 475);
             // 
             // Display
             // 
             this.Display.Margin = new System.Windows.Forms.Padding(2);
-            this.Display.Size = new System.Drawing.Size(865, 413);
+            this.Display.Size = new System.Drawing.Size(865, 475);
             // 
             // ScrollableMethod
             // 
             this.ScrollableMethod.Location = new System.Drawing.Point(2, 2);
             this.ScrollableMethod.Margin = new System.Windows.Forms.Padding(4);
-            this.ScrollableMethod.Size = new System.Drawing.Size(861, 409);
+            this.ScrollableMethod.Size = new System.Drawing.Size(861, 471);
             // 
             // ScrollableEndPointAndType
             // 
             this.ScrollableEndPointAndType.Margin = new System.Windows.Forms.Padding(4);
-            this.ScrollableEndPointAndType.Size = new System.Drawing.Size(859, 407);
+            this.ScrollableEndPointAndType.Size = new System.Drawing.Size(859, 469);
             // 
             // Selecticon
             // 
@@ -453,7 +453,7 @@ namespace RTC_Vision_Lite.UserControls
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(29, 160);
+            this.label9.Location = new System.Drawing.Point(29, 168);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(65, 13);
             this.label9.TabIndex = 5;
@@ -462,7 +462,7 @@ namespace RTC_Vision_Lite.UserControls
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(29, 128);
+            this.label7.Location = new System.Drawing.Point(29, 135);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(80, 13);
             this.label7.TabIndex = 3;
@@ -471,7 +471,7 @@ namespace RTC_Vision_Lite.UserControls
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(29, 64);
+            this.label6.Location = new System.Drawing.Point(29, 67);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(44, 13);
             this.label6.TabIndex = 2;
@@ -480,7 +480,7 @@ namespace RTC_Vision_Lite.UserControls
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(29, 96);
+            this.label5.Location = new System.Drawing.Point(29, 99);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(43, 13);
             this.label5.TabIndex = 1;
@@ -501,6 +501,7 @@ namespace RTC_Vision_Lite.UserControls
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "ucAffineImageActionDetail";
+            this.PageActionSettingTabIndex = 3;
             this.Size = new System.Drawing.Size(900, 550);
             this.PageActionSetting.ResumeLayout(false);
             this.ScrollableGeneral.ResumeLayout(false);

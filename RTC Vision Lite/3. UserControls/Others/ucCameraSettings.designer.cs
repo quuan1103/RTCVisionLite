@@ -108,10 +108,10 @@ namespace RTC_Vision_Lite.UserControls
             this.tcMainSettings.Controls.Add(this.tabPage2);
             this.tcMainSettings.Dock = System.Windows.Forms.DockStyle.Top;
             this.tcMainSettings.Location = new System.Drawing.Point(0, 0);
-            this.tcMainSettings.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.tcMainSettings.Margin = new System.Windows.Forms.Padding(2);
             this.tcMainSettings.Name = "tcMainSettings";
             this.tcMainSettings.SelectedIndex = 0;
-            this.tcMainSettings.Size = new System.Drawing.Size(819, 250);
+            this.tcMainSettings.Size = new System.Drawing.Size(614, 203);
             this.tcMainSettings.TabIndex = 0;
             // 
             // tabPage1
@@ -135,11 +135,11 @@ namespace RTC_Vision_Lite.UserControls
             this.tabPage1.Controls.Add(this.cbTriggerSource);
             this.tabPage1.Controls.Add(this.cbTriggerMode);
             this.tabPage1.Controls.Add(this.txtTriggerDelayRaw);
-            this.tabPage1.Location = new System.Drawing.Point(4, 25);
-            this.tabPage1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.tabPage1.Location = new System.Drawing.Point(4, 22);
+            this.tabPage1.Margin = new System.Windows.Forms.Padding(2);
             this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.tabPage1.Size = new System.Drawing.Size(811, 221);
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(2);
+            this.tabPage1.Size = new System.Drawing.Size(606, 177);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Common";
             this.tabPage1.Click += new System.EventHandler(this.tabPage1_Click);
@@ -147,10 +147,9 @@ namespace RTC_Vision_Lite.UserControls
             // chkAcquisitionLineRate
             // 
             this.chkAcquisitionLineRate.AutoSize = true;
-            this.chkAcquisitionLineRate.Location = new System.Drawing.Point(9, 181);
-            this.chkAcquisitionLineRate.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.chkAcquisitionLineRate.Location = new System.Drawing.Point(7, 147);
             this.chkAcquisitionLineRate.Name = "chkAcquisitionLineRate";
-            this.chkAcquisitionLineRate.Size = new System.Drawing.Size(151, 20);
+            this.chkAcquisitionLineRate.Size = new System.Drawing.Size(126, 17);
             this.chkAcquisitionLineRate.TabIndex = 25;
             this.chkAcquisitionLineRate.Text = "Acquisition Line Rate";
             this.chkAcquisitionLineRate.UseVisualStyleBackColor = true;
@@ -159,21 +158,20 @@ namespace RTC_Vision_Lite.UserControls
             // txtAcquisitionLineRate
             // 
             this.txtAcquisitionLineRate.Font = new System.Drawing.Font("Segoe UI", 8.25F);
-            this.txtAcquisitionLineRate.Location = new System.Drawing.Point(192, 179);
-            this.txtAcquisitionLineRate.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtAcquisitionLineRate.Location = new System.Drawing.Point(144, 145);
+            this.txtAcquisitionLineRate.Margin = new System.Windows.Forms.Padding(2);
             this.txtAcquisitionLineRate.Name = "txtAcquisitionLineRate";
             this.txtAcquisitionLineRate.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.txtAcquisitionLineRate.Size = new System.Drawing.Size(215, 22);
+            this.txtAcquisitionLineRate.Size = new System.Drawing.Size(161, 22);
             this.txtAcquisitionLineRate.TabIndex = 24;
             this.txtAcquisitionLineRate.UpDownAlign = System.Windows.Forms.LeftRightAlignment.Left;
             // 
             // chkAcquisitionMode
             // 
             this.chkAcquisitionMode.AutoSize = true;
-            this.chkAcquisitionMode.Location = new System.Drawing.Point(421, 141);
-            this.chkAcquisitionMode.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.chkAcquisitionMode.Location = new System.Drawing.Point(316, 115);
             this.chkAcquisitionMode.Name = "chkAcquisitionMode";
-            this.chkAcquisitionMode.Size = new System.Drawing.Size(129, 20);
+            this.chkAcquisitionMode.Size = new System.Drawing.Size(107, 17);
             this.chkAcquisitionMode.TabIndex = 23;
             this.chkAcquisitionMode.Text = "Acquisition Mode";
             this.chkAcquisitionMode.UseVisualStyleBackColor = true;
@@ -182,10 +180,9 @@ namespace RTC_Vision_Lite.UserControls
             // chkExposureMode
             // 
             this.chkExposureMode.AutoSize = true;
-            this.chkExposureMode.Location = new System.Drawing.Point(421, 102);
-            this.chkExposureMode.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.chkExposureMode.Location = new System.Drawing.Point(316, 83);
             this.chkExposureMode.Name = "chkExposureMode";
-            this.chkExposureMode.Size = new System.Drawing.Size(118, 20);
+            this.chkExposureMode.Size = new System.Drawing.Size(97, 17);
             this.chkExposureMode.TabIndex = 22;
             this.chkExposureMode.Text = "ExposureMode";
             this.chkExposureMode.UseVisualStyleBackColor = true;
@@ -194,10 +191,9 @@ namespace RTC_Vision_Lite.UserControls
             // chkGain
             // 
             this.chkGain.AutoSize = true;
-            this.chkGain.Location = new System.Drawing.Point(421, 63);
-            this.chkGain.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.chkGain.Location = new System.Drawing.Point(316, 51);
             this.chkGain.Name = "chkGain";
-            this.chkGain.Size = new System.Drawing.Size(54, 20);
+            this.chkGain.Size = new System.Drawing.Size(48, 17);
             this.chkGain.TabIndex = 21;
             this.chkGain.Text = "Gain";
             this.chkGain.UseVisualStyleBackColor = true;
@@ -206,10 +202,9 @@ namespace RTC_Vision_Lite.UserControls
             // chkExposureTime
             // 
             this.chkExposureTime.AutoSize = true;
-            this.chkExposureTime.Location = new System.Drawing.Point(421, 26);
-            this.chkExposureTime.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.chkExposureTime.Location = new System.Drawing.Point(316, 18);
             this.chkExposureTime.Name = "chkExposureTime";
-            this.chkExposureTime.Size = new System.Drawing.Size(117, 20);
+            this.chkExposureTime.Size = new System.Drawing.Size(96, 17);
             this.chkExposureTime.TabIndex = 20;
             this.chkExposureTime.Text = "Exposure Time";
             this.chkExposureTime.UseVisualStyleBackColor = true;
@@ -218,10 +213,9 @@ namespace RTC_Vision_Lite.UserControls
             // chkTriggerActivity
             // 
             this.chkTriggerActivity.AutoSize = true;
-            this.chkTriggerActivity.Location = new System.Drawing.Point(9, 141);
-            this.chkTriggerActivity.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.chkTriggerActivity.Location = new System.Drawing.Point(7, 115);
             this.chkTriggerActivity.Name = "chkTriggerActivity";
-            this.chkTriggerActivity.Size = new System.Drawing.Size(131, 20);
+            this.chkTriggerActivity.Size = new System.Drawing.Size(109, 17);
             this.chkTriggerActivity.TabIndex = 19;
             this.chkTriggerActivity.Text = "Trigger Activation";
             this.chkTriggerActivity.UseVisualStyleBackColor = true;
@@ -230,10 +224,9 @@ namespace RTC_Vision_Lite.UserControls
             // chkTriggerSource
             // 
             this.chkTriggerSource.AutoSize = true;
-            this.chkTriggerSource.Location = new System.Drawing.Point(9, 100);
-            this.chkTriggerSource.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.chkTriggerSource.Location = new System.Drawing.Point(7, 81);
             this.chkTriggerSource.Name = "chkTriggerSource";
-            this.chkTriggerSource.Size = new System.Drawing.Size(116, 20);
+            this.chkTriggerSource.Size = new System.Drawing.Size(96, 17);
             this.chkTriggerSource.TabIndex = 18;
             this.chkTriggerSource.Text = "Trigger Source";
             this.chkTriggerSource.UseVisualStyleBackColor = true;
@@ -242,10 +235,9 @@ namespace RTC_Vision_Lite.UserControls
             // chkTriggerMode
             // 
             this.chkTriggerMode.AutoSize = true;
-            this.chkTriggerMode.Location = new System.Drawing.Point(9, 62);
-            this.chkTriggerMode.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.chkTriggerMode.Location = new System.Drawing.Point(7, 50);
             this.chkTriggerMode.Name = "chkTriggerMode";
-            this.chkTriggerMode.Size = new System.Drawing.Size(108, 20);
+            this.chkTriggerMode.Size = new System.Drawing.Size(89, 17);
             this.chkTriggerMode.TabIndex = 17;
             this.chkTriggerMode.Text = "Trigger Mode";
             this.chkTriggerMode.UseVisualStyleBackColor = true;
@@ -254,10 +246,9 @@ namespace RTC_Vision_Lite.UserControls
             // chkTriggerDelay
             // 
             this.chkTriggerDelay.AutoSize = true;
-            this.chkTriggerDelay.Location = new System.Drawing.Point(9, 26);
-            this.chkTriggerDelay.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.chkTriggerDelay.Location = new System.Drawing.Point(5, 18);
             this.chkTriggerDelay.Name = "chkTriggerDelay";
-            this.chkTriggerDelay.Size = new System.Drawing.Size(109, 20);
+            this.chkTriggerDelay.Size = new System.Drawing.Size(89, 17);
             this.chkTriggerDelay.TabIndex = 16;
             this.chkTriggerDelay.Text = "Trigger Delay";
             this.chkTriggerDelay.UseVisualStyleBackColor = true;
@@ -272,10 +263,10 @@ namespace RTC_Vision_Lite.UserControls
             "Single Frame",
             "Multi Frame",
             "Continuous"});
-            this.cbAcquisitionMode.Location = new System.Drawing.Point(579, 139);
-            this.cbAcquisitionMode.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.cbAcquisitionMode.Location = new System.Drawing.Point(434, 113);
+            this.cbAcquisitionMode.Margin = new System.Windows.Forms.Padding(2);
             this.cbAcquisitionMode.Name = "cbAcquisitionMode";
-            this.cbAcquisitionMode.Size = new System.Drawing.Size(215, 21);
+            this.cbAcquisitionMode.Size = new System.Drawing.Size(162, 21);
             this.cbAcquisitionMode.TabIndex = 15;
             // 
             // cbExposureMode
@@ -286,29 +277,29 @@ namespace RTC_Vision_Lite.UserControls
             this.cbExposureMode.Items.AddRange(new object[] {
             "Timed",
             "Trigger Width"});
-            this.cbExposureMode.Location = new System.Drawing.Point(579, 99);
-            this.cbExposureMode.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.cbExposureMode.Location = new System.Drawing.Point(434, 80);
+            this.cbExposureMode.Margin = new System.Windows.Forms.Padding(2);
             this.cbExposureMode.Name = "cbExposureMode";
-            this.cbExposureMode.Size = new System.Drawing.Size(215, 21);
+            this.cbExposureMode.Size = new System.Drawing.Size(162, 21);
             this.cbExposureMode.TabIndex = 14;
             // 
             // txtGainRaw
             // 
             this.txtGainRaw.Font = new System.Drawing.Font("Segoe UI", 8.25F);
-            this.txtGainRaw.Location = new System.Drawing.Point(579, 60);
-            this.txtGainRaw.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtGainRaw.Location = new System.Drawing.Point(434, 49);
+            this.txtGainRaw.Margin = new System.Windows.Forms.Padding(2);
             this.txtGainRaw.Name = "txtGainRaw";
-            this.txtGainRaw.Size = new System.Drawing.Size(215, 22);
+            this.txtGainRaw.Size = new System.Drawing.Size(161, 22);
             this.txtGainRaw.TabIndex = 13;
             this.txtGainRaw.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // txtExposureTimeRaw
             // 
             this.txtExposureTimeRaw.Font = new System.Drawing.Font("Segoe UI", 8.25F);
-            this.txtExposureTimeRaw.Location = new System.Drawing.Point(579, 22);
-            this.txtExposureTimeRaw.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtExposureTimeRaw.Location = new System.Drawing.Point(434, 20);
+            this.txtExposureTimeRaw.Margin = new System.Windows.Forms.Padding(2);
             this.txtExposureTimeRaw.Name = "txtExposureTimeRaw";
-            this.txtExposureTimeRaw.Size = new System.Drawing.Size(215, 22);
+            this.txtExposureTimeRaw.Size = new System.Drawing.Size(161, 22);
             this.txtExposureTimeRaw.TabIndex = 12;
             this.txtExposureTimeRaw.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
@@ -320,10 +311,10 @@ namespace RTC_Vision_Lite.UserControls
             this.cbTriggerActivation.Items.AddRange(new object[] {
             "Rising Edge",
             "Falling Edge"});
-            this.cbTriggerActivation.Location = new System.Drawing.Point(192, 141);
-            this.cbTriggerActivation.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.cbTriggerActivation.Location = new System.Drawing.Point(144, 115);
+            this.cbTriggerActivation.Margin = new System.Windows.Forms.Padding(2);
             this.cbTriggerActivation.Name = "cbTriggerActivation";
-            this.cbTriggerActivation.Size = new System.Drawing.Size(215, 21);
+            this.cbTriggerActivation.Size = new System.Drawing.Size(162, 21);
             this.cbTriggerActivation.TabIndex = 11;
             // 
             // cbTriggerSource
@@ -338,10 +329,10 @@ namespace RTC_Vision_Lite.UserControls
             "Line 2",
             "Line 3",
             "Counter 0"});
-            this.cbTriggerSource.Location = new System.Drawing.Point(192, 102);
-            this.cbTriggerSource.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.cbTriggerSource.Location = new System.Drawing.Point(144, 83);
+            this.cbTriggerSource.Margin = new System.Windows.Forms.Padding(2);
             this.cbTriggerSource.Name = "cbTriggerSource";
-            this.cbTriggerSource.Size = new System.Drawing.Size(215, 21);
+            this.cbTriggerSource.Size = new System.Drawing.Size(162, 21);
             this.cbTriggerSource.TabIndex = 10;
             // 
             // cbTriggerMode
@@ -352,20 +343,20 @@ namespace RTC_Vision_Lite.UserControls
             this.cbTriggerMode.Items.AddRange(new object[] {
             "On",
             "Off"});
-            this.cbTriggerMode.Location = new System.Drawing.Point(192, 62);
-            this.cbTriggerMode.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.cbTriggerMode.Location = new System.Drawing.Point(144, 50);
+            this.cbTriggerMode.Margin = new System.Windows.Forms.Padding(2);
             this.cbTriggerMode.Name = "cbTriggerMode";
-            this.cbTriggerMode.Size = new System.Drawing.Size(215, 21);
+            this.cbTriggerMode.Size = new System.Drawing.Size(162, 21);
             this.cbTriggerMode.TabIndex = 9;
             // 
             // txtTriggerDelayRaw
             // 
             this.txtTriggerDelayRaw.Font = new System.Drawing.Font("Segoe UI", 8.25F);
-            this.txtTriggerDelayRaw.Location = new System.Drawing.Point(192, 24);
-            this.txtTriggerDelayRaw.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtTriggerDelayRaw.Location = new System.Drawing.Point(144, 20);
+            this.txtTriggerDelayRaw.Margin = new System.Windows.Forms.Padding(2);
             this.txtTriggerDelayRaw.Name = "txtTriggerDelayRaw";
             this.txtTriggerDelayRaw.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.txtTriggerDelayRaw.Size = new System.Drawing.Size(215, 22);
+            this.txtTriggerDelayRaw.Size = new System.Drawing.Size(161, 22);
             this.txtTriggerDelayRaw.TabIndex = 8;
             this.txtTriggerDelayRaw.UpDownAlign = System.Windows.Forms.LeftRightAlignment.Left;
             // 
@@ -378,11 +369,11 @@ namespace RTC_Vision_Lite.UserControls
             this.tabPage2.Controls.Add(this.label11);
             this.tabPage2.Controls.Add(this.label10);
             this.tabPage2.Controls.Add(this.chkUseBalnceWhiteColor);
-            this.tabPage2.Location = new System.Drawing.Point(4, 25);
-            this.tabPage2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.tabPage2.Location = new System.Drawing.Point(4, 22);
+            this.tabPage2.Margin = new System.Windows.Forms.Padding(2);
             this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.tabPage2.Size = new System.Drawing.Size(811, 221);
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(2);
+            this.tabPage2.Size = new System.Drawing.Size(606, 177);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Balance White";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -390,70 +381,73 @@ namespace RTC_Vision_Lite.UserControls
             // txtBalanceBlue
             // 
             this.txtBalanceBlue.Font = new System.Drawing.Font("Segoe UI", 8.25F);
-            this.txtBalanceBlue.Location = new System.Drawing.Point(195, 130);
-            this.txtBalanceBlue.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtBalanceBlue.Location = new System.Drawing.Point(146, 106);
+            this.txtBalanceBlue.Margin = new System.Windows.Forms.Padding(2);
             this.txtBalanceBlue.Name = "txtBalanceBlue";
             this.txtBalanceBlue.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.txtBalanceBlue.Size = new System.Drawing.Size(215, 22);
+            this.txtBalanceBlue.Size = new System.Drawing.Size(161, 22);
             this.txtBalanceBlue.TabIndex = 11;
             this.txtBalanceBlue.UpDownAlign = System.Windows.Forms.LeftRightAlignment.Left;
             // 
             // txtBalanceGreen
             // 
             this.txtBalanceGreen.Font = new System.Drawing.Font("Segoe UI", 8.25F);
-            this.txtBalanceGreen.Location = new System.Drawing.Point(195, 94);
-            this.txtBalanceGreen.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtBalanceGreen.Location = new System.Drawing.Point(146, 76);
+            this.txtBalanceGreen.Margin = new System.Windows.Forms.Padding(2);
             this.txtBalanceGreen.Name = "txtBalanceGreen";
             this.txtBalanceGreen.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.txtBalanceGreen.Size = new System.Drawing.Size(215, 22);
+            this.txtBalanceGreen.Size = new System.Drawing.Size(161, 22);
             this.txtBalanceGreen.TabIndex = 10;
             this.txtBalanceGreen.UpDownAlign = System.Windows.Forms.LeftRightAlignment.Left;
             // 
             // txtBalanceRed
             // 
             this.txtBalanceRed.Font = new System.Drawing.Font("Segoe UI", 8.25F);
-            this.txtBalanceRed.Location = new System.Drawing.Point(195, 60);
-            this.txtBalanceRed.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtBalanceRed.Location = new System.Drawing.Point(146, 49);
+            this.txtBalanceRed.Margin = new System.Windows.Forms.Padding(2);
             this.txtBalanceRed.Name = "txtBalanceRed";
             this.txtBalanceRed.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.txtBalanceRed.Size = new System.Drawing.Size(215, 22);
+            this.txtBalanceRed.Size = new System.Drawing.Size(161, 22);
             this.txtBalanceRed.TabIndex = 9;
             this.txtBalanceRed.UpDownAlign = System.Windows.Forms.LeftRightAlignment.Left;
             // 
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(23, 134);
+            this.label12.Location = new System.Drawing.Point(17, 109);
+            this.label12.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(122, 16);
+            this.label12.Size = new System.Drawing.Size(98, 13);
             this.label12.TabIndex = 3;
             this.label12.Text = "Balance Ratio Blue";
             // 
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(23, 98);
+            this.label11.Location = new System.Drawing.Point(17, 80);
+            this.label11.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(132, 16);
+            this.label11.Size = new System.Drawing.Size(106, 13);
             this.label11.TabIndex = 2;
             this.label11.Text = "Balance Ratio Green";
             // 
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(23, 64);
+            this.label10.Location = new System.Drawing.Point(17, 52);
+            this.label10.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(121, 16);
+            this.label10.Size = new System.Drawing.Size(97, 13);
             this.label10.TabIndex = 1;
             this.label10.Text = "Balance Ratio Red";
             // 
             // chkUseBalnceWhiteColor
             // 
             this.chkUseBalnceWhiteColor.AutoSize = true;
-            this.chkUseBalnceWhiteColor.Location = new System.Drawing.Point(23, 25);
-            this.chkUseBalnceWhiteColor.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.chkUseBalnceWhiteColor.Location = new System.Drawing.Point(8, 14);
+            this.chkUseBalnceWhiteColor.Margin = new System.Windows.Forms.Padding(2);
             this.chkUseBalnceWhiteColor.Name = "chkUseBalnceWhiteColor";
-            this.chkUseBalnceWhiteColor.Size = new System.Drawing.Size(176, 20);
+            this.chkUseBalnceWhiteColor.Size = new System.Drawing.Size(145, 17);
             this.chkUseBalnceWhiteColor.TabIndex = 0;
             this.chkUseBalnceWhiteColor.Text = "Use Balance White Color";
             this.chkUseBalnceWhiteColor.UseVisualStyleBackColor = true;
@@ -463,10 +457,10 @@ namespace RTC_Vision_Lite.UserControls
             this.btnLoadDefault.BackColor = System.Drawing.Color.White;
             this.btnLoadDefault.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLoadDefault.Font = new System.Drawing.Font("Segoe UI", 8.25F);
-            this.btnLoadDefault.Location = new System.Drawing.Point(13, 256);
-            this.btnLoadDefault.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnLoadDefault.Location = new System.Drawing.Point(9, 207);
+            this.btnLoadDefault.Margin = new System.Windows.Forms.Padding(2);
             this.btnLoadDefault.Name = "btnLoadDefault";
-            this.btnLoadDefault.Size = new System.Drawing.Size(111, 32);
+            this.btnLoadDefault.Size = new System.Drawing.Size(83, 26);
             this.btnLoadDefault.TabIndex = 1;
             this.btnLoadDefault.Text = "Load Default";
             this.btnLoadDefault.UseVisualStyleBackColor = false;
@@ -477,10 +471,10 @@ namespace RTC_Vision_Lite.UserControls
             this.btnSaveDefault.BackColor = System.Drawing.Color.White;
             this.btnSaveDefault.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSaveDefault.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSaveDefault.Location = new System.Drawing.Point(155, 256);
-            this.btnSaveDefault.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnSaveDefault.Location = new System.Drawing.Point(116, 208);
+            this.btnSaveDefault.Margin = new System.Windows.Forms.Padding(2);
             this.btnSaveDefault.Name = "btnSaveDefault";
-            this.btnSaveDefault.Size = new System.Drawing.Size(111, 32);
+            this.btnSaveDefault.Size = new System.Drawing.Size(83, 26);
             this.btnSaveDefault.TabIndex = 2;
             this.btnSaveDefault.Text = "Save Default";
             this.btnSaveDefault.UseVisualStyleBackColor = false;
@@ -491,10 +485,10 @@ namespace RTC_Vision_Lite.UserControls
             this.btnSetValue.BackColor = System.Drawing.Color.White;
             this.btnSetValue.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSetValue.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSetValue.Location = new System.Drawing.Point(296, 256);
-            this.btnSetValue.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnSetValue.Location = new System.Drawing.Point(222, 208);
+            this.btnSetValue.Margin = new System.Windows.Forms.Padding(2);
             this.btnSetValue.Name = "btnSetValue";
-            this.btnSetValue.Size = new System.Drawing.Size(111, 32);
+            this.btnSetValue.Size = new System.Drawing.Size(83, 26);
             this.btnSetValue.TabIndex = 3;
             this.btnSetValue.Text = "Set Value";
             this.btnSetValue.UseVisualStyleBackColor = false;
@@ -505,10 +499,10 @@ namespace RTC_Vision_Lite.UserControls
             this.btnRealValue.BackColor = System.Drawing.Color.White;
             this.btnRealValue.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnRealValue.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRealValue.Location = new System.Drawing.Point(437, 256);
-            this.btnRealValue.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnRealValue.Location = new System.Drawing.Point(328, 208);
+            this.btnRealValue.Margin = new System.Windows.Forms.Padding(2);
             this.btnRealValue.Name = "btnRealValue";
-            this.btnRealValue.Size = new System.Drawing.Size(111, 32);
+            this.btnRealValue.Size = new System.Drawing.Size(83, 26);
             this.btnRealValue.TabIndex = 4;
             this.btnRealValue.Text = "Real Value";
             this.btnRealValue.UseVisualStyleBackColor = false;
@@ -518,7 +512,8 @@ namespace RTC_Vision_Lite.UserControls
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Segoe UI", 8.25F);
-            this.label9.Location = new System.Drawing.Point(12, 302);
+            this.label9.Location = new System.Drawing.Point(21, 246);
+            this.label9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(69, 13);
             this.label9.TabIndex = 5;
@@ -566,10 +561,10 @@ namespace RTC_Vision_Lite.UserControls
             "Bayer RG 16",
             "Bayer GB 16",
             "Bayer BG 16"});
-            this.cbPixelFomat.Location = new System.Drawing.Point(155, 299);
-            this.cbPixelFomat.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.cbPixelFomat.Location = new System.Drawing.Point(116, 243);
+            this.cbPixelFomat.Margin = new System.Windows.Forms.Padding(2);
             this.cbPixelFomat.Name = "cbPixelFomat";
-            this.cbPixelFomat.Size = new System.Drawing.Size(172, 21);
+            this.cbPixelFomat.Size = new System.Drawing.Size(130, 21);
             this.cbPixelFomat.TabIndex = 12;
             // 
             // myTreeList1
@@ -589,7 +584,7 @@ namespace RTC_Vision_Lite.UserControls
             // 
             // ucCameraSettings
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.cbPixelFomat);
             this.Controls.Add(this.label9);
@@ -598,9 +593,9 @@ namespace RTC_Vision_Lite.UserControls
             this.Controls.Add(this.btnSaveDefault);
             this.Controls.Add(this.btnLoadDefault);
             this.Controls.Add(this.tcMainSettings);
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "ucCameraSettings";
-            this.Size = new System.Drawing.Size(819, 341);
+            this.Size = new System.Drawing.Size(614, 277);
             ((System.ComponentModel.ISupportInitialize)(this.treeListView1)).EndInit();
             this.tcMainSettings.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);

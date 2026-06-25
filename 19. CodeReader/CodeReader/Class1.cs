@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using RTCBase.Drawing;
 using Emgu.CV.Structure;
@@ -79,6 +79,12 @@ namespace CodeReader
         {
             get { return _passed; }
         }
+
+        public bool IsClearModel
+        {
+            get { return _isclearmodel; }
+            set { _isclearmodel = value; }
+        }
         public string ErrMessage
         {
             get { return _errMessage; }
@@ -139,7 +145,7 @@ namespace CodeReader
         private List<string> _inputlistFormatTrain = null;
         private bool _isShowImageResult = false;
         private string _pathSaveFileTrain = null;
-
+        private bool _isclearmodel = true;
         private string _errMessage = null;
         private bool _passed = false;
         private List<string> _outputStringCode = new List<string>();
@@ -170,21 +176,47 @@ namespace CodeReader
                 _errMessage = "Train: Lỗi InputImage = null";
                 return false;
             }
+            try { _inputImage.Save("E:\\CodeReader_Train_Input.bmp"); } catch {}
             if (_codeType == null)
             {
                 _errMessage = "Train: Lỗi chưa set CodeType";
+                return false;
+            }
+            string normalizedCodeType = _codeType.Trim().ToUpper();
+            if (normalizedCodeType != "1D" && normalizedCodeType != "2D")
+            {
+                _errMessage = $"Train: Lỗi CodeType '{_codeType}' không hợp lệ (phải là 1D hoặc 2D)";
                 return false;
             }
 
             //Khởi tạo các giá trị output ban đầu
             //_listFormatTrain = new List<string> { "AZTEC", "CODABAR", "CODE_39", "CODE_93", "CODE_128", "EAN_8" , "EAN_13", "ITF", "UPC_A", "UPC_E" , "All_1D" };
             _outputStringCode.Clear();
-            _dataTrain = new List<DataCodeTrain>();
             _passed = false;
             _outputImageShow = null;
             _outputListFomatTrain.Clear();
             _listPointString.Clear();
             _outputRegion.Clear();
+            if (_isclearmodel)
+            {
+                _dataTrain = new List<DataCodeTrain>();
+            }
+            else
+            {
+                _dataTrain = new List<DataCodeTrain>();
+                if (File.Exists(_pathSaveFileTrain))
+                {
+                    try
+                    {
+                        var existing = JsonConvert.DeserializeObject<List<DataCodeTrain>>(File.ReadAllText(_pathSaveFileTrain));
+                        if (existing != null)
+                        {
+                            _dataTrain.AddRange(existing);
+                        }
+                    }
+                    catch { }
+                }
+            }
             try
             {
                 Image<Gray, byte> img = new Image<Gray, byte>(10, 10);
@@ -194,41 +226,81 @@ namespace CodeReader
                 var M = new Mat();
                 Point POriROI = new Point();
                 double PAngleROI = 0;
-                if(_codeType == "1D")
+                if(normalizedCodeType == "1D")
                 {
-                    //if (_inSetOrigin.Length > 0)
+                    ////if (_inSetOrigin.Length > 0)
+                    //{
+                    //    //if (_inSetOrigin != null) //Nếu có truyền vào ROI
+                    //    {
+                    //        //Chuyển tọa độ 4 đỉnh rectangle trong hệ tọa độ ToolOrigin về hệ tọa độ ảnh
+                    //        //for (int i = 0; i < 4; i++)
+                    //        //{
+                    //        //    points[i] = ConvertCoordinatesToOrigin(_toolOrigin, _inSetOrigin[i]);
+                    //        //}
+
+                    //        ////Đoạn này sẽ crop ảnh trong ROI 
+                    //        //var rotateRecROI = CvInvoke.MinAreaRect(points);
+                    //        int width = (int)Math.Round(_ROITrain.Width);
+                    //        int height = (int)Math.Round(_ROITrain.Height);
+
+                    //        //
+                    //        GetRectangleVertices(_ROITrain, out points);
+                    //        var intBox = Array.ConvertAll(points, Point.Round);
+
+                    //        var srcPoints = Array.ConvertAll(intBox, p => new PointF(p.X, p.Y));
+                    //        var dstPoints = new PointF[] {
+                    //             new PointF(width-1, 0),
+                    //            new PointF(0, 0),
+                    //            new PointF(0, height-1),
+                    //            new PointF(width-1, height-1)};
+                    //        M = CvInvoke.GetPerspectiveTransform(srcPoints, dstPoints);
+                    //        var warped = new Mat();
+                    //        CvInvoke.WarpPerspective(_inputImage, warped, M, new Size(width, height), Inter.Cubic);
+                    //        img = warped.ToImage<Gray, byte>();
+                    //        try { img.Save("E:\\CodeReader_Train_Warped_1D.bmp"); } catch {}
+
+                    //        POriROI = new Point((int)points[1].X, (int)points[1].Y);
+                    //        PAngleROI = Math.Atan((points[0].Y - points[1].Y) / (points[0].X - points[1].X)) * 180 / Math.PI;
+                    //    }
+                    //}
+                    // Thay thế đoạn từ dòng 243 đến 263 bằng:
+                    int width, height;
+                    if (_ROITrain != null && _ROITrain.Width > 0 && _ROITrain.Height > 0)
                     {
-                        //if (_inSetOrigin != null) //Nếu có truyền vào ROI
-                        {
-                            //Chuyển tọa độ 4 đỉnh rectangle trong hệ tọa độ ToolOrigin về hệ tọa độ ảnh
-                            //for (int i = 0; i < 4; i++)
-                            //{
-                            //    points[i] = ConvertCoordinatesToOrigin(_toolOrigin, _inSetOrigin[i]);
-                            //}
+                        width = (int)Math.Round(_ROITrain.Width);
+                        height = (int)Math.Round(_ROITrain.Height);
 
-                            ////Đoạn này sẽ crop ảnh trong ROI 
-                            //var rotateRecROI = CvInvoke.MinAreaRect(points);
-                            int width = (int)Math.Round(_ROITrain.Width);
-                            int height = (int)Math.Round(_ROITrain.Height);
+                        GetRectangleVertices(_ROITrain, out points);
+                        var intBox = Array.ConvertAll(points, Point.Round);
 
-                            //
-                            GetRectangleVertices(_ROITrain, out points);
-                            var intBox = Array.ConvertAll(points, Point.Round);
+                        var srcPoints = Array.ConvertAll(intBox, p => new PointF(p.X, p.Y));
+                        var dstPoints = new PointF[] {
+         new PointF(width-1, 0),
+        new PointF(0, 0),
+        new PointF(0, height-1),
+        new PointF(width-1, height-1)};
+                        M = CvInvoke.GetPerspectiveTransform(srcPoints, dstPoints);
+                        var warped = new Mat();
+                        CvInvoke.WarpPerspective(_inputImage, warped, M, new Size(width, height), Inter.Cubic);
+                        img = warped.ToImage<Gray, byte>();
+                        try { img.Save("E:\\CodeReader_Train_Warped_1D.bmp"); } catch { }
 
-                            var srcPoints = Array.ConvertAll(intBox, p => new PointF(p.X, p.Y));
-                            var dstPoints = new PointF[] {
-                                 new PointF(width-1, 0),
-                                new PointF(0, 0),
-                                new PointF(0, height-1),
-                                new PointF(width-1, height-1)};
-                            M = CvInvoke.GetPerspectiveTransform(srcPoints, dstPoints);
-                            var warped = new Mat();
-                            CvInvoke.WarpPerspective(_inputImage, warped, M, new Size(width, height), Inter.Cubic);
-                            img = warped.ToImage<Gray, byte>();
+                        POriROI = new Point((int)points[1].X, (int)points[1].Y);
+                        PAngleROI = Math.Atan((points[0].Y - points[1].Y) / (points[0].X - points[1].X)) * 180 / Math.PI;
+                    }
+                    else
+                    {
+                        width = _inputImage.Width;
+                        height = _inputImage.Height;
 
-                            POriROI = new Point((int)points[1].X, (int)points[1].Y);
-                            PAngleROI = Math.Atan((points[0].Y - points[1].Y) / (points[0].X - points[1].X)) * 180 / Math.PI;
-                        }
+                        points[0] = new PointF(width - 1, 0);          
+                        points[1] = new PointF(0, 0);                
+                        points[2] = new PointF(0, height - 1);         
+                        points[3] = new PointF(width - 1, height - 1);    
+
+                        img = _inputImage;
+                        POriROI = new Point(0, 0);
+                        PAngleROI = 0;
                     }
                     List<ZXing.BarcodeFormat> listFormat = new List<ZXing.BarcodeFormat>();
                     for (int i = 0; i < _inputlistFormatTrain.Count; i++)
@@ -336,7 +408,10 @@ namespace CodeReader
                                 dataCodeTrain.LengthCode = result.Text.ToString().Length;
                                 
                                 contour.Push(new[] { PContour });
-                                _dataTrain.Add(dataCodeTrain);
+                                if (!_dataTrain.Any(x => x.Format == dataCodeTrain.Format && x.FormatAspose == dataCodeTrain.FormatAspose && x.LengthCode == dataCodeTrain.LengthCode))
+                                {
+                                    _dataTrain.Add(dataCodeTrain);
+                                }
 
                             }
                             else
@@ -384,7 +459,10 @@ namespace CodeReader
                                         _outputListFomatTrain.Add(result.BarcodeFormat.ToString());
                                         dataCodeTrain.LengthCode = result.Text.ToString().Length;
                                         contour.Push(new[] { PContour });
-                                        _dataTrain.Add(dataCodeTrain);
+                                        if (!_dataTrain.Any(x => x.Format == dataCodeTrain.Format && x.FormatAspose == dataCodeTrain.FormatAspose && x.LengthCode == dataCodeTrain.LengthCode))
+                                        {
+                                            _dataTrain.Add(dataCodeTrain);
+                                        }
                                         break;
                                     }
                                     meanImg.Dispose();
@@ -397,7 +475,13 @@ namespace CodeReader
                     _outputRegion = contour;
                     if (_dataTrain.Count > 0)
                     {
+                        string dir = Path.GetDirectoryName(_pathSaveFileTrain);
+                        if (!Directory.Exists(dir))
+                        {
+                            Directory.CreateDirectory(dir);
+                        }
                         File.WriteAllText(_pathSaveFileTrain, JsonConvert.SerializeObject(DataTrain, Newtonsoft.Json.Formatting.Indented));
+                        _passed = true;
                     }
                     if (_isShowImageResult)
                     {
@@ -417,29 +501,73 @@ namespace CodeReader
                         imgShow.Dispose();
                     }
                     img.Dispose();
+                    if (!_passed)
+                    {
+                        _errMessage = "Train: Không tìm thấy mã vạch 1D nào trong vùng chọn";
+                        return false;
+                    }
                 }    
-                else if (_codeType == "2D")
+                else if (normalizedCodeType == "2D")
                 {
-                    int width = (int)Math.Round(_ROITrain.Width);
-                    int height = (int)Math.Round(_ROITrain.Height);
+                    //int width = (int)Math.Round(_ROITrain.Width);
+                    //int height = (int)Math.Round(_ROITrain.Height);
 
-                    //
-                    GetRectangleVertices(_ROITrain, out points);
-                    var intBox = Array.ConvertAll(points, Point.Round);
+                    ////
+                    //GetRectangleVertices(_ROITrain, out points);
+                    //var intBox = Array.ConvertAll(points, Point.Round);
 
-                    var srcPoints = Array.ConvertAll(intBox, p => new PointF(p.X, p.Y));
-                    var dstPoints = new PointF[] {
-                                 new PointF(width-1, 0),
-                                new PointF(0, 0),
-                                new PointF(0, height-1),
-                                new PointF(width-1, height-1)};
-                    M = CvInvoke.GetPerspectiveTransform(srcPoints, dstPoints);
-                    var warped = new Mat();
-                    CvInvoke.WarpPerspective(_inputImage, warped, M, new Size(width, height), Inter.Cubic);
-                    img = warped.ToImage<Gray, byte>();
-                    POriROI = new Point((int)points[1].X, (int)points[1].Y);
-                    PAngleROI = Math.Atan((points[0].Y - points[1].Y) / (points[0].X - points[1].X)) * 180 / Math.PI;
+                    //var srcPoints = Array.ConvertAll(intBox, p => new PointF(p.X, p.Y));
+                    //var dstPoints = new PointF[] {
+                    //             new PointF(width-1, 0),
+                    //            new PointF(0, 0),
+                    //            new PointF(0, height-1),
+                    //            new PointF(width-1, height-1)};
+                    //M = CvInvoke.GetPerspectiveTransform(srcPoints, dstPoints);
+                    //var warped = new Mat();
+                    //CvInvoke.WarpPerspective(_inputImage, warped, M, new Size(width, height), Inter.Cubic);
+                    //img = warped.ToImage<Gray, byte>();
+                    //try { img.Save("E:\\CodeReader_Train_Warped_2D.bmp"); } catch {}
+                    //POriROI = new Point((int)points[1].X, (int)points[1].Y);
+                    //PAngleROI = Math.Atan((points[0].Y - points[1].Y) / (points[0].X - points[1].X)) * 180 / Math.PI;
+                    // Thay thế đoạn từ dòng 243 đến 263 bằng:
+                    int width, height;
+                    if (_ROITrain != null && _ROITrain.Width > 0 && _ROITrain.Height > 0)
+                    {
+                        width = (int)Math.Round(_ROITrain.Width);
+                        height = (int)Math.Round(_ROITrain.Height);
 
+                        GetRectangleVertices(_ROITrain, out points);
+                        var intBox = Array.ConvertAll(points, Point.Round);
+
+                        var srcPoints = Array.ConvertAll(intBox, p => new PointF(p.X, p.Y));
+                        var dstPoints = new PointF[] {
+         new PointF(width-1, 0),
+        new PointF(0, 0),
+        new PointF(0, height-1),
+        new PointF(width-1, height-1)};
+                        M = CvInvoke.GetPerspectiveTransform(srcPoints, dstPoints);
+                        var warped = new Mat();
+                        CvInvoke.WarpPerspective(_inputImage, warped, M, new Size(width, height), Inter.Cubic);
+                        img = warped.ToImage<Gray, byte>();
+                        try { img.Save("E:\\CodeReader_Train_Warped_2D.bmp"); } catch { }
+
+                        POriROI = new Point((int)points[1].X, (int)points[1].Y);
+                        PAngleROI = Math.Atan((points[0].Y - points[1].Y) / (points[0].X - points[1].X)) * 180 / Math.PI;
+                    }
+                    else
+                    {
+                        width = _inputImage.Width;
+                        height = _inputImage.Height;
+
+                        points[0] = new PointF(width - 1, 0);          // Góc trên - bên phải
+                        points[1] = new PointF(0, 0);                  // Góc trên - bên trái
+                        points[2] = new PointF(0, height - 1);          // Góc dưới - bên trái
+                        points[3] = new PointF(width - 1, height - 1);    // Góc dưới - bên phải
+
+                        img = _inputImage;
+                        POriROI = new Point(0, 0);
+                        PAngleROI = 0;
+                    }
                     List<ZXing.BarcodeFormat> listFormat = new List<ZXing.BarcodeFormat>();
                     for (int i = 0; i < _inputlistFormatTrain.Count; i++)
                     {
@@ -527,7 +655,10 @@ namespace CodeReader
                                 dataCodeTrain.LengthCode = result.Text.ToString().Length;
 
                                 contour.Push(new[] { PContour });
-                                _dataTrain.Add(dataCodeTrain);
+                                if (!_dataTrain.Any(x => x.Format == dataCodeTrain.Format && x.FormatAspose == dataCodeTrain.FormatAspose && x.LengthCode == dataCodeTrain.LengthCode))
+                                {
+                                    _dataTrain.Add(dataCodeTrain);
+                                }
 
                             }
                             else
@@ -557,7 +688,10 @@ namespace CodeReader
                                         dataCodeTrain.LengthCode = result.Text.ToString().Length;
 
                                         contour.Push(new[] { PContour });
-                                        _dataTrain.Add(dataCodeTrain);
+                                        if (!_dataTrain.Any(x => x.Format == dataCodeTrain.Format && x.FormatAspose == dataCodeTrain.FormatAspose && x.LengthCode == dataCodeTrain.LengthCode))
+                                        {
+                                            _dataTrain.Add(dataCodeTrain);
+                                        }
                                         break;
                                     }
                                     meanImg.Dispose();
@@ -569,7 +703,13 @@ namespace CodeReader
                     _outputRegion = contour;
                     if (_dataTrain.Count > 0)
                     {
+                        string dir = Path.GetDirectoryName(_pathSaveFileTrain);
+                        if (!Directory.Exists(dir))
+                        {
+                            Directory.CreateDirectory(dir);
+                        }
                         File.WriteAllText(_pathSaveFileTrain, JsonConvert.SerializeObject(DataTrain, Newtonsoft.Json.Formatting.Indented));
+                        _passed = true;
                     }
 
                     if (_isShowImageResult)
@@ -590,6 +730,11 @@ namespace CodeReader
                         imgShow.Dispose();
                     }
                     img.Dispose();
+                    if (!_passed)
+                    {
+                        _errMessage = "Train: Không tìm thấy mã vạch 2D nào trong vùng chọn";
+                        return false;
+                    }
                 }    
                 
             }
@@ -609,7 +754,7 @@ namespace CodeReader
             }
             catch(Exception ex)
             {
-                _errMessage = "Train: " + ex.Message + "\n" + ex.StackTrace;
+                _errMessage = "LoadFile: " + ex.Message + " (Path: " + _pathSaveFileTrain + ")";
                 return false;
             }
             return true;
@@ -626,6 +771,12 @@ namespace CodeReader
             if(_codeType == null)
             {
                 _errMessage = "Run: Lỗi chưa set CodeType";
+                return false;
+            }
+            string normalizedCodeType = _codeType.Trim().ToUpper();
+            if (normalizedCodeType != "1D" && normalizedCodeType != "2D")
+            {
+                _errMessage = $"Run: Lỗi CodeType '{_codeType}' không hợp lệ (phải là 1D hoặc 2D)";
                 return false;
             }
             if (_dataTrain == null || _dataTrain.Count ==0)
@@ -649,37 +800,86 @@ namespace CodeReader
                 var M = new Mat();
                 Point POriROI = new Point();
                 double PAngleROI = 0;
-                if (_inSetOrigin.Length > 0)
+
+                if (_inSetOrigin != null && _inSetOrigin.Length > 0) // Nếu có truyền vào ROI
                 {
-                    if (_inSetOrigin != null) //Nếu có truyền vào ROI
+                    // Chuyển tọa độ 4 đỉnh rectangle trong hệ tọa độ ToolOrigin về hệ tọa độ ảnh
+                    for (int i = 0; i < 4; i++)
                     {
-                        //Chuyển tọa độ 4 đỉnh rectangle trong hệ tọa độ ToolOrigin về hệ tọa độ ảnh
-                        for (int i = 0; i < 4; i++)
-                        {
-                            points[i] = ConvertCoordinatesToOrigin(_toolOrigin, _inSetOrigin[i]);
-                        }
-
-                        //Đoạn này sẽ crop ảnh trong ROI 
-                        var rotateRecROI = CvInvoke.MinAreaRect(points);
-                        int width = (int)Math.Round(_ROISearch.Width);
-                        int height = (int)Math.Round(_ROISearch.Height);
-                        var intBox = Array.ConvertAll(points, Point.Round);
-
-                        var srcPoints = Array.ConvertAll(intBox, p => new PointF(p.X, p.Y));
-                        var dstPoints = new PointF[] {
-                         new PointF(width-1, 0),
-                        new PointF(0, 0),
-                        new PointF(0, height-1),
-                        new PointF(width-1, height-1)};
-                        M = CvInvoke.GetPerspectiveTransform(srcPoints, dstPoints);
-                        
-                        var warped = new Mat();
-                        CvInvoke.WarpPerspective(_inputImage, warped, M, new Size(width, height),Inter.Cubic);
-                        img = warped.ToImage<Gray, byte>();
-                        POriROI = new Point((int)points[1].X, (int)points[1].Y);
-                        PAngleROI = Math.Atan((points[0].Y - points[1].Y) / (points[0].X - points[1].X)) * 180 / Math.PI;
+                        points[i] = ConvertCoordinatesToOrigin(_toolOrigin, _inSetOrigin[i]);
                     }
+
+                    // Đoạn này sẽ crop ảnh trong ROI 
+                    var rotateRecROI = CvInvoke.MinAreaRect(points);
+                    int width = (int)Math.Round(_ROISearch.Width);
+                    int height = (int)Math.Round(_ROISearch.Height);
+                    var intBox = Array.ConvertAll(points, Point.Round);
+
+                    var srcPoints = Array.ConvertAll(intBox, p => new PointF(p.X, p.Y));
+                    var dstPoints = new PointF[] {
+        new PointF(width-1, 0),
+        new PointF(0, 0),
+        new PointF(0, height-1),
+        new PointF(width-1, height-1)
+    };
+                    M = CvInvoke.GetPerspectiveTransform(srcPoints, dstPoints);
+
+                    var warped = new Mat();
+                    CvInvoke.WarpPerspective(_inputImage, warped, M, new Size(width, height), Inter.Cubic);
+                    img = warped.ToImage<Gray, byte>();
+
+                    POriROI = new Point((int)points[1].X, (int)points[1].Y);
+                    PAngleROI = Math.Atan((points[0].Y - points[1].Y) / (points[0].X - points[1].X)) * 180 / Math.PI;
                 }
+                else 
+                {
+                    int width = _inputImage.Width;
+                    int height = _inputImage.Height;
+
+                    points[0] = new PointF(width - 1, 0);         
+                    points[1] = new PointF(0, 0);                  
+                    points[2] = new PointF(0, height - 1);         
+                    points[3] = new PointF(width - 1, height - 1);   
+
+                   
+                    img = _inputImage;
+
+
+                    POriROI = new Point(0, 0);
+                    PAngleROI = 0;
+                }
+                //if (_inSetOrigin.Length > 0)
+                //{
+                //    if (_inSetOrigin != null) //Nếu có truyền vào ROI
+                //    {
+                //        //Chuyển tọa độ 4 đỉnh rectangle trong hệ tọa độ ToolOrigin về hệ tọa độ ảnh
+                //        for (int i = 0; i < 4; i++)
+                //        {
+                //            points[i] = ConvertCoordinatesToOrigin(_toolOrigin, _inSetOrigin[i]);
+                //        }
+
+                //        //Đoạn này sẽ crop ảnh trong ROI 
+                //        var rotateRecROI = CvInvoke.MinAreaRect(points);
+                //        int width = (int)Math.Round(_ROISearch.Width);
+                //        int height = (int)Math.Round(_ROISearch.Height);
+                //        var intBox = Array.ConvertAll(points, Point.Round);
+
+                //        var srcPoints = Array.ConvertAll(intBox, p => new PointF(p.X, p.Y));
+                //        var dstPoints = new PointF[] {
+                //         new PointF(width-1, 0),
+                //        new PointF(0, 0),
+                //        new PointF(0, height-1),
+                //        new PointF(width-1, height-1)};
+                //        M = CvInvoke.GetPerspectiveTransform(srcPoints, dstPoints);
+
+                //        var warped = new Mat();
+                //        CvInvoke.WarpPerspective(_inputImage, warped, M, new Size(width, height), Inter.Cubic);
+                //        img = warped.ToImage<Gray, byte>();
+                //        POriROI = new Point((int)points[1].X, (int)points[1].Y);
+                //        PAngleROI = Math.Atan((points[0].Y - points[1].Y) / (points[0].X - points[1].X)) * 180 / Math.PI;
+                //    }
+                //}
+
                 List<ZXing.BarcodeFormat> formats = new List<ZXing.BarcodeFormat>();
                 foreach (var data in _dataTrain)
                 {
@@ -695,7 +895,7 @@ namespace CodeReader
                     LengthCode.Add(data.LengthCode);
                 }
                 VectorOfVectorOfPoint contour = new VectorOfVectorOfPoint();
-                if (_codeType == "1D")
+                if (normalizedCodeType == "1D")
                 {
                     //ZXing
                     Mat lPoint = new Mat();
@@ -767,7 +967,6 @@ namespace CodeReader
                             imgRotate = CropRotatedRect(img, rec);
 
                             var result = reader.Decode(imgRotate.ToBitmap());
-                            Image<Gray, byte> meanImg = new Image<Gray, byte>(img.Width, img.Height);
                             if (result != null)
                             {
                                 _outputStringCode.Add(result.Text);
@@ -782,80 +981,28 @@ namespace CodeReader
                             }
                             else
                             {
-                                //string[] datas = new string[1];
-                                //if(formats.Contains(ZXing.BarcodeFormat.CODE_128)
-                                //    ||formats.Contains(ZXing.BarcodeFormat.EAN_13) 
-                                //    || formats.Contains(ZXing.BarcodeFormat.EAN_8) 
-                                //    || formats.Contains(ZXing.BarcodeFormat.CODE_39)
-                                //    || formats.Contains(ZXing.BarcodeFormat.CODABAR)
-                                //    || formats.Contains(ZXing.BarcodeFormat.CODE_93))
-                                //{
-                                    
-                                //    if (formats[0]== ZXing.BarcodeFormat.CODE_128)
-                                //        datas = BarcodeScanner.Scan(imgRotate.ToBitmap(),BarCodeType.Code128);
-                                //    else if(formats[0] == ZXing.BarcodeFormat.EAN_13)
-                                //        datas = BarcodeScanner.Scan(imgRotate.ToBitmap(), BarCodeType.EAN13);
-                                //    else if (formats[0] == ZXing.BarcodeFormat.EAN_8)
-                                //        datas = BarcodeScanner.Scan(imgRotate.ToBitmap(), BarCodeType.EAN8);
-                                //    else if (formats[0] == ZXing.BarcodeFormat.CODE_39)
-                                //        datas = BarcodeScanner.Scan(imgRotate.ToBitmap(), BarCodeType.Code39);
-                                //    else if (formats[0] == ZXing.BarcodeFormat.CODABAR)
-                                //        datas = BarcodeScanner.Scan(imgRotate.ToBitmap(), BarCodeType.Codabar);
-                                //    else if (formats[0] == ZXing.BarcodeFormat.CODE_93)
-                                //        datas = BarcodeScanner.Scan(imgRotate.ToBitmap(), BarCodeType.Code93);
+                                List<int> k = new List<int> { -1, 1, -2, 2, -3, 3, -4, 4, -5, 5, -6, 6, -7, 7, -8, 8, -9, 9, -10, 10, -11, 11, -12, 12, -13, 13, -14, 14, -15, 15, -16, 16, -17, 17, -18, 18, -19, 19, -20, 20, -21, 21, -22, 22, -23, 23, -24, 24, -25, 25, -26, 26, -27, 27, -28, 28, -29, 29 };
 
-                                //}
-                                //if (datas.Length > 0 && datas[0] != null )
-                                //{
-                                //    _outputStringCode.Add(datas[0]);
-                                //    Point pc = new Point((int)rec.Center.X, (int)rec.Center.Y);
-                                //    vecPF.Add(pc);
-                                //    var pF = CvInvoke.PerspectiveTransform(vecPF.ToArray(), M_inv);
-                                //    Point[] pointArray = Array.ConvertAll(pF, p => new Point((int)Math.Round(p.X), (int)Math.Round(p.Y)));
-                                //    Point[] pointContour = pointArray.Take(4).ToArray();
-                                //    PContour = new VectorOfPoint(pointContour);
-                                //    _listPointString.Add(pointArray[4]);
-                                //    contour.Push(new[] { PContour });
-                                //}
-                                //else
-                                //{
-                                //    List<int> k = new List<int> { -1, 1, -2, 2, -3, 3, -4, 4, -5, 5, -6, 6, -7, 7, -8, 8, -9, 9, -10, 10, -11, 11, -12, 12, -13, 13, -14, 14, -15, 15, -16, 16, -17, 17, -18, 18, -19, 19, -20, 20, -21, 21, -22, 22, -23, 23, -24, 24, -25, 25, -26, 26, -27, 27, -28, 28, -29, 29 };
-
-                                //    for (int j = 1; j <= 20; j++)
-                                //    {
-                                //        meanImg = imgRotate - 10 * j;
-                                //        result = reader.Decode(meanImg.ToBitmap());
-                                //        if (result != null)
-                                //        {
-                                //            _outputStringCode.Add(result.Text);
-                                //            Point pc = new Point((int)rec.Center.X, (int)rec.Center.Y);
-                                //            vecPF.Add(pc);
-                                //            var pF = CvInvoke.PerspectiveTransform(vecPF.ToArray(), M_inv);
-                                //            Point[] pointArray = Array.ConvertAll(pF, p => new Point((int)Math.Round(p.X), (int)Math.Round(p.Y)));
-                                //            Point[] pointContour = pointArray.Take(4).ToArray();
-                                //            PContour = new VectorOfPoint(pointContour);
-                                //            _listPointString.Add(pointArray[4]);
-                                //            contour.Push(new[] { PContour });
-                                //        }
-
-                                //    }
-                                //    //Cải thiện
-                                //    //Mat kernel = new Mat(3, 3, DepthType.Cv32F, 1);
-                                //    //kernel.SetTo(new float[] {
-                                //    //                    -1, -1, -1,
-                                //    //                    -1,  9, -1,
-                                //    //                    -1, -1, -1
-                                //    //                });
-                                //    //Image<Gray, byte> sharpened = new Image<Gray, byte>(imgRotate.Width, imgRotate.Height);
-                                //    //CvInvoke.Filter2D(imgRotate, sharpened, kernel, new Point(-1, -1));
-                                //    //Image<Gray, byte> imgBur = new Image<Gray, byte>(imgRotate.Width, imgRotate.Height);
-                                //    //CvInvoke.GaussianBlur(sharpened, imgBur, new Size(3, 3), 1.5);
-                                //    //result = reader.Decode(imgBur.ToBitmap());
-
-                                //    //img = imgBur.Clone();
-                                //    meanImg.Dispose();
-
-                                //}
+                                for (int j = 1; j <= 40; j++)
+                                {
+                                    using (Image<Gray, byte> meanImg = imgRotate - 10 * k[j])
+                                    {
+                                        result = reader.Decode(meanImg.ToBitmap());
+                                        if (result != null)
+                                        {
+                                            _outputStringCode.Add(result.Text);
+                                            Point pc = new Point((int)rec.Center.X, (int)rec.Center.Y);
+                                            vecPF.Add(pc);
+                                            var pF = CvInvoke.PerspectiveTransform(vecPF.ToArray(), M_inv);
+                                            Point[] pointArray = Array.ConvertAll(pF, p => new Point((int)Math.Round(p.X), (int)Math.Round(p.Y)));
+                                            Point[] pointContour = pointArray.Take(4).ToArray();
+                                            PContour = new VectorOfPoint(pointContour);
+                                            _listPointString.Add(pointArray[4]);
+                                            contour.Push(new[] { PContour });
+                                            break;
+                                        }
+                                    }
+                                }
                             }
                             
                             
@@ -863,7 +1010,7 @@ namespace CodeReader
                     }
                     imgRotate.Dispose();
                 }
-                else if (_codeType == "2D")
+                else if (normalizedCodeType == "2D")
                 {
                    
                     DecodingOptions readOptions = new DecodingOptions()
@@ -979,6 +1126,10 @@ namespace CodeReader
                     imgShow.Dispose();
                 }
 
+                if (_outputStringCode.Count > 0)
+                {
+                    _passed = true;
+                }
             }
             catch (Exception ex)
             {

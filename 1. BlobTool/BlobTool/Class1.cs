@@ -1,4 +1,4 @@
-﻿using Emgu.CV.CvEnum;
+using Emgu.CV.CvEnum;
 using Emgu.CV;
 using System;
 using System.Collections.Generic;
@@ -206,8 +206,6 @@ namespace BlobTool
         private Tuple<double, double> _circularityRange = null;
         private Tuple<int, int> _requireNumberOfBlobs = null;
         private PointF _positionMouse = new PointF(-1,-1);
-
-
         private string _errMessage = null;
         private List<VectorOfVectorOfPoint> _outputBlobList = null;
         private List<double> _outputAreaList = null;
@@ -215,7 +213,7 @@ namespace BlobTool
         private List<int> _outputHeightList = null;
         private List<int> _outputRowList = null;
         private List<int> _outputColumnList = null;
-        //private List<double> _outputOuterRadiusList = null;
+        private List<double> _outputOuterRadiusList = null;
         private List<double> _outputCircularityList = null;
         private int _numberOfBlobsFound = 0;
         private bool _passed = false;
@@ -318,7 +316,7 @@ namespace BlobTool
             _outputHeightList = new List<int>();
             _outputRowList = new List<int>();
             _outputColumnList = new List<int>();
-            //_outputOuterRadiusList = new List<double>();
+            _outputOuterRadiusList = new List<double>();
             _outputCircularityList = new List<double>();
             _numberOfBlobsFound = 0;
             _passed = false;
@@ -330,7 +328,7 @@ namespace BlobTool
                 //Image<Gray, byte> inputImg = _inputImage.ToImage<Gray, byte>();
                 
                 var warped = new Mat();
-                var blackImage = new Image<Gray, byte>(_inputImage.Width, _inputImage.Height);
+                var blackImage = new Image<Gray, byte>(_inputImage.Width, _inputImage.Height, new Gray(0));
                 var imgThes = new Image<Gray, byte>(_inputImage.Width, _inputImage.Height);
                 var imgTest = new Image<Gray, byte>(_inputImage.Width, _inputImage.Height);
                 var Matrix = new Mat();
@@ -440,6 +438,12 @@ namespace BlobTool
                             break;
                         }
                 }
+
+                using (var nonZeroMask = new Image<Gray, byte>(_inputImage.Width, _inputImage.Height))
+                {
+                    CvInvoke.Threshold(_inputImage, nonZeroMask, 0, 255, ThresholdType.Binary);
+                    CvInvoke.BitwiseAnd(imgThes, nonZeroMask, imgThes);
+                }
                 
                 // Đoạn này sẽ Paint vùng ROI vào một ảnh cùng kích thước đầu vào và có nền đen
                 if (_outSetOrigin != null)
@@ -461,10 +465,10 @@ namespace BlobTool
                     //CvInvoke.DrawContours(blackImage, lcontour, -1, new MCvScalar(255), 1);
                     //lcontour = new VectorOfVectorOfPoint();
                     //CvInvoke.FindContours(blackImage, lcontour, h, RetrType.External, ChainApproxMethod.ChainApproxSimple);
-                    CvInvoke.DrawContours(blackImage, lcontour, -1, new MCvScalar(1), -1);
+                    CvInvoke.DrawContours(blackImage, lcontour, -1, new MCvScalar(255), -1);
 
                     //CvInvoke.Subtract(blackImage, imgThes, blackImage);
-                    CvInvoke.Multiply(imgThes, blackImage, blackImage);
+                    CvInvoke.BitwiseAnd(imgThes, blackImage, blackImage);
                     
                 }
                 else
@@ -506,8 +510,13 @@ namespace BlobTool
                             Rectangle rect;
                             double perimeter = CvInvoke.ArcLength(contours[k], true);
                             rect = CvInvoke.BoundingRectangle(contours[k]);
+                            CircleF circle = CvInvoke.MinEnclosingCircle(contours[k]);
                             double circularity = Math.Round((4 * Math.PI * area / (perimeter * perimeter)), 3);
                             if (_enableAreaFilter&&(_areaRange.Item1 >= area || area >= _areaRange.Item2))
+                            {
+                                flag = false;
+                            }
+                            if (_enableOuterRadiusFilter && (_outerRadiusRange.Item1 >= circle.Radius || circle.Radius >= _outerRadiusRange.Item2))
                             {
                                 flag = false;
                             }
@@ -535,7 +544,7 @@ namespace BlobTool
                             {
                                 _outputBlobList.Add(tmp);
                                 _outputAreaList.Add(area);
-                                //_outputOuterRadiusList.Add(Math.Round(circle.Radius, 3));
+                                _outputOuterRadiusList.Add(Math.Round((double)circle.Radius, 3));
                                 _outputWidthList.Add(rect.Width);
                                 _outputHeightList.Add(rect.Height);
                                 _outputColumnList.Add((int)rect.X);
@@ -556,7 +565,12 @@ namespace BlobTool
                             double circularity = Math.Round((4 * Math.PI * area / (perimeter * perimeter)), 3);
                             rect = CvInvoke.BoundingRectangle(contours[k]);
                             tmp.Push(contours[k]);
+                            CircleF circle = CvInvoke.MinEnclosingCircle(contours[k]);
                             if (_enableAreaFilter && (_areaRange.Item1 >= area || area >= _areaRange.Item2))
+                            {
+                                flag = false;
+                            }
+                            if (_enableOuterRadiusFilter && (_outerRadiusRange.Item1 >= circle.Radius || circle.Radius >= _outerRadiusRange.Item2))
                             {
                                 flag = false;
                             }
@@ -584,7 +598,7 @@ namespace BlobTool
                             {
                                 _outputBlobList.Add(tmp);
                                 _outputAreaList.Add(area);
-                                //_outputOuterRadiusList.Add(Math.Round(circle.Radius, 3));
+                                _outputOuterRadiusList.Add(Math.Round((double)circle.Radius, 3));
                                 _outputWidthList.Add(rect.Width);
                                 _outputHeightList.Add(rect.Height);
                                 _outputColumnList.Add((int)rect.X);
@@ -686,7 +700,7 @@ namespace BlobTool
                         _heightActual = _outputHeightList[indexPosition];
                         _rowActual = _outputRowList[indexPosition];
                         _columnActual = _outputColumnList[indexPosition];
-                        //_outerRadiusActual = _outputOuterRadiusList[indexPosition];
+                        _outerRadiusActual = _outputOuterRadiusList[indexPosition];
                         _circularityActual = _outputCircularityList[indexPosition];
                     }
                 }

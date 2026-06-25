@@ -1,4 +1,5 @@
-﻿using RTC_Vision_Lite.UserControls;
+﻿using RTC_Vision_Lite._3._UserControls.Tools;
+using RTC_Vision_Lite.UserControls;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -200,10 +201,11 @@ namespace RTC_Vision_Lite.Classes
             ((ucLoadImageActionDetail)ViewInfo).Action = this;
         }
         //Quân thử
+        
         private void CreateViewInfo_LoadObject()
         {
-            //ViewInfo = new ucLoadImageActionDetail();
-            //((ucLoadImageActionDetail)ViewInfo).Action = this;
+            ViewInfo = new ucLoadObjectActionDetail();
+            ((ucLoadObjectActionDetail)ViewInfo).Action = this;
         }
         private void CreateViewInfo_StopLiveCam()
         {

@@ -1,0 +1,84 @@
+2026-06-13 09:05:32.8845 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 3269
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1149
+2026-06-13 09:05:33.4027 
+» Message:	Object is currently in use elsewhere.
+» Stack Trace:	   at System.Drawing.Image.Clone()
+   at RTC_Vision_Lite.Classes.cAction.BackupImage(Image image) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 3685
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_BackupImage() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 127
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_CleanData() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 23
+2026-06-13 09:05:35.6683 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 3269
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1149
+2026-06-13 09:05:36.7350 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 3269
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1149
+2026-06-13 10:27:37.7119 
+» Message:	Object of type 'System.Double' cannot be converted to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at RTC_Vision_Lite.Classes.cAction.RebuildValueWhenLink_PropToProp(PropertyInfo PropertyInfoSrc, PropertyInfo PropertyInfoDes, cAction actionSrc) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.OtherRunFunctions.cs:line 546
+   at RTC_Vision_Lite.Classes.cAction.RebuidValueWhenLink(cAction actionSrc, String propNameSrc, String propNameDes) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.OtherRunFunctions.cs:line 283
+   at RTC_Vision_Lite.Forms.FrmActions.EndLinkValue_Property(cAction ActionLink_Src, String PropertyLink_Src) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\2. Forms\FrmActions.cs:line 1214
+   at RTC_Vision_Lite.Forms.FrmActions.EndLinkValue(ActionTools NodeSrc) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\2. Forms\FrmActions.cs:line 1156
+2026-06-13 10:28:14.8622 
+» Message:	Object of type 'System.Double' cannot be converted to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at RTC_Vision_Lite.Classes.cAction.RebuildValueWhenLink_PropToProp(PropertyInfo PropertyInfoSrc, PropertyInfo PropertyInfoDes, cAction actionSrc) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.OtherRunFunctions.cs:line 546
+   at RTC_Vision_Lite.Classes.cAction.RebuidValueWhenLink(cAction actionSrc, String propNameSrc, String propNameDes) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.OtherRunFunctions.cs:line 283
+   at RTC_Vision_Lite.Forms.FrmActions.EndLinkValue_Property(cAction ActionLink_Src, String PropertyLink_Src) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\2. Forms\FrmActions.cs:line 1214
+   at RTC_Vision_Lite.Forms.FrmActions.EndLinkValue(ActionTools NodeSrc) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\2. Forms\FrmActions.cs:line 1156
+2026-06-13 10:28:22.7164 
+» Message:	Object of type 'System.Double' cannot be converted to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at RTC_Vision_Lite.Classes.cAction.RebuildValueWhenLink_PropToProp(PropertyInfo PropertyInfoSrc, PropertyInfo PropertyInfoDes, cAction actionSrc) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.OtherRunFunctions.cs:line 546
+   at RTC_Vision_Lite.Classes.cAction.RebuidValueWhenLink(cAction actionSrc, String propNameSrc, String propNameDes) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.OtherRunFunctions.cs:line 283
+   at RTC_Vision_Lite.Forms.FrmActions.EndLinkValue_Property(cAction ActionLink_Src, String PropertyLink_Src) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\2. Forms\FrmActions.cs:line 1214
+   at RTC_Vision_Lite.Forms.FrmActions.EndLinkValue(ActionTools NodeSrc) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\2. Forms\FrmActions.cs:line 1156
+2026-06-13 10:29:40.9361 
+» Message:	Object of type 'System.Double' cannot be converted to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at RTC_Vision_Lite.Classes.cAction.RebuildValueWhenLink_PropToProp(PropertyInfo PropertyInfoSrc, PropertyInfo PropertyInfoDes, cAction actionSrc) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.OtherRunFunctions.cs:line 546
+   at RTC_Vision_Lite.Classes.cAction.RebuidValueWhenLink(cAction actionSrc, String propNameSrc, String propNameDes) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.OtherRunFunctions.cs:line 283
+   at RTC_Vision_Lite.Forms.FrmActions.EndLinkValue_Property(cAction ActionLink_Src, String PropertyLink_Src) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\2. Forms\FrmActions.cs:line 1214
+   at RTC_Vision_Lite.Forms.FrmActions.EndLinkValue(ActionTools NodeSrc) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\2. Forms\FrmActions.cs:line 1156
+2026-06-13 10:33:36.9507 
+» Message:	Object of type 'System.Int32' cannot be converted to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at RTC_Vision_Lite.Classes.cAction.RebuildValueWhenLink_PropToProp(PropertyInfo PropertyInfoSrc, PropertyInfo PropertyInfoDes, cAction actionSrc) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.OtherRunFunctions.cs:line 546
+   at RTC_Vision_Lite.Classes.cAction.RebuidValueWhenLink(cAction actionSrc, String propNameSrc, String propNameDes) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.OtherRunFunctions.cs:line 283
+   at RTC_Vision_Lite.Forms.FrmActions.EndLinkValue_Property(cAction ActionLink_Src, String PropertyLink_Src) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\2. Forms\FrmActions.cs:line 1214
+   at RTC_Vision_Lite.Forms.FrmActions.EndLinkValue(ActionTools NodeSrc) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\2. Forms\FrmActions.cs:line 1156
+2026-06-13 10:33:49.3150 
+» Message:	Object of type 'System.Double' cannot be converted to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at RTC_Vision_Lite.Classes.cAction.RebuildValueWhenLink_PropToProp(PropertyInfo PropertyInfoSrc, PropertyInfo PropertyInfoDes, cAction actionSrc) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.OtherRunFunctions.cs:line 546
+   at RTC_Vision_Lite.Classes.cAction.RebuidValueWhenLink(cAction actionSrc, String propNameSrc, String propNameDes) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.OtherRunFunctions.cs:line 283
+   at RTC_Vision_Lite.Forms.FrmActions.EndLinkValue_Property(cAction ActionLink_Src, String PropertyLink_Src) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\2. Forms\FrmActions.cs:line 1214
+   at RTC_Vision_Lite.Forms.FrmActions.EndLinkValue(ActionTools NodeSrc) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\2. Forms\FrmActions.cs:line 1156

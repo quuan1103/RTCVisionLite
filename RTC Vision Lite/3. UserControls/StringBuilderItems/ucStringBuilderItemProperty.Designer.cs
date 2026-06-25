@@ -52,7 +52,7 @@ namespace RTC_Vision_Lite.UserControls
             // 
             this.ucConfigureIntegerInput1.Dock = System.Windows.Forms.DockStyle.Top;
             this.ucConfigureIntegerInput1.Location = new System.Drawing.Point(0, 1541);
-            this.ucConfigureIntegerInput1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.ucConfigureIntegerInput1.Margin = new System.Windows.Forms.Padding(5);
             this.ucConfigureIntegerInput1.Name = "ucConfigureIntegerInput1";
             this.ucConfigureIntegerInput1.RTCCaption = "Configure Integer Input";
             this.ucConfigureIntegerInput1.RTCSBItem = null;
@@ -64,7 +64,7 @@ namespace RTC_Vision_Lite.UserControls
             // 
             this.ucConfigureBooleanListInput1.Dock = System.Windows.Forms.DockStyle.Top;
             this.ucConfigureBooleanListInput1.Location = new System.Drawing.Point(0, 1434);
-            this.ucConfigureBooleanListInput1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.ucConfigureBooleanListInput1.Margin = new System.Windows.Forms.Padding(5);
             this.ucConfigureBooleanListInput1.Name = "ucConfigureBooleanListInput1";
             this.ucConfigureBooleanListInput1.RTCCaption = "Configure Boolean List Input";
             this.ucConfigureBooleanListInput1.RTCSBItem = null;
@@ -76,7 +76,7 @@ namespace RTC_Vision_Lite.UserControls
             // 
             this.ucConfigureBooleanInput1.Dock = System.Windows.Forms.DockStyle.Top;
             this.ucConfigureBooleanInput1.Location = new System.Drawing.Point(0, 1327);
-            this.ucConfigureBooleanInput1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ucConfigureBooleanInput1.Margin = new System.Windows.Forms.Padding(4);
             this.ucConfigureBooleanInput1.Name = "ucConfigureBooleanInput1";
             this.ucConfigureBooleanInput1.RTCCaption = "Configure Boolean Input";
             this.ucConfigureBooleanInput1.RTCSBItem = null;
@@ -88,7 +88,7 @@ namespace RTC_Vision_Lite.UserControls
             // 
             this.ucConfigureStringListInput1.Dock = System.Windows.Forms.DockStyle.Top;
             this.ucConfigureStringListInput1.Location = new System.Drawing.Point(0, 1200);
-            this.ucConfigureStringListInput1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.ucConfigureStringListInput1.Margin = new System.Windows.Forms.Padding(5);
             this.ucConfigureStringListInput1.Name = "ucConfigureStringListInput1";
             this.ucConfigureStringListInput1.RTCCaption = "Configure String Input";
             this.ucConfigureStringListInput1.RTCSBItem = null;
@@ -100,7 +100,7 @@ namespace RTC_Vision_Lite.UserControls
             // 
             this.ucConfigureStringInput1.Dock = System.Windows.Forms.DockStyle.Top;
             this.ucConfigureStringInput1.Location = new System.Drawing.Point(0, 1093);
-            this.ucConfigureStringInput1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ucConfigureStringInput1.Margin = new System.Windows.Forms.Padding(4);
             this.ucConfigureStringInput1.Name = "ucConfigureStringInput1";
             this.ucConfigureStringInput1.RTCCaption = "Configure String Input";
             this.ucConfigureStringInput1.RTCSBItem = null;
@@ -112,7 +112,7 @@ namespace RTC_Vision_Lite.UserControls
             // 
             this.ucConfigureRectangleListInput1.Dock = System.Windows.Forms.DockStyle.Top;
             this.ucConfigureRectangleListInput1.Location = new System.Drawing.Point(0, 986);
-            this.ucConfigureRectangleListInput1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.ucConfigureRectangleListInput1.Margin = new System.Windows.Forms.Padding(5);
             this.ucConfigureRectangleListInput1.Name = "ucConfigureRectangleListInput1";
             this.ucConfigureRectangleListInput1.RTCCaption = "Configure Rectangle List Input";
             this.ucConfigureRectangleListInput1.RTCSBItem = null;
@@ -124,7 +124,7 @@ namespace RTC_Vision_Lite.UserControls
             // 
             this.ucConfigureRectangleInput1.Dock = System.Windows.Forms.DockStyle.Top;
             this.ucConfigureRectangleInput1.Location = new System.Drawing.Point(0, 879);
-            this.ucConfigureRectangleInput1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.ucConfigureRectangleInput1.Margin = new System.Windows.Forms.Padding(5);
             this.ucConfigureRectangleInput1.Name = "ucConfigureRectangleInput1";
             this.ucConfigureRectangleInput1.RTCCaption = "Configure Rectangle Input";
             this.ucConfigureRectangleInput1.RTCSBItem = null;
@@ -136,7 +136,7 @@ namespace RTC_Vision_Lite.UserControls
             // 
             this.ucConfigureRealListInput1.Dock = System.Windows.Forms.DockStyle.Top;
             this.ucConfigureRealListInput1.Location = new System.Drawing.Point(0, 749);
-            this.ucConfigureRealListInput1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.ucConfigureRealListInput1.Margin = new System.Windows.Forms.Padding(5);
             this.ucConfigureRealListInput1.Name = "ucConfigureRealListInput1";
             this.ucConfigureRealListInput1.RTCCaption = "Configure Real List Input";
             this.ucConfigureRealListInput1.RTCSBItem = null;
@@ -148,7 +148,7 @@ namespace RTC_Vision_Lite.UserControls
             // 
             this.ucConfigureRealInput1.Dock = System.Windows.Forms.DockStyle.Top;
             this.ucConfigureRealInput1.Location = new System.Drawing.Point(0, 642);
-            this.ucConfigureRealInput1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.ucConfigureRealInput1.Margin = new System.Windows.Forms.Padding(5);
             this.ucConfigureRealInput1.Name = "ucConfigureRealInput1";
             this.ucConfigureRealInput1.RTCCaption = "Configure Real Input";
             this.ucConfigureRealInput1.RTCSBItem = null;
@@ -160,7 +160,7 @@ namespace RTC_Vision_Lite.UserControls
             // 
             this.ucConfigurePointListInput1.Dock = System.Windows.Forms.DockStyle.Top;
             this.ucConfigurePointListInput1.Location = new System.Drawing.Point(0, 535);
-            this.ucConfigurePointListInput1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.ucConfigurePointListInput1.Margin = new System.Windows.Forms.Padding(5);
             this.ucConfigurePointListInput1.Name = "ucConfigurePointListInput1";
             this.ucConfigurePointListInput1.RTCCaption = "Configure Point List Input";
             this.ucConfigurePointListInput1.RTCSBItem = null;
@@ -172,7 +172,7 @@ namespace RTC_Vision_Lite.UserControls
             // 
             this.ucConfigurePointInput1.Dock = System.Windows.Forms.DockStyle.Top;
             this.ucConfigurePointInput1.Location = new System.Drawing.Point(0, 428);
-            this.ucConfigurePointInput1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.ucConfigurePointInput1.Margin = new System.Windows.Forms.Padding(5);
             this.ucConfigurePointInput1.Name = "ucConfigurePointInput1";
             this.ucConfigurePointInput1.RTCCaption = "Configure Point Input";
             this.ucConfigurePointInput1.RTCSBItem = null;
@@ -184,7 +184,7 @@ namespace RTC_Vision_Lite.UserControls
             // 
             this.ucConfigureOriginListInput1.Dock = System.Windows.Forms.DockStyle.Top;
             this.ucConfigureOriginListInput1.Location = new System.Drawing.Point(0, 321);
-            this.ucConfigureOriginListInput1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.ucConfigureOriginListInput1.Margin = new System.Windows.Forms.Padding(5);
             this.ucConfigureOriginListInput1.Name = "ucConfigureOriginListInput1";
             this.ucConfigureOriginListInput1.RTCCaption = "Configure Origin List Input";
             this.ucConfigureOriginListInput1.RTCSBItem = null;
@@ -196,7 +196,7 @@ namespace RTC_Vision_Lite.UserControls
             // 
             this.ucConfigureOriginInput1.Dock = System.Windows.Forms.DockStyle.Top;
             this.ucConfigureOriginInput1.Location = new System.Drawing.Point(0, 214);
-            this.ucConfigureOriginInput1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.ucConfigureOriginInput1.Margin = new System.Windows.Forms.Padding(5);
             this.ucConfigureOriginInput1.Name = "ucConfigureOriginInput1";
             this.ucConfigureOriginInput1.RTCCaption = "Configure Origin Input";
             this.ucConfigureOriginInput1.RTCSBItem = null;
@@ -220,7 +220,7 @@ namespace RTC_Vision_Lite.UserControls
             // 
             this.ucConfigureDateTimeInput1.Dock = System.Windows.Forms.DockStyle.Top;
             this.ucConfigureDateTimeInput1.Location = new System.Drawing.Point(0, 0);
-            this.ucConfigureDateTimeInput1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.ucConfigureDateTimeInput1.Margin = new System.Windows.Forms.Padding(5);
             this.ucConfigureDateTimeInput1.Name = "ucConfigureDateTimeInput1";
             this.ucConfigureDateTimeInput1.RTCCaption = "Configure Date Time Input";
             this.ucConfigureDateTimeInput1.RTCSBItem = null;
@@ -232,23 +232,8 @@ namespace RTC_Vision_Lite.UserControls
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
-            this.Controls.Add(this.ucConfigureIntegerInput1);
-            this.Controls.Add(this.ucConfigureBooleanListInput1);
-            this.Controls.Add(this.ucConfigureBooleanInput1);
-            this.Controls.Add(this.ucConfigureStringListInput1);
-            this.Controls.Add(this.ucConfigureStringInput1);
-            this.Controls.Add(this.ucConfigureRectangleListInput1);
-            this.Controls.Add(this.ucConfigureRectangleInput1);
-            this.Controls.Add(this.ucConfigureRealListInput1);
-            this.Controls.Add(this.ucConfigureRealInput1);
-            this.Controls.Add(this.ucConfigurePointListInput1);
-            this.Controls.Add(this.ucConfigurePointInput1);
-            this.Controls.Add(this.ucConfigureOriginListInput1);
-            this.Controls.Add(this.ucConfigureOriginInput1);
-            this.Controls.Add(this.ucConfigureIntegerListInput1);
-            this.Controls.Add(this.ucConfigureDateTimeInput1);
             this.Name = "ucStringBuilderItemProperty";
-            this.Size = new System.Drawing.Size(547, 105);
+            this.Size = new System.Drawing.Size(547, 101);
             this.ResumeLayout(false);
 
         }

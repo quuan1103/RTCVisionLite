@@ -1,4 +1,4 @@
-﻿//using CommonTools;
+//using CommonTools;
 using BrightIdeasSoftware;
 using RTC_Vision_Lite.Classes;
 using RTC_Vision_Lite.PublicFunctions;
@@ -500,9 +500,48 @@ namespace RTC_Vision_Lite.Forms
             //    return;
             PropertyInfo PropertyInfoSrc = eRTC.action.GetType().GetProperty(eRTC.ActionName);
             RTCVariableType propRemoveLink = (RTCVariableType)eRTC.action.GetType().GetProperty(eRTC.ActionName).GetValue(eRTC.action, null);
-            propRemoveLink.rtcIDRef = Guid.Empty;
-            propRemoveLink.rtcPropNameRef = string.Empty;
-            propRemoveLink.rtcRef = string.Empty;
+            if (eRTC.ActionName == nameof(eRTC.action.InputImage))
+            {
+                cAction mainAction = eRTC.action.MyGroup.Actions[eRTC.action.MyGroup.IDMainAction];
+                propRemoveLink.rtcIDRef = eRTC.action.MyGroup.IDMainAction;
+                propRemoveLink.rtcPropNameRef = nameof(mainAction.InputImage);
+                propRemoveLink.rtcRef = GlobFuncs.BuildRefString2(GlobVar.GroupActions, mainAction, nameof(mainAction.InputImage));
+
+                if (eRTC.action.InputBgrImage != null)
+                {
+                    eRTC.action.InputBgrImage.rtcIDRef = eRTC.action.MyGroup.IDMainAction;
+                    eRTC.action.InputBgrImage.rtcPropNameRef = nameof(mainAction.InputBgrImage);
+                    eRTC.action.InputBgrImage.rtcRef = GlobFuncs.BuildRefString2(GlobVar.GroupActions, mainAction, nameof(mainAction.InputBgrImage));
+                }
+                if (eRTC.action.InputGrayImage != null)
+                {
+                    eRTC.action.InputGrayImage.rtcIDRef = eRTC.action.MyGroup.IDMainAction;
+                    eRTC.action.InputGrayImage.rtcPropNameRef = nameof(mainAction.InputGrayImage);
+                    eRTC.action.InputGrayImage.rtcRef = GlobFuncs.BuildRefString2(GlobVar.GroupActions, mainAction, nameof(mainAction.InputGrayImage));
+                }
+            }
+            else
+            {
+                propRemoveLink.rtcIDRef = Guid.Empty;
+                propRemoveLink.rtcPropNameRef = string.Empty;
+                propRemoveLink.rtcRef = string.Empty;
+
+                if (eRTC.ActionName == nameof(eRTC.action.InputImage2))
+                {
+                    if (eRTC.action.InputBgrImage2 != null)
+                    {
+                        eRTC.action.InputBgrImage2.rtcIDRef = Guid.Empty;
+                        eRTC.action.InputBgrImage2.rtcPropNameRef = string.Empty;
+                        eRTC.action.InputBgrImage2.rtcRef = string.Empty;
+                    }
+                    if (eRTC.action.InputGrayImage2 != null)
+                    {
+                        eRTC.action.InputGrayImage2.rtcIDRef = Guid.Empty;
+                        eRTC.action.InputGrayImage2.rtcPropNameRef = string.Empty;
+                        eRTC.action.InputGrayImage2.rtcRef = string.Empty;
+                    }
+                }
+            }
             PropertyInfo propRemoveLinkValue = propRemoveLink.GetType().GetProperty(cPropertyName.rtcValue);
             propRemoveLinkValue.SetValue(propRemoveLink, GlobFuncs.GetPropDefaultValueByBaseType(eRTC.action._SuffixName, PropertyInfoSrc.Name, PropertyInfoSrc.PropertyType));
             eRTC.CIDRef.PutValue(eRTC.Node, propRemoveLink.rtcIDRef);

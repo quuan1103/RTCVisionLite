@@ -56,28 +56,27 @@ namespace RTC_Vision_Lite.UserControls
             // 
             // labelControl2
             // 
-            this.labelControl2.Location = new System.Drawing.Point(145, 11);
-            this.labelControl2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.labelControl2.Location = new System.Drawing.Point(109, 9);
+            this.labelControl2.Margin = new System.Windows.Forms.Padding(3, 3, 3, 3);
             this.labelControl2.Name = "labelControl2";
-            this.labelControl2.Size = new System.Drawing.Size(33, 18);
+            this.labelControl2.Size = new System.Drawing.Size(25, 15);
             this.labelControl2.TabIndex = 13;
             this.labelControl2.Text = "Y1:";
             // 
             // labelControl1
             // 
-            this.labelControl1.Location = new System.Drawing.Point(4, 10);
-            this.labelControl1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.labelControl1.Location = new System.Drawing.Point(3, 8);
+            this.labelControl1.Margin = new System.Windows.Forms.Padding(3, 3, 3, 3);
             this.labelControl1.Name = "labelControl1";
-            this.labelControl1.Size = new System.Drawing.Size(36, 18);
+            this.labelControl1.Size = new System.Drawing.Size(27, 15);
             this.labelControl1.TabIndex = 12;
             this.labelControl1.Text = "X1:";
             // 
             // txtX1
             // 
-            this.txtX1.Location = new System.Drawing.Point(31, 7);
-            this.txtX1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtX1.Location = new System.Drawing.Point(23, 6);
             this.txtX1.Name = "txtX1";
-            this.txtX1.Size = new System.Drawing.Size(109, 22);
+            this.txtX1.Size = new System.Drawing.Size(83, 20);
             this.txtX1.TabIndex = 10;
             this.txtX1.Text = "0";
             this.txtX1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -86,10 +85,9 @@ namespace RTC_Vision_Lite.UserControls
             // 
             // txtY1
             // 
-            this.txtY1.Location = new System.Drawing.Point(172, 6);
-            this.txtY1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtY1.Location = new System.Drawing.Point(129, 5);
             this.txtY1.Name = "txtY1";
-            this.txtY1.Size = new System.Drawing.Size(107, 22);
+            this.txtY1.Size = new System.Drawing.Size(81, 20);
             this.txtY1.TabIndex = 11;
             this.txtY1.Text = "0";
             this.txtY1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -98,57 +96,54 @@ namespace RTC_Vision_Lite.UserControls
             // 
             // lblRef
             // 
-            this.lblRef.Location = new System.Drawing.Point(148, 54);
-            this.lblRef.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.lblRef.Location = new System.Drawing.Point(111, 44);
+            this.lblRef.Margin = new System.Windows.Forms.Padding(3, 3, 3, 3);
             this.lblRef.Name = "lblRef";
-            this.lblRef.Size = new System.Drawing.Size(141, 16);
+            this.lblRef.Size = new System.Drawing.Size(106, 13);
             this.lblRef.TabIndex = 9;
             this.lblRef.Text = "Source:";
             // 
             // btnRemoveLink
             // 
             this.btnRemoveLink.Image = global::RTC_Vision_Lite.Properties.Resources.Remove_16x16;
-            this.btnRemoveLink.Location = new System.Drawing.Point(106, 48);
-            this.btnRemoveLink.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnRemoveLink.Location = new System.Drawing.Point(80, 39);
             this.btnRemoveLink.Name = "btnRemoveLink";
-            this.btnRemoveLink.Size = new System.Drawing.Size(33, 25);
+            this.btnRemoveLink.Size = new System.Drawing.Size(25, 20);
             this.btnRemoveLink.TabIndex = 8;
             this.btnRemoveLink.Click += new System.EventHandler(this.btnRemoveLink_Click);
             // 
             // btnLink
             // 
-            this.btnLink.Location = new System.Drawing.Point(32, 48);
-            this.btnLink.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnLink.Location = new System.Drawing.Point(24, 39);
             this.btnLink.Name = "btnLink";
-            this.btnLink.Size = new System.Drawing.Size(67, 25);
+            this.btnLink.Size = new System.Drawing.Size(50, 20);
             this.btnLink.TabIndex = 7;
             this.btnLink.Text = "Link";
             this.btnLink.Click += new System.EventHandler(this.btnLink_Click);
             // 
             // labelControl3
             // 
-            this.labelControl3.Location = new System.Drawing.Point(429, 10);
-            this.labelControl3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.labelControl3.Location = new System.Drawing.Point(322, 8);
+            this.labelControl3.Margin = new System.Windows.Forms.Padding(3, 3, 3, 3);
             this.labelControl3.Name = "labelControl3";
-            this.labelControl3.Size = new System.Drawing.Size(33, 22);
+            this.labelControl3.Size = new System.Drawing.Size(25, 18);
             this.labelControl3.TabIndex = 17;
             this.labelControl3.Text = "Y2:";
             // 
             // labelControl4
             // 
-            this.labelControl4.Location = new System.Drawing.Point(283, 10);
-            this.labelControl4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.labelControl4.Location = new System.Drawing.Point(212, 8);
+            this.labelControl4.Margin = new System.Windows.Forms.Padding(3, 3, 3, 3);
             this.labelControl4.Name = "labelControl4";
-            this.labelControl4.Size = new System.Drawing.Size(35, 20);
+            this.labelControl4.Size = new System.Drawing.Size(26, 16);
             this.labelControl4.TabIndex = 16;
             this.labelControl4.Text = "X2:";
             // 
             // txtX2
             // 
-            this.txtX2.Location = new System.Drawing.Point(311, 6);
-            this.txtX2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtX2.Location = new System.Drawing.Point(233, 5);
             this.txtX2.Name = "txtX2";
-            this.txtX2.Size = new System.Drawing.Size(109, 22);
+            this.txtX2.Size = new System.Drawing.Size(83, 20);
             this.txtX2.TabIndex = 14;
             this.txtX2.Text = "0";
             this.txtX2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -157,10 +152,9 @@ namespace RTC_Vision_Lite.UserControls
             // 
             // txtY2
             // 
-            this.txtY2.Location = new System.Drawing.Point(459, 7);
-            this.txtY2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtY2.Location = new System.Drawing.Point(344, 6);
             this.txtY2.Name = "txtY2";
-            this.txtY2.Size = new System.Drawing.Size(107, 22);
+            this.txtY2.Size = new System.Drawing.Size(81, 20);
             this.txtY2.TabIndex = 15;
             this.txtY2.Text = "0";
             this.txtY2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -169,7 +163,7 @@ namespace RTC_Vision_Lite.UserControls
             // 
             // ucLine
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.txtX2);
             this.Controls.Add(this.txtY2);
@@ -182,9 +176,8 @@ namespace RTC_Vision_Lite.UserControls
             this.Controls.Add(this.labelControl4);
             this.Controls.Add(this.labelControl2);
             this.Controls.Add(this.labelControl1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "ucLine";
-            this.Size = new System.Drawing.Size(667, 85);
+            this.Size = new System.Drawing.Size(449, 69);
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -1,4 +1,4 @@
-﻿//using CommonTools;
+//using CommonTools;
 using RTC_Vision_Lite.Commons;
 using RTC_Vision_Lite.Classes;
 using RTC_Vision_Lite.PublicFunctions;
@@ -3004,7 +3004,7 @@ namespace RTC_Vision_Lite.UserControls
                     properInfoValue.SetValue(propertyInfo, int.Parse(sValue));
 
                 }
-                else if (properInfoValue.PropertyType.Name == nameof(SListString))
+                else if (propertyInfo.GetType().Name == nameof(SListString))
                 {
                     string[] arr = new string[] { };
                     if (Action.ActionType == EActionTypes.Math &&
@@ -3015,19 +3015,16 @@ namespace RTC_Vision_Lite.UserControls
                         arr = sValue.Split(cChars.Comma);
                     else
                         arr = sValue.Split(cChars.Semicolon);
-                    SListString value = new SListString();
+                    List<string> value = new List<string>();
                     foreach (var t in arr)
                         if (!string.IsNullOrEmpty(t))
                         {
-                            if (bool.TryParse(t, out bool bValue))
-                                value.rtcValue.Append(t);
-                            else
-                                value.rtcValue.Append(t);
+                            value.Add(t);
                         }
                     properInfoValue.SetValue(propertyInfo, value);
 
                 }
-                else if (properInfoValue.PropertyType.Name == nameof(SListDouble))
+                else if (propertyInfo.GetType().Name == nameof(SListDouble))
                 {
                     string[] arr = new string[] { };
                     if (Action.ActionType == EActionTypes.Math &&
@@ -3038,16 +3035,16 @@ namespace RTC_Vision_Lite.UserControls
                         arr = sValue.Split(cChars.Comma);
                     else
                         arr = sValue.Split(cChars.Semicolon);
-                    SListDouble value = new SListDouble();
+                    List<double> value = new List<double>();
                     foreach (var t in arr)
                         if (!string.IsNullOrEmpty(t))
                         {
                             if (double.TryParse(t, out double dvalue))
-                                value.rtcValue.Append(double.Parse(t));
+                                value.Add(double.Parse(t));
                             else if (int.TryParse(t, out int ivalue))
-                                value.rtcValue.Append(int.Parse(t));
+                                value.Add(int.Parse(t));
                             else if (long.TryParse(t, out long lValue))
-                                value.rtcValue.Append(long.Parse(t));
+                                value.Add(long.Parse(t));
                         }
                     properInfoValue.SetValue(propertyInfo, value);
                 }
@@ -3815,6 +3812,12 @@ namespace RTC_Vision_Lite.UserControls
                             if (propertyName == nameof(Action.Passed))
                                 ((Label)item).Text =
                                     GlobFuncs.GetBoolValueFromObject(obj) ? cStrings.Passed : cStrings.Fail;
+                            else if (propertyName == nameof(Action.IsTrain))
+                            {
+                                bool var = GlobFuncs.GetBoolValueFromObject(obj);
+                                ((Label)item).Text = var ? "Yes" : "No";
+                                ((Label)item).ForeColor = var ? Color.Green : Color.Red;
+                            }
                             else if (obj.GetType() == typeof(List<string>))
                                 ((Label)item).Text = GlobFuncs.Ve2Str(obj);
                             else
@@ -3960,16 +3963,16 @@ namespace RTC_Vision_Lite.UserControls
                         arr = sValue.Split(cChars.Comma);
                     else
                         arr = sValue.Split(cChars.Semicolon);
-                    SListDouble value = new SListDouble();
+                    List<double> value = new List<double>();
                     foreach (var t in arr)
                         if (!string.IsNullOrEmpty(t))
                         {
                             if (double.TryParse(t, out double dvalue))
-                                value.rtcValue.Append(double.Parse(t));
+                                value.Add(double.Parse(t));
                             else if (int.TryParse(t, out int ivalue))
-                                value.rtcValue.Append(int.Parse(t));
+                                value.Add(int.Parse(t));
                             else if (long.TryParse(t, out long lValue))
-                                value.rtcValue.Append(long.Parse(t));
+                                value.Add(long.Parse(t));
                         }
                     properInfoValue.SetValue(propertyInfo, value);
                 }
@@ -4969,7 +4972,7 @@ namespace RTC_Vision_Lite.UserControls
             if (Action != null)
             {
                 GlobVar.GroupActions.Actions[Action.ID] = Action;
-                GlobVar.GroupActions.Setting_Run(ERunActionMode.CurentAction, false, "", widthShowMessage);
+                _ = GlobVar.GroupActions.Setting_Run(ERunActionMode.CurentAction, false, "", widthShowMessage);
             }
 
         }
@@ -8392,6 +8395,196 @@ namespace RTC_Vision_Lite.UserControls
         }
 
         private void btnMethod_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void TabSetUp_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void PageSetup_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void General_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Method_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ScrollableMethod_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void ROI_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ScrollableROI_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void EndPointAndType_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ScrollableEndPointAndType_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void PassFail_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ScrollablePassFail_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void Display_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void groupDisplayOutput_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel3_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void flowLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void btnSEP1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnSEP3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnEndPoint_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnSEP4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnSEP5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnSEP6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void TabProperties_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tlvAction_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void LayoutPropButton_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void chkIsCanEdit_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnTrain_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnSnap_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnAddOutput_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnAddInput_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void LinkSummary_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tl_LinkSummary_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tabPage1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void contextMenuStrip_Opening(object sender, CancelEventArgs e)
+        {
+
+        }
+
+        private void popApplyTo_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void popSep1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void popSep2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void toolStripMenuItem1_Click(object sender, EventArgs e)
         {
 
         }

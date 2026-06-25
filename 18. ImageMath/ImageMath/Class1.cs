@@ -6,9 +6,11 @@ using System.Text;
 using System.Threading.Tasks;
 using Emgu;
 using Emgu.CV;
+using Emgu.CV.CvEnum;
 using Emgu.CV.Structure;
 using RTCBase.Drawing;
 using RTCConst;
+
 
 namespace ImageMath
 {
@@ -231,7 +233,9 @@ namespace ImageMath
                         }
                     case RTCConst.cImageMath.ImageMath_Operation_Scale:
                         {
-                            _outputImage = _inputImage * _scaleFactor + _offsetValue;
+                            // _outputImage = _inputImage * _scaleFactor + _offsetValue;
+                            _outputImage = new Image<Gray, byte>(_inputImage.Width, _inputImage.Height);
+                            _inputImage.Mat.ConvertTo(_outputImage.Mat, DepthType.Cv8U, _scaleFactor, _offsetValue);
                             break;
                         }
                     case RTCConst.cImageMath.ImageMath_Operation_Zoom:
@@ -249,7 +253,8 @@ namespace ImageMath
             }
             if(_isShowImageResult )
             {
-                _outputImageShow = _outputImage.AsBitmap();
+                // _outputImageShow = _outputImage.AsBitmap();
+                _outputImageShow = _outputImage.ToBitmap();
             }
             _passed = true;
             return true;

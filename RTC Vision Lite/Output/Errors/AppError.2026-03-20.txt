@@ -1,0 +1,941 @@
+2026-03-20 09:17:53.9606 
+» Message:	Object of type 'Emgu.CV.Image`2[Emgu.CV.Structure.Gray,System.Byte]' cannot be converted to type 'System.Drawing.Image'.
+» Stack Trace:	   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 965
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-03-20 09:17:55.0819 
+» Message:	Object of type 'Emgu.CV.Image`2[Emgu.CV.Structure.Gray,System.Byte]' cannot be converted to type 'System.Drawing.Image'.
+» Stack Trace:	   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 965
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-03-20 09:17:55.8887 
+» Message:	Object of type 'Emgu.CV.Image`2[Emgu.CV.Structure.Gray,System.Byte]' cannot be converted to type 'System.Drawing.Image'.
+» Stack Trace:	   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 965
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-03-20 09:18:11.9808 
+» Message:	Object of type 'Emgu.CV.Image`2[Emgu.CV.Structure.Gray,System.Byte]' cannot be converted to type 'System.Drawing.Image'.
+» Stack Trace:	   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 965
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-03-20 09:18:12.8877 
+» Message:	Object of type 'Emgu.CV.Image`2[Emgu.CV.Structure.Gray,System.Byte]' cannot be converted to type 'System.Drawing.Image'.
+» Stack Trace:	   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 965
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-03-20 09:18:13.3151 
+» Message:	Object of type 'Emgu.CV.Image`2[Emgu.CV.Structure.Gray,System.Byte]' cannot be converted to type 'System.Drawing.Image'.
+» Stack Trace:	   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 965
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-03-20 09:18:13.9138 
+» Message:	Object of type 'Emgu.CV.Image`2[Emgu.CV.Structure.Gray,System.Byte]' cannot be converted to type 'System.Drawing.Image'.
+» Stack Trace:	   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 965
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-03-20 09:18:14.2091 
+» Message:	Object of type 'Emgu.CV.Image`2[Emgu.CV.Structure.Gray,System.Byte]' cannot be converted to type 'System.Drawing.Image'.
+» Stack Trace:	   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 965
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-03-20 09:18:17.9296 
+» Message:	Object of type 'Emgu.CV.Image`2[Emgu.CV.Structure.Gray,System.Byte]' cannot be converted to type 'System.Drawing.Image'.
+» Stack Trace:	   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 965
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-03-20 09:18:19.5043 
+» Message:	Object of type 'Emgu.CV.Image`2[Emgu.CV.Structure.Gray,System.Byte]' cannot be converted to type 'System.Drawing.Image'.
+» Stack Trace:	   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 965
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-03-20 09:18:20.3899 
+» Message:	Object of type 'Emgu.CV.Image`2[Emgu.CV.Structure.Gray,System.Byte]' cannot be converted to type 'System.Drawing.Image'.
+» Stack Trace:	   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 965
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-03-20 09:18:20.5570 
+» Message:	Object of type 'Emgu.CV.Image`2[Emgu.CV.Structure.Gray,System.Byte]' cannot be converted to type 'System.Drawing.Image'.
+» Stack Trace:	   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 965
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-03-20 09:18:20.6906 
+» Message:	Object of type 'Emgu.CV.Image`2[Emgu.CV.Structure.Gray,System.Byte]' cannot be converted to type 'System.Drawing.Image'.
+» Stack Trace:	   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 965
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-03-20 09:18:21.2989 
+» Message:	Object of type 'Emgu.CV.Image`2[Emgu.CV.Structure.Gray,System.Byte]' cannot be converted to type 'System.Drawing.Image'.
+» Stack Trace:	   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 965
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-03-20 09:46:04.2233 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.RebuidValueWhenLink(cAction actionSrc, String propNameSrc, String propNameDes) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.OtherRunFunctions.cs:line 287
+   at RTC_Vision_Lite.Forms.FrmActions.EndLinkValue_Property(cAction ActionLink_Src, String PropertyLink_Src) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\2. Forms\FrmActions.cs:line 1214
+   at RTC_Vision_Lite.Forms.FrmActions.EndLinkValue(ActionTools NodeSrc) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\2. Forms\FrmActions.cs:line 1156
+2026-03-20 09:46:05.9821 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.Object]' to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1024
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-03-20 09:46:07.3868 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.Object]' to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1024
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-03-20 09:46:10.2082 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.Object]' to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1024
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-03-20 09:46:12.7828 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.Object]' to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1024
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-03-20 09:46:20.2845 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.Object]' to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1024
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-03-20 09:46:24.8294 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.Object]' to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1024
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-03-20 09:46:27.5333 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.Object]' to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1024
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-03-20 09:46:29.9061 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.Object]' to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1024
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-03-20 09:46:30.9646 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.Object]' to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1024
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-03-20 09:46:33.3093 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.Object]' to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1024
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-03-20 09:46:35.8424 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.Object]' to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1024
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-03-20 09:46:38.1742 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.Object]' to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1024
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-03-20 09:46:39.9405 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.Object]' to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1024
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-03-20 09:46:41.9430 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.Object]' to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1024
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-03-20 09:46:42.7311 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.Object]' to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1024
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-03-20 09:46:42.8868 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.Object]' to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1024
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-03-20 09:46:43.0534 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.Object]' to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1024
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-03-20 09:46:43.2430 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.Object]' to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1024
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-03-20 09:46:43.4252 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.Object]' to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1024
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-03-20 09:46:47.3103 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.Object]' to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1024
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-03-20 09:46:48.4813 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.Object]' to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1024
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-03-20 09:46:48.6585 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.Object]' to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1024
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-03-20 09:46:48.8209 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.Object]' to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1024
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-03-20 09:46:49.0071 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.Object]' to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1024
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-03-20 09:46:49.1856 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.Object]' to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1024
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-03-20 09:46:49.8341 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.Object]' to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1024
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-03-20 09:46:51.4670 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.Object]' to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1024
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-03-20 09:46:55.1783 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.Object]' to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1024
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-03-20 09:46:57.9786 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.Object]' to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1024
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-03-20 09:46:58.1592 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.Object]' to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1024
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-03-20 09:46:58.3219 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.Object]' to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1024
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-03-20 09:46:58.4904 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.Object]' to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1024
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-03-20 09:47:14.2103 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_Brightness() in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2491
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1129
+2026-03-20 09:47:18.2823 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.Object]' to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1024
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-03-20 09:47:23.4371 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.Object]' to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1024
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-03-20 09:47:25.3245 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.Object]' to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1024
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-03-20 09:47:27.6199 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.Object]' to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1024
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-03-20 09:47:27.8389 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.Object]' to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1024
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-03-20 09:47:28.0443 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.Object]' to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1024
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-03-20 09:47:28.2301 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.Object]' to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1024
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-03-20 09:47:28.8517 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.Object]' to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1024
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-03-20 09:48:08.2265 
+» Message:	Object of type 'System.String' cannot be converted to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at RTC_Vision_Lite.Classes.cAction.RebuildValueWhenLink_PropToProp(PropertyInfo PropertyInfoSrc, PropertyInfo PropertyInfoDes, cAction actionSrc) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.OtherRunFunctions.cs:line 546
+   at RTC_Vision_Lite.Classes.cAction.RebuidValueWhenLink(cAction actionSrc, String propNameSrc, String propNameDes) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.OtherRunFunctions.cs:line 283
+   at RTC_Vision_Lite.Forms.FrmActions.EndLinkValue_Property(cAction ActionLink_Src, String PropertyLink_Src) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\2. Forms\FrmActions.cs:line 1214
+   at RTC_Vision_Lite.Forms.FrmActions.EndLinkValue(ActionTools NodeSrc) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\2. Forms\FrmActions.cs:line 1156
+2026-03-20 09:48:09.1849 
+» Message:	Unable to cast object of type 'System.String' to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1024
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-03-20 09:48:18.0409 
+» Message:	Object of type 'System.String' cannot be converted to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at RTC_Vision_Lite.Classes.cAction.RebuildValueWhenLink_PropToProp(PropertyInfo PropertyInfoSrc, PropertyInfo PropertyInfoDes, cAction actionSrc) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.OtherRunFunctions.cs:line 538
+   at RTC_Vision_Lite.Classes.cAction.RebuidValueWhenLink(cAction actionSrc, String propNameSrc, String propNameDes) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.OtherRunFunctions.cs:line 283
+   at RTC_Vision_Lite.Forms.FrmActions.EndLinkValue_Property(cAction ActionLink_Src, String PropertyLink_Src) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\2. Forms\FrmActions.cs:line 1214
+   at RTC_Vision_Lite.Forms.FrmActions.EndLinkValue(ActionTools NodeSrc) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\2. Forms\FrmActions.cs:line 1156
+2026-03-20 09:48:59.1566 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.RebuidValueWhenLink(cAction actionSrc, String propNameSrc, String propNameDes) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.OtherRunFunctions.cs:line 287
+   at RTC_Vision_Lite.Forms.FrmActions.EndLinkValue_Property(cAction ActionLink_Src, String PropertyLink_Src) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\2. Forms\FrmActions.cs:line 1214
+   at RTC_Vision_Lite.Forms.FrmActions.EndLinkValue(ActionTools NodeSrc) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\2. Forms\FrmActions.cs:line 1156
+2026-03-20 09:49:18.3652 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.RebuidValueWhenLink(cAction actionSrc, String propNameSrc, String propNameDes) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.OtherRunFunctions.cs:line 287
+   at RTC_Vision_Lite.Forms.FrmActions.EndLinkValue_Property(cAction ActionLink_Src, String PropertyLink_Src) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\2. Forms\FrmActions.cs:line 1214
+   at RTC_Vision_Lite.Forms.FrmActions.EndLinkValue(ActionTools NodeSrc) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\2. Forms\FrmActions.cs:line 1156
+2026-03-20 09:49:34.8485 
+» Message:	Object of type 'System.String' cannot be converted to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at RTC_Vision_Lite.Classes.cAction.RebuildValueWhenLink_PropToProp(PropertyInfo PropertyInfoSrc, PropertyInfo PropertyInfoDes, cAction actionSrc) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.OtherRunFunctions.cs:line 538
+   at RTC_Vision_Lite.Classes.cAction.RebuidValueWhenLink(cAction actionSrc, String propNameSrc, String propNameDes) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.OtherRunFunctions.cs:line 283
+   at RTC_Vision_Lite.Forms.FrmActions.EndLinkValue_Property(cAction ActionLink_Src, String PropertyLink_Src) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\2. Forms\FrmActions.cs:line 1214
+   at RTC_Vision_Lite.Forms.FrmActions.EndLinkValue(ActionTools NodeSrc) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\2. Forms\FrmActions.cs:line 1156
+2026-03-20 09:49:58.0302 
+» Message:	Object of type 'System.Int32' cannot be converted to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at RTC_Vision_Lite.Classes.cAction.RebuildValueWhenLink_PropToProp(PropertyInfo PropertyInfoSrc, PropertyInfo PropertyInfoDes, cAction actionSrc) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.OtherRunFunctions.cs:line 546
+   at RTC_Vision_Lite.Classes.cAction.RebuidValueWhenLink(cAction actionSrc, String propNameSrc, String propNameDes) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.OtherRunFunctions.cs:line 283
+   at RTC_Vision_Lite.Forms.FrmActions.EndLinkValue_Property(cAction ActionLink_Src, String PropertyLink_Src) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\2. Forms\FrmActions.cs:line 1214
+   at RTC_Vision_Lite.Forms.FrmActions.EndLinkValue(ActionTools NodeSrc) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\2. Forms\FrmActions.cs:line 1156
+2026-03-20 09:50:06.2753 
+» Message:	Object of type 'System.String' cannot be converted to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at RTC_Vision_Lite.Classes.cAction.RebuildValueWhenLink_PropToProp(PropertyInfo PropertyInfoSrc, PropertyInfo PropertyInfoDes, cAction actionSrc) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.OtherRunFunctions.cs:line 538
+   at RTC_Vision_Lite.Classes.cAction.RebuidValueWhenLink(cAction actionSrc, String propNameSrc, String propNameDes) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.OtherRunFunctions.cs:line 283
+   at RTC_Vision_Lite.Forms.FrmActions.EndLinkValue_Property(cAction ActionLink_Src, String PropertyLink_Src) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\2. Forms\FrmActions.cs:line 1214
+   at RTC_Vision_Lite.Forms.FrmActions.EndLinkValue(ActionTools NodeSrc) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\2. Forms\FrmActions.cs:line 1156
+2026-03-20 09:50:21.6148 
+» Message:	Object of type 'System.String' cannot be converted to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at RTC_Vision_Lite.Classes.cAction.RebuildValueWhenLink_PropToProp(PropertyInfo PropertyInfoSrc, PropertyInfo PropertyInfoDes, cAction actionSrc) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.OtherRunFunctions.cs:line 546
+   at RTC_Vision_Lite.Classes.cAction.RebuidValueWhenLink(cAction actionSrc, String propNameSrc, String propNameDes) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.OtherRunFunctions.cs:line 283
+   at RTC_Vision_Lite.Forms.FrmActions.EndLinkValue_Property(cAction ActionLink_Src, String PropertyLink_Src) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\2. Forms\FrmActions.cs:line 1214
+   at RTC_Vision_Lite.Forms.FrmActions.EndLinkValue(ActionTools NodeSrc) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\2. Forms\FrmActions.cs:line 1156
+2026-03-20 09:50:41.9079 
+» Message:	Object of type 'System.String' cannot be converted to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at RTC_Vision_Lite.Classes.cAction.RebuildValueWhenLink_PropToProp(PropertyInfo PropertyInfoSrc, PropertyInfo PropertyInfoDes, cAction actionSrc) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.OtherRunFunctions.cs:line 546
+   at RTC_Vision_Lite.Classes.cAction.RebuidValueWhenLink(cAction actionSrc, String propNameSrc, String propNameDes) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.OtherRunFunctions.cs:line 283
+   at RTC_Vision_Lite.Forms.FrmActions.EndLinkValue_Property(cAction ActionLink_Src, String PropertyLink_Src) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\2. Forms\FrmActions.cs:line 1214
+   at RTC_Vision_Lite.Forms.FrmActions.EndLinkValue(ActionTools NodeSrc) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\2. Forms\FrmActions.cs:line 1156
+2026-03-20 09:50:51.9905 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.RebuidValueWhenLink(cAction actionSrc, String propNameSrc, String propNameDes) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.OtherRunFunctions.cs:line 287
+   at RTC_Vision_Lite.Forms.FrmActions.EndLinkValue_Property(cAction ActionLink_Src, String PropertyLink_Src) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\2. Forms\FrmActions.cs:line 1214
+   at RTC_Vision_Lite.Forms.FrmActions.EndLinkValue(ActionTools NodeSrc) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\2. Forms\FrmActions.cs:line 1156
+2026-03-20 09:51:13.9795 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.RebuidValueWhenLink(cAction actionSrc, String propNameSrc, String propNameDes) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.OtherRunFunctions.cs:line 287
+   at RTC_Vision_Lite.Forms.FrmActions.EndLinkValue_Property(cAction ActionLink_Src, String PropertyLink_Src) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\2. Forms\FrmActions.cs:line 1214
+   at RTC_Vision_Lite.Forms.FrmActions.EndLinkValue(ActionTools NodeSrc) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\2. Forms\FrmActions.cs:line 1156
+2026-03-20 09:51:15.3052 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_ColorBlob() in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1796
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1109
+2026-03-20 09:51:53.0441 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.RebuidValueWhenLink(cAction actionSrc, String propNameSrc, String propNameDes) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.OtherRunFunctions.cs:line 287
+   at RTC_Vision_Lite.Forms.FrmActions.EndLinkValue_Property(cAction ActionLink_Src, String PropertyLink_Src) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\2. Forms\FrmActions.cs:line 1214
+   at RTC_Vision_Lite.Forms.FrmActions.EndLinkValue(ActionTools NodeSrc) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\2. Forms\FrmActions.cs:line 1156
+2026-03-20 09:51:54.5607 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_ColorBlob() in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1796
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1109
+2026-03-20 09:58:51.2618 
+» Message:	Object of type 'System.String' cannot be converted to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at RTC_Vision_Lite.Classes.cAction.RebuildValueWhenLink_PropToProp(PropertyInfo PropertyInfoSrc, PropertyInfo PropertyInfoDes, cAction actionSrc) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.OtherRunFunctions.cs:line 546
+   at RTC_Vision_Lite.Classes.cAction.RebuidValueWhenLink(cAction actionSrc, String propNameSrc, String propNameDes) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.OtherRunFunctions.cs:line 283
+   at RTC_Vision_Lite.Forms.FrmActions.EndLinkValue_Property(cAction ActionLink_Src, String PropertyLink_Src) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\2. Forms\FrmActions.cs:line 1214
+   at RTC_Vision_Lite.Forms.FrmActions.EndLinkValue(ActionTools NodeSrc) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\2. Forms\FrmActions.cs:line 1156
+2026-03-20 09:59:05.7816 
+» Message:	Object of type 'System.String' cannot be converted to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at RTC_Vision_Lite.Classes.cAction.RebuildValueWhenLink_PropToProp(PropertyInfo PropertyInfoSrc, PropertyInfo PropertyInfoDes, cAction actionSrc) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.OtherRunFunctions.cs:line 546
+   at RTC_Vision_Lite.Classes.cAction.RebuidValueWhenLink(cAction actionSrc, String propNameSrc, String propNameDes) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.OtherRunFunctions.cs:line 283
+   at RTC_Vision_Lite.Forms.FrmActions.EndLinkValue_Property(cAction ActionLink_Src, String PropertyLink_Src) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\2. Forms\FrmActions.cs:line 1214
+   at RTC_Vision_Lite.Forms.FrmActions.EndLinkValue(ActionTools NodeSrc) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\2. Forms\FrmActions.cs:line 1156
+2026-03-20 09:59:07.2114 
+» Message:	Unable to cast object of type 'System.String' to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1024
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-03-20 09:59:09.1948 
+» Message:	Unable to cast object of type 'System.String' to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1024
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-03-20 09:59:13.3654 
+» Message:	Unable to cast object of type 'System.String' to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1024
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-03-20 09:59:15.6530 
+» Message:	Unable to cast object of type 'System.String' to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1024
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-03-20 09:59:17.1441 
+» Message:	Unable to cast object of type 'System.String' to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1024
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-03-20 09:59:17.8165 
+» Message:	Unable to cast object of type 'System.String' to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1024
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-03-20 09:59:19.3979 
+» Message:	Unable to cast object of type 'System.String' to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1024
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-03-20 09:59:21.2677 
+» Message:	Unable to cast object of type 'System.String' to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1024
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-03-20 09:59:23.2606 
+» Message:	Unable to cast object of type 'System.String' to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1024
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-03-20 09:59:27.0907 
+» Message:	Unable to cast object of type 'System.String' to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1024
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-03-20 09:59:27.1853 
+» Message:	Unable to cast object of type 'System.String' to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1024
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-03-20 09:59:28.9886 
+» Message:	Unable to cast object of type 'System.String' to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1024
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-03-20 09:59:29.1556 
+» Message:	Unable to cast object of type 'System.String' to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1024
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-03-20 09:59:29.3073 
+» Message:	Unable to cast object of type 'System.String' to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1024
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-03-20 09:59:29.4799 
+» Message:	Unable to cast object of type 'System.String' to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1024
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-03-20 09:59:29.6581 
+» Message:	Unable to cast object of type 'System.String' to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1024
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-03-20 09:59:29.7846 
+» Message:	Unable to cast object of type 'System.String' to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1024
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-03-20 09:59:29.9344 
+» Message:	Unable to cast object of type 'System.String' to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1024
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-03-20 09:59:33.6691 
+» Message:	Unable to cast object of type 'System.String' to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1024
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-03-20 09:59:35.5638 
+» Message:	Unable to cast object of type 'System.String' to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1024
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-03-20 09:59:35.7235 
+» Message:	Unable to cast object of type 'System.String' to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1024
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-03-20 09:59:35.8718 
+» Message:	Unable to cast object of type 'System.String' to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1024
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-03-20 09:59:36.0464 
+» Message:	Unable to cast object of type 'System.String' to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1024
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-03-20 09:59:36.2214 
+» Message:	Unable to cast object of type 'System.String' to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1024
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-03-20 09:59:36.3957 
+» Message:	Unable to cast object of type 'System.String' to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1024
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-03-20 09:59:36.5830 
+» Message:	Unable to cast object of type 'System.String' to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1024
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-03-20 09:59:36.9976 
+» Message:	Unable to cast object of type 'System.String' to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1024
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-03-20 09:59:37.1452 
+» Message:	Unable to cast object of type 'System.String' to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1024
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-03-20 09:59:37.5140 
+» Message:	Unable to cast object of type 'System.String' to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1024
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-03-20 09:59:37.7846 
+» Message:	Unable to cast object of type 'System.String' to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1024
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-03-20 09:59:38.0575 
+» Message:	Unable to cast object of type 'System.String' to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1024
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-03-20 09:59:38.3995 
+» Message:	Unable to cast object of type 'System.String' to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1024
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-03-20 09:59:38.6055 
+» Message:	Unable to cast object of type 'System.String' to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1024
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-03-20 10:17:33.1384 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_AffineImage() in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunAffineImage.cs:line 23
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1169
+2026-03-20 15:55:01.8712 
+» Message:	Object of type 'Emgu.CV.Image`2[Emgu.CV.Structure.Bgr,System.Byte]' cannot be converted to type 'System.Drawing.Image'.
+» Stack Trace:	   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 970
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-03-20 15:55:03.7868 
+» Message:	Object of type 'Emgu.CV.Image`2[Emgu.CV.Structure.Bgr,System.Byte]' cannot be converted to type 'System.Drawing.Image'.
+» Stack Trace:	   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 970
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-03-20 15:55:04.2929 
+» Message:	Object of type 'Emgu.CV.Image`2[Emgu.CV.Structure.Bgr,System.Byte]' cannot be converted to type 'System.Drawing.Image'.
+» Stack Trace:	   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 970
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-03-20 15:55:04.5785 
+» Message:	Object of type 'Emgu.CV.Image`2[Emgu.CV.Structure.Bgr,System.Byte]' cannot be converted to type 'System.Drawing.Image'.
+» Stack Trace:	   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 970
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-03-20 15:55:05.1498 
+» Message:	Object of type 'Emgu.CV.Image`2[Emgu.CV.Structure.Bgr,System.Byte]' cannot be converted to type 'System.Drawing.Image'.
+» Stack Trace:	   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 970
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-03-20 15:55:05.3955 
+» Message:	Object of type 'Emgu.CV.Image`2[Emgu.CV.Structure.Bgr,System.Byte]' cannot be converted to type 'System.Drawing.Image'.
+» Stack Trace:	   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 970
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-03-20 15:55:05.8469 
+» Message:	Object of type 'Emgu.CV.Image`2[Emgu.CV.Structure.Bgr,System.Byte]' cannot be converted to type 'System.Drawing.Image'.
+» Stack Trace:	   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 970
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-03-20 15:55:06.0813 
+» Message:	Object of type 'Emgu.CV.Image`2[Emgu.CV.Structure.Bgr,System.Byte]' cannot be converted to type 'System.Drawing.Image'.
+» Stack Trace:	   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 970
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-03-20 16:04:35.6897 
+» Message:	Object of type 'Emgu.CV.Image`2[Emgu.CV.Structure.Gray,System.Byte]' cannot be converted to type 'System.Drawing.Image'.
+» Stack Trace:	   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 965
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-03-20 16:12:07.9185 
+» Message:	Object of type 'Emgu.CV.Image`2[Emgu.CV.Structure.Bgr,System.Byte]' cannot be converted to type 'System.Drawing.Image'.
+» Stack Trace:	   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 970
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-03-20 16:12:50.3753 
+» Message:	Object of type 'Emgu.CV.Image`2[Emgu.CV.Structure.Bgr,System.Byte]' cannot be converted to type 'System.Drawing.Image'.
+» Stack Trace:	   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 970
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-03-20 16:12:52.9685 
+» Message:	Object of type 'Emgu.CV.Image`2[Emgu.CV.Structure.Bgr,System.Byte]' cannot be converted to type 'System.Drawing.Image'.
+» Stack Trace:	   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 970
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-03-20 16:12:53.5659 
+» Message:	Object of type 'Emgu.CV.Image`2[Emgu.CV.Structure.Bgr,System.Byte]' cannot be converted to type 'System.Drawing.Image'.
+» Stack Trace:	   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 970
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-03-20 16:12:54.0141 
+» Message:	Object of type 'Emgu.CV.Image`2[Emgu.CV.Structure.Bgr,System.Byte]' cannot be converted to type 'System.Drawing.Image'.
+» Stack Trace:	   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 970
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-03-20 16:16:04.0071 
+» Message:	Object of type 'System.String' cannot be converted to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at RTC_Vision_Lite.Classes.cAction.RebuildValueWhenLink_PropToProp(PropertyInfo PropertyInfoSrc, PropertyInfo PropertyInfoDes, cAction actionSrc) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.OtherRunFunctions.cs:line 538
+   at RTC_Vision_Lite.Classes.cAction.RebuidValueWhenLink(cAction actionSrc, String propNameSrc, String propNameDes) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.OtherRunFunctions.cs:line 283
+   at RTC_Vision_Lite.Forms.FrmActions.EndLinkValue_Property(cAction ActionLink_Src, String PropertyLink_Src) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\2. Forms\FrmActions.cs:line 1241
+   at RTC_Vision_Lite.Forms.FrmActions.EndLinkValue(ActionTools NodeSrc) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\2. Forms\FrmActions.cs:line 1164
+2026-03-20 16:18:14.9737 
+» Message:	Object of type 'Emgu.CV.Image`2[Emgu.CV.Structure.Bgr,System.Byte]' cannot be converted to type 'System.Drawing.Image'.
+» Stack Trace:	   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 970
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-03-20 16:18:17.9264 
+» Message:	Object of type 'Emgu.CV.Image`2[Emgu.CV.Structure.Bgr,System.Byte]' cannot be converted to type 'System.Drawing.Image'.
+» Stack Trace:	   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 970
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-03-20 16:18:20.0582 
+» Message:	Object of type 'Emgu.CV.Image`2[Emgu.CV.Structure.Bgr,System.Byte]' cannot be converted to type 'System.Drawing.Image'.
+» Stack Trace:	   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 970
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-03-20 16:18:21.5723 
+» Message:	Object of type 'Emgu.CV.Image`2[Emgu.CV.Structure.Bgr,System.Byte]' cannot be converted to type 'System.Drawing.Image'.
+» Stack Trace:	   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 970
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-03-20 16:18:22.1467 
+» Message:	Object of type 'Emgu.CV.Image`2[Emgu.CV.Structure.Bgr,System.Byte]' cannot be converted to type 'System.Drawing.Image'.
+» Stack Trace:	   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 970
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-03-20 16:18:22.8301 
+» Message:	Object of type 'Emgu.CV.Image`2[Emgu.CV.Structure.Bgr,System.Byte]' cannot be converted to type 'System.Drawing.Image'.
+» Stack Trace:	   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 970
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-03-20 16:18:23.2047 
+» Message:	Object of type 'Emgu.CV.Image`2[Emgu.CV.Structure.Bgr,System.Byte]' cannot be converted to type 'System.Drawing.Image'.
+» Stack Trace:	   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 970
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-03-20 16:18:23.5368 
+» Message:	Object of type 'Emgu.CV.Image`2[Emgu.CV.Structure.Bgr,System.Byte]' cannot be converted to type 'System.Drawing.Image'.
+» Stack Trace:	   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 970
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-03-20 16:18:33.5229 
+» Message:	Object of type 'Emgu.CV.Image`2[Emgu.CV.Structure.Bgr,System.Byte]' cannot be converted to type 'System.Drawing.Image'.
+» Stack Trace:	   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 970
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-03-20 16:18:34.6639 
+» Message:	Object of type 'Emgu.CV.Image`2[Emgu.CV.Structure.Bgr,System.Byte]' cannot be converted to type 'System.Drawing.Image'.
+» Stack Trace:	   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 970
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-03-20 16:18:34.8962 
+» Message:	Object of type 'Emgu.CV.Image`2[Emgu.CV.Structure.Bgr,System.Byte]' cannot be converted to type 'System.Drawing.Image'.
+» Stack Trace:	   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 970
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-03-20 16:18:35.0631 
+» Message:	Object of type 'Emgu.CV.Image`2[Emgu.CV.Structure.Bgr,System.Byte]' cannot be converted to type 'System.Drawing.Image'.
+» Stack Trace:	   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 970
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-03-20 16:18:35.6200 
+» Message:	Object of type 'Emgu.CV.Image`2[Emgu.CV.Structure.Bgr,System.Byte]' cannot be converted to type 'System.Drawing.Image'.
+» Stack Trace:	   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 970
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-03-20 16:18:36.0676 
+» Message:	Object of type 'Emgu.CV.Image`2[Emgu.CV.Structure.Bgr,System.Byte]' cannot be converted to type 'System.Drawing.Image'.
+» Stack Trace:	   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 970
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-03-20 16:18:36.2337 
+» Message:	Object of type 'Emgu.CV.Image`2[Emgu.CV.Structure.Bgr,System.Byte]' cannot be converted to type 'System.Drawing.Image'.
+» Stack Trace:	   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 970
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-03-20 16:18:36.6171 
+» Message:	Object of type 'Emgu.CV.Image`2[Emgu.CV.Structure.Bgr,System.Byte]' cannot be converted to type 'System.Drawing.Image'.
+» Stack Trace:	   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 970
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-03-20 16:18:37.2882 
+» Message:	Object of type 'Emgu.CV.Image`2[Emgu.CV.Structure.Bgr,System.Byte]' cannot be converted to type 'System.Drawing.Image'.
+» Stack Trace:	   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 970
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-03-20 16:18:38.8843 
+» Message:	Object of type 'Emgu.CV.Image`2[Emgu.CV.Structure.Bgr,System.Byte]' cannot be converted to type 'System.Drawing.Image'.
+» Stack Trace:	   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 970
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-03-20 16:18:39.5430 
+» Message:	Object of type 'Emgu.CV.Image`2[Emgu.CV.Structure.Bgr,System.Byte]' cannot be converted to type 'System.Drawing.Image'.
+» Stack Trace:	   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 970
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-03-20 16:18:40.1573 
+» Message:	Object of type 'Emgu.CV.Image`2[Emgu.CV.Structure.Bgr,System.Byte]' cannot be converted to type 'System.Drawing.Image'.
+» Stack Trace:	   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 970
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-03-20 16:18:40.3267 
+» Message:	Object of type 'Emgu.CV.Image`2[Emgu.CV.Structure.Bgr,System.Byte]' cannot be converted to type 'System.Drawing.Image'.
+» Stack Trace:	   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 970
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-03-20 16:18:40.5007 
+» Message:	Object of type 'Emgu.CV.Image`2[Emgu.CV.Structure.Bgr,System.Byte]' cannot be converted to type 'System.Drawing.Image'.
+» Stack Trace:	   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 970
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-03-20 16:18:40.6357 
+» Message:	Object of type 'Emgu.CV.Image`2[Emgu.CV.Structure.Bgr,System.Byte]' cannot be converted to type 'System.Drawing.Image'.
+» Stack Trace:	   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 970
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830

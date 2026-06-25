@@ -58,8 +58,8 @@ namespace RTC_Vision_Lite.Classes
         public string rtcColor { get; set; }
         public List<Guid> ParentIDResets { get; set; }
         public Bitmap rtcBitmap { get; set; }
+      
 
-        
         public EROILegend rtcRoiLegend { get; set; }
         public ETupleStyle TupleStyle { get; set; }
         public EHTupleStyle ValueStyle { get; set; }

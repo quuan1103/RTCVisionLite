@@ -1,4 +1,4 @@
-﻿using Emgu.CV.Structure;
+using Emgu.CV.Structure;
 using Emgu.CV;
 using RTC_Vision_Lite.Forms;
 using RTC_Vision_Lite.Properties;
@@ -936,22 +936,62 @@ namespace RTC_Vision_Lite.Classes
                     SetValuetoVariableIsParentRef(Actions[variableTypeDes.rtcIDRef]);
                 if (Refvalues.ContainsKey(sKey))
                 {
-                    RTCVariableType variableTypeSrc = (RTCVariableType)Actions[variableTypeDes.rtcIDRef].GetType().
-                        GetProperty(variableTypeDes.rtcPropNameRef)?.GetValue(Actions[variableTypeDes.rtcIDRef], null);
-                    PropertyInfo propertyInfoSrc = Actions[variableTypeDes.rtcIDRef].GetType()
+                    cAction sourceAction = Actions[variableTypeDes.rtcIDRef];
+                    RTCVariableType variableTypeSrc = (RTCVariableType)sourceAction.GetType().
+                        GetProperty(variableTypeDes.rtcPropNameRef)?.GetValue(sourceAction, null);
+                    PropertyInfo propertyInfoSrc = sourceAction.GetType()
                         .GetProperty(variableTypeDes.rtcPropNameRef);
                     if (variableTypeSrc.rtcIsIconic && variableTypeDes.rtcIsIconic) // cả 2 thuộc tính đều là iconnic
                     {
                         if (propertyInfoSrc.PropertyType == typeof(SImage) &&
                             propertyInfoDes.PropertyType == typeof(SImage))
                         {
-                            if (Refvalues[sKey] != null)
+                            Image newImg = null;
+                            if (sourceAction.ActionType == EActionTypes.ImageSplit &&
+                                !string.IsNullOrEmpty(variableTypeDes.rtcRefIndex) &&
+                                int.TryParse(variableTypeDes.rtcRefIndex, out int splitIdx))
+                            {
+                                if (sourceAction.SplitImage != null &&
+                                    sourceAction.SplitImage.OutputImage != null &&
+                                    splitIdx >= 1 &&
+                                    splitIdx <= sourceAction.SplitImage.OutputImage.Count)
+                                {
+                                    newImg = (Image)sourceAction.SplitImage.OutputImage[splitIdx - 1].Clone();
+                                }
+                            }
 
-                                PropValue.SetValue(variableTypeDes, ((Image)Refvalues[sKey]).Clone());
+                            if (newImg == null && Refvalues[sKey] != null)
+                            {
+                                newImg = (Image)((Image)Refvalues[sKey]).Clone();
+                            }
 
+                            if (newImg != null)
+                            {
+                                PropValue.SetValue(variableTypeDes, newImg);
+                                if (propertyInfoDes.Name == nameof(action.InputImage))
+                                {
+                                    if (action.InputGrayImage != null)
+                                    {
+                                        action.InputGrayImage.rtcValue = GlobFuncs.BitmapToGrayImage(new Bitmap(newImg));
+                                    }
+                                    if (action.InputBgrImage != null)
+                                    {
+                                        action.InputBgrImage.rtcValue = GlobFuncs.BitmapToBgrImage(new Bitmap(newImg));
+                                    }
+                                }
+                                else if (propertyInfoDes.Name == "InputImage2")
+                                {
+                                    if (action.InputGrayImage2 != null)
+                                    {
+                                        action.InputGrayImage2.rtcValue = GlobFuncs.BitmapToGrayImage(new Bitmap(newImg));
+                                    }
+                                    if (action.InputBgrImage2 != null)
+                                    {
+                                        action.InputBgrImage2.rtcValue = GlobFuncs.BitmapToBgrImage(new Bitmap(newImg));
+                                    }
+                                }
+                            }
                             continue;
-                            //GlobFuncs.GetValueFromSImageByIndex())
-                            //return;
                         }
                         else if (propertyInfoDes.PropertyType == propertyInfoDes.PropertyType)
                             switch (propertyInfoSrc.PropertyType.Name)

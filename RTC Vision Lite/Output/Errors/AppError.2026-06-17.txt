@@ -1,0 +1,10 @@
+2026-06-17 09:30:15.2751 
+» Message:	Value of '0' is not valid for 'Value'. 'Value' should be between 'Minimum' and 'Maximum'.
+Parameter name: Value
+» Stack Trace:	   at System.Windows.Forms.NumericUpDown.set_Value(Decimal value)
+   at RTC_Vision_Lite.PublicFunctions.GlobFuncs.HIK_SetFloatValueToNumberic(MyHikCamera hikCamera, String paramName, NumericUpDown edit) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Global\GlobFuncs.cs:line 2729
+2026-06-17 09:55:26.7066 
+» Message:	Value of '0' is not valid for 'Value'. 'Value' should be between 'Minimum' and 'Maximum'.
+Parameter name: Value
+» Stack Trace:	   at System.Windows.Forms.NumericUpDown.set_Value(Decimal value)
+   at RTC_Vision_Lite.PublicFunctions.GlobFuncs.HIK_SetFloatValueToNumberic(MyHikCamera hikCamera, String paramName, NumericUpDown edit) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Global\GlobFuncs.cs:line 2729

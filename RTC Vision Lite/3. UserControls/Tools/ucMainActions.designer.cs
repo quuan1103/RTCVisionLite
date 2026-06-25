@@ -54,8 +54,6 @@ namespace RTC_Vision_Lite.UserControls
             this.radChooseFile = new System.Windows.Forms.RadioButton();
             this.radChooseFolder = new System.Windows.Forms.RadioButton();
             this.tabCamera = new System.Windows.Forms.TabPage();
-            this.lblNoticeConnect = new RTC_Vision_Lite.Commons.MyLabel(this.components);
-            this.ucCameraSettings1 = new RTC_Vision_Lite.UserControls.ucCameraSettings();
             this.btnConnect = new System.Windows.Forms.Button();
             this.label8 = new System.Windows.Forms.Label();
             this.cbTemplateSettingCam = new System.Windows.Forms.ComboBox();
@@ -94,6 +92,8 @@ namespace RTC_Vision_Lite.UserControls
             this.sqLiteCommand1 = new System.Data.SQLite.SQLiteCommand();
             this.folderBrowserDialog1 = new System.Windows.Forms.FolderBrowserDialog();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
+            this.lblNoticeConnect = new RTC_Vision_Lite.Commons.MyLabel(this.components);
+            this.ucCameraSettings1 = new RTC_Vision_Lite.UserControls.ucCameraSettings();
             this.groupBox1.SuspendLayout();
             this.pageMain.SuspendLayout();
             this.tpImageSeting.SuspendLayout();
@@ -396,44 +396,6 @@ namespace RTC_Vision_Lite.UserControls
             this.tabCamera.Size = new System.Drawing.Size(624, 390);
             this.tabCamera.TabIndex = 1;
             // 
-            // lblNoticeConnect
-            // 
-            this.lblNoticeConnect.AutoSize = true;
-            this.lblNoticeConnect.Location = new System.Drawing.Point(450, 52);
-            this.lblNoticeConnect.Name = "lblNoticeConnect";
-            this.lblNoticeConnect.RTCBorderBottomColor = System.Drawing.Color.White;
-            this.lblNoticeConnect.RTCBorderBottomDashStyle = System.Drawing.Drawing2D.DashStyle.Solid;
-            this.lblNoticeConnect.RTCBorderBottomPadding = 1;
-            this.lblNoticeConnect.RTCBorderBottomVisible = false;
-            this.lblNoticeConnect.RTCBorderLeftColor = System.Drawing.Color.White;
-            this.lblNoticeConnect.RTCBorderLeftDashStyle = System.Drawing.Drawing2D.DashStyle.Solid;
-            this.lblNoticeConnect.RTCBorderLeftPadding = 1;
-            this.lblNoticeConnect.RTCBorderLeftVisible = false;
-            this.lblNoticeConnect.RTCBorderRightColor = System.Drawing.Color.White;
-            this.lblNoticeConnect.RTCBorderRightDashStyle = System.Drawing.Drawing2D.DashStyle.Solid;
-            this.lblNoticeConnect.RTCBorderRightPadding = 1;
-            this.lblNoticeConnect.RTCBorderRightVisible = false;
-            this.lblNoticeConnect.RTCBorderTopColor = System.Drawing.Color.White;
-            this.lblNoticeConnect.RTCBorderTopDashStyle = System.Drawing.Drawing2D.DashStyle.Solid;
-            this.lblNoticeConnect.RTCBorderTopPadding = 1;
-            this.lblNoticeConnect.RTCBorderTopVisible = false;
-            this.lblNoticeConnect.RTCFadeOutSpeed = 5;
-            this.lblNoticeConnect.RTCInterval = 100;
-            this.lblNoticeConnect.RTCUseCustomBorder = false;
-            this.lblNoticeConnect.Size = new System.Drawing.Size(50, 13);
-            this.lblNoticeConnect.TabIndex = 18;
-            this.lblNoticeConnect.Text = "Connect";
-            // 
-            // ucCameraSettings1
-            // 
-            this.ucCameraSettings1.Enabled = false;
-            this.ucCameraSettings1.GroupActions = null;
-            this.ucCameraSettings1.Location = new System.Drawing.Point(9, 115);
-            this.ucCameraSettings1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.ucCameraSettings1.Name = "ucCameraSettings1";
-            this.ucCameraSettings1.Size = new System.Drawing.Size(609, 269);
-            this.ucCameraSettings1.TabIndex = 16;
-            // 
             // btnConnect
             // 
             this.btnConnect.BackColor = System.Drawing.Color.White;
@@ -496,6 +458,7 @@ namespace RTC_Vision_Lite.UserControls
             // 
             // cbSdkMode
             // 
+            this.cbSdkMode.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbSdkMode.FormattingEnabled = true;
             this.cbSdkMode.Items.AddRange(new object[] {
             "Hikrobot",
@@ -507,7 +470,6 @@ namespace RTC_Vision_Lite.UserControls
             this.cbSdkMode.Name = "cbSdkMode";
             this.cbSdkMode.Size = new System.Drawing.Size(74, 21);
             this.cbSdkMode.TabIndex = 9;
-            this.cbSdkMode.Text = "Hikrobot";
             this.cbSdkMode.SelectedValueChanged += new System.EventHandler(this.cbSdkMode_SelectedValueChanged);
             // 
             // btnAddNewDeviceManual
@@ -821,6 +783,44 @@ namespace RTC_Vision_Lite.UserControls
             // sqLiteCommand1
             // 
             this.sqLiteCommand1.CommandText = null;
+            // 
+            // lblNoticeConnect
+            // 
+            this.lblNoticeConnect.AutoSize = true;
+            this.lblNoticeConnect.Location = new System.Drawing.Point(450, 52);
+            this.lblNoticeConnect.Name = "lblNoticeConnect";
+            this.lblNoticeConnect.RTCBorderBottomColor = System.Drawing.Color.White;
+            this.lblNoticeConnect.RTCBorderBottomDashStyle = System.Drawing.Drawing2D.DashStyle.Solid;
+            this.lblNoticeConnect.RTCBorderBottomPadding = 1;
+            this.lblNoticeConnect.RTCBorderBottomVisible = false;
+            this.lblNoticeConnect.RTCBorderLeftColor = System.Drawing.Color.White;
+            this.lblNoticeConnect.RTCBorderLeftDashStyle = System.Drawing.Drawing2D.DashStyle.Solid;
+            this.lblNoticeConnect.RTCBorderLeftPadding = 1;
+            this.lblNoticeConnect.RTCBorderLeftVisible = false;
+            this.lblNoticeConnect.RTCBorderRightColor = System.Drawing.Color.White;
+            this.lblNoticeConnect.RTCBorderRightDashStyle = System.Drawing.Drawing2D.DashStyle.Solid;
+            this.lblNoticeConnect.RTCBorderRightPadding = 1;
+            this.lblNoticeConnect.RTCBorderRightVisible = false;
+            this.lblNoticeConnect.RTCBorderTopColor = System.Drawing.Color.White;
+            this.lblNoticeConnect.RTCBorderTopDashStyle = System.Drawing.Drawing2D.DashStyle.Solid;
+            this.lblNoticeConnect.RTCBorderTopPadding = 1;
+            this.lblNoticeConnect.RTCBorderTopVisible = false;
+            this.lblNoticeConnect.RTCFadeOutSpeed = 5;
+            this.lblNoticeConnect.RTCInterval = 100;
+            this.lblNoticeConnect.RTCUseCustomBorder = false;
+            this.lblNoticeConnect.Size = new System.Drawing.Size(50, 13);
+            this.lblNoticeConnect.TabIndex = 18;
+            this.lblNoticeConnect.Text = "Connect";
+            // 
+            // ucCameraSettings1
+            // 
+            this.ucCameraSettings1.Enabled = false;
+            this.ucCameraSettings1.GroupActions = null;
+            this.ucCameraSettings1.Location = new System.Drawing.Point(9, 115);
+            this.ucCameraSettings1.Margin = new System.Windows.Forms.Padding(2);
+            this.ucCameraSettings1.Name = "ucCameraSettings1";
+            this.ucCameraSettings1.Size = new System.Drawing.Size(609, 269);
+            this.ucCameraSettings1.TabIndex = 16;
             // 
             // ucMainActions
             // 

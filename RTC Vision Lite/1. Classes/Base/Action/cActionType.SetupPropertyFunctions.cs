@@ -1,4 +1,5 @@
-﻿using NLog.Filters;
+
+using NLog.Filters;
 using RTC_Vision_Lite.UserControls;
 using RTCConst;
 using RTCEnums;
@@ -127,6 +128,9 @@ namespace RTC_Vision_Lite.Classes
                     break;
                 case EActionTypes.LoadImage:
                     SetupPropertyByLoadImage();
+                    break;
+                case EActionTypes.LoadObject:
+                    SetupPropertyByLoadObject();
                     break;
                 case EActionTypes.CsvWrite:
                     SetupPropertyByCsvWrite();
@@ -1854,6 +1858,8 @@ namespace RTC_Vision_Lite.Classes
         private void SetupPropertyByColorBlob()
         {
             IsMultiROI = true;
+            RequiredPass = new SBool(CommonData.GetPropertyDescription(nameof(RequiredPass)), EHTupleStyle.None, EPropertyState.None, EROILegend.None, false, true);
+            RequiredPass.rtcValue = true;
             InputImage = new SImage(CommonData.GetPropertyDescription(nameof(InputImage)),
               EHTupleStyle.None,
               EPropertyState.Input,
@@ -3994,7 +4000,49 @@ namespace RTC_Vision_Lite.Classes
         }
         public void SetupPropertyByPattern()
         {
+            ThresholdRange = new SListDouble(CommonData.GetPropertyDescription(nameof(ThresholdRange)), EHTupleStyle.RangeMinMax,
+                                               EPropertyState.Input, EROILegend.None, false);
             InputImage = new SImage(CommonData.GetPropertyDescription(nameof(InputImage)), EHTupleStyle.None,
+                                               EPropertyState.Input, EROILegend.None, false);
+            IsTrain = new SBool(CommonData.GetPropertyDescription(nameof(IsTrain)), EHTupleStyle.None,
+                                               EPropertyState.Output, EROILegend.None, false);
+            IsFilterColumn = new SBool(CommonData.GetPropertyDescription(nameof(IsFilterColumn)), EHTupleStyle.None,
+                                               EPropertyState.Input, EROILegend.None, false);
+            IsFilterRow = new SBool(CommonData.GetPropertyDescription(nameof(IsFilterRow)), EHTupleStyle.None,
+                                               EPropertyState.Input, EROILegend.None, false);
+            IsFilterAngle = new SBool(CommonData.GetPropertyDescription(nameof(IsFilterAngle)), EHTupleStyle.None,
+                                               EPropertyState.Input, EROILegend.None, false);
+            PossibleScaling = new SString(CommonData.GetPropertyDescription(nameof(PossibleScaling)), EHTupleStyle.None,
+                                               EPropertyState.Input, EROILegend.None, false);
+            TrainSubsamplingValue = new SDouble(CommonData.GetPropertyDescription(nameof(TrainSubsamplingValue)), EHTupleStyle.ValueList,
+                                               EPropertyState.Input, EROILegend.None, false);
+            ContrastMode = new SString(CommonData.GetPropertyDescription(nameof(ContrastMode)), EHTupleStyle.None,
+                                               EPropertyState.Input, EROILegend.None, false);
+            ManualRange = new SListDouble(CommonData.GetPropertyDescription(nameof(ManualRange)), EHTupleStyle.RangeMinMax, EPropertyState.Input,
+                                               EROILegend.None, false);
+            Placement = new SString(CommonData.GetPropertyDescription(nameof(Placement)), EHTupleStyle.None,
+                                               EPropertyState.Input, EROILegend.None, false);
+            FindOptimizationLevel = new SDouble(CommonData.GetPropertyDescription(nameof(FindOptimizationLevel)), EHTupleStyle.None,
+                                               EPropertyState.Input, EROILegend.None, false);
+            PositionAccuracy = new SString(CommonData.GetPropertyDescription(nameof(PositionAccuracy)), EHTupleStyle.None,
+                                               EPropertyState.Input, EROILegend.None, false);
+            FindSubsamplingMode = new SString(CommonData.GetPropertyDescription(nameof(FindSubsamplingMode)), EHTupleStyle.None,
+                                               EPropertyState.Input, EROILegend.None, false);
+            FindSubsamplingValue = new SDouble(CommonData.GetPropertyDescription(nameof(FindSubsamplingValue)), EHTupleStyle.ValueList,
+                                               EPropertyState.Input, EROILegend.None, false);
+            ColumnMin = new SDouble(CommonData.GetPropertyDescription(nameof(ColumnMin)), EHTupleStyle.None,
+                                               EPropertyState.Input, EROILegend.None, false);
+            ColumnMax = new SDouble(CommonData.GetPropertyDescription(nameof(ColumnMax)), EHTupleStyle.None,
+                                               EPropertyState.Input, EROILegend.None, false);
+            RowMin = new SDouble(CommonData.GetPropertyDescription(nameof(RowMin)), EHTupleStyle.None,
+                                               EPropertyState.Input, EROILegend.None, false);
+            RowMax = new SDouble(CommonData.GetPropertyDescription(nameof(RowMax)), EHTupleStyle.None,
+                                                  EPropertyState.Input, EROILegend.None, false);
+            AngleMin = new SDouble(CommonData.GetPropertyDescription(nameof(AngleMin)), EHTupleStyle.None,
+                                               EPropertyState.Input, EROILegend.None, false);
+            AngleMax = new SDouble(CommonData.GetPropertyDescription(nameof(AngleMax)), EHTupleStyle.None,
+                                                  EPropertyState.Input, EROILegend.None, false);
+            TrainSubsamplingMode = new SString(CommonData.GetPropertyDescription(nameof(TrainSubsamplingMode)), EHTupleStyle.None,
                                                EPropertyState.Input, EROILegend.None, false);
             InputGrayImage = new SGrayImage(CommonData.GetPropertyDescription(nameof(InputImage)), EHTupleStyle.None,
                                               EPropertyState.Input, EROILegend.None, false);
@@ -4166,7 +4214,7 @@ namespace RTC_Vision_Lite.Classes
                                                EHTupleStyle.ValueList, EPropertyState.Input, EROILegend.None, false);
 
             OutputMasterOrigin = new SListDouble(CommonData.GetPropertyDescription(nameof(OutputMasterOrigin)),
-                                               EHTupleStyle.Origin, EPropertyState.Input, EROILegend.None, false);
+                                               EHTupleStyle.Origin, EPropertyState.Output, EROILegend.None, false);
 
             ToolMasterOrigin = new SListDouble(CommonData.GetPropertyDescription(nameof(ToolMasterOrigin)),
                                                EHTupleStyle.Origin, EPropertyState.Input, EROILegend.None, false);
@@ -4282,8 +4330,12 @@ namespace RTC_Vision_Lite.Classes
             OutputBestOrigin_Phi = new SDouble(CommonData.GetPropertyDescription(nameof(OutputBestOrigin_Phi)),
                                                EHTupleStyle.ValueList, EPropertyState.Output, EROILegend.None, false);
             #endregion
-
-
+            MinPassScore.rtcValue = CommonData.GetDefaultValues_Double(nameof(MinPassScore) + _SuffixName);
+            FindSubsamplingMode.rtcValue = CommonData.GetDefaultValues_Text(nameof(FindSubsamplingMode) + _SuffixName);
+            TrainSubsamplingMode.rtcValue = CommonData.GetDefaultValues_Text(nameof(TrainSubsamplingMode) + _SuffixName);
+            ContrastMode.rtcValue = CommonData.GetDefaultValues_Text(nameof(ContrastMode) + _SuffixName);
+            Placement.rtcValue = CommonData.GetDefaultValues_Text(nameof(Placement) + _SuffixName);
+            ThresholdRange.rtcValue = CommonData.GetDefaultValues_ListDouble(nameof(ThresholdRange) + _SuffixName);
             OutputOriginListSorteMode.rtcValue = CommonData.GetDefaultValues_Text(nameof(OutputOriginListSorteMode) + _SuffixName);
             PlacementMode.rtcValue = CommonData.GetDefaultValues_Text(nameof(PlacementMode) + _SuffixName);
             //ShapeList
@@ -4298,7 +4350,6 @@ namespace RTC_Vision_Lite.Classes
             AngleStepMode.rtcValue = CommonData.GetDefaultValues_Text(nameof(AngleStepMode) + _SuffixName);
             AngleStepValue.rtcValue = CommonData.GetDefaultValues_Double(nameof(AngleStepValue) + _SuffixName);
             PossibleScaling.rtcValue = CommonData.GetDefaultValues_Text(nameof(PossibleScaling) + _SuffixName);
-
             ScaleRangePattern.rtcValue = CommonData.GetDefaultValues_ListDouble(nameof(ScaleRangePattern) + _SuffixName);
             ScaleStepMode.rtcValue = CommonData.GetDefaultValues_Text(nameof(ScaleStepMode) + _SuffixName);
             TrainSubsamplingLevelMode.rtcValue = CommonData.GetDefaultValues_Text(nameof(TrainSubsamplingLevelMode) + _SuffixName);
@@ -4339,6 +4390,9 @@ namespace RTC_Vision_Lite.Classes
             FindShapeListOriginal.rtcValue = new List<object> { };
             Pattern_ROITrain_Find = true;
             RunWhenROIButtonClick = true;
+            ThresholdRange = new SListDouble(CommonData.GetPropertyDescription(nameof(ThresholdRange)),
+                EHTupleStyle.RangeMinMaxLimit, EPropertyState.Input, EROILegend.None, false);
+            ThresholdRange.rtcValue = new List<double> { 0, 25, 0, 255 }; // [begin, end, absMin, absMax]
         }
 
         public void SetupPropertyByBranchItem(bool isMultiBranch = false)
@@ -4790,6 +4844,14 @@ namespace RTC_Vision_Lite.Classes
             false,
             false,
             false);
+            InputRegion2 = new SListVector(CommonData.GetPropertyDescription(nameof(InputRegion2)),
+            EHTupleStyle.None,
+            EPropertyState.Input,
+            EROILegend.None,
+            false,
+            false,
+            false,
+            false);
             OutputRegion = new SListVector(CommonData.GetPropertyDescription(nameof(OutputRegion)),
             EHTupleStyle.None,
             EPropertyState.Output,
@@ -4855,14 +4917,44 @@ namespace RTC_Vision_Lite.Classes
             false,
             false,
             false);
-            //MaskAngle = new SDouble(CommonData.GetPropertyDescription(nameof(MaskAngle)),
-            //EHTupleStyle.None,
-            //EPropertyState.Input,
-            //EROILegend.None,
-            //false,
-            //false,
-            //false,
-            //false);
+            MaskAngle = new SDouble(CommonData.GetPropertyDescription(nameof(MaskAngle)),
+            EHTupleStyle.None,
+            EPropertyState.Input,
+            EROILegend.None,
+            false,
+            false,
+            false,
+            false);
+
+            // update thêm giao diện 8/6/26
+            IsMorphology = new SBool(CommonData.GetPropertyDescription(nameof(IsMorphology)),
+            EHTupleStyle.None,
+            EPropertyState.Input,
+            EROILegend.None,
+            false,
+            false,
+            false,
+            false);
+            IsConnection = new SBool(CommonData.GetPropertyDescription(nameof(IsMorphology)),
+            EHTupleStyle.None,
+            EPropertyState.Input,
+            EROILegend.None,
+            false,
+            false,
+            false,
+            false);
+            IsRegionMath = new SBool(CommonData.GetPropertyDescription(nameof(IsMorphology)),
+            EHTupleStyle.None,
+            EPropertyState.Input,
+            EROILegend.None,
+            false,
+            false,
+            false,
+            false);
+            //
+
+
+
             MaskHeight = new SInt(CommonData.GetPropertyDescription(nameof(MaskHeight)),
             EHTupleStyle.None,
             EPropertyState.Input,
@@ -5612,6 +5704,44 @@ namespace RTC_Vision_Lite.Classes
             RunIsSilent.rtcHidden = true;
             AutoRun = false;
         }
+
+        public void SetupPropertyByLoadObject()
+        {
+            ToolOrigin = new SListDouble(CommonData.GetPropertyDescription(nameof(ToolOrigin)),
+                EHTupleStyle.Origin,
+                EPropertyState.Input);
+
+            FileName = new SString(CommonData.GetPropertyDescription(nameof(FileName)),
+            EHTupleStyle.None,
+            EPropertyState.Input,
+            EROILegend.None,
+            false);
+            IsRunOneTime = new SBool(CommonData.GetPropertyDescription(nameof(IsRunOneTime)),
+            EHTupleStyle.None,
+            EPropertyState.Input,
+            EROILegend.None,
+            false);
+            IsFinishRunOneTime = new SBool(CommonData.GetPropertyDescription(nameof(IsFinishRunOneTime)),
+            EHTupleStyle.None,
+            EPropertyState.Output,
+            EROILegend.None,
+            false);
+            OutputShapeList = new SListObject(CommonData.GetPropertyDescription(nameof(OutputShapeList)),
+            EHTupleStyle.Regions,
+            EPropertyState.Output,
+            EROILegend.PrimaryRoi,
+            true,
+            true,
+            false,
+            true);
+            DisplayOutput.rtcHidden = true;
+            WindowHandle.rtcHidden = true;
+            RunIsSilent.rtcHidden = true;
+            RunWhenROIButtonClick = false;
+            AutoRun = false;
+        }
+
+
         public void SetupPropertyByLoadImage()
         {
             FileName = new SString(CommonData.GetPropertyDescription(nameof(FileName)),
@@ -6553,22 +6683,6 @@ namespace RTC_Vision_Lite.Classes
             false,
             false);
             OutputImage = new SImage(CommonData.GetPropertyDescription(nameof(OutputImage)),
-            EHTupleStyle.None,
-            EPropertyState.Output,
-            EROILegend.None,
-            false,
-            false,
-            false,
-            false);
-            OutputGrayImage = new SGrayImage(CommonData.GetPropertyDescription(nameof(OutputImage)),
-              EHTupleStyle.None,
-              EPropertyState.Output,
-              EROILegend.None,
-              false,
-              false,
-              false,
-              false);
-            OutputBgrImage = new SBgrImage(CommonData.GetPropertyDescription(nameof(OutputImage)),
             EHTupleStyle.None,
             EPropertyState.Output,
             EROILegend.None,
@@ -7617,6 +7731,15 @@ namespace RTC_Vision_Lite.Classes
             false,
             false,
             false);
+            IsClearModel = new SBool(CommonData.GetPropertyDescription(nameof(IsClearModel)),
+            EHTupleStyle.None,
+            EPropertyState.Input,
+            EROILegend.None,
+            false,
+            true,
+            false,
+            false);
+
             InputGrayImage = new SGrayImage(CommonData.GetPropertyDescription(nameof(InputImage)),
             EHTupleStyle.None,
             EPropertyState.Input,
