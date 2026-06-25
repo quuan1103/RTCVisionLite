@@ -681,7 +681,6 @@ namespace RTC_Vision_Lite.UserControls
             // 
             this.PropName.AspectName = "Name";
             this.PropName.DisplayIndex = 3;
-            this.PropName.FillsFreeSpace = false;
             this.PropName.HeaderTextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.PropName.Text = "PropName";
             this.PropName.Width = 174;
@@ -731,7 +730,6 @@ namespace RTC_Vision_Lite.UserControls
             // 
             this.Value.AspectName = "Value";
             this.Value.DisplayIndex = 8;
-            this.Value.FillsFreeSpace = false;
             this.Value.HeaderTextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.Value.Text = "Value";
             this.Value.Width = 235;

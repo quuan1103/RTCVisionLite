@@ -445,7 +445,7 @@ namespace RTC_Vision_Lite.Forms
             this.panel2.Controls.Add(this.panel4);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel2.Location = new System.Drawing.Point(313, 0);
-            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(1399, 1010);
             this.panel2.TabIndex = 3;
@@ -457,7 +457,7 @@ namespace RTC_Vision_Lite.Forms
             this.panel1.Controls.Add(this.PanActionInfo);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(907, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(492, 1010);
             this.panel1.TabIndex = 12;
@@ -467,7 +467,7 @@ namespace RTC_Vision_Lite.Forms
             this.PanHsmartWindow.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.PanHsmartWindow.Dock = System.Windows.Forms.DockStyle.Fill;
             this.PanHsmartWindow.Location = new System.Drawing.Point(0, 0);
-            this.PanHsmartWindow.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.PanHsmartWindow.Margin = new System.Windows.Forms.Padding(4);
             this.PanHsmartWindow.Name = "PanHsmartWindow";
             this.PanHsmartWindow.Size = new System.Drawing.Size(492, 423);
             this.PanHsmartWindow.TabIndex = 1;
@@ -477,7 +477,7 @@ namespace RTC_Vision_Lite.Forms
             // 
             this.splitter1.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.splitter1.Location = new System.Drawing.Point(0, 423);
-            this.splitter1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.splitter1.Margin = new System.Windows.Forms.Padding(4);
             this.splitter1.Name = "splitter1";
             this.splitter1.Size = new System.Drawing.Size(492, 4);
             this.splitter1.TabIndex = 14;
@@ -489,7 +489,7 @@ namespace RTC_Vision_Lite.Forms
             this.PanActionInfo.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.PanActionInfo.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.PanActionInfo.Location = new System.Drawing.Point(0, 427);
-            this.PanActionInfo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.PanActionInfo.Margin = new System.Windows.Forms.Padding(4);
             this.PanActionInfo.Name = "PanActionInfo";
             this.PanActionInfo.Size = new System.Drawing.Size(492, 583);
             this.PanActionInfo.TabIndex = 0;
@@ -497,7 +497,7 @@ namespace RTC_Vision_Lite.Forms
             // splitter2
             // 
             this.splitter2.Location = new System.Drawing.Point(903, 0);
-            this.splitter2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.splitter2.Margin = new System.Windows.Forms.Padding(4);
             this.splitter2.Name = "splitter2";
             this.splitter2.Size = new System.Drawing.Size(4, 1010);
             this.splitter2.TabIndex = 13;
@@ -508,7 +508,7 @@ namespace RTC_Vision_Lite.Forms
             this.panel4.Controls.Add(this.ucActionList);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel4.Location = new System.Drawing.Point(0, 0);
-            this.panel4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel4.Margin = new System.Windows.Forms.Padding(4);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(903, 1010);
             this.panel4.TabIndex = 15;
@@ -519,7 +519,7 @@ namespace RTC_Vision_Lite.Forms
             this.ucActionList.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ucActionList.Dock = System.Windows.Forms.DockStyle.Fill;
             this.ucActionList.Location = new System.Drawing.Point(0, 0);
-            this.ucActionList.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.ucActionList.Margin = new System.Windows.Forms.Padding(5);
             this.ucActionList.ModelViewGrid = RTCEnums.EModeViewGrid.MainView;
             this.ucActionList.Name = "ucActionList";
             this.ucActionList.Size = new System.Drawing.Size(903, 1010);
@@ -532,7 +532,7 @@ namespace RTC_Vision_Lite.Forms
             this.pnlTemplate.Controls.Add(this.ucTemplateTools);
             this.pnlTemplate.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnlTemplate.Location = new System.Drawing.Point(0, 0);
-            this.pnlTemplate.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pnlTemplate.Margin = new System.Windows.Forms.Padding(4);
             this.pnlTemplate.Name = "pnlTemplate";
             this.pnlTemplate.Size = new System.Drawing.Size(309, 1010);
             this.pnlTemplate.TabIndex = 14;
@@ -544,7 +544,7 @@ namespace RTC_Vision_Lite.Forms
             this.ucTemplateTools.IsDaNap = false;
             this.ucTemplateTools.IsLocate = false;
             this.ucTemplateTools.Location = new System.Drawing.Point(0, 0);
-            this.ucTemplateTools.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.ucTemplateTools.Margin = new System.Windows.Forms.Padding(5);
             this.ucTemplateTools.Name = "ucTemplateTools";
             this.ucTemplateTools.Size = new System.Drawing.Size(309, 1010);
             this.ucTemplateTools.TabIndex = 9;
@@ -556,7 +556,7 @@ namespace RTC_Vision_Lite.Forms
             this.panel3.Controls.Add(this.pnlTemplate);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel3.Location = new System.Drawing.Point(0, 0);
-            this.panel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel3.Margin = new System.Windows.Forms.Padding(4);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(309, 1010);
             this.panel3.TabIndex = 10;
@@ -568,7 +568,7 @@ namespace RTC_Vision_Lite.Forms
             this.panel5.Controls.Add(this.panel3);
             this.panel5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel5.Location = new System.Drawing.Point(0, 51);
-            this.panel5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel5.Margin = new System.Windows.Forms.Padding(4);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(1712, 1010);
             this.panel5.TabIndex = 10;
@@ -576,7 +576,7 @@ namespace RTC_Vision_Lite.Forms
             // splitter3
             // 
             this.splitter3.Location = new System.Drawing.Point(309, 0);
-            this.splitter3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.splitter3.Margin = new System.Windows.Forms.Padding(4);
             this.splitter3.MinExtra = 5;
             this.splitter3.MinSize = 5;
             this.splitter3.Name = "splitter3";
@@ -593,10 +593,9 @@ namespace RTC_Vision_Lite.Forms
             this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.menuStrip1);
             this.ForeColor = System.Drawing.Color.Black;
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
-            this.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.Margin = new System.Windows.Forms.Padding(5);
             this.Name = "FrmActions";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "RTC Vision";

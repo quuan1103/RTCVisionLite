@@ -198,6 +198,7 @@ namespace RTC_Vision_Lite.Forms
                 else if (Action.InputImage != null && Action.InputImage.rtcValue != null)
                 {
                     _Image = new Bitmap(Action.InputImage.rtcValue);
+                  
                     if (_Image.PixelFormat == System.Drawing.Imaging.PixelFormat.DontCare)
                     {
                         return;

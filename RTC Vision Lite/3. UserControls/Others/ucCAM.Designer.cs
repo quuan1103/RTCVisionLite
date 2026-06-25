@@ -191,7 +191,7 @@ namespace RTC_Vision_Lite.UserControls
             this.tlpFooter.Controls.Add(this.lblCoordinates, 0, 0);
             this.tlpFooter.Controls.Add(this.flowLayoutPanel1, 1, 0);
             this.tlpFooter.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.tlpFooter.Location = new System.Drawing.Point(0, 0);
+            this.tlpFooter.Location = new System.Drawing.Point(0, 14);
             this.tlpFooter.Margin = new System.Windows.Forms.Padding(3, 0, 3, 0);
             this.tlpFooter.Name = "tlpFooter";
             this.tlpFooter.Padding = new System.Windows.Forms.Padding(0, 2, 0, 0);
@@ -418,9 +418,9 @@ namespace RTC_Vision_Lite.UserControls
             this.panel4.BackColor = System.Drawing.Color.DimGray;
             this.panel4.Controls.Add(this.tlpFooter);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel4.Location = new System.Drawing.Point(0, 616);
+            this.panel4.Location = new System.Drawing.Point(0, 602);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(1547, 25);
+            this.panel4.Size = new System.Drawing.Size(1547, 39);
             this.panel4.TabIndex = 4;
             // 
             // panel5
@@ -431,7 +431,7 @@ namespace RTC_Vision_Lite.UserControls
             this.panel5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel5.Location = new System.Drawing.Point(0, 0);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(1547, 616);
+            this.panel5.Size = new System.Drawing.Size(1547, 602);
             this.panel5.TabIndex = 5;
             // 
             // tlpHeader
@@ -490,7 +490,7 @@ namespace RTC_Vision_Lite.UserControls
             this.SmartWindow.LockRoi = false;
             this.SmartWindow.MoveImage = false;
             this.SmartWindow.Name = "SmartWindow";
-            this.SmartWindow.Size = new System.Drawing.Size(1545, 585);
+            this.SmartWindow.Size = new System.Drawing.Size(1545, 571);
             this.SmartWindow.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.SmartWindow.TabIndex = 1;
             this.SmartWindow.TabStop = false;

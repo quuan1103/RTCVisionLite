@@ -1114,14 +1114,30 @@ namespace RTC_Vision_Lite.Classes
         {
             cAction action = Actions.Values.FirstOrDefault(x => x.STT == GlobVar.CurrentTool);
             if (action == null) return;
+            bool wasBranchItem = action.ActionType == EActionTypes.BranchItem;
+            if (wasBranchItem)
+            {
+                action.IsCanRun = true;
+            }
             RunBefore(action, isShowMessage);
             GlobVar.RunningProcess = false;
-            //var test = MainAction.InputImage;
+            //var test = MainAction.InputImage;          
             Run1Action(ref action, false, false);
+            if (wasBranchItem)
+            {
+                action.ViewResultWhenAfterRun();  
+            }
             GlobVar.RunningProcess = true;
-
-
+            GlobVar.tl.Refresh();    
+            //cAction action = Actions.Values.FirstOrDefault(x => x.STT == GlobVar.CurrentTool);
+            //if (action == null) return;
+            //RunBefore(action, isShowMessage);
+            //action.CTTest(() =>
+            //{
+            //    Run1Action(ref action, false, false);
+            //});
         }
+        
 
         public bool Setting_CheckAllConnection()
         {

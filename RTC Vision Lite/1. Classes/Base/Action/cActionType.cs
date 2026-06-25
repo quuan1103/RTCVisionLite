@@ -638,6 +638,8 @@ namespace RTC_Vision_Lite.Classes
 
 
             if (isCheckCanRun)
+            {              
+
                 if ((this.IDBranchItem != Guid.Empty && !this.IsCanRun) ||
                     (this.IDBranch != Guid.Empty && !this.IsCanRun) ||
                     (!this.Enable.rtcValue &&
@@ -647,8 +649,10 @@ namespace RTC_Vision_Lite.Classes
                     this.ActionType != EActionTypes.CounterLoop) ||
                     (this.IsAliveControl != null && this.IsAliveControl.rtcValue))
                 {
+                   
                     return;
                 }
+            }
             try
             {
                 //if (!MyGroup.RunSimple && this.MyNode != null)
@@ -2627,7 +2631,8 @@ namespace RTC_Vision_Lite.Classes
             if (defaultBranchAction != null)
             {
                 defaultBranchAction.Passed.rtcValue = isUsingDefaultCase;
-                ApplyIsCanRunToAllToolOfBranchItem(defaultBranchAction, Enable.rtcValue && isUsingDefaultCase, true, true);
+              //  ApplyIsCanRunToAllToolOfBranchItem(defaultBranchAction, Enable.rtcValue && isUsingDefaultCase, true, true);
+                ApplyIsCanRunToAllToolOfBranchItem(defaultBranchAction, Enable.rtcValue && defaultBranchAction.Enable.rtcValue && isUsingDefaultCase , true, true);
             }
         }
 
@@ -2661,7 +2666,8 @@ namespace RTC_Vision_Lite.Classes
                 else if (!expressionResult &&
                           branchItem.Name.rtcValue == cStrings.False.ToUpper())
                     branchItem.Passed.rtcValue = true;
-                ApplyIsCanRunToAllToolOfBranchItem(branchItem, Enable.rtcValue && branchItem.Passed.rtcValue, true, true);
+                ApplyIsCanRunToAllToolOfBranchItem(branchItem, Enable.rtcValue && branchItem.Enable.rtcValue && branchItem.Passed.rtcValue, true, true);
+
             }
         }
 
@@ -3282,7 +3288,7 @@ namespace RTC_Vision_Lite.Classes
             List<RTCRectangle> ROISearches = new List<RTCRectangle>();
             Dictionary<long, RTCRectangle> DataShapesTrain = GlobFuncs.GenShapeList(ShapeListOriginal);
             Dictionary<long, RTCRectangle> DataShapesFind = GlobFuncs.GenShapeList(FindShapeList);
-            var test = GlobVar.GroupActions.SaveFileFolder;
+          //  var test = GlobVar.GroupActions.SaveFileFolder;
             foreach (long key in DataShapesFind.Keys)
             {
                 ROISearches.Add(DataShapesFind[key]);
@@ -4117,8 +4123,10 @@ namespace RTC_Vision_Lite.Classes
             RunCount = 0;
             FailCount = 0;
             ProcessTime = 0;
-            TotalTime = 0;
+            TotalTime = 0;     
             AbortCause = string.Empty;
+            Passed.rtcValue = false;
+            IsCanRun = false;
             if (_WithInterface && this.MyNode != null)
             {
 
@@ -4127,6 +4135,7 @@ namespace RTC_Vision_Lite.Classes
                 GlobVar.ProcessTime.PutValue(this.MyNode, string.Empty);
                 GlobVar.TotalTime.PutValue(this.MyNode, string.Empty);
                 GlobVar.AbortCause.PutValue(this.MyNode, string.Empty);
+                GlobVar.tl.RefreshObject(this.MyNode);
             }
         }
         public void UpdateValueToOrtherActionsLink_Value(List<PropertyInfo> listPropertyInfo)

@@ -196,5 +196,7 @@ namespace RTC_Vision_Lite.UserControls
                 GroupCAM_OnMaximizeButtonClickEvent(this, sender, e);
             }
         }
+
+        
     }
 }

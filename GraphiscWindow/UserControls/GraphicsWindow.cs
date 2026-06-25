@@ -153,25 +153,31 @@ namespace GraphicsWindow
 
         public void SetImage(Image image)
         {
-            if (this.Image != null)
-                this.Image.Dispose();
-            if (image != null)
-            
-                this.Image = (Image)image.Clone();
-            
-                //if (this.Image != null)
-                //    this.Image.Dispose();
-                //if (image != null)
-                //{
-                //    // Không dùng Graphics để tránh interpolation artifact
-                //    Bitmap src = new Bitmap(image);
-                //    Bitmap bmp = src.Clone(
-                //        new Rectangle(0, 0, src.Width, src.Height),
-                //        PixelFormat.Format32bppArgb);
-                //    src.Dispose();
-                //    this.Image = bmp;
-                //}
+            //if (this.Image != null)
+            //    this.Image.Dispose();
+            //if (image != null)
+
+            //    this.Image = (Image)image.Clone();
+              if (this.Image != null)
+            {
+                var old = this.Image;
+                this.Image = null;
+                old.Dispose();
             }
+
+            if (image != null)
+            {
+                // Force copy toàn bộ pixel ra bitmap độc lập,
+                // không phụ thuộc Stream/Bitmap gốc (tránh garbage pixel ngẫu nhiên)
+                Bitmap deepCopy = new Bitmap(image.Width, image.Height, PixelFormat.Format32bppArgb);
+                using (Graphics g = Graphics.FromImage(deepCopy))
+                {
+                    g.InterpolationMode = InterpolationMode.NearestNeighbor;
+                    g.DrawImage(image, 0, 0, image.Width, image.Height);
+                }
+                this.Image = deepCopy;
+            }
+        }
         public List<DataRoi> ListDataRoiOutput
         {
             get
@@ -381,7 +387,7 @@ namespace GraphicsWindow
                // e.Graphics.PixelOffsetMode = PixelOffsetMode.Half;
                 e.Graphics.InterpolationMode = InterpolationMode.NearestNeighbor;
                 //   e.Graphics.PixelOffsetMode = PixelOffsetMode.HighQuality;
-                e.Graphics.PixelOffsetMode = PixelOffsetMode.HighQuality;
+                e.Graphics.PixelOffsetMode = PixelOffsetMode.None;
                 if (Image != null)
                     try
                     {

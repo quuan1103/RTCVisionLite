@@ -223,11 +223,41 @@ namespace RTC_Vision_Lite.UserControls
             btnPassFail.Location = new Point(left, top);
             btnPassFail.BringToFront();
         }
+        private Color GetOKColor()
+        {
+            if (GlobVar.RTCVision.SWindowOptions.IsUseOKFrameColor)
+            {
+                string colorStr = GlobVar.RTCVision.SWindowOptions.OKFrameColor;
+                if (!string.IsNullOrEmpty(colorStr))
+                {
+                    try { return ColorTranslator.FromHtml(colorStr); }
+                    catch { }
+                }
+            }
+            return Color.LimeGreen; // default
+        }
+        private Color GetNGColor()
+        {
+            if (GlobVar.RTCVision.SWindowOptions.IsUseNGFrameColor)
+            {
+                string colorStr = GlobVar.RTCVision.SWindowOptions.NGFrameColor;
+                if (!string.IsNullOrEmpty(colorStr))
+                {
+                    try { return ColorTranslator.FromHtml(colorStr); }
+                    catch { }
+                }
+            }
+            return Color.Red; // default
+        }
 
         private void SetPassFailState(bool isOk)
         {
+            //btnPassFail.Text = isOk ? "OK" : "NG";
+            //btnPassFail.BackColor = isOk ? Color.LimeGreen : Color.Red;
+            //btnPassFail.Visible = true;
+            //RebuildPassFailPosition();
             btnPassFail.Text = isOk ? "OK" : "NG";
-            btnPassFail.BackColor = isOk ? Color.LimeGreen : Color.Red;
+            btnPassFail.BackColor = isOk ? GetOKColor() : GetNGColor();
             btnPassFail.Visible = true;
             RebuildPassFailPosition();
         }
@@ -299,7 +329,7 @@ namespace RTC_Vision_Lite.UserControls
 
           
             lblCamName.Text = MyCAM.Name;
-            Color color = isOk ? Color.LimeGreen : Color.Red;
+            Color color = isOk ? GetOKColor() : GetNGColor();
             _lastDisplayedResultOk = isOk;
             _hasDisplayedResult = true;
             SetPassFailState(isOk);

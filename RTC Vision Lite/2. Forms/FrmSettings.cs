@@ -430,8 +430,10 @@ namespace RTC_Vision_Lite.Forms
             Settings.SWindowOptions.IsUseOKFrameColor = chkIsUseOKFrameColor.Checked;
             Settings.SWindowOptions.IsUseNGFrameColor = chkIsUseNGFrameColor.Checked;
 
-            //Settings.SWindowOptions.OKFrameColor = cbOKColor.Text;
-            Settings.SWindowOptions.NGFrameColor = cbNGColor.Text;
+          //  Settings.SWindowOptions.OKFrameColor = cbColorOK.Text;
+         //   Settings.SWindowOptions.NGFrameColor = cbNGColor.Text;
+            Settings.SWindowOptions.OKFrameColor = cbColorOK.RTCHalconColor;
+            Settings.SWindowOptions.NGFrameColor = cbNGColor.RTCHalconColor;
         }
         
         private void GetSettings()

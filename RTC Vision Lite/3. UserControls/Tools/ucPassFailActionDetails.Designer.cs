@@ -48,6 +48,7 @@ namespace RTC_Vision_Lite.UserControls
             this.label1 = new System.Windows.Forms.Label();
             this.RTCPassed = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
+            this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
             this.PageActionSetting.SuspendLayout();
             this.ScrollableGeneral.SuspendLayout();
             this.PageSetup.SuspendLayout();
@@ -58,6 +59,7 @@ namespace RTC_Vision_Lite.UserControls
             this.Method.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.tlInputPassCriteria)).BeginInit();
             this.groupBox1.SuspendLayout();
+            this.flowLayoutPanel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // PageActionSetting
@@ -68,35 +70,34 @@ namespace RTC_Vision_Lite.UserControls
             // 
             this.ScrollableGeneral.Controls.Add(this.RTCName);
             this.ScrollableGeneral.Controls.Add(this.label1);
-            this.ScrollableGeneral.Location = new System.Drawing.Point(5, 5);
-            this.ScrollableGeneral.Size = new System.Drawing.Size(1149, 495);
+            this.ScrollableGeneral.Size = new System.Drawing.Size(1151, 503);
             // 
             // PageSetup
             // 
             this.PageSetup.Location = new System.Drawing.Point(5, 51);
-            this.PageSetup.Size = new System.Drawing.Size(1182, 513);
+            this.PageSetup.Size = new System.Drawing.Size(1182, 519);
             // 
             // ROI
             // 
-            this.ROI.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
-            this.ROI.Padding = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.ROI.Margin = new System.Windows.Forms.Padding(5);
+            this.ROI.Padding = new System.Windows.Forms.Padding(5);
+            this.ROI.Size = new System.Drawing.Size(1159, 511);
             // 
             // PassFail
             // 
-            this.PassFail.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
-            this.PassFail.Size = new System.Drawing.Size(1159, 505);
+            this.PassFail.Margin = new System.Windows.Forms.Padding(5);
+            this.PassFail.Size = new System.Drawing.Size(1159, 511);
             // 
             // ScrollablePassFail
             // 
-            this.ScrollablePassFail.Controls.Add(this.RTCPassed);
             this.ScrollablePassFail.Controls.Add(this.groupBox1);
-            this.ScrollablePassFail.Controls.Add(this.label6);
-            this.ScrollablePassFail.Size = new System.Drawing.Size(1159, 505);
+            this.ScrollablePassFail.Controls.Add(this.flowLayoutPanel2);
+            this.ScrollablePassFail.Size = new System.Drawing.Size(1159, 511);
             // 
             // ScrollableROI
             // 
             this.ScrollableROI.Location = new System.Drawing.Point(5, 5);
-            this.ScrollableROI.Size = new System.Drawing.Size(1151, 497);
+            this.ScrollableROI.Size = new System.Drawing.Size(1149, 501);
             // 
             // panel1
             // 
@@ -105,27 +106,28 @@ namespace RTC_Vision_Lite.UserControls
             // 
             // TabSetUp
             // 
-            this.TabSetUp.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
-            this.TabSetUp.Padding = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.TabSetUp.Margin = new System.Windows.Forms.Padding(5);
+            this.TabSetUp.Padding = new System.Windows.Forms.Padding(5);
             // 
             // Method
             // 
-            this.Method.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
-            this.Method.Padding = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.Method.Margin = new System.Windows.Forms.Padding(5);
+            this.Method.Padding = new System.Windows.Forms.Padding(5);
+            this.Method.Size = new System.Drawing.Size(1159, 511);
             // 
             // Display
             // 
-            this.Display.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.Display.Margin = new System.Windows.Forms.Padding(5);
+            this.Display.Size = new System.Drawing.Size(1159, 511);
             // 
             // ScrollableMethod
             // 
             this.ScrollableMethod.Location = new System.Drawing.Point(5, 5);
-            this.ScrollableMethod.Size = new System.Drawing.Size(1151, 497);
+            this.ScrollableMethod.Size = new System.Drawing.Size(1149, 501);
             // 
             // ScrollableEndPointAndType
             // 
-            this.ScrollableEndPointAndType.Location = new System.Drawing.Point(5, 5);
-            this.ScrollableEndPointAndType.Size = new System.Drawing.Size(1151, 497);
+            this.ScrollableEndPointAndType.Size = new System.Drawing.Size(1151, 503);
             // 
             // Selecticon
             // 
@@ -177,12 +179,12 @@ namespace RTC_Vision_Lite.UserControls
             this.tlInputPassCriteria.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tlInputPassCriteria.FullRowSelect = true;
             this.tlInputPassCriteria.HideSelection = false;
-            this.tlInputPassCriteria.Location = new System.Drawing.Point(4, 23);
-            this.tlInputPassCriteria.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tlInputPassCriteria.Location = new System.Drawing.Point(4, 19);
+            this.tlInputPassCriteria.Margin = new System.Windows.Forms.Padding(4);
             this.tlInputPassCriteria.Name = "tlInputPassCriteria";
             this.tlInputPassCriteria.ShowGroups = false;
             this.tlInputPassCriteria.ShowImagesOnSubItems = true;
-            this.tlInputPassCriteria.Size = new System.Drawing.Size(1151, 426);
+            this.tlInputPassCriteria.Size = new System.Drawing.Size(1151, 460);
             this.tlInputPassCriteria.TabIndex = 0;
             this.tlInputPassCriteria.UseCellFormatEvents = true;
             this.tlInputPassCriteria.UseCompatibleStateImageBehavior = false;
@@ -275,12 +277,12 @@ namespace RTC_Vision_Lite.UserControls
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.tlInputPassCriteria);
-            this.groupBox1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.groupBox1.Location = new System.Drawing.Point(0, 52);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.groupBox1.Location = new System.Drawing.Point(0, 28);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.groupBox1.Size = new System.Drawing.Size(1159, 453);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
+            this.groupBox1.Size = new System.Drawing.Size(1159, 483);
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Input Tool Pass/Fail Criteria";
@@ -297,9 +299,9 @@ namespace RTC_Vision_Lite.UserControls
             this.RTCName.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.RTCName.Location = new System.Drawing.Point(77, 18);
-            this.RTCName.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.RTCName.Margin = new System.Windows.Forms.Padding(4);
             this.RTCName.Name = "RTCName";
-            this.RTCName.Size = new System.Drawing.Size(848, 26);
+            this.RTCName.Size = new System.Drawing.Size(850, 22);
             this.RTCName.TabIndex = 3;
             // 
             // label1
@@ -308,7 +310,7 @@ namespace RTC_Vision_Lite.UserControls
             this.label1.Location = new System.Drawing.Point(27, 22);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(45, 19);
+            this.label1.Size = new System.Drawing.Size(36, 13);
             this.label1.TabIndex = 2;
             this.label1.Text = "Name";
             // 
@@ -316,26 +318,36 @@ namespace RTC_Vision_Lite.UserControls
             // 
             this.RTCPassed.AutoSize = true;
             this.RTCPassed.ForeColor = System.Drawing.Color.Green;
-            this.RTCPassed.Location = new System.Drawing.Point(95, 15);
+            this.RTCPassed.Location = new System.Drawing.Point(63, 0);
             this.RTCPassed.Name = "RTCPassed";
-            this.RTCPassed.Size = new System.Drawing.Size(51, 19);
+            this.RTCPassed.Size = new System.Drawing.Size(42, 13);
             this.RTCPassed.TabIndex = 3;
             this.RTCPassed.Text = "Passed";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(9, 15);
+            this.label6.Location = new System.Drawing.Point(3, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(64, 19);
+            this.label6.Size = new System.Drawing.Size(54, 13);
             this.label6.TabIndex = 2;
             this.label6.Text = "Pass/Fail:";
+            // 
+            // flowLayoutPanel2
+            // 
+            this.flowLayoutPanel2.Controls.Add(this.label6);
+            this.flowLayoutPanel2.Controls.Add(this.RTCPassed);
+            this.flowLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.flowLayoutPanel2.Location = new System.Drawing.Point(0, 0);
+            this.flowLayoutPanel2.Name = "flowLayoutPanel2";
+            this.flowLayoutPanel2.Size = new System.Drawing.Size(1159, 28);
+            this.flowLayoutPanel2.TabIndex = 4;
             // 
             // ucPassFailActionDetails
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.Margin = new System.Windows.Forms.Padding(5);
             this.Name = "ucPassFailActionDetails";
             this.PageActionSetting.ResumeLayout(false);
             this.ScrollableGeneral.ResumeLayout(false);
@@ -344,11 +356,12 @@ namespace RTC_Vision_Lite.UserControls
             this.ROI.ResumeLayout(false);
             this.PassFail.ResumeLayout(false);
             this.ScrollablePassFail.ResumeLayout(false);
-            this.ScrollablePassFail.PerformLayout();
             this.TabSetUp.ResumeLayout(false);
             this.Method.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.tlInputPassCriteria)).EndInit();
             this.groupBox1.ResumeLayout(false);
+            this.flowLayoutPanel2.ResumeLayout(false);
+            this.flowLayoutPanel2.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -372,5 +385,6 @@ namespace RTC_Vision_Lite.UserControls
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label RTCPassed;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel2;
     }
 }

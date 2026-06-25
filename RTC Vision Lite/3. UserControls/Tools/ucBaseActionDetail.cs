@@ -1,28 +1,29 @@
 ﻿//using CommonTools;
-using RTC_Vision_Lite.Commons;
+using BrightIdeasSoftware;
+using CommonTools;
+using DevExpress.UIAutomation;
 using RTC_Vision_Lite.Classes;
+using RTC_Vision_Lite.Commons;
+using RTC_Vision_Lite.Forms;
 using RTC_Vision_Lite.PublicFunctions;
 using RTCConst;
 using RTCEnums;
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
+using System.IO.Ports;
 using System.Linq;
 using System.Reflection;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using BrightIdeasSoftware;
-using System.Collections;
-using System.IO.Ports;
 using System.Windows.Forms.VisualStyles;
-using RTC_Vision_Lite.Forms;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.TextBox;
-using System.Runtime.CompilerServices;
-using CommonTools;
-using System.IO;
 
 namespace RTC_Vision_Lite.UserControls
 {
@@ -4979,11 +4980,13 @@ namespace RTC_Vision_Lite.UserControls
         public void RunAction(bool widthShowMessage = false, bool forceRun = false)
         {
 
-            if (GlobVar.GroupActions.IsRun) return;
-            if (GlobVar.GroupActions.IsRun && !forceRun) return;
+        
+        if (GlobVar.GroupActions.IsRun) return;
+        if (GlobVar.GroupActions.IsRun && !forceRun) return;
 
             if (Action != null)
             {
+               
                 GlobVar.GroupActions.Actions[Action.ID] = Action;
                 GlobVar.GroupActions.Setting_Run(ERunActionMode.CurentAction, false, "", widthShowMessage);
             }
@@ -5556,6 +5559,7 @@ namespace RTC_Vision_Lite.UserControls
             cbOperandType.Items.Add("Real");
             cbOperandType.Items.Add("String");
             FocusingCol = e.Column;
+            cbOperandType.DropDownStyle = ComboBoxStyle.DropDownList;
             EPropertyState eNodeState = (EPropertyState)this.State.GetValue(e.ListViewItem.RowObject);
             if ((Action.ActionType == EActionTypes.Branch ||
                 Action.ActionType == EActionTypes.Switch ||
@@ -8410,7 +8414,8 @@ namespace RTC_Vision_Lite.UserControls
                     var item = model as MyPropertiesItem; // Thay YourModelClass bằng lớp đối tượng của bạn
                     RTCVariableType rtcValue = (RTCVariableType)Action.GetType()
                                       .GetProperty((string)this.PropName.GetValue(model))?.GetValue(Action, null);
-                    return rtcValue.rtcIsHighLight;
+                    // return rtcValue.rtcIsHighLight;
+                    return rtcValue != null && rtcValue.rtcIsHighLight;
                 });
             }
             else

@@ -165,24 +165,46 @@ namespace RTC_Vision_Lite.Forms
 
         private void LayoutCAMWhenResize()
         {
+            //try
+            //{
+            //    if (LayoutCAM.Height == 0 || Width == 0) return;
+            //    GlobFuncs.BeginControlUpdate(this);
+            //    if (LayoutCAM.RowCount == 0) return;
+            //    int heightCAM = (int)((LayoutCAM.Height - LayoutCAM.RowCount * 6) / LayoutCAM.RowCount);
+            //    if (heightCAM <= 0 || LayoutCAM.RowStyles.Count <= 0)
+            //        return;
+            //    for (int i = 0; i < LayoutCAM.RowCount; i++)
+            //        LayoutCAM.RowStyles[i].Height = heightCAM;
+
+            //    int widthCam = (int)((Width - LayoutCAM.ColumnCount * 10) / LayoutCAM.ColumnCount);
+            //    if (widthCam > 0)
+            //    {
+            //        for (int i = 0; i < LayoutCAM.ColumnCount; i++)
+            //        {
+            //            LayoutCAM.ColumnStyles[i].Width = widthCam;
+            //        }
+            //    }
+            //}
+            //finally
+            //{
+            //    GlobFuncs.EndControlUpdate(this);
+            //}
             try
             {
-                if (LayoutCAM.Height == 0 || Width == 0) return;
+                if (LayoutCAM.Height == 0 || LayoutCAM.Width == 0) return;
                 GlobFuncs.BeginControlUpdate(this);
                 if (LayoutCAM.RowCount == 0) return;
+                LayoutCAM.RowStyles.Clear();
+                LayoutCAM.ColumnStyles.Clear();
                 int heightCAM = (int)((LayoutCAM.Height - LayoutCAM.RowCount * 6) / LayoutCAM.RowCount);
-                if (heightCAM <= 0 || LayoutCAM.RowStyles.Count <= 0)
-                    return;
+                if (heightCAM <= 0) return;
                 for (int i = 0; i < LayoutCAM.RowCount; i++)
-                    LayoutCAM.RowStyles[i].Height = heightCAM;
-
-                int widthCam = (int)((Width - LayoutCAM.ColumnCount * 10) / LayoutCAM.ColumnCount);
+                    LayoutCAM.RowStyles.Add(new RowStyle(SizeType.Absolute, heightCAM));
+                int widthCam = (int)((LayoutCAM.Width - LayoutCAM.ColumnCount * 10) / LayoutCAM.ColumnCount);
                 if (widthCam > 0)
                 {
                     for (int i = 0; i < LayoutCAM.ColumnCount; i++)
-                    {
-                        LayoutCAM.ColumnStyles[i].Width = widthCam;
-                    }
+                        LayoutCAM.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, widthCam));
                 }
             }
             finally
@@ -192,6 +214,11 @@ namespace RTC_Vision_Lite.Forms
         }
         private void ShowProjectCAMToLayoutControl_Normal()
         {
+            LayoutCAM.ColumnStyles.Clear();
+            LayoutCAM.RowStyles.Clear();
+            LayoutCAM.ColumnCount = 0;
+            LayoutCAM.RowCount = 0;
+
             Guid _GroupID = Guid.Empty;
 
             int count = 0;
@@ -207,12 +234,18 @@ namespace RTC_Vision_Lite.Forms
             {
 
             }
+            //rowcount = _UserControlNumbers / GlobVar.RTCVision.Options.MaximumColumnCAM;
+            //if (_UserControlNumbers % GlobVar.RTCVision.Options.MaximumColumnCAM != 0) rowcount += 1;
+            //LayoutCAM.RowCount = rowcount;
+            //int heightCAM = (int)((LayoutCAM.Height - rowcount * 6) / rowcount);
+            //for (int i = 0; i < rowcount; i++)
+            //    LayoutCAM.RowStyles.Add(new RowStyle(SizeType.Absolute, heightCAM));
             rowcount = _UserControlNumbers / GlobVar.RTCVision.Options.MaximumColumnCAM;
             if (_UserControlNumbers % GlobVar.RTCVision.Options.MaximumColumnCAM != 0) rowcount += 1;
             LayoutCAM.RowCount = rowcount;
-            int heightCAM = (int)((LayoutCAM.Height - rowcount * 6) / rowcount);
+            float percentHeight = 100f / rowcount;
             for (int i = 0; i < rowcount; i++)
-                LayoutCAM.RowStyles.Add(new RowStyle(SizeType.Absolute, heightCAM));
+                LayoutCAM.RowStyles.Add(new RowStyle(SizeType.Percent, percentHeight));
 
             var orderCAMs = GlobVar.CurrentProject.CAMs.Values.Where(x => x.IsActive && !x.IsHide && !x.IsAlignMasterCam() && !x.IsChangeJobMasterCam()).OrderBy(x => x.STT).ToList();
 
@@ -224,11 +257,14 @@ namespace RTC_Vision_Lite.Forms
                 if (count > columncount)
                     columncount += 1;
             }
+            //LayoutCAM.ColumnCount = columncount;
+            //int widthCam = (int)((LayoutCAM.Width - columncount * 10 - 100) / columncount);
+            //for (int i = 0; i < columncount; i++)
+            //    LayoutCAM.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, widthCam));
             LayoutCAM.ColumnCount = columncount;
-            int widthCam = (int)((Width - columncount * 10 - 100) / columncount);
+            float percentWidth = 100f / columncount;
             for (int i = 0; i < columncount; i++)
-                LayoutCAM.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, widthCam));
-
+                LayoutCAM.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, percentWidth));
             for (int i = 0; i < orderCAMs.Count(); i++)
             {
                 ucCAM cam = orderCAMs[i].View;
@@ -238,6 +274,8 @@ namespace RTC_Vision_Lite.Forms
                 cam.OnMinimizeButtonClickEvent += OnMinimizeButtonClickEvent;
                 cam.OnSetupToolsButtonClickEvent -= OnSetupToolsButtonClickEvent;
                 cam.OnSetupToolsButtonClickEvent += OnSetupToolsButtonClickEvent;
+                cam.MinimumSize = Size.Empty;   // THÊM
+                cam.AutoSize = false;
                 ListCam.Add(cam);
                 cam.Dock = DockStyle.Fill;
                 LayoutCAM.Controls.Add(cam);
@@ -247,6 +285,11 @@ namespace RTC_Vision_Lite.Forms
 
         private void ShowProjectCAMToLayoutControl_SimpleCAM()
         {
+            LayoutCAM.ColumnStyles.Clear();
+            LayoutCAM.RowStyles.Clear();
+            LayoutCAM.ColumnCount = 0;
+            LayoutCAM.RowCount = 0;
+
             Guid groupId = Guid.Empty;
 
             int count = 0;
@@ -282,7 +325,7 @@ namespace RTC_Vision_Lite.Forms
                     columnCount += 1;
             }
             LayoutCAM.ColumnCount = columnCount;
-            int widthCam = (int)((Width - columnCount * 10) / columnCount);
+            int widthCam = (int)((LayoutCAM.Width - columnCount * 10) / columnCount);
             for (int i = 0; i < columnCount; i++)
                 LayoutCAM.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, widthCam));
 
@@ -332,6 +375,10 @@ namespace RTC_Vision_Lite.Forms
 
         private void ShowProjectCAMToLayoutControl_Mixed()
         {
+            LayoutCAM.ColumnStyles.Clear();
+            LayoutCAM.RowStyles.Clear();
+            LayoutCAM.ColumnCount = 0;
+            LayoutCAM.RowCount = 0;
 
             int count = 0;
             int rowCount = 0;
@@ -432,6 +479,11 @@ namespace RTC_Vision_Lite.Forms
 
         private void ShowProjectCAMToLayoutControl_NormalWidthGroupInRow()
         {
+            LayoutCAM.ColumnStyles.Clear();
+            LayoutCAM.RowStyles.Clear();
+            LayoutCAM.ColumnCount = 0;
+            LayoutCAM.RowCount = 0;
+
             Guid groupId = Guid.Empty;
 
             int count = 0;
@@ -497,8 +549,8 @@ namespace RTC_Vision_Lite.Forms
                         columnCount += 1;
                 }
                 tableLayout.ColumnCount = columnCount;
-                percentRow = 100 / columnCount;
-                widthCAM = (int)((Width - columnCount * 10) / columnCount);
+                percentRow = 100.0 / columnCount;
+                widthCAM = (int)((LayoutCAM.Width - columnCount * 10) / columnCount);
 
                 for (int i1 = 0; i1 < columnCount; i1++)
                     tableLayout.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, (float)percentRow));
@@ -545,7 +597,7 @@ namespace RTC_Vision_Lite.Forms
                         columnCount += 1;
                 }
                 tableLayout.ColumnCount = columnCount;
-                widthCAM = (int)((Width - columnCount * 10) / columnCount);
+                widthCAM = (int)((LayoutCAM.Width - columnCount * 10) / columnCount);
 
                 for (int i = 0; i < columnCount; i++)
                     tableLayout.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, widthCAM));
@@ -709,6 +761,8 @@ namespace RTC_Vision_Lite.Forms
             ListTableLayoutPanel = new List<TableLayoutPanel>();
             LayoutCAM.RowStyles.Clear();
             LayoutCAM.ColumnStyles.Clear();
+            LayoutCAM.RowCount = 0;        // THÊM
+            LayoutCAM.ColumnCount = 0;
             int _PageCount = TabControlCAM.TabPages.Count - 1;
             for (int i = _PageCount; i > 1; i--)
                 TabControlCAM.TabPages.RemoveAt(i);
@@ -729,8 +783,10 @@ namespace RTC_Vision_Lite.Forms
                 ucCAM ucCam = (ucCAM)CAMSender;
                 //Bốc cam này khỏi layout cũ
                 ucCam.Dock = DockStyle.None;
+                //OldRowCAM = LayoutCAM.GetRow(ucCam);
+                //OldColCAM = LayoutCAM.GetRow(ucCam);
                 OldRowCAM = LayoutCAM.GetRow(ucCam);
-                OldColCAM = LayoutCAM.GetRow(ucCam);
+                OldColCAM = LayoutCAM.GetColumn(ucCam);
                 LayoutCAM_Maximize.Controls.Add(ucCam);
 
                 ucCam.Dock = DockStyle.Fill;
@@ -1223,6 +1279,7 @@ namespace RTC_Vision_Lite.Forms
         {
             while (true)
             {
+                
                 if (lblTime.InvokeRequired)
                 {
                     lblTime.Invoke(new Action(() =>
@@ -1286,9 +1343,18 @@ namespace RTC_Vision_Lite.Forms
                             x.ActionType != EActionTypes.MainAction && x.ActionType != EActionTypes.None &&
                             x.Enable.rtcValue) == null)
                         {
-                            if (cMessageBox.Question_YesNo(cMessageContent.BuildMessage(cMessageContent.Que_ClearObject,
-                                new[] { cam.Name }, new[] { cam.Name })) != DialogResult.Yes)
-                                return;
+                            GlobFuncs.CloseWaitForm();
+                            try
+                            {
+                                if (cMessageBox.Question_YesNo(cMessageContent.BuildMessage(cMessageContent.War_NoHaveActionIsActive,
+                         new[] { cam.Name }, new[] { cam.Name })) != DialogResult.Yes)
+                                    return;
+                            }
+                            catch (Exception ex)
+                            {
+                                try {  } catch { }
+                                throw;
+                            }
                         }
                         GlobVar.CurrentProject.SetOnlineCam(cam);
                         if (!cam.GroupActions.ConnectAllCameraUse(true))

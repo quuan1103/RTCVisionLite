@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -57,8 +58,36 @@ namespace RTC_Vision_Lite.Forms
         /// </summary>
         public async Task ShowAsync()
         {
-            Task.Run(() => { Application.Run(_splashForm); });
+            // Task.Run(() => { Application.Run(_splashForm); });
+            var tcs = new TaskCompletionSource<object>();
+            Thread splashThread = new Thread(() =>
+            {
+                try
+                {
+                    _splashForm.Load += (s, e) => tcs.TrySetResult(null);
+                    Application.Run(_splashForm);
+                }
+                catch (Exception ex)
+                {
+                    tcs.TrySetException(ex);
+                }
+            });
+            splashThread.SetApartmentState(ApartmentState.STA);
+            splashThread.IsBackground = true;
+            splashThread.Start();
+            await tcs.Task;
         }
+        //public void ShowAsync() // Thay đổi từ async Task sang void hoặc dùng cách khác để gọi
+        //{
+        //    Thread splashThread = new Thread(() =>
+        //    {
+        //        Application.Run(_splashForm);
+        //    });
+
+        //    splashThread.SetApartmentState(ApartmentState.STA); // Bắt buộc đối với WinForms
+        //    splashThread.IsBackground = true;
+        //    splashThread.Start();
+        //}
 
         /// <summary>
         /// Close the splash form. Note: Activate() your form after this method!

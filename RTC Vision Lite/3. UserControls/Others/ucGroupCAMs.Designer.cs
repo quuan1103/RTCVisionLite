@@ -86,7 +86,7 @@ namespace RTC_Vision_Lite.UserControls
             this.lblCAMName.Margin = new System.Windows.Forms.Padding(4);
             this.lblCAMName.Name = "lblCAMName";
             this.lblCAMName.Padding = new System.Windows.Forms.Padding(4);
-            this.lblCAMName.Size = new System.Drawing.Size(95, 27);
+            this.lblCAMName.Size = new System.Drawing.Size(114, 31);
             this.lblCAMName.TabIndex = 0;
             this.lblCAMName.Text = "CAMERA 01";
             // 
