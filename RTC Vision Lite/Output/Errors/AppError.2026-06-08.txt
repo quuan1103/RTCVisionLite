@@ -1,3 +1,243 @@
+<<<<<<< HEAD
+2026-06-08 10:18:13.2871 
+» Message:	Could not load file or assembly 'zxing, Version=0.16.9.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60' or one of its dependencies. The system cannot find the file specified.
+» Stack Trace:	   at CodeReader.CodeReader.Run()
+   at RTC_Vision_Lite.Classes.cAction.Run_CodeReader() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 3528
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1164
+2026-06-08 10:24:21.7416 
+» Message:	Could not load file or assembly 'zxing, Version=0.16.9.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60' or one of its dependencies. The system cannot find the file specified.
+» Stack Trace:	   at CodeReader.CodeReader.Run()
+   at RTC_Vision_Lite.Classes.cAction.Run_CodeReader() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 3528
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1164
+2026-06-08 15:24:26.3032 
+» Message:	Could not load file or assembly 'zxing, Version=0.16.9.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60' or one of its dependencies. The system cannot find the file specified.
+» Stack Trace:	   at CodeReader.CodeReader.Run()
+   at RTC_Vision_Lite.Classes.cAction.Run_CodeReader() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 3528
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1164
+2026-06-08 15:26:02.3785 
+» Message:	Could not load file or assembly 'zxing, Version=0.16.9.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60' or one of its dependencies. The system cannot find the file specified.
+» Stack Trace:	   at CodeReader.CodeReader.Train()
+   at RTC_Vision_Lite.Classes.cAction.Run_CodeReader() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 3465
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1164
+2026-06-08 15:26:04.4682 
+» Message:	Could not load file or assembly 'zxing, Version=0.16.9.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60' or one of its dependencies. The system cannot find the file specified.
+» Stack Trace:	   at CodeReader.CodeReader.Train()
+   at RTC_Vision_Lite.Classes.cAction.Run_CodeReader() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 3465
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1164
+2026-06-08 15:26:05.3517 
+» Message:	Could not load file or assembly 'zxing, Version=0.16.9.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60' or one of its dependencies. The system cannot find the file specified.
+» Stack Trace:	   at CodeReader.CodeReader.Train()
+   at RTC_Vision_Lite.Classes.cAction.Run_CodeReader() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 3465
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1164
+2026-06-08 15:26:06.0799 
+» Message:	Could not load file or assembly 'zxing, Version=0.16.9.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60' or one of its dependencies. The system cannot find the file specified.
+» Stack Trace:	   at CodeReader.CodeReader.Train()
+   at RTC_Vision_Lite.Classes.cAction.Run_CodeReader() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 3465
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1164
+2026-06-08 15:26:06.7578 
+» Message:	Could not load file or assembly 'zxing, Version=0.16.9.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60' or one of its dependencies. The system cannot find the file specified.
+» Stack Trace:	   at CodeReader.CodeReader.Train()
+   at RTC_Vision_Lite.Classes.cAction.Run_CodeReader() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 3465
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1164
+2026-06-08 15:26:07.2404 
+» Message:	Could not load file or assembly 'zxing, Version=0.16.9.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60' or one of its dependencies. The system cannot find the file specified.
+» Stack Trace:	   at CodeReader.CodeReader.Train()
+   at RTC_Vision_Lite.Classes.cAction.Run_CodeReader() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 3465
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1164
+2026-06-08 15:26:07.7200 
+» Message:	Could not load file or assembly 'zxing, Version=0.16.9.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60' or one of its dependencies. The system cannot find the file specified.
+» Stack Trace:	   at CodeReader.CodeReader.Train()
+   at RTC_Vision_Lite.Classes.cAction.Run_CodeReader() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 3465
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1164
+2026-06-08 15:26:08.3537 
+» Message:	Could not load file or assembly 'zxing, Version=0.16.9.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60' or one of its dependencies. The system cannot find the file specified.
+» Stack Trace:	   at CodeReader.CodeReader.Train()
+   at RTC_Vision_Lite.Classes.cAction.Run_CodeReader() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 3465
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1164
+2026-06-08 15:26:08.8969 
+» Message:	Could not load file or assembly 'zxing, Version=0.16.9.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60' or one of its dependencies. The system cannot find the file specified.
+» Stack Trace:	   at CodeReader.CodeReader.Train()
+   at RTC_Vision_Lite.Classes.cAction.Run_CodeReader() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 3465
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1164
+2026-06-08 15:26:27.4577 
+» Message:	Could not load file or assembly 'zxing, Version=0.16.9.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60' or one of its dependencies. The system cannot find the file specified.
+» Stack Trace:	   at CodeReader.CodeReader.Train()
+   at RTC_Vision_Lite.Classes.cAction.Run_CodeReader() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 3465
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1164
+2026-06-08 15:26:28.1213 
+» Message:	Could not load file or assembly 'zxing, Version=0.16.9.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60' or one of its dependencies. The system cannot find the file specified.
+» Stack Trace:	   at CodeReader.CodeReader.Train()
+   at RTC_Vision_Lite.Classes.cAction.Run_CodeReader() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 3465
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1164
+2026-06-08 15:26:28.7161 
+» Message:	Could not load file or assembly 'zxing, Version=0.16.9.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60' or one of its dependencies. The system cannot find the file specified.
+» Stack Trace:	   at CodeReader.CodeReader.Train()
+   at RTC_Vision_Lite.Classes.cAction.Run_CodeReader() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 3465
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1164
+2026-06-08 15:26:30.8902 
+» Message:	Could not load file or assembly 'zxing, Version=0.16.9.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60' or one of its dependencies. The system cannot find the file specified.
+» Stack Trace:	   at CodeReader.CodeReader.Train()
+   at RTC_Vision_Lite.Classes.cAction.Run_CodeReader() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 3465
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1164
+2026-06-08 15:26:31.5363 
+» Message:	Could not load file or assembly 'zxing, Version=0.16.9.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60' or one of its dependencies. The system cannot find the file specified.
+» Stack Trace:	   at CodeReader.CodeReader.Train()
+   at RTC_Vision_Lite.Classes.cAction.Run_CodeReader() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 3465
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1164
+2026-06-08 15:26:32.1166 
+» Message:	Could not load file or assembly 'zxing, Version=0.16.9.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60' or one of its dependencies. The system cannot find the file specified.
+» Stack Trace:	   at CodeReader.CodeReader.Train()
+   at RTC_Vision_Lite.Classes.cAction.Run_CodeReader() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 3465
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1164
+2026-06-08 15:26:32.9669 
+» Message:	Could not load file or assembly 'zxing, Version=0.16.9.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60' or one of its dependencies. The system cannot find the file specified.
+» Stack Trace:	   at CodeReader.CodeReader.Train()
+   at RTC_Vision_Lite.Classes.cAction.Run_CodeReader() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 3465
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1164
+2026-06-08 15:26:33.6227 
+» Message:	Could not load file or assembly 'zxing, Version=0.16.9.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60' or one of its dependencies. The system cannot find the file specified.
+» Stack Trace:	   at CodeReader.CodeReader.Train()
+   at RTC_Vision_Lite.Classes.cAction.Run_CodeReader() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 3465
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1164
+2026-06-08 15:26:34.2684 
+» Message:	Could not load file or assembly 'zxing, Version=0.16.9.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60' or one of its dependencies. The system cannot find the file specified.
+» Stack Trace:	   at CodeReader.CodeReader.Train()
+   at RTC_Vision_Lite.Classes.cAction.Run_CodeReader() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 3465
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1164
+2026-06-08 15:26:34.8060 
+» Message:	Could not load file or assembly 'zxing, Version=0.16.9.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60' or one of its dependencies. The system cannot find the file specified.
+» Stack Trace:	   at CodeReader.CodeReader.Train()
+   at RTC_Vision_Lite.Classes.cAction.Run_CodeReader() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 3465
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1164
+2026-06-08 15:26:35.2645 
+» Message:	Could not load file or assembly 'zxing, Version=0.16.9.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60' or one of its dependencies. The system cannot find the file specified.
+» Stack Trace:	   at CodeReader.CodeReader.Train()
+   at RTC_Vision_Lite.Classes.cAction.Run_CodeReader() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 3465
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1164
+2026-06-08 15:26:35.7961 
+» Message:	Could not load file or assembly 'zxing, Version=0.16.9.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60' or one of its dependencies. The system cannot find the file specified.
+» Stack Trace:	   at CodeReader.CodeReader.Train()
+   at RTC_Vision_Lite.Classes.cAction.Run_CodeReader() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 3465
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1164
+2026-06-08 15:26:36.3968 
+» Message:	Could not load file or assembly 'zxing, Version=0.16.9.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60' or one of its dependencies. The system cannot find the file specified.
+» Stack Trace:	   at CodeReader.CodeReader.Train()
+   at RTC_Vision_Lite.Classes.cAction.Run_CodeReader() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 3465
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1164
+2026-06-08 15:26:36.8786 
+» Message:	Could not load file or assembly 'zxing, Version=0.16.9.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60' or one of its dependencies. The system cannot find the file specified.
+» Stack Trace:	   at CodeReader.CodeReader.Run()
+   at RTC_Vision_Lite.Classes.cAction.Run_CodeReader() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 3528
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1164
+2026-06-08 15:26:39.5806 
+» Message:	Could not load file or assembly 'zxing, Version=0.16.9.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60' or one of its dependencies. The system cannot find the file specified.
+» Stack Trace:	   at CodeReader.CodeReader.Run()
+   at RTC_Vision_Lite.Classes.cAction.Run_CodeReader() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 3528
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1164
+2026-06-08 15:26:42.1382 
+» Message:	Could not load file or assembly 'zxing, Version=0.16.9.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60' or one of its dependencies. The system cannot find the file specified.
+» Stack Trace:	   at CodeReader.CodeReader.Train()
+   at RTC_Vision_Lite.Classes.cAction.Run_CodeReader() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 3465
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1164
+2026-06-08 15:32:23.2874 
+» Message:	Could not load file or assembly 'zxing, Version=0.16.9.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60' or one of its dependencies. The system cannot find the file specified.
+» Stack Trace:	   at CodeReader.CodeReader.Run()
+   at RTC_Vision_Lite.Classes.cAction.Run_CodeReader() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 3528
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1164
+2026-06-08 15:33:14.0260 
+» Message:	Could not load file or assembly 'zxing, Version=0.16.9.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60' or one of its dependencies. The system cannot find the file specified.
+» Stack Trace:	   at CodeReader.CodeReader.Run()
+   at RTC_Vision_Lite.Classes.cAction.Run_CodeReader() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 3528
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1164
+2026-06-08 15:37:20.0755 
+» Message:	Could not load file or assembly 'zxing, Version=0.16.9.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60' or one of its dependencies. The system cannot find the file specified.
+» Stack Trace:	   at CodeReader.CodeReader.Run()
+   at RTC_Vision_Lite.Classes.cAction.Run_CodeReader() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 3528
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1164
+2026-06-08 15:38:05.9314 
+» Message:	Could not load file or assembly 'zxing, Version=0.16.9.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60' or one of its dependencies. The system cannot find the file specified.
+» Stack Trace:	   at CodeReader.CodeReader.Train()
+   at RTC_Vision_Lite.Classes.cAction.Run_CodeReader() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 3465
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1164
+2026-06-08 15:41:44.4413 
+» Message:	Could not load file or assembly 'zxing, Version=0.16.9.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60' or one of its dependencies. The system cannot find the file specified.
+» Stack Trace:	   at CodeReader.CodeReader.Train()
+   at RTC_Vision_Lite.Classes.cAction.Run_CodeReader() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 3465
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1164
+2026-06-08 15:42:25.7334 
+» Message:	Could not load file or assembly 'zxing, Version=0.16.9.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60' or one of its dependencies. The system cannot find the file specified.
+» Stack Trace:	   at CodeReader.CodeReader.Run()
+   at RTC_Vision_Lite.Classes.cAction.Run_CodeReader() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 3528
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1164
+2026-06-08 15:42:52.3766 
+» Message:	Could not load file or assembly 'zxing, Version=0.16.9.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60' or one of its dependencies. The system cannot find the file specified.
+» Stack Trace:	   at CodeReader.CodeReader.Train()
+   at RTC_Vision_Lite.Classes.cAction.Run_CodeReader() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 3465
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1164
+2026-06-08 15:43:19.3941 
+» Message:	Could not load file or assembly 'zxing, Version=0.16.9.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60' or one of its dependencies. The system cannot find the file specified.
+» Stack Trace:	   at CodeReader.CodeReader.Train()
+   at RTC_Vision_Lite.Classes.cAction.Run_CodeReader() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 3465
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1164
+2026-06-08 15:43:24.3210 
+» Message:	Could not load file or assembly 'zxing, Version=0.16.9.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60' or one of its dependencies. The system cannot find the file specified.
+» Stack Trace:	   at CodeReader.CodeReader.Train()
+   at RTC_Vision_Lite.Classes.cAction.Run_CodeReader() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 3465
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1164
+2026-06-08 16:57:33.7140 
+» Message:	Could not load file or assembly 'zxing, Version=0.16.9.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60' or one of its dependencies. The system cannot find the file specified.
+» Stack Trace:	   at CodeReader.CodeReader.Run()
+   at RTC_Vision_Lite.Classes.cAction.Run_CodeReader() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 3527
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1164
+2026-06-08 18:53:24.0560 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Bitmap..ctor(String filename)
+   at RTC_Vision_Lite.UserControls.ucMainActions.GetCurrentImgIndex(DataGridViewRow row) in E:\01.RTCVision Lite\RTC Vision Lite\3. UserControls\Tools\ucMainActions.cs:line 478
+2026-06-08 18:53:33.9294 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Bitmap..ctor(String filename)
+   at RTC_Vision_Lite.UserControls.ucMainActions.GetCurrentImgIndex(DataGridViewRow row) in E:\01.RTCVision Lite\RTC Vision Lite\3. UserControls\Tools\ucMainActions.cs:line 478
+2026-06-08 18:53:36.6081 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Bitmap..ctor(String filename)
+   at RTC_Vision_Lite.UserControls.ucMainActions.GetCurrentImgIndex(DataGridViewRow row) in E:\01.RTCVision Lite\RTC Vision Lite\3. UserControls\Tools\ucMainActions.cs:line 478
+2026-06-08 18:54:14.5189 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Bitmap..ctor(String filename)
+   at RTC_Vision_Lite.UserControls.ucMainActions.GetCurrentImgIndex(DataGridViewRow row) in E:\01.RTCVision Lite\RTC Vision Lite\3. UserControls\Tools\ucMainActions.cs:line 478
+2026-06-08 18:54:36.3610 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Bitmap..ctor(String filename)
+   at RTC_Vision_Lite.UserControls.ucMainActions.GetCurrentImgIndex(DataGridViewRow row) in E:\01.RTCVision Lite\RTC Vision Lite\3. UserControls\Tools\ucMainActions.cs:line 478
+2026-06-08 18:54:36.5635 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Bitmap..ctor(String filename)
+   at RTC_Vision_Lite.UserControls.ucMainActions.GetCurrentImgIndex(DataGridViewRow row) in E:\01.RTCVision Lite\RTC Vision Lite\3. UserControls\Tools\ucMainActions.cs:line 478
+2026-06-08 18:54:36.7502 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Bitmap..ctor(String filename)
+   at RTC_Vision_Lite.UserControls.ucMainActions.GetCurrentImgIndex(DataGridViewRow row) in E:\01.RTCVision Lite\RTC Vision Lite\3. UserControls\Tools\ucMainActions.cs:line 478
+2026-06-08 18:54:36.9099 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Bitmap..ctor(String filename)
+   at RTC_Vision_Lite.UserControls.ucMainActions.GetCurrentImgIndex(DataGridViewRow row) in E:\01.RTCVision Lite\RTC Vision Lite\3. UserControls\Tools\ucMainActions.cs:line 478
+2026-06-08 18:54:37.0922 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Bitmap..ctor(String filename)
+   at RTC_Vision_Lite.UserControls.ucMainActions.GetCurrentImgIndex(DataGridViewRow row) in E:\01.RTCVision Lite\RTC Vision Lite\3. UserControls\Tools\ucMainActions.cs:line 478
+2026-06-08 18:54:37.2921 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Bitmap..ctor(String filename)
+   at RTC_Vision_Lite.UserControls.ucMainActions.GetCurrentImgIndex(DataGridViewRow row) in E:\01.RTCVision Lite\RTC Vision Lite\3. UserControls\Tools\ucMainActions.cs:line 478
+2026-06-08 18:54:37.4939 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Bitmap..ctor(String filename)
+   at RTC_Vision_Lite.UserControls.ucMainActions.GetCurrentImgIndex(DataGridViewRow row) in E:\01.RTCVision Lite\RTC Vision Lite\3. UserControls\Tools\ucMainActions.cs:line 478
+2026-06-08 18:54:40.4802 
+» Message:	Parameter is not valid.
+» Stack Trace:	   at System.Drawing.Bitmap..ctor(String filename)
+   at RTC_Vision_Lite.UserControls.ucMainActions.GetCurrentImgIndex(DataGridViewRow row) in E:\01.RTCVision Lite\RTC Vision Lite\3. UserControls\Tools\ucMainActions.cs:line 478
+=======
 2026-06-08 15:49:01.9577 
 » Message:	Cannot access a disposed object.
 Object name: 'System.Net.Sockets.Socket'.
@@ -268,3 +508,4 @@ Object name: 'FrmMain'.
    at RTC_Vision_Lite.Classes.cAction.BackupImage(Image image) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 3679
    at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_BackupImage() in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 127
    at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_CleanData() in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 23
+>>>>>>> 166468bd298b4a5b1b887a9827b3741b88380629

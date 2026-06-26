@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Linq;
@@ -499,7 +499,11 @@ namespace ImageFilterTool
                         {
                             if (_inputImageBgr != null)
                             {
-                                _outputImage = _inputImageBgr.Convert<Gray, byte>();
+                                //_outputImage = _inputImageBgr.Convert<Gray, byte>();
+                                _outputImage = new Image<Gray, byte>(_inputImageBgr.Width, _inputImageBgr.Height);
+                                //_outputanh = new Mat();
+                                CvInvoke.CvtColor(_inputImageBgr, _outputImage , ColorConversion.Rgb2Gray);
+                                //CvInvoke.CvtColor(_inputImageBgr, _outputanh , ColorConversion.Rgb2Gray);
 
                             }
                             else

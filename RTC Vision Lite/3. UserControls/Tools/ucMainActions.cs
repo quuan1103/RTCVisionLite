@@ -1,4 +1,4 @@
-﻿using RTC_Vision_Lite.Classes;
+using RTC_Vision_Lite.Classes;
 using RTC_Vision_Lite.PublicFunctions;
 using RTCEnums;
 using System;
@@ -475,28 +475,38 @@ namespace RTC_Vision_Lite.UserControls
             {
                 try
                 {
-                    Input_Image = new Bitmap(filename);
+                    // Dispose ảnh cũ trước khi load ảnh mới
+                    Input_Image?.Dispose();
+                    bitmap?.Dispose();
+
+                    // Đọc qua byte[] + MemoryStream để tránh GDI+ cache.
+                    // Copy sang Bitmap mới trước khi Dispose stream (GDI+ cần stream tồn tại).
+                    byte[] bytes = File.ReadAllBytes(filename);
+                    using (var ms = new System.IO.MemoryStream(bytes))
+                    using (var tmp = new Bitmap(ms))
+                        Input_Image = new Bitmap(tmp); // bản copy độc lập với stream
+
                     bitmap = new Bitmap(Input_Image);
                     GlobVar.GroupActions.frmHsmartWindow.SmartWindow.Image = bitmap;
                     GlobVar.GroupActions.frmHsmartWindow.SmartWindow.FitImage = true;
                     GlobVar.GroupActions.frmHsmartWindow.FileName = filename;
                     GlobVar.GroupActions.Actions[GlobVar.GroupActions.IDMainAction].InputImage.rtcValue = bitmap;
+
                     int newIndex = SourceImageSettings.ComputerSettings.Images.FindIndex(x => x.FileName.ToLower() == filename.ToLower());
-                    if (SourceImageSettings.ComputerSettings.CurrentImgIndex != newIndex)
+                    if (newIndex >= 0)
                     {
                         GlobVar.GroupActions.DataChanged = true;
                         SourceImageSettings.ComputerSettings.CurrentImgIndex = newIndex;
                     }
-                    //GlobFuncs.ResizeImage(GlobVar.GroupActions.frmHsmartWindow.SmartWindow);
                     GlobVar.GroupActions.SetImageToAllAction(bitmap);
                 }
                 catch (Exception ex)
                 {
                     GlobFuncs.SaveErr(ex);
-                    ///GlobVar.GroupActions.frmHsmartWindow.SmartWindow.Image = null;
                 }
             }
         }
+
 
         private void btnSelectFiles_Click(object sender, EventArgs e)
         {
@@ -893,29 +903,7 @@ namespace RTC_Vision_Lite.UserControls
 
         private void cbSdkMode_SelectedValueChanged(object sender, EventArgs e)
         {
-            if (GlobVar.LockEvents)
-                return;
-            DisconnectCamera();
-            cbInterfaces.Enabled = cbInterfaces.SelectedIndex == 1;
-            if(SourceImageSettings !=null)
-            {
-                SourceImageSettings.CameraSettings.SdkMode = (ESdkModes)cbSdkMode.SelectedIndex;
-                ucCameraSettings1.GroupActions = null;
-            }
-            btnDetectInterfaces.PerformClick();
-            if (cbDevices.Items.Count <= 0)
-                cbDevices.SelectedIndex = -1;
-            else if (SourceImageSettings != null)
-            {
-                cbDevices.SelectedIndex = cbDevices.Items.IndexOf(SourceImageSettings.CameraSettings.DeviceName) >= 0
-                    ? cbDevices.Items.IndexOf(SourceImageSettings.CameraSettings.DeviceName)
-                    : 0;
-            }
-            else if (cbDevices.Items.IndexOf(cbDevices.Text) >= 0)
-                cbDevices.SelectedIndex = cbDevices.Items.IndexOf(cbDevices.Text);
-            else
-                cbDevices.SelectedIndex = 0;
-            ShowDeviceInfo();
+
         }
 
         internal void ShowDeviceInfo()

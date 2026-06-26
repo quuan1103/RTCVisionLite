@@ -24,7 +24,6 @@ namespace RTC_Vision_Lite.UserControls
             InitializeComponent();
             tlInputPassCriteria.TreeColumnRenderer.IsShowLines = false;
             tlInputPassCriteria.ShowImagesOnSubItems = true;
-
         }
 
         private void UpdateData(List<PassFail> nodes)

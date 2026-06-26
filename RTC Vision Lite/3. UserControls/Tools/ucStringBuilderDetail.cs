@@ -1,4 +1,4 @@
-﻿using Emgu.CV.CvEnum;
+using Emgu.CV.CvEnum;
 using RTC_Vision_Lite.Classes;
 using RTC_Vision_Lite.PublicFunctions;
 using RTC_Vision_Lite.UserControls;
@@ -605,7 +605,7 @@ namespace RTC_Vision_Lite.UserControls
 
         private void btnRunStringBuilder_Click(object sender, EventArgs e)
         {
-            RunAction();
+            RunAction(false, true);
         }
     }
 }

@@ -71,7 +71,7 @@ namespace RTC_Vision_Lite.UserControls
             this.LayoutPanel.RowCount = 2;
             this.LayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 21F));
             this.LayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 21F));
-            this.LayoutPanel.Size = new System.Drawing.Size(388, 42);
+            this.LayoutPanel.Size = new System.Drawing.Size(388, 48);
             this.LayoutPanel.TabIndex = 0;
             // 
             // lblFeatures
@@ -94,7 +94,7 @@ namespace RTC_Vision_Lite.UserControls
             this.chkEnable.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chkEnable.Location = new System.Drawing.Point(3, 24);
             this.chkEnable.Name = "chkEnable";
-            this.chkEnable.Size = new System.Drawing.Size(106, 15);
+            this.chkEnable.Size = new System.Drawing.Size(106, 21);
             this.chkEnable.TabIndex = 1;
             this.chkEnable.Text = "PropertyEnable";
             this.chkEnable.UseVisualStyleBackColor = true;
@@ -158,7 +158,7 @@ namespace RTC_Vision_Lite.UserControls
             this.txtActual.Location = new System.Drawing.Point(343, 24);
             this.txtActual.Margin = new System.Windows.Forms.Padding(3);
             this.txtActual.Name = "txtActual";
-            this.txtActual.Size = new System.Drawing.Size(42, 15);
+            this.txtActual.Size = new System.Drawing.Size(42, 21);
             this.txtActual.TabIndex = 10;
             this.txtActual.Text = "Actual";
             this.txtActual.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -186,7 +186,7 @@ namespace RTC_Vision_Lite.UserControls
             this.lblMin.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.lblMin.Name = "lblMin";
             this.lblMin.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.lblMin.Size = new System.Drawing.Size(44, 17);
+            this.lblMin.Size = new System.Drawing.Size(44, 23);
             this.lblMin.TabIndex = 3;
             this.lblMin.Text = "Min";
             this.lblMin.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -200,7 +200,7 @@ namespace RTC_Vision_Lite.UserControls
             this.lblMax.Location = new System.Drawing.Point(237, 21);
             this.lblMax.Name = "lblMax";
             this.lblMax.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.lblMax.Size = new System.Drawing.Size(44, 21);
+            this.lblMax.Size = new System.Drawing.Size(44, 27);
             this.lblMax.TabIndex = 7;
             this.lblMax.Text = "Max";
             this.lblMax.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -211,7 +211,7 @@ namespace RTC_Vision_Lite.UserControls
             this.AutoSize = true;
             this.Controls.Add(this.LayoutPanel);
             this.Name = "ucRangeMaxMin";
-            this.Size = new System.Drawing.Size(388, 42);
+            this.Size = new System.Drawing.Size(388, 48);
             this.LayoutPanel.ResumeLayout(false);
             this.LayoutPanel.PerformLayout();
             this.ResumeLayout(false);

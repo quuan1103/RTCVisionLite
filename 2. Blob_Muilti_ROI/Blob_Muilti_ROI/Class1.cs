@@ -246,6 +246,7 @@ namespace Blob_Muilti_ROI
         private int _numberOfBlobsFound = 0;
         private bool _passed = false;
         private Bitmap _outputImageShow = null;
+        private int _selectedBlobIndex = -1;
         private double _areaActual = 0;
         private double _rowActual = 0;
         private double _columnActual = 0;
@@ -524,6 +525,12 @@ namespace Blob_Muilti_ROI
                         }
                 }
 
+                using (var nonZeroMask = new Image<Gray, byte>(_inputImage.Width, _inputImage.Height))
+                {
+                    CvInvoke.Threshold(_inputImage, nonZeroMask, 0, 255, ThresholdType.Binary);
+                    CvInvoke.BitwiseAnd(imgThes, nonZeroMask, imgThes);
+                }
+
                 // Đoạn này sẽ Paint vùng ROI vào một ảnh cùng kích thước đầu vào và có nền đen
                 if (_inSetOrigin != null)
                 {
@@ -534,13 +541,15 @@ namespace Blob_Muilti_ROI
                         #region Quân sửa ngày 16/03/2026
                         // Nếu ROI là Ellipse thì mask theo ellipse (không mask theo hình chữ nhật)
                         // Lưu ý: RTCRectangle.Center.X = Row, Center.Y = Col (theo cách tạo trong GenShapeList)
-                        if (_inputDrawingTypes != null && j < _inputDrawingTypes.Count && _inputDrawingTypes[j] == 2 && _ROI != null && _ROI.Count > j)
+                        if (_inputDrawingTypes != null && j < _inputDrawingTypes.Count && _inputDrawingTypes[j] == 2)
                         {
-                            var roi = _ROI[j];
-                            var center = new PointF((float)roi.Center.X, (float)roi.Center.Y);
-                            var size = new SizeF((float)roi.Width, (float)roi.Height); // full size
-                            float angleDeg = (float)(roi.Phi * 180.0 / Math.PI);
-                            var rr = new RotatedRect(center, size, angleDeg);
+                            var arrROI = _inSetOrigin[j];
+                            PointF[] points = new PointF[4];
+                            for (int i = 0; i < 4; i++)
+                            {
+                                points[i] = ConvertCoordinatesToOrigin(_toolOrigin, arrROI[i]);
+                            }
+                            var rr = CvInvoke.MinAreaRect(points);
                             CvInvoke.Ellipse(blackImage, rr, new MCvScalar(1), -1);
                         }
                         else
@@ -607,29 +616,27 @@ namespace Blob_Muilti_ROI
                             double perimeter = CvInvoke.ArcLength(contours[k], true);
                             rect = CvInvoke.BoundingRectangle(contours[k]);
                             double circularity = Math.Round((4 * Math.PI * area / (perimeter * perimeter)), 3);
-                            //if (_enableAreaFilter && (_areaRange.Item1 >= area || area >= _areaRange.Item2))
-                            //{
-                            //    flag = false;
-                            //}
-
-                            //if (_enableRowFilter && (_rowRange.Item1 >= (int)rect.Y || (int)rect.Y >= _rowRange.Item2))
-                            if (_enableRowFilter && _rowRange != null && (_rowRange.Item1 >= (int)rect.Y || (int)rect.Y >= _rowRange.Item2))
+                            if (_enableAreaFilter && _areaRange != null && (area < _areaRange.Item1 || area > _areaRange.Item2))
                             {
                                 flag = false;
                             }
-                            if (_enableColumnFilter && (_columnRange.Item1 >= (int)rect.X || (int)rect.X >= _columnRange.Item2))
+                            if (_enableRowFilter && _rowRange != null && (rect.Y < _rowRange.Item1 || rect.Y > _rowRange.Item2))
                             {
                                 flag = false;
                             }
-                            if (_enableWidthFilter && (_widthRange.Item1 >= rect.Width || rect.Width >= _widthRange.Item2))
+                            if (_enableColumnFilter && _columnRange != null && (rect.X < _columnRange.Item1 || rect.X > _columnRange.Item2))
                             {
                                 flag = false;
                             }
-                            if (_enableHeightFilter && (_heightRange.Item1 >= rect.Height || rect.Height >= _heightRange.Item2))
+                            if (_enableWidthFilter && _widthRange != null && (rect.Width < _widthRange.Item1 || rect.Width > _widthRange.Item2))
                             {
                                 flag = false;
                             }
-                            if (_enableCircularityFilter && (_circularityRange.Item1 >= circularity || circularity >= _circularityRange.Item2))
+                            if (_enableHeightFilter && _heightRange != null && (rect.Height < _heightRange.Item1 || rect.Height > _heightRange.Item2))
+                            {
+                                flag = false;
+                            }
+                            if (_enableCircularityFilter && _circularityRange != null && (circularity < _circularityRange.Item1 || circularity > _circularityRange.Item2))
                             {
                                 flag = false;
                             }
@@ -683,28 +690,27 @@ namespace Blob_Muilti_ROI
                             double circularity = Math.Round((4 * Math.PI * area / (perimeter * perimeter)), 3);
                             rect = CvInvoke.BoundingRectangle(contours[k]);
                             tmp.Push(contours[k]);
-                            //if (_enableAreaFilter && (_areaRange.Item1 >= area || area >= _areaRange.Item2))
-                            if (_enableRowFilter && _rowRange != null && (_rowRange.Item1 >= (int)rect.Y || (int)rect.Y >= _rowRange.Item2))
+                            if (_enableAreaFilter && _areaRange != null && (area < _areaRange.Item1 || area > _areaRange.Item2))
                             {
                                 flag = false;
                             }
-                            if (_enableRowFilter && (_rowRange.Item1 >= (int)rect.Y || (int)rect.Y >= _rowRange.Item2))
+                            if (_enableRowFilter && _rowRange != null && (rect.Y < _rowRange.Item1 || rect.Y > _rowRange.Item2))
                             {
                                 flag = false;
                             }
-                            if (_enableColumnFilter && (_columnRange.Item1 >= (int)rect.X || (int)rect.X >= _columnRange.Item2))
+                            if (_enableColumnFilter && _columnRange != null && (rect.X < _columnRange.Item1 || rect.X > _columnRange.Item2))
                             {
                                 flag = false;
                             }
-                            if (_enableWidthFilter && (_widthRange.Item1 >= rect.Width || rect.Width >= _widthRange.Item2))
+                            if (_enableWidthFilter && _widthRange != null && (rect.Width < _widthRange.Item1 || rect.Width > _widthRange.Item2))
                             {
                                 flag = false;
                             }
-                            if (_enableHeightFilter && (_heightRange.Item1 >= rect.Height || rect.Height >= _heightRange.Item2))
+                            if (_enableHeightFilter && _heightRange != null && (rect.Height < _heightRange.Item1 || rect.Height > _heightRange.Item2))
                             {
                                 flag = false;
                             }
-                            if (_enableCircularityFilter && (_circularityRange.Item1 >= circularity || circularity >= _circularityRange.Item2))
+                            if (_enableCircularityFilter && _circularityRange != null && (circularity < _circularityRange.Item1 || circularity > _circularityRange.Item2))
                             {
                                 flag = false;
                             }
@@ -766,7 +772,8 @@ namespace Blob_Muilti_ROI
                         //{
                         //    CvInvoke.FillPoly(imgShow, _outputBlobList[i], new MCvScalar(0, 255, 0));
                         //}
-                        CvInvoke.FillPoly(imgShow, _outputBlobList[i], new MCvScalar(0, 255, 0));
+                        MCvScalar color = (i == _selectedBlobIndex) ? new MCvScalar(255, 0, 255) : new MCvScalar(0, 255, 0);
+                        CvInvoke.FillPoly(imgShow, _outputBlobList[i], color);
                         #endregion
                     }
                     _outputImageShow = imgShow.ToBitmap();
@@ -781,6 +788,11 @@ namespace Blob_Muilti_ROI
                 return false;
             }
 
+            if (_selectedBlobIndex >= _outputBlobList.Count)
+            {
+                _selectedBlobIndex = -1;
+            }
+
             return true;
         }
 
@@ -792,35 +804,16 @@ namespace Blob_Muilti_ROI
 
         private bool GetImageResult()
         {
-            var imgShow = _inputImage.Convert<Bgr, byte>();
             if (_inputImage == null)
                 return false;
             if (_outputBlobList == null)
                 return false;
+            var imgShow = _inputImage.Convert<Bgr, byte>();
             for (int i = 0; i < _outputBlobList.Count; i++)
             {
                 //CvInvoke.DrawContours(imgShow, _outputBlobList[i], -1, new MCvScalar(0, 255, 0), -1);
-                
-                #region Quân sửa
-                // Nếu có thông tin loại ROI và là Ellipse thì vẽ hình tròn
-                if (_inputDrawingTypes != null && i < _inputDrawingTypes.Count 
-                    && _inputDrawingTypes[i] == 2) // 2 = Ellipse
-                {
-                    // Lấy bounding rect từ contour để vẽ ellipse
-                    var rect = CvInvoke.BoundingRectangle(_outputBlobList[i]);
-                    int centerX = rect.X + rect.Width / 2;
-                    int centerY = rect.Y + rect.Height / 2;
-                    // Giả định width = height (circle), dùng bán kính nhỏ hơn
-                    int radius = Math.Min(rect.Width, rect.Height) / 2;
-                    CvInvoke.Circle(imgShow, new Point(centerX, centerY), radius, 
-                        new MCvScalar(0, 255, 0), -1); // -1 để fill
-                }
-                else
-                {
-                    // Giữ nguyên cho Rectangle
-                    CvInvoke.FillPoly(imgShow, _outputBlobList[i], new MCvScalar(0, 255, 0));
-                }
-                #endregion
+                MCvScalar color = (i == _selectedBlobIndex) ? new MCvScalar(255, 0, 255) : new MCvScalar(0, 255, 0);
+                CvInvoke.FillPoly(imgShow, _outputBlobList[i], color);
             }
             _outputImageShow = imgShow.ToBitmap();
             imgShow.Dispose();
@@ -899,20 +892,38 @@ namespace Blob_Muilti_ROI
                     }
                     if (indexPosition != -1)
                     {
-                        _areaActual = _outputAreaList[indexPosition];
-                        _widthActual = _outputWidthList[indexPosition];
-                        _heightActual = _outputHeightList[indexPosition];
-                        _rowActual = _outputRowList[indexPosition];
-                        _columnActual = _outputColumnList[indexPosition];
-                        _outerRadiusActual = _outputOuterRadiusList[indexPosition];
-                        _circularityActual = _outputCircularityList[indexPosition];
+                        _areaActual = (indexPosition < _outputAreaList.Count) ? _outputAreaList[indexPosition] : 0;
+                        _widthActual = (indexPosition < _outputWidthList.Count) ? _outputWidthList[indexPosition] : 0;
+                        _heightActual = (indexPosition < _outputHeightList.Count) ? _outputHeightList[indexPosition] : 0;
+                        _rowActual = (indexPosition < _outputRowList.Count) ? _outputRowList[indexPosition] : 0;
+                        _columnActual = (indexPosition < _outputColumnList.Count) ? _outputColumnList[indexPosition] : 0;
+                        _outerRadiusActual = (indexPosition < _outputOuterRadiusList.Count) ? _outputOuterRadiusList[indexPosition] : 0;
+                        _circularityActual = (indexPosition < _outputCircularityList.Count) ? _outputCircularityList[indexPosition] : 0;
+                        _selectedBlobIndex = indexPosition;
                     }
+                    else
+                    {
+                        _selectedBlobIndex = -1;
+                    }
+                    try
+                    {
+                        string debugMsg = string.Format("[{0:HH:mm:ss}] BlobTool.ClickMouse: _positionMouse={1}, indexPosition={2}, _selectedBlobIndex={3}, blobsCount={4}\r\n", 
+                            DateTime.Now, _positionMouse, indexPosition, _selectedBlobIndex, (_outputBlobList != null ? _outputBlobList.Count : 0));
+                        System.IO.File.AppendAllText(@"C:\Users\laidu\.gemini\antigravity\brain\c41725f0-e1c8-4d13-9590-955e51a04de4\scratch\blob_debug.txt", debugMsg);
+                    }
+                    catch {}
+                    GetImageResult();
                 }
 
             }
             catch (Exception ex)
             {
                 _errMessage = "ClickMouse: " + ex.Message + "\n" + ex.StackTrace;
+                try
+                {
+                    System.IO.File.AppendAllText(@"C:\Users\laidu\.gemini\antigravity\brain\c41725f0-e1c8-4d13-9590-955e51a04de4\scratch\blob_debug.txt", string.Format("[{0:HH:mm:ss}] BlobTool.ClickMouse Error: {1}\r\n", DateTime.Now, ex));
+                }
+                catch {}
                 return false;
             }
             return true;

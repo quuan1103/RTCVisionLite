@@ -17,12 +17,17 @@ namespace Blob_Color_Multi_ROI
 {
     public class BlobColor
     {
+        public System.Action<Bitmap> OnImageUpdated;
+
         /// <summary>
         /// INPUT
         /// </summary>
         public Image<Bgr, byte> InputImage
         {
-            set { _inputImage = value; }
+            set { 
+                _inputImage = value; 
+                _cleanInputImage = value?.Clone();
+            }
         }
         public Tuple<Point, double> ToolOrigin
         {
@@ -270,8 +275,19 @@ namespace Blob_Color_Multi_ROI
 
 
         private string _errMessage = null;
+        private int _selectedBlobIndex = -1;
+        private bool _isSelectedBlobFailed = false;
+        private Image<Bgr, byte> _cleanInputImage = null;
         private List<VectorOfVectorOfPoint> _outputBlobList = null;
+        private List<VectorOfVectorOfPoint> _failedBlobList = null;
         private List<double> _outputAreaList = null;
+        private List<double> _failedAreaList = null;
+        private List<int> _failedWidthList = null;
+        private List<int> _failedHeightList = null;
+        private List<int> _failedRowList = null;
+        private List<int> _failedColumnList = null;
+        private List<double> _failedOuterRadiusList = null;
+        private List<double> _failedCircularityList = null;
         private List<int> _outputWidthList = null;
         private List<int> _outputHeightList = null;
         private List<int> _outputRowList = null;
@@ -674,7 +690,15 @@ namespace Blob_Color_Multi_ROI
             {
                 // Khởi tạo các giá trị output ban đầu
                 _outputBlobList = new List<VectorOfVectorOfPoint>();
+                _failedBlobList = new List<VectorOfVectorOfPoint>();
                 _outputAreaList = new List<double>();
+                _failedAreaList = new List<double>();
+                _failedWidthList = new List<int>();
+                _failedHeightList = new List<int>();
+                _failedRowList = new List<int>();
+                _failedColumnList = new List<int>();
+                _failedOuterRadiusList = new List<double>();
+                _failedCircularityList = new List<double>();
                 _outputWidthList = new List<int>();
                 _outputHeightList = new List<int>();
                 _outputRowList = new List<int>();
@@ -743,26 +767,7 @@ namespace Blob_Color_Multi_ROI
                     // Paint Region
                     if (_isShowImageResult)
                     {
-                        // Paint Region
-                        if (_isShowImageResult)
-                        {
-                            VectorOfVectorOfPoint allContours = new VectorOfVectorOfPoint();
-                            for (int i = 0; i < _outputBlobList.Count; i++)
-                            {
-                                allContours.Push(_outputBlobList[i]);
-                            }
-
-                            if (_setDraw == "fill")
-                            {
-                                CvInvoke.FillPoly(_inputImage, allContours, _color);
-                            }
-                            else if (_setDraw == "margin")
-                            {
-                                int lineWidth = Math.Max(_lineWidth, 1);
-                                CvInvoke.DrawContours(_inputImage, allContours, -1, _color, lineWidth);
-                            }
-                            _outputImageShow = _inputImage.ToBitmap();
-                        }
+                        GetImageResult();
                     }
                 }
             }
@@ -776,21 +781,41 @@ namespace Blob_Color_Multi_ROI
                 //_inputImage.Dispose();
             }
 
+            if (_selectedBlobIndex != -1)
+            {
+                if (_isSelectedBlobFailed)
+                {
+                    if (_failedBlobList == null || _selectedBlobIndex >= _failedBlobList.Count)
+                    {
+                        _selectedBlobIndex = -1;
+                        _isSelectedBlobFailed = false;
+                    }
+                }
+                else
+                {
+                    if (_outputBlobList == null || _selectedBlobIndex >= _outputBlobList.Count)
+                    {
+                        _selectedBlobIndex = -1;
+                        _isSelectedBlobFailed = false;
+                    }
+                }
+            }
+
             return true;
         }
         private ScalarArray GetLowerBound()
         {
-            if (_colorSpace == RTCConst.cBlobColorTool.ColorSpace_BGR)
+            if (_colorSpace == cBlobColorTool.ColorSpace_BGR)
                 return new ScalarArray(new MCvScalar(_blueTolerance.Item2 - _blueTolerance.Item1, _greenTolerance.Item2 - _greenTolerance.Item1, _redTolerance.Item2 - _redTolerance.Item1));
-            else if (_colorSpace == RTCConst.cBlobColorTool.ColorSpace_HSV)
+            else if (_colorSpace == cBlobColorTool.ColorSpace_HSV)
                 return new ScalarArray(new MCvScalar(_hueTolerance.Item2 - _hueTolerance.Item1, _saturationTolerance.Item2 - _saturationTolerance.Item1, _intensityTolerance.Item2 - _intensityTolerance.Item1));
             return null;
         }
         private ScalarArray GetUpperBound()
         {
-            if (_colorSpace == RTCConst.cBlobColorTool.ColorSpace_BGR)
+            if (_colorSpace == cBlobColorTool.ColorSpace_BGR)
                 return new ScalarArray(new MCvScalar(_blueTolerance.Item2 + _blueTolerance.Item3, _greenTolerance.Item2 + _greenTolerance.Item3, _redTolerance.Item2 + _redTolerance.Item3));
-            else if (_colorSpace == RTCConst.cBlobColorTool.ColorSpace_HSV)
+            else if (_colorSpace ==cBlobColorTool.ColorSpace_HSV)
                 return new ScalarArray(new MCvScalar(_hueTolerance.Item2 + _hueTolerance.Item3, _saturationTolerance.Item2 + _saturationTolerance.Item3, _intensityTolerance.Item2 + _intensityTolerance.Item3));
             return null;
         }
@@ -858,12 +883,12 @@ namespace Blob_Color_Multi_ROI
                         double perimeter = CvInvoke.ArcLength(contours[k], true);
                         double circularity = Math.Round((4 * Math.PI * area / (perimeter * perimeter)), 3);
 
-                        if ((_enableAreaFilter && (area < _areaRange.Item1 || area > _areaRange.Item2)) ||
-                            (_enableRowFilter && (rect.Y < _rowRange.Item1 || rect.Y > _rowRange.Item2)) ||
-                            (_enableColumnFilter && (rect.X < _columnRange.Item1 || rect.X > _columnRange.Item2)) ||
-                            (_enableWidthFilter && (rect.Width < _widthRange.Item1 || rect.Width > _widthRange.Item2)) ||
-                            (_enableHeightFilter && (rect.Height < _heightRange.Item1 || rect.Height > _heightRange.Item2)) ||
-                            (_enableCircularityFilter && (circularity < _circularityRange.Item1 || circularity > _circularityRange.Item2)))
+                        if ((_enableAreaFilter && _areaRange != null && (area < _areaRange.Item1 || area > _areaRange.Item2)) ||
+                            (_enableRowFilter && _rowRange != null && (rect.Y < _rowRange.Item1 || rect.Y > _rowRange.Item2)) ||
+                            (_enableColumnFilter && _columnRange != null && (rect.X < _columnRange.Item1 || rect.X > _columnRange.Item2)) ||
+                            (_enableWidthFilter && _widthRange != null && (rect.Width < _widthRange.Item1 || rect.Width > _widthRange.Item2)) ||
+                            (_enableHeightFilter && _heightRange != null && (rect.Height < _heightRange.Item1 || rect.Height > _heightRange.Item2)) ||
+                            (_enableCircularityFilter && _circularityRange != null && (circularity < _circularityRange.Item1 || circularity > _circularityRange.Item2)))
                         {
                             flag = false;
                         }
@@ -892,6 +917,31 @@ namespace Blob_Color_Multi_ROI
                             _outputRowList.Add(rect.Y + offsetRect.Y);
                             _outputCircularityList.Add(circularity);
                         }
+                        else
+                        {
+                            VectorOfVectorOfPoint shiftedContours = new VectorOfVectorOfPoint();
+                            for (int i = 0; i < tmp.Size; i++)
+                            {
+                                VectorOfPoint shiftedContour = new VectorOfPoint();
+                                VectorOfPoint cnt = tmp[i];
+                                Point[] points = cnt.ToArray();
+                                for (int j = 0; j < points.Length; j++)
+                                {
+                                    points[j].X += offsetRect.X;
+                                    points[j].Y += offsetRect.Y;
+                                }
+                                shiftedContour.Push(points);
+                                shiftedContours.Push(shiftedContour);
+                            }
+                            _failedBlobList.Add(shiftedContours);
+                            _failedAreaList.Add(area);
+                            _failedWidthList.Add(rect.Width);
+                            _failedHeightList.Add(rect.Height);
+                            _failedColumnList.Add(rect.X + offsetRect.X);
+                            _failedRowList.Add(rect.Y + offsetRect.Y);
+                            _failedCircularityList.Add(circularity);
+                            _failedOuterRadiusList.Add(0);
+                        }
                         k = (int)arr.GetValue(0, k, 0);
                     }
                 }
@@ -913,8 +963,16 @@ namespace Blob_Color_Multi_ROI
 
             try
             {
+                _areaActual = 0;
+                _widthActual = 0;
+                _heightActual = 0;
+                _rowActual = 0;
+                _columnActual = 0;
+                _outerRadiusActual = 0;
+                _circularityActual = 0;
                 double minDistance = (double)1 / 0;
                 int indexPosition = -1;
+                bool isFailedBlob = false;
                 if (_outputBlobList != null && _outputBlobList.Count > 0)
                 {
                     for (int i = 0; i < _outputBlobList.Count; i++)
@@ -941,26 +999,156 @@ namespace Blob_Color_Multi_ROI
                             if (distance < minDistance)
                             {
                                 indexPosition = i;
+                                isFailedBlob = false;
                             }
                         }
                     }
-                    if (indexPosition != -1)
+                }
+
+                if (indexPosition == -1 && _failedBlobList != null && _failedBlobList.Count > 0)
+                {
+                    for (int i = 0; i < _failedBlobList.Count; i++)
                     {
-                        _areaActual = _outputAreaList[indexPosition];
-                        _widthActual = _outputWidthList[indexPosition];
-                        _heightActual = _outputHeightList[indexPosition];
-                        _rowActual = _outputRowList[indexPosition];
-                        _columnActual = _outputColumnList[indexPosition];
-                        _outerRadiusActual = _outputOuterRadiusList[indexPosition];
-                        _circularityActual = _outputCircularityList[indexPosition];
+                        var contour = _failedBlobList[i];
+                        double result = CvInvoke.PointPolygonTest(contour[0], _positionMouse, false);
+                        bool isInside = false;
+                        if (contour.Size > 1)
+                        {
+                            for (int j = 1; j < contour.Size; j++)
+                            {
+                                double inSide = CvInvoke.PointPolygonTest(contour[j], _positionMouse, false);
+                                if (inSide >= 0)
+                                {
+                                    isInside = true;
+                                    break;
+                                }
+
+                            }
+                        }
+                        if (result >= 0 && isInside == false)
+                        {
+                            double distance = CvInvoke.PointPolygonTest(contour[0], _positionMouse, true);
+                            if (distance < minDistance)
+                            {
+                                indexPosition = i;
+                                isFailedBlob = true;
+                            }
+                        }
                     }
                 }
+
+                if (indexPosition != -1)
+                {
+                    _selectedBlobIndex = indexPosition;
+                    _isSelectedBlobFailed = isFailedBlob;
+                    if (isFailedBlob)
+                    {
+                        _areaActual = (_failedAreaList != null && indexPosition < _failedAreaList.Count) ? _failedAreaList[indexPosition] : 0;
+                        _widthActual = (_failedWidthList != null && indexPosition < _failedWidthList.Count) ? _failedWidthList[indexPosition] : 0;
+                        _heightActual = (_failedHeightList != null && indexPosition < _failedHeightList.Count) ? _failedHeightList[indexPosition] : 0;
+                        _rowActual = (_failedRowList != null && indexPosition < _failedRowList.Count) ? _failedRowList[indexPosition] : 0;
+                        _columnActual = (_failedColumnList != null && indexPosition < _failedColumnList.Count) ? _failedColumnList[indexPosition] : 0;
+                        _outerRadiusActual = (_failedOuterRadiusList != null && indexPosition < _failedOuterRadiusList.Count) ? _failedOuterRadiusList[indexPosition] : 0;
+                        _circularityActual = (_failedCircularityList != null && indexPosition < _failedCircularityList.Count) ? _failedCircularityList[indexPosition] : 0;
+                    }
+                    else
+                    {
+                        _areaActual = (_outputAreaList != null && indexPosition < _outputAreaList.Count) ? _outputAreaList[indexPosition] : 0;
+                        _widthActual = (_outputWidthList != null && indexPosition < _outputWidthList.Count) ? _outputWidthList[indexPosition] : 0;
+                        _heightActual = (_outputHeightList != null && indexPosition < _outputHeightList.Count) ? _outputHeightList[indexPosition] : 0;
+                        _rowActual = (_outputRowList != null && indexPosition < _outputRowList.Count) ? _outputRowList[indexPosition] : 0;
+                        _columnActual = (_outputColumnList != null && indexPosition < _outputColumnList.Count) ? _outputColumnList[indexPosition] : 0;
+                        _outerRadiusActual = (_outputOuterRadiusList != null && indexPosition < _outputOuterRadiusList.Count) ? _outputOuterRadiusList[indexPosition] : 0;
+                        _circularityActual = (_outputCircularityList != null && indexPosition < _outputCircularityList.Count) ? _outputCircularityList[indexPosition] : 0;
+                    }
+                }
+                else
+                {
+                    _selectedBlobIndex = -1;
+                    _isSelectedBlobFailed = false;
+                }
+                GetImageResult();
             }
             catch (Exception ex)
             {
                 _errMessage = "ClickMouse: " + ex.Message + "\n" + ex.StackTrace;
                 return false;
             }
+            return true;
+        }
+
+        private bool GetImageResult()
+        {
+            if (_cleanInputImage == null)
+                return false;
+
+            var imgShow = _cleanInputImage.Clone();
+
+            if (_outputBlobList != null)
+            {
+                for (int i = 0; i < _outputBlobList.Count; i++)
+                {
+                    MCvScalar color = (i == _selectedBlobIndex && !_isSelectedBlobFailed)
+                        ? new MCvScalar(255, 0, 255) // Purple
+                        : _color;
+                    
+                    using (VectorOfVectorOfPoint tempVec = new VectorOfVectorOfPoint())
+                    {
+                        tempVec.Push(_outputBlobList[i]);
+                        if (i == _selectedBlobIndex && !_isSelectedBlobFailed)
+                        {
+                            CvInvoke.FillPoly(imgShow, tempVec, color); // Always fill selected purple
+                        }
+                        else
+                        {
+                            if (_setDraw == "fill")
+                            {
+                                CvInvoke.FillPoly(imgShow, tempVec, color);
+                            }
+                            else if (_setDraw == "margin")
+                            {
+                                int lineWidth = Math.Max(_lineWidth, 1);
+                                CvInvoke.DrawContours(imgShow, tempVec, -1, color, lineWidth);
+                            }
+                        }
+                    }
+                }
+            }
+
+            if (_failedBlobList != null)
+            {
+                for (int i = 0; i < _failedBlobList.Count; i++)
+                {
+                    MCvScalar color = (i == _selectedBlobIndex && _isSelectedBlobFailed)
+                        ? new MCvScalar(255, 0, 255) // Purple
+                        : new MCvScalar(0, 0, 255); // Red
+                    
+                    using (VectorOfVectorOfPoint tempVec = new VectorOfVectorOfPoint())
+                    {
+                        tempVec.Push(_failedBlobList[i]);
+                        if (i == _selectedBlobIndex && _isSelectedBlobFailed)
+                        {
+                            CvInvoke.FillPoly(imgShow, tempVec, color); // Always fill selected purple
+                        }
+                        else
+                        {
+                            if (_setDraw == "fill")
+                            {
+                                CvInvoke.FillPoly(imgShow, tempVec, color);
+                            }
+                            else if (_setDraw == "margin")
+                            {
+                                int lineWidth = Math.Max(_lineWidth, 1);
+                                CvInvoke.DrawContours(imgShow, tempVec, -1, color, lineWidth);
+                            }
+                        }
+                    }
+                }
+            }
+
+            _outputImageShow = imgShow.ToBitmap();
+            imgShow.Dispose();
+            OnImageUpdated?.Invoke(_outputImageShow);
             return true;
         }
 

@@ -1,3 +1,15 @@
+<<<<<<< HEAD
+2026-06-09 09:35:32.2654 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 3270
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1149
+2026-06-09 09:35:32.5063 
+» Message:	Object is currently in use elsewhere.
+» Stack Trace:	   at System.Drawing.Image.Clone()
+   at RTC_Vision_Lite.Classes.cAction.BackupImage(Image image) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 3682
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_BackupImage() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 127
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_CleanData() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 23
+=======
 2026-06-09 00:07:07.6764 
 » Message:	Object is currently in use elsewhere.
 » Stack Trace:	   at System.Drawing.Image.Clone()
@@ -462,3 +474,4 @@ Object name: 'FrmMain'.
    at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
    at RTC_Vision_Lite.Classes.cAction.Run_LinkValue_LinkPropToProp(cLinkProperty linkItem, RTCVariableType sourceInfo, RTCVariableType targetInfo) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.LinkValue.cs:line 825
    at RTC_Vision_Lite.Classes.cAction.Run_LinkValue() in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.LinkValue.cs:line 1631
+>>>>>>> 166468bd298b4a5b1b887a9827b3741b88380629

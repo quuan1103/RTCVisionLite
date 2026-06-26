@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Drawing;
@@ -389,16 +389,54 @@ namespace GraphicsWindow
                 //   e.Graphics.PixelOffsetMode = PixelOffsetMode.HighQuality;
                 e.Graphics.PixelOffsetMode = PixelOffsetMode.None;
                 if (Image != null)
+                {
                     try
                     {
+                        System.IO.File.AppendAllText(@"C:\Users\laidu\.gemini\antigravity\scratch\paint_log.txt", $"Time: {DateTime.Now}, Format: {this.Image.PixelFormat}, Indexed: {(this.Image.PixelFormat & System.Drawing.Imaging.PixelFormat.Indexed) != 0}\r\n");
+                    }
+                    catch {}
+                    try
+                    {
+<<<<<<< HEAD
+                        tyle = Image.VerticalResolution / e.Graphics.DpiX;
+                        if ((this.Image.PixelFormat & System.Drawing.Imaging.PixelFormat.Indexed) != 0)
+                        {
+                            if (this.Image is Bitmap bmp)
+                            {
+                                using (Bitmap bmp24 = bmp.Clone(new Rectangle(0, 0, bmp.Width, bmp.Height), System.Drawing.Imaging.PixelFormat.Format24bppRgb))
+                                {
+                                    e.Graphics.DrawImage(bmp24, 0f, 0f);
+                                }
+                            }
+                            else
+                            {
+                                using (Bitmap temp = new Bitmap(this.Image))
+                                {
+                                    using (Bitmap bmp24 = temp.Clone(new Rectangle(0, 0, temp.Width, temp.Height), System.Drawing.Imaging.PixelFormat.Format24bppRgb))
+                                    {
+                                        e.Graphics.DrawImage(bmp24, 0f, 0f);
+                                    }
+                                }
+                            }
+                        }
+                        else
+                        {
+                            e.Graphics.DrawImage(this.Image, 0f, 0f);
+                        }
+=======
                       //  tyle = Image.VerticalResolution / e.Graphics.DpiX;
                         e.Graphics.DrawImage(this.Image, 0f, 0f);
+>>>>>>> 166468bd298b4a5b1b887a9827b3741b88380629
                     }
                     catch (Exception)
                     {
 
                     }
+<<<<<<< HEAD
+                }
+=======
 
+>>>>>>> 166468bd298b4a5b1b887a9827b3741b88380629
                 ClipBound = e.Graphics.ClipBounds;
                 workingGraphics = e.Graphics;
                 Rotary = Tranform.Clone();

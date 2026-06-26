@@ -90,11 +90,14 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>bin\Debug\CommonTools.dll</HintPath>
     </Reference>
+ HEAD
+=======
     <Reference Include="DevExpress.Data.Desktop.v24.2, Version=24.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.Data.v24.2, Version=24.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.Drawing.v24.2, Version=24.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.Printing.v24.2.Core, Version=24.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.Utils.v24.2, Version=24.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+>>>>>>> 166468bd298b4a5b1b887a9827b3741b88380629
     <Reference Include="Interop.ActUtlType64Lib">
       <HintPath>..\..\RTCVision Lite_Coding\Output\Interop.ActUtlType64Lib.dll</HintPath>
       <EmbedInteropTypes>True</EmbedInteropTypes>
@@ -699,6 +702,12 @@
     </Compile>
     <Compile Include="3. UserControls\Tools\ucCodeReaderActionDetail.Designer.cs">
       <DependentUpon>ucCodeReaderActionDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucLoadObjectActionDetail.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="3. UserControls\Tools\ucLoadObjectActionDetail.Designer.cs">
+      <DependentUpon>ucLoadObjectActionDetail.cs</DependentUpon>
     </Compile>
     <Compile Include="3. UserControls\Tools\ucPOCIOControllerReadActionDetail.cs">
       <SubType>UserControl</SubType>
@@ -1394,6 +1403,9 @@
     <EmbeddedResource Include="3. UserControls\Tools\ucCodeReaderActionDetail.resx">
       <DependentUpon>ucCodeReaderActionDetail.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="3. UserControls\Tools\ucLoadObjectActionDetail.resx">
+      <DependentUpon>ucLoadObjectActionDetail.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="3. UserControls\Tools\ucPOCIOControllerReadActionDetail.resx">
       <DependentUpon>ucPOCIOControllerReadActionDetail.cs</DependentUpon>
     </EmbeddedResource>
@@ -1768,6 +1780,13 @@
       <Project>{82AF12D1-3E71-4663-BE69-6B95FB55C7E9}</Project>
       <Name>CodeReader</Name>
     </ProjectReference>
+ HEAD
+    <ProjectReference Include="C:\Users\laidu\Downloads\Tạo dll\20. AffineImage\AffineImage\AffineImage.csproj">
+      <Project>{fa6dc7a9-7c59-4975-8737-5806afe0db92}</Project>
+      <Name>AffineImage</Name>
+    </ProjectReference>
+=======
+>>>>>>> 166468bd298b4a5b1b887a9827b3741b88380629
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Apply_16x16.png" />

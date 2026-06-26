@@ -239,13 +239,16 @@ namespace RTC_Vision_Lite.UserControls
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label1.Location = new System.Drawing.Point(217, 0);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
+<<<<<<< HEAD
+            this.label1.Size = new System.Drawing.Size(51, 29);
+=======
             this.label1.Size = new System.Drawing.Size(53, 36);
+>>>>>>> 166468bd298b4a5b1b887a9827b3741b88380629
             this.label1.TabIndex = 2;
             this.label1.Text = "Reorder:";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -253,8 +256,12 @@ namespace RTC_Vision_Lite.UserControls
             // btnDown
             // 
             this.btnDown.Image = global::RTC_Vision_Lite.Properties.Resources.Down;
+<<<<<<< HEAD
+            this.btnDown.Location = new System.Drawing.Point(223, 3);
+=======
             this.btnDown.Location = new System.Drawing.Point(278, 4);
             this.btnDown.Margin = new System.Windows.Forms.Padding(4);
+>>>>>>> 166468bd298b4a5b1b887a9827b3741b88380629
             this.btnDown.Name = "btnDown";
             this.btnDown.Size = new System.Drawing.Size(40, 28);
             this.btnDown.TabIndex = 3;
@@ -264,8 +271,12 @@ namespace RTC_Vision_Lite.UserControls
             // btnUp
             // 
             this.btnUp.Image = global::RTC_Vision_Lite.Properties.Resources.Up;
+<<<<<<< HEAD
+            this.btnUp.Location = new System.Drawing.Point(259, 3);
+=======
             this.btnUp.Location = new System.Drawing.Point(326, 4);
             this.btnUp.Margin = new System.Windows.Forms.Padding(4);
+>>>>>>> 166468bd298b4a5b1b887a9827b3741b88380629
             this.btnUp.Name = "btnUp";
             this.btnUp.Size = new System.Drawing.Size(37, 28);
             this.btnUp.TabIndex = 4;
@@ -274,8 +285,12 @@ namespace RTC_Vision_Lite.UserControls
             // 
             // btnAdd
             // 
+<<<<<<< HEAD
+            this.btnAdd.Location = new System.Drawing.Point(293, 3);
+=======
             this.btnAdd.Location = new System.Drawing.Point(371, 4);
             this.btnAdd.Margin = new System.Windows.Forms.Padding(4);
+>>>>>>> 166468bd298b4a5b1b887a9827b3741b88380629
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(100, 28);
             this.btnAdd.TabIndex = 5;
@@ -285,8 +300,12 @@ namespace RTC_Vision_Lite.UserControls
             // 
             // btnClone
             // 
+<<<<<<< HEAD
+            this.btnClone.Location = new System.Drawing.Point(374, 3);
+=======
             this.btnClone.Location = new System.Drawing.Point(479, 4);
             this.btnClone.Margin = new System.Windows.Forms.Padding(4);
+>>>>>>> 166468bd298b4a5b1b887a9827b3741b88380629
             this.btnClone.Name = "btnClone";
             this.btnClone.Size = new System.Drawing.Size(100, 28);
             this.btnClone.TabIndex = 6;
@@ -296,8 +315,12 @@ namespace RTC_Vision_Lite.UserControls
             // 
             // btnGroup
             // 
+<<<<<<< HEAD
+            this.btnGroup.Location = new System.Drawing.Point(455, 3);
+=======
             this.btnGroup.Location = new System.Drawing.Point(587, 4);
             this.btnGroup.Margin = new System.Windows.Forms.Padding(4);
+>>>>>>> 166468bd298b4a5b1b887a9827b3741b88380629
             this.btnGroup.Name = "btnGroup";
             this.btnGroup.Size = new System.Drawing.Size(100, 28);
             this.btnGroup.TabIndex = 7;
@@ -307,8 +330,12 @@ namespace RTC_Vision_Lite.UserControls
             // 
             // btnUnGroup
             // 
+<<<<<<< HEAD
+            this.btnUnGroup.Location = new System.Drawing.Point(536, 3);
+=======
             this.btnUnGroup.Location = new System.Drawing.Point(695, 4);
             this.btnUnGroup.Margin = new System.Windows.Forms.Padding(4);
+>>>>>>> 166468bd298b4a5b1b887a9827b3741b88380629
             this.btnUnGroup.Name = "btnUnGroup";
             this.btnUnGroup.Size = new System.Drawing.Size(100, 28);
             this.btnUnGroup.TabIndex = 8;

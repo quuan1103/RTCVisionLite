@@ -1,0 +1,396 @@
+2026-06-05 11:44:07.5133 
+» Message:	Could not load file or assembly 'Emgu.CV, Version=4.8.1.5350, Culture=neutral, PublicKeyToken=7281126722ab4438' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction..ctor(EActionTypes eActionType, EObjectTypes eObjectType, FrmHsmartWindow _frmHsmartWindow, cGroupActions myGroupActions)
+   at RTC_Vision_Lite.Classes.cGroupActions.CreateAction(EActionTypes eActionType, EObjectTypes eObjectType, Boolean onlyTool) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 37
+   at RTC_Vision_Lite.Classes.cGroupActions..ctor(FrmHsmartWindow _frmHsmartWindow, Boolean IsTemplate) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 420
+   at RTC_Vision_Lite.Classes.cCAMTypes..ctor() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\cCAMTypes.cs:line 187
+   at RTC_Vision_Lite.Classes.ProjectData.OpenProject_GetCAMs(cProjectTypes project, Boolean widthoutTool) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\DataAndFiles\cData.ProjectData.cs:line 605
+2026-06-05 11:44:07.7323 
+» Message:	Could not load file or assembly 'Emgu.CV, Version=4.8.1.5350, Culture=neutral, PublicKeyToken=7281126722ab4438' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction..ctor(EActionTypes eActionType, EObjectTypes eObjectType, FrmHsmartWindow _frmHsmartWindow, cGroupActions myGroupActions)
+   at RTC_Vision_Lite.Classes.cGroupActions.CreateAction(EActionTypes eActionType, EObjectTypes eObjectType, Boolean onlyTool) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 37
+   at RTC_Vision_Lite.Classes.cGroupActions..ctor(FrmHsmartWindow _frmHsmartWindow, Boolean IsTemplate) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 420
+   at RTC_Vision_Lite.Classes.cCAMTypes..ctor() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\cCAMTypes.cs:line 187
+   at RTC_Vision_Lite.Classes.ProjectData.OpenProject_GetCAMs(cProjectTypes project, Boolean widthoutTool) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\DataAndFiles\cData.ProjectData.cs:line 605
+2026-06-05 11:44:07.8851 
+» Message:	Could not load file or assembly 'Emgu.CV, Version=4.8.1.5350, Culture=neutral, PublicKeyToken=7281126722ab4438' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction..ctor(EActionTypes eActionType, EObjectTypes eObjectType, FrmHsmartWindow _frmHsmartWindow, cGroupActions myGroupActions)
+   at RTC_Vision_Lite.Classes.cGroupActions.CreateAction(EActionTypes eActionType, EObjectTypes eObjectType, Boolean onlyTool) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 37
+   at RTC_Vision_Lite.Classes.cGroupActions..ctor(FrmHsmartWindow _frmHsmartWindow, Boolean IsTemplate) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 420
+   at RTC_Vision_Lite.Classes.cCAMTypes..ctor() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\cCAMTypes.cs:line 187
+   at RTC_Vision_Lite.Classes.ProjectData.OpenProject_GetCAMs(cProjectTypes project, Boolean widthoutTool) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\DataAndFiles\cData.ProjectData.cs:line 605
+2026-06-05 11:44:08.0379 
+» Message:	Could not load file or assembly 'Emgu.CV, Version=4.8.1.5350, Culture=neutral, PublicKeyToken=7281126722ab4438' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction..ctor(EActionTypes eActionType, EObjectTypes eObjectType, FrmHsmartWindow _frmHsmartWindow, cGroupActions myGroupActions)
+   at RTC_Vision_Lite.Classes.cGroupActions.CreateAction(EActionTypes eActionType, EObjectTypes eObjectType, Boolean onlyTool) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 37
+   at RTC_Vision_Lite.Classes.cGroupActions..ctor(FrmHsmartWindow _frmHsmartWindow, Boolean IsTemplate) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 420
+   at RTC_Vision_Lite.Classes.cCAMTypes..ctor() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\cCAMTypes.cs:line 187
+   at RTC_Vision_Lite.Classes.ProjectData.OpenProject_GetCAMs(cProjectTypes project, Boolean widthoutTool) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\DataAndFiles\cData.ProjectData.cs:line 605
+2026-06-05 11:44:08.2345 
+» Message:	Could not load file or assembly 'Emgu.CV, Version=4.8.1.5350, Culture=neutral, PublicKeyToken=7281126722ab4438' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction..ctor(EActionTypes eActionType, EObjectTypes eObjectType, FrmHsmartWindow _frmHsmartWindow, cGroupActions myGroupActions)
+   at RTC_Vision_Lite.Classes.cGroupActions.CreateAction(EActionTypes eActionType, EObjectTypes eObjectType, Boolean onlyTool) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 37
+   at RTC_Vision_Lite.Classes.cGroupActions..ctor(FrmHsmartWindow _frmHsmartWindow, Boolean IsTemplate) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 420
+   at RTC_Vision_Lite.Classes.cCAMTypes..ctor() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\cCAMTypes.cs:line 187
+   at RTC_Vision_Lite.Classes.ProjectData.OpenProject_GetCAMs(cProjectTypes project, Boolean widthoutTool) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\DataAndFiles\cData.ProjectData.cs:line 605
+2026-06-05 11:44:08.6890 
+» Message:	Could not load file or assembly 'Emgu.CV, Version=4.8.1.5350, Culture=neutral, PublicKeyToken=7281126722ab4438' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction..ctor(EActionTypes eActionType, EObjectTypes eObjectType, FrmHsmartWindow _frmHsmartWindow, cGroupActions myGroupActions)
+   at RTC_Vision_Lite.Classes.cGroupActions.CreateAction(EActionTypes eActionType, EObjectTypes eObjectType, Boolean onlyTool) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 37
+   at RTC_Vision_Lite.Classes.cGroupActions..ctor(FrmHsmartWindow _frmHsmartWindow, Boolean IsTemplate) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 420
+   at RTC_Vision_Lite.Classes.cCAMTypes..ctor() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\cCAMTypes.cs:line 187
+   at RTC_Vision_Lite.Classes.ProjectData.OpenProject_GetCAMs(cProjectTypes project, Boolean widthoutTool) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\DataAndFiles\cData.ProjectData.cs:line 605
+2026-06-05 11:44:08.8493 
+» Message:	Could not load file or assembly 'Emgu.CV, Version=4.8.1.5350, Culture=neutral, PublicKeyToken=7281126722ab4438' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction..ctor(EActionTypes eActionType, EObjectTypes eObjectType, FrmHsmartWindow _frmHsmartWindow, cGroupActions myGroupActions)
+   at RTC_Vision_Lite.Classes.cGroupActions.CreateAction(EActionTypes eActionType, EObjectTypes eObjectType, Boolean onlyTool) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 37
+   at RTC_Vision_Lite.Classes.cGroupActions..ctor(FrmHsmartWindow _frmHsmartWindow, Boolean IsTemplate) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 420
+   at RTC_Vision_Lite.Classes.cCAMTypes..ctor() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\cCAMTypes.cs:line 187
+   at RTC_Vision_Lite.Classes.ProjectData.OpenProject_GetCAMs(cProjectTypes project, Boolean widthoutTool) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\DataAndFiles\cData.ProjectData.cs:line 605
+2026-06-05 11:44:09.1057 
+» Message:	Could not load file or assembly 'Emgu.CV, Version=4.8.1.5350, Culture=neutral, PublicKeyToken=7281126722ab4438' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction..ctor(EActionTypes eActionType, EObjectTypes eObjectType, FrmHsmartWindow _frmHsmartWindow, cGroupActions myGroupActions)
+   at RTC_Vision_Lite.Classes.cGroupActions.CreateAction(EActionTypes eActionType, EObjectTypes eObjectType, Boolean onlyTool) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 37
+   at RTC_Vision_Lite.Classes.cGroupActions..ctor(FrmHsmartWindow _frmHsmartWindow, Boolean IsTemplate) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 420
+   at RTC_Vision_Lite.Classes.cCAMTypes..ctor() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\cCAMTypes.cs:line 187
+   at RTC_Vision_Lite.Classes.ProjectData.OpenProject_GetCAMs(cProjectTypes project, Boolean widthoutTool) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\DataAndFiles\cData.ProjectData.cs:line 605
+2026-06-05 11:44:09.2442 
+» Message:	Could not load file or assembly 'Emgu.CV, Version=4.8.1.5350, Culture=neutral, PublicKeyToken=7281126722ab4438' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction..ctor(EActionTypes eActionType, EObjectTypes eObjectType, FrmHsmartWindow _frmHsmartWindow, cGroupActions myGroupActions)
+   at RTC_Vision_Lite.Classes.cGroupActions.CreateAction(EActionTypes eActionType, EObjectTypes eObjectType, Boolean onlyTool) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 37
+   at RTC_Vision_Lite.Classes.cGroupActions..ctor(FrmHsmartWindow _frmHsmartWindow, Boolean IsTemplate) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 420
+   at RTC_Vision_Lite.Classes.cCAMTypes..ctor() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\cCAMTypes.cs:line 187
+   at RTC_Vision_Lite.Classes.ProjectData.OpenProject_GetCAMs(cProjectTypes project, Boolean widthoutTool) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\DataAndFiles\cData.ProjectData.cs:line 605
+2026-06-05 11:44:25.7819 
+» Message:	Could not load file or assembly 'Emgu.CV, Version=4.8.1.5350, Culture=neutral, PublicKeyToken=7281126722ab4438' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction..ctor(EActionTypes eActionType, EObjectTypes eObjectType, FrmHsmartWindow _frmHsmartWindow, cGroupActions myGroupActions)
+   at RTC_Vision_Lite.Classes.cGroupActions.CreateAction(EActionTypes eActionType, EObjectTypes eObjectType, Boolean onlyTool) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 37
+   at RTC_Vision_Lite.Classes.cGroupActions..ctor(FrmHsmartWindow _frmHsmartWindow, Boolean IsTemplate) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 420
+   at RTC_Vision_Lite.Classes.cCAMTypes..ctor() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\cCAMTypes.cs:line 187
+   at RTC_Vision_Lite.Classes.ProjectData.OpenProject_GetCAMs(cProjectTypes project, Boolean widthoutTool) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\DataAndFiles\cData.ProjectData.cs:line 605
+2026-06-05 11:44:26.0144 
+» Message:	Could not load file or assembly 'Emgu.CV, Version=4.8.1.5350, Culture=neutral, PublicKeyToken=7281126722ab4438' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction..ctor(EActionTypes eActionType, EObjectTypes eObjectType, FrmHsmartWindow _frmHsmartWindow, cGroupActions myGroupActions)
+   at RTC_Vision_Lite.Classes.cGroupActions.CreateAction(EActionTypes eActionType, EObjectTypes eObjectType, Boolean onlyTool) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 37
+   at RTC_Vision_Lite.Classes.cGroupActions..ctor(FrmHsmartWindow _frmHsmartWindow, Boolean IsTemplate) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 420
+   at RTC_Vision_Lite.Classes.cCAMTypes..ctor() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\cCAMTypes.cs:line 187
+   at RTC_Vision_Lite.Classes.ProjectData.OpenProject_GetCAMs(cProjectTypes project, Boolean widthoutTool) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\DataAndFiles\cData.ProjectData.cs:line 605
+2026-06-05 11:44:26.1799 
+» Message:	Could not load file or assembly 'Emgu.CV, Version=4.8.1.5350, Culture=neutral, PublicKeyToken=7281126722ab4438' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction..ctor(EActionTypes eActionType, EObjectTypes eObjectType, FrmHsmartWindow _frmHsmartWindow, cGroupActions myGroupActions)
+   at RTC_Vision_Lite.Classes.cGroupActions.CreateAction(EActionTypes eActionType, EObjectTypes eObjectType, Boolean onlyTool) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 37
+   at RTC_Vision_Lite.Classes.cGroupActions..ctor(FrmHsmartWindow _frmHsmartWindow, Boolean IsTemplate) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 420
+   at RTC_Vision_Lite.Classes.cCAMTypes..ctor() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\cCAMTypes.cs:line 187
+   at RTC_Vision_Lite.Classes.ProjectData.OpenProject_GetCAMs(cProjectTypes project, Boolean widthoutTool) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\DataAndFiles\cData.ProjectData.cs:line 605
+2026-06-05 11:44:26.3301 
+» Message:	Could not load file or assembly 'Emgu.CV, Version=4.8.1.5350, Culture=neutral, PublicKeyToken=7281126722ab4438' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction..ctor(EActionTypes eActionType, EObjectTypes eObjectType, FrmHsmartWindow _frmHsmartWindow, cGroupActions myGroupActions)
+   at RTC_Vision_Lite.Classes.cGroupActions.CreateAction(EActionTypes eActionType, EObjectTypes eObjectType, Boolean onlyTool) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 37
+   at RTC_Vision_Lite.Classes.cGroupActions..ctor(FrmHsmartWindow _frmHsmartWindow, Boolean IsTemplate) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 420
+   at RTC_Vision_Lite.Classes.cCAMTypes..ctor() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\cCAMTypes.cs:line 187
+   at RTC_Vision_Lite.Classes.ProjectData.OpenProject_GetCAMs(cProjectTypes project, Boolean widthoutTool) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\DataAndFiles\cData.ProjectData.cs:line 605
+2026-06-05 11:44:26.4949 
+» Message:	Could not load file or assembly 'Emgu.CV, Version=4.8.1.5350, Culture=neutral, PublicKeyToken=7281126722ab4438' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction..ctor(EActionTypes eActionType, EObjectTypes eObjectType, FrmHsmartWindow _frmHsmartWindow, cGroupActions myGroupActions)
+   at RTC_Vision_Lite.Classes.cGroupActions.CreateAction(EActionTypes eActionType, EObjectTypes eObjectType, Boolean onlyTool) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 37
+   at RTC_Vision_Lite.Classes.cGroupActions..ctor(FrmHsmartWindow _frmHsmartWindow, Boolean IsTemplate) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 420
+   at RTC_Vision_Lite.Classes.cCAMTypes..ctor() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\cCAMTypes.cs:line 187
+   at RTC_Vision_Lite.Classes.ProjectData.OpenProject_GetCAMs(cProjectTypes project, Boolean widthoutTool) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\DataAndFiles\cData.ProjectData.cs:line 605
+2026-06-05 11:44:26.6465 
+» Message:	Could not load file or assembly 'Emgu.CV, Version=4.8.1.5350, Culture=neutral, PublicKeyToken=7281126722ab4438' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction..ctor(EActionTypes eActionType, EObjectTypes eObjectType, FrmHsmartWindow _frmHsmartWindow, cGroupActions myGroupActions)
+   at RTC_Vision_Lite.Classes.cGroupActions.CreateAction(EActionTypes eActionType, EObjectTypes eObjectType, Boolean onlyTool) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 37
+   at RTC_Vision_Lite.Classes.cGroupActions..ctor(FrmHsmartWindow _frmHsmartWindow, Boolean IsTemplate) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 420
+   at RTC_Vision_Lite.Classes.cCAMTypes..ctor() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\cCAMTypes.cs:line 187
+   at RTC_Vision_Lite.Classes.ProjectData.OpenProject_GetCAMs(cProjectTypes project, Boolean widthoutTool) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\DataAndFiles\cData.ProjectData.cs:line 605
+2026-06-05 11:44:26.8058 
+» Message:	Could not load file or assembly 'Emgu.CV, Version=4.8.1.5350, Culture=neutral, PublicKeyToken=7281126722ab4438' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction..ctor(EActionTypes eActionType, EObjectTypes eObjectType, FrmHsmartWindow _frmHsmartWindow, cGroupActions myGroupActions)
+   at RTC_Vision_Lite.Classes.cGroupActions.CreateAction(EActionTypes eActionType, EObjectTypes eObjectType, Boolean onlyTool) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 37
+   at RTC_Vision_Lite.Classes.cGroupActions..ctor(FrmHsmartWindow _frmHsmartWindow, Boolean IsTemplate) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 420
+   at RTC_Vision_Lite.Classes.cCAMTypes..ctor() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\cCAMTypes.cs:line 187
+   at RTC_Vision_Lite.Classes.ProjectData.OpenProject_GetCAMs(cProjectTypes project, Boolean widthoutTool) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\DataAndFiles\cData.ProjectData.cs:line 605
+2026-06-05 11:44:26.9757 
+» Message:	Could not load file or assembly 'Emgu.CV, Version=4.8.1.5350, Culture=neutral, PublicKeyToken=7281126722ab4438' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction..ctor(EActionTypes eActionType, EObjectTypes eObjectType, FrmHsmartWindow _frmHsmartWindow, cGroupActions myGroupActions)
+   at RTC_Vision_Lite.Classes.cGroupActions.CreateAction(EActionTypes eActionType, EObjectTypes eObjectType, Boolean onlyTool) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 37
+   at RTC_Vision_Lite.Classes.cGroupActions..ctor(FrmHsmartWindow _frmHsmartWindow, Boolean IsTemplate) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 420
+   at RTC_Vision_Lite.Classes.cCAMTypes..ctor() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\cCAMTypes.cs:line 187
+   at RTC_Vision_Lite.Classes.ProjectData.OpenProject_GetCAMs(cProjectTypes project, Boolean widthoutTool) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\DataAndFiles\cData.ProjectData.cs:line 605
+2026-06-05 11:44:27.1298 
+» Message:	Could not load file or assembly 'Emgu.CV, Version=4.8.1.5350, Culture=neutral, PublicKeyToken=7281126722ab4438' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction..ctor(EActionTypes eActionType, EObjectTypes eObjectType, FrmHsmartWindow _frmHsmartWindow, cGroupActions myGroupActions)
+   at RTC_Vision_Lite.Classes.cGroupActions.CreateAction(EActionTypes eActionType, EObjectTypes eObjectType, Boolean onlyTool) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 37
+   at RTC_Vision_Lite.Classes.cGroupActions..ctor(FrmHsmartWindow _frmHsmartWindow, Boolean IsTemplate) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 420
+   at RTC_Vision_Lite.Classes.cCAMTypes..ctor() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\cCAMTypes.cs:line 187
+   at RTC_Vision_Lite.Classes.ProjectData.OpenProject_GetCAMs(cProjectTypes project, Boolean widthoutTool) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\DataAndFiles\cData.ProjectData.cs:line 605
+2026-06-05 11:45:29.6304 
+» Message:	Could not load file or assembly 'Emgu.CV, Version=4.8.1.5350, Culture=neutral, PublicKeyToken=7281126722ab4438' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction..ctor(EActionTypes eActionType, EObjectTypes eObjectType, FrmHsmartWindow _frmHsmartWindow, cGroupActions myGroupActions)
+   at RTC_Vision_Lite.Classes.cGroupActions.CreateAction(EActionTypes eActionType, EObjectTypes eObjectType, Boolean onlyTool) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 37
+   at RTC_Vision_Lite.Classes.cGroupActions..ctor(FrmHsmartWindow _frmHsmartWindow, Boolean IsTemplate) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 420
+   at RTC_Vision_Lite.Classes.cCAMTypes..ctor() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\cCAMTypes.cs:line 187
+   at RTC_Vision_Lite.Classes.ProjectData.OpenProject_GetCAMs(cProjectTypes project, Boolean widthoutTool) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\DataAndFiles\cData.ProjectData.cs:line 605
+2026-06-05 11:45:29.8602 
+» Message:	Could not load file or assembly 'Emgu.CV, Version=4.8.1.5350, Culture=neutral, PublicKeyToken=7281126722ab4438' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction..ctor(EActionTypes eActionType, EObjectTypes eObjectType, FrmHsmartWindow _frmHsmartWindow, cGroupActions myGroupActions)
+   at RTC_Vision_Lite.Classes.cGroupActions.CreateAction(EActionTypes eActionType, EObjectTypes eObjectType, Boolean onlyTool) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 37
+   at RTC_Vision_Lite.Classes.cGroupActions..ctor(FrmHsmartWindow _frmHsmartWindow, Boolean IsTemplate) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 420
+   at RTC_Vision_Lite.Classes.cCAMTypes..ctor() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\cCAMTypes.cs:line 187
+   at RTC_Vision_Lite.Classes.ProjectData.OpenProject_GetCAMs(cProjectTypes project, Boolean widthoutTool) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\DataAndFiles\cData.ProjectData.cs:line 605
+2026-06-05 11:45:30.0101 
+» Message:	Could not load file or assembly 'Emgu.CV, Version=4.8.1.5350, Culture=neutral, PublicKeyToken=7281126722ab4438' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction..ctor(EActionTypes eActionType, EObjectTypes eObjectType, FrmHsmartWindow _frmHsmartWindow, cGroupActions myGroupActions)
+   at RTC_Vision_Lite.Classes.cGroupActions.CreateAction(EActionTypes eActionType, EObjectTypes eObjectType, Boolean onlyTool) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 37
+   at RTC_Vision_Lite.Classes.cGroupActions..ctor(FrmHsmartWindow _frmHsmartWindow, Boolean IsTemplate) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 420
+   at RTC_Vision_Lite.Classes.cCAMTypes..ctor() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\cCAMTypes.cs:line 187
+   at RTC_Vision_Lite.Classes.ProjectData.OpenProject_GetCAMs(cProjectTypes project, Boolean widthoutTool) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\DataAndFiles\cData.ProjectData.cs:line 605
+2026-06-05 11:45:30.2006 
+» Message:	Could not load file or assembly 'Emgu.CV, Version=4.8.1.5350, Culture=neutral, PublicKeyToken=7281126722ab4438' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction..ctor(EActionTypes eActionType, EObjectTypes eObjectType, FrmHsmartWindow _frmHsmartWindow, cGroupActions myGroupActions)
+   at RTC_Vision_Lite.Classes.cGroupActions.CreateAction(EActionTypes eActionType, EObjectTypes eObjectType, Boolean onlyTool) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 37
+   at RTC_Vision_Lite.Classes.cGroupActions..ctor(FrmHsmartWindow _frmHsmartWindow, Boolean IsTemplate) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 420
+   at RTC_Vision_Lite.Classes.cCAMTypes..ctor() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\cCAMTypes.cs:line 187
+   at RTC_Vision_Lite.Classes.ProjectData.OpenProject_GetCAMs(cProjectTypes project, Boolean widthoutTool) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\DataAndFiles\cData.ProjectData.cs:line 605
+2026-06-05 11:45:30.4011 
+» Message:	Could not load file or assembly 'Emgu.CV, Version=4.8.1.5350, Culture=neutral, PublicKeyToken=7281126722ab4438' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction..ctor(EActionTypes eActionType, EObjectTypes eObjectType, FrmHsmartWindow _frmHsmartWindow, cGroupActions myGroupActions)
+   at RTC_Vision_Lite.Classes.cGroupActions.CreateAction(EActionTypes eActionType, EObjectTypes eObjectType, Boolean onlyTool) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 37
+   at RTC_Vision_Lite.Classes.cGroupActions..ctor(FrmHsmartWindow _frmHsmartWindow, Boolean IsTemplate) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 420
+   at RTC_Vision_Lite.Classes.cCAMTypes..ctor() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\cCAMTypes.cs:line 187
+   at RTC_Vision_Lite.Classes.ProjectData.OpenProject_GetCAMs(cProjectTypes project, Boolean widthoutTool) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\DataAndFiles\cData.ProjectData.cs:line 605
+2026-06-05 11:45:30.5869 
+» Message:	Could not load file or assembly 'Emgu.CV, Version=4.8.1.5350, Culture=neutral, PublicKeyToken=7281126722ab4438' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction..ctor(EActionTypes eActionType, EObjectTypes eObjectType, FrmHsmartWindow _frmHsmartWindow, cGroupActions myGroupActions)
+   at RTC_Vision_Lite.Classes.cGroupActions.CreateAction(EActionTypes eActionType, EObjectTypes eObjectType, Boolean onlyTool) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 37
+   at RTC_Vision_Lite.Classes.cGroupActions..ctor(FrmHsmartWindow _frmHsmartWindow, Boolean IsTemplate) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 420
+   at RTC_Vision_Lite.Classes.cCAMTypes..ctor() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\cCAMTypes.cs:line 187
+   at RTC_Vision_Lite.Classes.ProjectData.OpenProject_GetCAMs(cProjectTypes project, Boolean widthoutTool) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\DataAndFiles\cData.ProjectData.cs:line 605
+2026-06-05 11:45:30.7489 
+» Message:	Could not load file or assembly 'Emgu.CV, Version=4.8.1.5350, Culture=neutral, PublicKeyToken=7281126722ab4438' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction..ctor(EActionTypes eActionType, EObjectTypes eObjectType, FrmHsmartWindow _frmHsmartWindow, cGroupActions myGroupActions)
+   at RTC_Vision_Lite.Classes.cGroupActions.CreateAction(EActionTypes eActionType, EObjectTypes eObjectType, Boolean onlyTool) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 37
+   at RTC_Vision_Lite.Classes.cGroupActions..ctor(FrmHsmartWindow _frmHsmartWindow, Boolean IsTemplate) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 420
+   at RTC_Vision_Lite.Classes.cCAMTypes..ctor() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\cCAMTypes.cs:line 187
+   at RTC_Vision_Lite.Classes.ProjectData.OpenProject_GetCAMs(cProjectTypes project, Boolean widthoutTool) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\DataAndFiles\cData.ProjectData.cs:line 605
+2026-06-05 11:45:30.9430 
+» Message:	Could not load file or assembly 'Emgu.CV, Version=4.8.1.5350, Culture=neutral, PublicKeyToken=7281126722ab4438' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction..ctor(EActionTypes eActionType, EObjectTypes eObjectType, FrmHsmartWindow _frmHsmartWindow, cGroupActions myGroupActions)
+   at RTC_Vision_Lite.Classes.cGroupActions.CreateAction(EActionTypes eActionType, EObjectTypes eObjectType, Boolean onlyTool) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 37
+   at RTC_Vision_Lite.Classes.cGroupActions..ctor(FrmHsmartWindow _frmHsmartWindow, Boolean IsTemplate) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 420
+   at RTC_Vision_Lite.Classes.cCAMTypes..ctor() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\cCAMTypes.cs:line 187
+   at RTC_Vision_Lite.Classes.ProjectData.OpenProject_GetCAMs(cProjectTypes project, Boolean widthoutTool) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\DataAndFiles\cData.ProjectData.cs:line 605
+2026-06-05 11:45:31.3989 
+» Message:	Could not load file or assembly 'Emgu.CV, Version=4.8.1.5350, Culture=neutral, PublicKeyToken=7281126722ab4438' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction..ctor(EActionTypes eActionType, EObjectTypes eObjectType, FrmHsmartWindow _frmHsmartWindow, cGroupActions myGroupActions)
+   at RTC_Vision_Lite.Classes.cGroupActions.CreateAction(EActionTypes eActionType, EObjectTypes eObjectType, Boolean onlyTool) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 37
+   at RTC_Vision_Lite.Classes.cGroupActions..ctor(FrmHsmartWindow _frmHsmartWindow, Boolean IsTemplate) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 420
+   at RTC_Vision_Lite.Classes.cCAMTypes..ctor() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\cCAMTypes.cs:line 187
+   at RTC_Vision_Lite.Classes.ProjectData.OpenProject_GetCAMs(cProjectTypes project, Boolean widthoutTool) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\DataAndFiles\cData.ProjectData.cs:line 605
+2026-06-05 11:46:37.5728 
+» Message:	Could not load file or assembly 'Emgu.CV, Version=4.8.1.5350, Culture=neutral, PublicKeyToken=7281126722ab4438' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction..ctor(EActionTypes eActionType, EObjectTypes eObjectType, FrmHsmartWindow _frmHsmartWindow, cGroupActions myGroupActions)
+   at RTC_Vision_Lite.Classes.cGroupActions.CreateAction(EActionTypes eActionType, EObjectTypes eObjectType, Boolean onlyTool) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 37
+   at RTC_Vision_Lite.Classes.cGroupActions..ctor(FrmHsmartWindow _frmHsmartWindow, Boolean IsTemplate) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 420
+   at RTC_Vision_Lite.Classes.cCAMTypes..ctor() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\cCAMTypes.cs:line 187
+   at RTC_Vision_Lite.Classes.ProjectData.OpenProject_GetCAMs(cProjectTypes project, Boolean widthoutTool) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\DataAndFiles\cData.ProjectData.cs:line 605
+2026-06-05 11:46:37.7808 
+» Message:	Could not load file or assembly 'Emgu.CV, Version=4.8.1.5350, Culture=neutral, PublicKeyToken=7281126722ab4438' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction..ctor(EActionTypes eActionType, EObjectTypes eObjectType, FrmHsmartWindow _frmHsmartWindow, cGroupActions myGroupActions)
+   at RTC_Vision_Lite.Classes.cGroupActions.CreateAction(EActionTypes eActionType, EObjectTypes eObjectType, Boolean onlyTool) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 37
+   at RTC_Vision_Lite.Classes.cGroupActions..ctor(FrmHsmartWindow _frmHsmartWindow, Boolean IsTemplate) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 420
+   at RTC_Vision_Lite.Classes.cCAMTypes..ctor() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\cCAMTypes.cs:line 187
+   at RTC_Vision_Lite.Classes.ProjectData.OpenProject_GetCAMs(cProjectTypes project, Boolean widthoutTool) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\DataAndFiles\cData.ProjectData.cs:line 605
+2026-06-05 11:46:37.9166 
+» Message:	Could not load file or assembly 'Emgu.CV, Version=4.8.1.5350, Culture=neutral, PublicKeyToken=7281126722ab4438' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction..ctor(EActionTypes eActionType, EObjectTypes eObjectType, FrmHsmartWindow _frmHsmartWindow, cGroupActions myGroupActions)
+   at RTC_Vision_Lite.Classes.cGroupActions.CreateAction(EActionTypes eActionType, EObjectTypes eObjectType, Boolean onlyTool) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 37
+   at RTC_Vision_Lite.Classes.cGroupActions..ctor(FrmHsmartWindow _frmHsmartWindow, Boolean IsTemplate) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 420
+   at RTC_Vision_Lite.Classes.cCAMTypes..ctor() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\cCAMTypes.cs:line 187
+   at RTC_Vision_Lite.Classes.ProjectData.OpenProject_GetCAMs(cProjectTypes project, Boolean widthoutTool) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\DataAndFiles\cData.ProjectData.cs:line 605
+2026-06-05 11:46:38.0665 
+» Message:	Could not load file or assembly 'Emgu.CV, Version=4.8.1.5350, Culture=neutral, PublicKeyToken=7281126722ab4438' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction..ctor(EActionTypes eActionType, EObjectTypes eObjectType, FrmHsmartWindow _frmHsmartWindow, cGroupActions myGroupActions)
+   at RTC_Vision_Lite.Classes.cGroupActions.CreateAction(EActionTypes eActionType, EObjectTypes eObjectType, Boolean onlyTool) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 37
+   at RTC_Vision_Lite.Classes.cGroupActions..ctor(FrmHsmartWindow _frmHsmartWindow, Boolean IsTemplate) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 420
+   at RTC_Vision_Lite.Classes.cCAMTypes..ctor() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\cCAMTypes.cs:line 187
+   at RTC_Vision_Lite.Classes.ProjectData.OpenProject_GetCAMs(cProjectTypes project, Boolean widthoutTool) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\DataAndFiles\cData.ProjectData.cs:line 605
+2026-06-05 11:46:38.2540 
+» Message:	Could not load file or assembly 'Emgu.CV, Version=4.8.1.5350, Culture=neutral, PublicKeyToken=7281126722ab4438' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction..ctor(EActionTypes eActionType, EObjectTypes eObjectType, FrmHsmartWindow _frmHsmartWindow, cGroupActions myGroupActions)
+   at RTC_Vision_Lite.Classes.cGroupActions.CreateAction(EActionTypes eActionType, EObjectTypes eObjectType, Boolean onlyTool) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 37
+   at RTC_Vision_Lite.Classes.cGroupActions..ctor(FrmHsmartWindow _frmHsmartWindow, Boolean IsTemplate) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 420
+   at RTC_Vision_Lite.Classes.cCAMTypes..ctor() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\cCAMTypes.cs:line 187
+   at RTC_Vision_Lite.Classes.ProjectData.OpenProject_GetCAMs(cProjectTypes project, Boolean widthoutTool) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\DataAndFiles\cData.ProjectData.cs:line 605
+2026-06-05 11:46:38.3828 
+» Message:	Could not load file or assembly 'Emgu.CV, Version=4.8.1.5350, Culture=neutral, PublicKeyToken=7281126722ab4438' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction..ctor(EActionTypes eActionType, EObjectTypes eObjectType, FrmHsmartWindow _frmHsmartWindow, cGroupActions myGroupActions)
+   at RTC_Vision_Lite.Classes.cGroupActions.CreateAction(EActionTypes eActionType, EObjectTypes eObjectType, Boolean onlyTool) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 37
+   at RTC_Vision_Lite.Classes.cGroupActions..ctor(FrmHsmartWindow _frmHsmartWindow, Boolean IsTemplate) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 420
+   at RTC_Vision_Lite.Classes.cCAMTypes..ctor() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\cCAMTypes.cs:line 187
+   at RTC_Vision_Lite.Classes.ProjectData.OpenProject_GetCAMs(cProjectTypes project, Boolean widthoutTool) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\DataAndFiles\cData.ProjectData.cs:line 605
+2026-06-05 11:46:38.5435 
+» Message:	Could not load file or assembly 'Emgu.CV, Version=4.8.1.5350, Culture=neutral, PublicKeyToken=7281126722ab4438' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction..ctor(EActionTypes eActionType, EObjectTypes eObjectType, FrmHsmartWindow _frmHsmartWindow, cGroupActions myGroupActions)
+   at RTC_Vision_Lite.Classes.cGroupActions.CreateAction(EActionTypes eActionType, EObjectTypes eObjectType, Boolean onlyTool) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 37
+   at RTC_Vision_Lite.Classes.cGroupActions..ctor(FrmHsmartWindow _frmHsmartWindow, Boolean IsTemplate) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 420
+   at RTC_Vision_Lite.Classes.cCAMTypes..ctor() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\cCAMTypes.cs:line 187
+   at RTC_Vision_Lite.Classes.ProjectData.OpenProject_GetCAMs(cProjectTypes project, Boolean widthoutTool) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\DataAndFiles\cData.ProjectData.cs:line 605
+2026-06-05 11:46:38.7228 
+» Message:	Could not load file or assembly 'Emgu.CV, Version=4.8.1.5350, Culture=neutral, PublicKeyToken=7281126722ab4438' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction..ctor(EActionTypes eActionType, EObjectTypes eObjectType, FrmHsmartWindow _frmHsmartWindow, cGroupActions myGroupActions)
+   at RTC_Vision_Lite.Classes.cGroupActions.CreateAction(EActionTypes eActionType, EObjectTypes eObjectType, Boolean onlyTool) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 37
+   at RTC_Vision_Lite.Classes.cGroupActions..ctor(FrmHsmartWindow _frmHsmartWindow, Boolean IsTemplate) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 420
+   at RTC_Vision_Lite.Classes.cCAMTypes..ctor() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\cCAMTypes.cs:line 187
+   at RTC_Vision_Lite.Classes.ProjectData.OpenProject_GetCAMs(cProjectTypes project, Boolean widthoutTool) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\DataAndFiles\cData.ProjectData.cs:line 605
+2026-06-05 11:46:38.8585 
+» Message:	Could not load file or assembly 'Emgu.CV, Version=4.8.1.5350, Culture=neutral, PublicKeyToken=7281126722ab4438' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction..ctor(EActionTypes eActionType, EObjectTypes eObjectType, FrmHsmartWindow _frmHsmartWindow, cGroupActions myGroupActions)
+   at RTC_Vision_Lite.Classes.cGroupActions.CreateAction(EActionTypes eActionType, EObjectTypes eObjectType, Boolean onlyTool) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 37
+   at RTC_Vision_Lite.Classes.cGroupActions..ctor(FrmHsmartWindow _frmHsmartWindow, Boolean IsTemplate) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 420
+   at RTC_Vision_Lite.Classes.cCAMTypes..ctor() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\cCAMTypes.cs:line 187
+   at RTC_Vision_Lite.Classes.ProjectData.OpenProject_GetCAMs(cProjectTypes project, Boolean widthoutTool) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\DataAndFiles\cData.ProjectData.cs:line 605
+2026-06-05 11:49:54.5031 
+» Message:	Could not load file or assembly 'Emgu.CV, Version=4.8.1.5350, Culture=neutral, PublicKeyToken=7281126722ab4438' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction..ctor(EActionTypes eActionType, EObjectTypes eObjectType, FrmHsmartWindow _frmHsmartWindow, cGroupActions myGroupActions)
+   at RTC_Vision_Lite.Classes.cGroupActions.CreateAction(EActionTypes eActionType, EObjectTypes eObjectType, Boolean onlyTool) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 37
+   at RTC_Vision_Lite.Classes.cGroupActions..ctor(FrmHsmartWindow _frmHsmartWindow, Boolean IsTemplate) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 420
+   at RTC_Vision_Lite.Classes.cCAMTypes..ctor() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\cCAMTypes.cs:line 187
+   at RTC_Vision_Lite.Classes.ProjectData.OpenProject_GetCAMs(cProjectTypes project, Boolean widthoutTool) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\DataAndFiles\cData.ProjectData.cs:line 605
+2026-06-05 11:49:54.7771 
+» Message:	Could not load file or assembly 'Emgu.CV, Version=4.8.1.5350, Culture=neutral, PublicKeyToken=7281126722ab4438' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction..ctor(EActionTypes eActionType, EObjectTypes eObjectType, FrmHsmartWindow _frmHsmartWindow, cGroupActions myGroupActions)
+   at RTC_Vision_Lite.Classes.cGroupActions.CreateAction(EActionTypes eActionType, EObjectTypes eObjectType, Boolean onlyTool) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 37
+   at RTC_Vision_Lite.Classes.cGroupActions..ctor(FrmHsmartWindow _frmHsmartWindow, Boolean IsTemplate) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 420
+   at RTC_Vision_Lite.Classes.cCAMTypes..ctor() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\cCAMTypes.cs:line 187
+   at RTC_Vision_Lite.Classes.ProjectData.OpenProject_GetCAMs(cProjectTypes project, Boolean widthoutTool) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\DataAndFiles\cData.ProjectData.cs:line 605
+2026-06-05 11:49:55.0359 
+» Message:	Could not load file or assembly 'Emgu.CV, Version=4.8.1.5350, Culture=neutral, PublicKeyToken=7281126722ab4438' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction..ctor(EActionTypes eActionType, EObjectTypes eObjectType, FrmHsmartWindow _frmHsmartWindow, cGroupActions myGroupActions)
+   at RTC_Vision_Lite.Classes.cGroupActions.CreateAction(EActionTypes eActionType, EObjectTypes eObjectType, Boolean onlyTool) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 37
+   at RTC_Vision_Lite.Classes.cGroupActions..ctor(FrmHsmartWindow _frmHsmartWindow, Boolean IsTemplate) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 420
+   at RTC_Vision_Lite.Classes.cCAMTypes..ctor() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\cCAMTypes.cs:line 187
+   at RTC_Vision_Lite.Classes.ProjectData.OpenProject_GetCAMs(cProjectTypes project, Boolean widthoutTool) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\DataAndFiles\cData.ProjectData.cs:line 605
+2026-06-05 11:49:55.3159 
+» Message:	Could not load file or assembly 'Emgu.CV, Version=4.8.1.5350, Culture=neutral, PublicKeyToken=7281126722ab4438' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction..ctor(EActionTypes eActionType, EObjectTypes eObjectType, FrmHsmartWindow _frmHsmartWindow, cGroupActions myGroupActions)
+   at RTC_Vision_Lite.Classes.cGroupActions.CreateAction(EActionTypes eActionType, EObjectTypes eObjectType, Boolean onlyTool) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 37
+   at RTC_Vision_Lite.Classes.cGroupActions..ctor(FrmHsmartWindow _frmHsmartWindow, Boolean IsTemplate) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 420
+   at RTC_Vision_Lite.Classes.cCAMTypes..ctor() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\cCAMTypes.cs:line 187
+   at RTC_Vision_Lite.Classes.ProjectData.OpenProject_GetCAMs(cProjectTypes project, Boolean widthoutTool) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\DataAndFiles\cData.ProjectData.cs:line 605
+2026-06-05 11:49:55.6338 
+» Message:	Could not load file or assembly 'Emgu.CV, Version=4.8.1.5350, Culture=neutral, PublicKeyToken=7281126722ab4438' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction..ctor(EActionTypes eActionType, EObjectTypes eObjectType, FrmHsmartWindow _frmHsmartWindow, cGroupActions myGroupActions)
+   at RTC_Vision_Lite.Classes.cGroupActions.CreateAction(EActionTypes eActionType, EObjectTypes eObjectType, Boolean onlyTool) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 37
+   at RTC_Vision_Lite.Classes.cGroupActions..ctor(FrmHsmartWindow _frmHsmartWindow, Boolean IsTemplate) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 420
+   at RTC_Vision_Lite.Classes.cCAMTypes..ctor() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\cCAMTypes.cs:line 187
+   at RTC_Vision_Lite.Classes.ProjectData.OpenProject_GetCAMs(cProjectTypes project, Boolean widthoutTool) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\DataAndFiles\cData.ProjectData.cs:line 605
+2026-06-05 11:49:56.0026 
+» Message:	Could not load file or assembly 'Emgu.CV, Version=4.8.1.5350, Culture=neutral, PublicKeyToken=7281126722ab4438' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction..ctor(EActionTypes eActionType, EObjectTypes eObjectType, FrmHsmartWindow _frmHsmartWindow, cGroupActions myGroupActions)
+   at RTC_Vision_Lite.Classes.cGroupActions.CreateAction(EActionTypes eActionType, EObjectTypes eObjectType, Boolean onlyTool) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 37
+   at RTC_Vision_Lite.Classes.cGroupActions..ctor(FrmHsmartWindow _frmHsmartWindow, Boolean IsTemplate) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 420
+   at RTC_Vision_Lite.Classes.cCAMTypes..ctor() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\cCAMTypes.cs:line 187
+   at RTC_Vision_Lite.Classes.ProjectData.OpenProject_GetCAMs(cProjectTypes project, Boolean widthoutTool) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\DataAndFiles\cData.ProjectData.cs:line 605
+2026-06-05 11:49:56.2526 
+» Message:	Could not load file or assembly 'Emgu.CV, Version=4.8.1.5350, Culture=neutral, PublicKeyToken=7281126722ab4438' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction..ctor(EActionTypes eActionType, EObjectTypes eObjectType, FrmHsmartWindow _frmHsmartWindow, cGroupActions myGroupActions)
+   at RTC_Vision_Lite.Classes.cGroupActions.CreateAction(EActionTypes eActionType, EObjectTypes eObjectType, Boolean onlyTool) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 37
+   at RTC_Vision_Lite.Classes.cGroupActions..ctor(FrmHsmartWindow _frmHsmartWindow, Boolean IsTemplate) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 420
+   at RTC_Vision_Lite.Classes.cCAMTypes..ctor() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\cCAMTypes.cs:line 187
+   at RTC_Vision_Lite.Classes.ProjectData.OpenProject_GetCAMs(cProjectTypes project, Boolean widthoutTool) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\DataAndFiles\cData.ProjectData.cs:line 605
+2026-06-05 11:49:56.5120 
+» Message:	Could not load file or assembly 'Emgu.CV, Version=4.8.1.5350, Culture=neutral, PublicKeyToken=7281126722ab4438' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction..ctor(EActionTypes eActionType, EObjectTypes eObjectType, FrmHsmartWindow _frmHsmartWindow, cGroupActions myGroupActions)
+   at RTC_Vision_Lite.Classes.cGroupActions.CreateAction(EActionTypes eActionType, EObjectTypes eObjectType, Boolean onlyTool) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 37
+   at RTC_Vision_Lite.Classes.cGroupActions..ctor(FrmHsmartWindow _frmHsmartWindow, Boolean IsTemplate) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 420
+   at RTC_Vision_Lite.Classes.cCAMTypes..ctor() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\cCAMTypes.cs:line 187
+   at RTC_Vision_Lite.Classes.ProjectData.OpenProject_GetCAMs(cProjectTypes project, Boolean widthoutTool) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\DataAndFiles\cData.ProjectData.cs:line 605
+2026-06-05 11:49:56.8748 
+» Message:	Could not load file or assembly 'Emgu.CV, Version=4.8.1.5350, Culture=neutral, PublicKeyToken=7281126722ab4438' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction..ctor(EActionTypes eActionType, EObjectTypes eObjectType, FrmHsmartWindow _frmHsmartWindow, cGroupActions myGroupActions)
+   at RTC_Vision_Lite.Classes.cGroupActions.CreateAction(EActionTypes eActionType, EObjectTypes eObjectType, Boolean onlyTool) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 37
+   at RTC_Vision_Lite.Classes.cGroupActions..ctor(FrmHsmartWindow _frmHsmartWindow, Boolean IsTemplate) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 420
+   at RTC_Vision_Lite.Classes.cCAMTypes..ctor() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\cCAMTypes.cs:line 187
+   at RTC_Vision_Lite.Classes.ProjectData.OpenProject_GetCAMs(cProjectTypes project, Boolean widthoutTool) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\DataAndFiles\cData.ProjectData.cs:line 605
+2026-06-05 11:50:15.0896 
+» Message:	Could not load file or assembly 'Emgu.CV, Version=4.8.1.5350, Culture=neutral, PublicKeyToken=7281126722ab4438' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction..ctor(EActionTypes eActionType, EObjectTypes eObjectType, FrmHsmartWindow _frmHsmartWindow, cGroupActions myGroupActions)
+   at RTC_Vision_Lite.Classes.cGroupActions.CreateAction(EActionTypes eActionType, EObjectTypes eObjectType, Boolean onlyTool) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 37
+   at RTC_Vision_Lite.Classes.cGroupActions..ctor(FrmHsmartWindow _frmHsmartWindow, Boolean IsTemplate) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 420
+   at RTC_Vision_Lite.Classes.cCAMTypes..ctor() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\cCAMTypes.cs:line 187
+   at RTC_Vision_Lite.Classes.ProjectData.OpenProject_GetCAMs(cProjectTypes project, Boolean widthoutTool) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\DataAndFiles\cData.ProjectData.cs:line 605
+2026-06-05 11:50:15.3839 
+» Message:	Could not load file or assembly 'Emgu.CV, Version=4.8.1.5350, Culture=neutral, PublicKeyToken=7281126722ab4438' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction..ctor(EActionTypes eActionType, EObjectTypes eObjectType, FrmHsmartWindow _frmHsmartWindow, cGroupActions myGroupActions)
+   at RTC_Vision_Lite.Classes.cGroupActions.CreateAction(EActionTypes eActionType, EObjectTypes eObjectType, Boolean onlyTool) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 37
+   at RTC_Vision_Lite.Classes.cGroupActions..ctor(FrmHsmartWindow _frmHsmartWindow, Boolean IsTemplate) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 420
+   at RTC_Vision_Lite.Classes.cCAMTypes..ctor() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\cCAMTypes.cs:line 187
+   at RTC_Vision_Lite.Classes.ProjectData.OpenProject_GetCAMs(cProjectTypes project, Boolean widthoutTool) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\DataAndFiles\cData.ProjectData.cs:line 605
+2026-06-05 11:50:15.6159 
+» Message:	Could not load file or assembly 'Emgu.CV, Version=4.8.1.5350, Culture=neutral, PublicKeyToken=7281126722ab4438' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction..ctor(EActionTypes eActionType, EObjectTypes eObjectType, FrmHsmartWindow _frmHsmartWindow, cGroupActions myGroupActions)
+   at RTC_Vision_Lite.Classes.cGroupActions.CreateAction(EActionTypes eActionType, EObjectTypes eObjectType, Boolean onlyTool) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 37
+   at RTC_Vision_Lite.Classes.cGroupActions..ctor(FrmHsmartWindow _frmHsmartWindow, Boolean IsTemplate) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 420
+   at RTC_Vision_Lite.Classes.cCAMTypes..ctor() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\cCAMTypes.cs:line 187
+   at RTC_Vision_Lite.Classes.ProjectData.OpenProject_GetCAMs(cProjectTypes project, Boolean widthoutTool) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\DataAndFiles\cData.ProjectData.cs:line 605
+2026-06-05 11:50:16.2878 
+» Message:	Could not load file or assembly 'Emgu.CV, Version=4.8.1.5350, Culture=neutral, PublicKeyToken=7281126722ab4438' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction..ctor(EActionTypes eActionType, EObjectTypes eObjectType, FrmHsmartWindow _frmHsmartWindow, cGroupActions myGroupActions)
+   at RTC_Vision_Lite.Classes.cGroupActions.CreateAction(EActionTypes eActionType, EObjectTypes eObjectType, Boolean onlyTool) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 37
+   at RTC_Vision_Lite.Classes.cGroupActions..ctor(FrmHsmartWindow _frmHsmartWindow, Boolean IsTemplate) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 420
+   at RTC_Vision_Lite.Classes.cCAMTypes..ctor() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\cCAMTypes.cs:line 187
+   at RTC_Vision_Lite.Classes.ProjectData.OpenProject_GetCAMs(cProjectTypes project, Boolean widthoutTool) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\DataAndFiles\cData.ProjectData.cs:line 605
+2026-06-05 11:50:16.5080 
+» Message:	Could not load file or assembly 'Emgu.CV, Version=4.8.1.5350, Culture=neutral, PublicKeyToken=7281126722ab4438' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction..ctor(EActionTypes eActionType, EObjectTypes eObjectType, FrmHsmartWindow _frmHsmartWindow, cGroupActions myGroupActions)
+   at RTC_Vision_Lite.Classes.cGroupActions.CreateAction(EActionTypes eActionType, EObjectTypes eObjectType, Boolean onlyTool) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 37
+   at RTC_Vision_Lite.Classes.cGroupActions..ctor(FrmHsmartWindow _frmHsmartWindow, Boolean IsTemplate) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 420
+   at RTC_Vision_Lite.Classes.cCAMTypes..ctor() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\cCAMTypes.cs:line 187
+   at RTC_Vision_Lite.Classes.ProjectData.OpenProject_GetCAMs(cProjectTypes project, Boolean widthoutTool) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\DataAndFiles\cData.ProjectData.cs:line 605
+2026-06-05 11:50:16.7280 
+» Message:	Could not load file or assembly 'Emgu.CV, Version=4.8.1.5350, Culture=neutral, PublicKeyToken=7281126722ab4438' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction..ctor(EActionTypes eActionType, EObjectTypes eObjectType, FrmHsmartWindow _frmHsmartWindow, cGroupActions myGroupActions)
+   at RTC_Vision_Lite.Classes.cGroupActions.CreateAction(EActionTypes eActionType, EObjectTypes eObjectType, Boolean onlyTool) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 37
+   at RTC_Vision_Lite.Classes.cGroupActions..ctor(FrmHsmartWindow _frmHsmartWindow, Boolean IsTemplate) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 420
+   at RTC_Vision_Lite.Classes.cCAMTypes..ctor() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\cCAMTypes.cs:line 187
+   at RTC_Vision_Lite.Classes.ProjectData.OpenProject_GetCAMs(cProjectTypes project, Boolean widthoutTool) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\DataAndFiles\cData.ProjectData.cs:line 605
+2026-06-05 11:50:16.9300 
+» Message:	Could not load file or assembly 'Emgu.CV, Version=4.8.1.5350, Culture=neutral, PublicKeyToken=7281126722ab4438' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction..ctor(EActionTypes eActionType, EObjectTypes eObjectType, FrmHsmartWindow _frmHsmartWindow, cGroupActions myGroupActions)
+   at RTC_Vision_Lite.Classes.cGroupActions.CreateAction(EActionTypes eActionType, EObjectTypes eObjectType, Boolean onlyTool) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 37
+   at RTC_Vision_Lite.Classes.cGroupActions..ctor(FrmHsmartWindow _frmHsmartWindow, Boolean IsTemplate) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 420
+   at RTC_Vision_Lite.Classes.cCAMTypes..ctor() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\cCAMTypes.cs:line 187
+   at RTC_Vision_Lite.Classes.ProjectData.OpenProject_GetCAMs(cProjectTypes project, Boolean widthoutTool) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\DataAndFiles\cData.ProjectData.cs:line 605
+2026-06-05 11:50:17.2700 
+» Message:	Could not load file or assembly 'Emgu.CV, Version=4.8.1.5350, Culture=neutral, PublicKeyToken=7281126722ab4438' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction..ctor(EActionTypes eActionType, EObjectTypes eObjectType, FrmHsmartWindow _frmHsmartWindow, cGroupActions myGroupActions)
+   at RTC_Vision_Lite.Classes.cGroupActions.CreateAction(EActionTypes eActionType, EObjectTypes eObjectType, Boolean onlyTool) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 37
+   at RTC_Vision_Lite.Classes.cGroupActions..ctor(FrmHsmartWindow _frmHsmartWindow, Boolean IsTemplate) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 420
+   at RTC_Vision_Lite.Classes.cCAMTypes..ctor() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\cCAMTypes.cs:line 187
+   at RTC_Vision_Lite.Classes.ProjectData.OpenProject_GetCAMs(cProjectTypes project, Boolean widthoutTool) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\DataAndFiles\cData.ProjectData.cs:line 605
+2026-06-05 11:50:17.4787 
+» Message:	Could not load file or assembly 'Emgu.CV, Version=4.8.1.5350, Culture=neutral, PublicKeyToken=7281126722ab4438' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction..ctor(EActionTypes eActionType, EObjectTypes eObjectType, FrmHsmartWindow _frmHsmartWindow, cGroupActions myGroupActions)
+   at RTC_Vision_Lite.Classes.cGroupActions.CreateAction(EActionTypes eActionType, EObjectTypes eObjectType, Boolean onlyTool) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 37
+   at RTC_Vision_Lite.Classes.cGroupActions..ctor(FrmHsmartWindow _frmHsmartWindow, Boolean IsTemplate) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 420
+   at RTC_Vision_Lite.Classes.cCAMTypes..ctor() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\cCAMTypes.cs:line 187
+   at RTC_Vision_Lite.Classes.ProjectData.OpenProject_GetCAMs(cProjectTypes project, Boolean widthoutTool) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\DataAndFiles\cData.ProjectData.cs:line 605
+2026-06-05 13:45:28.4474 
+» Message:	Object is currently in use elsewhere.
+» Stack Trace:	   at System.Drawing.Image.Clone()
+   at RTC_Vision_Lite.Classes.cAction.BackupImage(Image image) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 3676
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_BackupImage() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 127
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_CleanData() in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 23
+2026-06-05 14:59:42.4032 
+» Message:	StartIndex cannot be less than zero.
+Parameter name: startIndex
+» Stack Trace:	   at System.String.Substring(Int32 startIndex, Int32 length)
+   at RTC_Vision_Lite.PublicFunctions.GlobFuncs.GetValuesFromValueView(String _sValue) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Global\GlobFuncs.cs:line 4086
+   at RTC_Vision_Lite.UserControls.ucBaseActionDetail.tlvAction_CellEditFinishing(Object sender, CellEditEventArgs e) in E:\01.RTCVision Lite\RTC Vision Lite\3. UserControls\Tools\ucBaseActionDetail.cs:line 7682
+2026-06-05 15:00:04.1745 
+» Message:	StartIndex cannot be less than zero.
+Parameter name: startIndex
+» Stack Trace:	   at System.String.Substring(Int32 startIndex, Int32 length)
+   at RTC_Vision_Lite.PublicFunctions.GlobFuncs.GetValuesFromValueView(String _sValue) in E:\01.RTCVision Lite\RTC Vision Lite\1. Classes\Global\GlobFuncs.cs:line 4086
+   at RTC_Vision_Lite.UserControls.ucBaseActionDetail.tlvAction_CellEditFinishing(Object sender, CellEditEventArgs e) in E:\01.RTCVision Lite\RTC Vision Lite\3. UserControls\Tools\ucBaseActionDetail.cs:line 7682

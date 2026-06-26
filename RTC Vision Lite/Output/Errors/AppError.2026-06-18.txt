@@ -1,3 +1,77 @@
+<<<<<<< HEAD
+2026-06-18 10:21:29.4791 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 3379
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1149
+2026-06-18 10:21:31.1456 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 3379
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1149
+2026-06-18 10:21:32.2006 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 3379
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1149
+2026-06-18 10:44:00.2276 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 3269
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1149
+2026-06-18 10:44:02.1634 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 3269
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1149
+2026-06-18 10:44:02.8569 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 3269
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1149
+2026-06-18 10:44:03.3820 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 3269
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1149
+2026-06-18 10:44:03.8192 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 3269
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1149
+2026-06-18 10:44:04.1328 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 3269
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1149
+2026-06-18 10:44:04.3018 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 3269
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1149
+2026-06-18 10:44:04.4919 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 3269
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1149
+2026-06-18 10:44:04.8221 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 3269
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1149
+2026-06-18 10:44:04.9864 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 3269
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1149
+2026-06-18 10:44:05.3271 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_Pattern() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 3269
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1149
+2026-06-18 10:44:31.0703 
+» Message:	Object reference not set to an instance of an object.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.Run_ColorBlob() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1917
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1109
+2026-06-18 10:45:14.7239 
+» Message:	Object is currently in use elsewhere.
+» Stack Trace:	   at System.Drawing.Image.Clone()
+   at RTC_Vision_Lite.Classes.cAction.BackupImage(Image image) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 3699
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_BackupImage() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 127
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_CleanData() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 23
+2026-06-18 10:45:18.9047 
+» Message:	Object is currently in use elsewhere.
+» Stack Trace:	   at System.Drawing.Image.Clone()
+   at RTC_Vision_Lite.Classes.cAction.BackupImage(Image image) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 3699
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_BackupImage() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 127
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_CleanData() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 23
+=======
 2026-06-18 09:53:28.0600 
 » Message:	Unable to cast object of type 'RTC_Vision_Lite.Classes.SString' to type 'RTC_Vision_Lite.Classes.SBool'.
 » Stack Trace:	   at RTC_Vision_Lite.Classes.cAction.RebuildValueWhenLink_PropToDataItem(PropertyInfo PropertyInfoSrc, SStringBuilderItem dataItemDes, cAction actionSrc) in C:\RTC\RTCVisonLite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.OtherRunFunctions.cs:line 402
@@ -6455,3 +6529,4 @@
    at System.Windows.Forms.Control.Refresh()
    at RTC_Vision_Lite.Classes.cAction.Run_LineFind() in C:\RTC\RTCVisonLite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 2439
    at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in C:\RTC\RTCVisonLite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1136
+>>>>>>> 166468bd298b4a5b1b887a9827b3741b88380629

@@ -713,7 +713,7 @@ namespace RTC_Vision_Lite.UserControls
             // chkRunOnlyROISelect
             // 
             this.chkRunOnlyROISelect.AutoSize = true;
-            this.chkRunOnlyROISelect.Location = new System.Drawing.Point(20, 368);
+            this.chkRunOnlyROISelect.Location = new System.Drawing.Point(26, 366);
             this.chkRunOnlyROISelect.Name = "chkRunOnlyROISelect";
             this.chkRunOnlyROISelect.Size = new System.Drawing.Size(118, 17);
             this.chkRunOnlyROISelect.TabIndex = 18;
@@ -723,20 +723,19 @@ namespace RTC_Vision_Lite.UserControls
             // RTCTrainPressed
             // 
             this.RTCTrainPressed.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.RTCTrainPressed.Location = new System.Drawing.Point(169, 364);
+            this.RTCTrainPressed.Location = new System.Drawing.Point(172, 362);
             this.RTCTrainPressed.Name = "RTCTrainPressed";
             this.RTCTrainPressed.Size = new System.Drawing.Size(75, 23);
             this.RTCTrainPressed.TabIndex = 19;
             this.RTCTrainPressed.Text = "Train";
             this.RTCTrainPressed.UseVisualStyleBackColor = true;
-            this.RTCTrainPressed.Click += new System.EventHandler(this.RTCTrainPressed_Click);
             // 
             // btnRunMultiROI
             // 
             this.btnRunMultiROI.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnRunMultiROI.Image = global::RTC_Vision_Lite.Properties.Resources.Play_16x16;
             this.btnRunMultiROI.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnRunMultiROI.Location = new System.Drawing.Point(259, 364);
+            this.btnRunMultiROI.Location = new System.Drawing.Point(269, 361);
             this.btnRunMultiROI.Margin = new System.Windows.Forms.Padding(2);
             this.btnRunMultiROI.Name = "btnRunMultiROI";
             this.btnRunMultiROI.Size = new System.Drawing.Size(86, 25);
@@ -744,7 +743,6 @@ namespace RTC_Vision_Lite.UserControls
             this.btnRunMultiROI.Text = "Run (F5)";
             this.btnRunMultiROI.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnRunMultiROI.UseVisualStyleBackColor = true;
-            this.btnRunMultiROI.Click += new System.EventHandler(this.btnRunMultiROI_Click);
             // 
             // ucImageLink
             // 

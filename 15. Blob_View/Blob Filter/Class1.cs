@@ -23,7 +23,13 @@ namespace Blob_View
 
         public List<VectorOfVectorOfPoint> InputBlobList
         {
-            set { _inputBlobList = value; }
+            set { 
+                _inputBlobList = value; 
+                if (_inputBlobList == null || _selectedBlobIndex >= _inputBlobList.Count)
+                {
+                    _selectedBlobIndex = -1;
+                }
+            }
         }
         public List<double> InputAreaList
         {
@@ -120,6 +126,7 @@ namespace Blob_View
 
         private bool _passed = false;
         private Bitmap _outputImageShow = null;
+        private int _selectedBlobIndex = -1;
         private double _areaActual = 0;
         private double _rowActual = 0;
         private double _columnActual = 0;
@@ -185,7 +192,8 @@ namespace Blob_View
                         //{
                         //    CvInvoke.FillPoly(imgShow, _inputBlobList[i], new MCvScalar(0, 255, 0));
                         //}
-                        CvInvoke.FillPoly(imgShow, _inputBlobList[i], new MCvScalar(0, 255, 0));
+                        MCvScalar color = (i == _selectedBlobIndex) ? new MCvScalar(255, 0, 255) : new MCvScalar(0, 255, 0);
+                        CvInvoke.FillPoly(imgShow, _inputBlobList[i], color);
                         #endregion
                     }
                     _outputImageShow = imgShow.ToBitmap();
@@ -251,10 +259,16 @@ namespace Blob_View
                     }
                     if (indexPosition != -1)
                     {
-                        _areaActual = _inputAreaList[indexPosition];
-                        _widthActual = _inputWidthList[indexPosition];
-                        _heightActual = _inputHeightList[indexPosition];
+                        _areaActual = (_inputAreaList != null && indexPosition < _inputAreaList.Count) ? _inputAreaList[indexPosition] : 0;
+                        _widthActual = (_inputWidthList != null && indexPosition < _inputWidthList.Count) ? _inputWidthList[indexPosition] : 0;
+                        _heightActual = (_inputHeightList != null && indexPosition < _inputHeightList.Count) ? _inputHeightList[indexPosition] : 0;
+                        _selectedBlobIndex = indexPosition;
                     }
+                    else
+                    {
+                        _selectedBlobIndex = -1;
+                    }
+                    Run();
                 }
 
             }

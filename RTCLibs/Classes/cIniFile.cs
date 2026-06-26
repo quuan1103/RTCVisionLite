@@ -1,4 +1,4 @@
-﻿using Microsoft.VisualBasic;
+using Microsoft.VisualBasic;
 using System;
 using System.Collections.Generic;
 using System.Globalization;
@@ -94,7 +94,8 @@ namespace RTCLibs
         public double GetDouble(string Section, string Key, double Default)
         {
             string sResult = GetPrivateProfileStringUnicode(Section, Key, strFilename);
-            if (!double.TryParse(sResult.Replace(".", CultureInfo.CurrentCulture.NumberFormat.NumberDecimalSeparator), out double result))
+            double result;
+            if (!double.TryParse(sResult.Replace(".", CultureInfo.CurrentCulture.NumberFormat.NumberDecimalSeparator), out result))
                 return Default;
             else
                 return result;

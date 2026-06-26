@@ -1,4 +1,4 @@
-﻿using Emgu.CV.Structure;
+using Emgu.CV.Structure;
 using Emgu.CV;
 using RTC_Vision_Lite.Forms;
 using RTC_Vision_Lite.Properties;
@@ -93,22 +93,33 @@ namespace RTC_Vision_Lite.Classes
 
         public Image SnapImage_Computer()
         {
-            Image outputImage = null;
+            if (SourceImageSettings.ComputerSettings.Images == null ||
+                SourceImageSettings.ComputerSettings.Images.Count == 0)
+                return null;
+
+            // Tăng index để chạy tuần tự qua list ảnh
             SourceImageSettings.ComputerSettings.CurrentImgIndex += 1;
 
             if (SourceImageSettings.ComputerSettings.CurrentImgIndex < 0 ||
-                SourceImageSettings.ComputerSettings.Images != null &&
                 SourceImageSettings.ComputerSettings.CurrentImgIndex >=
                 SourceImageSettings.ComputerSettings.Images.Count)
                 SourceImageSettings.ComputerSettings.CurrentImgIndex = 0;
 
-            if (SourceImageSettings.ComputerSettings.Images != null ||
-                SourceImageSettings.ComputerSettings.Images.Count > 0 &&
-                File.Exists(SourceImageSettings.ComputerSettings.Images[SourceImageSettings.ComputerSettings.CurrentImgIndex].FileName))
-                outputImage = Image.FromFile(SourceImageSettings.ComputerSettings.Images[SourceImageSettings.ComputerSettings.CurrentImgIndex].FileName);
-            Bitmap bmp = new Bitmap(outputImage);
-            return bmp;
+            string filePath = SourceImageSettings.ComputerSettings.Images[SourceImageSettings.ComputerSettings.CurrentImgIndex].FileName;
+            if (!File.Exists(filePath))
+                return null;
+
+            // Đọc qua byte[] + MemoryStream để tránh GDI+ cache giữ ảnh cũ.
+            // Phải copy sang Bitmap mới trước khi Dispose stream,
+            // vì GDI+ cần stream tồn tại suốt vòng đời Bitmap gốc.
+            byte[] bytes = File.ReadAllBytes(filePath);
+            using (var ms = new System.IO.MemoryStream(bytes))
+            using (var tmp = new Bitmap(ms))
+            {
+                return new Bitmap(tmp); // bản copy độc lập với stream
+            }
         }
+
         //private Image SnapImage_Camera_Hikrobot(bool isInMainAction = false)
         //{
         //    lock (LockTriggerSoftwareObject)

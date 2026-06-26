@@ -58,8 +58,13 @@ namespace RTC_Vision_Lite.UserControls
             // 
             this.lblCaption.AutoSize = true;
             this.lblCaption.Dock = System.Windows.Forms.DockStyle.Fill;
+<<<<<<< HEAD
+            this.lblCaption.Location = new System.Drawing.Point(3, 3);
+            this.lblCaption.Margin = new System.Windows.Forms.Padding(3);
+=======
             this.lblCaption.Location = new System.Drawing.Point(4, 4);
             this.lblCaption.Margin = new System.Windows.Forms.Padding(4);
+>>>>>>> 166468bd298b4a5b1b887a9827b3741b88380629
             this.lblCaption.Name = "lblCaption";
             this.lblCaption.Size = new System.Drawing.Size(125, 28);
             this.lblCaption.TabIndex = 0;

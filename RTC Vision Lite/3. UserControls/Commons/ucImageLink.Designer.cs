@@ -45,10 +45,8 @@ namespace RTC_Vision_Lite.UserControls
             this.groupBox2.Controls.Add(this.btnLink);
             this.groupBox2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox2.Location = new System.Drawing.Point(0, 0);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.groupBox2.Size = new System.Drawing.Size(714, 123);
+            this.groupBox2.Size = new System.Drawing.Size(536, 100);
             this.groupBox2.TabIndex = 2;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Image";
@@ -57,8 +55,7 @@ namespace RTC_Vision_Lite.UserControls
             // 
             this.lblRef.BackColor = System.Drawing.SystemColors.Control;
             this.lblRef.BaseStylesheet = null;
-            this.lblRef.Location = new System.Drawing.Point(173, 38);
-            this.lblRef.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.lblRef.Location = new System.Drawing.Point(130, 31);
             this.lblRef.Name = "lblRef";
             this.lblRef.Size = new System.Drawing.Size(74, 20);
             this.lblRef.TabIndex = 3;
@@ -67,20 +64,18 @@ namespace RTC_Vision_Lite.UserControls
             // btnRemoveLink
             // 
             this.btnRemoveLink.Image = global::RTC_Vision_Lite.Properties.Resources.Delete_16x16;
-            this.btnRemoveLink.Location = new System.Drawing.Point(117, 36);
-            this.btnRemoveLink.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnRemoveLink.Location = new System.Drawing.Point(88, 29);
             this.btnRemoveLink.Name = "btnRemoveLink";
-            this.btnRemoveLink.Size = new System.Drawing.Size(48, 32);
+            this.btnRemoveLink.Size = new System.Drawing.Size(36, 26);
             this.btnRemoveLink.TabIndex = 0;
             this.btnRemoveLink.UseVisualStyleBackColor = true;
             this.btnRemoveLink.Click += new System.EventHandler(this.btnRemoveLink_Click);
             // 
             // btnLink
             // 
-            this.btnLink.Location = new System.Drawing.Point(23, 36);
-            this.btnLink.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnLink.Location = new System.Drawing.Point(17, 29);
             this.btnLink.Name = "btnLink";
-            this.btnLink.Size = new System.Drawing.Size(87, 32);
+            this.btnLink.Size = new System.Drawing.Size(65, 26);
             this.btnLink.TabIndex = 0;
             this.btnLink.Text = "Link";
             this.btnLink.UseVisualStyleBackColor = true;
@@ -116,12 +111,11 @@ namespace RTC_Vision_Lite.UserControls
             // 
             // ucImageLink
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.groupBox2);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "ucImageLink";
-            this.Size = new System.Drawing.Size(714, 123);
+            this.Size = new System.Drawing.Size(536, 100);
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             this.ResumeLayout(false);

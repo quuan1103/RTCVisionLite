@@ -1,0 +1,450 @@
+2026-06-15 10:13:09.7069 
+» Message:	Unable to cast object of type 'System.Double' to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 986
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-06-15 10:13:11.7679 
+» Message:	Unable to cast object of type 'System.Double' to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 986
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-06-15 10:13:13.2683 
+» Message:	Unable to cast object of type 'System.Double' to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 986
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-06-15 10:13:15.7147 
+» Message:	Unable to cast object of type 'System.Double' to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 986
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-06-15 14:31:36.7380 
+» Message:	Unable to cast object of type 'System.Double' to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 986
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-06-15 14:31:38.5523 
+» Message:	Unable to cast object of type 'System.Double' to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 986
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-06-15 14:31:40.6575 
+» Message:	Unable to cast object of type 'System.Double' to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 986
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-06-15 14:32:01.4845 
+» Message:	Unable to cast object of type 'System.Double' to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 986
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-06-15 14:32:03.5933 
+» Message:	Unable to cast object of type 'System.Double' to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 986
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-06-15 14:32:05.3640 
+» Message:	Unable to cast object of type 'System.Double' to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 986
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-06-15 14:32:06.7996 
+» Message:	Unable to cast object of type 'System.Double' to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 986
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-06-15 14:32:08.1568 
+» Message:	Unable to cast object of type 'System.Double' to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 986
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-06-15 14:32:09.1739 
+» Message:	Unable to cast object of type 'System.Double' to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 986
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-06-15 14:32:10.0567 
+» Message:	Unable to cast object of type 'System.Double' to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 986
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-06-15 14:32:12.8995 
+» Message:	Unable to cast object of type 'System.Double' to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 986
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-06-15 14:32:14.5385 
+» Message:	Unable to cast object of type 'System.Double' to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 986
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-06-15 14:32:15.9910 
+» Message:	Unable to cast object of type 'System.Double' to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 986
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-06-15 14:32:17.0413 
+» Message:	Unable to cast object of type 'System.Double' to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 986
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-06-15 14:32:17.9982 
+» Message:	Unable to cast object of type 'System.Double' to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 986
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-06-15 14:32:18.7714 
+» Message:	Unable to cast object of type 'System.Double' to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 986
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-06-15 14:32:19.5129 
+» Message:	Unable to cast object of type 'System.Double' to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 986
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-06-15 14:32:21.8637 
+» Message:	Unable to cast object of type 'System.Double' to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 986
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-06-15 14:32:22.9039 
+» Message:	Unable to cast object of type 'System.Double' to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 986
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-06-15 14:32:24.3998 
+» Message:	Unable to cast object of type 'System.Double' to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 986
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-06-15 14:32:44.1140 
+» Message:	Unable to cast object of type 'System.Double' to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 986
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-06-15 14:32:45.6454 
+» Message:	Unable to cast object of type 'System.Double' to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 986
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-06-15 14:32:56.5655 
+» Message:	Unable to cast object of type 'System.Double' to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 986
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-06-15 14:32:58.1456 
+» Message:	Unable to cast object of type 'System.Double' to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 986
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-06-15 14:34:16.3496 
+» Message:	Unable to cast object of type 'System.Double' to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 986
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-06-15 14:34:18.6681 
+» Message:	Unable to cast object of type 'System.Double' to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 986
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-06-15 14:34:19.6187 
+» Message:	Unable to cast object of type 'System.Double' to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 986
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-06-15 14:34:20.8575 
+» Message:	Unable to cast object of type 'System.Double' to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 986
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-06-15 14:45:06.4562 
+» Message:	Unable to cast object of type 'System.Double' to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 986
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-06-15 14:45:08.4393 
+» Message:	Unable to cast object of type 'System.Double' to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 986
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-06-15 14:45:09.3727 
+» Message:	Unable to cast object of type 'System.Double' to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_Properties(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 986
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 830
+2026-06-15 15:10:50.0424 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_AffineImage() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunAffineImage.cs:line 33
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1169
+2026-06-15 15:10:53.4625 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_AffineImage() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunAffineImage.cs:line 33
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1169
+2026-06-15 15:10:55.9312 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_AffineImage() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunAffineImage.cs:line 33
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1169
+2026-06-15 15:10:59.6014 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_AffineImage() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunAffineImage.cs:line 33
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1169
+2026-06-15 15:11:04.9924 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_AffineImage() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunAffineImage.cs:line 33
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1169
+2026-06-15 15:11:05.6762 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_AffineImage() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunAffineImage.cs:line 33
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1169
+2026-06-15 15:11:06.0747 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_AffineImage() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunAffineImage.cs:line 33
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1169
+2026-06-15 15:11:06.5126 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_AffineImage() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunAffineImage.cs:line 33
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1169
+2026-06-15 15:11:06.9368 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_AffineImage() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunAffineImage.cs:line 33
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1169
+2026-06-15 15:11:07.4229 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_AffineImage() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunAffineImage.cs:line 33
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1169
+2026-06-15 15:11:07.8573 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_AffineImage() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunAffineImage.cs:line 33
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1169
+2026-06-15 15:11:08.2646 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_AffineImage() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunAffineImage.cs:line 33
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1169
+2026-06-15 15:11:08.7158 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_AffineImage() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunAffineImage.cs:line 33
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1169
+2026-06-15 15:11:21.7098 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_AffineImage() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunAffineImage.cs:line 33
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1169
+2026-06-15 15:11:23.1600 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_AffineImage() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunAffineImage.cs:line 33
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1169
+2026-06-15 15:11:24.8822 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_AffineImage() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunAffineImage.cs:line 33
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1169
+2026-06-15 15:11:25.8014 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_AffineImage() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunAffineImage.cs:line 33
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1169
+2026-06-15 15:11:26.0567 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_AffineImage() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunAffineImage.cs:line 33
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1169
+2026-06-15 15:11:26.3169 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_AffineImage() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunAffineImage.cs:line 33
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1169
+2026-06-15 15:11:26.5854 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_AffineImage() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunAffineImage.cs:line 33
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1169
+2026-06-15 15:11:26.8680 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_AffineImage() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunAffineImage.cs:line 33
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1169
+2026-06-15 15:11:27.1346 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_AffineImage() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunAffineImage.cs:line 33
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1169
+2026-06-15 15:11:28.3932 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_AffineImage() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunAffineImage.cs:line 33
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1169
+2026-06-15 15:16:01.4968 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_AffineImage() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunAffineImage.cs:line 33
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1169
+2026-06-15 15:18:56.1831 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_AffineImage() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunAffineImage.cs:line 33
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1169
+2026-06-15 15:23:29.5876 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_AffineImage() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunAffineImage.cs:line 33
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1169
+2026-06-15 15:23:38.5152 
+» Message:	Object of type 'RTC_Vision_Lite.Classes.SListDouble' cannot be converted to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at RTC_Vision_Lite.UserControls.ucBaseActionDetail.TextBox_LostFocusEvents(Object sender, EventArgs e) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\3. UserControls\Tools\ucBaseActionDetail.cs:line 3974
+2026-06-15 15:23:40.7545 
+» Message:	Object of type 'RTC_Vision_Lite.Classes.SListDouble' cannot be converted to type 'System.Collections.Generic.List`1[System.Double]'.
+» Stack Trace:	   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at RTC_Vision_Lite.UserControls.ucBaseActionDetail.TextBox_LostFocusEvents(Object sender, EventArgs e) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\3. UserControls\Tools\ucBaseActionDetail.cs:line 3974
+2026-06-15 15:23:41.5755 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_AffineImage() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunAffineImage.cs:line 33
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1169
+2026-06-15 15:23:44.1384 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_AffineImage() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunAffineImage.cs:line 33
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1169
+2026-06-15 15:23:44.8033 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_AffineImage() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunAffineImage.cs:line 33
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1169
+2026-06-15 15:23:45.3852 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_AffineImage() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunAffineImage.cs:line 33
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1169
+2026-06-15 15:23:52.8730 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_AffineImage() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunAffineImage.cs:line 33
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1169
+2026-06-15 15:23:54.5703 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_AffineImage() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunAffineImage.cs:line 33
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1169
+2026-06-15 15:23:55.2774 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_AffineImage() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunAffineImage.cs:line 33
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1169
+2026-06-15 15:23:56.0339 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_AffineImage() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunAffineImage.cs:line 33
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1169
+2026-06-15 15:28:54.7977 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_AffineImage() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunAffineImage.cs:line 33
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1169
+2026-06-15 15:28:57.8341 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_AffineImage() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunAffineImage.cs:line 33
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1169
+2026-06-15 15:29:00.2727 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_AffineImage() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunAffineImage.cs:line 33
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1169
+2026-06-15 15:29:01.6685 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_AffineImage() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunAffineImage.cs:line 33
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1169
+2026-06-15 15:29:03.0512 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_AffineImage() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunAffineImage.cs:line 33
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1169
+2026-06-15 15:42:16.7740 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_AffineImage() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunAffineImage.cs:line 33
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1169
+2026-06-15 19:18:18.2282 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_AffineImage() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunAffineImage.cs:line 23
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1169
+2026-06-15 19:45:54.7333 
+» Message:	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+» Stack Trace:	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RTC_Vision_Lite.Classes.cAction.Run_AffineImage() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunAffineImage.cs:line 23
+   at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1169

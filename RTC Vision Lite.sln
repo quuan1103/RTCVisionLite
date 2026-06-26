@@ -1,7 +1,12 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+<<<<<<< HEAD
+# Visual Studio Version 18
+VisualStudioVersion = 18.5.11801.241 oobstable
+=======
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36804.6 d17.14
+>>>>>>> 166468bd298b4a5b1b887a9827b3741b88380629
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RTCUpdate", "RTCUpdate\RTCUpdate.csproj", "{37DC49A4-6CCE-40E0-AF37-43CC50E982B9}"
 EndProject
@@ -55,9 +60,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RTCBaslerSdk", "RTCBaslerSd
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeReader", "19. CodeReader\CodeReader\CodeReader.csproj", "{82AF12D1-3E71-4663-BE69-6B95FB55C7E9}"
 EndProject
+<<<<<<< HEAD
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AffineImage", "C:\Users\laidu\Downloads\Tạo dll\20. AffineImage\AffineImage\AffineImage.csproj", "{FA6DC7A9-7C59-4975-8737-5806AFE0DB92}"
+=======
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RTC Vision Lite", "RTC Vision Lite\RTC Vision Lite.csproj", "{747E4476-583E-433B-A81E-E8605A018089}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AffineImage", "20. AffineImage\AffineImage\AffineImage.csproj", "{FA6DC7A9-7C59-4975-8737-5806AFE0DB92}"
+>>>>>>> 166468bd298b4a5b1b887a9827b3741b88380629
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -381,6 +390,8 @@ Global
 		{82AF12D1-3E71-4663-BE69-6B95FB55C7E9}.Release|x64.Build.0 = Release|Any CPU
 		{82AF12D1-3E71-4663-BE69-6B95FB55C7E9}.Release|x86.ActiveCfg = Release|Any CPU
 		{82AF12D1-3E71-4663-BE69-6B95FB55C7E9}.Release|x86.Build.0 = Release|Any CPU
+<<<<<<< HEAD
+=======
 		{747E4476-583E-433B-A81E-E8605A018089}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{747E4476-583E-433B-A81E-E8605A018089}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{747E4476-583E-433B-A81E-E8605A018089}.Debug|x64.ActiveCfg = Debug|x64
@@ -393,6 +404,7 @@ Global
 		{747E4476-583E-433B-A81E-E8605A018089}.Release|x64.Build.0 = Release|x64
 		{747E4476-583E-433B-A81E-E8605A018089}.Release|x86.ActiveCfg = Release|Any CPU
 		{747E4476-583E-433B-A81E-E8605A018089}.Release|x86.Build.0 = Release|Any CPU
+>>>>>>> 166468bd298b4a5b1b887a9827b3741b88380629
 		{FA6DC7A9-7C59-4975-8737-5806AFE0DB92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{FA6DC7A9-7C59-4975-8737-5806AFE0DB92}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FA6DC7A9-7C59-4975-8737-5806AFE0DB92}.Debug|x64.ActiveCfg = Debug|Any CPU

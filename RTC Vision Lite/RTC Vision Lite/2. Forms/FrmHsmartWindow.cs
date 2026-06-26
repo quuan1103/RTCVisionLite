@@ -1,4 +1,4 @@
-﻿using GraphicsWindow;
+using GraphicsWindow;
 using RTC_Vision_Lite.Classes;
 using RTC_Vision_Lite.PublicFunctions;
 using RTC_Vision_Lite.UserControls;
@@ -112,7 +112,10 @@ namespace RTC_Vision_Lite.Forms
                     //    Action.Run
                 }
                 _Action = value;
-                //_Action.GetImageToInputImage();
+                if (_Action != null)
+                {
+                    _Action.GetImageToInputImage();
+                }
                 VisibleOrHideControlByContext();
                 ClearAllRoi();
                 //ReViewImage(true, true);
@@ -180,6 +183,11 @@ namespace RTC_Vision_Lite.Forms
             {
                 if (isClean)
                     SmartWindow.Controls.Clear();
+
+                if (Action != null)
+                {
+                    Action.GetImageToInputImage();
+                }
 
                 if (Action.ActionType == EActionTypes.MainAction && GlobVar.GroupActions.IsMasterMode)
                 {
@@ -936,6 +944,7 @@ namespace RTC_Vision_Lite.Forms
             AddShape(EDrawingtypes.Ellipse, EConnectTypes.None);
         }
         private bool _isGetPossition = true;
+        private Point _mouseDownPoint = Point.Empty;
         private void SmartWindow_MouseDown(object sender, MouseEventArgs e)
         {
             ROIS = GetROIS();
@@ -947,16 +956,7 @@ namespace RTC_Vision_Lite.Forms
                 _isGetPossition = false;
 
             }
-
-            //CurrentDrawingObject = SmartWindow.KeySelect;
-            //ListCurrentDataRoi = ListCurrentDataRoi;
-            //if (SmartWindow.MoveImage && e.Button == MouseButtons.Left)
-            //{
-            //ListDataRoi.Clear();  
-            //ListDataRoi = SmartWindow.ListDataRoiOutput;
-            //    //SmartWindow.DrawROI(ListDataRoi);
-            //}
-            
+            _mouseDownPoint = e.Location;
         }
 
         private void SmartWindow_MouseMove(object sender, MouseEventArgs e)
@@ -965,10 +965,27 @@ namespace RTC_Vision_Lite.Forms
             {
                 if (e.Button == MouseButtons.Left)
                 {
-                    _isGetPossition = true;
-                    if (Action.TabPassActive != null && !Action.TabPassActive.rtcValue)
+                    if (Math.Abs(e.Location.X - _mouseDownPoint.X) > 3 || Math.Abs(e.Location.Y - _mouseDownPoint.Y) > 3)
                     {
-                        SmartWindow.Image = Action.MyGroup.Actions[Action.MyGroup.IDMainAction].InputImage.rtcValue;
+                        _isGetPossition = true;
+                        if (Action.TabPassActive == null || !Action.TabPassActive.rtcValue)
+                        {
+                            if (_Image != null)
+                            {
+                                SmartWindow.Image = _Image;
+                            }
+                            else if (Action.InputImage != null && Action.InputImage.rtcValue != null)
+                            {
+                                SmartWindow.Image = Action.InputImage.rtcValue;
+                            }
+                            else if (Action.ActionType == EActionTypes.MainAction)
+                            {
+                                if (Action.MyGroup != null && Action.MyGroup.IDMainAction != Guid.Empty && Action.MyGroup.Actions.ContainsKey(Action.MyGroup.IDMainAction))
+                                {
+                                    SmartWindow.Image = Action.MyGroup.Actions[Action.MyGroup.IDMainAction].InputImage.rtcValue;
+                                }
+                            }
+                        }
                     }
                 }
                 PointF pointImage = SmartWindow.PointImage;
@@ -1207,7 +1224,8 @@ namespace RTC_Vision_Lite.Forms
                         Action.RowActual.rtcValue = new List<double> { Action._BlobTool.RowActual };
                         Action.Passed.rtcValue = Action._BlobTool.Passed;
                         Action.NumberOfBlobsFound.rtcValue = new List<double> { Action._BlobTool.NumberOfBlobsFound };
-                       
+                        
+                        SmartWindow.Image = Action._BlobTool.OutputImageShow;
                         if (Action.ViewInfo != null)
                             ((ucBaseActionDetail)Action.ViewInfo).ReviewAllPropertyValueToViewInfo();
                         break;
@@ -1227,6 +1245,7 @@ namespace RTC_Vision_Lite.Forms
                         Action.Passed.rtcValue = Action.BlobView.Passed;
                         //Action.NumberOfBlobsFound.rtcValue = new List<double> { Action.BlobView.NumberOfBlobsFound };
 
+                        SmartWindow.Image = Action.BlobView.OutputImageShow;
                         if (Action.ViewInfo != null)
                             ((ucBaseActionDetail)Action.ViewInfo).ReviewAllPropertyValueToViewInfo();
                         break;
@@ -1248,6 +1267,8 @@ namespace RTC_Vision_Lite.Forms
                         Action.RowActual.rtcValue = new List<double> { Action.BlobFilter.RowActual };
                         Action.Passed.rtcValue = Action.BlobFilter.Passed;
                         Action.NumberOfBlobsFound.rtcValue = new List<double> { Action.BlobFilter.NumberOfBlobsFound };
+                        
+                        SmartWindow.Image = Action.BlobFilter.OutputImageShow;
                         if (Action.ViewInfo != null)
                             ((ucBaseActionDetail)Action.ViewInfo).ReviewAllPropertyValueToViewInfo();
                         break;
@@ -1264,6 +1285,8 @@ namespace RTC_Vision_Lite.Forms
                         Action.RowActual.rtcValue = new List<double> { Action.ColorBlob.RowActual };
                         Action.Passed.rtcValue = Action.ColorBlob.Passed;
                         Action.NumberOfBlobsFound.rtcValue = new List<double> { Action.ColorBlob.NumberOfBlobsFound };
+                        
+                        SmartWindow.Image = Action.ColorBlob.OutputImageShow;
                         if (Action.ViewInfo != null)
                             ((ucBaseActionDetail)Action.ViewInfo).ReviewAllPropertyValueToViewInfo();
                         break;
@@ -1271,14 +1294,16 @@ namespace RTC_Vision_Lite.Forms
                 case EActionTypes.ColorBlobMultipleROI:
                     {
                         if (Action.ColorBlobMultiROIS == null) return;
-                        Action.BlobView.PositionMouse = SmartWindow.PointImage;
-                        Action.BlobView.ClickMouse();
-                        Action.AreaActual.rtcValue = new List<double> { Action.BlobView.AreaActual };
-                        Action.WidthActual.rtcValue = new List<double> { Action.BlobView.WidthActual };
-                        Action.HeightActual.rtcValue = new List<double> { Action.BlobView.HeightActual };
-                        Action.OuterRadiusActual.rtcValue = new List<double> { Action.BlobView.OuterRadiusActual };
-                        Action.Passed.rtcValue = Action.BlobView.Passed;
-                        //Action.NumberOfBlobsFound.rtcValue = new List<double> { Action.BlobView.NumberOfBlobsFound };
+                        Action.ColorBlobMultiROIS.PositionMouse = SmartWindow.PointImage;
+                        Action.ColorBlobMultiROIS.ClickMouse();
+                        Action.AreaActual.rtcValue = new List<double> { Action.ColorBlobMultiROIS.AreaActual };
+                        Action.WidthActual.rtcValue = new List<double> { Action.ColorBlobMultiROIS.WidthActual };
+                        Action.HeightActual.rtcValue = new List<double> { Action.ColorBlobMultiROIS.HeightActual };
+                        Action.OuterRadiusActual.rtcValue = new List<double> { Action.ColorBlobMultiROIS.OuterRadiusActual };
+                        Action.Passed.rtcValue = Action.ColorBlobMultiROIS.Passed;
+                        //Action.NumberOfBlobsFound.rtcValue = new List<double> { Action.ColorBlobMultiROIS.NumberOfBlobsFound };
+                        
+                        SmartWindow.Image = Action.ColorBlobMultiROIS.OutputImageShow;
                         if (Action.ViewInfo != null)
                             ((ucBaseActionDetail)Action.ViewInfo).ReviewAllPropertyValueToViewInfo();
                         break;
@@ -1346,7 +1371,19 @@ namespace RTC_Vision_Lite.Forms
                     SetRoiTrainFlagValue();
                     SetROIs();
                 }
-                
+
+                CalcRegions();
+                if (Action != null && Action.ViewInfo != null && Action.ViewInfo.GetType().BaseType?.Name == nameof(ucBaseActionDetail))
+                {
+                    if (Action.ShapeList != null && ((ucBaseActionDetail)Action.ViewInfo).btnROI.Font.Bold)
+                    {
+                        Action.UpdateShapeListOriginal();
+                    }
+                    else if (Action.FindShapeList != null && ((ucBaseActionDetail)Action.ViewInfo).btnPass.Font.Bold)
+                    {
+                        Action.UpdateFindShapeListOriginal();
+                    }
+                }
             }
             catch(Exception ex )
             {

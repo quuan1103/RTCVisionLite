@@ -1,11 +1,8 @@
-﻿using ActUtlType64Lib;
-using BrightIdeasSoftware;
-using CommonTools;
+using ActUtlType64Lib;
 using Emgu.CV;
 using Emgu.CV.Structure;
-using ImageMath;
-using RTC_Vision_Lite.Commons;
 using RTC_Vision_Lite.Forms;
+using RTC_Vision_Lite.PublicFunctions;
 using RTCConst;
 using RTCEnums;
 using SlmpCustom;
@@ -14,11 +11,7 @@ using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Drawing;
-using System.Linq;
 using System.Reflection;
-using System.Runtime.CompilerServices;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace RTC_Vision_Lite.Classes
@@ -89,13 +82,10 @@ namespace RTC_Vision_Lite.Classes
         public bool RunWhenROIButtonClick = true;
         /// <summary> True to deformable pattern roi train find </summary>
         public bool DeformablePattern_ROITrain_Find;
-
         public bool Blob_ROITrain_Roi;
         /// <summary> True to colỏ BLOB roi train roi </summary>
         public bool ColorBlob_ROITrain_ROI;
-
         public bool ColorBlob_ROITrain_Find;
-
         public bool LineFind_ROITrain_ROI;
         public bool PixelCount_ROITrain_ROI;
         public bool VariationModel_ROITrain_ROI;
@@ -103,9 +93,6 @@ namespace RTC_Vision_Lite.Classes
         public bool CorrelationPattern_ROITrain_Find;
         public bool CorrelationPattern_ROITrain_ROI;
         public bool AutoRun = true;
-
-
-
         public bool Brightness_ROITrain_ROI;
         public bool ImageSplit_ROITrain_ROI;
         public bool Calibrate_ROITrain_ROI;
@@ -134,21 +121,244 @@ namespace RTC_Vision_Lite.Classes
         public bool Pattern_ROITrain_Find;
         public void GetImageToInputImage()
         {
-            if (InputImage == null)
+            if (ActionType == EActionTypes.MainAction)
                 return;
-            InputImage.rtcValue = null;
-            if (InputImage.rtcIDRef == MyGroup.IDMainAction)
-                InputImage.rtcValue = MyGroup.Actions[MyGroup.IDMainAction].InputImage.rtcValue;
-            else if (InputImage.rtcIDRef != Guid.Empty)
+
+            // Self-heal/synchronize Bgr and Gray input image links if InputImage is linked
+            if (InputImage != null && InputImage.rtcIDRef != MyGroup.IDMainAction && InputImage.rtcIDRef != Guid.Empty)
             {
-                if (MyGroup.Actions.TryGetValue(InputImage.rtcIDRef, out cAction sourceAction))
+                if (InputBgrImage != null && (InputBgrImage.rtcIDRef == MyGroup.IDMainAction || InputBgrImage.rtcIDRef == Guid.Empty))
                 {
-                    RTCVariableType sourceImagePropInfo = (RTCVariableType)sourceAction.GetType().GetProperty(InputImage.rtcPropNameRef)?.GetValue(sourceAction, null);
-                    InputImage.rtcValue = (Image)sourceImagePropInfo?.GetType().GetProperty(cPropertyName.rtcValue)
-                        ?.GetValue(sourceImagePropInfo, null);
+                    InputBgrImage.rtcIDRef = InputImage.rtcIDRef;
+                    InputBgrImage.rtcPropNameRef = InputImage.rtcPropNameRef;
+                    InputBgrImage.rtcRef = InputImage.rtcRef;
+                }
+                if (InputGrayImage != null && (InputGrayImage.rtcIDRef == MyGroup.IDMainAction || InputGrayImage.rtcIDRef == Guid.Empty))
+                {
+                    InputGrayImage.rtcIDRef = InputImage.rtcIDRef;
+                    InputGrayImage.rtcPropNameRef = InputImage.rtcPropNameRef;
+                    InputGrayImage.rtcRef = InputImage.rtcRef;
                 }
             }
-            //InputImage.rtcActive = null;
+            if (InputImage2 != null && InputImage2.rtcIDRef != MyGroup.IDMainAction && InputImage2.rtcIDRef != Guid.Empty)
+            {
+                if (InputBgrImage2 != null && (InputBgrImage2.rtcIDRef == MyGroup.IDMainAction || InputBgrImage2.rtcIDRef == Guid.Empty))
+                {
+                    InputBgrImage2.rtcIDRef = InputImage2.rtcIDRef;
+                    InputBgrImage2.rtcPropNameRef = InputImage2.rtcPropNameRef;
+                    InputBgrImage2.rtcRef = InputImage2.rtcRef;
+                }
+                if (InputGrayImage2 != null && (InputGrayImage2.rtcIDRef == MyGroup.IDMainAction || InputGrayImage2.rtcIDRef == Guid.Empty))
+                {
+                    InputGrayImage2.rtcIDRef = InputImage2.rtcIDRef;
+                    InputGrayImage2.rtcPropNameRef = InputImage2.rtcPropNameRef;
+                    InputGrayImage2.rtcRef = InputImage2.rtcRef;
+                }
+            }
+
+            // Resolve InputImage
+            if (InputImage != null)
+            {
+                if (InputImage.rtcIDRef == MyGroup.IDMainAction)
+                {
+                    InputImage.rtcValue = MyGroup.Actions[MyGroup.IDMainAction].InputImage.rtcValue;
+                }
+                else if (InputImage.rtcIDRef != Guid.Empty)
+                {
+                    Image resolvedImage = null;
+                    if (MyGroup.Actions.TryGetValue(InputImage.rtcIDRef, out cAction sourceAction))
+                    {
+                        RTCVariableType sourceImagePropInfo = (RTCVariableType)sourceAction.GetType().GetProperty(InputImage.rtcPropNameRef)?.GetValue(sourceAction, null);
+                        if (sourceImagePropInfo != null)
+                        {
+                            object rawValue = sourceImagePropInfo.GetType().GetProperty(cPropertyName.rtcValue)?.GetValue(sourceImagePropInfo, null);
+                            if (rawValue is Image sysImg)
+                            {
+                                resolvedImage = sysImg;
+                            }
+                            else if (rawValue is Image<Bgr, byte> bgrImg)
+                            {
+                                resolvedImage = bgrImg.ToBitmap();
+                            }
+                            else if (rawValue is Image<Gray, byte> grayImg)
+                            {
+                                resolvedImage = grayImg.ToBitmap();
+                            }
+                        }
+                    }
+                    InputImage.rtcValue = resolvedImage;
+                }
+            }
+
+            // Resolve InputBgrImage
+            if (InputBgrImage != null)
+            {
+                if (InputBgrImage.rtcIDRef == MyGroup.IDMainAction)
+                {
+                    InputBgrImage.rtcValue = MyGroup.Actions[MyGroup.IDMainAction].InputBgrImage.rtcValue;
+                }
+                else if (InputBgrImage.rtcIDRef != Guid.Empty)
+                {
+                    Image<Bgr, byte> resolvedImage = null;
+                    if (MyGroup.Actions.TryGetValue(InputBgrImage.rtcIDRef, out cAction sourceAction))
+                    {
+                        RTCVariableType sourceImagePropInfo = (RTCVariableType)sourceAction.GetType().GetProperty(InputBgrImage.rtcPropNameRef)?.GetValue(sourceAction, null);
+                        if (sourceImagePropInfo != null)
+                        {
+                            object rawValue = sourceImagePropInfo.GetType().GetProperty(cPropertyName.rtcValue)?.GetValue(sourceImagePropInfo, null);
+                            if (rawValue is Image<Bgr, byte> bgrImg)
+                            {
+                                resolvedImage = bgrImg.Clone();
+                            }
+                            else if (rawValue is Image<Gray, byte> grayImg)
+                            {
+                                resolvedImage = grayImg.Convert<Bgr, byte>();
+                            }
+                            else if (rawValue is Image sysImg)
+                            {
+                                resolvedImage = GlobFuncs.BitmapToBgrImage(new Bitmap(sysImg));
+                            }
+                        }
+                    }
+                    InputBgrImage.rtcValue = resolvedImage;
+                }
+            }
+
+            // Resolve InputGrayImage
+            if (InputGrayImage != null)
+            {
+                if (InputGrayImage.rtcIDRef == MyGroup.IDMainAction)
+                {
+                    InputGrayImage.rtcValue = MyGroup.Actions[MyGroup.IDMainAction].InputGrayImage.rtcValue;
+                }
+                else if (InputGrayImage.rtcIDRef != Guid.Empty)
+                {
+                    Image<Gray, byte> resolvedImage = null;
+                    if (MyGroup.Actions.TryGetValue(InputGrayImage.rtcIDRef, out cAction sourceAction))
+                    {
+                        RTCVariableType sourceImagePropInfo = (RTCVariableType)sourceAction.GetType().GetProperty(InputGrayImage.rtcPropNameRef)?.GetValue(sourceAction, null);
+                        if (sourceImagePropInfo != null)
+                        {
+                            object rawValue = sourceImagePropInfo.GetType().GetProperty(cPropertyName.rtcValue)?.GetValue(sourceImagePropInfo, null);
+                            if (rawValue is Image<Gray, byte> grayImg)
+                            {
+                                resolvedImage = grayImg.Clone();
+                            }
+                            else if (rawValue is Image<Bgr, byte> bgrImg)
+                            {
+                                resolvedImage = bgrImg.Convert<Gray, byte>();
+                            }
+                            else if (rawValue is Image sysImg)
+                            {
+                                resolvedImage = GlobFuncs.BitmapToGrayImage(new Bitmap(sysImg));
+                            }
+                        }
+                    }
+                    InputGrayImage.rtcValue = resolvedImage;
+                }
+            }
+
+            // Resolve InputImage2
+            if (InputImage2 != null)
+            {
+                if (InputImage2.rtcIDRef == MyGroup.IDMainAction)
+                {
+                    InputImage2.rtcValue = MyGroup.Actions[MyGroup.IDMainAction].InputImage2.rtcValue;
+                }
+                else if (InputImage2.rtcIDRef != Guid.Empty)
+                {
+                    Image resolvedImage = null;
+                    if (MyGroup.Actions.TryGetValue(InputImage2.rtcIDRef, out cAction sourceAction))
+                    {
+                        RTCVariableType sourceImagePropInfo = (RTCVariableType)sourceAction.GetType().GetProperty(InputImage2.rtcPropNameRef)?.GetValue(sourceAction, null);
+                        if (sourceImagePropInfo != null)
+                        {
+                            object rawValue = sourceImagePropInfo.GetType().GetProperty(cPropertyName.rtcValue)?.GetValue(sourceImagePropInfo, null);
+                            if (rawValue is Image sysImg)
+                            {
+                                resolvedImage = sysImg;
+                            }
+                            else if (rawValue is Image<Bgr, byte> bgrImg)
+                            {
+                                resolvedImage = bgrImg.ToBitmap();
+                            }
+                            else if (rawValue is Image<Gray, byte> grayImg)
+                            {
+                                resolvedImage = grayImg.ToBitmap();
+                            }
+                        }
+                    }
+                    InputImage2.rtcValue = resolvedImage;
+                }
+            }
+
+            // Resolve InputBgrImage2
+            if (InputBgrImage2 != null)
+            {
+                if (InputBgrImage2.rtcIDRef == MyGroup.IDMainAction)
+                {
+                    InputBgrImage2.rtcValue = MyGroup.Actions[MyGroup.IDMainAction].InputBgrImage2.rtcValue;
+                }
+                else if (InputBgrImage2.rtcIDRef != Guid.Empty)
+                {
+                    Image<Bgr, byte> resolvedImage = null;
+                    if (MyGroup.Actions.TryGetValue(InputBgrImage2.rtcIDRef, out cAction sourceAction))
+                    {
+                        RTCVariableType sourceImagePropInfo = (RTCVariableType)sourceAction.GetType().GetProperty(InputBgrImage2.rtcPropNameRef)?.GetValue(sourceAction, null);
+                        if (sourceImagePropInfo != null)
+                        {
+                            object rawValue = sourceImagePropInfo.GetType().GetProperty(cPropertyName.rtcValue)?.GetValue(sourceImagePropInfo, null);
+                            if (rawValue is Image<Bgr, byte> bgrImg)
+                            {
+                                resolvedImage = bgrImg.Clone();
+                            }
+                            else if (rawValue is Image<Gray, byte> grayImg)
+                            {
+                                resolvedImage = grayImg.Convert<Bgr, byte>();
+                            }
+                            else if (rawValue is Image sysImg)
+                            {
+                                resolvedImage = GlobFuncs.BitmapToBgrImage(new Bitmap(sysImg));
+                            }
+                        }
+                    }
+                    InputBgrImage2.rtcValue = resolvedImage;
+                }
+            }
+
+            // Resolve InputGrayImage2
+            if (InputGrayImage2 != null)
+            {
+                if (InputGrayImage2.rtcIDRef == MyGroup.IDMainAction)
+                {
+                    InputGrayImage2.rtcValue = MyGroup.Actions[MyGroup.IDMainAction].InputGrayImage2.rtcValue;
+                }
+                else if (InputGrayImage2.rtcIDRef != Guid.Empty)
+                {
+                    Image<Gray, byte> resolvedImage = null;
+                    if (MyGroup.Actions.TryGetValue(InputGrayImage2.rtcIDRef, out cAction sourceAction))
+                    {
+                        RTCVariableType sourceImagePropInfo = (RTCVariableType)sourceAction.GetType().GetProperty(InputGrayImage2.rtcPropNameRef)?.GetValue(sourceAction, null);
+                        if (sourceImagePropInfo != null)
+                        {
+                            object rawValue = sourceImagePropInfo.GetType().GetProperty(cPropertyName.rtcValue)?.GetValue(sourceImagePropInfo, null);
+                            if (rawValue is Image<Gray, byte> grayImg)
+                            {
+                                resolvedImage = grayImg.Clone();
+                            }
+                            else if (rawValue is Image<Bgr, byte> bgrImg)
+                            {
+                                resolvedImage = bgrImg.Convert<Gray, byte>();
+                            }
+                            else if (rawValue is Image sysImg)
+                            {
+                                resolvedImage = GlobFuncs.BitmapToGrayImage(new Bitmap(sysImg));
+                            }
+                        }
+                    }
+                    InputGrayImage2.rtcValue = resolvedImage;
+                }
+            }
         }
         public cCameraSettings CameraSettings = null;
         internal List<PropertyInfo> PropIsImageInfos = null;
@@ -321,8 +531,21 @@ namespace RTC_Vision_Lite.Classes
         public SListDouble AngleRangePattern { get; set; }
 
         public SDouble AngleStepValue { get; set; }
-
+        public SString TrainSubsamplingMode { get; set; }
         public SString PossibleScaling { get; set; }
+        public SDouble TrainSubsamplingValue { get; set; }
+        public SString ContrastMode { get; set; }
+        public SListDouble ManualRange { get; set; }
+        public SString Polarity { get; set; }
+        public SString Placement { get; set; }
+        public SString FindSubsamplingMode { get; set; }
+        public SDouble FindSubsamplingValue { get; set; }
+        public SDouble ColumnMin  { get; set; }
+        public SDouble ColumnMax { get; set; }
+        public SDouble RowMin { get; set; }
+        public SDouble RowMax { get; set; }
+        public SDouble AngleMax { get; set; }
+        public SDouble AngleMin { get; set; }
         public SListDouble ScaleRangePattern { get; set; }
         public SString ScaleStepMode { get; set; }
         public SDouble ScaleStepValue { get; set; }
@@ -343,7 +566,7 @@ namespace RTC_Vision_Lite.Classes
         public SBool RevertAngle { get; set; }
 
 
-        public SString Polarity { get; set; }
+       
         public SString TrainOptimizationMode { get; set; }
         public SString FindSubsamplingLevelMode { get; set; }
         public SListDouble FindSubsamplingLevel { get; set; }
@@ -443,6 +666,11 @@ namespace RTC_Vision_Lite.Classes
         public SListDouble OffsetValue { get; set; }
         public SString ImageOperation { get; set; }
         public SImage InputImage { get; set; }
+        public SBool IsFilterColumn { get; set; }
+        public SBool IsFilterRow { get; set; }
+        public SBool IsFilterAngle { get; set; }
+        public SBool IsTrain { get; set; }
+        public SBool IsClearModel { get; set; }
         public SGrayImage InputGrayImage { get; set; }
         public SBgrImage InputBgrImage { get; set; }
         public SImage InputImage2 { get; set; }
@@ -760,6 +988,14 @@ namespace RTC_Vision_Lite.Classes
 
         public SString MorphologyType { get; set; }
         public SString MaskType { get; set; }
+        public SDouble MaskAngle { get; set; }
+        //update thêm 
+        public SBool IsMorphology { get; set; }
+        public SBool IsConnection { get; set; }
+        public SBool IsRegionMath { get; set; }
+        //public SListString RegionMath { get; set; }
+
+        //
         public SDouble MaskRadius { get; set; }
 
         public SString InputString { get; set; }

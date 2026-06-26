@@ -57,12 +57,15 @@ namespace RTC_Vision_Lite.UserControls
             this.LayoutCAM_Maximize.Controls.Add(this.LayoutCAM, 0, 1);
             this.LayoutCAM_Maximize.Dock = System.Windows.Forms.DockStyle.Fill;
             this.LayoutCAM_Maximize.Location = new System.Drawing.Point(0, 0);
+<<<<<<< HEAD
+=======
             this.LayoutCAM_Maximize.Margin = new System.Windows.Forms.Padding(4);
+>>>>>>> 166468bd298b4a5b1b887a9827b3741b88380629
             this.LayoutCAM_Maximize.Name = "LayoutCAM_Maximize";
             this.LayoutCAM_Maximize.RowCount = 2;
             this.LayoutCAM_Maximize.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.771987F));
             this.LayoutCAM_Maximize.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 90.22801F));
-            this.LayoutCAM_Maximize.Size = new System.Drawing.Size(688, 378);
+            this.LayoutCAM_Maximize.Size = new System.Drawing.Size(516, 307);
             this.LayoutCAM_Maximize.TabIndex = 0;
             // 
             // panel2
@@ -70,10 +73,14 @@ namespace RTC_Vision_Lite.UserControls
             this.panel2.BackColor = System.Drawing.Color.DimGray;
             this.panel2.Controls.Add(this.lblCAMName);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
+<<<<<<< HEAD
+            this.panel2.Location = new System.Drawing.Point(3, 3);
+=======
             this.panel2.Location = new System.Drawing.Point(4, 4);
             this.panel2.Margin = new System.Windows.Forms.Padding(4);
+>>>>>>> 166468bd298b4a5b1b887a9827b3741b88380629
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(127, 28);
+            this.panel2.Size = new System.Drawing.Size(95, 24);
             this.panel2.TabIndex = 1;
             // 
             // lblCAMName
@@ -83,10 +90,17 @@ namespace RTC_Vision_Lite.UserControls
             this.lblCAMName.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
             this.lblCAMName.ForeColor = System.Drawing.Color.Gainsboro;
             this.lblCAMName.Location = new System.Drawing.Point(0, 0);
+<<<<<<< HEAD
+            this.lblCAMName.Margin = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.lblCAMName.Name = "lblCAMName";
+            this.lblCAMName.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.lblCAMName.Size = new System.Drawing.Size(93, 25);
+=======
             this.lblCAMName.Margin = new System.Windows.Forms.Padding(4);
             this.lblCAMName.Name = "lblCAMName";
             this.lblCAMName.Padding = new System.Windows.Forms.Padding(4);
             this.lblCAMName.Size = new System.Drawing.Size(114, 31);
+>>>>>>> 166468bd298b4a5b1b887a9827b3741b88380629
             this.lblCAMName.TabIndex = 0;
             this.lblCAMName.Text = "CAMERA 01";
             // 
@@ -101,10 +115,14 @@ namespace RTC_Vision_Lite.UserControls
             this.panel1.Controls.Add(this.btnClose);
             this.panel1.Controls.Add(this.btnMaximize);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
+<<<<<<< HEAD
+            this.panel1.Location = new System.Drawing.Point(104, 3);
+=======
             this.panel1.Location = new System.Drawing.Point(139, 4);
             this.panel1.Margin = new System.Windows.Forms.Padding(4);
+>>>>>>> 166468bd298b4a5b1b887a9827b3741b88380629
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(545, 28);
+            this.panel1.Size = new System.Drawing.Size(409, 24);
             this.panel1.TabIndex = 0;
             // 
             // btnPassFail
@@ -113,10 +131,14 @@ namespace RTC_Vision_Lite.UserControls
             this.btnPassFail.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnPassFail.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPassFail.ForeColor = System.Drawing.Color.Transparent;
+<<<<<<< HEAD
+            this.btnPassFail.Location = new System.Drawing.Point(176, 0);
+=======
             this.btnPassFail.Location = new System.Drawing.Point(235, 0);
             this.btnPassFail.Margin = new System.Windows.Forms.Padding(4);
+>>>>>>> 166468bd298b4a5b1b887a9827b3741b88380629
             this.btnPassFail.Name = "btnPassFail";
-            this.btnPassFail.Size = new System.Drawing.Size(37, 28);
+            this.btnPassFail.Size = new System.Drawing.Size(28, 23);
             this.btnPassFail.TabIndex = 0;
             this.btnPassFail.Text = "P";
             this.btnPassFail.UseVisualStyleBackColor = false;
@@ -127,10 +149,14 @@ namespace RTC_Vision_Lite.UserControls
             this.btnPause.Cursor = System.Windows.Forms.Cursors.Default;
             this.btnPause.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnPause.Image = global::RTC_Vision_Lite.Properties.Resources.Pause_16x16;
+<<<<<<< HEAD
+            this.btnPause.Location = new System.Drawing.Point(210, 0);
+=======
             this.btnPause.Location = new System.Drawing.Point(280, 0);
             this.btnPause.Margin = new System.Windows.Forms.Padding(4);
+>>>>>>> 166468bd298b4a5b1b887a9827b3741b88380629
             this.btnPause.Name = "btnPause";
-            this.btnPause.Size = new System.Drawing.Size(37, 28);
+            this.btnPause.Size = new System.Drawing.Size(28, 23);
             this.btnPause.TabIndex = 1;
             this.btnPause.UseVisualStyleBackColor = false;
             // 
@@ -139,10 +165,14 @@ namespace RTC_Vision_Lite.UserControls
             this.btnRun.BackColor = System.Drawing.Color.Transparent;
             this.btnRun.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnRun.Image = global::RTC_Vision_Lite.Properties.Resources.Play_16x16;
+<<<<<<< HEAD
+            this.btnRun.Location = new System.Drawing.Point(244, 0);
+=======
             this.btnRun.Location = new System.Drawing.Point(325, 0);
             this.btnRun.Margin = new System.Windows.Forms.Padding(4);
+>>>>>>> 166468bd298b4a5b1b887a9827b3741b88380629
             this.btnRun.Name = "btnRun";
-            this.btnRun.Size = new System.Drawing.Size(37, 28);
+            this.btnRun.Size = new System.Drawing.Size(28, 23);
             this.btnRun.TabIndex = 1;
             this.btnRun.UseVisualStyleBackColor = false;
             // 
@@ -151,20 +181,28 @@ namespace RTC_Vision_Lite.UserControls
             this.btnSetting.BackColor = System.Drawing.Color.Transparent;
             this.btnSetting.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSetting.Image = global::RTC_Vision_Lite.Properties.Resources.ModelEditor_Settings;
+<<<<<<< HEAD
+            this.btnSetting.Location = new System.Drawing.Point(278, 0);
+=======
             this.btnSetting.Location = new System.Drawing.Point(371, 0);
             this.btnSetting.Margin = new System.Windows.Forms.Padding(4);
+>>>>>>> 166468bd298b4a5b1b887a9827b3741b88380629
             this.btnSetting.Name = "btnSetting";
-            this.btnSetting.Size = new System.Drawing.Size(37, 28);
+            this.btnSetting.Size = new System.Drawing.Size(28, 23);
             this.btnSetting.TabIndex = 1;
             this.btnSetting.UseVisualStyleBackColor = false;
             // 
             // btnMinimize
             // 
             this.btnMinimize.BackColor = System.Drawing.Color.Transparent;
+<<<<<<< HEAD
+            this.btnMinimize.Location = new System.Drawing.Point(312, 0);
+=======
             this.btnMinimize.Location = new System.Drawing.Point(416, 0);
             this.btnMinimize.Margin = new System.Windows.Forms.Padding(4);
+>>>>>>> 166468bd298b4a5b1b887a9827b3741b88380629
             this.btnMinimize.Name = "btnMinimize";
-            this.btnMinimize.Size = new System.Drawing.Size(37, 28);
+            this.btnMinimize.Size = new System.Drawing.Size(28, 23);
             this.btnMinimize.TabIndex = 1;
             this.btnMinimize.UseVisualStyleBackColor = false;
             this.btnMinimize.Click += new System.EventHandler(this.btnMinimize_Click);
@@ -174,20 +212,28 @@ namespace RTC_Vision_Lite.UserControls
             this.btnClose.BackColor = System.Drawing.Color.Transparent;
             this.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnClose.Image = global::RTC_Vision_Lite.Properties.Resources.Cancel_16x16;
+<<<<<<< HEAD
+            this.btnClose.Location = new System.Drawing.Point(381, 0);
+=======
             this.btnClose.Location = new System.Drawing.Point(508, 0);
             this.btnClose.Margin = new System.Windows.Forms.Padding(4);
+>>>>>>> 166468bd298b4a5b1b887a9827b3741b88380629
             this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(37, 28);
+            this.btnClose.Size = new System.Drawing.Size(28, 23);
             this.btnClose.TabIndex = 1;
             this.btnClose.UseVisualStyleBackColor = false;
             // 
             // btnMaximize
             // 
             this.btnMaximize.BackColor = System.Drawing.Color.Transparent;
+<<<<<<< HEAD
+            this.btnMaximize.Location = new System.Drawing.Point(346, 0);
+=======
             this.btnMaximize.Location = new System.Drawing.Point(461, 0);
             this.btnMaximize.Margin = new System.Windows.Forms.Padding(4);
+>>>>>>> 166468bd298b4a5b1b887a9827b3741b88380629
             this.btnMaximize.Name = "btnMaximize";
-            this.btnMaximize.Size = new System.Drawing.Size(37, 28);
+            this.btnMaximize.Size = new System.Drawing.Size(28, 23);
             this.btnMaximize.TabIndex = 1;
             this.btnMaximize.UseVisualStyleBackColor = false;
             this.btnMaximize.Click += new System.EventHandler(this.btnMaximize_Click);
@@ -197,24 +243,31 @@ namespace RTC_Vision_Lite.UserControls
             this.LayoutCAM.ColumnCount = 1;
             this.LayoutCAM_Maximize.SetColumnSpan(this.LayoutCAM, 2);
             this.LayoutCAM.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.LayoutCAM.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 27F));
+            this.LayoutCAM.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.LayoutCAM.Dock = System.Windows.Forms.DockStyle.Fill;
+<<<<<<< HEAD
+            this.LayoutCAM.Location = new System.Drawing.Point(3, 33);
+=======
             this.LayoutCAM.Location = new System.Drawing.Point(4, 40);
             this.LayoutCAM.Margin = new System.Windows.Forms.Padding(4);
+>>>>>>> 166468bd298b4a5b1b887a9827b3741b88380629
             this.LayoutCAM.Name = "LayoutCAM";
             this.LayoutCAM.RowCount = 1;
             this.LayoutCAM.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.LayoutCAM.Size = new System.Drawing.Size(680, 334);
+            this.LayoutCAM.Size = new System.Drawing.Size(510, 271);
             this.LayoutCAM.TabIndex = 2;
             // 
             // ucGroupCAMs
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.LayoutCAM_Maximize);
+<<<<<<< HEAD
+=======
             this.Margin = new System.Windows.Forms.Padding(4);
+>>>>>>> 166468bd298b4a5b1b887a9827b3741b88380629
             this.Name = "ucGroupCAMs";
-            this.Size = new System.Drawing.Size(688, 378);
+            this.Size = new System.Drawing.Size(516, 307);
             this.LayoutCAM_Maximize.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();

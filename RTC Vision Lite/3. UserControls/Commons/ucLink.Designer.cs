@@ -126,12 +126,21 @@ namespace RTC_Vision_Lite.UserControls
             // txtValue
             // 
             this.txtValue.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+<<<<<<< HEAD
+            this.txtValue.Location = new System.Drawing.Point(123, 10);
+            this.txtValue.Margin = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.txtValue.MaximumSize = new System.Drawing.Size(1000, 122);
+            this.txtValue.MinimumSize = new System.Drawing.Size(40, 36);
+            this.txtValue.Name = "txtValue";
+            this.txtValue.Size = new System.Drawing.Size(394, 36);
+=======
             this.txtValue.Location = new System.Drawing.Point(164, 14);
             this.txtValue.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.txtValue.MaximumSize = new System.Drawing.Size(1332, 122);
             this.txtValue.MinimumSize = new System.Drawing.Size(52, 36);
             this.txtValue.Name = "txtValue";
             this.txtValue.Size = new System.Drawing.Size(525, 36);
+>>>>>>> 166468bd298b4a5b1b887a9827b3741b88380629
             this.txtValue.TabIndex = 1;
             // 
             // ucLink

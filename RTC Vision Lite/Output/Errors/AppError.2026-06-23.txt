@@ -1,3 +1,253 @@
+<<<<<<< HEAD
+2026-06-23 11:42:52.1576 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.Object]' to type 'System.Collections.Generic.List`1[System.String]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_StringBuiler(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1287
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 826
+2026-06-23 11:42:53.4845 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.Object]' to type 'System.Collections.Generic.List`1[System.String]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_StringBuiler(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1287
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 826
+2026-06-23 13:52:58.7482 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.Object]' to type 'System.Collections.Generic.List`1[System.String]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_StringBuiler(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1287
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 826
+2026-06-23 13:52:58.8652 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.Object]' to type 'System.Collections.Generic.List`1[System.String]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_StringBuiler(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1287
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 826
+2026-06-23 13:52:59.0449 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.Object]' to type 'System.Collections.Generic.List`1[System.String]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_StringBuiler(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1287
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 826
+2026-06-23 13:52:59.1953 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.Object]' to type 'System.Collections.Generic.List`1[System.String]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_StringBuiler(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1287
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 826
+2026-06-23 13:52:59.3560 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.Object]' to type 'System.Collections.Generic.List`1[System.String]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_StringBuiler(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1287
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 826
+2026-06-23 13:53:01.9048 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.Object]' to type 'System.Collections.Generic.List`1[System.String]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_StringBuiler(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1287
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 826
+2026-06-23 13:53:02.0611 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.Object]' to type 'System.Collections.Generic.List`1[System.String]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_StringBuiler(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1287
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 826
+2026-06-23 13:53:02.2256 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.Object]' to type 'System.Collections.Generic.List`1[System.String]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_StringBuiler(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1287
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 826
+2026-06-23 13:53:02.4000 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.Object]' to type 'System.Collections.Generic.List`1[System.String]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_StringBuiler(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1287
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 826
+2026-06-23 13:53:02.5935 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.Object]' to type 'System.Collections.Generic.List`1[System.String]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_StringBuiler(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1287
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 826
+2026-06-23 14:27:40.0108 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.Object]' to type 'System.Collections.Generic.List`1[System.String]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_StringBuiler(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1287
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 826
+2026-06-23 14:27:41.0003 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.Object]' to type 'System.Collections.Generic.List`1[System.String]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_StringBuiler(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1287
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 826
+2026-06-23 14:27:41.5064 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.Object]' to type 'System.Collections.Generic.List`1[System.String]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_StringBuiler(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1287
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 826
+2026-06-23 14:27:41.7164 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.Object]' to type 'System.Collections.Generic.List`1[System.String]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_StringBuiler(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1287
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 826
+2026-06-23 14:27:41.8710 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.Object]' to type 'System.Collections.Generic.List`1[System.String]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_StringBuiler(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1287
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 826
+2026-06-23 14:27:42.0590 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.Object]' to type 'System.Collections.Generic.List`1[System.String]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_StringBuiler(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1287
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 826
+2026-06-23 14:27:42.6585 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.Object]' to type 'System.Collections.Generic.List`1[System.String]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_StringBuiler(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1287
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 826
+2026-06-23 14:27:42.8309 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.Object]' to type 'System.Collections.Generic.List`1[System.String]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_StringBuiler(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1287
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 826
+2026-06-23 14:27:43.0238 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.Object]' to type 'System.Collections.Generic.List`1[System.String]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_StringBuiler(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1287
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 826
+2026-06-23 14:27:43.2018 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.Object]' to type 'System.Collections.Generic.List`1[System.String]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_StringBuiler(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1287
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 826
+2026-06-23 14:27:43.3082 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.Object]' to type 'System.Collections.Generic.List`1[System.String]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_StringBuiler(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1287
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 826
+2026-06-23 14:27:43.5283 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.Object]' to type 'System.Collections.Generic.List`1[System.String]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_StringBuiler(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1287
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 826
+2026-06-23 14:27:43.6934 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.Object]' to type 'System.Collections.Generic.List`1[System.String]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_StringBuiler(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1287
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 826
+2026-06-23 14:27:44.9835 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.Object]' to type 'System.Collections.Generic.List`1[System.String]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_StringBuiler(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1287
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 826
+2026-06-23 14:27:45.2741 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.Object]' to type 'System.Collections.Generic.List`1[System.String]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_StringBuiler(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1287
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 826
+2026-06-23 14:27:45.8936 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.Object]' to type 'System.Collections.Generic.List`1[System.String]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_StringBuiler(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1287
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 826
+2026-06-23 14:27:48.4001 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.Object]' to type 'System.Collections.Generic.List`1[System.String]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_StringBuiler(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1287
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 826
+2026-06-23 14:27:48.9906 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.Object]' to type 'System.Collections.Generic.List`1[System.String]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_StringBuiler(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1287
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 826
+2026-06-23 14:27:49.1328 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.Object]' to type 'System.Collections.Generic.List`1[System.String]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_StringBuiler(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1287
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 826
+2026-06-23 14:27:49.3224 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.Object]' to type 'System.Collections.Generic.List`1[System.String]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_StringBuiler(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1287
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 826
+2026-06-23 14:27:49.4702 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.Object]' to type 'System.Collections.Generic.List`1[System.String]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_StringBuiler(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1287
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 826
+2026-06-23 14:27:49.6288 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.Object]' to type 'System.Collections.Generic.List`1[System.String]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_StringBuiler(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1287
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 826
+2026-06-23 14:27:49.7944 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.Object]' to type 'System.Collections.Generic.List`1[System.String]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_StringBuiler(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1287
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 826
+2026-06-23 14:27:49.9422 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.Object]' to type 'System.Collections.Generic.List`1[System.String]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_StringBuiler(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1287
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 826
+2026-06-23 14:27:50.1091 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.Object]' to type 'System.Collections.Generic.List`1[System.String]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_StringBuiler(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1287
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 826
+2026-06-23 14:27:50.2815 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.Object]' to type 'System.Collections.Generic.List`1[System.String]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_StringBuiler(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1287
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 826
+2026-06-23 14:27:51.0765 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.Object]' to type 'System.Collections.Generic.List`1[System.String]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_StringBuiler(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1287
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 826
+2026-06-23 14:27:51.2605 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.Object]' to type 'System.Collections.Generic.List`1[System.String]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_StringBuiler(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1287
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 826
+2026-06-23 14:27:51.3611 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.Object]' to type 'System.Collections.Generic.List`1[System.String]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_StringBuiler(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1287
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 826
+2026-06-23 14:27:51.5983 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.Object]' to type 'System.Collections.Generic.List`1[System.String]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_StringBuiler(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1287
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 826
+2026-06-23 14:27:52.2461 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.Object]' to type 'System.Collections.Generic.List`1[System.String]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_StringBuiler(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1287
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 826
+2026-06-23 14:27:52.3943 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.Object]' to type 'System.Collections.Generic.List`1[System.String]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_StringBuiler(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1287
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 826
+2026-06-23 14:27:52.5598 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.Object]' to type 'System.Collections.Generic.List`1[System.String]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_StringBuiler(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1287
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 826
+2026-06-23 14:27:52.7169 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.Object]' to type 'System.Collections.Generic.List`1[System.String]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_StringBuiler(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1287
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 826
+2026-06-23 14:27:52.8636 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.Object]' to type 'System.Collections.Generic.List`1[System.String]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_StringBuiler(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1287
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 826
+2026-06-23 14:27:53.0279 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.Object]' to type 'System.Collections.Generic.List`1[System.String]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_StringBuiler(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1287
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 826
+2026-06-23 14:27:53.1806 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.Object]' to type 'System.Collections.Generic.List`1[System.String]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_StringBuiler(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1287
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 826
+2026-06-23 14:27:53.3397 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.Object]' to type 'System.Collections.Generic.List`1[System.String]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_StringBuiler(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1287
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 826
+2026-06-23 14:27:54.4726 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.Object]' to type 'System.Collections.Generic.List`1[System.String]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_StringBuiler(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1287
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 826
+2026-06-23 14:27:54.6218 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.Object]' to type 'System.Collections.Generic.List`1[System.String]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_StringBuiler(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1287
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 826
+2026-06-23 14:27:54.8022 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.Object]' to type 'System.Collections.Generic.List`1[System.String]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_StringBuiler(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1287
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 826
+2026-06-23 14:27:54.9630 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.Object]' to type 'System.Collections.Generic.List`1[System.String]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_StringBuiler(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1287
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 826
+2026-06-23 14:27:55.1690 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.Object]' to type 'System.Collections.Generic.List`1[System.String]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_StringBuiler(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1287
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 826
+2026-06-23 14:27:55.3441 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.Object]' to type 'System.Collections.Generic.List`1[System.String]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_StringBuiler(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1287
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 826
+2026-06-23 14:27:55.4845 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.Object]' to type 'System.Collections.Generic.List`1[System.String]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_StringBuiler(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1287
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 826
+2026-06-23 14:27:55.6633 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.Object]' to type 'System.Collections.Generic.List`1[System.String]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_StringBuiler(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1287
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 826
+2026-06-23 14:27:55.8700 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.Object]' to type 'System.Collections.Generic.List`1[System.String]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_StringBuiler(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1287
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 826
+2026-06-23 14:27:56.0260 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.Object]' to type 'System.Collections.Generic.List`1[System.String]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_StringBuiler(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1287
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 826
+2026-06-23 14:27:56.2253 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.Object]' to type 'System.Collections.Generic.List`1[System.String]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_StringBuiler(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1287
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 826
+2026-06-23 14:27:56.3667 
+» Message:	Unable to cast object of type 'System.Collections.Generic.List`1[System.Object]' to type 'System.Collections.Generic.List`1[System.String]'.
+» Stack Trace:	   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef_StringBuiler(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 1287
+   at RTC_Vision_Lite.Classes.cGroupActions.GetValueToVariableIsRef(cAction action) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.cs:line 826
+=======
 2026-06-23 08:03:17.4206 
 » Message:	Could not load file or assembly 'zxing, Version=0.16.9.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60' or one of its dependencies. The system cannot find the file specified.
 » Stack Trace:	   at CodeReader.CodeReader.Run()
@@ -100,3 +350,4 @@ Object name: 'FrmMain'.
    at RTC_Vision_Lite.Classes.cAction.BackupImage(Image image) in C:\RTC\RTCVisonLite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 3697
    at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_BackupImage() in C:\RTC\RTCVisonLite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 130
    at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_CleanData() in C:\RTC\RTCVisonLite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 26
+>>>>>>> 166468bd298b4a5b1b887a9827b3741b88380629

@@ -1,4 +1,4 @@
-﻿using Emgu.CV.Structure;
+using Emgu.CV.Structure;
 using Emgu.CV;
 using System;
 using System.Collections.Generic;
@@ -246,27 +246,27 @@ namespace Blob_Filter
                     double perimeter = CvInvoke.ArcLength(region[0], true);
                     rect = CvInvoke.BoundingRectangle(region[0]);
                     double circularity = Math.Round((4 * Math.PI * area / (perimeter * perimeter)), 3);
-                    if (_enableAreaFilter && (_areaRange.Item1 >= area || area >= _areaRange.Item2))
+                    if (_enableAreaFilter && _areaRange != null && (area < _areaRange.Item1 || area > _areaRange.Item2))
                     {
                         flag = false;
                     }
-                    if (_enableRowFilter && (_rowRange.Item1 >= (int)rect.Y || (int)rect.Y >= _rowRange.Item2))
+                    if (_enableRowFilter && _rowRange != null && (rect.Y < _rowRange.Item1 || rect.Y > _rowRange.Item2))
                     {
                         flag = false;
                     }
-                    if (_enableColumnFilter && (_columnRange.Item1 >= (int)rect.X || (int)rect.X >= _columnRange.Item2))
+                    if (_enableColumnFilter && _columnRange != null && (rect.X < _columnRange.Item1 || rect.X > _columnRange.Item2))
                     {
                         flag = false;
                     }
-                    if (_enableWidthFilter && (_widthRange.Item1 >= rect.Width || rect.Width >= _widthRange.Item2))
+                    if (_enableWidthFilter && _widthRange != null && (rect.Width < _widthRange.Item1 || rect.Width > _widthRange.Item2))
                     {
                         flag = false;
                     }
-                    if (_enableHeightFilter && (_heightRange.Item1 >= rect.Height || rect.Height >= _heightRange.Item2))
+                    if (_enableHeightFilter && _heightRange != null && (rect.Height < _heightRange.Item1 || rect.Height > _heightRange.Item2))
                     {
                         flag = false;
                     }
-                    if (_enableCircularityFilter && (_circularityRange.Item1 >= circularity || circularity >= _circularityRange.Item2))
+                    if (_enableCircularityFilter && _circularityRange != null && (circularity < _circularityRange.Item1 || circularity > _circularityRange.Item2))
                     {
                         flag = false;
                     }

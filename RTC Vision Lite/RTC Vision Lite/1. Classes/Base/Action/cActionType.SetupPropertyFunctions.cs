@@ -1,4 +1,4 @@
-﻿using NLog.Filters;
+using NLog.Filters;
 using RTC_Vision_Lite.UserControls;
 using RTCConst;
 using RTCEnums;
@@ -4166,7 +4166,7 @@ namespace RTC_Vision_Lite.Classes
                                                EHTupleStyle.ValueList, EPropertyState.Input, EROILegend.None, false);
 
             OutputMasterOrigin = new SListDouble(CommonData.GetPropertyDescription(nameof(OutputMasterOrigin)),
-                                               EHTupleStyle.Origin, EPropertyState.Input, EROILegend.None, false);
+                                               EHTupleStyle.Origin, EPropertyState.Output, EROILegend.None, false);
 
             ToolMasterOrigin = new SListDouble(CommonData.GetPropertyDescription(nameof(ToolMasterOrigin)),
                                                EHTupleStyle.Origin, EPropertyState.Input, EROILegend.None, false);
@@ -4339,6 +4339,9 @@ namespace RTC_Vision_Lite.Classes
             FindShapeListOriginal.rtcValue = new List<object> { };
             Pattern_ROITrain_Find = true;
             RunWhenROIButtonClick = true;
+            ThresholdRange = new SListDouble(CommonData.GetPropertyDescription(nameof(ThresholdRange)),
+                EHTupleStyle.RangeMinMaxLimit, EPropertyState.Input, EROILegend.None, false);
+            ThresholdRange.rtcValue = new List<double> { 0, 25, 0, 255 }; // [begin, end, absMin, absMax]
         }
 
         public void SetupPropertyByBranchItem(bool isMultiBranch = false)

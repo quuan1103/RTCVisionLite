@@ -1,4 +1,4 @@
-﻿using Basler.Pylon;
+using Basler.Pylon;
 using BrightIdeasSoftware;
 using CommonTools;
 using Emgu.CV;
@@ -4415,14 +4415,9 @@ namespace RTC_Vision_Lite.PublicFunctions
         }
         public static Image<Gray, byte> BitmapToGrayImage(Bitmap bitmapImage)
         {
-
-            // Chuyển đổi Bitmap sang Image<Bgr, byte>
-            //Image<Gray, byte> outputImage = bitmapImage.ToImage<Gray, byte>();
-            //return outputImage;
-           
-                return bitmapImage.ToImage<Gray, byte>();
-            
-
+            // Chuyển qua BGR trước để EmguCV chuẩn hóa stride nội bộ,
+            // tránh stride misalignment gây chấm đen khi đọc trực tiếp từ Bitmap.
+            return bitmapImage.ToImage<Bgr, byte>().Convert<Gray, byte>();
         }
         public static Image<Bgr, byte> BitmapToBgrImage(Bitmap bitmapImage)
         {

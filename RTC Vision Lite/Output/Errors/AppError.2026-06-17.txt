@@ -1,3 +1,15 @@
+<<<<<<< HEAD
+2026-06-17 09:30:15.2751 
+» Message:	Value of '0' is not valid for 'Value'. 'Value' should be between 'Minimum' and 'Maximum'.
+Parameter name: Value
+» Stack Trace:	   at System.Windows.Forms.NumericUpDown.set_Value(Decimal value)
+   at RTC_Vision_Lite.PublicFunctions.GlobFuncs.HIK_SetFloatValueToNumberic(MyHikCamera hikCamera, String paramName, NumericUpDown edit) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Global\GlobFuncs.cs:line 2729
+2026-06-17 09:55:26.7066 
+» Message:	Value of '0' is not valid for 'Value'. 'Value' should be between 'Minimum' and 'Maximum'.
+Parameter name: Value
+» Stack Trace:	   at System.Windows.Forms.NumericUpDown.set_Value(Decimal value)
+   at RTC_Vision_Lite.PublicFunctions.GlobFuncs.HIK_SetFloatValueToNumberic(MyHikCamera hikCamera, String paramName, NumericUpDown edit) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Global\GlobFuncs.cs:line 2729
+=======
 2026-06-17 02:14:06.5665 
 » Message:	Object is currently in use elsewhere.
 » Stack Trace:	   at System.Drawing.Image.Clone()
@@ -62,3 +74,4 @@ Parameter name: PortName
 Parameter name: PortName
 » Stack Trace:	   at System.IO.Ports.SerialPort.set_PortName(String value)
    at RTC_Vision_Lite.Classes.cCOM.Connect() in C:\RTC\RTCVisonLite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Connect\cCOM.cs:line 140
+>>>>>>> 166468bd298b4a5b1b887a9827b3741b88380629
