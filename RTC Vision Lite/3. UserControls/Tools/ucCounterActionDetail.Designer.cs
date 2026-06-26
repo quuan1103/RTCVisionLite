@@ -53,7 +53,6 @@
             this.ROI.SuspendLayout();
             this.PassFail.SuspendLayout();
             this.ScrollableROI.SuspendLayout();
-            this.General.SuspendLayout();
             this.TabSetUp.SuspendLayout();
             this.Method.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -63,12 +62,72 @@
             // 
             this.ScrollableGeneral.Controls.Add(this.RTCName);
             this.ScrollableGeneral.Controls.Add(this.label1);
+            this.ScrollableGeneral.Location = new System.Drawing.Point(2, 2);
+            this.ScrollableGeneral.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            // 
+            // PageSetup
+            // 
+            this.PageSetup.Location = new System.Drawing.Point(4, 41);
+            this.PageSetup.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.PageSetup.Size = new System.Drawing.Size(884, 417);
+            // 
+            // ROI
+            // 
+            this.ROI.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ROI.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ROI.Size = new System.Drawing.Size(861, 409);
+            // 
+            // PassFail
+            // 
+            this.PassFail.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.PassFail.Size = new System.Drawing.Size(639, 322);
+            // 
+            // ScrollablePassFail
+            // 
+            this.ScrollablePassFail.Size = new System.Drawing.Size(639, 322);
             // 
             // ScrollableROI
             // 
             this.ScrollableROI.Controls.Add(this.groupBox1);
             this.ScrollableROI.Controls.Add(this.RTCPassed);
             this.ScrollableROI.Controls.Add(this.label2);
+            this.ScrollableROI.Location = new System.Drawing.Point(4, 4);
+            this.ScrollableROI.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ScrollableROI.Size = new System.Drawing.Size(853, 401);
+            // 
+            // panel1
+            // 
+            this.panel1.Location = new System.Drawing.Point(4, 4);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel1.Size = new System.Drawing.Size(884, 37);
+            // 
+            // TabSetUp
+            // 
+            this.TabSetUp.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TabSetUp.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            // 
+            // Method
+            // 
+            this.Method.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Method.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Method.Size = new System.Drawing.Size(639, 322);
+            // 
+            // Display
+            // 
+            this.Display.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Display.Size = new System.Drawing.Size(639, 322);
+            // 
+            // ScrollableMethod
+            // 
+            this.ScrollableMethod.Location = new System.Drawing.Point(4, 4);
+            this.ScrollableMethod.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ScrollableMethod.Size = new System.Drawing.Size(631, 314);
+            // 
+            // ScrollableEndPointAndType
+            // 
+            this.ScrollableEndPointAndType.Location = new System.Drawing.Point(2, 2);
+            this.ScrollableEndPointAndType.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ScrollableEndPointAndType.Size = new System.Drawing.Size(635, 318);
             // 
             // Selecticon
             // 
@@ -111,7 +170,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(17, 16);
+            this.label2.Location = new System.Drawing.Point(27, 6);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(57, 13);
             this.label2.TabIndex = 0;
@@ -121,7 +180,7 @@
             // 
             this.RTCPassed.AutoSize = true;
             this.RTCPassed.ForeColor = System.Drawing.Color.Green;
-            this.RTCPassed.Location = new System.Drawing.Point(82, 16);
+            this.RTCPassed.Location = new System.Drawing.Point(125, 6);
             this.RTCPassed.Name = "RTCPassed";
             this.RTCPassed.Size = new System.Drawing.Size(42, 13);
             this.RTCPassed.TabIndex = 0;
@@ -142,7 +201,7 @@
             this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.label3);
-            this.groupBox1.Location = new System.Drawing.Point(20, 36);
+            this.groupBox1.Location = new System.Drawing.Point(22, 32);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(489, 212);
             this.groupBox1.TabIndex = 1;
@@ -263,8 +322,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "ucCounterActionDetail";
-            this.PageActionSettingTabIndex = 1;
             this.PageActionSetting.ResumeLayout(false);
             this.ScrollableGeneral.ResumeLayout(false);
             this.ScrollableGeneral.PerformLayout();
@@ -273,7 +332,6 @@
             this.PassFail.ResumeLayout(false);
             this.ScrollableROI.ResumeLayout(false);
             this.ScrollableROI.PerformLayout();
-            this.General.ResumeLayout(false);
             this.TabSetUp.ResumeLayout(false);
             this.Method.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);

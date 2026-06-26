@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 2026-06-16 08:30:01.6459 
 » Message:	Index was out of range. Must be non-negative and less than the size of the collection.
 Parameter name: index
@@ -932,3 +933,19 @@ Parameter name: index
 Parameter name: Value
 » Stack Trace:	   at System.Windows.Forms.NumericUpDown.set_Value(Decimal value)
    at RTC_Vision_Lite.PublicFunctions.GlobFuncs.HIK_SetFloatValueToNumberic(MyHikCamera hikCamera, String paramName, NumericUpDown edit) in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Global\GlobFuncs.cs:line 2729
+=======
+2026-06-16 08:34:09.2365 
+» Message:	Object is currently in use elsewhere.
+» Stack Trace:	   at System.Drawing.Image.Clone()
+   at RTC_Vision_Lite.Classes.cAction.BackupImage(Image image) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 3680
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_BackupImage() in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 130
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_CleanData() in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 26
+2026-06-16 08:35:05.8641 
+» Message:	Cannot access a disposed object.
+Object name: 'FrmMain'.
+» Stack Trace:	   at System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   at System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   at RTC_Vision_Lite.Classes.ProjectFunctions.cProjectFunctions.UpdateCounterToForm() in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\ProjectFunctions\cProjectFunctions.cs:line 145
+   at RTC_Vision_Lite.Classes.cAction.Run_OkNgCounter(Boolean isTest) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.OkNgCounter.cs:line 50
+   at RTC_Vision_Lite.Classes.cAction.Run(Boolean setWaitForDebugConnection, Boolean isCheckCanRun, Boolean isGetRunningTime) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 812
+>>>>>>> 166468bd298b4a5b1b887a9827b3741b88380629

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 2026-06-12 16:16:58.4566 
 » Message:	Value of '0' is not valid for 'Value'. 'Value' should be between 'Minimum' and 'Maximum'.
 Parameter name: Value
@@ -333,3 +334,11 @@ Parameter name: index
    at System.Collections.Generic.List`1.get_Item(Int32 index)
    at RTC_Vision_Lite.Classes.cAction.Run_AffineImage() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.RunAffineImage.cs:line 23
    at RTC_Vision_Lite.Classes.cAction.RunToolDLL() in E:\M4nh\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 1169
+=======
+2026-06-12 15:26:52.4218 
+» Message:	Object is currently in use elsewhere.
+» Stack Trace:	   at System.Drawing.Image.Clone()
+   at RTC_Vision_Lite.Classes.cAction.BackupImage(Image image) in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\Action\cActionType.cs:line 3681
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_BackupImage() in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 130
+   at RTC_Vision_Lite.Classes.cGroupActions.ViewResult_CleanData() in D:\RTCVisionLite\01.RTCVision Lite\01.RTCVision Lite\RTC Vision Lite\1. Classes\Base\GroupActions\cGroupActions.ViewResult.cs:line 26
+>>>>>>> 166468bd298b4a5b1b887a9827b3741b88380629

@@ -142,7 +142,8 @@ namespace RTC_Vision_Lite.Classes
                              branchItem.Name.rtcValue == cStrings.Fail.ToUpper())
                         branchItem.Passed.rtcValue = true;
 
-                    ApplyIsCanRunToAllToolOfBranchItem(branchItem, Enable.rtcValue && branchItem.Passed.rtcValue);
+                  //  ApplyIsCanRunToAllToolOfBranchItem(branchItem, Enable.rtcValue && branchItem.Passed.rtcValue);
+                    ApplyIsCanRunToAllToolOfBranchItem(branchItem, branchItem.Enable.rtcValue && branchItem.Passed.rtcValue, true, true);
                 }
 
                 //Kiểm tra xem tool này có phải tool master hay ko

@@ -346,11 +346,11 @@ namespace RTC_Vision_Lite.Classes
             try
             {
                 SetDefaultValueToResult();
-                string _ExpressionRun = Expression;
+                string _ExpressionRun = Expression; 
                 foreach (SStringBuilderItem _Operand in Operands)
                 {
                     if (_Operand.ListDoubleValue.Count <= 0 && _Operand.ListStringValue == null)
-                    {
+                    {                     
                         IsCalculated = false;
                         RunSuccess = false;
                         return;

@@ -90,6 +90,14 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>bin\Debug\CommonTools.dll</HintPath>
     </Reference>
+ HEAD
+=======
+    <Reference Include="DevExpress.Data.Desktop.v24.2, Version=24.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Data.v24.2, Version=24.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Drawing.v24.2, Version=24.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Printing.v24.2.Core, Version=24.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v24.2, Version=24.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+>>>>>>> 166468bd298b4a5b1b887a9827b3741b88380629
     <Reference Include="Interop.ActUtlType64Lib">
       <HintPath>..\..\RTCVision Lite_Coding\Output\Interop.ActUtlType64Lib.dll</HintPath>
       <EmbedInteropTypes>True</EmbedInteropTypes>
@@ -1700,6 +1708,10 @@
       <Project>{b2b7e4db-f4f0-40f1-ba72-a08aa4da0a0b}</Project>
       <Name>Blob_Muilti_ROI</Name>
     </ProjectReference>
+    <ProjectReference Include="..\20. AffineImage\AffineImage\AffineImage.csproj">
+      <Project>{fa6dc7a9-7c59-4975-8737-5806afe0db92}</Project>
+      <Name>AffineImage</Name>
+    </ProjectReference>
     <ProjectReference Include="..\4. Blob_Color_Multi_ROI\Blob_Color_Multi_ROI\Blob_Color_Multi_ROI.csproj">
       <Project>{0fef6ee9-eae7-4c9c-b6e7-c181afe4deb5}</Project>
       <Name>Blob_Color_Multi_ROI</Name>
@@ -1768,10 +1780,13 @@
       <Project>{82AF12D1-3E71-4663-BE69-6B95FB55C7E9}</Project>
       <Name>CodeReader</Name>
     </ProjectReference>
+ HEAD
     <ProjectReference Include="C:\Users\laidu\Downloads\Tạo dll\20. AffineImage\AffineImage\AffineImage.csproj">
       <Project>{fa6dc7a9-7c59-4975-8737-5806afe0db92}</Project>
       <Name>AffineImage</Name>
     </ProjectReference>
+=======
+>>>>>>> 166468bd298b4a5b1b887a9827b3741b88380629
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Apply_16x16.png" />

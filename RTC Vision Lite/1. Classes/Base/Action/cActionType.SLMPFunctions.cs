@@ -162,7 +162,7 @@ namespace RTC_Vision_Lite.Classes
                                         Value.rtcValue.Add(MyMCProtocolTCP.ReadFloatBlock(address, ValueLength.rtcValue, out success).ToString());
                                         break;
                                     case cSLMPValueTypes.String:
-                                        Value.rtcValue.Append((MyMCProtocolTCP.ReadString(address, ValueLength.rtcValue, out success)));
+                                        Value.rtcValue.Add((MyMCProtocolTCP.ReadString(address, ValueLength.rtcValue, out success)));
                                         break;
                                 }
                                 //Thread.Sleep(50);

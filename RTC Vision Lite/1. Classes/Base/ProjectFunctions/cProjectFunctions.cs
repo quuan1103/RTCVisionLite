@@ -1,6 +1,7 @@
 ﻿using RTC_Vision_Lite.PublicFunctions;
 using RTCConst;
 using RTCEnums;
+using System.IO;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,6 +14,7 @@ namespace RTC_Vision_Lite.Classes.ProjectFunctions
 {
     public static partial class cProjectFunctions
     {
+
         #region RUN FUNCTIONS
 
         public static bool IsStillCamRunning(cProjectTypes project)
@@ -44,6 +46,7 @@ namespace RTC_Vision_Lite.Classes.ProjectFunctions
         }
         public static void Stop(cCAMTypes cam)
         {
+       
             cam.GroupActions.Setting_StopRun();
         }
 

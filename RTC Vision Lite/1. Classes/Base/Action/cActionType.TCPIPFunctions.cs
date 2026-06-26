@@ -114,17 +114,17 @@ namespace RTC_Vision_Lite.Classes
             if (GlobVar.MyListTCPIP != null)
                 MySocket =
                     GlobVar.MyListTCPIP.FirstOrDefault(x =>
-                        x.HostName == IPAddress.rtcValue && x.Port == PortNumber.rtcValue);
-
-            if (MySocket == null)
-            {
-                MySocket = new CSocketClient(IPAddress.rtcValue, PortNumber.rtcValue, false, null);
-                if (GlobVar.MyListTCPIP == null) GlobVar.MyListTCPIP = new List<CSocketClient>();
-                GlobVar.MyListTCPIP.Add(MySocket);
-            }
+                        x.HostName == IPAddress.rtcValue && x.Port == PortNumber.rtcValue && x.IsServer == IsServer.rtcValue);
 
             if (MySocket != null && MySocket.IsConnected)
+            {
+                MySocket.OnReceiveDataEvents -= OnReceiveDataEvents;
                 MySocket.Disconnect();
+
+                int index = GlobVar.MyListTCPIP.FindIndex(x => x.IsConnected == false);
+                if (index >= 0)
+                    GlobVar.MyListTCPIP.RemoveAt(index);
+            }
 
             stopwatch.Stop();
             ViewResultWhenAfterRun(stopwatch);
@@ -175,6 +175,11 @@ namespace RTC_Vision_Lite.Classes
                     else
                     {
                         MySocket.OnReceiveDataEvents -= OnReceiveDataEvents;
+
+                        int index = GlobVar.MyListTCPIP.FindIndex(x => x == MySocket || x.IsConnected == false);
+                        if (index >= 0)
+                            GlobVar.MyListTCPIP.RemoveAt(index);
+
                         if (string.IsNullOrEmpty(GlobFuncs.Ve2Str(ErrMessage.rtcValue)))
                             ErrMessage.rtcValue = new List<string>() { cMessageContent.BuildMessage(cMessageContent.War_TCPIPOfActionCanNotConnect,
                         new string[] { Name.rtcValue, MySocket.HostName, MySocket.Port.ToString() },
@@ -184,7 +189,15 @@ namespace RTC_Vision_Lite.Classes
                 return (MySocket != null && MySocket.IsConnected);
             }
             else
+            {
+                if (isRead)
+                {
+                    MySocket.OnReceiveDataEvents -= OnReceiveDataEvents;
+                    MySocket.OnReceiveDataEvents += OnReceiveDataEvents;
+                }
+
                 return true;
+            }
         }
         /// <summary>
         /// Hàm đọc tín hiệu TCP/IP
